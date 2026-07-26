@@ -1,0 +1,28 @@
+<div class="portfolio-site-header">
+  <a class="portfolio-brand" href="/" rel="home">
+    <span class="portfolio-brand-name">Tera Teng</span>
+    <span class="portfolio-brand-divider" aria-hidden="true"></span>
+    <span class="portfolio-brand-field">AI, Economics &amp; Technology</span>
+  </a>
+  <nav class="portfolio-nav" aria-label="Primary navigation">
+    <a href="/" data-nav-root="writing">Writing</a>
+    <a href="/categories/AI-与产业研究/" data-nav-root="ai">AI Research</a>
+    <a href="/categories/货币与经济学研究/" data-nav-root="economics">Economics</a>
+    <a href="/about/" data-nav-root="about">About</a>
+  </nav>
+</div>
+<script>
+  (() => {
+    const path = decodeURIComponent(window.location.pathname);
+    let section = "";
+    if (path === "/" || path.startsWith("/writing/")) section = "writing";
+    if (path.startsWith("/categories/AI-与产业研究/")) section = "ai";
+    if (path.startsWith("/categories/货币与经济学研究/")) section = "economics";
+    if (path.startsWith("/about/")) section = "about";
+    const current = document.querySelector(`[data-nav-root="${section}"]`);
+    if (current) {
+      current.classList.add("is-active");
+      current.setAttribute("aria-current", "page");
+    }
+  })();
+</script>
