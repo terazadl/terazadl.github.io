@@ -1,1 +1,19 @@
-{"name":"","short_name":"","icons":[{"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}
+{
+  "name": "Tera Teng — Japan, Money & AI Industry",
+  "short_name": "Tera Teng",
+  "icons": [
+    {
+      "src": "/images/tera-android-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/tera-android-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#1549d6",
+  "background_color": "#f5f1e8",
+  "display": "standalone"
+}
