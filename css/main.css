@@ -3169,6 +3169,43 @@ body:not(.portfolio-home-page):not(.portfolio-about-page) .post-body h3 {
   margin: 55px 0;
   width: 100%;
 }
+.portfolio-discussion {
+  background: #eee7da;
+  border: 1px solid rgba(23,23,20,0.2);
+  border-top: 2px solid var(--portfolio-blue);
+  margin-top: 70px;
+  padding: 30px 34px 24px;
+}
+.portfolio-discussion-header {
+  border-bottom: 1px solid rgba(23,23,20,0.16);
+  margin-bottom: 22px;
+  padding-bottom: 22px;
+}
+.portfolio-discussion-title {
+  color: var(--portfolio-ink);
+  font-family: "Newsreader", "Noto Serif SC", Georgia, serif;
+  font-size: 31px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin: 0 0 8px;
+}
+.portfolio-discussion-title > span[aria-hidden] {
+  color: var(--portfolio-blue);
+  font-weight: 400;
+  margin: 0 0.12em;
+}
+.portfolio-discussion-note {
+  color: var(--portfolio-muted);
+  font-family: "Inter", "Noto Sans SC", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.015em;
+  line-height: 1.65;
+  margin: 0;
+}
+.portfolio-discussion .comments {
+  margin: 0;
+}
 @media (max-width: 980px) {
   .portfolio-nav {
     gap: 23px;
@@ -3224,5 +3261,19 @@ body:not(.portfolio-home-page):not(.portfolio-about-page) .post-body h3 {
     margin-left: -8px;
     margin-right: -8px;
     padding: 19px 18px;
+  }
+  .portfolio-discussion {
+    margin-top: 50px;
+    padding: 24px 18px 18px;
+  }
+  .portfolio-discussion-header {
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+  }
+  .portfolio-discussion-title {
+    font-size: 26px;
+  }
+  .portfolio-discussion-note {
+    font-size: 11px;
   }
 }

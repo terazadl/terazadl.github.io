@@ -383,6 +383,47 @@
       meta.appendChild(tag);
     });
   })();
+
+  (() => {
+    const comments = document.querySelector(".comments.utterances-container");
+    if (!comments || comments.closest(".portfolio-discussion")) return;
+
+    const discussion = document.createElement("section");
+    discussion.className = "portfolio-discussion";
+    discussion.setAttribute("aria-labelledby", "portfolio-discussion-title");
+
+    const header = document.createElement("header");
+    header.className = "portfolio-discussion-header";
+
+    const title = document.createElement("h2");
+    title.id = "portfolio-discussion-title";
+    title.className = "portfolio-discussion-title";
+    title.append("Discussion ");
+
+    const divider = document.createElement("span");
+    divider.setAttribute("aria-hidden", "true");
+    divider.textContent = "/";
+    title.append(divider, " ");
+
+    const chineseTitle = document.createElement("span");
+    chineseTitle.lang = "zh";
+    chineseTitle.textContent = "讨论";
+    title.appendChild(chineseTitle);
+
+    const note = document.createElement("p");
+    note.className = "portfolio-discussion-note";
+    note.append("Thoughts, corrections, and counterarguments are welcome. ");
+
+    const chineseNote = document.createElement("span");
+    chineseNote.lang = "zh";
+    chineseNote.textContent = "使用 GitHub 登录后即可留言。";
+    note.appendChild(chineseNote);
+
+    header.append(title, note);
+    discussion.appendChild(header);
+    comments.parentNode.insertBefore(discussion, comments);
+    discussion.appendChild(comments);
+  })();
 </script>
 
 </body>
