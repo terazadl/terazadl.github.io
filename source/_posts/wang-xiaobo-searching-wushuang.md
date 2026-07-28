@@ -2,10 +2,24 @@
 title: 当所有人都在假装没见过刘无双——读王小波《寻找无双》
 date: '2026-02-28 14:33:00'
 updated: '2026-02-28 15:17:31'
+slug: wang-xiaobo-searching-wushuang
+alias:
+  - 2026/02/28/寻找无双导读/index.html
+description: A reading of Wang Xiaobo’s Searching for Wushuang about practiced forgetting, the need for a personal theme, and the way absurd comedy exposes collective self-deception.
+categories:
+  - Notes
 tags:
-- 中国现代小说
-- 王小波
+  - 中国现代小说
+  - 王小波
+lang: zh
+abstract_en: true
 ---
+
+<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+Wang Xiaobo’s Searching for Wushuang begins with a simple task: Wang Xianke enters Xuanyang Ward to find his missing cousin Wushuang. Everyone insists that no such person exists. Their denials come too quickly to be innocent, revealing forgetting not as a passive failure of memory but as a practiced social skill. This essay reads the novel as an argument about living with a “theme”—a commitment that cannot be reduced to a target, credential, or useful outcome. Wang Xianke continues searching even when the whole neighbourhood treats the search as foolish, and his persistence unsettles people who have survived by pretending not to see, know, or remember. Wushuang consequently becomes more than a missing woman: she stands for truth, curiosity, desire, and other valuable things a practical society learns to call unnecessary. Wang Xiaobo’s method is crucial to the effect. He places cruelty and coercion inside comic, colloquial, anachronistic speech, using absurdity to meet an already absurd reality. The novel’s image of a pig learning to regard its pen as happiness captures how selective memory can become a rational short-term survival strategy. The ending matters less than whether Wushuang is recovered. The enduring question is whether a person is still willing to search for the thing that gives life texture.
+</div>
 
 > *“假如人生活在一种不能抗拒的痛苦中，就会把这种痛苦看作幸福。假如你是一只猪，生活在暗无天日的猪圈里，就会把在吃猪食看作极大的幸福，因此忘掉早晚要挨一刀。所以猪的记性是被逼成这样子的，不能说是天生的不好。”*\
 > —— 王小波《寻找无双》

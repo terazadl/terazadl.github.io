@@ -4,13 +4,14 @@
 
 # Site
 title: Tera Teng
-subtitle: AI, Economics & Technology
-description: Independent research and writing on AI, economics, and technological change.
+subtitle: Japan, Money & AI Industry
+description: Independent research and writing on Japan, money, and the economics of AI.
 keywords:
   - AI
-  - economics
-  - technology
-  - industrial research
+  - Japan
+  - money
+  - industrial change
+  - banking
 author: Tera Teng
 language: en
 timezone: Asia/Tokyo
@@ -18,7 +19,7 @@ timezone: Asia/Tokyo
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://terazadl.github.io
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -71,6 +72,10 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  Japan: japan
+  Money & Markets: markets
+  AI & Industry: ai-industry
+  Notes: notes
 tag_map:
 
 # Metadata elements
@@ -101,6 +106,16 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: false
+  total_time: false
+  exclude_codeblock: true
+  awl: 3
+  wpm: 275
+  suffix: min read
 
 
 # Deployment

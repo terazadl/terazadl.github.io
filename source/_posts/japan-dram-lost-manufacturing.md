@@ -1,13 +1,25 @@
 ---
 title: "百分之九十八为什么输给百分之八十三：读《失去的制造业》"
 date: 2026-07-26 20:10:00
+slug: japan-dram-lost-manufacturing
+alias:
+  - 2026/07/26/百分之九十八为什么输给百分之八十三：读《失去的制造业》/index.html
+description: Why Japan’s technically superior DRAM producers lost to firms optimizing chip area, throughput, cost, and market fit—and what Rapidus must learn from that failure.
 categories:
-  - 货币与经济学研究
+  - Japan
 tags:
   - 日本制造业
   - 半导体
   - 产业政策
+lang: zh
+abstract_en: true
 ---
+
+<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+Japan’s DRAM producers once held roughly four-fifths of the world market and built chips reliable enough to last more than twenty years. Yet the capabilities that won the mainframe era became liabilities when personal computers demanded “good enough,” inexpensive memory delivered at scale. This essay reads Takashi Yunogami’s The Lost Manufacturing Industry as a study of how strong organizations fail when respected local metrics replace the business objective. In 2005, Elpida achieved a 98 percent yield against Samsung’s 83 percent, but Samsung used a much smaller die, obtained more chips per wafer, ran higher-throughput equipment, and earned an operating margin near 30 percent versus Elpida’s roughly 3 percent. Japanese engineers optimized perfection; competitors optimized the production system and the market. Weak market-research functions and difficult-to-standardize equipment compounded the gap. The book’s cultural explanation is too neat: trade agreements, yen appreciation, Korean industrial policy, capital cycles, and the shift to fabless design and foundry manufacturing also mattered. Its deeper lesson is still powerful: an organization is most vulnerable when it retains a celebrated capability that no longer matches the problem. Japan’s Rapidus project will therefore succeed not when it demonstrates a two-nanometre transistor, but when customers repeatedly order, yields and costs support delivery, and decision-makers can revise or stop the project when evidence changes.
+</div>
 
 > 日本制造后来为什么输了，高市早苗又能不能把它救回来
 >

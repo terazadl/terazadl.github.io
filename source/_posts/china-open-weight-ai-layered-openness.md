@@ -2,16 +2,27 @@
 title: "中国 AI 开源模式能持续吗？从旗舰开放到分层开源"
 date: 2026-07-27 00:14:30
 updated: 2026-07-27 00:14:30
-description: "从企业现金流、产业外部性与政策边界三个层次，分析中国开放权重模型为什么能够持续，以及为什么长期形态更可能是分层开放而非所有旗舰模型永久同步开放。"
+slug: china-open-weight-ai-layered-openness
+alias:
+  - 2026/07/27/中国 AI 开源模式能持续吗？从旗舰开放到分层开源/index.html
+description: China’s open-weight AI strategy is sustainable at the industry level, but the durable equilibrium is likely to be layered openness rather than permanent release of every frontier model.
 categories:
-  - AI 与产业研究
+  - AI & Industry
 tags:
   - AI
   - 开放权重
   - 中国科技
   - 商业模式
   - AI 政策
+lang: zh
+abstract_en: true
 ---
+
+<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+China’s open-weight AI strategy can remain sustainable at the industry level even when individual model developers struggle to capture profits. Releasing weights lowers adoption costs, expands developer ecosystems, stimulates demand for chips and cloud services, and increases the international reach of Chinese technical stacks. Those benefits, however, accrue to different actors than the laboratories paying frontier-model training and inference costs. This creates a structural gap between private returns and ecosystem returns. The most plausible equilibrium is therefore not permanent, simultaneous release of every frontier model, but layered openness: smaller and mature models remain broadly available, while the newest frontier systems become API-first, delayed-release, partner-limited, or subject to capability-based controls. DeepSeek V4, Qwen3.6 and Kimi K3 illustrate different points on this spectrum, from same-day weight release to product-level segmentation and infrastructure-constrained availability. Open weights also shift value capture toward cloud platforms, chips, enterprise distribution, proprietary data, and execution workflows. The key question is no longer whether China will remain “open” or turn “closed,” but which capabilities will be opened, when, under what license, who can operate them efficiently, and who captures the resulting value.
+</div>
 
 过去一年，中国模型公司把“开放”变成了一种竞争方式：它不只是技术社区的价值选择，也是一套同时作用于开发者分发、云算力需求、产业标准和国际影响力的策略。
 
@@ -20,10 +31,6 @@ tags:
 我的判断是：**中国 AI 的开放模式在产业层面可以持续，但长期形态更可能是“分层开放”，而不是所有公司永久、同步、无差别地开放最新旗舰模型。**
 
 <!-- more -->
-
-## English abstract
-
-China’s open-weight AI strategy can remain sustainable at the industry level even when individual model developers struggle to capture profits. Releasing weights lowers adoption costs, expands developer ecosystems, stimulates demand for chips and cloud services, and increases the international reach of Chinese technical stacks. Those benefits, however, accrue to different actors than the labs paying frontier-model training and inference costs. This creates a structural gap between private returns and ecosystem returns. The most plausible equilibrium is therefore not permanent, simultaneous release of every frontier model, but layered openness: smaller and mature models remain broadly available, while the newest frontier systems become API-first, delayed-release, partner-limited, or subject to capability-based controls. DeepSeek V4, Qwen3.6 and Kimi K3 already illustrate different points on this spectrum. The key question is no longer whether China will remain “open” or turn “closed,” but which capabilities will be opened, when, under what license, and who captures the resulting value.
 
 ## 先把“开源”说清楚
 

@@ -2,11 +2,23 @@
 title: 肉片凉油下锅还是热油下锅：小事里藏着大输赢
 date: '2026-01-31 19:44:00'
 updated: '2026-02-11 17:35:37'
+slug: liu-zhenyun-salty-joke
+alias:
+  - 2026/01/31/肉片凉油下锅还是热油下锅：小事里藏着大输赢/index.html
+description: A reading of Liu Zhenyun’s Salty Joke about loneliness, dignity, and how arguments over cooking or poetry become containers for the larger things people cannot say directly.
 categories:
-- 小说
+  - Notes
 tags:
-- 中国现代小说
+  - 中国现代小说
+lang: zh
+abstract_en: true
 ---
+
+<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+Liu Zhenyun’s fiction often begins with a trivial disturbance and follows it until an entire social world appears. His new novel Salty Joke centres on Du Taibai, a former Chinese teacher whose attachment to poetry contributes to the loss of his job and whose later work as a wedding host turns elevated language into a practical service. This essay reads the novel through Liu’s recurring idea of being able to “talk with” another person. Du cannot speak meaningfully with his former wife or children, but he can with Marilyn, a hairdresser who understands both his loneliness and the dignity he is trying to protect. When she leaves, familiar lines of poetry stop being quotation and become the only language large enough for absence. The novel’s sharpest conflicts are deliberately small. An old dispute about whether pork should enter cool or hot oil returns when Du is publicly humiliated. The cooking question is not about technique; it is a demand that one person acknowledge another’s words and status. Liu uses such minor arguments as containers for shame, old scores, and the power to make someone feel smaller. Du’s eventual restaurant near Mount Tai does not restore his former life. It gives his learning a modest, livable form and turns the novel’s salty joke into a place where he can breathe.
+</div>
 
 “小林家的一斤豆腐馊了”。二十多年前，第一次看到刘震云的书，便是《一地鸡毛》，便是这起手一句。
 

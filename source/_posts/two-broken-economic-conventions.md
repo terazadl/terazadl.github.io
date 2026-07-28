@@ -2,12 +2,24 @@
 title: 两条被挑战的经济学"常识"
 date: '2026-02-11 23:58:00'
 updated: '2026-02-12 20:44:29'
+slug: two-broken-economic-conventions
+alias:
+  - 2026/02/11/两条被挑战的经济学“常识”/index.html
+description: Two familiar economic relationships—tight money versus gold, and currency appreciation versus exports—look very different once regimes, invoicing, and supply chains are brought back into the analysis.
 categories:
-- 货币与经济学研究
+  - Money & Markets
 tags:
-- 经济学
-- 黄金
+  - 经济学
+  - 黄金
+lang: zh
+abstract_en: true
 ---
+
+<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+This essay revisits two textbook relationships that recent evidence has made less reliable. The first says that monetary tightening should weaken gold. Yet gold rose sharply after 2022 even as US interest rates remained high, suggesting that de-dollarization, geopolitical fragmentation, reserve demand, and concern about the usability of financial assets were being priced alongside real yields. Gold is therefore better understood not only as a non-yielding asset, but also as monetary insurance whose value cannot be explained by discounted cash flow alone. The second relationship says that an appreciating currency should weaken exports. In 2025, however, the renminbi strengthened against the US dollar while China recorded a historically large trade surplus. The apparent contradiction fades when the bilateral exchange rate is separated from effective exchange rates, and when dollar invoicing, margin compression, weak imports, supply-chain depth, and rerouted trade are considered. The argument is not that interest rates or exchange rates have stopped mattering. It is that their effects depend on the surrounding monetary regime, balance sheets, pricing conventions, and industrial structure. Economic “common sense” is often conditional knowledge presented as a universal rule.
+</div>
 
 2018年或2019年时，我也推荐过别人定投黄金。彼时的理由很“教科书”：黄金与美元宽松程度大体成反比——美元越宽松，黄金越受追捧。今天回头看，这个建议不能说错，但支撑它的那套推理链条，已经被现实反复挑战。
 

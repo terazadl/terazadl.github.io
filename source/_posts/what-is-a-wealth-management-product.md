@@ -2,11 +2,23 @@
 title: 你买的理财产品到底是什么
 date: '2026-01-18 22:00:00'
 updated: '2026-02-11 17:23:45'
+slug: what-is-a-wealth-management-product
+alias:
+  - 2026/01/18/你买的理财产品到底是什么/index.html
+description: A balance-sheet and cash-flow guide to Chinese bank wealth-management products, explaining the assets, rules, valuation methods, liquidity constraints, and feedback loops behind their returns.
 categories:
-- 生活向
+  - Money & Markets
 tags:
-- 银行
+  - 银行
+lang: zh
+abstract_en: true
 ---
+
+<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+Chinese bank wealth-management products are often treated as higher-yielding deposits, but economically they are something else: a share in a portfolio of assets governed by a detailed set of liquidity, valuation, and redemption rules. This essay follows the money from subscription to investment and eventual redemption. It explains how bonds, interbank certificates of deposit, money-market instruments, and occasional risk assets generate returns; why rising yields reduce bond prices; and how market-value versus amortized-cost accounting changes the way volatility appears to investors. Two Bank of China product documents are used to show how apparently similar products can differ in maturity, redemption timing, fees, valuation, and the right to suspend withdrawals. The 2022 drawdown is presented as a feedback loop in which rising yields weakened net asset values, redemptions forced bond sales, and those sales intensified further losses. Lower interest rates can support current valuations while simultaneously reducing future reinvestment income. The practical lesson is that “fixed income” does not mean principal protection. Before buying, investors should be able to identify the underlying assets, duration, valuation method, redemption rules, fees, and historical drawdown—and should treat a smooth return line as presentation, not proof that risk is absent.
+</div>
 
 近三年，随着利率进一步下行，理财产品的收益率也跟着一层层往下走。很多人会出现一种很微妙的心态：
 
