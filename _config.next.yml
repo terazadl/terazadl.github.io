@@ -26,7 +26,7 @@ custom_file_path:
   #postBodyStart: source/_data/post-body-start.njk
   #postBodyEnd: source/_data/post-body-end.njk
   footer: source/_data/footer.njk
-  #bodyEnd: source/_data/body-end.njk
+  bodyEnd: source/_data/body-end.njk
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
   style: source/_data/styles.styl
@@ -102,9 +102,10 @@ open_graph:
 # Value before `||` delimiter is the target link, value after `||` delimiter is the name of Font Awesome icon.
 # External url should start with http:// or https://
 menu:
-  Writing: / || fa fa-pen
-  AI Research: /categories/AI-与产业研究/ || fa fa-microchip
-  Economics: /categories/货币与经济学研究/ || fa fa-chart-line
+  Writing: /writing/ || fa fa-pen
+  Japan: /categories/japan/ || fa fa-torii-gate
+  Money & Markets: /categories/markets/ || fa fa-chart-line
+  AI & Industry: /categories/ai-industry/ || fa fa-microchip
   About: /about/ || fa fa-user
   #tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
@@ -158,7 +159,7 @@ avatar:
   rotated: false
 
 # Posts / Categories / Tags in sidebar.
-site_state: true
+site_state: false
 
 # Social Links
 # Usage: `Key: permalink || icon`
@@ -194,13 +195,13 @@ links:
 toc:
   enable: true
   # Automatically add list number to toc.
-  number: true
+  number: false
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: false
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
   expand_all: false
   # Maximum heading depth of generated toc.
-  max_depth: 6
+  max_depth: 3
 
 
 # ---------------------------------------------------------------
@@ -260,7 +261,7 @@ post_meta:
   item_text: true
   created_at: true
   updated_at:
-    enable: true
+    enable: false
     another_day: true
   categories: true
 
@@ -268,6 +269,7 @@ post_meta:
 # Dependencies: https://github.com/next-theme/hexo-word-counter
 symbols_count_time:
   separated_meta: true
+  item_text_post: true
   item_text_total: false
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post

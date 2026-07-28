@@ -1,0 +1,14 @@
+<script>
+  (() => {
+    const posts = document.querySelectorAll(".post-block");
+    posts.forEach(post => {
+      const meta = post.querySelector(".post-meta-container");
+      if (!meta || meta.querySelector(".portfolio-lang-tag")) return;
+      const tag = document.createElement("span");
+      tag.className = "portfolio-lang-tag";
+      tag.textContent = "ZH";
+      tag.setAttribute("aria-label", "Article language: Chinese");
+      meta.appendChild(tag);
+    });
+  })();
+</script>

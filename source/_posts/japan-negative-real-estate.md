@@ -1,13 +1,25 @@
 ---
 title: "卖掉一块地，为什么还要倒贴十一万日元：读《负动产时代》"
 date: 2026-07-26 20:20:00
+slug: japan-negative-real-estate
+alias:
+  - 2026/07/26/卖掉一块地，为什么还要倒贴十一万日元：读《负动产时代》/index.html
+description: "A reading of Japan’s negative-real-estate problem: when ownership carries more future cost than use value, property becomes an obligation that may require payment to escape."
 categories:
-  - 货币与经济学研究
+  - Japan
 tags:
   - 日本
   - 房地产
   - 人口减少
+lang: zh
+abstract_en: true
 ---
+
+<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+This essay uses The Age of Negative Real Estate, an Asahi Shimbun investigation, to examine what happens when property ownership stops functioning as wealth and becomes an obligation that cannot easily be abandoned. One owner sold land bought for ¥13 million for only ¥100,000 and, after fees, paid a net ¥110,000 to escape annual taxes and maintenance costs. Other resort apartments required owners to pay more than ¥1 million simply to transfer title. These cases show why zero is not necessarily the floor for real-estate prices: a buyer receives not only a building, but also decades of fees, repairs, taxes, collective-management risks, and uncertainty about the next buyer. The problem is institutional as well as financial. Aging condominiums distribute unpaid costs across remaining owners, while land fragmented among dozens of unregistered heirs can become unusable even when its market location is valuable. Japan has since introduced mandatory inheritance registration and a system for surrendering qualifying inherited land to the state, but exit cannot be costless without shifting private liabilities to taxpayers. The book should not be read as a forecast that all Japanese property will collapse. It explains regional divergence and asks a harder question relevant beyond Japan: who maintains, combines, demolishes, or ultimately pays for housing when population and demand retreat?
+</div>
 
 > 当所有权从财富变成一份无法辞职的责任
 >

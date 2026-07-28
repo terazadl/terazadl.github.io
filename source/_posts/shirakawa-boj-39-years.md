@@ -2,11 +2,23 @@
 title: 巧媳难为无米之炊-读白川方明《动荡三十年》
 date: '2026-02-06 23:13:00'
 updated: '2026-02-11 17:31:18'
+slug: shirakawa-boj-39-years
+alias:
+  - 2026/02/06/巧媳难为无米之炊-读白川方明《动荡三十年》/index.html
+description: Masaaki Shirakawa’s account of 39 years at the Bank of Japan shows why monetary policy cannot substitute for bank repair, fiscal choices, structural reform, or political consensus.
 categories:
-- 货币与经济学研究
+  - Japan
 tags:
-- 银行
+  - 银行
+lang: zh
+abstract_en: true
 ---
+
+<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+Masaaki Shirakawa’s memoir of thirty-nine years at the Bank of Japan resists the simple claim that Japan’s post-bubble stagnation was caused by an incompetent central bank. This essay follows his account from yen appreciation and prolonged low rates in the late 1980s through the collapse of asset prices, the slow recognition of non-performing loans, the banking crisis, and the political pressure for unlimited monetary easing. The central analytical point is transmission. A central bank can reduce funding costs, provide emergency liquidity, purchase assets, and shape expectations, but it cannot force damaged banks to lend, indebted firms to invest, or an aging economy to generate productivity. Japan’s delayed recovery also reflected weak disclosure, tax and regulatory barriers to recognizing losses, the absence of a political trigger for recapitalization, and slow development of bank-resolution tools. Financial stability and demand stimulus are therefore different objectives: lender-of-last-resort action can prevent system collapse, while ever-larger balance-sheet expansion may still fail to restore growth. Shirakawa’s caution created a political problem because monetary policy became the only institution visibly “doing something” while fiscal and structural reforms remained difficult. The book’s lasting warning is that when a central bank does too much, it often reveals how little other parts of government are doing—and transfers unresolved tensions into the currency, bond market, and the institution’s future credibility.
+</div>
 
 不得不说，出版社取名取到“会写故事”的程度了。原名《中央銀行：セントラルバンカーの経験した39年》明明很诚实——“一位央行人的39年”；中文版却改成“动荡三十年”，把39削成30，几乎是把吴晓波那本《激荡三十年》的符号直接贴了上去，只为更顺口、更像时代史、更好卖。
 

@@ -2,12 +2,13 @@
   <a class="portfolio-brand" href="/" rel="home">
     <span class="portfolio-brand-name">Tera Teng</span>
     <span class="portfolio-brand-divider" aria-hidden="true"></span>
-    <span class="portfolio-brand-field">AI, Economics &amp; Technology</span>
+    <span class="portfolio-brand-field">Japan, Money &amp; AI Industry</span>
   </a>
   <nav class="portfolio-nav" aria-label="Primary navigation">
-    <a href="/" data-nav-root="writing">Writing</a>
-    <a href="/categories/AI-与产业研究/" data-nav-root="ai">AI Research</a>
-    <a href="/categories/货币与经济学研究/" data-nav-root="economics">Economics</a>
+    <a href="/writing/" data-nav-root="writing">Writing</a>
+    <a href="/categories/japan/" data-nav-root="japan">Japan</a>
+    <a href="/categories/markets/" data-nav-root="markets">Money</a>
+    <a href="/categories/ai-industry/" data-nav-root="ai">AI</a>
     <a href="/about/" data-nav-root="about">About</a>
   </nav>
 </div>
@@ -16,8 +17,9 @@
     const path = decodeURIComponent(window.location.pathname);
     let section = "";
     if (path === "/" || path.startsWith("/writing/")) section = "writing";
-    if (path.startsWith("/categories/AI-与产业研究/")) section = "ai";
-    if (path.startsWith("/categories/货币与经济学研究/")) section = "economics";
+    if (path.startsWith("/categories/japan/")) section = "japan";
+    if (path.startsWith("/categories/markets/")) section = "markets";
+    if (path.startsWith("/categories/ai-industry/")) section = "ai";
     if (path.startsWith("/about/")) section = "about";
     const current = document.querySelector(`[data-nav-root="${section}"]`);
     if (current) {

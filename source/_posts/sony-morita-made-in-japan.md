@@ -1,13 +1,25 @@
 ---
 title: "先把口袋做大：读《日本制造》"
 date: 2026-07-26 20:00:00
+slug: sony-morita-made-in-japan
+alias:
+  - 2026/07/26/先把口袋做大：读《日本制造》/index.html
+description: A reading of Akio Morita’s Made in Japan about inventing customers as well as products, choosing long-term identity over easy orders, and recognizing the limits of a success story written at the peak.
 categories:
-  - 货币与经济学研究
+  - Japan
 tags:
   - 日本制造业
   - 索尼
   - 企业经营
+lang: zh
+abstract_en: true
 ---
+
+<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+Made in Japan is often remembered as a celebration of Sony’s engineering, but its most revealing stories concern the invention of markets. When an early transistor radio was slightly too large for a standard shirt pocket, Sony gave its salespeople shirts with larger pockets and made the promised use case visible. When its first tape recorders attracted attention but no buyers, Akio Morita looked for institutions—courts and schools—whose work made the product necessary. The Walkman repeated the pattern by proposing a new form of private listening before consumers could request it. Morita also rejected a large white-label order from Bulova because immediate revenue would have prevented Sony from building its own name, and priced an oversized order higher when the required capacity could become a future burden. These decisions show marketing as a form of product creation and strategy as choosing what kind of company an order will produce. The book also has limits. Written in 1986 at the height of Japanese manufacturing, it treats lifetime employment and corporate loyalty more generously than later stagnation would justify, and it underplays the importance of technological standards and ecosystem power revealed by Betamax’s defeat. Its durable lesson is not a formula for Japanese management, but a discipline: connect technology, a specific user, and a sustainable organizational future before calling an invention a business.
+</div>
 
 > 一家企业如何发明产品，也发明顾客
 >

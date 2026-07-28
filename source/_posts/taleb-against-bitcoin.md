@@ -2,11 +2,23 @@
 title: "塔勒布为什么“黑”比特币？"
 date: 2026-01-06 12:00:00
 updated: 2026-02-11 17:23:45
+slug: taleb-against-bitcoin
+alias:
+  - 2026/01/06/塔勒布为什么“黑”比特币？/index.html
+description: A reconstruction of Nassim Nicholas Taleb’s shift from cautious enthusiasm to rejecting Bitcoin as money, payment infrastructure, tail hedge, and escape from institutional power.
 tags:
   - 比特币
 categories:
-  - 货币与经济学研究
+  - Money & Markets
+lang: zh
+abstract_en: true
 ---
+
+<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+Nassim Nicholas Taleb was not always hostile to Bitcoin. From 2013 through 2019 he described government-independent money as an important idea, praised Bitcoin’s lack of a central owner, and saw cryptocurrency as a possible answer to weaknesses in banking. His 2021 paper marked a decisive reversal. This essay reconstructs that shift through four arguments. First, Bitcoin produces no cash flow or residual value and depends on sustained future interest, making an absorbing path to zero impossible to ignore; gold, by contrast, has physical persistence, industrial demand, and a much longer Lindy record. Second, speculative appreciation is not evidence that a digital currency has succeeded: a currency needs stability and practical use. Third, accepting Bitcoin at checkout is different from pricing wages, costs, and goods in Bitcoin. Without a surrounding unit-of-account network, merchants inherit volatility and arbitrage risk. Fourth, immutable code is not a substitute for law, contextual judgment, or institutions. Bitcoin also failed Taleb’s empirical tests as a tail hedge in March 2020 and as an anonymous refuge from governments. The dispute is therefore not mainly about price volatility. It is about whether Bitcoin satisfies the structural requirements of money, payments, legal order, and protection against systemic risk.
+</div>
 
 > ——读 **纳西姆·塔勒布** 的比特币“黑”皮书
 
