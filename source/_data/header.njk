@@ -7,7 +7,7 @@
 
   <nav class="research-desktop-nav" aria-label="Primary navigation">
     <a href="/#research" data-nav-root="research">Research</a>
-    <a href="/writing/" data-nav-root="essays">Essays</a>
+    <a href="/essays/" data-nav-root="essays">Essays</a>
     <a href="/categories/notes/" data-nav-root="notes">Notes</a>
     <a href="/about/" data-nav-root="about">About</a>
   </nav>
@@ -29,7 +29,7 @@
 
   <nav class="research-mobile-nav" id="research-mobile-navigation" aria-label="Mobile navigation">
     <a href="/#research">Research</a>
-    <a href="/writing/">Essays</a>
+    <a href="/essays/">Essays</a>
     <a href="/categories/notes/">Notes</a>
     <a href="/about/">About</a>
     <a href="https://github.com/terazadl" target="_blank" rel="noopener">
@@ -45,7 +45,7 @@
     if (path === "/" || path.includes("/is-bitcoin-digital-gold/")) section = "research";
     if (
       section !== "research" &&
-      (path.startsWith("/writing/") || path.startsWith("/archives/") || path.match(/^\/2026\//))
+      (path.startsWith("/essays/") || path.startsWith("/writing/") || path.startsWith("/archives/") || path.match(/^\/2026\//))
     ) section = "essays";
     if (path.startsWith("/categories/notes/")) section = "notes";
     if (path.startsWith("/about/")) section = "about";

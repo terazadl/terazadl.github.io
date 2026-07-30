@@ -81,4 +81,22 @@
       if (event.key === "Escape") setOpen(false);
     });
   })();
+
+  (() => {
+    const notesCategory = document.querySelector(
+      '.post-meta-container a[href="/categories/notes/"]'
+    );
+    if (!notesCategory) return;
+
+    document.querySelectorAll(".research-desktop-nav a").forEach(link => {
+      link.classList.remove("is-active");
+      link.removeAttribute("aria-current");
+    });
+
+    const notesLink = document.querySelector('[data-nav-root="notes"]');
+    if (notesLink) {
+      notesLink.classList.add("is-active");
+      notesLink.setAttribute("aria-current", "page");
+    }
+  })();
 </script>
