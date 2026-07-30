@@ -784,14 +784,27 @@ body:not(.portfolio-home-page):not(.portfolio-about-page) .post-body h3 {
 }
 
 .post-button .btn {
+  background: transparent;
   border: 0;
-  border-bottom: 1px solid currentColor;
-  color: var(--portfolio-blue);
-  font-family: "Inter", sans-serif;
-  font-size: 11px;
-  letter-spacing: .06em;
-  padding: 0 0 3px;
+  border-bottom: 2px solid var(--research-blue);
+  box-shadow: none;
+  color: var(--research-blue);
+  font-family: var(--research-sans);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: .065em;
+  padding: 7px 1px 5px;
   text-transform: uppercase;
+  transition: border-color .16s ease, color .16s ease, transform .16s ease;
+}
+
+.post-button .btn:hover,
+.post-button .btn:focus {
+  background: transparent;
+  border-color: var(--research-blue-hover);
+  box-shadow: none;
+  color: var(--research-blue-hover);
+  transform: translateX(2px);
 }
 
 .posts-expand .post-eof {
