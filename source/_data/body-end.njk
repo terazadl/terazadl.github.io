@@ -4,10 +4,14 @@
     posts.forEach(post => {
       const meta = post.querySelector(".post-meta-container");
       if (!meta || meta.querySelector(".portfolio-lang-tag")) return;
+      const languageMarker = post.querySelector("[data-article-language]");
       const tag = document.createElement("span");
       tag.className = "portfolio-lang-tag";
-      tag.textContent = "ZH";
-      tag.setAttribute("aria-label", "Article language: Chinese");
+      tag.textContent = languageMarker?.dataset.articleLanguage || "ZH";
+      tag.setAttribute(
+        "aria-label",
+        tag.textContent === "EN" ? "Article language: English" : "Article language: Chinese"
+      );
       meta.appendChild(tag);
     });
   })();
@@ -51,5 +55,30 @@
     discussion.appendChild(header);
     comments.parentNode.insertBefore(discussion, comments);
     discussion.appendChild(comments);
+  })();
+
+  (() => {
+    const button = document.querySelector(".research-menu-button");
+    const navigation = document.querySelector(".research-mobile-nav");
+    if (!button || !navigation) return;
+
+    const setOpen = open => {
+      button.setAttribute("aria-expanded", String(open));
+      button.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
+      button.classList.toggle("is-open", open);
+      navigation.classList.toggle("is-open", open);
+    };
+
+    button.addEventListener("click", () => {
+      setOpen(button.getAttribute("aria-expanded") !== "true");
+    });
+
+    navigation.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => setOpen(false));
+    });
+
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape") setOpen(false);
+    });
   })();
 </script>

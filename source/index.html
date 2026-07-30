@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Japan, Money & AI Industry
-description: Independent research and writing by Tera Teng on Japan, money, and the economics of AI.
+title: AI, Markets & Technology
+description: Independent research by Tera Teng on AI, markets, and institutions.
 header: false
 comments: false
 toc: false
@@ -12,82 +12,91 @@ permalink: /
   document.body.classList.add('portfolio-home-page');
 </script>
 
-<div class="portfolio-home">
-  <section class="portfolio-hero" aria-labelledby="portfolio-intro">
-    <div class="portfolio-intro">
-      <h1 id="portfolio-intro">Japan, money,<br>and industrial<br>change in the<br>age of AI.</h1>
-      <p class="portfolio-intro-cn" lang="zh-CN">从中国银行业实践出发，研究日本、货币与 AI 产业。</p>
-      <p class="portfolio-credential-line">China banking experience · Incoming Waseda finance student · CFA candidate</p>
-      <div class="portfolio-actions">
-        <a class="portfolio-button" href="#selected-writing">Read selected work</a>
-        <a class="portfolio-text-link" href="/about/">About me</a>
+<div class="research-home" id="top">
+  <div class="research-hero-grid">
+    <section class="research-hero-intro" aria-labelledby="research-hero-title">
+      <h1 id="research-hero-title">I study how AI,<br>markets, and<br>institutions<br>reshape industries.</h1>
+      <p>Research notes and empirical work from Japan on AI, markets, and institutional change.</p>
+      <div class="research-hero-actions">
+        <a class="research-primary-button" href="#research">View research</a>
+        <a class="research-text-button" href="https://github.com/terazadl/terazadl.github.io/tree/hexo-src/research/bitcoin-digital-gold" target="_blank" rel="noopener">GitHub notebook</a>
       </div>
-    </div>
+    </section>
 
-    <article class="portfolio-featured">
-      <p class="portfolio-kicker">Featured · AI &amp; Industry</p>
-      <h2 lang="zh-CN">中国 AI 开源模式能持续吗？从“旗舰开放”走向“分层开源”</h2>
-      <p class="portfolio-meta">2026-07-27 <span>·</span> AI &amp; Industry <span>·</span> ZH</p>
-      <p class="portfolio-abstract">China’s open-weight AI strategy can remain sustainable at the industry level even when individual model developers struggle to capture profits. The most plausible equilibrium is layered openness: mature models remain broadly available, while the newest frontier systems become API-first or delayed-release.</p>
-      <a class="portfolio-read-link" href="/2026/07/china-open-weight-ai-layered-openness/">
+    <section class="research-featured" id="research" aria-labelledby="featured-research-title">
+      <p class="research-eyebrow">Featured research</p>
+      <h2 id="featured-research-title">Is Bitcoin Digital Gold?</h2>
+
+      <div class="research-featured-body">
+        <div class="research-summary">
+          <div>
+            <h3>Research question</h3>
+            <p>Does Bitcoin behave more like digital gold—a store of value—or a risk asset?</p>
+          </div>
+          <div>
+            <h3>Method</h3>
+            <p>Python · pandas · time series</p>
+          </div>
+          <p class="research-meta"><strong>EN</strong><span>·</span><span>中文摘要</span></p>
+          <p class="research-meta"><time datetime="2026-07-30">2026-07-30</time><span>·</span><span>Markets</span></p>
+        </div>
+
+        <figure class="research-chart">
+          <figcaption>
+            <strong>Rolling correlation: BTC vs GLD and QQQ</strong>
+            <span>24-month window</span>
+          </figcaption>
+          <img
+            src="/images/digital-gold-rolling-similarity.png"
+            alt="Bitcoin rolling correlations with GLD and QQQ from 2017 to July 2026. The BTC–QQQ correlation is usually above the BTC–GLD correlation."
+            width="1800"
+            height="1016"
+          >
+        </figure>
+      </div>
+
+      <div class="research-featured-actions">
+        <a class="research-arrow-link" href="/2026/07/is-bitcoin-digital-gold/">
+          Read analysis <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </a>
+        <a class="research-arrow-link" href="https://github.com/terazadl/terazadl.github.io/blob/hexo-src/research/bitcoin-digital-gold/notebooks/03_is_bitcoin_digital_gold.ipynb" target="_blank" rel="noopener">
+          Open notebook <i class="fa fa-external-link-alt" aria-hidden="true"></i>
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <section class="research-latest" id="latest" aria-labelledby="latest-research-title">
+    <h2 id="latest-research-title">Latest research</h2>
+    <article class="research-latest-row">
+      <div class="research-latest-meta">
+        <time datetime="2026-07-27">2026-07-27</time>
+        <span>AI &amp; Industry · ZH</span>
+      </div>
+      <h3>Can China’s open-weight AI model strategy remain sustainable?</h3>
+      <p>A layered equilibrium is emerging: mature models remain broadly available while frontier systems move toward API-first or delayed release.</p>
+      <a class="research-arrow-link" href="/2026/07/china-open-weight-ai-layered-openness/">
         Read article <i class="fa fa-arrow-right" aria-hidden="true"></i>
       </a>
     </article>
   </section>
 
-  <nav class="portfolio-topics" aria-label="Research areas">
-    <a href="/categories/japan/">
-      <span>01</span>
-      <strong>Japan</strong>
-      <small>Industry, institutions, and demographic change</small>
-    </a>
-    <a href="/categories/markets/">
-      <span>02</span>
-      <strong>Money &amp; Markets</strong>
-      <small>Banking products, central banks, and risk</small>
-    </a>
-    <a href="/categories/ai-industry/">
-      <span>03</span>
-      <strong>AI &amp; Industry</strong>
-      <small>Open models, economics, and value capture</small>
-    </a>
-  </nav>
-
-  <section class="portfolio-selected" id="selected-writing" aria-labelledby="selected-writing-title">
-    <div class="portfolio-section-heading">
-      <h2 id="selected-writing-title">Selected writing</h2>
-      <span aria-hidden="true"></span>
+  <section class="research-profile-strip" aria-label="Profile and contact">
+    <div class="research-profile-item">
+      <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
+      <span><strong>Based in Japan</strong><small>Tokyo</small></span>
     </div>
-
-    <div class="portfolio-writing-list">
-      <a class="portfolio-writing-row" href="/2026/07/japan-dram-lost-manufacturing/">
-        <span class="portfolio-writing-copy">
-          <span class="portfolio-writing-title" lang="zh-CN">百分之九十八为什么输给百分之八十三</span>
-          <span class="portfolio-writing-deck">How engineering perfection became a business disadvantage in Japan’s DRAM industry.</span>
-        </span>
-        <span class="portfolio-writing-meta"><time datetime="2026-07-26">2026-07-26</time><span>Japan · ZH</span></span>
-        <i class="fa fa-arrow-right" aria-hidden="true"></i>
-      </a>
-      <a class="portfolio-writing-row" href="/2026/07/japan-negative-real-estate/">
-        <span class="portfolio-writing-copy">
-          <span class="portfolio-writing-title" lang="zh-CN">卖掉一块地，为什么还要倒贴十一万日元</span>
-          <span class="portfolio-writing-deck">When property ownership becomes a liability that cannot simply be abandoned.</span>
-        </span>
-        <span class="portfolio-writing-meta"><time datetime="2026-07-26">2026-07-26</time><span>Japan · ZH</span></span>
-        <i class="fa fa-arrow-right" aria-hidden="true"></i>
-      </a>
-      <a class="portfolio-writing-row" href="/2026/01/what-is-a-wealth-management-product/">
-        <span class="portfolio-writing-copy">
-          <span class="portfolio-writing-title" lang="zh-CN">你买的理财产品到底是什么</span>
-          <span class="portfolio-writing-deck">A balance-sheet view of Chinese bank wealth-management products and their hidden feedback loops.</span>
-        </span>
-        <span class="portfolio-writing-meta"><time datetime="2026-01-18">2026-01-18</time><span>Money · ZH</span></span>
-        <i class="fa fa-arrow-right" aria-hidden="true"></i>
-      </a>
+    <div class="research-profile-item">
+      <i class="fa fa-chart-line" aria-hidden="true"></i>
+      <span><strong>Research focus</strong><small>AI · Markets · Institutions</small></span>
     </div>
-
-    <a class="portfolio-all-writing" href="/writing/">
-      Browse all writing <i class="fa fa-arrow-right" aria-hidden="true"></i>
+    <div class="research-profile-item">
+      <i class="fa fa-book-open" aria-hidden="true"></i>
+      <span><strong>Interests</strong><small>Market structure, LLMs, open models, quantitative methods</small></span>
+    </div>
+    <a class="research-profile-item" href="/about/">
+      <i class="fa fa-user" aria-hidden="true"></i>
+      <span><strong>About</strong><small>Background, focus, and selected work</small></span>
     </a>
   </section>
 </div>

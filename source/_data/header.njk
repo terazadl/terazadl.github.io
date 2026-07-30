@@ -1,25 +1,53 @@
-<div class="portfolio-site-header">
-  <a class="portfolio-brand" href="/" rel="home">
-    <span class="portfolio-brand-name">Tera Teng</span>
-    <span class="portfolio-brand-divider" aria-hidden="true"></span>
-    <span class="portfolio-brand-field">Japan, Money &amp; AI Industry</span>
+<div class="research-site-header">
+  <a class="research-brand" href="/" rel="home" aria-label="Tera Teng — home">
+    <span class="research-brand-name">Tera Teng</span>
+    <span class="research-brand-divider" aria-hidden="true"></span>
+    <span class="research-brand-field">AI, Markets &amp; Technology</span>
   </a>
-  <nav class="portfolio-nav" aria-label="Primary navigation">
-    <a href="/writing/" data-nav-root="writing">Writing</a>
-    <a href="/categories/japan/" data-nav-root="japan">Japan</a>
-    <a href="/categories/markets/" data-nav-root="markets">Money</a>
-    <a href="/categories/ai-industry/" data-nav-root="ai">AI</a>
+
+  <nav class="research-desktop-nav" aria-label="Primary navigation">
+    <a href="/#research" data-nav-root="research">Research</a>
+    <a href="/writing/" data-nav-root="essays">Essays</a>
+    <a href="/categories/notes/" data-nav-root="notes">Notes</a>
     <a href="/about/" data-nav-root="about">About</a>
   </nav>
+
+  <a class="research-github-link" href="https://github.com/terazadl" target="_blank" rel="noopener">
+    <i class="fab fa-github" aria-hidden="true"></i>
+    <span>GitHub</span>
+  </a>
+
+  <button
+    class="research-menu-button"
+    type="button"
+    aria-label="Open navigation"
+    aria-expanded="false"
+    aria-controls="research-mobile-navigation"
+  >
+    <span></span><span></span><span></span>
+  </button>
+
+  <nav class="research-mobile-nav" id="research-mobile-navigation" aria-label="Mobile navigation">
+    <a href="/#research">Research</a>
+    <a href="/writing/">Essays</a>
+    <a href="/categories/notes/">Notes</a>
+    <a href="/about/">About</a>
+    <a href="https://github.com/terazadl" target="_blank" rel="noopener">
+      GitHub <i class="fa fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </nav>
 </div>
+
 <script>
   (() => {
     const path = decodeURIComponent(window.location.pathname);
     let section = "";
-    if (path === "/" || path.startsWith("/writing/")) section = "writing";
-    if (path.startsWith("/categories/japan/")) section = "japan";
-    if (path.startsWith("/categories/markets/")) section = "markets";
-    if (path.startsWith("/categories/ai-industry/")) section = "ai";
+    if (path === "/" || path.includes("/is-bitcoin-digital-gold/")) section = "research";
+    if (
+      section !== "research" &&
+      (path.startsWith("/writing/") || path.startsWith("/archives/") || path.match(/^\/2026\//))
+    ) section = "essays";
+    if (path.startsWith("/categories/notes/")) section = "notes";
     if (path.startsWith("/about/")) section = "about";
     const current = document.querySelector(`[data-nav-root="${section}"]`);
     if (current) {
