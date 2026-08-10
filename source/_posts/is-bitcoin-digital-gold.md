@@ -89,4 +89,4 @@ The evidence supports a deliberately narrow conclusion:
 
 Calling Bitcoin “digital gold” may remain useful as a description of engineered scarcity, portability, and a monetary aspiration. It is much less accurate as a summary of how the asset actually traded between 2015 and July 2026.
 
-The complete executed notebook, source code, and validation report are available in the [GitHub research folder](https://github.com/terazadl/terazadl.github.io/tree/hexo-src/research/bitcoin-digital-gold). This is educational research, not investment advice.
+The complete three-notebook research project—including the executed notebooks, source code, figures, offline tests, data-snapshot manifest, and independent validation reports—is available in the standalone [btc-risk-research repository](https://github.com/terazadl/btc-risk-research). This is educational research, not investment advice.
