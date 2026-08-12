@@ -5,7 +5,7 @@ updated: '2026-02-12 20:44:29'
 slug: two-broken-economic-conventions
 alias:
   - 2026/02/11/两条被挑战的经济学“常识”/index.html
-description: Two familiar economic relationships—tight money versus gold, and currency appreciation versus exports—look very different once regimes, invoicing, and supply chains are brought back into the analysis.
+description: 将货币紧缩与黄金、汇率升值与出口这两条常见关系放回货币制度、计价方式和供应链结构中，重新理解它们为何会失效。
 categories:
   - Money & Markets
 tags:

@@ -5,7 +5,7 @@ updated: '2026-02-28 15:17:31'
 slug: wang-xiaobo-searching-wushuang
 alias:
   - 2026/02/28/寻找无双导读/index.html
-description: A reading of Wang Xiaobo’s Searching for Wushuang about practiced forgetting, the need for a personal theme, and the way absurd comedy exposes collective self-deception.
+description: 通过王小波《寻找无双》讨论习得性遗忘、个人主题，以及荒诞喜剧如何揭穿集体性的自我欺骗。
 categories:
   - Notes
 tags:

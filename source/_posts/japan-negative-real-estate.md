@@ -4,7 +4,7 @@ date: 2026-07-26 20:20:00
 slug: japan-negative-real-estate
 alias:
   - 2026/07/26/卖掉一块地，为什么还要倒贴十一万日元：读《负动产时代》/index.html
-description: "A reading of Japan’s negative-real-estate problem: when ownership carries more future cost than use value, property becomes an obligation that may require payment to escape."
+description: "从日本负动产问题出发，分析当持有成本超过使用价值时，房地产如何从财富变成必须付费才能退出的负担。"
 categories:
   - Japan
 tags:

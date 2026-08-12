@@ -5,7 +5,7 @@ updated: '2026-02-11 17:31:18'
 slug: shirakawa-boj-39-years
 alias:
   - 2026/02/06/巧媳难为无米之炊-读白川方明《动荡三十年》/index.html
-description: Masaaki Shirakawa’s account of 39 years at the Bank of Japan shows why monetary policy cannot substitute for bank repair, fiscal choices, structural reform, or political consensus.
+description: 白川方明在日本银行39年的经历说明，货币政策无法替代银行修复、财政选择、结构改革和政治共识。
 categories:
   - Japan
 tags:

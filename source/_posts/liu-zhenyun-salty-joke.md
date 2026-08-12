@@ -5,7 +5,7 @@ updated: '2026-02-11 17:35:37'
 slug: liu-zhenyun-salty-joke
 alias:
   - 2026/01/31/肉片凉油下锅还是热油下锅：小事里藏着大输赢/index.html
-description: A reading of Liu Zhenyun’s Salty Joke about loneliness, dignity, and how arguments over cooking or poetry become containers for the larger things people cannot say directly.
+description: 通过刘震云小说中的日常争执，讨论孤独、尊严，以及人们无法直接说出的情感如何藏进关于做饭和诗歌的小事里。
 categories:
   - Notes
 tags:

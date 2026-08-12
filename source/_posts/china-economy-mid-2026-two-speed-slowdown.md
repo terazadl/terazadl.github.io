@@ -5,7 +5,7 @@ updated: 2026-08-03 14:52:17
 slug: china-economy-mid-2026-two-speed-slowdown
 alias:
   - 2026/08/02/中国经济还在增长，为什么体感仍然偏冷？——2026年中期的三层指标/index.html
-description: "China remained in expansion in mid-2026, but momentum weakened as exports and high-tech manufacturing outpaced household consumption, property, and private demand."
+description: "中国经济在2026年中期仍处于扩张，但出口和高技术制造业跑在居民消费、房地产与私人需求之前，增长与体感出现分化。"
 categories:
   - Money & Markets
 tags:

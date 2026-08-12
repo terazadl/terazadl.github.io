@@ -5,7 +5,7 @@ updated: 2026-02-11 17:23:45
 slug: taleb-against-bitcoin
 alias:
   - 2026/01/06/塔勒布为什么“黑”比特币？/index.html
-description: A reconstruction of Nassim Nicholas Taleb’s shift from cautious enthusiasm to rejecting Bitcoin as money, payment infrastructure, tail hedge, and escape from institutional power.
+description: 重构纳西姆·塔勒布从谨慎认可到否定比特币的转变，讨论比特币作为货币、支付基础设施、尾部对冲和制度避风港的局限。
 tags:
   - 比特币
 categories:

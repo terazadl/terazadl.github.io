@@ -5,7 +5,7 @@ updated: '2026-02-11 17:23:45'
 slug: what-is-a-wealth-management-product
 alias:
   - 2026/01/18/你买的理财产品到底是什么/index.html
-description: A balance-sheet and cash-flow guide to Chinese bank wealth-management products, explaining the assets, rules, valuation methods, liquidity constraints, and feedback loops behind their returns.
+description: 从资产负债表和现金流出发，解释中国银行理财产品的底层资产、估值规则、流动性约束，以及收益背后的反馈回路。
 categories:
   - Money & Markets
 tags:

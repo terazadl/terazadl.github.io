@@ -3,3 +3,45 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital@0;1&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/main.css?v=20260730-4">
 <meta name="theme-color" content="#f5f1e8">
+
+{%- set page_title = page.title or config.title -%}
+{%- set page_description = page.description or config.description -%}
+<meta name="author" content="{{ config.author | escape }}">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="twitter:title" content="{{ page_title | escape }}">
+<meta name="twitter:description" content="{{ page_description | escape }}">
+{%- if page.layout != 'post' %}
+<meta property="og:image" content="https://terazadl.github.io/images/tera-android-512.png">
+<meta property="og:image:alt" content="Lei Deng monogram">
+<meta property="og:image:width" content="512">
+<meta property="og:image:height" content="512">
+<meta name="twitter:image" content="https://terazadl.github.io/images/tera-android-512.png">
+{%- endif %}
+<link rel="sitemap" type="application/xml" href="https://terazadl.github.io/sitemap.xml">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://terazadl.github.io/#lei-deng",
+  "name": "Lei Deng",
+  "url": "https://terazadl.github.io/",
+  "sameAs": ["https://github.com/terazadl"],
+  "knowsAbout": ["artificial intelligence", "financial markets", "quantitative research", "Japan"]
+}
+</script>
+{%- if page.layout == 'post' %}
+{%- set page_url = url | replace('index.html', '') -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page_title | safedump | safe }},
+  "description": {{ page_description | safedump | safe }},
+  "datePublished": "{{ date_xml(page.date) }}",
+  "author": {"@id": "https://terazadl.github.io/#lei-deng"},
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "{{ page_url }}"},
+  "inLanguage": {{ (page.lang or config.language) | safedump | safe }}
+}
+</script>
+{%- endif %}

@@ -5,7 +5,7 @@ updated: 2026-07-27 00:14:30
 slug: china-open-weight-ai-layered-openness
 alias:
   - 2026/07/27/中国 AI 开源模式能持续吗？从旗舰开放到分层开源/index.html
-description: China’s open-weight AI strategy is sustainable at the industry level, but the durable equilibrium is likely to be layered openness rather than permanent release of every frontier model.
+description: 中国的开放权重 AI 模式在产业层面具备持续性，但更可能形成分层开放的均衡，而不是永久开放每一个前沿模型。
 categories:
   - AI & Industry
 tags:

@@ -5,13 +5,15 @@
 # Site
 title: Lei Deng
 subtitle: Japan, Money & AI Industry
-description: Independent research and writing on Japan, money, and the economics of AI.
+description: Independent research by Lei Deng on artificial intelligence, financial markets, quantitative research, and institutional change in Japan.
 keywords:
   - AI
+  - artificial intelligence
+  - financial markets
+  - quantitative research
   - Japan
-  - money
-  - industrial change
-  - banking
+  - institutional change
+  - automation
 author: Lei Deng
 language: en
 timezone: Asia/Tokyo
@@ -106,6 +108,14 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+
+# Search discovery
+sitemap:
+  path: sitemap.xml
+  template: templates/sitemap.xml
+  rel: true
+  tags: true
+  categories: true
 
 symbols_count_time:
   symbols: true

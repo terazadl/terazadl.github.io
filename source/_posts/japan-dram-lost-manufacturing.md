@@ -4,7 +4,7 @@ date: 2026-07-26 20:10:00
 slug: japan-dram-lost-manufacturing
 alias:
   - 2026/07/26/百分之九十八为什么输给百分之八十三：读《失去的制造业》/index.html
-description: Why Japan’s technically superior DRAM producers lost to firms optimizing chip area, throughput, cost, and market fit—and what Rapidus must learn from that failure.
+description: 日本 DRAM 厂商技术上更优秀，却输给了优化芯片面积、产能、成本和市场适配度的竞争者；这段制造业失败史对 Rapidus 有什么启示？
 categories:
   - Japan
 tags:

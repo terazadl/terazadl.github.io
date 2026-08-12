@@ -4,7 +4,7 @@ date: 2026-07-26 20:00:00
 slug: sony-morita-made-in-japan
 alias:
   - 2026/07/26/先把口袋做大：读《日本制造》/index.html
-description: A reading of Akio Morita’s Made in Japan about inventing customers as well as products, choosing long-term identity over easy orders, and recognizing the limits of a success story written at the peak.
+description: 从盛田昭夫《日本制造》出发，讨论如何创造客户与产品、拒绝短期订单，并看见巅峰时期写下的成功故事的局限。
 categories:
   - Japan
 tags:
