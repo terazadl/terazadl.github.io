@@ -28,7 +28,7 @@ Prediction-market pages are good at answering a narrow question: *what is the ma
 
 That difference matters. A notification that says “the probability of a Federal Reserve rate cut is 2%” can be technically accurate yet cognitively misleading. The reader immediately asks: 2% compared with what? Is the market pricing no change? A hike? Does the contract have enough liquidity to trust its price? And, when the meeting ends, who determines the outcome?
 
-I built **Polymarket Observatory** to make those questions explicit. It is a small, read-only monitoring system for Chinese-speaking users. It uses Polymarket’s public [Gamma API](https://docs.polymarket.com/api-reference/introduction) for market discovery and price reads, generates a Beijing-time daily briefing, and uses [ServerChan](https://sct.ftqq.com/docs/getting-started/faq/) to deliver concise WeChat notifications.
+I built **Polymarket Observatory** to make those questions explicit. It is a small, read-only monitoring system for Chinese-speaking users. It reads selected public Polymarket markets through the [Gamma API](https://docs.polymarket.com/api-reference/introduction), generates a Beijing-time daily briefing, and uses [ServerChan](https://sct.ftqq.com/docs/getting-started/faq/) to deliver concise WeChat notifications. Market selection is currently an explicit watchlist decision rather than an automatic discovery or ranking system.
 
 The product is deliberately not a trading tool. It does not connect a wallet, request signatures, store an API trading credential, or place an order. The aim is much humbler: turn public market information into a calmer and more inspectable monitoring habit.
 
@@ -51,23 +51,23 @@ This is not cosmetic. A single outcome is easy to over-read as a recommendation 
 
 “Use Polymarket data” is not specific enough. A subject can have multiple related contracts, and an apparently precise price can be based on a wide spread or thin liquidity. The system therefore does not treat every listed market as equally informative.
 
-For every selected contract, the monitor reads the best bid and best ask, computes their midpoint, and checks:
+For every selected contract, the monitor reads the best bid and best ask when available, computes their midpoint, and checks event-level quality thresholds:
 
 - minimum liquidity of US$50,000;
 - maximum bid–ask spread of 5 percentage points;
 - for a multi-outcome decision, a raw component total between 90% and 110% before normalization.
 
-If a quality gate fails, the report says so rather than presenting a false sense of precision. That is particularly important for a public alert: users usually see the notification without the surrounding market page or order book.
+Liquidity and spread are aggregated across the component markets that make up an event. If order-book quotes are unavailable, the monitor falls back to the public outcome price; that is a degraded data path and should be treated as less informative than a quoted bid/ask midpoint. If a quality gate fails, the report says so rather than presenting a false sense of precision. That is particularly important for a public alert: users usually see the notification without the surrounding market page or order book.
 
 The same principle explains why I did not simply combine every prediction market into a single headline number. A second venue can be useful as a validation signal when the contract definitions are genuinely comparable. But blindly averaging two markets hides differences in resolution rules, liquidity, user base, and timing. The observable product has one primary market source and names it. Cross-market comparison is a separate analytical exercise, not a way to manufacture confidence.
 
 ## Notifications should be rare enough to retain meaning
 
-The monitor polls every 15 minutes, but it does not notify every 15 minutes. That would turn a probability feed into noise. Instead, it has two layers:
+The runner is configured to be invoked every 15 minutes by an external scheduler, but it does not notify every 15 minutes. That would turn a probability feed into noise. Instead, it has two layers:
 
 | Moment | What the user receives |
 | --- | --- |
-| 08:00 Beijing time | A complete daily digest: current probability or distribution, data-quality status, timestamp, source links, and the fact-resolution source. |
+| 08:00 Beijing time | A complete daily digest: current probability or distribution, timestamp, source links, and the fact-resolution source. The internal report also records liquidity, spread, and data-quality reasons. |
 | During the day | A short alert only when a material, confirmed condition occurs. |
 
 The default immediate-alert conditions are a one-hour move of at least 5 percentage points, a 24-hour move of at least 10 points, a persistent crossing of 25%, 50%, or 75%, a persistent change in the leading outcome, a resolution-rule change, or market closure. Threshold crossings and leader changes require two consecutive samples. After an alert, the event enters a six-hour cooldown unless it moves another 5 points.
@@ -80,7 +80,7 @@ When an abnormal movement happens inside the morning window, it is folded into t
 
 The system runs on a computer in Japan, but its intended audience is in mainland China. That is why all customer-facing timestamps, digest schedules, and labels use **Beijing time (Asia/Shanghai)**, not the machine’s local time. A scheduler may run at 09:00 Japan time, for example, while the message correctly says 08:00 Beijing time.
 
-The delivery channel is ServerChan, a service that can forward Markdown messages to WeChat. Its image support has one important practical constraint: images must live at a public URL rather than being embedded as local files or base64 data. The monitor therefore exports an HTML page and a 1080×1350 PNG share card; those assets are hosted on the project site and embedded in the daily message with a cache-busting timestamp. The result is both a notification and a linkable, visual snapshot.
+The delivery channel is ServerChan, a service that can forward Markdown messages to WeChat. Its image support has one important practical constraint: images must live at a public URL rather than being embedded as local files or base64 data. The project can export an HTML page and a 1080×1350 PNG share card; public hosting and image links are optional configuration, and can be enabled separately from the read-only monitor. When enabled, the image URL is embedded in the daily message with a cache-busting timestamp. The result is both a notification and a linkable, visual snapshot.
 
 The wording also stays careful. Each report labels the data source as Polymarket, includes a timestamp, distinguishes “market-implied probability” from “resolution source,” and carries a no-investment-advice disclaimer. Those are not legal decorations added at the end. They are the minimum context required for a probability to remain interpretable after it is forwarded.
 
