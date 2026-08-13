@@ -28,7 +28,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://terazadl.github.io/images/event-radar-latest.png">
 <meta property="article:published_time" content="2026-08-12T07:30:00.000Z">
-<meta property="article:modified_time" content="2026-08-12T07:15:54.138Z">
+<meta property="article:modified_time" content="2026-08-13T02:12:44.894Z">
 <meta property="article:author" content="Lei Deng">
 <meta property="article:tag" content="Polymarket">
 <meta property="article:tag" content="Python">
@@ -304,14 +304,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>1.5k</span>
+      <span>1.6k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>5 mins.</span>
+      <span>6 mins.</span>
     </span>
 </div>
 
@@ -331,7 +331,7 @@
 <p><img src="/images/event-radar-latest.png" alt="A sample Polymarket Observatory share card. It shows a Strait of Hormuz risk probability and the complete distribution for a Federal Reserve decision."></p>
 <h2 id="The-problem-is-not-retrieving-a-number"><a href="#The-problem-is-not-retrieving-a-number" class="headerlink" title="The problem is not retrieving a number"></a>The problem is not retrieving a number</h2><p>Prediction-market pages are good at answering a narrow question: <em>what is the market pricing right now?</em> They are less good at the recurring task that many people actually have: <em>tell me when this event is worth paying attention to, without making me monitor a dashboard all day.</em></p>
 <p>That difference matters. A notification that says “the probability of a Federal Reserve rate cut is 2%” can be technically accurate yet cognitively misleading. The reader immediately asks: 2% compared with what? Is the market pricing no change? A hike? Does the contract have enough liquidity to trust its price? And, when the meeting ends, who determines the outcome?</p>
-<p>I built <strong>Polymarket Observatory</strong> to make those questions explicit. It is a small, read-only monitoring system for Chinese-speaking users. It uses Polymarket’s public <a target="_blank" rel="noopener" href="https://docs.polymarket.com/api-reference/introduction">Gamma API</a> for market discovery and price reads, generates a Beijing-time daily briefing, and uses <a target="_blank" rel="noopener" href="https://sct.ftqq.com/docs/getting-started/faq/">ServerChan</a> to deliver concise WeChat notifications.</p>
+<p>I built <strong>Polymarket Observatory</strong> to make those questions explicit. It is a small, read-only monitoring system for Chinese-speaking users. It reads selected public Polymarket markets through the <a target="_blank" rel="noopener" href="https://docs.polymarket.com/api-reference/introduction">Gamma API</a>, generates a Beijing-time daily briefing, and uses <a target="_blank" rel="noopener" href="https://sct.ftqq.com/docs/getting-started/faq/">ServerChan</a> to deliver concise WeChat notifications. Market selection is currently an explicit watchlist decision rather than an automatic discovery or ranking system.</p>
 <p>The product is deliberately not a trading tool. It does not connect a wallet, request signatures, store an API trading credential, or place an order. The aim is much humbler: turn public market information into a calmer and more inspectable monitoring habit.</p>
 <h2 id="Start-with-decisions-not-with-a-dashboard"><a href="#Start-with-decisions-not-with-a-dashboard" class="headerlink" title="Start with decisions, not with a dashboard"></a>Start with decisions, not with a dashboard</h2><p>The first version tracks two very different kinds of event:</p>
 <ol>
@@ -343,15 +343,15 @@
 <p>Second, the interface must show <strong>the full decision space</strong>. The Fed message shows five mutually exclusive outcomes—cut by at least 50 basis points, cut 25 basis points, unchanged, hike 25 basis points, or hike by at least 50 basis points—and also groups them into cut &#x2F; unchanged &#x2F; hike. The components are normalized to a full 100% distribution after passing quality checks.</p>
 <p>This is not cosmetic. A single outcome is easy to over-read as a recommendation or a forecast of certainty. A complete distribution lets the user see the uncertainty that is actually being priced.</p>
 <h2 id="Market-selection-is-a-data-quality-decision"><a href="#Market-selection-is-a-data-quality-decision" class="headerlink" title="Market selection is a data-quality decision"></a>Market selection is a data-quality decision</h2><p>“Use Polymarket data” is not specific enough. A subject can have multiple related contracts, and an apparently precise price can be based on a wide spread or thin liquidity. The system therefore does not treat every listed market as equally informative.</p>
-<p>For every selected contract, the monitor reads the best bid and best ask, computes their midpoint, and checks:</p>
+<p>For every selected contract, the monitor reads the best bid and best ask when available, computes their midpoint, and checks event-level quality thresholds:</p>
 <ul>
 <li>minimum liquidity of US$50,000;</li>
 <li>maximum bid–ask spread of 5 percentage points;</li>
 <li>for a multi-outcome decision, a raw component total between 90% and 110% before normalization.</li>
 </ul>
-<p>If a quality gate fails, the report says so rather than presenting a false sense of precision. That is particularly important for a public alert: users usually see the notification without the surrounding market page or order book.</p>
+<p>Liquidity and spread are aggregated across the component markets that make up an event. If order-book quotes are unavailable, the monitor falls back to the public outcome price; that is a degraded data path and should be treated as less informative than a quoted bid&#x2F;ask midpoint. If a quality gate fails, the report says so rather than presenting a false sense of precision. That is particularly important for a public alert: users usually see the notification without the surrounding market page or order book.</p>
 <p>The same principle explains why I did not simply combine every prediction market into a single headline number. A second venue can be useful as a validation signal when the contract definitions are genuinely comparable. But blindly averaging two markets hides differences in resolution rules, liquidity, user base, and timing. The observable product has one primary market source and names it. Cross-market comparison is a separate analytical exercise, not a way to manufacture confidence.</p>
-<h2 id="Notifications-should-be-rare-enough-to-retain-meaning"><a href="#Notifications-should-be-rare-enough-to-retain-meaning" class="headerlink" title="Notifications should be rare enough to retain meaning"></a>Notifications should be rare enough to retain meaning</h2><p>The monitor polls every 15 minutes, but it does not notify every 15 minutes. That would turn a probability feed into noise. Instead, it has two layers:</p>
+<h2 id="Notifications-should-be-rare-enough-to-retain-meaning"><a href="#Notifications-should-be-rare-enough-to-retain-meaning" class="headerlink" title="Notifications should be rare enough to retain meaning"></a>Notifications should be rare enough to retain meaning</h2><p>The runner is configured to be invoked every 15 minutes by an external scheduler, but it does not notify every 15 minutes. That would turn a probability feed into noise. Instead, it has two layers:</p>
 <table>
 <thead>
 <tr>
@@ -361,7 +361,7 @@
 </thead>
 <tbody><tr>
 <td>08:00 Beijing time</td>
-<td>A complete daily digest: current probability or distribution, data-quality status, timestamp, source links, and the fact-resolution source.</td>
+<td>A complete daily digest: current probability or distribution, timestamp, source links, and the fact-resolution source. The internal report also records liquidity, spread, and data-quality reasons.</td>
 </tr>
 <tr>
 <td>During the day</td>
@@ -372,7 +372,7 @@
 <p>This design turns out to be less about clever thresholds than about respecting attention. The default statement is the morning digest; a real-time alert has to earn the interruption.</p>
 <p>When an abnormal movement happens inside the morning window, it is folded into the daily digest instead of becoming a duplicate notification. The same result appears in the Markdown report, an HTML snapshot, and a portrait share card. That makes it easier to forward a result to a colleague without asking them to install the system.</p>
 <h2 id="Localizing-the-operational-details"><a href="#Localizing-the-operational-details" class="headerlink" title="Localizing the operational details"></a>Localizing the operational details</h2><p>The system runs on a computer in Japan, but its intended audience is in mainland China. That is why all customer-facing timestamps, digest schedules, and labels use <strong>Beijing time (Asia&#x2F;Shanghai)</strong>, not the machine’s local time. A scheduler may run at 09:00 Japan time, for example, while the message correctly says 08:00 Beijing time.</p>
-<p>The delivery channel is ServerChan, a service that can forward Markdown messages to WeChat. Its image support has one important practical constraint: images must live at a public URL rather than being embedded as local files or base64 data. The monitor therefore exports an HTML page and a 1080×1350 PNG share card; those assets are hosted on the project site and embedded in the daily message with a cache-busting timestamp. The result is both a notification and a linkable, visual snapshot.</p>
+<p>The delivery channel is ServerChan, a service that can forward Markdown messages to WeChat. Its image support has one important practical constraint: images must live at a public URL rather than being embedded as local files or base64 data. The project can export an HTML page and a 1080×1350 PNG share card; public hosting and image links are optional configuration, and can be enabled separately from the read-only monitor. When enabled, the image URL is embedded in the daily message with a cache-busting timestamp. The result is both a notification and a linkable, visual snapshot.</p>
 <p>The wording also stays careful. Each report labels the data source as Polymarket, includes a timestamp, distinguishes “market-implied probability” from “resolution source,” and carries a no-investment-advice disclaimer. Those are not legal decorations added at the end. They are the minimum context required for a probability to remain interpretable after it is forwarded.</p>
 <h2 id="The-implementation-boundary-is-part-of-the-product"><a href="#The-implementation-boundary-is-part-of-the-product" class="headerlink" title="The implementation boundary is part of the product"></a>The implementation boundary is part of the product</h2><p>The public repository contains the event watchlist, quality gates, notification logic, share-card export, and unit tests. It intentionally excludes runtime state, historical reports, exported data, and notification secrets. The test suite covers, among other things:</p>
 <ul>
