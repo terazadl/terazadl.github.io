@@ -6,9 +6,9 @@
   </a>
 
   <nav class="research-desktop-nav" aria-label="Primary navigation">
-    <a href="/#research" data-nav-root="research">Research</a>
+    <a href="/#latest" data-nav-root="latest">Latest</a>
     <a href="/essays/" data-nav-root="essays">Essays</a>
-    <a href="/categories/notes/" data-nav-root="notes">Notes</a>
+    <a href="/#topics" data-nav-root="topics">Topics</a>
     <a href="/about/" data-nav-root="about">About</a>
   </nav>
 
@@ -28,9 +28,9 @@
   </button>
 
   <nav class="research-mobile-nav" id="research-mobile-navigation" aria-label="Mobile navigation">
-    <a href="/#research">Research</a>
+    <a href="/#latest">Latest</a>
     <a href="/essays/">Essays</a>
-    <a href="/categories/notes/">Notes</a>
+    <a href="/#topics">Topics</a>
     <a href="/about/">About</a>
     <a href="https://github.com/terazadl" target="_blank" rel="noopener">
       GitHub <i class="fa fa-external-link-alt" aria-hidden="true"></i>
@@ -42,12 +42,12 @@
   (() => {
     const path = decodeURIComponent(window.location.pathname);
     let section = "";
-    if (path === "/" || path.includes("/is-bitcoin-digital-gold/")) section = "research";
+    if (path === "/") section = "latest";
     if (
-      section !== "research" &&
+      section !== "latest" &&
       (path.startsWith("/essays/") || path.startsWith("/writing/") || path.startsWith("/archives/") || path.match(/^\/2026\//))
     ) section = "essays";
-    if (path.startsWith("/categories/notes/")) section = "notes";
+    if (path.startsWith("/categories/") || path.startsWith("/tags/")) section = "topics";
     if (path.startsWith("/about/")) section = "about";
     const current = document.querySelector(`[data-nav-root="${section}"]`);
     if (current) {
