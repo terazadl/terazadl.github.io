@@ -8,10 +8,12 @@
       const tag = document.createElement("span");
       tag.className = "portfolio-lang-tag";
       tag.textContent = languageMarker?.dataset.articleLanguage || "ZH";
-      tag.setAttribute(
-        "aria-label",
-        tag.textContent === "EN" ? "Article language: English" : "Article language: Chinese"
-      );
+      const languageLabels = {
+        EN: "Article language: English",
+        ZH: "文章语言：中文",
+        JA: "記事の言語：日本語"
+      };
+      tag.setAttribute("aria-label", languageLabels[tag.textContent] || `Article language: ${tag.textContent}`);
       meta.appendChild(tag);
     });
   })();

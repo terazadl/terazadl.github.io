@@ -1,8 +1,9 @@
 ---
 title: "China Political Economy Weekly: Fiscal Support Takes the Lead"
 date: 2026-08-25 17:27:56
-updated: 2026-08-25 17:27:56
+updated: 2026-08-25 17:41:00
 slug: china-political-economy-weekly-fiscal-support
+translation_key: china-political-economy-weekly-2026-08-25
 description: "China’s July slowdown is pushing policy toward faster fiscal execution and targeted credit support, while broad rate cuts remain on hold."
 categories:
   - Money & Markets
@@ -24,6 +25,8 @@ lang: en
 </div>
 
 > **Reporting window:** August 17–23, 2026 (Beijing time). Published August 25, 2026.
+>
+> **Languages:** **English** · [中文](/2026/08/china-political-economy-weekly-fiscal-support-zh/) · [日本語](/2026/08/china-political-economy-weekly-fiscal-support-ja/)
 
 <!-- more -->
 
