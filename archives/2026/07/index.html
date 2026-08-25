@@ -530,10 +530,53 @@
       };
 
       const cards = Array.from(essaysMain.querySelectorAll(".post-block"));
+
+      const renderCardLanguage = (card, selectedLanguage) => {
+        const state = card.__portfolioTranslationState;
+        if (!state) return;
+
+        const selectedLanguageEntry = selectedLanguage === "all"
+          ? null
+          : state.group?.languages
+              ?.find(language => language.code === selectedLanguage);
+        const selectedEntry = selectedLanguageEntry
+          ? entryByPath.get(normalizePath(selectedLanguageEntry.path))
+          : state.defaultEntry;
+        const selectedPath = selectedEntry?.path || state.defaultPath;
+        const selectedCode = selectedEntry?.langCode || state.defaultLanguage;
+        const selectedTitle = selectedCode === "ZH" && state.group?.cardTitle
+          ? state.group.cardTitle
+          : (selectedEntry?.title || state.defaultTitle);
+        const selectedDescription = selectedEntry?.description || state.defaultDescription;
+
+        if (state.titleLink) {
+          state.titleLink.href = selectedPath;
+          state.titleLink.textContent = selectedTitle;
+        }
+        if (state.readMoreLink) state.readMoreLink.href = selectedPath;
+        if (state.descriptionNode) state.descriptionNode.textContent = selectedDescription;
+        if (state.languageTag) {
+          state.languageTag.textContent = selectedCode;
+          state.languageTag.setAttribute("aria-label", languageLabels[selectedCode]);
+        }
+        if (state.postContent) {
+          state.postContent.lang = selectedCode === "EN" ? "en" : selectedCode === "JA" ? "ja" : "zh";
+          state.postContent.querySelector('[itemprop="mainEntityOfPage"]')?.setAttribute("href", selectedPath);
+        }
+        state.translationLinks?.querySelectorAll("a").forEach(link => {
+          const isCurrent = normalizePath(link.getAttribute("href")) === normalizePath(selectedPath);
+          if (isCurrent) link.setAttribute("aria-current", "page");
+          else link.removeAttribute("aria-current");
+        });
+      };
+
       cards.forEach(card => {
         const path = getPostPath(card);
         const entry = entryByPath.get(path);
         const group = entry ? groupByKey.get(entry.translationKey) : null;
+        const defaultEntry = group
+          ? entryByPath.get(normalizePath(group.primaryPath)) || entry
+          : entry;
         const languages = group?.languages || [{
           code: normalizeLanguage(card.querySelector(".post-content")?.getAttribute("lang")),
           path
@@ -542,37 +585,42 @@
         card.dataset.topic = topicValue(group?.category || entry?.category || "");
         card.dataset.languages = languages.map(language => language.code).join(",");
 
-        if (group?.cardTitle) {
-          const titleLink = card.querySelector(".post-title-link");
-          if (titleLink) {
-            titleLink.href = group.primaryPath;
-            titleLink.textContent = group.cardTitle;
-          }
-          const readMoreLink = card.querySelector(".post-button .btn");
-          if (readMoreLink) readMoreLink.href = group.primaryPath;
+        card.__portfolioTranslationState = {
+          group,
+          defaultEntry,
+          defaultPath: group?.primaryPath || path,
+          defaultTitle: group?.cardTitle || defaultEntry?.title || card.querySelector(".post-title-link")?.textContent.trim() || "",
+          defaultDescription: defaultEntry?.description || card.querySelector(".post-body > p")?.textContent.trim() || "",
+          defaultLanguage: defaultEntry?.langCode || normalizeLanguage(card.querySelector(".post-content")?.getAttribute("lang")),
+          titleLink: card.querySelector(".post-title-link"),
+          descriptionNode: card.querySelector(".post-body > p"),
+          readMoreLink: card.querySelector(".post-button .btn"),
+          languageTag: card.querySelector(".portfolio-lang-tag"),
+          postContent: card.querySelector(".post-content"),
+          translationLinks: null
+        };
+
+        if (group && group.languages.length >= 2) {
+          const translationLinks = document.createElement("nav");
+          translationLinks.className = "portfolio-translation-links";
+          translationLinks.setAttribute("aria-label", "Available translations");
+
+          const translationLabel = document.createElement("span");
+          translationLabel.textContent = "Read in";
+          translationLinks.appendChild(translationLabel);
+
+          group.languages.forEach(language => {
+            const link = document.createElement("a");
+            link.href = language.path;
+            link.textContent = languageNames[language.code];
+            translationLinks.appendChild(link);
+          });
+
+          card.__portfolioTranslationState.translationLinks = translationLinks;
+          card.querySelector(".post-header")?.appendChild(translationLinks);
         }
 
-        if (!group || group.languages.length < 2) return;
-
-        const translationLinks = document.createElement("nav");
-        translationLinks.className = "portfolio-translation-links";
-        translationLinks.setAttribute("aria-label", "Available translations");
-
-        const translationLabel = document.createElement("span");
-        translationLabel.textContent = "Read in";
-        translationLinks.appendChild(translationLabel);
-
-        group.languages.forEach(language => {
-          const link = document.createElement("a");
-          link.href = language.path;
-          link.textContent = languageNames[language.code];
-          if (normalizePath(language.path) === path) {
-            link.setAttribute("aria-current", "page");
-          }
-          translationLinks.appendChild(link);
-        });
-
-        card.querySelector(".post-header")?.appendChild(translationLinks);
+        renderCardLanguage(card, "all");
       });
 
       const activeValue = groupName => {
@@ -591,6 +639,7 @@
           const languages = String(card.dataset.languages || "").split(",");
           const languageMatches = selectedLanguage === "all" || languages.includes(selectedLanguage);
           const visible = topicMatches && languageMatches;
+          renderCardLanguage(card, selectedLanguage);
           card.hidden = !visible;
           if (visible) visibleCount += 1;
         });
