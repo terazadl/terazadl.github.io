@@ -5,11 +5,11 @@ const { escapeHTML } = require('hexo-util');
 const sectionSeo = {
   'writing/index.html': {
     title: 'Writing',
-    description: "Browse Lei Deng's research writing on artificial intelligence, financial markets, quantitative research, and institutional change in Japan."
+    description: "Browse Lei Deng's research writing on political economy, financial markets, technology, and institutional change in China and Japan."
   },
   'essays/index.html': {
     title: 'Essays',
-    description: 'Selected essays by Lei Deng on AI, markets, Japan, money, and institutional change.'
+    description: 'Selected essays by Lei Deng on political economy, financial markets, technology, and institutional change in China and Japan.'
   }
 };
 
