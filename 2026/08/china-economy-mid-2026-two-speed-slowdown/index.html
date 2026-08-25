@@ -75,7 +75,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital@0;1&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/main.css?v=20260730-4">
+<link rel="stylesheet" href="/css/main.css?v=20260825-3">
 <meta name="theme-color" content="#f5f1e8"><meta name="author" content="Lei Deng">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <meta name="twitter:title" content="中国经济还在增长，为什么体感仍然偏冷？——2026年中期的三层指标">
@@ -90,7 +90,7 @@
   "name": "Lei Deng",
   "url": "https://terazadl.github.io/",
   "sameAs": ["https://github.com/terazadl"],
-  "knowsAbout": ["artificial intelligence", "financial markets", "quantitative research", "Japan"]
+  "knowsAbout": ["political economy", "financial markets", "technology", "artificial intelligence", "institutional change", "China", "Japan"]
 }
 </script><script type="application/ld+json">
 {
@@ -131,7 +131,7 @@
       <p class="site-title">Lei Deng</p>
       <i class="logo-line"></i>
     </a>
-      <p class="site-subtitle" itemprop="description">Japan, Money & AI Industry</p>
+      <p class="site-subtitle" itemprop="description">Political Economy, Markets & Technology</p>
   </div>
 
   <div class="site-nav-right">
@@ -153,13 +153,13 @@
   <a class="research-brand" href="/" rel="home" aria-label="Lei Deng — home">
     <span class="research-brand-name">Lei Deng</span>
     <span class="research-brand-divider" aria-hidden="true"></span>
-    <span class="research-brand-field">AI, Markets &amp; Technology</span>
+    <span class="research-brand-field">Political Economy, Markets &amp; Technology</span>
   </a>
 
   <nav class="research-desktop-nav" aria-label="Primary navigation">
-    <a href="/#research" data-nav-root="research">Research</a>
+    <a href="/#latest" data-nav-root="latest">Latest</a>
     <a href="/essays/" data-nav-root="essays">Essays</a>
-    <a href="/categories/notes/" data-nav-root="notes">Notes</a>
+    <a href="/#topics" data-nav-root="topics">Topics</a>
     <a href="/about/" data-nav-root="about">About</a>
   </nav>
 
@@ -179,9 +179,9 @@
   </button>
 
   <nav class="research-mobile-nav" id="research-mobile-navigation" aria-label="Mobile navigation">
-    <a href="/#research">Research</a>
+    <a href="/#latest">Latest</a>
     <a href="/essays/">Essays</a>
-    <a href="/categories/notes/">Notes</a>
+    <a href="/#topics">Topics</a>
     <a href="/about/">About</a>
     <a href="https://github.com/terazadl" target="_blank" rel="noopener">
       GitHub <i class="fa fa-external-link-alt" aria-hidden="true"></i>
@@ -193,12 +193,12 @@
   (() => {
     const path = decodeURIComponent(window.location.pathname);
     let section = "";
-    if (path === "/" || path.includes("/is-bitcoin-digital-gold/")) section = "research";
+    if (path === "/") section = "latest";
     if (
-      section !== "research" &&
+      section !== "latest" &&
       (path.startsWith("/essays/") || path.startsWith("/writing/") || path.startsWith("/archives/") || path.match(/^\/2026\//))
     ) section = "essays";
-    if (path.startsWith("/categories/notes/")) section = "notes";
+    if (path.startsWith("/categories/") || path.startsWith("/tags/")) section = "topics";
     if (path.startsWith("/about/")) section = "about";
     const current = document.querySelector(`[data-nav-root="${section}"]`);
     if (current) {
@@ -233,7 +233,7 @@
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">Lei Deng</p>
-  <div class="site-description" itemprop="description">Independent research by Lei Deng on artificial intelligence, financial markets, quantitative research, and institutional change in Japan.</div>
+  <div class="site-description" itemprop="description">Independent research by Lei Deng on political economy, financial markets, technology, and institutional change in China and Japan.</div>
 </div>
 
         </div>
@@ -266,7 +266,7 @@
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="Lei Deng">
-      <meta itemprop="description" content="Independent research by Lei Deng on artificial intelligence, financial markets, quantitative research, and institutional change in Japan.">
+      <meta itemprop="description" content="Independent research by Lei Deng on political economy, financial markets, technology, and institutional change in China and Japan.">
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
@@ -518,22 +518,312 @@
 </noscript>
 <script class="next-config" data-name="utterances" type="application/json">{"enable":true,"repo":"terazadl/blog-comments","issue_term":"pathname","theme":"github-light"}</script>
 <script src="/js/third-party/comments/utterances.js" defer></script>
+<script src="/js/content-index.js?v=20260825-1"></script>
 <script>
   (() => {
-    const posts = document.querySelectorAll(".post-block");
-    posts.forEach(post => {
+    const contentIndex = window.__SITE_CONTENT_INDEX__ || { entries: [], groups: [] };
+    const languageNames = {
+      EN: "English",
+      ZH: "中文",
+      JA: "日本語"
+    };
+    const languageLabels = {
+      EN: "Article language: English",
+      ZH: "文章语言：中文",
+      JA: "記事の言語：日本語"
+    };
+
+    const normalizePath = value => {
+      try {
+        return new URL(value, window.location.origin).pathname;
+      } catch (error) {
+        return String(value || "");
+      }
+    };
+
+    const normalizeLanguage = value => {
+      const language = String(value || "").toLowerCase();
+      if (language.startsWith("en")) return "EN";
+      if (language.startsWith("ja")) return "JA";
+      return "ZH";
+    };
+
+    const entryByPath = new Map(
+      contentIndex.entries.map(entry => [normalizePath(entry.path), entry])
+    );
+    const groupByKey = new Map(
+      contentIndex.groups.map(group => [group.key, group])
+    );
+
+    const getPostPath = post => {
+      const link = post.querySelector(".post-title-link");
+      if (link) return normalizePath(link.getAttribute("href"));
+      return normalizePath(window.location.pathname);
+    };
+
+    document.querySelectorAll(".post-block").forEach(post => {
       const meta = post.querySelector(".post-meta-container");
       if (!meta || meta.querySelector(".portfolio-lang-tag")) return;
-      const languageMarker = post.querySelector("[data-article-language]");
+
+      const article = post.querySelector(".post-content");
+      const marker = post.querySelector("[data-article-language]");
+      const entry = entryByPath.get(getPostPath(post));
+      const language = normalizeLanguage(
+        article?.getAttribute("lang") || marker?.dataset.articleLanguage || entry?.langCode
+      );
       const tag = document.createElement("span");
       tag.className = "portfolio-lang-tag";
-      tag.textContent = languageMarker?.dataset.articleLanguage || "ZH";
-      tag.setAttribute(
-        "aria-label",
-        tag.textContent === "EN" ? "Article language: English" : "Article language: Chinese"
-      );
+      tag.textContent = language;
+      tag.setAttribute("aria-label", languageLabels[language]);
       meta.appendChild(tag);
     });
+
+    const essaysMain = window.location.pathname.startsWith("/essays/")
+      ? document.querySelector(".main-inner.index.posts-expand")
+      : null;
+
+    if (essaysMain) {
+      document.body.classList.add("portfolio-essays-page");
+
+      const pageHeader = document.createElement("header");
+      pageHeader.className = "portfolio-essays-header";
+
+      const eyebrow = document.createElement("p");
+      eyebrow.className = "research-eyebrow";
+      eyebrow.textContent = "Research archive";
+
+      const title = document.createElement("h1");
+      title.textContent = "Essays";
+
+      const intro = document.createElement("p");
+      intro.textContent = "Long-form research on political economy, financial markets, technology, and institutional change in China and Japan.";
+
+      const filters = document.createElement("div");
+      filters.className = "portfolio-essay-filters";
+      filters.setAttribute("aria-label", "Filter essays");
+
+      const createFilter = (name, values) => {
+        const group = document.createElement("div");
+        group.className = "portfolio-filter-group";
+        group.dataset.filterGroup = name.toLowerCase();
+
+        const label = document.createElement("span");
+        label.className = "portfolio-filter-label";
+        label.textContent = name;
+        group.appendChild(label);
+
+        values.forEach((value, index) => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = "portfolio-filter-button";
+          button.dataset.filterValue = value.value;
+          button.textContent = value.label;
+          button.setAttribute("aria-pressed", String(index === 0));
+          if (index === 0) button.classList.add("is-active");
+          group.appendChild(button);
+        });
+
+        return group;
+      };
+
+      filters.append(
+        createFilter("Topic", [
+          { value: "all", label: "All" },
+          { value: "markets", label: "Money & Markets" },
+          { value: "ai", label: "AI & Industry" },
+          { value: "japan", label: "Japan" }
+        ]),
+        createFilter("Language", [
+          { value: "all", label: "All" },
+          { value: "EN", label: "EN" },
+          { value: "ZH", label: "中文" },
+          { value: "JA", label: "日本語" }
+        ])
+      );
+
+      const status = document.createElement("p");
+      status.className = "portfolio-essay-status";
+      status.setAttribute("aria-live", "polite");
+
+      pageHeader.append(eyebrow, title, intro, filters, status);
+      essaysMain.insertBefore(pageHeader, essaysMain.firstChild);
+
+      const topicValue = category => {
+        if (category === "Money & Markets") return "markets";
+        if (category === "AI & Industry") return "ai";
+        if (category === "Japan") return "japan";
+        return "other";
+      };
+
+      const cards = Array.from(essaysMain.querySelectorAll(".post-block"));
+      cards.forEach(card => {
+        const path = getPostPath(card);
+        const entry = entryByPath.get(path);
+        const group = entry ? groupByKey.get(entry.translationKey) : null;
+        const languages = group?.languages || [{
+          code: normalizeLanguage(card.querySelector(".post-content")?.getAttribute("lang")),
+          path
+        }];
+
+        card.dataset.topic = topicValue(group?.category || entry?.category || "");
+        card.dataset.languages = languages.map(language => language.code).join(",");
+
+        if (group?.cardTitle) {
+          const titleLink = card.querySelector(".post-title-link");
+          if (titleLink) {
+            titleLink.href = group.primaryPath;
+            titleLink.textContent = group.cardTitle;
+          }
+          const readMoreLink = card.querySelector(".post-button .btn");
+          if (readMoreLink) readMoreLink.href = group.primaryPath;
+        }
+
+        if (!group || group.languages.length < 2) return;
+
+        const translationLinks = document.createElement("nav");
+        translationLinks.className = "portfolio-translation-links";
+        translationLinks.setAttribute("aria-label", "Available translations");
+
+        const translationLabel = document.createElement("span");
+        translationLabel.textContent = "Read in";
+        translationLinks.appendChild(translationLabel);
+
+        group.languages.forEach(language => {
+          const link = document.createElement("a");
+          link.href = language.path;
+          link.textContent = languageNames[language.code];
+          if (normalizePath(language.path) === path) {
+            link.setAttribute("aria-current", "page");
+          }
+          translationLinks.appendChild(link);
+        });
+
+        card.querySelector(".post-header")?.appendChild(translationLinks);
+      });
+
+      const activeValue = groupName => {
+        return filters.querySelector(
+          '[data-filter-group="' + groupName + '"] .portfolio-filter-button.is-active'
+        )?.dataset.filterValue || "all";
+      };
+
+      const applyFilters = () => {
+        const selectedTopic = activeValue("topic");
+        const selectedLanguage = activeValue("language");
+        let visibleCount = 0;
+
+        cards.forEach(card => {
+          const topicMatches = selectedTopic === "all" || card.dataset.topic === selectedTopic;
+          const languages = String(card.dataset.languages || "").split(",");
+          const languageMatches = selectedLanguage === "all" || languages.includes(selectedLanguage);
+          const visible = topicMatches && languageMatches;
+          card.hidden = !visible;
+          if (visible) visibleCount += 1;
+        });
+
+        status.textContent = visibleCount + (visibleCount === 1 ? " essay" : " essays");
+      };
+
+      filters.querySelectorAll(".portfolio-filter-button").forEach(button => {
+        button.addEventListener("click", () => {
+          const group = button.closest(".portfolio-filter-group");
+          group.querySelectorAll(".portfolio-filter-button").forEach(option => {
+            const active = option === button;
+            option.classList.toggle("is-active", active);
+            option.setAttribute("aria-pressed", String(active));
+          });
+          applyFilters();
+        });
+      });
+
+      applyFilters();
+    }
+
+    const latestList = document.getElementById("research-latest-list");
+    if (latestList) {
+      const latestGroups = contentIndex.groups
+        .filter(group => group.category !== "Notes")
+        .slice(0, 3);
+
+      latestGroups.forEach(group => {
+        const row = document.createElement("article");
+        row.className = "research-latest-row";
+
+        const meta = document.createElement("div");
+        meta.className = "research-latest-meta";
+        const date = document.createElement("time");
+        date.dateTime = group.date;
+        date.textContent = group.date;
+        const detail = document.createElement("span");
+        detail.textContent = group.category;
+        meta.append(date, detail);
+
+        if (group.languages.length > 1) {
+          const languageLinks = document.createElement("nav");
+          languageLinks.className = "research-latest-language-links";
+          languageLinks.setAttribute("aria-label", "Available editions");
+          group.languages.forEach(language => {
+            const languageLink = document.createElement("a");
+            languageLink.href = language.path;
+            languageLink.textContent = languageNames[language.code];
+            languageLinks.appendChild(languageLink);
+          });
+          meta.appendChild(languageLinks);
+        } else {
+          detail.textContent += " · " + group.languages[0].code;
+        }
+
+        const heading = document.createElement("h3");
+        const titleLink = document.createElement("a");
+        titleLink.href = group.primaryPath;
+        titleLink.textContent = group.title;
+        heading.appendChild(titleLink);
+
+        const description = document.createElement("p");
+        description.textContent = group.description;
+
+        const readLink = document.createElement("a");
+        readLink.className = "research-arrow-link";
+        readLink.href = group.primaryPath;
+        readLink.append("Read article ");
+        const icon = document.createElement("i");
+        icon.className = "fa fa-arrow-right";
+        icon.setAttribute("aria-hidden", "true");
+        readLink.appendChild(icon);
+
+        row.append(meta, heading, description, readLink);
+        latestList.appendChild(row);
+      });
+    }
+
+    const postArticle = document.querySelector(
+      ".main-inner:not(.index) .post-block .post-content"
+    );
+    const desktopTocLinks = document.querySelectorAll(".post-toc .nav-link");
+    if (postArticle && desktopTocLinks.length) {
+      const details = document.createElement("details");
+      details.className = "mobile-article-toc";
+
+      const summary = document.createElement("summary");
+      summary.textContent = "On this page";
+
+      const list = document.createElement("ol");
+      desktopTocLinks.forEach(tocLink => {
+        const item = document.createElement("li");
+        const link = document.createElement("a");
+        link.href = tocLink.getAttribute("href");
+        link.textContent = tocLink.textContent.trim();
+        link.addEventListener("click", () => {
+          details.open = false;
+        });
+        item.appendChild(link);
+        list.appendChild(item);
+      });
+
+      details.append(summary, list);
+      const postBody = postArticle.querySelector(".post-body");
+      if (postBody) postArticle.insertBefore(details, postBody);
+    }
   })();
 
   (() => {
@@ -600,24 +890,6 @@
     document.addEventListener("keydown", event => {
       if (event.key === "Escape") setOpen(false);
     });
-  })();
-
-  (() => {
-    const notesCategory = document.querySelector(
-      '.post-meta-container a[href="/categories/notes/"]'
-    );
-    if (!notesCategory) return;
-
-    document.querySelectorAll(".research-desktop-nav a").forEach(link => {
-      link.classList.remove("is-active");
-      link.removeAttribute("aria-current");
-    });
-
-    const notesLink = document.querySelector('[data-nav-root="notes"]');
-    if (notesLink) {
-      notesLink.classList.add("is-active");
-      notesLink.setAttribute("aria-current", "page");
-    }
   })();
 </script>
 
