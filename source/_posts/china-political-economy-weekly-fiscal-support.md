@@ -1,5 +1,5 @@
 ---
-title: "China Political Economy Weekly: Fiscal Support Takes the Lead"
+title: "China Political Economy Weekly | Aug 17–23, 2026: Fiscal Support Takes the Lead"
 date: 2026-08-25 17:27:56
 updated: 2026-08-25 17:41:00
 slug: china-political-economy-weekly-fiscal-support

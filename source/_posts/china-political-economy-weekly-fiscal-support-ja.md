@@ -1,5 +1,5 @@
 ---
-title: "中国政経ウィークリー：財政支援が前面に"
+title: "中国政経ウィークリー｜2026年8月17日〜23日：財政支援が前面に"
 date: 2026-08-25 17:41:00
 updated: 2026-08-25 17:41:00
 slug: china-political-economy-weekly-fiscal-support-ja
