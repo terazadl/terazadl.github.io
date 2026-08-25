@@ -4,6 +4,7 @@ date: 2026-08-25 17:40:00
 updated: 2026-08-25 17:40:00
 slug: china-political-economy-weekly-fiscal-support-zh
 translation_key: china-political-economy-weekly-2026-08-25
+card_title: "中国政经周报｜2026年8月17日—23日：财政支持走到前台"
 description: "7月经济活动走弱，政策重心正转向加快财政执行和定向信贷支持，全面降息仍是次要选项。"
 categories:
   - Money & Markets

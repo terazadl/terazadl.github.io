@@ -20,7 +20,8 @@ hexo.extend.generator.register('essays', function(locals) {
   });
 
   const preferredPosts = Array.from(groupedPosts.values()).map(group => {
-    return group.find(post => String(post.lang || '').toLowerCase().startsWith('en'))
+    return group.find(post => post.card_title)
+      || group.find(post => String(post.lang || '').toLowerCase().startsWith('en'))
       || group.find(post => String(post.lang || '').toLowerCase().startsWith('zh'))
       || group[0];
   });

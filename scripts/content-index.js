@@ -23,6 +23,7 @@ hexo.extend.generator.register('content-index', function(locals) {
       return {
         path: `/${String(post.path || '').replace(/^\/+/, '')}`,
         title: String(post.title || ''),
+        cardTitle: String(post.card_title || ''),
         description: String(post.description || ''),
         date: post.date?.format?.('YYYY-MM-DD') || '',
         category: categories[0]?.name || 'Uncategorized',
@@ -38,7 +39,8 @@ hexo.extend.generator.register('content-index', function(locals) {
   });
 
   const groups = Array.from(groupedEntries.entries()).map(([key, groupEntries]) => {
-    const primary = groupEntries.find(entry => entry.langCode === 'EN')
+    const primary = groupEntries.find(entry => entry.cardTitle)
+      || groupEntries.find(entry => entry.langCode === 'EN')
       || groupEntries.find(entry => entry.langCode === 'ZH')
       || groupEntries[0];
     const languages = groupEntries
@@ -53,7 +55,8 @@ hexo.extend.generator.register('content-index', function(locals) {
       key,
       date: groupEntries[0].date,
       primaryPath: primary.path,
-      title: primary.title,
+      cardTitle: primary.cardTitle,
+      title: primary.cardTitle || primary.title,
       description: primary.description,
       category: primary.category,
       languages
