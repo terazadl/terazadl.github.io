@@ -1,0 +1,1781 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Lei Deng｜最新文章</title>
+  <subtitle>邓磊关于政治经济、金融市场、技术与中日制度变迁的独立研究。</subtitle>
+  <id>https://terazadl.github.io/</id>
+  <link href="https://terazadl.github.io/atom.xml" rel="self"/>
+  <link href="https://terazadl.github.io/"/>
+  <updated>2026-08-30T09:15:00.000Z</updated>
+  <author><name>Lei Deng</name></author>
+  <entry>
+    <title>China Political Economy Weekly | Aug 24–30, 2026: Credit Rules Are Being Rewritten</title>
+    <id>https://terazadl.github.io/2026/08/china-political-economy-weekly-credit-rules-2026-08-30/</id>
+    <link href="https://terazadl.github.io/2026/08/china-political-economy-weekly-credit-rules-2026-08-30/"/>
+    <published>2026-08-30T08:30:00.000Z</published>
+    <updated>2026-08-30T09:15:00.000Z</updated>
+    <summary type="html"><![CDATA[Industrial profits are recovering unevenly as China redesigns property credit, manages liquidity without a new LPR signal, and brings AI into payment governance.]]></summary>
+    <content type="html"><![CDATA[<p><span hidden data-article-language="EN"></span></p>
+<div class="abstract">
+  <span class="abstract-label">Weekly thesis</span>
+  China is not simply preparing a larger round of broad stimulus. This week it began rewriting how credit is controlled: industrial profits are improving unevenly, property finance is being reorganized around projects and delivery, the central bank is managing liquidity without sending a new LPR signal, and AI is moving into payment responsibility and computing infrastructure governance.
+</div>
+
+<blockquote>
+<p><strong>Reporting window:</strong> August 24–30, 2026 (Beijing time). Published August 30, 2026.</p>
+<p><strong>Caixin Weekly frame:</strong> Issue No. 1220, published August 24, 2026. The next issue falls outside this reporting cutoff.</p>
+<p><strong>Languages:</strong> <strong>English</strong> · <a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-zh/">中文</a> · <a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-ja/">日本語</a></p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="Executive-Summary"><a href="#Executive-Summary" class="headerlink" title="Executive Summary"></a>Executive Summary</h2><ul>
+<li><strong>Profit growth is still narrow.</strong> Industrial profits rose 17.6% in January–July, but electronics and resource-linked sectors carried much of the improvement while autos, building materials and utilities remained weak. Receivables and inventories continued to rise, so the headline does not yet describe a broad demand recovery.</li>
+<li><strong>Property policy is becoming a credit-infrastructure redesign.</strong> New rules combine project lead banks, longer development-loan maturities for current-sale projects, a 40-year ceiling for personal mortgages, later disbursement of presale mortgages and tighter project-account controls. Securities financing is also being organized around projects rather than unrestricted developer balance sheets.</li>
+<li><strong>Liquidity is being kept available while price signals remain restrained.</strong> The central bank rolled over 5tn yuan of one-year MLF against 6tn yuan of maturities and scheduled large overnight reverse repos. This looks more like targeted liquidity management than a direct promise of an LPR cut.</li>
+<li><strong>AI is entering the responsibility layer of finance.</strong> A self-regulatory convention for agent payments calls for “know your agent” checks, clear authorization, licensed institutions and testing, monitoring and rollback before autonomous payment.</li>
+<li><strong>Personnel handling is now part of the political-economy signal.</strong> Four military delegates lost their National People’s Congress qualifications; Zhang Youxia and Liu Zhenli also lost Central Military Commission posts. Public notices did not disclose reasons, so the report stays with verifiable institutional facts.</li>
+</ul>
+<h2 id="1-Industrial-profits-aggregate-improvement-narrow-base"><a href="#1-Industrial-profits-aggregate-improvement-narrow-base" class="headerlink" title="1. Industrial profits: aggregate improvement, narrow base"></a>1. Industrial profits: aggregate improvement, narrow base</h2><p>The National Bureau of Statistics reported that profits at large industrial firms reached RMB 4.582tn in January–July, up 17.6% year on year. Revenue rose 6.5% and the operating margin increased to 5.66%, up 0.54 percentage points.<a href="https://www.stats.gov.cn/sj/zxfb/202608/t20260827_1965126.html">National Bureau of Statistics</a></p>
+<table>
+<thead>
+<tr>
+<th>Indicator</th>
+<th align="right">Jan–Jul year on year</th>
+<th>Reading</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>State-controlled firms</td>
+<td align="right">+16.3%</td>
+<td>Faster repair in policy-linked sectors</td>
+</tr>
+<tr>
+<td>Private firms</td>
+<td align="right">+10.9%</td>
+<td>Improving, but below the aggregate</td>
+</tr>
+<tr>
+<td>Foreign and Hong Kong&#x2F;Macau&#x2F;Taiwan firms</td>
+<td align="right">+1.2%</td>
+<td>Limited improvement</td>
+</tr>
+<tr>
+<td>Computers, communications and electronics</td>
+<td align="right">about +110%</td>
+<td>Main high-tech bright spot</td>
+</tr>
+<tr>
+<td>Auto manufacturing</td>
+<td align="right">-20.4%</td>
+<td>Price competition and demand pressure</td>
+</tr>
+<tr>
+<td>Non-metal mineral products</td>
+<td align="right">-48.2%</td>
+<td>Property and traditional investment drag</td>
+</tr>
+<tr>
+<td>Accounts receivable</td>
+<td align="right">+8.5%</td>
+<td>Cash collection remains difficult</td>
+</tr>
+<tr>
+<td>Finished-goods inventories</td>
+<td align="right">+10.8%</td>
+<td>Inventory and sales matching need watching</td>
+</tr>
+</tbody></table>
+<p>This is better described as <strong>structural profit repair</strong> than as a synchronized domestic recovery. Electronics, non-ferrous metals, chemicals and mining may be benefiting from sector position, prices or export composition, while autos, construction materials and utilities remain under pressure. The combination of higher receivables and inventories is a reminder that accounting profit has not necessarily become healthy cash flow.</p>
+<p>The useful follow-up questions are whether profits turn into cash, whether private firms receive new orders, whether inventories fall and whether price competition eases in traditional sectors.</p>
+<h2 id="2-Property-from-borrower-identity-to-project-delivery-and-ring-fenced-funds"><a href="#2-Property-from-borrower-identity-to-project-delivery-and-ring-fenced-funds" class="headerlink" title="2. Property: from borrower identity to project, delivery and ring-fenced funds"></a>2. Property: from borrower identity to project, delivery and ring-fenced funds</h2><p>On August 28, the central bank and financial regulator released a 36-article property-credit opinion. The package includes:</p>
+<ul>
+<li>a lead-bank system in which one bank manages the financing of a project;</li>
+<li>development-loan maturities of up to five years for presale projects and up to seven years for current-sale projects;</li>
+<li>a 40-year maximum for personal housing loans;</li>
+<li>disbursement of presale mortgages only after completion filing; and</li>
+<li>project-company or presale-supervision accounts for loan proceeds.<a href="https://www.xinhuanet.com/20260828/36dc5659375e407abd8e01a281305df5/c.html">Xinhua summary of the PBOC and financial-regulator opinion</a></li>
+</ul>
+<p>The CSRC separately supported listed-developer refinancing, corporate bonds, CMBS, ABS, rental-housing and urban-renewal REITs, while emphasizing project-level financing and more penetrating disclosure controls.<a href="https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml">CSRC opinion</a></p>
+<p>This is not a one-way property easing. It supports viable projects while trying to isolate presale and group-credit risks. For buyers, later mortgage disbursement and closed-loop funds may reduce delivery risk. For developers, however, the conversion of presales into usable cash may take longer and project-level execution becomes more important.</p>
+<p>In the short run, some presale projects could see slower mortgage conversion. The longer-term test is whether projects can actually obtain a lead bank, whether supervised funds remain inside the project and whether current-sale and second-hand transactions improve. The rules do not prove that national home prices have bottomed.</p>
+<h2 id="3-Monetary-policy-medium-term-funds-and-overnight-tools-still-no-LPR-signal"><a href="#3-Monetary-policy-medium-term-funds-and-overnight-tools-still-no-LPR-signal" class="headerlink" title="3. Monetary policy: medium-term funds and overnight tools, still no LPR signal"></a>3. Monetary policy: medium-term funds and overnight tools, still no LPR signal</h2><p>On August 25, the PBOC conducted RMB 500bn of one-year MLF operations. With RMB 600bn maturing in the month, MLF was a net contraction of RMB 100bn. The central bank also scheduled overnight reverse repos from August 27 to September 1, with a daily ceiling of RMB 600bn.<a href="https://www.thepaper.cn/newsDetail_forward_33840494">PBOC operation report</a></p>
+<p>Caixin’s earlier explanation of the overnight tool stressed its role in both emergency and routine short-term liquidity management, rather than treating every operation as a new policy-rate signal.<a href="https://finance.caixin.com/2026-08-19/102475698.html">Caixin context</a></p>
+<p>The weekly combination is best summarized as <strong>liquidity kept usable, price signals kept cautious</strong>. A smaller MLF rollover is not automatically tightening, and a large overnight facility is not automatically broad easing. An LPR decision still depends on policy rates, deposit costs, bank net interest margins and fiscal execution. There was no new LPR-cut signal this week.</p>
+<h2 id="4-AI-and-finance-from-capability-to-authorization-accountability-and-rollback"><a href="#4-AI-and-finance-from-capability-to-authorization-accountability-and-rollback" class="headerlink" title="4. AI and finance: from capability to authorization, accountability and rollback"></a>4. AI and finance: from capability to authorization, accountability and rollback</h2><p>Issue No. 1220 of <em>Caixin Weekly</em> placed “AI infrastructure: Southeast Asia’s next battleground” on its cover, alongside pieces on personal-information protection, AI portfolio repositioning and L3 autonomous driving. The issue’s public table of contents frames AI competition as a combination of computing, energy, cross-border deployment, data governance and commercialization—not just model quality.<a href="https://weekly.caixin.com/2026/cw1220/">Caixin Weekly No. 1220</a></p>
+<p>The cover story’s public summary describes Southeast Asia as a recipient of global computing spillovers and notes the participation of Chinese data-center operators, colocation providers, and power, energy and liquid-cooling suppliers. The weekly broadcast identifies local-grid balancing as a major constraint.<a href="https://weekly.caixin.com/2026-08-21/102476335.html">Cover-story summary</a> <a href="https://weekly.caixin.com/zkdb/index.html">Weekly broadcast</a> <strong>My inference from these public summaries</strong> is that Chinese AI expansion abroad means exporting data-center, power and operations capabilities as well as models or servers. Policy monitoring therefore needs to track approvals, electricity and risk pricing across borders, not only domestic computing capacity.</p>
+<p>On August 24, the China Payment Clearing Association released a self-regulatory convention for agent payments. It calls for “know your agent” checks, clear user authorization, identity and intent verification, licensed institutions for core payment and clearing functions, and reporting, evaluation, security testing, monitoring and rollback before an agent makes autonomous payments.<a href="https://www.xinhuanet.com/20260824/4efa360edc8a486dbf0b19d0fb37ef41/c.html">Xinhua report</a></p>
+<p>The National Data Administration said national intelligent-computing capacity had reached 2.45m PFLOPS (FP16) by the end of July, with the eight national computing hubs and three computing-power&#x2F;electricity coordination zones accounting for more than 85% of the total.<a href="https://www.nda.gov.cn/sjj/jgsz/jld/llh/llhldhd/0829/20260829150055779816795_pc.html">National Data Administration</a></p>
+<p>Together, these developments move AI governance toward practical questions: who authorized a transaction, who executed it, who bears the loss, and how can the system be stopped? Those controls are becoming part of the product, not a legal appendix.</p>
+<h2 id="5-Politics-and-governance-public-facts-show-continued-personnel-handling"><a href="#5-Politics-and-governance-public-facts-show-continued-personnel-handling" class="headerlink" title="5. Politics and governance: public facts show continued personnel handling"></a>5. Politics and governance: public facts show continued personnel handling</h2><p>On August 28, the Standing Committee of the National People’s Congress ended the representative qualifications of Zhang Youxia, Zhong Shaojun, Liu Zhenli and Ju Qiansheng. Zhang Youxia was removed as vice-chair of the Central Military Commission and Liu Zhenli as a CMC member.<a href="https://china.caixin.com/m/2026-08-28/102479454.html">Caixin report</a></p>
+<p>The public announcement confirms the institutional actions but does not explain the reasons. The safe analytical boundary is therefore to describe the personnel and qualification decisions, not to present undisclosed motives, factional interpretations or later criminal outcomes as facts.</p>
+<p>Shanghai’s deputy party secretary Zhu Zhongming also appeared on August 29 as municipal-government party secretary. His background spans finance, audit and central economic agencies, but a formal appointment as mayor had not been confirmed by the cutoff.<a href="https://china.caixin.com/m/2026-08-29/102479808.html">Caixin personnel report</a></p>
+<h2 id="6-External-environment-tariff-risk-remains-a-possibility-not-an-implemented-shock"><a href="#6-External-environment-tariff-risk-remains-a-possibility-not-an-implemented-shock" class="headerlink" title="6. External environment: tariff risk remains a possibility, not an implemented shock"></a>6. External environment: tariff risk remains a possibility, not an implemented shock</h2><p>On August 27, the Ministry of Commerce responded to the possibility that the United States could launch a Section 301 investigation into 16 economies over alleged “overcapacity” and potentially impose an additional 7.5% tariff on China. China opposed the move and reserved the right to take necessary measures.<a href="https://www.xinhuanet.com/20260827/7915bcf14cda488083f7ef4eed33ee05/c.html">Xinhua summary of the Ministry of Commerce briefing</a></p>
+<p>As of the cutoff, 7.5% was a possible measure, not an effective tariff. Its impact would depend on the product list, implementation timetable, exemptions and firms’ ability to pass through costs.</p>
+<h2 id="This-week’s-readout"><a href="#This-week’s-readout" class="headerlink" title="This week’s readout"></a>This week’s readout</h2><ol>
+<li><strong>The policy center is moving from cheap credit to controllable credit.</strong> Property finance, presale funds and agent-payment rules all strengthen traceability and responsibility.</li>
+<li><strong>Profit repair has not yet reached broad demand.</strong> High-tech and resource sectors are strong, but autos, construction materials, utilities and private firms remain under pressure.</li>
+<li><strong>An LPR cut is not the week’s main story.</strong> Liquidity is being maintained, while the central bank keeps price signals measured.</li>
+<li><strong>AI institutionalization is moving faster than business-model validation.</strong> Computing, energy, payment authorization and rollback rules are arriving before commercial returns are fully proven.</li>
+</ol>
+<h2 id="What-to-watch-next-week"><a href="#What-to-watch-next-week" class="headerlink" title="What to watch next week"></a>What to watch next week</h2><ul>
+<li>Official PMI new orders, construction activity and the small-enterprise index;</li>
+<li>local implementation of property-credit, current-sale and presale-fund rules;</li>
+<li>September open-market operations, policy rates and LPR quotations;</li>
+<li>whether industrial profit growth becomes lower receivables, lower inventories and better private-sector cash flow;</li>
+<li>the product scope and timetable of the U.S. Section 301 process;</li>
+<li>the first reporting, testing or licensed pilots for agent payments; and</li>
+<li>further confirmation of Shanghai’s mayoral appointment and military personnel decisions.</li>
+</ul>
+<h3 id="Editorial-disclosure"><a href="#Editorial-disclosure" class="headerlink" title="Editorial disclosure"></a>Editorial disclosure</h3><p>This newsletter is independently written. It synthesizes public records, official releases and reporting, including the public summaries and table of contents of <em>Caixin Weekly</em> Issue No. 1220. It does not reproduce paywalled text. Factual claims, analytical inferences and scenario judgments are kept distinct, and links are provided for attribution and further reading.</p>
+<p><em>This publication provides general political-economy analysis and does not constitute legal, financial, property, credit or investment advice.</em></p>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
+    <title>中国政经周报：信用规则重写，利润修复仍分化</title>
+    <id>https://terazadl.github.io/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-zh/</id>
+    <link href="https://terazadl.github.io/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-zh/"/>
+    <published>2026-08-30T08:30:00.000Z</published>
+    <updated>2026-08-30T09:15:00.000Z</updated>
+    <summary type="html"><![CDATA[工业利润修复仍高度分化，房地产信贷规则转向项目和交付管理，流动性保持可用但暂无新的LPR信号，AI治理进入支付责任层。]]></summary>
+    <content type="html"><![CDATA[<p><span hidden data-article-language="ZH"></span></p>
+<div class="abstract">
+  <span class="abstract-label">本周主线</span>
+  本周的主线不是简单加大总量刺激，而是开始重写信用和产业运行规则：工业利润反弹仍高度分化，房地产同步推进现房销售、项目制融资和按揭制度调整，央行用中期与隔夜工具维持流动性，人工智能则从模型竞争进入支付责任和算力基础设施治理。
+</div>
+
+<blockquote>
+<p><strong>报道区间：</strong> 2026年8月24日至30日（北京时间）。发布于2026年8月30日。</p>
+<p><strong>财新周刊参考：</strong> 《财新周刊》第1220期，2026年8月24日出版；下一期超出本期资料截止日。</p>
+<p><strong>语言版本：</strong> <a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30/">English</a> · <strong>中文</strong> · <a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-ja/">日本語</a></p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="执行摘要"><a href="#执行摘要" class="headerlink" title="执行摘要"></a>执行摘要</h2><ul>
+<li><strong>工业利润修复不等于需求全面恢复。</strong> 1—7月规模以上工业企业利润同比增长17.6%，但增长集中在电子、有色、化工、采矿等行业；汽车、非金属矿物制品和电力等行业仍明显承压。应收账款和产成品存货继续上升，现金流和产能问题没有消失。</li>
+<li><strong>房地产政策进入制度重构阶段。</strong> 央行、金融监管总局、住建等部门围绕现房销售、项目主办银行、预售资金和个人住房贷款同步调整；证监会则把股权、债券、ABS、REITs等融资工具纳入“项目制”框架。政策目标更接近重建信用基础设施、降低交付风险，而不是无条件恢复旧式地产杠杆。</li>
+<li><strong>货币政策继续“稳流动性、慎发价格信号”。</strong> 央行8月25日开展5000亿元MLF，本月到期量为6000亿元；同时安排8月27日至9月1日隔夜逆回购，每日上限6000亿元。这个组合更像月末和政府债发行期的流动性管理，不能直接等同于LPR即将下调。</li>
+<li><strong>AI开始进入金融交易的责任层。</strong> 中国支付清算协会发布智能体支付自律公约，提出“了解你的智能体”（KYA）、清晰授权、持牌机构负责和上线前报备评估；国家数据局披露全国智算规模已达到245万PFLOPS（FP16）。</li>
+<li><strong>政治信号集中在人员处理和执行问责。</strong> 张又侠、刘振立等四名军方代表资格终止，张又侠和刘振立的国家军委职务被免去；公开公告没有说明具体原因，分析应停留在可验证的制度事实层面。</li>
+</ul>
+<h2 id="一、工业利润反弹：总量改善，结构仍然很窄"><a href="#一、工业利润反弹：总量改善，结构仍然很窄" class="headerlink" title="一、工业利润反弹：总量改善，结构仍然很窄"></a>一、工业利润反弹：总量改善，结构仍然很窄</h2><p>国家统计局8月27日公布，1—7月全国规模以上工业企业实现利润总额 <strong>4.582万亿元</strong>，同比增长 <strong>17.6%</strong>；营业收入增长6.5%，营业收入利润率为5.66%，同比提高0.54个百分点。<a href="https://www.stats.gov.cn/sj/zxfb/202608/t20260827_1965126.html">国家统计局数据</a></p>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th align="right">1—7月同比</th>
+<th>读法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>国有控股企业利润</td>
+<td align="right">+16.3%</td>
+<td>政策和资源集中部门修复较快</td>
+</tr>
+<tr>
+<td>私营企业利润</td>
+<td align="right">+10.9%</td>
+<td>有修复，但弱于整体利润增速</td>
+</tr>
+<tr>
+<td>外商及港澳台企业利润</td>
+<td align="right">+1.2%</td>
+<td>外资部门改善有限</td>
+</tr>
+<tr>
+<td>计算机、通信等电子设备制造业</td>
+<td align="right">+110%左右</td>
+<td>高技术板块是主要亮点之一</td>
+</tr>
+<tr>
+<td>汽车制造业</td>
+<td align="right">-20.4%</td>
+<td>价格竞争和需求压力仍在</td>
+</tr>
+<tr>
+<td>非金属矿物制品业</td>
+<td align="right">-48.2%</td>
+<td>地产和传统投资链条较弱</td>
+</tr>
+<tr>
+<td>应收账款</td>
+<td align="right">+8.5%</td>
+<td>回款压力仍在累积</td>
+</tr>
+<tr>
+<td>产成品存货</td>
+<td align="right">+10.8%</td>
+<td>库存和产销衔接值得警惕</td>
+</tr>
+</tbody></table>
+<p>这组数据更像是<strong>结构性利润修复</strong>，而不是广泛的内需复苏。电子、有色、化工和采矿等行业的利润改善，可能反映产业位置、价格和出口结构的变化；但汽车、建材及电力等行业仍弱，且应收账款与存货增长快于企业愿望中的健康现金循环。</p>
+<p>因此，本周不宜把“利润同比增长17.6%”直接写成“企业信心恢复”。更有价值的问题是：利润能否转化为现金流，民营企业能否获得订单，库存能否下降，传统行业的价格竞争能否缓和。</p>
+<h2 id="二、房地产：从主体信用转向项目、交付和资金封闭管理"><a href="#二、房地产：从主体信用转向项目、交付和资金封闭管理" class="headerlink" title="二、房地产：从主体信用转向项目、交付和资金封闭管理"></a>二、房地产：从主体信用转向项目、交付和资金封闭管理</h2><p>8月28日，央行与金融监管总局发布房地产信贷管理意见，共36条，重点包括：</p>
+<ul>
+<li>房地产开发贷款实行<strong>项目主办银行制</strong>，单个项目对应一家主办银行；</li>
+<li>预售项目开发贷款期限原则上不超过3年、最长5年，现售项目最长可至7年；</li>
+<li>个人住房贷款期限上限延长至 <strong>40年</strong>；</li>
+<li>预售商品房个人住房贷款发放时点调整为<strong>竣工备案后</strong>；</li>
+<li>现房、预售项目的贷款资金分别进入项目公司主办银行账户或预售资金监管账户。<a href="https://www.xinhuanet.com/20260828/36dc5659375e407abd8e01a281305df5/c.html">央行、金融监管总局意见的权威转述</a></li>
+</ul>
+<p>同日，证监会发布房地产资本市场支持意见，支持上市房企再融资、公司债、CMBS、ABS、租赁住房和城市更新REITs，并强调从依赖主体信用转向基于项目情况融资，同时加强信息披露和募集资金穿透监管。<a href="https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml">证监会公告</a></p>
+<p>这不是单向度的“地产放松”，而是<strong>支持合理项目融资，同时把预售和集团信用的风险隔离开</strong>。从购房人角度，竣工备案后发放贷款和封闭管理有助于降低交付风险；从开发商角度，预售资金转化为可用融资的时间可能延后，项目的现金流管理要求更高。</p>
+<p>短期内，部分预售项目的新增按揭和房企现金转换速度可能受压；中长期能否改善地产信用，要看项目是否真的可以获得主办银行融资、预售资金是否能够闭环、以及二手房和现房交易是否出现持续改善。政策本身不能证明全国房价已经见底。</p>
+<h2 id="三、货币政策：中期资金与隔夜工具配合，仍不是LPR信号"><a href="#三、货币政策：中期资金与隔夜工具配合，仍不是LPR信号" class="headerlink" title="三、货币政策：中期资金与隔夜工具配合，仍不是LPR信号"></a>三、货币政策：中期资金与隔夜工具配合，仍不是LPR信号</h2><p>央行8月25日开展5000亿元、期限一年的MLF操作。由于当月有6000亿元MLF到期，单看MLF为缩量续作1000亿元；同时，央行安排8月27日至9月1日开展隔夜逆回购，每日操作量不超过6000亿元。<a href="https://www.thepaper.cn/newsDetail_forward_33840494">相关公告及报道</a></p>
+<p>财新此前对8月隔夜逆回购的解读是：该工具兼有应急和日常流动性管理功能，央行更关注短期资金面和操作精准度，而不是用每一次操作表达新的政策利率方向。<a href="https://finance.caixin.com/2026-08-19/102475698.html">财新：央行连续三个月动用隔夜逆回购</a></p>
+<p>本周的组合可以概括为：<strong>流动性保持可用，价格信号保持克制</strong>。MLF缩量并不自动等同于收紧，隔夜逆回购放量也不自动等同于全面宽松。对LPR的判断，仍应观察政策利率、存款利率、银行净息差和财政支出进度，而不能只看央行投放金额。本周没有出现新的LPR下调信号。</p>
+<h2 id="四、AI与金融：从“能不能做”进入“谁负责、如何回退”"><a href="#四、AI与金融：从“能不能做”进入“谁负责、如何回退”" class="headerlink" title="四、AI与金融：从“能不能做”进入“谁负责、如何回退”"></a>四、AI与金融：从“能不能做”进入“谁负责、如何回退”</h2><p>《财新周刊》第1220期（8月24日出版）把“AI基建：得东南亚者得天下”放在封面，并同时讨论个人信息保护、AI投资仓位重整和L3级自动驾驶量产。这组目录线索说明，AI竞争已经从单一模型能力扩展到<strong>算力与能源、跨境部署、数据治理和商业化兑现</strong>。<a href="https://weekly.caixin.com/2026/cw1220/">《财新周刊》第1220期目录</a></p>
+<p>封面报道的公开摘要提到，东南亚正在承接全球算力外溢，来自中国的数据中心运营商、托管服务商以及电力、能源和液冷供应商参与其中；周刊导播还把局部电网实时平衡视为扩张瓶颈。<a href="https://weekly.caixin.com/2026-08-21/102476335.html">封面报道公开摘要</a> <a href="https://weekly.caixin.com/zkdb/index.html">周刊导播</a> <strong>据此推断</strong>，中国AI产业的“出海”不只是卖模型或服务器，也是在输出数据中心、电力配套和运维能力；政策观察不能只盯国内算力总量，还要看跨境基础设施的审批、用电和风险定价。</p>
+<p>8月24日，中国支付清算协会发布《智能体支付应用自律公约》。公约提出：</p>
+<ul>
+<li>在KYC基础上探索“了解你的智能体”（KYA）；</li>
+<li>明确用户授权边界，并核验身份和真实交易意愿；</li>
+<li>账户管理、交易处理和资金清算等核心环节由持牌机构承担；</li>
+<li>智能体自主发起支付前，需要报备、业务评估、安全测试、风险监控和回退机制。<a href="https://www.xinhuanet.com/20260824/4efa360edc8a486dbf0b19d0fb37ef41/c.html">新华社报道</a></li>
+</ul>
+<p>与此同时，国家数据局披露，截至7月底全国智算总规模达到 <strong>245万PFLOPS（FP16）</strong>，八大国家算力枢纽和三个算电协同发展区的智算规模占全国比重超过85%。<a href="https://www.nda.gov.cn/sjj/jgsz/jld/llh/llhldhd/0829/20260829150055779816795_pc.html">国家数据局</a></p>
+<p>AI本周出现了两个值得放在一起看的变化：一边是算力被纳入基础设施和能源配置，另一边是智能体被纳入支付责任和消费者保护。对金融行业而言，AI的核心竞争力不只是模型准确率，还包括授权记录、交易限额、人工接管、审计日志和事故回退。</p>
+<h2 id="五、政治与治理：公开事实显示人员处理继续推进"><a href="#五、政治与治理：公开事实显示人员处理继续推进" class="headerlink" title="五、政治与治理：公开事实显示人员处理继续推进"></a>五、政治与治理：公开事实显示人员处理继续推进</h2><p>8月28日，十四届全国人大常委会作出相关决定：张又侠被免去中央军委副主席职务，刘振立被免去中央军委委员职务；张又侠、钟绍军、刘振立、巨乾生四人的全国人大代表资格终止。<a href="https://china.caixin.com/m/2026-08-28/102479454.html">财新报道</a></p>
+<p>目前公开公告主要确认了职务和代表资格处理，<strong>没有说明四人的具体原因</strong>。因此，周报可以写“制度性处理和军队人事调整已公开化”，不应把未披露的动机、派系关系或后续刑事结果写成事实。</p>
+<p>另一个地方治理信号是，上海市委副书记朱忠明于8月29日以市政府党组书记身份主持会议。朱忠明有财政、审计和中央财经部门经历，但截至资料截止日，上海市长的正式任命尚未在公开材料中完成确认。<a href="https://china.caixin.com/m/2026-08-29/102479808.html">财新人事观察</a></p>
+<h2 id="六、外部环境：关税风险仍处于“可能升级”而非“已实施”"><a href="#六、外部环境：关税风险仍处于“可能升级”而非“已实施”" class="headerlink" title="六、外部环境：关税风险仍处于“可能升级”而非“已实施”"></a>六、外部环境：关税风险仍处于“可能升级”而非“已实施”</h2><p>8月27日，商务部回应美国政府考虑以“产能过剩”为由，对包括中国在内的16个经济体发起301调查并可能对华额外加征7.5%关税。中方表示坚决反对，将继续评估美方举措并保留采取必要措施的权利。<a href="https://www.xinhuanet.com/20260827/7915bcf14cda488083f7ef4eed33ee05/c.html">新华社转述商务部发布会</a></p>
+<p>截至资料截止日，7.5%仍是<strong>可能措施</strong>，不是已经生效的税率。对中国经济的直接影响取决于最终产品清单、实施时间、豁免范围和企业转嫁能力；在此之前，更适合把它作为出口和产业链的政策风险，而不是已经兑现的冲击。</p>
+<h2 id="本周判断"><a href="#本周判断" class="headerlink" title="本周判断"></a>本周判断</h2><ol>
+<li><strong>政策重心从“便宜的信用”转向“可控的信用”。</strong> 房地产新规、项目主办银行、预售资金监管和AI支付责任，都在强化资金用途、责任主体和事后追溯。</li>
+<li><strong>利润修复仍未穿透到广泛需求。</strong> 高技术和资源行业表现强，不足以抵消汽车、建材、电力和民营部门的压力；应收账款与库存是更重要的反向指标。</li>
+<li><strong>降LPR不是本周的主线。</strong> 央行仍在提供流动性，但更关注工具的期限和精准度；是否降价，要看财政执行和银行负债成本是否出现新的约束变化。</li>
+<li><strong>AI的制度化速度快于商业模式验证。</strong> 支付公约、算力监测和持牌责任先行，意味着金融科技项目的合规架构会成为产品能力的一部分。</li>
+</ol>
+<h2 id="下周观察清单"><a href="#下周观察清单" class="headerlink" title="下周观察清单"></a>下周观察清单</h2><ul>
+<li>官方PMI中的新订单、建筑业和小型企业指数，是否显示财政资金开始传导到需求；</li>
+<li>房地产信贷、现房销售和预售资金监管的地方执行细则，是否影响项目开工、成交和按揭节奏；</li>
+<li>央行9月初的公开市场操作、政策利率和LPR报价，是否出现新的价格信号；</li>
+<li>工业利润改善能否转化为应收账款下降、库存下降和民营企业现金流改善；</li>
+<li>美国301调查是否公布更具体的产品范围和时间表；</li>
+<li>智能体支付是否出现首批报备、测试或持牌机构试点信息；</li>
+<li>上海市长正式任命及军队相关职务处理是否有进一步公开信息。</li>
+</ul>
+<h3 id="编辑说明"><a href="#编辑说明" class="headerlink" title="编辑说明"></a>编辑说明</h3><p>本周报由作者独立撰写，以国家统计局、央行、金融监管总局、证监会、国家数据局、商务部、新华社等公开材料为事实底稿，并参考《财新周刊》第1220期的公开目录和公开摘要。本文不转载付费正文；事实、结构性分析和作者推断分开呈现，链接仅用于来源说明和延伸阅读。</p>
+<p><em>本文提供一般性政治经济分析，不构成法律、财务、购房、信贷或投资建议。</em></p>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
+    <title>中国政経ウィークリー｜2026年8月24日〜30日：信用ルールの再設計と不均一な利益回復</title>
+    <id>https://terazadl.github.io/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-ja/</id>
+    <link href="https://terazadl.github.io/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-ja/"/>
+    <published>2026-08-30T08:30:00.000Z</published>
+    <updated>2026-08-30T09:15:00.000Z</updated>
+    <summary type="html"><![CDATA[工業企業の利益回復は分野ごとの差が大きい。不動産信用はプロジェクトと引き渡しを軸に再設計され、流動性は維持される一方、新たなLPR利下げシグナルは出ていない。]]></summary>
+    <content type="html"><![CDATA[<p><span hidden data-article-language="JA"></span></p>
+<div class="abstract">
+  <span class="abstract-label">今週の論点</span>
+  今週の主題は、単純な総量刺激の拡大ではなく、信用と産業の運用ルールの再設計である。工業企業の利益回復には大きなばらつきが残り、不動産では現物販売、プロジェクト主幹銀行、前売り資金、住宅ローンを同時に組み替える。人民銀行は中期・翌日物の手段で流動性を維持し、AIはモデル競争から決済責任と計算基盤のガバナンスへ進みつつある。
+</div>
+
+<blockquote>
+<p><strong>対象期間：</strong> 2026年8月24日〜30日（北京時間）。2026年8月30日公開。</p>
+<p><strong>財新周刊の参照号：</strong> 『財新周刊』第1220号（2026年8月24日発行）。次号は本稿の締切後のため対象外とした。</p>
+<p><strong>言語：</strong> <a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30/">English</a> · <a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-zh/">中文</a> · <strong>日本語</strong></p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="エグゼクティブ・サマリー"><a href="#エグゼクティブ・サマリー" class="headerlink" title="エグゼクティブ・サマリー"></a>エグゼクティブ・サマリー</h2><ul>
+<li><strong>利益の伸びはなお狭い。</strong> 1〜7月の一定規模以上工業企業の利益は前年同期比17.6%増となったが、電子・資源関連が改善の大半を担い、自動車、建材、電力は弱い。売掛金と製品在庫も増えており、全般的な需要回復とは言いにくい。</li>
+<li><strong>不動産政策は信用インフラの再設計に入った。</strong> プロジェクト主幹銀行、現物販売プロジェクトの開発融資期間延長、個人住宅ローンの40年上限、前売り住宅ローンの実行時期の後倒し、プロジェクト口座管理を組み合わせている。証券市場の資金調達も、開発企業全体ではなくプロジェクト単位に寄せられる。</li>
+<li><strong>流動性は維持されるが、価格シグナルは慎重である。</strong> 人民銀行は8月25日に1年物MLFを5000億元実施し、当月6000億元の満期を迎えた。翌日物リバースレポも大規模に設定されたが、これはLPR利下げの直接的な約束とは読めない。</li>
+<li><strong>AIは金融取引の責任レイヤーに入った。</strong> 支払決済協会の自律規約は、KYA（Know Your Agent）、明確な利用者同意、免許を持つ機関の責任、事前評価・監視・ロールバックを求めている。</li>
+<li><strong>政治面では人事処理と説明可能な責任が焦点となった。</strong> 4人の軍関係人大代表資格が終了し、張又侠と劉振立は中央軍事委員会の職務を解かれた。公開文書は理由を説明していないため、確認できる制度上の事実にとどめる。</li>
+</ul>
+<h2 id="1-工業利益：総量は改善、裾野は狭い"><a href="#1-工業利益：総量は改善、裾野は狭い" class="headerlink" title="1. 工業利益：総量は改善、裾野は狭い"></a>1. 工業利益：総量は改善、裾野は狭い</h2><p>国家統計局によると、1〜7月の一定規模以上工業企業の利益総額は4兆5820.6億元で、前年同期比17.6%増となった。売上高は6.5%増、売上高利益率は5.66%で、前年同期より0.54ポイント上昇した。<a href="https://www.stats.gov.cn/sj/zxfb/202608/t20260827_1965126.html">国家統計局</a></p>
+<table>
+<thead>
+<tr>
+<th>指標</th>
+<th align="right">1〜7月の前年比</th>
+<th>読み方</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>国有持株企業の利益</td>
+<td align="right">+16.3%</td>
+<td>政策・資源関連部門の回復が速い</td>
+</tr>
+<tr>
+<td>民営企業の利益</td>
+<td align="right">+10.9%</td>
+<td>改善するが全体を下回る</td>
+</tr>
+<tr>
+<td>外資・香港・マカオ・台湾企業の利益</td>
+<td align="right">+1.2%</td>
+<td>改善は限定的</td>
+</tr>
+<tr>
+<td>コンピューター・通信・電子機器製造</td>
+<td align="right">約+110%</td>
+<td>ハイテク部門の主な牽引役</td>
+</tr>
+<tr>
+<td>自動車製造</td>
+<td align="right">-20.4%</td>
+<td>価格競争と需要圧力</td>
+</tr>
+<tr>
+<td>非金属鉱物製品</td>
+<td align="right">-48.2%</td>
+<td>不動産・従来型投資の弱さ</td>
+</tr>
+<tr>
+<td>売掛金</td>
+<td align="right">+8.5%</td>
+<td>回収圧力が続く</td>
+</tr>
+<tr>
+<td>製品在庫</td>
+<td align="right">+10.8%</td>
+<td>在庫と販売の連動を要確認</td>
+</tr>
+</tbody></table>
+<p>この数字は、広範な内需回復というより<strong>構造的な利益修復</strong>と呼ぶ方が適切である。電子、非鉄金属、化学、鉱業の改善には、産業内の位置、価格、輸出構成が影響している可能性がある。一方、自動車、建材、電力は弱く、売掛金と在庫の増加は利益が健全なキャッシュフローに変わっていないことを示唆する。</p>
+<h2 id="2-不動産：主体信用からプロジェクト、引き渡し、資金隔離へ"><a href="#2-不動産：主体信用からプロジェクト、引き渡し、資金隔離へ" class="headerlink" title="2. 不動産：主体信用からプロジェクト、引き渡し、資金隔離へ"></a>2. 不動産：主体信用からプロジェクト、引き渡し、資金隔離へ</h2><p>8月28日、中国人民銀行と金融監督当局は36項目の不動産信用管理意見を公表した。主な内容は次の通りである。</p>
+<ul>
+<li>開発融資に<strong>プロジェクト主幹銀行制度</strong>を導入する；</li>
+<li>前売りプロジェクトの開発融資は原則3年以内、最長5年、現物販売プロジェクトは最長7年とする；</li>
+<li>個人住宅ローンの期間上限を <strong>40年</strong> に延長する；</li>
+<li>前売り住宅の住宅ローンは竣工届出後に実行する；</li>
+<li>融資資金をプロジェクト会社の主幹銀行口座または前売り資金監督口座に入れる。<a href="https://www.xinhuanet.com/20260828/36dc5659375e407abd8e01a281305df5/c.html">新華社による権威ある要約</a></li>
+</ul>
+<p>同日、中国証監会は上場不動産企業の再調達、社債、CMBS、ABS、賃貸住宅・都市更新REITsなどを支援する意見を公表した。企業全体への信用依存からプロジェクト単位の融資へ移し、情報開示と資金使途の貫通管理を強める内容である。<a href="https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml">中国証監会</a></p>
+<p>これは一方向の不動産緩和ではない。実行可能なプロジェクトを支えながら、前売りと企業グループ信用のリスクを切り分ける政策である。購入者にとっては引き渡しリスクの低下に資する一方、開発業者にとっては前売り資金を利用可能な現金へ転換するまでの時間が長くなり、プロジェクトの資金繰りがより重要になる。</p>
+<p>短期的には、一部の前売りプロジェクトで住宅ローン実行や現金化が遅れる可能性がある。中長期の評価は、主幹銀行が実際に融資するか、監督資金がプロジェクト内で閉じるか、現物・中古住宅の取引が継続的に改善するかにかかっている。制度変更だけで全国の住宅価格の底入れを証明することはできない。</p>
+<h2 id="3-金融政策：中期資金と翌日物、なおLPRのシグナルではない"><a href="#3-金融政策：中期資金と翌日物、なおLPRのシグナルではない" class="headerlink" title="3. 金融政策：中期資金と翌日物、なおLPRのシグナルではない"></a>3. 金融政策：中期資金と翌日物、なおLPRのシグナルではない</h2><p>人民銀行は8月25日に1年物MLFを5000億元実施した。当月6000億元の満期を考えると、MLF単体では1000億元の縮小ロールとなる。8月27日から9月1日までは、1日あたり6000億元を上限とする翌日物リバースレポも設定した。<a href="https://www.thepaper.cn/newsDetail_forward_33840494">人民銀行のオペレーション報道</a></p>
+<p>財新は8月の翌日物リバースレポについて、緊急対応と日常的な短期流動性管理の両方を担う手段であり、毎回の操作を新たな政策金利シグナルとみなすべきではないと説明している。<a href="https://finance.caixin.com/2026-08-19/102475698.html">財新の背景解説</a></p>
+<p>今週の組み合わせは、<strong>流動性は使える状態に保ち、価格シグナルは慎重にする</strong>というものだ。MLFの縮小は自動的に引き締めを意味せず、翌日物の大規模設定も全面緩和を意味しない。LPRの判断では、政策金利、預金コスト、銀行の純金利マージン、財政執行を併せて見る必要がある。今週、新たなLPR利下げシグナルは確認できなかった。</p>
+<h2 id="4-AIと金融：「できるか」から「誰が責任を負うか」へ"><a href="#4-AIと金融：「できるか」から「誰が責任を負うか」へ" class="headerlink" title="4. AIと金融：「できるか」から「誰が責任を負うか」へ"></a>4. AIと金融：「できるか」から「誰が責任を負うか」へ</h2><p>『財新周刊』第1220号（8月24日発行）は「AI基建：東南アジアを制する者が天下を取る」を表紙に掲げ、個人情報保護、AI投資ポジションの組み替え、L3自動運転の量産も取り上げた。この目次構成は、AI競争がモデル性能だけでなく、<strong>計算資源とエネルギー、越境展開、データガバナンス、商業化</strong>の組み合わせになったことを示している。<a href="https://weekly.caixin.com/2026/cw1220/">『財新周刊』第1220号</a></p>
+<p>表紙記事の公開要約は、東南アジアが世界の計算資源の外部化を受け入れ、中国のデータセンター運営会社、コロケーション事業者、電力・エネルギー・液冷設備の供給企業も参加していると紹介する。周刊導播は、局所的な電力網のリアルタイム需給バランスを拡張の制約として挙げる。<a href="https://weekly.caixin.com/2026-08-21/102476335.html">表紙記事の公開要約</a> <a href="https://weekly.caixin.com/zkdb/index.html">周刊導播</a> <strong>この公開情報からの推論として</strong>、中国AI産業の海外展開はモデルやサーバーの販売だけでなく、データセンター、電力設備、運用能力の輸出でもある。政策を見る際は、国内の計算資源総量だけでなく、越境インフラの許認可、電力、リスク価格も追う必要がある。</p>
+<p>8月24日、中国支付清算協会は『智能体支付应用自律公约』を公表した。KYCを基礎にしたKYA（Know Your Agent）、利用者の明確な同意、本人確認と取引意思の確認、免許を持つ機関による決済・清算、事前届出、評価、安全テスト、監視、ロールバックを求めている。<a href="https://www.xinhuanet.com/20260824/4efa360edc8a486dbf0b19d0fb37ef41/c.html">新華社</a></p>
+<p>国家データ局は、7月末時点の全国のインテリジェント・コンピューティング規模が245万PFLOPS（FP16）に達し、8大国家計算ハブと3つの計算・電力協調発展区が全国の85%超を占めると明らかにした。<a href="https://www.nda.gov.cn/sjj/jgsz/jld/llh/llhldhd/0829/20260829150055779816795_pc.html">国家データ局</a></p>
+<p>AIの金融利用で重要なのは、モデルの正確さだけではない。「誰が同意し、誰が実行し、誰が損失を負い、どう停止するのか」を答えられる設計が、製品能力の一部になっている。</p>
+<h2 id="5-政治・ガバナンス：公開事実が示す人事処理の継続"><a href="#5-政治・ガバナンス：公開事実が示す人事処理の継続" class="headerlink" title="5. 政治・ガバナンス：公開事実が示す人事処理の継続"></a>5. 政治・ガバナンス：公開事実が示す人事処理の継続</h2><p>8月28日、全国人民代表大会常務委員会は、張又侠、鍾紹軍、劉振立、巨乾生の4人について代表資格を終了させた。張又侠は中央軍事委員会副主席、劉振立は同委員会委員の職を解かれた。<a href="https://china.caixin.com/m/2026-08-28/102479454.html">財新報道</a></p>
+<p>公開文書が確認するのは職務と代表資格の処理であり、具体的な理由は示されていない。したがって本稿では、制度上の人事処理が公表されたという事実にとどめ、未公表の動機、派閥関係、刑事結果を事実として扱わない。</p>
+<p>上海市では、党委員会副書記の朱忠明が8月29日、市政府党組書記として会議を主宰した。財政・監査・中央経済部門での経験を持つが、資料締切時点で上海市長への正式任命は確認されていない。<a href="https://china.caixin.com/m/2026-08-29/102479808.html">財新の人事観察</a></p>
+<h2 id="6-外部環境：関税リスクは「検討中」であり、実施済みではない"><a href="#6-外部環境：関税リスクは「検討中」であり、実施済みではない" class="headerlink" title="6. 外部環境：関税リスクは「検討中」であり、実施済みではない"></a>6. 外部環境：関税リスクは「検討中」であり、実施済みではない</h2><p>8月27日、商務部は、米国政府が「過剰生産能力」を理由に中国を含む16経済体を対象とする301条調査を始め、対中追加関税7.5%を検討していることに反応した。中国側は反対を表明し、必要な措置を取る権利を留保した。<a href="https://www.xinhuanet.com/20260827/7915bcf14cda488083f7ef4eed33ee05/c.html">新華社による商務部会見の要約</a></p>
+<p>資料締切時点で7.5%は可能性のある措置であり、発効済みの税率ではない。影響は最終的な品目、実施時期、免除範囲、企業のコスト転嫁力によって変わる。</p>
+<h2 id="今週の判断"><a href="#今週の判断" class="headerlink" title="今週の判断"></a>今週の判断</h2><ol>
+<li><strong>政策の軸足は「安い信用」から「管理可能な信用」へ移っている。</strong> 不動産、前売り資金、AI決済のルールはいずれも資金用途と責任主体を追跡可能にする。</li>
+<li><strong>利益修復は広範な需要にまだ届いていない。</strong> ハイテク・資源部門の強さだけでは、自動車、建材、電力、民営部門の弱さを相殺できない。</li>
+<li><strong>LPR利下げは今週の主題ではない。</strong> 流動性は供給されるが、人民銀行は手段の期間と精度を重視している。</li>
+<li><strong>AIの制度化はビジネスモデルの検証より速い。</strong> 決済規約、計算資源の監視、免許を持つ機関の責任が先行している。</li>
+</ol>
+<h2 id="来週の観察項目"><a href="#来週の観察項目" class="headerlink" title="来週の観察項目"></a>来週の観察項目</h2><ul>
+<li>公式PMIの新規受注、建設業、小企業指数が財政執行の需要波及を示すか；</li>
+<li>不動産信用、現物販売、前売り資金監督の地方実施細則が着工・成約・住宅ローンに与える影響；</li>
+<li>9月初旬の公開市場操作、政策金利、LPR公表に新しい価格シグナルが出るか；</li>
+<li>工業利益の改善が売掛金・在庫の減少、民営企業のキャッシュフロー改善に転じるか；</li>
+<li>米国301条調査の品目範囲と日程；</li>
+<li>インテリジェント・エージェント決済の届出、テスト、免許機関の試行；</li>
+<li>上海市長の正式任命と軍関係人事に関する追加公表。</li>
+</ul>
+<h3 id="編集方針"><a href="#編集方針" class="headerlink" title="編集方針"></a>編集方針</h3><p>本ニュースレターは筆者が独立して執筆した。国家統計局、人民銀行、金融監督当局、証監会、国家データ局、商務部、新華社などの公開資料を事実の基礎とし、『財新周刊』第1220号は公開の目次と要約のみを参照した。購読者向け本文は転載せず、事実、構造分析、筆者の推論を区別している。リンクは出所の明示と追加確認のために掲載した。</p>
+<p><em>本稿は一般的な政治経済分析を提供するものであり、法律・財務・住宅購入・信用・投資上の助言ではない。</em></p>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
+    <title>中国政経ウィークリー｜2026年8月17日〜23日：財政支援が前面に</title>
+    <id>https://terazadl.github.io/2026/08/china-political-economy-weekly-fiscal-support-ja/</id>
+    <link href="https://terazadl.github.io/2026/08/china-political-economy-weekly-fiscal-support-ja/"/>
+    <published>2026-08-25T08:41:00.000Z</published>
+    <updated>2026-08-25T08:41:00.000Z</updated>
+    <summary type="html"><![CDATA[7月の景気減速を受け、政策の軸足は財政執行の加速と対象を絞った信用支援へ移りつつあり、広範な利下げはなお二次的な選択肢にとどまる。]]></summary>
+    <content type="html"><![CDATA[<p><span hidden data-article-language="JA"></span></p>
+<div class="abstract">
+  <span class="abstract-label">今週の論点</span>
+  中国の7月の景気減速は政策支援の必要性を強めたが、政策手段は単なる金利引き下げよりも対象を絞ったものになりつつある。財政執行の加速、未払い債務の解消、選別的な利子補給が前面に出る一方、広範な利下げは二次的な選択肢にとどまり、不動産部門では過去の損失を法的手続きによって配分する段階が進んでいる。
+</div>
+
+<blockquote>
+<p><strong>対象期間：</strong> 2026年8月17日〜23日（北京時間）。2026年8月25日公開。</p>
+<p><strong>言語：</strong> <a href="/2026/08/china-political-economy-weekly-fiscal-support/">English</a> · <a href="/2026/08/china-political-economy-weekly-fiscal-support-zh/">中文</a> · <strong>日本語</strong></p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="エグゼクティブ・サマリー"><a href="#エグゼクティブ・サマリー" class="headerlink" title="エグゼクティブ・サマリー"></a>エグゼクティブ・サマリー</h2><ul>
+<li><p><strong>7月の景気減速は支援強化の根拠となるが、直ちに利下げを意味するわけではない。</strong> 1〜7月の固定資産投資は前年同期比6.7%減、民間投資は9.4%減となった。7月の小売売上高は前年同月比0.6%増にとどまり、鉱工業生産の伸びも4.5%へ鈍化した。弱い借入需要は、資金調達コストの高さだけでなく、期待収益率の低さと家計の慎重姿勢を映している。</p>
+</li>
+<li><p><strong>当面の政策は、財政執行の加速と対象を絞ったバランスシート修復に軸足を移している。</strong> 財政部によれば、下期には地方政府の専項債と超長期特別国債を合わせて2兆元超をなお発行・活用する必要がある。個人消費ローンと小規模事業者向け融資への利子補給を拡充する一方、国務院は地方政府や大企業に対し、中小企業への未払いを解消するよう求めている。</p>
+</li>
+<li><p><strong>景気支援とリスク処理が同時に進む。</strong> 8月の最優遇貸出金利（LPR）は据え置かれた。上海市は新たな住宅支援策を導入し、恒大集団では創業者への判決と中国本土の不動産会社に対する裁判所主導の破産清算が続いた。現在の需要を選別的に支えながら、前回の信用サイクルが残した損失をより明確に配分することが共通の流れである。</p>
+</li>
+</ul>
+<h2 id="データが示すのは信用コストだけでなく需要の問題"><a href="#データが示すのは信用コストだけでなく需要の問題" class="headerlink" title="データが示すのは信用コストだけでなく需要の問題"></a>データが示すのは信用コストだけでなく需要の問題</h2><p>最新の経済指標は、ハイテク生産と、幅広い雇用・家計所得・民間投資を生み出す内需部門との乖離が広がっていることを示す。下表では、小売売上高と鉱工業生産のみ7月単月の前年同月比を用い、それ以外は1〜7月累計の前年同期比を示した。</p>
+<table>
+<thead>
+<tr>
+<th>指標</th>
+<th align="right">最新値</th>
+<th align="right">比較値</th>
+<th>シグナル</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>固定資産投資</td>
+<td align="right"><strong>-6.7%</strong></td>
+<td align="right">上期 -5.7%</td>
+<td>マイナス幅が拡大</td>
+</tr>
+<tr>
+<td>民間投資</td>
+<td align="right"><strong>-9.4%</strong></td>
+<td align="right">—</td>
+<td>企業心理はなお弱い</td>
+</tr>
+<tr>
+<td>7月の小売売上高</td>
+<td align="right"><strong>+0.6%</strong></td>
+<td align="right">6月 +1.0%</td>
+<td>消費が減速</td>
+</tr>
+<tr>
+<td>7月の鉱工業生産</td>
+<td align="right"><strong>+4.5%</strong></td>
+<td align="right">6月 +5.3%</td>
+<td>生産の勢いが低下</td>
+</tr>
+<tr>
+<td>不動産開発投資</td>
+<td align="right"><strong>-19.2%</strong></td>
+<td align="right">上期 -18.0%</td>
+<td>不動産が最大の下押し要因</td>
+</tr>
+<tr>
+<td>新築住宅の販売床面積</td>
+<td align="right"><strong>-11.8%</strong></td>
+<td align="right">上期 -11.6%</td>
+<td>全国の住宅需要は未安定</td>
+</tr>
+</tbody></table>
+<p><em>データ出所：中国国家統計局が公表した7月の<a href="https://www.stats.gov.cn/english/PressRelease/202608/t20260818_1965072.html">固定資産投資</a>、<a href="https://www.stats.gov.cn/english/PressRelease/202608/t20260819_1965078.html">小売売上高</a>、<a href="https://www.stats.gov.cn/english/PressRelease/202608/t20260818_1965071.html">鉱工業生産</a>、<a href="https://www.stats.gov.cn/english/PressRelease/202608/t20260819_1965077.html">不動産</a>。比較値はそれぞれ<a href="https://www.stats.gov.cn/english/PressRelease/202607/t20260717_1964158.html">上期の投資</a>、<a href="https://www.stats.gov.cn/english/PressRelease/202607/t20260717_1964156.html">6月の小売</a>、<a href="https://www.stats.gov.cn/english/PressRelease/202607/t20260717_1964159.html">6月の生産</a>、<a href="https://www.stats.gov.cn/english/PressRelease/202607/t20260717_1964157.html">上期の不動産</a>に基づく。</em></p>
+<p>総じて減速していること以上に、その内訳が重要である。ハイテク製造業はなお高い伸びを保っているが、民間投資、耐久財消費、不動産活動の弱まりを相殺できていない。これは一斉の景気崩壊ではなく、二極化した経済である。政策が重視する戦略産業は引き続き資本にアクセスできる一方、多くの民間企業と家計は、需要不足と不確実性のために追加の負債を避けている。</p>
+<p><strong>したがって、融資金利を下げるだけでは政策効果が小さい可能性がある。</strong> 受注のない企業や、所得と住宅価格の先行きを懸念する家計は、金利が下がっても借りない。政策上の問いは「どうすれば信用を安くできるか」から、「どうすればキャッシュフローと期待収益率を回復できるか」へ移っている。</p>
+<h2 id="広範な金融緩和に先行する財政執行"><a href="#広範な金融緩和に先行する財政執行" class="headerlink" title="広範な金融緩和に先行する財政執行"></a>広範な金融緩和に先行する財政執行</h2><p>今週の財政部からの最も重要なシグナルは、新たな枠の設定ではなく実行の加速だった。2026年予算では財政支出が30兆元超、新規国債・地方債の発行計画が11兆8900億元とされている。財政部によれば、下期には地方政府の専項債と超長期特別国債を合わせて2兆元超をなお発行・活用する必要がある。経済情勢に応じて追加措置を講じる余地も示した。<a href="https://finance.caixin.com/2026-08-21/102476528.html">財新の報道</a>は政策背景を補い、基礎となる財政データは<a href="https://gks.mof.gov.cn/tongjishuju/202608/t20260814_3995497.htm">中国財政部</a>が公表している。</p>
+<p>承認された枠と実際の執行は区別する必要がある。債券発行枠は、資金が配分され、事業が始まり、請負企業に支払いが行われ、受注がサプライヤーへ届いて初めて成長を支える。7月の一般公共予算収入は前年同月比11.7%増えたが、支出は0.5%増にとどまった。1〜7月の土地使用権譲渡収入は30.8%減少し、地方政府が自力で動員できる財政余力はさらに小さくなった。</p>
+<p><strong>今後2カ月は財政の執行力を試す期間になる。</strong> 中央からの移転支出と債券資金の投入が加速すれば、民間の借入需要の回復を待たずにインフラ工事とサプライヤーの資金繰りを支えられる。資金が「発行済みだが未着工」の段階にとどまれば、中央政府による追加支援を求める圧力が強まる。</p>
+<p>金融政策は引き締めに転じたわけではないが、現時点では補助的な役割にある。8月20日、1年物LPRは3.0%、5年超LPRは3.5%に据え置かれた。詳細は公式の<a href="https://www.chinamoney.com.cn/chinese/rdgz/20260820/3399885.html">LPR公表資料</a>を参照されたい。中国人民銀行も、主として翌日物リバースレポで短期流動性を管理し、新たな中期的金利シグナルは送らなかった。</p>
+<p>2026年8月25日時点の私の基本シナリオは、<strong>9月にLPRを引き下げる確率が約20%</strong>、**年末までに少なくとも1回引き下げる確率が45〜55%**である。これは分析上の主観的なシナリオ配分であり、市場価格から導いた確率ではない。7日物政策金利や大手銀行の預金金利が先に下がれば利下げ確率は大きく上昇する。一方、財政支出が目に見えて加速し、8月のPMIが安定すれば、短期利下げの緊急性は低下する。</p>
+<h2 id="対象を絞った政策で両側から資金繰りを修復"><a href="#対象を絞った政策で両側から資金繰りを修復" class="headerlink" title="対象を絞った政策で両側から資金繰りを修復"></a>対象を絞った政策で両側から資金繰りを修復</h2><p>政府は一部の信用コストを下げると同時に、企業が本来受け取るべき資金を確実に回収できるようにしようとしている。8月21日の記者会見で、当局は個人消費ローンへの利子補給率を1ポイントに据え置きつつ、借り手1人当たり・取扱金融機関1社当たりの年間補助上限を3000元から5000元へ引き上げる方針を示した。新規の自動車・住宅改装向けクレジットカード分割払いも対象となり、小規模企業やサービス業者向けの補助対象融資上限も引き上げられる。公開時点では、新しい内容を反映した書面の実施通知は確認できなかった。<a href="https://economy.caixin.com/2026-08-21/102476355.html">財新の報道</a>は拡充案を説明しており、財政部が1月に公表した<a href="https://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982160.htm">政策通知</a>が従来制度の基準となる。</p>
+<p>こうした措置は、もともと消費や投資を予定していた家計と企業を後押しできるが、所得への信頼を代替することはできない。成果は補助対象融資の総額ではなく、追加的に生まれた消費と投資で測るべきである。融資の一部は、政策がなくても実行された借入の置き換えにすぎない可能性がある。</p>
+<p>国務院による企業向け未払い債務の解消は、別の制約に対応する。地方政府には専項債や再貸出制度を使って未払いの連鎖を断つよう求め、規制当局は支払期限の基準と、大企業による中小サプライヤーへの支払いに対する監督を強化する方針だ。国務院常務会議の公式<a href="https://big5.www.gov.cn/gate/big5/www.gov.cn/zhengce/202608/content_7078874.htm">発表</a>からは、一時的な未払い解消運動から恒常的な執行へ移る意図が読み取れる。</p>
+<p><strong>多くの小規模企業にとって、新たに借りるより、すでに計上した売上代金を回収する方が効果は大きい。</strong> 未払いの解消はレバレッジを増やさずに運転資金を回復させる。問題は再発である。予算規律、契約執行、罰則が新たな未払いを防げなければ、資金調達による旧債務の解消は一時しのぎに終わる。</p>
+<h2 id="住宅支援は地域別へ、恒大は損失配分の段階に"><a href="#住宅支援は地域別へ、恒大は損失配分の段階に" class="headerlink" title="住宅支援は地域別へ、恒大は損失配分の段階に"></a>住宅支援は地域別へ、恒大は損失配分の段階に</h2><p>全国の不動産不況はなお深刻である。1〜7月の不動産開発投資は19.2%減、新築住宅の販売床面積は11.8%減、販売額は13.1%減、不動産開発企業の調達資金は20.3%減となった。<a href="https://www.stats.gov.cn/english/PressRelease/202608/t20260819_1965077.html">中国国家統計局</a>が公表している。</p>
+<p>上海市が対象とするのは、所得が高く供給制約のある中核都市で住み替えを望む家計という、全国とは異なる市場である。新措置は、外環状線の外側で2軒目の住宅を購入する場合の最低頭金比率を15%へ引き下げ、住宅積立金口座の利用範囲を拡大する。条件を満たす「旧宅売却・新宅購入」取引への補助や、中古住宅を買い取って保障性賃貸住宅に活用する取り組みも含む。<a href="https://www.shanghai.gov.cn/nw4411/20260821/009c5dac476b4ad2bb8e9264091069e3.html">上海市政府</a>は、中古住宅と新築住宅の取引連鎖を円滑にする政策と説明している。</p>
+<p><strong>上海の取引回復だけで全国の不動産市場が底入れしたとはいえない。</strong> 政策は中核都市の住み替え需要を流動化できるが、建設投資の減少、開発業者の資金難、地方都市の供給過剰を直接反転させるものではない。最初に重視すべき証拠は、モデルルームへの来場者数や売り出し物件数ではなく、成約と登記の実績である。</p>
+<p>恒大集団をめぐる司法処理は、住宅政策のもう一つの側面を示す。8月20日、裁判所は創業者の許家印に無期懲役を言い渡し、グループと関係被告にも処分を科した。翌日、広州市の裁判所は中国本土の不動産会社に対する破産清算を受理し、債権届出期限を11月21日とした。<a href="https://www.court.gov.cn/zixun/xiangqing/509281.html">最高人民法院</a>と全国の<a href="https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=4eaffaf8938d4594a275b2d59f286b51">破産案件情報プラットフォーム</a>が法的記録を公開している。</p>
+<p>流れは明確である。政策の焦点は、プロジェクトと影響を受けた家計の安定化から、刑事責任の追及と債権者間での正式な損失配分へ移りつつある。裁判所主導の清算は手続きを明確にするが、無担保債権者の高い回収率を保証しない。経済的な結果を左右するのは、管財人が示す資産範囲、関連会社の扱い、国内外の債権調整である。</p>
+<h2 id="戦略産業は資本を得る一方、国外の法的圧力にも直面"><a href="#戦略産業は資本を得る一方、国外の法的圧力にも直面" class="headerlink" title="戦略産業は資本を得る一方、国外の法的圧力にも直面"></a>戦略産業は資本を得る一方、国外の法的圧力にも直面</h2><p>資本配分は依然として選別的である。長江存儲科技（YMTC）の親会社は、上海証券取引所の科創板への上場を申請し、最大330億元の調達を計画している。資金の大半は生産ラインの高度化と研究開発に充てる。申請受理は審査開始を意味するだけで、承認や最終的な調達額を保証しない。<a href="https://companies.caixin.com/2026-08-22/102476776.html">財新の報道</a>が案件の詳細を伝えており、進捗は<a href="https://www.sse.com.cn/star/renewal/">上海証券取引所</a>で確認できる。</p>
+<p>同時に、米国国際貿易委員会（USITC）は、円筒形充電池と関連製品を対象に米関税法337条に基づく調査を開始した。EVE Energy（億緯鋰能）と複数の川下顧客が調査対象に含まれる。争点は特許侵害の主張であり、調査開始は責任認定ではない。<a href="https://www.usitc.gov/press_room/news_release/2026/er0820_69103.htm">USITCの発表</a>が正式な情報源となる。</p>
+<p>二つの動きは、中国の「K字型」の資本環境を表している。民間投資全体が縮小していても、半導体などの戦略分野は大規模な国内株式資本を動員できる。しかし、資本へのアクセスだけで外部制約は消えない。知的財産権紛争、輸出規制、顧客によるコンプライアンス審査が、海外展開の商業価値をますます左右している。</p>
+<h2 id="政治的シグナルは執行と説明責任"><a href="#政治的シグナルは執行と説明責任" class="headerlink" title="政治的シグナルは執行と説明責任"></a>政治的シグナルは執行と説明責任</h2><p>今週、新たなイデオロギー方針やマクロ政策の青写真が示されたわけではない。より重要な政治経済上のシグナルは、既存方針がどのように執行されたかにある。財政資金の早期投入、大企業の支払規律、恒大の損失を裁判所の手続きで確定する動きである。</p>
+<p>そこから見える統治上の選好は、<strong>対象を絞った支援と、追跡可能な責任の組み合わせ</strong>である。資金は実際の事業に届くことを求められ、大規模組織は中小の取引先へ支払うよう迫られ、過去の金融不正のコストは裁判所と規制当局を通じて配分される。民間の信頼が改善するかどうかは、新たな通達の数より、透明な執行と予測可能な法運用にかかっている。</p>
+<h2 id="次に注目すべき点"><a href="#次に注目すべき点" class="headerlink" title="次に注目すべき点"></a>次に注目すべき点</h2><ol>
+<li><p><strong>8月27日の工業企業利益。</strong> 民間企業の利益が幅広く改善すれば、電子分野や価格変動の大きい産業に集中した増益よりも、投資回復を判断するうえで有力な材料となる。公式日程は<a href="https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html">中国国家統計局</a>が公表している。</p>
+</li>
+<li><p><strong>8月31日の公式PMI。</strong> 新規受注、建設活動、小規模企業指数は、財政執行が需要へ届き始めたかを確認する最初の高頻度データとなる。</p>
+</li>
+<li><p><strong>債券の発表より資金の使用。</strong> 発行、財政支出、事業着工、サプライヤーへの支払いを別々の段階として追う必要がある。</p>
+</li>
+<li><p><strong>上海の取引登記。</strong> 新築・中古住宅の成約実績は、来場、問い合わせ、開発業者の販売情報より重要である。</p>
+</li>
+<li><p><strong>恒大の管財人による開示。</strong> 資産範囲、債権分類、関連会社の扱いによって、清算が単なる手続きなのか、経済的に意味のある情報をもたらすのかが決まる。</p>
+</li>
+<li><p><strong>USITCのスケジュールと顧客行動。</strong> 調査完了の目標時期、EVE Energyの対応、川下の調査対象企業による調達変更に注目したい。</p>
+</li>
+</ol>
+<h2 id="さらに考えるべき問い"><a href="#さらに考えるべき問い" class="headerlink" title="さらに考えるべき問い"></a>さらに考えるべき問い</h2><ul>
+<li>残る債券発行枠のうち、どれだけが第3四半期末までに実際の工事とサプライヤー収入へ転換されるのか。</li>
+<li>消費ローンへの利子補給は本当に追加消費を生むのか、それとも予定済みの購入を借り換えるだけなのか。</li>
+<li>未払い解消策は、支払額、責任主体、達成率を企業が検証できる形で公表できるのか。</li>
+<li>地域別の住宅緩和は、家計の再レバレッジや投機需要を招かずに流動性を改善できるのか。</li>
+<li>世界的な技術・貿易サイクルが弱まるなか、戦略産業への集中投資は妥当な収益を生み出せるのか。</li>
+</ul>
+<h2 id="前提と留意点"><a href="#前提と留意点" class="headerlink" title="前提と留意点"></a>前提と留意点</h2><ul>
+<li>対象期間は2026年8月17日〜23日、北京時間である。それ以降の情報は状況確認にのみ使い、対象週の新規事象としては扱わない。</li>
+<li>投資と不動産の伸び率は統計当局の比較可能な基準に従う。小売売上高は名目、鉱工業生産は実質ベースであり、両者を直接比較することはできない。</li>
+<li>LPRの確率は筆者のシナリオ評価であり、投資助言でも、市場価格から導いた予測でもない。</li>
+<li>追加財政措置、恒大債権者の回収率、科創板上場、USITC調査はいずれも確定していない。</li>
+</ul>
+<hr>
+<h3 id="編集方針"><a href="#編集方針" class="headerlink" title="編集方針"></a>編集方針</h3><p>本ニュースレターは筆者が独立して執筆した。報道と公開記録を整理し、重要な数値および法的事実は、可能な限り一次資料で確認している。分析とシナリオ確率はすべて筆者自身の判断であり、リンクは出所の明示と追加確認のために掲載した。</p>
+<p><em>本稿は一般的な政治経済分析を提供するものであり、法律・財務・投資上の助言ではない。</em></p>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
+    <title>中国政经周报：财政支持走到前台</title>
+    <id>https://terazadl.github.io/2026/08/china-political-economy-weekly-fiscal-support-zh/</id>
+    <link href="https://terazadl.github.io/2026/08/china-political-economy-weekly-fiscal-support-zh/"/>
+    <published>2026-08-25T08:40:00.000Z</published>
+    <updated>2026-08-25T08:40:00.000Z</updated>
+    <summary type="html"><![CDATA[7月经济活动走弱，政策重心正转向加快财政执行和定向信贷支持，全面降息仍是次要选项。]]></summary>
+    <content type="html"><![CDATA[<p><span hidden data-article-language="ZH"></span></p>
+<div class="abstract">
+  <span class="abstract-label">本周主线</span>
+  中国7月经济活动走弱，强化了政策加码的必要性，但政策组合正在变得更有针对性，而不只是让资金更便宜。加快财政执行、清理拖欠账款和定向贴息走到前台；全面降息仍是次要选项，房地产则进一步进入正式确认和分配损失的阶段。
+</div>
+
+<blockquote>
+<p><strong>报道区间：</strong> 2026年8月17日至23日（北京时间）。发布于2026年8月25日。</p>
+<p><strong>语言版本：</strong> <a href="/2026/08/china-political-economy-weekly-fiscal-support/">English</a> · <strong>中文</strong> · <a href="/2026/08/china-political-economy-weekly-fiscal-support-ja/">日本語</a></p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="核心摘要"><a href="#核心摘要" class="headerlink" title="核心摘要"></a>核心摘要</h2><ul>
+<li><p><strong>7月经济减速强化了政策支持的理由，但并不必然意味着马上降息。</strong> 1—7月固定资产投资同比下降6.7%，民间投资下降9.4%；7月社会消费品零售总额仅增长0.6%，规模以上工业增加值增速放缓至4.5%。信贷需求弱，越来越像是预期回报偏低和居民谨慎的结果，而不只是融资成本过高。</p>
+</li>
+<li><p><strong>短期政策组合正转向加快财政执行和定向修复资产负债表。</strong> 财政部表示，下半年仍有超过2万亿元地方政府专项债券和超长期特别国债需要发行使用。消费贷和小微企业贷款贴息范围将扩大，国务院则要求地方政府和大型企业清理对中小企业的拖欠账款。</p>
+</li>
+<li><p><strong>刺激政策与风险处置同步推进。</strong> 8月贷款市场报价利率（LPR）维持不变；上海再次推出定向楼市措施；恒大创始人获刑，其境内地产平台进入法院主导的破产清算。共同主线是：在支持当前需求的同时，更明确地分配上一轮信贷周期留下的损失。</p>
+</li>
+</ul>
+<h2 id="数据指向需求问题，而不仅是信贷成本问题"><a href="#数据指向需求问题，而不仅是信贷成本问题" class="headerlink" title="数据指向需求问题，而不仅是信贷成本问题"></a>数据指向需求问题，而不仅是信贷成本问题</h2><p>最新经济数据表明，高技术生产与那些通常能够广泛创造就业、居民收入和民间投资的内需部门之间，分化正在扩大。下表除社会消费品零售总额和工业增加值为7月单月同比外，其余均为1—7月累计同比。</p>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th align="right">最新值</th>
+<th align="right">对比值</th>
+<th>信号</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>固定资产投资</td>
+<td align="right"><strong>-6.7%</strong></td>
+<td align="right">上半年 -5.7%</td>
+<td>降幅扩大</td>
+</tr>
+<tr>
+<td>民间投资</td>
+<td align="right"><strong>-9.4%</strong></td>
+<td align="right">—</td>
+<td>企业信心仍弱</td>
+</tr>
+<tr>
+<td>7月社会消费品零售总额</td>
+<td align="right"><strong>+0.6%</strong></td>
+<td align="right">6月 +1.0%</td>
+<td>消费继续放缓</td>
+</tr>
+<tr>
+<td>7月规模以上工业增加值</td>
+<td align="right"><strong>+4.5%</strong></td>
+<td align="right">6月 +5.3%</td>
+<td>生产动能减弱</td>
+</tr>
+<tr>
+<td>房地产开发投资</td>
+<td align="right"><strong>-19.2%</strong></td>
+<td align="right">上半年 -18.0%</td>
+<td>房地产仍是最大拖累</td>
+</tr>
+<tr>
+<td>新建商品房销售面积</td>
+<td align="right"><strong>-11.8%</strong></td>
+<td align="right">上半年 -11.6%</td>
+<td>全国住房需求尚未企稳</td>
+</tr>
+</tbody></table>
+<p><em>数据来源：国家统计局英文发布的7月<a href="https://www.stats.gov.cn/english/PressRelease/202608/t20260818_1965072.html">固定资产投资</a>、<a href="https://www.stats.gov.cn/english/PressRelease/202608/t20260819_1965078.html">社会消费品零售总额</a>、<a href="https://www.stats.gov.cn/english/PressRelease/202608/t20260818_1965071.html">规模以上工业增加值</a>和<a href="https://www.stats.gov.cn/english/PressRelease/202608/t20260819_1965077.html">房地产</a>数据。对比值分别来自<a href="https://www.stats.gov.cn/english/PressRelease/202607/t20260717_1964158.html">上半年投资</a>、<a href="https://www.stats.gov.cn/english/PressRelease/202607/t20260717_1964156.html">6月零售</a>、<a href="https://www.stats.gov.cn/english/PressRelease/202607/t20260717_1964159.html">6月工业</a>和<a href="https://www.stats.gov.cn/english/PressRelease/202607/t20260717_1964157.html">上半年房地产</a>发布。</em></p>
+<p>结构比总量减速本身更重要。高技术制造业仍保持较快增长，但这并没有阻止民间投资、耐用品消费和房地产活动继续走弱。与其说经济正在同步下坠，不如说它正在分化：政策支持的战略产业仍能获得资金，而不少民营企业和家庭因为需求不足、前景不确定，不愿继续加杠杆。</p>
+<p><strong>这意味着，单纯降低贷款利率的乘数效应可能有限。</strong> 没有订单的企业，或担心收入与房价的家庭，即使利率下降也未必借钱。政策问题正在从“怎样让信贷更便宜”，转向“怎样修复现金流和预期回报”。</p>
+<h2 id="财政执行走在全面货币宽松之前"><a href="#财政执行走在全面货币宽松之前" class="headerlink" title="财政执行走在全面货币宽松之前"></a>财政执行走在全面货币宽松之前</h2><p>财政部本周最重要的信号不是新增额度，而是加快落实。2026年预算安排财政支出超过30万亿元，新增政府债券发行规模为11.89万亿元。财政部表示，下半年仍有超过2万亿元地方政府专项债券和超长期特别国债需要发行使用；如果经济形势需要，也可以进一步出台增量措施。<a href="https://finance.caixin.com/2026-08-21/102476528.html">财新的报道</a>提供了政策背景，基础财政数据可见<a href="https://gks.mof.gov.cn/tongjishuju/202608/t20260814_3995497.htm">财政部</a>。</p>
+<p>授权和执行之间的区别至关重要。债券额度只有在资金完成分配、项目开工、承包商收到款项、订单传导至供应商之后，才真正形成增长支持。7月一般公共预算收入同比增长11.7%，但支出仅增长0.5%；1—7月国有土地使用权出让收入下降30.8%，地方政府自身能够调动的财政资源进一步减少。</p>
+<p><strong>未来两个月将是一次财政执行力测试。</strong> 如果中央转移支付和债券资金加快落地，基础设施施工和供应商现金流可以改善，而无须先等待私人信贷需求复苏。如果资金继续停留在“已发行、未施工”的环节，要求中央政府推出更大规模支持的压力将上升。</p>
+<p>货币政策并未收紧，但目前主要扮演配合角色。8月20日，一年期LPR维持在3.0%，五年期以上LPR维持在3.5%，详见官方<a href="https://www.chinamoney.com.cn/chinese/rdgz/20260820/3399885.html">LPR公告</a>。央行此前也主要通过隔夜逆回购管理短期流动性，而没有释放新的中期价格信号。</p>
+<p>截至2026年8月25日，我的基准判断是：<strong>9月下调LPR的概率约为20%</strong>，<strong>年底前至少下调一次的概率为45%—55%</strong>。这只是分析情景的主观权重，并非市场隐含概率。如果七天期政策利率或大型银行存款利率先行下调，降息概率会显著上升；如果财政支出明显加速、8月PMI企稳，短期降息的紧迫性反而会降低。</p>
+<h2 id="定向工具正在从两端修复现金流"><a href="#定向工具正在从两端修复现金流" class="headerlink" title="定向工具正在从两端修复现金流"></a>定向工具正在从两端修复现金流</h2><p>政府一方面降低部分融资成本，另一方面试图确保企业能够收到本应到账的钱。在8月21日的发布会上，相关部门表示，个人消费贷款贴息比例仍为1个百分点，但每名借款人在单家经办机构的年度贴息上限将从3000元提高到5000元。新发放的汽车和家装信用卡分期将纳入范围，小微企业及服务业经营主体的贴息贷款额度也将提高。截至本文发布时，尚未看到与新口径对应的书面实施通知。<a href="https://economy.caixin.com/2026-08-21/102476355.html">财新报道</a>介绍了扩围方案，财政部1月发布的<a href="https://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982160.htm">政策通知</a>则构成原有政策基线。</p>
+<p>这类措施可能帮助本来就准备消费或投资的家庭和企业，但无法替代收入信心。真正应当衡量的是新增消费和新增投资，而不是贴息贷款总量，因为其中一部分可能只是替代了原本就会发生的借款。</p>
+<p>国务院清理拖欠企业账款的行动针对另一项约束。地方政府被要求运用专项债券和再贷款工具化解拖欠链条，监管部门则将加强付款期限标准，以及对大型企业拖欠中小供应商账款的监督。国务院常务会议的官方<a href="https://big5.www.gov.cn/gate/big5/www.gov.cn/zhengce/202608/content_7078874.htm">会议通报</a>显示，政策正在从一次性清欠转向常态化约束。</p>
+<p><strong>对许多小企业而言，收回已经赚到的钱，可能比再借一笔贷款更有效。</strong> 清理欠款可以修复营运资金，又不会增加企业杠杆。风险在于欠款重新累积：如果预算纪律、合同执行和惩罚机制不能阻止新欠款产生，用融资偿还旧欠款只能暂时缓解问题。</p>
+<h2 id="楼市支持日益地方化，恒大进入损失分配阶段"><a href="#楼市支持日益地方化，恒大进入损失分配阶段" class="headerlink" title="楼市支持日益地方化，恒大进入损失分配阶段"></a>楼市支持日益地方化，恒大进入损失分配阶段</h2><p>全国房地产下行仍然严峻。1—7月房地产开发投资下降19.2%，新建商品房销售面积下降11.8%，销售额下降13.1%，房地产开发企业到位资金下降20.3%，数据来自<a href="https://www.stats.gov.cn/english/PressRelease/202608/t20260819_1965077.html">国家统计局</a>。</p>
+<p>上海面对的是另一个细分市场：高收入、供应受限的核心城市中，希望改善住房的家庭。新措施把外环外二套住房最低首付比例降至15%，扩大住房公积金账户余额的使用范围，对符合条件的“卖旧买新”交易提供补贴，并支持收购二手住房用于保障性租赁住房。<a href="https://www.shanghai.gov.cn/nw4411/20260821/009c5dac476b4ad2bb8e9264091069e3.html">上海市政府</a>将其描述为打通二手房与新房交易链条的措施。</p>
+<p><strong>上海成交量回升本身并不代表全国房地产已经见底。</strong> 政策可能改善核心城市的改善型需求流动性，但不能直接扭转开发投资下降、房企资金趋弱以及低线城市供应过剩。最有价值的证据将是实际成交和登记数据，而不是售楼处客流或挂牌数量。</p>
+<p>恒大的司法处置展示了住房政策的另一面。8月20日，法院判处创始人许家印无期徒刑，并对集团及相关被告作出处罚。次日，广州法院裁定受理境内地产平台的破产清算，债权申报截止日期为11月21日。<a href="https://www.court.gov.cn/zixun/xiangqing/509281.html">最高人民法院</a>和全国企业<a href="https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=4eaffaf8938d4594a275b2d59f286b51">破产重整案件信息网</a>提供了权威司法记录。</p>
+<p>这一顺序值得关注：政策重点正从稳定项目和受影响家庭，转向刑事追责以及在债权人之间正式分配损失。法院主导的清算提高了程序清晰度，却不保证无担保债权人能够获得较高回收率。真正决定经济结果的信息，将来自管理人的资产清单、关联企业的处理方式，以及境内外债权之间的协调。</p>
+<h2 id="战略产业仍获资本支持，也面临外部法律压力"><a href="#战略产业仍获资本支持，也面临外部法律压力" class="headerlink" title="战略产业仍获资本支持，也面临外部法律压力"></a>战略产业仍获资本支持，也面临外部法律压力</h2><p>资本配置依然高度分化。长江存储母公司已申请在上海科创板上市，拟募资最高330亿元，其中大部分用于生产线升级和研发。申请获受理意味着监管审核开始，并不等于最终获批，也不保证实际募资规模。<a href="https://companies.caixin.com/2026-08-22/102476776.html">财新报道</a>提供了交易细节，申请状态可通过<a href="https://www.sse.com.cn/star/renewal/">上海证券交易所</a>跟踪。</p>
+<p>与此同时，美国国际贸易委员会对圆柱形可充电电池及相关产品启动“337调查”。亿纬锂能及多家下游客户被列为被调查方。案件涉及被主张的专利侵权；立案调查并不等同于认定责任。<a href="https://www.usitc.gov/press_room/news_release/2026/er0820_69103.htm">美国国际贸易委员会公告</a>是权威信息来源。</p>
+<p>这两项进展共同呈现出“K型”资本环境。即使整体民间投资收缩，半导体等战略产业仍能动员大规模境内股权资本。但融资能力不能消除外部约束：知识产权纠纷、出口管制和客户层面的合规审查，越来越影响企业海外扩张的商业价值。</p>
+<h2 id="政治信号在于执行与问责"><a href="#政治信号在于执行与问责" class="headerlink" title="政治信号在于执行与问责"></a>政治信号在于执行与问责</h2><p>本周没有出现新的意识形态纲领或宏观政策蓝图。更有价值的政治经济信号，来自既定政策如何执行：加快财政资金落地、约束大型组织的付款纪律，以及通过法院确认恒大损失。</p>
+<p>这一模式显示出一种治理偏好：<strong>有针对性的支持，加上可追溯的责任。</strong> 财政资金被要求真正进入项目，大型组织被要求向中小交易对手付款，过去金融违规的成本则通过法院和监管机构得到分配。能否改善民营部门信心，取决于透明执行和可预期执法，而不是新增文件的数量。</p>
+<h2 id="接下来关注什么"><a href="#接下来关注什么" class="headerlink" title="接下来关注什么"></a>接下来关注什么</h2><ol>
+<li><p><strong>8月27日公布的工业企业利润。</strong> 民营企业利润如果出现广泛改善，比利润再次集中在电子或价格敏感行业更能支持投资判断。官方发布安排可查阅<a href="https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html">国家统计局日程</a>。</p>
+</li>
+<li><p><strong>8月31日公布的官方PMI。</strong> 新订单、建筑业活动和小型企业指数，将首次高频检验财政执行是否开始传导至需求。</p>
+</li>
+<li><p><strong>债券使用，而不只是债券公告。</strong> 应当把发行、财政拨付、项目开工和供应商收款作为四个不同阶段跟踪。</p>
+</li>
+<li><p><strong>上海交易登记数据。</strong> 新房和二手房的实际成交，比到访、咨询和开发商营销数据更重要。</p>
+</li>
+<li><p><strong>恒大管理人披露。</strong> 资产范围、债权分类和关联企业处理方式，将决定清算只是程序进展，还是能够提供有经济意义的信息。</p>
+</li>
+<li><p><strong>美国国际贸易委员会时间表与客户行为。</strong> 关注调查目标完成日期、亿纬锂能的回应，以及下游被调查方是否调整采购。</p>
+</li>
+</ol>
+<h2 id="延伸问题"><a href="#延伸问题" class="headerlink" title="延伸问题"></a>延伸问题</h2><ul>
+<li>剩余债券额度中，有多少能在三季度结束前转化为实际施工和供应商收入？</li>
+<li>消费贷贴息会创造真正的新增支出，还是主要为原本计划中的消费提供再融资？</li>
+<li>清欠行动能否以企业可核验的方式，公布付款金额、责任主体和完成率？</li>
+<li>地方化楼市宽松能否在不引发新一轮居民加杠杆和投机需求的情况下改善流动性？</li>
+<li>在全球科技与贸易周期走弱时，战略产业的集中融资能否产生可接受的回报？</li>
+</ul>
+<h2 id="口径与假设"><a href="#口径与假设" class="headerlink" title="口径与假设"></a>口径与假设</h2><ul>
+<li>报道区间为2026年8月17日至23日，以北京时间计算。此后信息仅用于核验状态，不作为本周新增事件处理。</li>
+<li>投资和房地产增速采用统计部门的可比口径。社会消费品零售总额为名义增速，工业增加值为实际增速，两者不能直接比较。</li>
+<li>LPR概率是作者的情景判断，不是投资建议，也不是根据市场价格推导的预测。</li>
+<li>增量财政措施、恒大债权人回收率、科创板发行和美国国际贸易委员会调查均未最终落定。</li>
+</ul>
+<hr>
+<h3 id="编辑说明"><a href="#编辑说明" class="headerlink" title="编辑说明"></a>编辑说明</h3><p>本周报由作者独立撰写，综合公开报道与公共记录；重要数字和法律事实在条件允许时以一手来源核验。文中的分析和情景概率均为作者个人判断。链接仅用于来源说明和延伸阅读。</p>
+<p><em>本文提供一般性政治经济分析，不构成法律、财务或投资建议。</em></p>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
+    <title>China Political Economy Weekly | Aug 17–23, 2026: Fiscal Support Takes the Lead</title>
+    <id>https://terazadl.github.io/2026/08/china-political-economy-weekly-fiscal-support/</id>
+    <link href="https://terazadl.github.io/2026/08/china-political-economy-weekly-fiscal-support/"/>
+    <published>2026-08-25T08:27:56.000Z</published>
+    <updated>2026-08-25T08:41:00.000Z</updated>
+    <summary type="html"><![CDATA[China’s July slowdown is pushing policy toward faster fiscal execution and targeted credit support, while broad rate cuts remain on hold.]]></summary>
+    <content type="html"><![CDATA[<p><span hidden data-article-language="EN"></span></p>
+<div class="abstract">
+  <span class="abstract-label">Weekly thesis</span>
+  China’s July slowdown has strengthened the case for support, but the policy mix is becoming more targeted rather than simply cheaper. Faster fiscal execution, payment-arrears clearance and selective credit subsidies are moving to the foreground, while broad rate cuts remain a secondary option and the property sector shifts further into formal loss allocation.
+</div>
+
+<blockquote>
+<p><strong>Reporting window:</strong> August 17–23, 2026 (Beijing time). Published August 25, 2026.</p>
+<p><strong>Languages:</strong> <strong>English</strong> · <a href="/2026/08/china-political-economy-weekly-fiscal-support-zh/">中文</a> · <a href="/2026/08/china-political-economy-weekly-fiscal-support-ja/">日本語</a></p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="Executive-Summary"><a href="#Executive-Summary" class="headerlink" title="Executive Summary"></a>Executive Summary</h2><ul>
+<li><p><strong>China’s July slowdown has strengthened the case for support, but not necessarily for an immediate rate cut.</strong> Fixed-asset investment fell 6.7% year on year in January–July, private investment fell 9.4%, July retail sales grew only 0.6%, and industrial output growth slowed to 4.5%. Weak borrowing is increasingly a symptom of weak expected returns and household caution—not simply expensive credit.</p>
+</li>
+<li><p><strong>The near-term policy mix is shifting toward fiscal execution and targeted balance-sheet repair.</strong> The Ministry of Finance says more than RMB 2tn of local special-purpose bonds and ultra-long special treasury bonds still need to be issued and deployed in the second half. Subsidies for consumer and small-business loans are being expanded, while the State Council is pressing local governments and large companies to clear overdue payments to smaller firms.</p>
+</li>
+<li><p><strong>Risk management is advancing alongside stimulus.</strong> The August loan prime rates were left unchanged. Shanghai introduced another targeted package for its housing market, while Evergrande’s founder was sentenced and the company’s onshore property platform entered court-led liquidation. The common thread is selective support for current demand combined with a more explicit allocation of losses from the previous credit cycle.</p>
+</li>
+</ul>
+<h2 id="The-data-now-point-to-a-demand-problem-not-just-a-credit-problem"><a href="#The-data-now-point-to-a-demand-problem-not-just-a-credit-problem" class="headerlink" title="The data now point to a demand problem, not just a credit problem"></a>The data now point to a demand problem, not just a credit problem</h2><p>China’s latest activity data show a widening gap between high-technology production and the domestic sectors that normally generate broad employment, household income and private investment. The figures below use year-on-year growth for January–July unless otherwise stated; retail sales and industrial output are July-only figures.</p>
+<table>
+<thead>
+<tr>
+<th>Indicator</th>
+<th align="right">Latest</th>
+<th align="right">Comparison</th>
+<th>Signal</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Fixed-asset investment</td>
+<td align="right"><strong>-6.7%</strong></td>
+<td align="right">-5.7% in H1</td>
+<td>Contraction deepened</td>
+</tr>
+<tr>
+<td>Private investment</td>
+<td align="right"><strong>-9.4%</strong></td>
+<td align="right">—</td>
+<td>Business confidence remains weak</td>
+</tr>
+<tr>
+<td>Retail sales, July</td>
+<td align="right"><strong>+0.6%</strong></td>
+<td align="right">+1.0% in June</td>
+<td>Consumption slowed</td>
+</tr>
+<tr>
+<td>Industrial output, July</td>
+<td align="right"><strong>+4.5%</strong></td>
+<td align="right">+5.3% in June</td>
+<td>Production lost momentum</td>
+</tr>
+<tr>
+<td>Property development investment</td>
+<td align="right"><strong>-19.2%</strong></td>
+<td align="right">-18.0% in H1</td>
+<td>Property remains the largest drag</td>
+</tr>
+<tr>
+<td>New-home floor space sold</td>
+<td align="right"><strong>-11.8%</strong></td>
+<td align="right">-11.6% in H1</td>
+<td>National housing demand has not stabilized</td>
+</tr>
+</tbody></table>
+<p><em>Data sources: National Bureau of Statistics releases for <a href="https://www.stats.gov.cn/english/PressRelease/202608/t20260818_1965072.html">July fixed-asset investment</a>, <a href="https://www.stats.gov.cn/english/PressRelease/202608/t20260819_1965078.html">retail sales</a>, <a href="https://www.stats.gov.cn/english/PressRelease/202608/t20260818_1965071.html">industrial production</a> and <a href="https://www.stats.gov.cn/english/PressRelease/202608/t20260819_1965077.html">real estate</a>. Comparisons use the corresponding <a href="https://www.stats.gov.cn/english/PressRelease/202607/t20260717_1964158.html">H1 investment</a>, <a href="https://www.stats.gov.cn/english/PressRelease/202607/t20260717_1964156.html">June retail</a>, <a href="https://www.stats.gov.cn/english/PressRelease/202607/t20260717_1964159.html">June industrial</a> and <a href="https://www.stats.gov.cn/english/PressRelease/202607/t20260717_1964157.html">H1 property</a> releases.</em></p>
+<p>The composition matters as much as the headline slowdown. High-technology manufacturing still grew rapidly, but that strength did not prevent private investment, durable-goods consumption and property activity from weakening. This is a divided economy rather than a synchronized collapse: policy-supported strategic sectors retain access to capital, while many private businesses and households see too little demand or too much uncertainty to add leverage.</p>
+<p><strong>The implication is that cheaper loans alone may have a low multiplier.</strong> A firm without orders, or a household worried about income and home values, may not borrow even when the interest rate falls. The policy question is therefore moving from “How can credit be made cheaper?” to “What can restore cash flow and expected returns?”</p>
+<h2 id="Fiscal-execution-is-moving-ahead-of-broad-monetary-easing"><a href="#Fiscal-execution-is-moving-ahead-of-broad-monetary-easing" class="headerlink" title="Fiscal execution is moving ahead of broad monetary easing"></a>Fiscal execution is moving ahead of broad monetary easing</h2><p>The Ministry of Finance’s most important signal this week was about implementation. China’s 2026 budget includes more than RMB 30tn in fiscal expenditure and RMB 11.89tn in planned new government bond issuance. According to the ministry, more than RMB 2tn in local special-purpose bonds and ultra-long special treasury bonds remained to be issued and used in the second half. It also said additional measures could be introduced if economic conditions require them. <a href="https://finance.caixin.com/2026-08-21/102476528.html">Caixin’s account</a> adds useful policy context; the underlying fiscal data are available from the <a href="https://gks.mof.gov.cn/tongjishuju/202608/t20260814_3995497.htm">Ministry of Finance</a>.</p>
+<p>The distinction between authorization and execution is crucial. A bond quota does not support growth until proceeds are allocated, projects begin, contractors are paid and orders reach suppliers. July general public budget revenue rose 11.7% year on year, but expenditure increased only 0.5%. Meanwhile, land-sale revenue was down 30.8% in January–July, leaving local governments with less self-generated fiscal capacity.</p>
+<p><strong>This makes the next two months an execution test.</strong> Faster central transfers and bond deployment could lift infrastructure work and supplier cash flow without waiting for a revival in private credit demand. If money remains stuck between issuance and construction, pressure for a larger central-government package will increase.</p>
+<p>Monetary policy is not tightening, but it is playing a supporting role. On August 20, the one-year loan prime rate remained at 3.0% and the five-year-plus rate at 3.5%, according to the official <a href="https://www.chinamoney.com.cn/chinese/rdgz/20260820/3399885.html">LPR announcement</a>. The central bank had also used overnight reverse repos to manage short-term liquidity rather than sending a new medium-term price signal.</p>
+<p>As of August 25, 2026, my base case is a <strong>roughly 20% probability of an LPR cut in September</strong> and a <strong>45%–55% probability of at least one cut by year-end</strong>. These are analytical scenario weights, not market-implied probabilities. A prior reduction in the seven-day policy rate or major-bank deposit rates would materially raise the odds; a visible acceleration in fiscal spending and a stabilization in the August PMI would lower the urgency.</p>
+<h2 id="Targeted-tools-are-trying-to-repair-cash-flow-from-both-sides"><a href="#Targeted-tools-are-trying-to-repair-cash-flow-from-both-sides" class="headerlink" title="Targeted tools are trying to repair cash flow from both sides"></a>Targeted tools are trying to repair cash flow from both sides</h2><p>The government is combining cheaper credit with efforts to make sure businesses are actually paid. At an August 21 briefing, officials said the annual cap per borrower at each participating institution would rise from RMB 3,000 to RMB 5,000, while the interest subsidy on eligible personal consumer loans would remain one percentage point. Newly originated credit-card installment plans for cars and home renovation would be included, and the subsidized-loan ceilings for small businesses and service-sector operators would increase. A revised written implementation notice was not linked at publication time. <a href="https://economy.caixin.com/2026-08-21/102476355.html">Caixin reported the expanded design</a>; the Ministry of Finance’s January <a href="https://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982160.htm">policy notice</a> provides the baseline framework.</p>
+<p>This may help households and firms that already intend to spend, but it cannot substitute for income confidence. The right measure of success is additional consumption and investment—not the gross volume of subsidized loans, some of which may simply replace borrowing that would have occurred anyway.</p>
+<p>The State Council’s campaign against overdue corporate payments addresses a different constraint. Local governments were instructed to use special-purpose bonds and relending tools to break chains of arrears, while regulators are expected to tighten payment-term standards and scrutiny of large companies’ treatment of small suppliers. The official <a href="https://big5.www.gov.cn/gate/big5/www.gov.cn/zhengce/202608/content_7078874.htm">State Council meeting readout</a> describes a shift from a one-off clearance drive toward regular enforcement.</p>
+<p><strong>For many small firms, recovering money already earned may be more powerful than receiving another loan.</strong> Clearing arrears repairs working capital without increasing the borrower’s leverage. The risk is recurrence: financing old arrears does not solve the problem unless budget discipline, contract enforcement and penalties prevent new ones from accumulating.</p>
+<h2 id="Housing-support-is-becoming-more-local-as-Evergrande-moves-into-loss-allocation"><a href="#Housing-support-is-becoming-more-local-as-Evergrande-moves-into-loss-allocation" class="headerlink" title="Housing support is becoming more local as Evergrande moves into loss allocation"></a>Housing support is becoming more local as Evergrande moves into loss allocation</h2><p>The national property downturn remains severe. In January–July, development investment fell 19.2%, new-home floor space sold declined 11.8%, sales by value fell 13.1%, and funds available to developers dropped 20.3%, according to the <a href="https://www.stats.gov.cn/english/PressRelease/202608/t20260819_1965077.html">National Bureau of Statistics</a>.</p>
+<p>Shanghai nevertheless has room to target a very different market segment: households trying to upgrade homes in a high-income, supply-constrained city. Its latest measures cut the minimum down payment on a second home outside the Outer Ring Road to 15%, expand the use of housing provident fund balances, subsidize qualifying “sell old, buy new” transactions and support the purchase of used homes for affordable rental housing. The <a href="https://www.shanghai.gov.cn/nw4411/20260821/009c5dac476b4ad2bb8e9264091069e3.html">Shanghai municipal government</a> describes the package as an attempt to unblock the chain between second-hand and new-home transactions.</p>
+<p><strong>A pickup in Shanghai transactions would not, by itself, mark a national property turning point.</strong> The policy may improve liquidity for upgrade demand in core cities, but it does not directly reverse falling construction, weaker developer funding or excess supply in lower-tier markets. The first useful evidence will be completed transactions and registrations—not showroom traffic or listing activity.</p>
+<p>Evergrande’s legal resolution illustrates the other side of housing policy. On August 20, a court sentenced founder Xu Jiayin to life imprisonment and imposed penalties on the group and related defendants. The next day, a Guangzhou court accepted the onshore property company into bankruptcy liquidation, with creditor claims due by November 21. The <a href="https://www.court.gov.cn/zixun/xiangqing/509281.html">Supreme People’s Court</a> and the national <a href="https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=4eaffaf8938d4594a275b2d59f286b51">bankruptcy information platform</a> provide the authoritative legal record.</p>
+<p>The sequence is revealing: the focus has moved from stabilizing projects and affected households toward criminal accountability and formal loss allocation among creditors. Court-led liquidation improves procedural clarity, but it does not guarantee a high recovery rate for unsecured creditors. The decisive information will come from the administrator’s asset inventory, the treatment of affiliated entities and the coordination of onshore and offshore claims.</p>
+<h2 id="Strategic-industries-still-receive-capital—and-face-external-legal-pressure"><a href="#Strategic-industries-still-receive-capital—and-face-external-legal-pressure" class="headerlink" title="Strategic industries still receive capital—and face external legal pressure"></a>Strategic industries still receive capital—and face external legal pressure</h2><p>Capital allocation remains highly selective. Yangtze Memory Technologies’ parent company has applied for a Shanghai STAR Market listing that would raise as much as RMB 33bn, with most proceeds intended for production-line upgrades and research. The application has been accepted, which begins regulatory review but does not guarantee approval or the final fundraising amount. <a href="https://companies.caixin.com/2026-08-22/102476776.html">Caixin’s report</a> provides the transaction details; application status can be monitored through the <a href="https://www.sse.com.cn/star/renewal/">Shanghai Stock Exchange</a>.</p>
+<p>At the same time, the U.S. International Trade Commission opened a Section 337 investigation into cylindrical rechargeable batteries and related products. EVE Energy and several downstream customers are among the respondents. The investigation concerns alleged patent infringement; opening a case is not a finding of liability. The <a href="https://www.usitc.gov/press_room/news_release/2026/er0820_69103.htm">USITC notice</a> is the controlling source.</p>
+<p>Together, the two developments capture the “K-shaped” capital environment. Semiconductor and other strategic sectors can still mobilize very large pools of domestic equity, even as aggregate private investment contracts. But access to capital does not eliminate external constraints: intellectual-property disputes, export controls and customer-level compliance reviews increasingly shape the commercial value of overseas expansion.</p>
+<h2 id="The-political-signal-is-implementation-and-accountability"><a href="#The-political-signal-is-implementation-and-accountability" class="headerlink" title="The political signal is implementation and accountability"></a>The political signal is implementation and accountability</h2><p>This week did not bring a new ideological or macroeconomic blueprint. The more useful political-economy signal came from how existing priorities were enforced: faster fiscal execution, payment discipline for large firms and court-led loss recognition at Evergrande.</p>
+<p>That pattern suggests a governing preference for <strong>targeted support with traceable responsibility</strong>. Funds are expected to reach projects, large organizations are being pressed to pay smaller counterparties, and the costs of past financial misconduct are being assigned through courts and regulators. Whether this improves private confidence will depend less on the number of new directives than on transparent execution and predictable enforcement.</p>
+<h2 id="What-to-watch-next"><a href="#What-to-watch-next" class="headerlink" title="What to watch next"></a>What to watch next</h2><ol>
+<li><p><strong>Industrial profits on August 27.</strong> A broad improvement in private-sector profits would be a better signal for investment than another increase concentrated in electronics or price-sensitive sectors. The official release calendar is available from the <a href="https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html">National Bureau of Statistics</a>.</p>
+</li>
+<li><p><strong>The official PMI on August 31.</strong> New orders, construction activity and the small-enterprise index will provide the first high-frequency test of whether fiscal implementation is reaching demand.</p>
+</li>
+<li><p><strong>Bond deployment rather than bond announcements.</strong> Track issuance, fiscal disbursement, project starts and payments to suppliers as separate stages.</p>
+</li>
+<li><p><strong>Shanghai transaction registrations.</strong> Completed new- and second-hand home sales matter more than visits, inquiries or developer marketing reports.</p>
+</li>
+<li><p><strong>Evergrande’s administrator disclosures.</strong> The asset perimeter, creditor classification and treatment of affiliated companies will determine whether the liquidation is merely procedural or economically informative.</p>
+</li>
+<li><p><strong>The USITC timetable and customer behavior.</strong> Watch for the target completion date, EVE Energy’s response and any procurement changes by downstream respondents.</p>
+</li>
+</ol>
+<h2 id="Further-questions"><a href="#Further-questions" class="headerlink" title="Further questions"></a>Further questions</h2><ul>
+<li>How much of the remaining bond quota can become construction activity and supplier revenue before the end of the third quarter?</li>
+<li>Will consumer-loan subsidies generate genuinely additional spending, or mainly refinance purchases that were already planned?</li>
+<li>Can the arrears campaign publish payment amounts, responsible entities and completion rates in a form that businesses can verify?</li>
+<li>Will localized housing easing improve liquidity without creating another round of household leverage and speculative demand?</li>
+<li>Can concentrated financing for strategic industries deliver acceptable returns through a weaker global technology and trade cycle?</li>
+</ul>
+<h2 id="Caveats-and-assumptions"><a href="#Caveats-and-assumptions" class="headerlink" title="Caveats and assumptions"></a>Caveats and assumptions</h2><ul>
+<li>The reporting window is August 17–23, 2026, Beijing time. Later information is used only to verify status, not treated as a new event within the week.</li>
+<li>Investment and property growth rates use the statistical authority’s comparable basis. Retail sales are nominal; industrial output is measured in real terms, so the two rates are not directly comparable.</li>
+<li>The LPR probabilities are the author’s scenario assessment, not an investment recommendation or a forecast derived from market prices.</li>
+<li>The final design of additional fiscal measures, Evergrande creditor recoveries, the STAR Market offering and the USITC investigation all remain unresolved.</li>
+</ul>
+<hr>
+<h3 id="Editorial-disclosure"><a href="#Editorial-disclosure" class="headerlink" title="Editorial disclosure"></a>Editorial disclosure</h3><p>This newsletter is independently written. It synthesizes reporting and public records, with material numerical and legal claims checked against primary sources where available. All analysis and scenario estimates are the author’s own. Links are provided for attribution and further reading.</p>
+<p><em>This publication provides general political-economy analysis and does not constitute legal, financial or investment advice.</em></p>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
+    <title>Building a Read-Only Polymarket Observatory for Chinese Users</title>
+    <id>https://terazadl.github.io/2026/08/building-polymarket-observatory-for-chinese-users/</id>
+    <link href="https://terazadl.github.io/2026/08/building-polymarket-observatory-for-chinese-users/"/>
+    <published>2026-08-12T07:30:00.000Z</published>
+    <updated>2026-08-13T02:12:44.894Z</updated>
+    <summary type="html"><![CDATA[A small product case study in turning public prediction-market data into a clear, auditable, Beijing-time monitoring service without turning probabilities into false certainty.]]></summary>
+    <content type="html"><![CDATA[<p><span hidden data-article-language="EN"></span></p>
+<div class="abstract">
+  <span class="abstract-label">Abstract</span>
+  Prediction markets can make an event’s implied odds visible, but a bare probability is often a poor notification product. I built Polymarket Observatory, a read-only monitor for Chinese-speaking users that screens public markets for quality, shows complete mutually exclusive outcomes, separates a market’s belief from the source that resolves the event, and sends a daily Beijing-time digest with restrained anomaly alerts. This note documents the product choices behind it—not as trading software, but as a small experiment in auditable information design.
+</div>
+
+<p><img src="/images/event-radar-latest.png" alt="A sample Polymarket Observatory share card. It shows a Strait of Hormuz risk probability and the complete distribution for a Federal Reserve decision."></p>
+<h2 id="The-problem-is-not-retrieving-a-number"><a href="#The-problem-is-not-retrieving-a-number" class="headerlink" title="The problem is not retrieving a number"></a>The problem is not retrieving a number</h2><p>Prediction-market pages are good at answering a narrow question: <em>what is the market pricing right now?</em> They are less good at the recurring task that many people actually have: <em>tell me when this event is worth paying attention to, without making me monitor a dashboard all day.</em></p>
+<p>That difference matters. A notification that says “the probability of a Federal Reserve rate cut is 2%” can be technically accurate yet cognitively misleading. The reader immediately asks: 2% compared with what? Is the market pricing no change? A hike? Does the contract have enough liquidity to trust its price? And, when the meeting ends, who determines the outcome?</p>
+<p>I built <strong>Polymarket Observatory</strong> to make those questions explicit. It is a small, read-only monitoring system for Chinese-speaking users. It reads selected public Polymarket markets through the <a href="https://docs.polymarket.com/api-reference/introduction">Gamma API</a>, generates a Beijing-time daily briefing, and uses <a href="https://sct.ftqq.com/docs/getting-started/faq/">ServerChan</a> to deliver concise WeChat notifications. Market selection is currently an explicit watchlist decision rather than an automatic discovery or ranking system.</p>
+<p>The product is deliberately not a trading tool. It does not connect a wallet, request signatures, store an API trading credential, or place an order. The aim is much humbler: turn public market information into a calmer and more inspectable monitoring habit.</p>
+<h2 id="Start-with-decisions-not-with-a-dashboard"><a href="#Start-with-decisions-not-with-a-dashboard" class="headerlink" title="Start with decisions, not with a dashboard"></a>Start with decisions, not with a dashboard</h2><p>The first version tracks two very different kinds of event:</p>
+<ol>
+<li><strong>Strait of Hormuz shipping risk.</strong> The market asks whether traffic returns to normal before a stated deadline.</li>
+<li><strong>The September 2026 FOMC decision.</strong> The market represents several possible changes to the policy rate.</li>
+</ol>
+<p>Those choices forced two useful product rules.</p>
+<p>First, <strong>a market price is an expectation, not an observed fact</strong>. For Hormuz, the market provides the probability, while the relevant observed metric comes from <a href="https://portwatch.imf.org/">IMF PortWatch</a>, which uses AIS data to monitor ports and strategic maritime passages. For the Federal Reserve, Polymarket supplies the distribution before the meeting; the post-meeting <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">FOMC statement and calendar</a> determine what actually happened.</p>
+<p>Second, the interface must show <strong>the full decision space</strong>. The Fed message shows five mutually exclusive outcomes—cut by at least 50 basis points, cut 25 basis points, unchanged, hike 25 basis points, or hike by at least 50 basis points—and also groups them into cut &#x2F; unchanged &#x2F; hike. The components are normalized to a full 100% distribution after passing quality checks.</p>
+<p>This is not cosmetic. A single outcome is easy to over-read as a recommendation or a forecast of certainty. A complete distribution lets the user see the uncertainty that is actually being priced.</p>
+<h2 id="Market-selection-is-a-data-quality-decision"><a href="#Market-selection-is-a-data-quality-decision" class="headerlink" title="Market selection is a data-quality decision"></a>Market selection is a data-quality decision</h2><p>“Use Polymarket data” is not specific enough. A subject can have multiple related contracts, and an apparently precise price can be based on a wide spread or thin liquidity. The system therefore does not treat every listed market as equally informative.</p>
+<p>For every selected contract, the monitor reads the best bid and best ask when available, computes their midpoint, and checks event-level quality thresholds:</p>
+<ul>
+<li>minimum liquidity of US$50,000;</li>
+<li>maximum bid–ask spread of 5 percentage points;</li>
+<li>for a multi-outcome decision, a raw component total between 90% and 110% before normalization.</li>
+</ul>
+<p>Liquidity and spread are aggregated across the component markets that make up an event. If order-book quotes are unavailable, the monitor falls back to the public outcome price; that is a degraded data path and should be treated as less informative than a quoted bid&#x2F;ask midpoint. If a quality gate fails, the report says so rather than presenting a false sense of precision. That is particularly important for a public alert: users usually see the notification without the surrounding market page or order book.</p>
+<p>The same principle explains why I did not simply combine every prediction market into a single headline number. A second venue can be useful as a validation signal when the contract definitions are genuinely comparable. But blindly averaging two markets hides differences in resolution rules, liquidity, user base, and timing. The observable product has one primary market source and names it. Cross-market comparison is a separate analytical exercise, not a way to manufacture confidence.</p>
+<h2 id="Notifications-should-be-rare-enough-to-retain-meaning"><a href="#Notifications-should-be-rare-enough-to-retain-meaning" class="headerlink" title="Notifications should be rare enough to retain meaning"></a>Notifications should be rare enough to retain meaning</h2><p>The runner is configured to be invoked every 15 minutes by an external scheduler, but it does not notify every 15 minutes. That would turn a probability feed into noise. Instead, it has two layers:</p>
+<table>
+<thead>
+<tr>
+<th>Moment</th>
+<th>What the user receives</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>08:00 Beijing time</td>
+<td>A complete daily digest: current probability or distribution, timestamp, source links, and the fact-resolution source. The internal report also records liquidity, spread, and data-quality reasons.</td>
+</tr>
+<tr>
+<td>During the day</td>
+<td>A short alert only when a material, confirmed condition occurs.</td>
+</tr>
+</tbody></table>
+<p>The default immediate-alert conditions are a one-hour move of at least 5 percentage points, a 24-hour move of at least 10 points, a persistent crossing of 25%, 50%, or 75%, a persistent change in the leading outcome, a resolution-rule change, or market closure. Threshold crossings and leader changes require two consecutive samples. After an alert, the event enters a six-hour cooldown unless it moves another 5 points.</p>
+<p>This design turns out to be less about clever thresholds than about respecting attention. The default statement is the morning digest; a real-time alert has to earn the interruption.</p>
+<p>When an abnormal movement happens inside the morning window, it is folded into the daily digest instead of becoming a duplicate notification. The same result appears in the Markdown report, an HTML snapshot, and a portrait share card. That makes it easier to forward a result to a colleague without asking them to install the system.</p>
+<h2 id="Localizing-the-operational-details"><a href="#Localizing-the-operational-details" class="headerlink" title="Localizing the operational details"></a>Localizing the operational details</h2><p>The system runs on a computer in Japan, but its intended audience is in mainland China. That is why all customer-facing timestamps, digest schedules, and labels use <strong>Beijing time (Asia&#x2F;Shanghai)</strong>, not the machine’s local time. A scheduler may run at 09:00 Japan time, for example, while the message correctly says 08:00 Beijing time.</p>
+<p>The delivery channel is ServerChan, a service that can forward Markdown messages to WeChat. Its image support has one important practical constraint: images must live at a public URL rather than being embedded as local files or base64 data. The project can export an HTML page and a 1080×1350 PNG share card; public hosting and image links are optional configuration, and can be enabled separately from the read-only monitor. When enabled, the image URL is embedded in the daily message with a cache-busting timestamp. The result is both a notification and a linkable, visual snapshot.</p>
+<p>The wording also stays careful. Each report labels the data source as Polymarket, includes a timestamp, distinguishes “market-implied probability” from “resolution source,” and carries a no-investment-advice disclaimer. Those are not legal decorations added at the end. They are the minimum context required for a probability to remain interpretable after it is forwarded.</p>
+<h2 id="The-implementation-boundary-is-part-of-the-product"><a href="#The-implementation-boundary-is-part-of-the-product" class="headerlink" title="The implementation boundary is part of the product"></a>The implementation boundary is part of the product</h2><p>The public repository contains the event watchlist, quality gates, notification logic, share-card export, and unit tests. It intentionally excludes runtime state, historical reports, exported data, and notification secrets. The test suite covers, among other things:</p>
+<ul>
+<li>normalization of mutually exclusive outcomes;</li>
+<li>confirmation before a threshold-crossing or leader-change alert;</li>
+<li>daily-digest timing in the Beijing-time window;</li>
+<li>a dry run that neither writes state nor sends a notification;</li>
+<li>the presence of data-source and disclaimer information in the public page.</li>
+</ul>
+<p>These constraints make the project more reusable and more honest. Someone can inspect what is being monitored and why, run it in dry-run mode against live public data, and replace the events without inheriting my private data or credentials.</p>
+<h2 id="What-I-learned"><a href="#What-I-learned" class="headerlink" title="What I learned"></a>What I learned</h2><p>The most useful lesson from this project is that an automated monitor is partly an editorial system. It chooses which event deserves attention, which contract represents that event, which uncertainty has to remain visible, and what evidence resolves the question later.</p>
+<p>The code is not complicated in the abstract. The more difficult work is refusing easy but misleading defaults: one-number reporting, raw prices without quality checks, instant alerts on every tick, timestamps in the operator’s timezone, and a probability label with no explanation of what would prove it right or wrong.</p>
+<p>That is the standard I want this kind of tool to meet: read-only, source-linked, clear about uncertainty, and useful even to someone who never opens a prediction-market page.</p>
+<p>The implementation is available in the public <a href="https://github.com/terazadl/event-probability-radar">event-probability-radar repository</a>. A live <a href="https://terazadl.github.io/event-radar/">Polymarket Observatory snapshot</a> shows the current public output. It is an educational monitoring project, not investment or trading advice.</p>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
+    <title>中国经济还在增长，为什么体感仍然偏冷？——2026年中期的三层指标</title>
+    <id>https://terazadl.github.io/2026/08/china-economy-mid-2026-two-speed-slowdown/</id>
+    <link href="https://terazadl.github.io/2026/08/china-economy-mid-2026-two-speed-slowdown/"/>
+    <published>2026-08-02T02:22:58.000Z</published>
+    <updated>2026-08-03T05:52:17.000Z</updated>
+    <summary type="html"><![CDATA[中国经济在2026年中期仍处于扩张，但出口和高技术制造业跑在居民消费、房地产与私人需求之前，增长与体感出现分化。]]></summary>
+    <content type="html"><![CDATA[<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+<p>China’s economy was still expanding in mid-2026, but aggregate growth concealed a widening divide. First-half GDP rose 4.7 percent, industrial value added 5.4 percent, exports 13.4 percent, and industrial profits 18.7 percent. Meanwhile, retail sales grew only 1.3 percent, fixed-asset investment fell 5.7 percent, and property investment dropped 18.0 percent. July’s official manufacturing PMI then slipped to 49.2, with new orders at 48.5. Read through leading, coincident, and lagging indicators, the picture is best described as a weak expansion losing momentum—not a broad boom, but not yet a confirmed recession. Exporters and high-tech manufacturers continue to support output, while property weakness and cautious households limit the transmission to jobs, incomes, and consumption. The next phase depends on whether new orders recover and whether industrial strength begins to spread into domestic demand and private investment.</p>
+</div>
+
+<p><img src="/images/china-economy-2026-two-speed-cover.jpg" alt="An editorial illustration of China&#39;s two-speed economy: ports, semiconductors, automation and data centers above; housing, households and a small shop below, connected by a narrowing blue flow."></p>
+<blockquote>
+<p>数据截止：2026 年 8 月 2 日。上半年总量数据截至 6 月，最新领先指标采用 7 月制造业 PMI。</p>
+</blockquote>
+<p>2026 年上半年的中国经济，看起来像一组互相打架的数字。</p>
+<p>GDP 同比增长 4.7%，规模以上工业增加值增长 5.4%，出口增长 13.4%，工业企业利润增长 18.7%。如果只看这些指标，经济并不差。</p>
+<p>但另一边，社会消费品零售总额只增长 1.3%，固定资产投资下降 5.7%，房地产开发投资下降 18.0%，新建商品房销售额下降 13.6%。7 月制造业 PMI 又从 6 月的 50.3 降到 49.2，新订单指数跌到 48.5。</p>
+<p>那么，中国经济到底是在复苏、繁荣，还是衰退？</p>
+<p>我的判断是：<strong>中国经济仍在扩张，但扩张速度正在下降；不是典型的繁荣高峰，也还不能确认已经进入全面衰退。更准确的描述是：结构性分化之下的弱扩张与减速。</strong></p>
+<span id="more"></span>
+
+<h2 id="先分清两个问题：还在增长，还是增长得更慢"><a href="#先分清两个问题：还在增长，还是增长得更慢" class="headerlink" title="先分清两个问题：还在增长，还是增长得更慢"></a>先分清两个问题：还在增长，还是增长得更慢</h2><p>讨论经济时，人们经常把“增长”和“加速”混为一谈。</p>
+<p>如果 GDP 从 100 增加到 105，下一年又增加到 109，经济仍然在增长；但增速已经从 5% 降到约 3.8%。这叫减速，不等于产出绝对下降。</p>
+<p>2026 年中国经济也是如此。一季度 GDP 同比增长 5.0%，二季度降至 4.3%。经济总量仍在增加，但动能比年初弱。</p>
+<p>判断它接下来往哪里走，不能只看 GDP。更有用的方法，是把数据分成三层：</p>
+<ul>
+<li>领先指标：企业准备做什么；</li>
+<li>同步指标：经济现在实际做了什么；</li>
+<li>滞后指标：过去的经济变化留下了什么结果。</li>
+</ul>
+<h2 id="领先指标：下半年开局偏弱"><a href="#领先指标：下半年开局偏弱" class="headerlink" title="领先指标：下半年开局偏弱"></a>领先指标：下半年开局偏弱</h2><p>领先指标里，当前最值得关注的是 PMI 和新订单。</p>
+<p>7 月官方制造业 PMI 从 50.3 降至 49.2，重新落入收缩区间。生产指数从 51.4 降至 49.9，新订单指数从 51.2 降至 48.5。</p>
+<p>新订单比生产更重要。生产可以依靠过去的订单和库存安排维持一段时间，新订单却直接影响企业未来几个月是否继续开工、加班和招聘。新订单低于 50，意味着制造业未来需求开始转弱。</p>
+<p>不过，单月 PMI 还不能证明衰退已经到来。7 月的高温、台风和洪涝会影响生产，PMI 本身也是环比调查。真正需要警惕的是：如果 8 月和 9 月的新订单仍然低于 50，那么短期减速就更可能是一种趋势，而不是天气噪音。</p>
+<p>金融条件没有出现断裂，但资金的活跃程度也算不上强。6 月末，M2 同比增长 8%，M1 增长 4%，社会融资规模存量增长 7.4%。可以把它理解为：金融体系里的钱并不少，但资金转化为企业活期交易、投资和居民支出的速度仍然有限。</p>
+<p>这不是单凭 M1 与 M2 就能下定论的问题，却与房地产、民间投资和商品消费偏弱的现象相互印证。</p>
+<h2 id="同步指标：生产和出口撑住总量，内需继续拖累"><a href="#同步指标：生产和出口撑住总量，内需继续拖累" class="headerlink" title="同步指标：生产和出口撑住总量，内需继续拖累"></a>同步指标：生产和出口撑住总量，内需继续拖累</h2><p>同步指标呈现出非常鲜明的两面性。</p>
+<p>较强的一面是工业、出口和高技术产业：</p>
+<ul>
+<li>上半年规模以上工业增加值增长 5.4%；</li>
+<li>出口增长 13.4%，进口增长 22.1%；</li>
+<li>高技术产业投资增长 4.6%；</li>
+<li>规模以上工业企业利润增长 18.7%。</li>
+</ul>
+<p>较弱的一面是商品消费和投资：</p>
+<ul>
+<li>社会消费品零售总额增长 1.3%；</li>
+<li>固定资产投资下降 5.7%；</li>
+<li>制造业投资下降 1.2%；</li>
+<li>基础设施投资下降 2.4%；</li>
+<li>房地产开发投资下降 18.0%；</li>
+<li>新建商品房销售额下降 13.6%。</li>
+</ul>
+<p>这解释了为什么宏观数字与个人体感可能不一致。</p>
+<p>出口、半导体、服务器、AI 设备和高端制造可以贡献很高的工业产出，却属于资本和技术密集型行业。它们创造的增加值和利润，不一定同等比例地转化为广泛就业、居民收入和线下消费。</p>
+<p>房地产的影响则恰好相反。它不仅关系到开发商和建筑公司，也连接地方财政、建材、家电、装修、中介，以及居民家庭最重要的资产。房地产投资和销售继续下降，会通过财富效应和就业预期压低消费意愿。</p>
+<p>所以，当前的主要矛盾不是“有没有增长”，而是：</p>
+<blockquote>
+<p><strong>增长集中在出口和高技术生产端，居民需求、传统投资与房地产没有同步恢复。</strong></p>
+</blockquote>
+<h2 id="滞后指标：就业尚稳，通胀不高，但库存和现金回收承压"><a href="#滞后指标：就业尚稳，通胀不高，但库存和现金回收承压" class="headerlink" title="滞后指标：就业尚稳，通胀不高，但库存和现金回收承压"></a>滞后指标：就业尚稳，通胀不高，但库存和现金回收承压</h2><p>滞后指标说明，中国经济还没有进入典型的全面衰退。</p>
+<p>6 月城镇调查失业率为 5.0%，没有出现失控式上升；6 月 CPI 和核心 CPI 都同比上涨 1.0%，说明居民端物价温和，并不存在广泛的需求过热。</p>
+<p>PPI 同比上涨 4.1%，但主要由能源、煤炭、有色金属和部分工业品价格推动。这种工业品涨价不能简单等同于居民消费旺盛，更不能据此判断整个经济已经来到繁荣顶峰。</p>
+<p>工业利润增长 18.7% 看起来很强，但行业分化同样明显：电子设备制造业利润增长 96.9%，汽车制造业利润下降 19.5%，非金属矿物制品业下降 47.8%。AI 和电子产业的繁荣，并没有自动变成所有行业的繁荣。</p>
+<p>企业资产负债表里还有两个值得注意的信号：产成品库存增长 9.5%，应收账款增长 8.1%，库存周转天数和应收账款平均回收期均有所拉长。</p>
+<p>这意味着一些企业面临的现实可能是：货生产出来了，利润表也暂时改善了，但库存消化和客户付款速度并没有同步改善。</p>
+<h2 id="如果一定要给商业周期贴标签"><a href="#如果一定要给商业周期贴标签" class="headerlink" title="如果一定要给商业周期贴标签"></a>如果一定要给商业周期贴标签</h2><p>中国当前并不是一个整齐的单一周期，而是多个行业周期叠加：</p>
+<table>
+<thead>
+<tr>
+<th>部分</th>
+<th>更接近的周期状态</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>中国整体经济</td>
+<td>弱扩张、正在减速</td>
+</tr>
+<tr>
+<td>AI、半导体、高技术制造</td>
+<td>行业性繁荣或成熟扩张</td>
+</tr>
+<tr>
+<td>出口产业链</td>
+<td>较强扩张，但依赖外部需求</td>
+</tr>
+<tr>
+<td>房地产和建筑相关行业</td>
+<td>持续收缩</td>
+</tr>
+<tr>
+<td>居民商品消费</td>
+<td>低速增长</td>
+</tr>
+<tr>
+<td>服务消费</td>
+<td>相对较强，上半年服务零售额增长 5.3%</td>
+</tr>
+</tbody></table>
+<p>因此，用 AI 借贷、服务器需求或硬件价格上涨来证明“中国经济已经位于繁荣顶峰”，会犯两个错误：一是把局部行业当成整个经济；二是把某些工业品价格上涨当成广泛的需求型通胀。</p>
+<p>典型的经济周期顶峰通常伴随全面需求过热、居民通胀加速、劳动力明显紧张和企业广泛扩产。中国当前却同时存在 CPI 温和、固定资产投资下降、房地产深度调整和新订单低于 50，显然不符合这种组合。</p>
+<h2 id="接下来真正值得观察什么"><a href="#接下来真正值得观察什么" class="headerlink" title="接下来真正值得观察什么"></a>接下来真正值得观察什么</h2><p>未来两三个月，下面五组指标比单次 GDP 发布更重要：</p>
+<ol>
+<li>制造业和非制造业 PMI、新订单能否连续回到 50 以上；</li>
+<li>房地产销售和投资降幅能否持续收窄；</li>
+<li>M1 能否加快，社会融资增长是否真正流向企业与居民需求；</li>
+<li>商品消费、服务消费和就业能否形成更广泛的改善；</li>
+<li>新出口订单能否支撑当前较强的外贸表现。</li>
+</ol>
+<p>如果 PMI 和新订单持续低于 50，房地产没有企稳，消费与就业进一步走弱，中国经济就会更接近周期性收缩。</p>
+<p>反过来，如果新订单重新扩张、M1 活跃度提高、房地产销售降幅收窄，那么 7 月的弱数据更可能只是一次短期扰动。</p>
+<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>截至 2026 年 8 月初，中国经济最准确的描述不是“繁荣”，也不是“崩溃”，而是：</p>
+<blockquote>
+<p><strong>总量仍在增长，增长动能正在下降；出口和高技术制造撑住了生产端，房地产、投资和居民商品消费仍在拖累内需。</strong></p>
+</blockquote>
+<p>世界银行 7 月发布的中国经济简报也给出了相似判断：高技术投资和出口抵消了消费疲弱，但房地产调整、劳动市场偏软和居民谨慎消费仍会拖累增长。</p>
+<p>真正的问题已经不是中国经济有没有亮点，而是这些亮点能否从少数高技术和出口部门扩散到就业、收入、消费和民间投资。只有这种扩散发生，宏观增长才会变成更多人能够感受到的复苏。</p>
+<h2 id="Sources"><a href="#Sources" class="headerlink" title="Sources"></a>Sources</h2><ul>
+<li><a href="https://www.stats.gov.cn/sj/xwfbh/fbhwd/202607/t20260715_1964121.html">国家统计局：上半年经济运行在合理区间，新动能快速成长</a></li>
+<li><a href="https://www.stats.gov.cn/sj/zxfbhjd/202607/t20260715_1964127.html">国家统计局：2026 年上半年社会消费品零售总额增长 1.3%</a></li>
+<li><a href="https://www.stats.gov.cn/sj/zxfbhjd/202607/t20260727_1964194.html">国家统计局：2026 年 1—6 月份全国规模以上工业企业利润增长 18.7%</a></li>
+<li><a href="https://www.stats.gov.cn/zwfwck/sjfb/202607/t20260709_1964082.html">国家统计局：2026 年 6 月份 CPI 和 PPI 数据解读</a></li>
+<li><a href="https://english.www.gov.cn/archive/statistics/202607/15/content_WS6a577323c6d00ca5f9a0c3b6.html">中国政府网：2026 年上半年金融统计数据</a></li>
+<li><a href="https://apnews.com/article/china-manufacturing-economy-pmi-exports-a9a5016ca01d4f65e0491ff5327c0a11">AP：7 月制造业 PMI 降至 49.2</a></li>
+<li><a href="https://thedocs.worldbank.org/en/doc/0cb2fc6dd88d4db3816dc0433b5cb49b-0070012026/original/CEU-July-2026-EN.pdf">World Bank: China Economic Update, July 2026</a></li>
+</ul>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
+    <title>Is Bitcoin Digital Gold?</title>
+    <id>https://terazadl.github.io/2026/07/is-bitcoin-digital-gold/</id>
+    <link href="https://terazadl.github.io/2026/07/is-bitcoin-digital-gold/"/>
+    <published>2026-07-30T03:00:00.000Z</published>
+    <updated>2026-08-10T06:06:39.638Z</updated>
+    <summary type="html"><![CDATA[An empirical test of whether Bitcoin has behaved like gold in purchasing power, inflation sensitivity, equity stress, market resemblance, and portfolio use.]]></summary>
+    <content type="html"><![CDATA[<p><span hidden data-article-language="EN"></span></p>
+<div class="abstract">
+  <span class="abstract-label">Abstract</span>
+  Bitcoin produced exceptional long-horizon real returns from 2015 through July 2026, but its observed market behavior was not consistently gold-like. Its inflation sensitivity was statistically inconclusive, it lost heavily during the worst equity-market days, and its rolling return relationship was usually closer to QQQ than GLD. “Digital gold” is therefore more defensible as a scarcity and long-run appreciation narrative than as a description of defensive market behavior.
+</div>
+
+<h2 id="中文摘要"><a href="#中文摘要" class="headerlink" title="中文摘要"></a>中文摘要</h2><p>这份研究没有把“数字黄金”当成一句非真即假的口号，而是拆成五个可以检验的问题：购买力、通胀敏感性、股市压力期表现、与黄金或纳斯达克的相似度，以及在投资组合中能否替代黄金。</p>
+<p>2015 年至 2026 年 7 月的数据表明，比特币的长期实际回报非常强，但它并没有稳定表现出黄金式的防御属性。通胀敏感性结论并不显著；在标普 500 表现最差的 5% 交易日里，比特币平均下跌 2.61%，而 GLD 平均上涨 0.12%；24 个月滚动相关性也通常更接近 QQQ，而不是 GLD。因此，“数字黄金”更适合描述稀缺性与长期升值叙事，不能直接等同于避险资产。</p>
+<h2 id="Research-design"><a href="#Research-design" class="headerlink" title="Research design"></a>Research design</h2><p>The label “digital gold” contains several distinct claims. I test five:</p>
+<ol>
+<li><strong>Purchasing power:</strong> Were rolling three- and five-year inflation-adjusted returns positive?</li>
+<li><strong>Inflation sensitivity:</strong> Did Bitcoin respond positively to an explicit monthly inflation-shock proxy?</li>
+<li><strong>Safe-haven behavior:</strong> How did Bitcoin behave on the worst 5% of SPY trading days?</li>
+<li><strong>Market resemblance:</strong> Were Bitcoin’s rolling correlations and factor exposures closer to GLD or QQQ?</li>
+<li><strong>Portfolio substitution:</strong> Did a trailing-risk-matched Bitcoin sleeve behave like a 10% GLD allocation?</li>
+</ol>
+<p>The daily sample contains 2,906 shared trading-day returns from 5 January 2015 through 27 July 2026. The monthly macro sample contains 136 complete observations through June 2026.</p>
+<h2 id="1-Long-run-purchasing-power-was-strong"><a href="#1-Long-run-purchasing-power-was-strong" class="headerlink" title="1. Long-run purchasing power was strong"></a>1. Long-run purchasing power was strong</h2><p>Bitcoin’s retrospective purchasing-power result is the strongest evidence for the digital-gold narrative. In the sample, 98.7% of rolling five-year windows ended with a positive inflation-adjusted return.</p>
+<p><img src="/images/digital-gold-real-returns.png" alt="Rolling three- and five-year inflation-adjusted returns for Bitcoin, GLD, and QQQ"></p>
+<p>That result needs an important qualification: a positive five-year endpoint can coexist with an extreme interim loss. Bitcoin’s annualized volatility was 66.0% and its maximum drawdown was −83.0%, versus 16.1% annualized volatility for GLD.</p>
+<h2 id="2-Inflation-sensitivity-was-inconclusive"><a href="#2-Inflation-sensitivity-was-inconclusive" class="headerlink" title="2. Inflation sensitivity was inconclusive"></a>2. Inflation sensitivity was inconclusive</h2><p>The monthly regression uses CPI inflation minus its lagged trailing mean as a transparent inflation-shock proxy, with controls for equities, real yields, and the US dollar.</p>
+<p><img src="/images/digital-gold-inflation-sensitivity.png" alt="Estimated monthly asset sensitivity to the inflation-shock proxy with confidence intervals"></p>
+<p>Bitcoin’s estimated coefficient was positive, but the Newey–West 95% confidence interval included zero by a wide margin. This sample therefore does not establish that Bitcoin was a reliable short-horizon inflation hedge.</p>
+<h2 id="3-Bitcoin-did-not-act-as-a-safe-haven-during-equity-stress"><a href="#3-Bitcoin-did-not-act-as-a-safe-haven-during-equity-stress" class="headerlink" title="3. Bitcoin did not act as a safe haven during equity stress"></a>3. Bitcoin did not act as a safe haven during equity stress</h2><p>On the worst 5% of SPY trading days, Bitcoin’s mean return was −2.61%; GLD’s was +0.12%. Bitcoin’s stress beta to SPY was 1.66.</p>
+<p><img src="/images/digital-gold-safe-haven.png" alt="Bitcoin, GLD, and QQQ performance on the worst 5 percent of SPY trading days"></p>
+<p>This is the clearest rejection of a strong safe-haven interpretation. During the equity stress events observed in this sample, Bitcoin amplified rather than offset portfolio losses.</p>
+<h2 id="4-Its-market-fingerprint-was-closer-to-QQQ"><a href="#4-Its-market-fingerprint-was-closer-to-QQQ" class="headerlink" title="4. Its market fingerprint was closer to QQQ"></a>4. Its market fingerprint was closer to QQQ</h2><p>The median 24-month rolling correlation was 0.131 for BTC–GLD and 0.339 for BTC–QQQ. Bitcoin was closer to GLD in only 27.0% of rolling windows.</p>
+<p><img src="/images/digital-gold-rolling-similarity.png" alt="Bitcoin rolling correlations with GLD and QQQ"></p>
+<p>Standardized factor exposures tell a similar story: Bitcoin’s market fingerprint was not consistently gold-like.</p>
+<p><img src="/images/digital-gold-factor-fingerprints.png" alt="Standardized monthly factor exposures for Bitcoin, GLD, and QQQ"></p>
+<h2 id="5-A-risk-matched-Bitcoin-sleeve-was-not-a-simple-gold-substitute"><a href="#5-A-risk-matched-Bitcoin-sleeve-was-not-a-simple-gold-substitute" class="headerlink" title="5. A risk-matched Bitcoin sleeve was not a simple gold substitute"></a>5. A risk-matched Bitcoin sleeve was not a simple gold substitute</h2><p>To avoid comparing an extremely volatile Bitcoin allocation with a much lower-risk gold allocation, the portfolio test scales the Bitcoin sleeve using trailing 36-month volatility and shifts the weight by one month. The median Bitcoin weight was only 1.85%.</p>
+<p><img src="/images/digital-gold-risk-matched-portfolios.png" alt="Growth of SPY, SPY with a 10 percent GLD sleeve, and SPY with a risk-matched Bitcoin sleeve"></p>
+<p>The historical Sharpe ratios were 0.868 for SPY, 0.944 for the 10% GLD sleeve, and 0.877 for the risk-matched Bitcoin sleeve. This is descriptive evidence, not a forward-looking allocation recommendation.</p>
+<h2 id="Verdict"><a href="#Verdict" class="headerlink" title="Verdict"></a>Verdict</h2><p>The evidence supports a deliberately narrow conclusion:</p>
+<ul>
+<li><strong>Supported:</strong> Bitcoin delivered exceptional long-horizon real appreciation over this sample.</li>
+<li><strong>Not established:</strong> Bitcoin was a reliable short-horizon inflation hedge.</li>
+<li><strong>Not supported:</strong> Bitcoin consistently protected investors during equity-market stress.</li>
+<li><strong>Mostly not supported:</strong> Bitcoin behaved like gold in its rolling market relationships.</li>
+</ul>
+<p>Calling Bitcoin “digital gold” may remain useful as a description of engineered scarcity, portability, and a monetary aspiration. It is much less accurate as a summary of how the asset actually traded between 2015 and July 2026.</p>
+<p>The complete three-notebook research project—including the executed notebooks, source code, figures, offline tests, data-snapshot manifest, and independent validation reports—is available in the standalone <a href="https://github.com/terazadl/btc-risk-research">btc-risk-research repository</a>. This is educational research, not investment advice.</p>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
+    <title>中国 AI 开源模式能持续吗？从旗舰开放到分层开源</title>
+    <id>https://terazadl.github.io/2026/07/china-open-weight-ai-layered-openness/</id>
+    <link href="https://terazadl.github.io/2026/07/china-open-weight-ai-layered-openness/"/>
+    <published>2026-07-26T15:14:30.000Z</published>
+    <updated>2026-07-26T15:14:30.000Z</updated>
+    <summary type="html"><![CDATA[中国的开放权重 AI 模式在产业层面具备持续性，但更可能形成分层开放的均衡，而不是永久开放每一个前沿模型。]]></summary>
+    <content type="html"><![CDATA[<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+<p>China’s open-weight AI strategy can remain sustainable at the industry level even when individual model developers struggle to capture profits. Releasing weights lowers adoption costs, expands developer ecosystems, stimulates demand for chips and cloud services, and increases the international reach of Chinese technical stacks. Those benefits, however, accrue to different actors than the laboratories paying frontier-model training and inference costs. This creates a structural gap between private returns and ecosystem returns. The most plausible equilibrium is therefore not permanent, simultaneous release of every frontier model, but layered openness: smaller and mature models remain broadly available, while the newest frontier systems become API-first, delayed-release, partner-limited, or subject to capability-based controls. DeepSeek V4, Qwen3.6 and Kimi K3 illustrate different points on this spectrum, from same-day weight release to product-level segmentation and infrastructure-constrained availability. Open weights also shift value capture toward cloud platforms, chips, enterprise distribution, proprietary data, and execution workflows. The key question is no longer whether China will remain “open” or turn “closed,” but which capabilities will be opened, when, under what license, who can operate them efficiently, and who captures the resulting value.</p>
+</div>
+
+<p>过去一年，中国模型公司把“开放”变成了一种竞争方式：它不只是技术社区的价值选择，也是一套同时作用于开发者分发、云算力需求、产业标准和国际影响力的策略。</p>
+<p>但这也带来一个更难的问题：当训练和推理成本继续上升，最强模型还有可能一直免费开放吗？</p>
+<p>我的判断是：<strong>中国 AI 的开放模式在产业层面可以持续，但长期形态更可能是“分层开放”，而不是所有公司永久、同步、无差别地开放最新旗舰模型。</strong></p>
+<span id="more"></span>
+
+<h2 id="先把“开源”说清楚"><a href="#先把“开源”说清楚" class="headerlink" title="先把“开源”说清楚"></a>先把“开源”说清楚</h2><p>中文讨论习惯把公开模型权重统称为“开源”，但更准确的词是<strong>开放权重（open weights）</strong>。</p>
+<p>按照 Open Source Initiative 的定义，真正的开源 AI 不只有最终权重，还应包含足以研究、修改和重建系统的数据说明，以及完整的训练和运行代码。多数商业模型并没有走到这一步。它们公开的是可下载、可微调、可私有部署的权重，而不是生产下一代模型的全部方法。</p>
+<p>这个区别很重要，因为它解释了一个看似矛盾的现象：</p>
+<blockquote>
+<p>公司可以开放模型的“产品”，同时把训练配方、数据工程、后训练能力、推理系统和团队知识留在内部。</p>
+</blockquote>
+<p>开放权重因此不是“放弃护城河”，而是重新决定护城河放在哪里。</p>
+<h2 id="可持续性其实是三个不同的问题"><a href="#可持续性其实是三个不同的问题" class="headerlink" title="可持续性其实是三个不同的问题"></a>可持续性其实是三个不同的问题</h2><p>讨论“中国 AI 开源模式能否持续”时，至少要拆成三层。</p>
+<h3 id="第一层：对整个产业是否划算？"><a href="#第一层：对整个产业是否划算？" class="headerlink" title="第一层：对整个产业是否划算？"></a>第一层：对整个产业是否划算？</h3><p>答案偏向肯定。</p>
+<p>开放权重降低了开发者试用、企业部署和二次开发的门槛。模型公司未必直接收到钱，但由此增加的算力、云服务、数据中心、企业软件和终端集成需求，会在更长的价值链上创造收入。它还可能让海外开发者更早适配中国的模型架构、推理框架与接口习惯。</p>
+<p>所以，产业层面的账并不等于模型公司的利润表：</p>
+<blockquote>
+<p><strong>产业回报 &#x3D; 模型服务收入 + 算力与云需求 + 应用扩散 + 生产率收益 + 标准与生态影响力。</strong></p>
+</blockquote>
+<p>只要这些外溢收益足够大，政府、云厂商和产业资本就有理由继续支持开放，即使模型层本身的利润率并不高。</p>
+<p>这也与政策方向一致。国务院 2025 年的“人工智能+”意见同时提出建设面向全球的开源生态、发展“模型即服务”和“智能体即服务”，并壮大长期资本、耐心资本和战略资本。国家发改委 2026 年 7 月发布的行动计划则进一步提出共建国际开源社区、共享通用大模型和基础工具。</p>
+<h3 id="第二层：对单个模型公司是否划算？"><a href="#第二层：对单个模型公司是否划算？" class="headerlink" title="第二层：对单个模型公司是否划算？"></a>第二层：对单个模型公司是否划算？</h3><p>答案取决于它能不能把开放带来的采用量变成收入。</p>
+<p>开放权重本身通常不收费，模型公司需要从别处完成商业闭环：</p>
+<ul>
+<li>官方 API 和托管推理；</li>
+<li>企业私有部署、运维与安全服务；</li>
+<li>Coding Agent、办公 Agent 等高频产品；</li>
+<li>云平台、手机、汽车和其他终端的集成；</li>
+<li>数据、评测、工具链和开发者服务；</li>
+<li>产业股东带来的渠道与战略协同。</li>
+</ul>
+<p>企业层面的账更严苛：</p>
+<blockquote>
+<p><strong>企业回报 &#x3D; API、订阅与企业服务收入 + 生态带来的间接收益 − 训练和推理成本 − 被开放替代的潜在收入。</strong></p>
+</blockquote>
+<p>开放最危险的地方也在这里：模型很受欢迎，不代表模型公司一定能挣钱。用户可能把权重部署在第三方云上，应用公司可能拿走最终客户，低价竞争还会压缩 API 毛利。</p>
+<p>真正需要验证的不是下载量，而是<strong>开放是否能提高付费服务的转化、留存和单位经济性</strong>。</p>
+<h3 id="第三层：最新、最强模型是否也会一直开放？"><a href="#第三层：最新、最强模型是否也会一直开放？" class="headerlink" title="第三层：最新、最强模型是否也会一直开放？"></a>第三层：最新、最强模型是否也会一直开放？</h3><p>这一层最不确定。</p>
+<p>追赶阶段的公司很适合用开放权重换开发者、品牌和分发；但当模型接近全球前沿，权重本身的商业与战略价值都会提高。企业会更想先通过 API 收回研发成本，监管者也会更关注网络、生物、军事等高风险能力的不可逆扩散。</p>
+<p>因此，“中国会不会继续开放”不是一个简单的是非题。更可能出现的是按模型规模、发布时间、能力风险和使用地域划分的连续谱。</p>
+<table>
+<thead>
+<tr>
+<th>模型层级</th>
+<th>更可能的开放方式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>小模型、基础组件、推理工具</td>
+<td>充分开放，降低生态使用门槛</td>
+</tr>
+<tr>
+<td>成熟旗舰模型</td>
+<td>开放权重，允许广泛商业使用</td>
+</tr>
+<tr>
+<td>最新前沿模型</td>
+<td>API 优先、延迟开放，或先向合作伙伴提供</td>
+</tr>
+<tr>
+<td>高风险能力模型</td>
+<td>能力评估、地域限制或受控部署</td>
+</tr>
+</tbody></table>
+<p>这就是所谓的 <strong>N-1 开放</strong>：最新一代先商业化或受控提供，下一代出现后再开放上一代。</p>
+<h2 id="三个案例，三种位置"><a href="#三个案例，三种位置" class="headerlink" title="三个案例，三种位置"></a>三个案例，三种位置</h2><h3 id="DeepSeek-V4：同步开放仍然可行"><a href="#DeepSeek-V4：同步开放仍然可行" class="headerlink" title="DeepSeek V4：同步开放仍然可行"></a>DeepSeek V4：同步开放仍然可行</h3><p>DeepSeek 在 2026 年 4 月发布 V4 Preview 时，同日上线了 API、技术报告和开放权重。这说明，当公司把竞争优势放在训练效率、推理系统和快速迭代上时，旗舰模型同步开放仍然可以成为主动战略，而不只是被迫让利。</p>
+<p>但它能否长期成立，仍要看低价 API 的规模、推理成本以及下一代研发投入能否形成闭环。</p>
+<h3 id="Qwen3-6：分层开放已经出现"><a href="#Qwen3-6：分层开放已经出现" class="headerlink" title="Qwen3.6：分层开放已经出现"></a>Qwen3.6：分层开放已经出现</h3><p>Qwen 在推出 Qwen3.6-Plus 后，开放了更小、更易部署的 Qwen3.6-35B-A3B，并同时提供 API 和可下载权重。</p>
+<p>这是一种很自然的产品分层：大模型承担前沿能力和商业服务，小模型承担开发者扩散、端侧适配和生态覆盖。开放与闭源并不是公司层面的二选一，而可以是同一产品组合里的不同层。</p>
+<h3 id="Kimi-K3：开放承诺与开放完成是两回事"><a href="#Kimi-K3：开放承诺与开放完成是两回事" class="headerlink" title="Kimi K3：开放承诺与开放完成是两回事"></a>Kimi K3：开放承诺与开放完成是两回事</h3><p>Kimi K3 已经通过网页、Agent 产品和 API 提供服务。官方披露它有 2.8 万亿总参数，建议使用 64 张以上加速卡组成的 supernode 部署；发布后需求又一度逼近现有算力上限，月之暗面暂停了新订阅。</p>
+<p>这组事实提醒我们：<strong>权重开放不等于推理便宜，也不等于供给充足。</strong> 模型越大，越可能把价值从“能否获得权重”转移到“谁能高效运行它”。</p>
+<p>还要区分发布口径和已完成的事实。Kimi 官方博客写的是完整权重将在 2026 年 7 月 27 日前发布；截至本文发布时（7 月 27 日 00:14，日本时间），Moonshot AI 的官方 Hugging Face 账号尚未列出 K3 权重。因此，本文把 K3 记为“API 已上线、权重承诺待验证”，而不是已经完成开放权重发布。</p>
+<h2 id="谁会获得开放带来的价值？"><a href="#谁会获得开放带来的价值？" class="headerlink" title="谁会获得开放带来的价值？"></a>谁会获得开放带来的价值？</h2><table>
+<thead>
+<tr>
+<th>参与者</th>
+<th>主要收益</th>
+<th>主要成本或风险</th>
+<th>可持续条件</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>模型公司</td>
+<td>品牌、开发者、使用量、企业线索</td>
+<td>训练与推理成本，API 被替代</td>
+<td>能把采用量转成服务收入</td>
+</tr>
+<tr>
+<td>芯片、云与数据中心</td>
+<td>推理需求与基础设施利用率</td>
+<td>大额资本开支、价格竞争</td>
+<td>使用量增长快于单位价格下降</td>
+</tr>
+<tr>
+<td>应用与企业软件</td>
+<td>更低模型成本、私有部署、可定制</td>
+<td>集成、安全、评测与获客</td>
+<td>掌握数据、工作流和客户关系</td>
+</tr>
+<tr>
+<td>国家与产业体系</td>
+<td>技术扩散、生产率、标准影响力</td>
+<td>补贴、治理与安全风险</td>
+<td>全产业收益高于支持成本</td>
+</tr>
+</tbody></table>
+<p>这张表也给出一个投资上的提醒：<strong>开放模型越成功，收益越不一定留在模型公司。</strong></p>
+<p>更容易获得价值的，可能是拥有算力、电力、云渠道、企业客户、私有数据和执行闭环的公司；更容易被挤压的，则是只靠高价 API、排行榜成绩或简单套壳维持毛利的公司。</p>
+<h2 id="我的基准情景"><a href="#我的基准情景" class="headerlink" title="我的基准情景"></a>我的基准情景</h2><p>未来三年，我认为最可能出现的不是全面开放或全面闭源，而是以下组合：</p>
+<ol>
+<li>小模型、基础组件和推理工具继续广泛开放；</li>
+<li>成熟旗舰模型仍会发布权重，但与 API 首发之间的时间差扩大；</li>
+<li>最新前沿模型先以 API 和官方 Agent 形式商业化；</li>
+<li>许可证、地域和高风险能力评估变得更重要；</li>
+<li>真正的竞争焦点从“是否开放”转向“开放什么、何时开放、谁能运行、谁能变现”。</li>
+</ol>
+<p>这个判断可以被证伪。如果主要中国实验室持续多年同步开放最新旗舰，而 API 与企业收入又足以覆盖研发，说明完全同步开放比我预期的更稳固；反过来，如果时间差持续扩大、许可证收紧，或前沿权重开始受地域限制，分层开放就从预测变成制度。</p>
+<h2 id="接下来值得跟踪的指标"><a href="#接下来值得跟踪的指标" class="headerlink" title="接下来值得跟踪的指标"></a>接下来值得跟踪的指标</h2><ul>
+<li>最新旗舰的 API 日期与权重日期相差多少；</li>
+<li>权重许可证是否允许商业使用，是否增加规模或地域条款；</li>
+<li>官方 API 与第三方部署的能力、延迟和成本是否一致；</li>
+<li>API、Agent 和企业服务能否形成可重复收入；</li>
+<li>高峰期推理容量是否仍成为产品增长瓶颈；</li>
+<li>中国与海外是否出现正式的前沿模型分级或采购限制；</li>
+<li>开放模型带来的价值最终流向模型、云、芯片还是应用公司。</li>
+</ul>
+<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>中国 AI 的开放模式并不需要每一家模型公司都获得高利润，才能在产业层面持续。只要开放能扩大算力需求、应用渗透和技术生态，它就仍然具有战略价值。</p>
+<p>但这不意味着最新、最强的模型会永远同步、无差别地开放。随着能力、成本和安全价值同时上升，<strong>小模型充分开放、成熟旗舰开放权重、最新前沿模型延迟或受控开放</strong>，更像一个稳定的长期均衡。</p>
+<p>所以，真正的问题已经不是“中国 AI 会不会开源”，而是：</p>
+<blockquote>
+<p><strong>开放的边界由谁决定，开放产生的价值又由谁拿走？</strong></p>
+</blockquote>
+<h2 id="Sources"><a href="#Sources" class="headerlink" title="Sources"></a>Sources</h2><ul>
+<li><a href="https://opensource.org/ai/open-source-ai-definition">Open Source Initiative：The Open Source AI Definition 1.0</a></li>
+<li><a href="https://www.mee.gov.cn/zcwj/gwywj/202508/t20250827_1126207.shtml">国务院：《关于深入实施“人工智能+”行动的意见》</a></li>
+<li><a href="https://www.ndrc.gov.cn/fggz/202607/t20260717_1406573_ext.html">国家发展改革委：《人工智能合作发展行动计划》</a></li>
+<li><a href="https://www.mfa.gov.cn/web/ziliao_674904/1179_674909/202507/t20250726_11677803.shtml">外交部：《人工智能全球治理行动计划》</a></li>
+<li><a href="https://api-docs.deepseek.com/news/news260424/">DeepSeek：V4 Preview Release</a></li>
+<li><a href="https://qwen.ai/blog?id=qwen3.6-35b-a3b">Qwen：Qwen3.6-35B-A3B — Agentic Coding Power, Now Open to All</a></li>
+<li><a href="https://www.kimi.com/ja/blog/kimi-k3">Kimi：Kimi K3 Tech Blog</a></li>
+<li><a href="https://huggingface.co/moonshotai">Moonshot AI on Hugging Face</a></li>
+<li><a href="https://apnews.com/article/kimi-k3-china-ai-model-us-4c66a2e0f557ce79d3cc2d769c9a6226">AP：Kimi K3 demand exceeded available capacity</a></li>
+</ul>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
+    <title>卖掉一块地，为什么还要倒贴十一万日元：读《负动产时代》</title>
+    <id>https://terazadl.github.io/2026/07/japan-negative-real-estate/</id>
+    <link href="https://terazadl.github.io/2026/07/japan-negative-real-estate/"/>
+    <published>2026-07-26T11:20:00.000Z</published>
+    <updated>2026-08-12T10:49:53.553Z</updated>
+    <summary type="html"><![CDATA[从日本负动产问题出发，分析当持有成本超过使用价值时，房地产如何从财富变成必须付费才能退出的负担。]]></summary>
+    <content type="html"><![CDATA[<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+<p>This essay uses The Age of Negative Real Estate, an Asahi Shimbun investigation, to examine what happens when property ownership stops functioning as wealth and becomes an obligation that cannot easily be abandoned. One owner sold land bought for ¥13 million for only ¥100,000 and, after fees, paid a net ¥110,000 to escape annual taxes and maintenance costs. Other resort apartments required owners to pay more than ¥1 million simply to transfer title. These cases show why zero is not necessarily the floor for real-estate prices: a buyer receives not only a building, but also decades of fees, repairs, taxes, collective-management risks, and uncertainty about the next buyer. The problem is institutional as well as financial. Aging condominiums distribute unpaid costs across remaining owners, while land fragmented among dozens of unregistered heirs can become unusable even when its market location is valuable. Japan has since introduced mandatory inheritance registration and a system for surrendering qualifying inherited land to the state, but exit cannot be costless without shifting private liabilities to taxpayers. The book should not be read as a forecast that all Japanese property will collapse. It explains regional divergence and asks a harder question relevant beyond Japan: who maintains, combines, demolishes, or ultimately pays for housing when population and demand retreat?</p>
+</div>
+
+<blockquote>
+<p>当所有权从财富变成一份无法辞职的责任</p>
+<p>日本《朝日新闻》采访组《负动产时代》（郎旭冉译，中国纺织出版社，2021）</p>
+</blockquote>
+<p>《负动产时代》里最刺眼的一笔账，发生在伊豆。</p>
+<p>1991年，一位日本老人花1300万日元，在那里买下约300平方米的别墅用地。当时正值泡沫经济末期，身边有人一到假日就去别墅小住，拥有一块度假地是工薪阶层对成功生活的想象。老人计划退休以后在这里盖房，与妻子安度晚年；为了让这笔交易显得郑重，他们甚至把签约地点选在东京帝国饭店的咖啡厅。房子最终没有盖起来。</p>
+<p>二十六年后，他以10万日元卖掉这块地，价格只有买入价的1&#x2F;130；扣除约21万日元的中介费和广告费，交易的最终结果不是赚10万，而是亏11万日元。老人却说，自己终于松了一口气。因为只要土地还在名下，他每年就要支付4.6万日元管理费和7000日元固定资产税；两个女儿都不愿继承，政府也拒绝接受捐赠。他先后把售价从100万降到25万、18万，最后降到10万，才找到一个愿意接手的人。</p>
+<p>所以倒贴11万并不是失败，而是一笔有明确回报的交易：用大约两年的持有成本，换来此后无限期账单的终止。一块曾经象征体面、退休生活和留给孩子的财富的土地，最后变成了一项需要付钱才能解除的义务。</p>
+<p>这就是全书真正的主题。它讲的不是房价跌了多少，而是一个更反常识的问题：</p>
+<blockquote>
+<p>如果一项财产没有人使用、无法产生收入、每年还要继续花钱，而所有人又不能单方面放弃它，它究竟还是资产，还是一份无法辞职的工作？</p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="零不是价格的底"><a href="#零不是价格的底" class="headerlink" title="零不是价格的底"></a>零不是价格的底</h2><p>我们通常把房地产想成一件不会消失的东西。股票可能归零，公司可能倒闭，机器会折旧，只有土地永远在那里。正因为它不会消失，人们很容易把“物理上长期存在”误认为“经济上永远有价值”。《负动产时代》最有用的地方，是把这两个概念拆开了。</p>
+<p>越后汤泽有一套约20平方米的度假公寓。原业主去世后，弟弟觉得既然是现成的房产，继承下来也无妨。他既不滑雪，也没有度假需求，真正成为所有人才发现，这个没有任何用处的房间每年要交约15万日元物业费和维修基金，另有3万日元固定资产税。他以40万日元挂牌一年，只接到过一个咨询电话，看房人数为零。后来一家公司愿意接手，条件却是业主先支付120万日元——他立刻答应了。</p>
+<p>另一套34平方米的度假公寓更能说明问题。公司给出的“收购估价”是10万日元，交易、清理和未来维护费用却超过143万日元；按照这份报价，原业主要倒贴133万，才可以把所有权转给别人。而按照登记税和取得税倒推，这套房产的税务评估额约为430万日元。同一套房子于是同时拥有三种价格：税务意义上值430万，市场上值10万，计入脱手成本后值负133万。</p>
+<p>哪一个才是真的？如果只拍下一张照片，430万和10万都说得通——房屋有墙壁、门窗和土地份额，也许还有温泉和雪场。但买方买下的不是一张照片，而是未来几十年。他同时接过维修基金、物业费、固定资产税、漏水风险、公共区域老化，以及下一次能否找到接盘人的不确定性。因此，一处房产的价值不能只看建筑物和土地，而要把未来一并算进去：使用价值或租金收入，减去税费、维修、管理成本和再次出售的难度，才是所有权的真实价格。当后面那串数字大于前面，零就不再是价格的底。</p>
+<p>“负动产”也不是一种特殊房型。它可以是泡沫时代的别墅地，可以是父母留下的山林，可以是没有租客的公寓，也可以是产权纠缠不清的市中心土地。把它们连在一起的，不是房子破旧，而是所有权附带的责任大于权利。资产之所以是资产，不是因为它被写在房产证上，而是因为有人愿意接过它。</p>
+<h2 id="一栋公寓是一场命运共同体"><a href="#一栋公寓是一场命运共同体" class="headerlink" title="一栋公寓是一场命运共同体"></a>一栋公寓是一场命运共同体</h2><p>土地至少可以空着，公寓却会老。</p>
+<p>书里写了不少价格低得惊人的度假公寓。人们看到“一套房只卖10万日元”，很容易产生捡漏的冲动，仿佛只要价格足够便宜，风险就已经被消灭。但公寓不是一个可以单独搬走的盒子。你买下室内20平方米，也同时加入了一栋楼的共同生活：电梯、屋顶、外墙、供水管线和走廊都属于共有部分，维修要集体出钱，改建要集体同意，其他业主不缴费造成的窟窿，也不会因为你按时付款就与你无关。个人的产权，被嵌在一张无法退出的关系网里。</p>
+<p>于是出现一个会自我强化的循环：建筑越老，维修支出越高；住户越老，支付能力和参与管理的意愿越弱；年轻人不愿接手，空置房增加，物业费收不上来，剩下的业主便要承担更大份额。费用越高，房子越难卖；房子越难卖，拖欠者和失联者又越多。更危险的是，有些公司以“负价格”批量接收房产，却未必认真承担之后的物业费。原业主以为自己花钱消灭了责任，实际上可能只是把欠费转移给了整栋楼，最后留下来的业主才是真正的“最后接盘侠”。</p>
+<p>这里藏着一个容易被忽略的性质差别。在普通商品交易里，只要买卖双方自愿，低价通常意味着风险已经体现在价格中；但一套区分所有权公寓还牵涉第三方——邻居、物业管理组织和地方政府。卖方得到解脱，买方收取了报酬，成本却可能落到没有参加交易的人身上。所以负动产不是一个孤立的投资失误，而是一个集体行动问题。一栋老公寓最需要的，未必是把每间房卖出去，而是建立一种让所有人共同维修、退出、拆除或者重建的机制。只要这套机制不存在，再低的挂牌价都可能只是把责任往后推一手。</p>
+<p>房子可以分成几百本产权证，屋顶却只有一个。</p>
+<h2 id="消失的所有人，不会消失的责任"><a href="#消失的所有人，不会消失的责任" class="headerlink" title="消失的所有人，不会消失的责任"></a>消失的所有人，不会消失的责任</h2><p>书中最令人不安的房子，不在荒凉乡村，而在距离JR大宫站步行约十分钟的繁华地段。</p>
+<p>一栋破损的木屋挤占人行道，盲道不得不绕开它，行人会被迫走上车道。附近地价很高，中介估计土地能卖到1亿日元以上；只要产权清楚，无论出售还是重建，都不难找到经济上的解决办法。问题是，它最后一次产权变更发生在1897年前后。名义所有人去世后，几代人都没有办理继承登记。采访时，已知法定继承人接近60名，进一步调查后可能还要增加30多人。有人住在旁边，有人彼此失联，有人不愿配合，没有任何一个人能够代表这块土地作出决定。价值上亿的土地，就这样变成了一块“僵尸土地”。2011年，为了保护行人，埼玉市政府花100万日元安装围栏——按理说保障房屋安全是所有人的责任，但所有人多到无法协商，政府只能先用纳税人的钱处理危险。</p>
+<p>长野县那块土地是更精确的缩影。一条公路旁119平方米的土地最初由26人共有，随着一代代继承而无人登记，权利人增加到107名，其中有人已经移居美国。道路到了这里突然变窄，影响车辆通行和工程运输；可是要收购土地，必须取得所有权人的一致同意。找不到所有人，已经成为一种实际上的否决。</p>
+<p>我们习惯把私有产权保护理解为：没有本人同意，任何人都不能拿走他的财产。这个原则当然重要。但当所有人已经去世、失联，或者在数代继承中裂变成上百人时，同样的保护会产生相反结果——没有人能利用它，没有人能处置它，也没有人真正为它负责。登记制度原本用来确认权利，最后却保存了一个无法行动的过去。</p>
+<p>这揭示了负动产更深的一层。伊豆土地的问题是价格为负，大宫土地的问题却根本不是价格：它明明很值钱，仍然无法交易；阻塞它的不是市场需求，而是权利关系的协调成本已经高于土地价值。换句话说，负动产不一定“负”在资产负债表上，也可能负在制度里。而当一个私人所有人不能或不愿承担责任，房屋并不会凭空消失。瓦片仍会掉下来，杂草仍会蔓延，道路仍然需要拓宽，产权仍然要有人调查。原本属于个人的成本，会沿着邻居、物业组织和地方政府的方向扩散，最后落到公共财政上。</p>
+<p>所有人可以消失，所有权制造的后果不会。</p>
+<h2 id="一个过于整齐的概念"><a href="#一个过于整齐的概念" class="headerlink" title="一个过于整齐的概念"></a>一个过于整齐的概念</h2><p>这本书最好读的地方，也是阅读时最需要保持距离的地方，在于它是一部记者调查，而不是一项抽样研究。</p>
+<p>《朝日新闻》的记者找到了最能体现问题的案例：1300万变成负11万的别墅地，倒贴120万送走的度假公寓，上百名继承人锁死的道路用地，以及评估价与成交价相差数十倍的房产。每一个故事都具体、可感，也都有清楚的制度指向。但极端案例最适合说明一种机制存在，不适合证明它代表全部。而且，被归入“负动产”的问题其实并不相同：泡沫时代原野商法留下的是错误定价，度假公寓面对的是人口与需求消失，老旧住宅面对的是维修和拆除成本，所有人不明土地是登记与继承制度失灵，租赁公寓过剩还叠加了税收激励、银行放贷和销售公司的误导。把它们装进同一个概念，增强了叙事力量，也容易让读者得到一个过于整齐的印象：仿佛日本所有房地产都在走向零。</p>
+<p>现实恰好更矛盾。日本总务省2023年住宅和土地统计调查显示，全国空置住宅已达到900.2万套，空置率13.8%，两项都是历史最高；但日本国土交通省2026年地价公告同时显示，全国住宅地平均上涨2.1%，商业地上涨4.3%，两者均连续第五年上升，东京23区住宅地更上涨9.0%。空房创纪录，地价也在上涨。（参见文末资料 1、2）</p>
+<p>这两个事实并不冲突，它们说明日本房地产已经不能再被理解为一个全国同步涨跌的单一市场。东京、大阪的中心区，旅游城市，半导体工厂周边和交通便利的住宅区仍在聚集人口、资本和需求；另一些地区却在失去住户、商店、医院、公共交通和最后一个愿意接手的人。总量上的“房子”仍然存在，位置上的需求已经重新分配。所以《负动产时代》不是对日本房价的方向预测，而是对房地产分化的解释。真正决定一栋房子是不是资产的，不只是钢筋水泥，也不是整个国家房价涨不涨，而是非常具体的四件事：这里未来还有没有人，这些人是否愿意使用它，持续维护需要多少钱，以及所有权能不能顺利转移。繁荣地区的上涨不会自动拯救衰退地区；全国平均数再好看，也不能替一套无人问津的房子缴物业费。</p>
+<p>另一处需要补上的，是采访时点。书中报道主要发生在2017年前后，记者反复遇到同一个制度死结：所有人不能随意放弃土地，政府又通常不接受捐赠；继承登记不是强制的，产权可以在几代人之间不断裂变。书出版之后，日本开始补这两个缺口。2023年4月，“继承土地国库归属制度”开始实施，符合条件的继承土地可以经过审查后转归国库；2024年4月，继承登记又从自愿变为法定义务，继承人原则上要在知道取得不动产之日起三年内申请登记，无正当理由不办理可能面临10万日元以下的行政罚款；在此之前的2023年12月，日本还实施了修订后的空置房特别措施法，扩大地方政府对管理不善房屋的干预空间。这些变化几乎逐项回应了书中的案例，也从侧面证明记者发现的并非猎奇故事，而是真实的制度漏洞。（参见文末资料 3）</p>
+<p>不过，“允许退出”并不等于问题消失。国库归属制度设有条件，需要审查，也要求申请人承担一定费用；有建筑物、污染、复杂边界或过高管理负担的土地，未必能被接受。道理并不复杂：如果所有人可以把最差、最贵、最难管理的土地无条件交给国家，私人负担就会变成全体纳税人的负担。不允许退出，责任会困住继承人，并通过失管扩散给邻居；允许无条件退出，又会鼓励所有人把成本交给政府。制度真正要解决的，不是怎样让责任凭空消失，而是谁在什么条件下接手，原所有人应当支付多少，以及土地还有没有可能通过合并、拆除和公共规划重新获得用途。</p>
+<p>书中最有希望的案例，也不是找到一个神奇买家。北海道室兰市曾出钱补助危险空房附近的居民拆屋，拆除后的土地再无偿转给邻居。单独一小块地也许没有市场价值，与相邻土地合并后，却可以扩充院落、停车或者改善通行。它没有假装这块土地仍是一件等待升值的商品，而是承认原来的产权边界已经不适合人口减少后的城市。有时，解决负动产不是把价格抬回去，而是重新决定这块土地应该和谁连在一起。</p>
+<h2 id="中国读者最容易读错的地方"><a href="#中国读者最容易读错的地方" class="headerlink" title="中国读者最容易读错的地方"></a>中国读者最容易读错的地方</h2><p>中国读者看到10万日元的公寓和倒贴出售的土地，很容易把这本书读成一句熟悉的警告：日本发生过的，迟早也会在中国发生。</p>
+<p>这样的类比太轻松了。中日土地制度不同，地方政府的角色不同，住房持有税费结构不同，城市化所处阶段也不同。中国城市住宅用地属于国家所有，地方政府在更新、征收和基础设施建设中拥有更强的行政协调能力；日本书中那种一小块土地被上百名私人权利人永久锁死的情形，不能机械移植。</p>
+<p>但本书提出的那道题，中国迟早也要回答：当一座城市不再增加人口，已经建成的房子由谁长期维护？</p>
+<p>过去的房地产讨论集中在买入价格、按揭利率和未来涨幅。房子被看作家庭财富，也被看作土地财政、信用扩张和地方投资的支点；只要下一批住户不断出现，维修、空置和退出都像遥远的小问题。人口与需求一旦开始分化，问题的顺序就会改变。一套住房的成本不只发生在买入那天：几十年后，它需要维修电梯、外墙、管线和地下车库，小区需要物业和公共空间，空置房也要面对漏水、消防和安全责任。房价下跌只是账面损失，找不到下一位使用者，才会把损失变成持续现金流。</p>
+<p>核心城市与收缩地区也可能同时存在。一个城市的新房仍在销售，并不意味着所有旧小区都有足够的年轻家庭接手；全国住房仍有价值，也不意味着每个家庭继承的那一套都能出售。房地产越从增量建设转向存量维护，“谁来买”就会逐渐变成“谁来修、谁来拆、谁来承担最后成本”。</p>
+<p>这才是《负动产时代》对中国最有价值的提醒。它不是告诉我们房价一定会跌到多少，而是迫使我们承认：房地产政策不能只有进入机制，还需要退出机制；不能只设计开发、销售和按揭，也要设计老化、空置、继承、合并和拆除。一个只奖励建造、不安排善后的体系，会把今天的增长留成明天的账单。</p>
+<h2 id="房子可以空，账单不会"><a href="#房子可以空，账单不会" class="headerlink" title="房子可以空，账单不会"></a>房子可以空，账单不会</h2><p>回到伊豆那块土地。</p>
+<p>1991年在帝国饭店咖啡厅签约时，老人买到的不只是300平方米土地。他买的是日本仍在扩张的预期，是退休后建一栋别墅的生活，也是将来可以留给女儿的家庭财富。这些预期后来逐一消失，土地却留了下来。</p>
+<p>汤之上隆在《失去的制造业》里写过一种企业的失败：最危险的时候不是已经失去能力，而是仍然拥有一套很强、很受尊敬、却不再对应现实的能力。日本的土地是同一件事的另一个版本——它没有损坏，没有消失，产权依然完整地受法律保护，只是它所对应的那个还会有人搬来、有人使用、有人接手的世界不见了。人们常说房地产的价值来自“位置”，《负动产时代》补上了另外半句：位置的价值，来自未来还有谁愿意来到这里。没有人口、用途和接手者，永久存在的土地反而会制造永久责任。</p>
+<p>这本书的厉害之处，不在于展示房价可以跌得多惨，而在于把所有权的另一面翻了出来。拥有一件东西，意味着别人不能随意拿走它，也意味着在别人不想要它的时候，你不能假装它不存在。权利越稳定，责任也越难摆脱。繁荣时代人们只看见前者，因为土地上涨足以覆盖一切成本；收缩时代，后者才从阴影里显现。</p>
+<p>所以真正的负动产不是一栋价格跌到零的房子，而是一项没有人愿意承担、制度又不允许消失的责任。</p>
+<p>房子可以空，账单不会；所有人可以去世，所有权留下的责任还在寻找下一个人。</p>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ol>
+<li>日本总务省统计局公布的 2023 年住宅和土地统计调查显示，全国空置住宅为 900.2 万套，空置率为 13.8%，均创历史新高。参见 <a href="https://www.stat.go.jp/english/info/news/20241030.html">Statistics Bureau of Japan: 2023 Housing and Land Survey</a>。</li>
+<li>2026 年日本地价公告显示，全国住宅地平均上涨 2.1%，商业地上涨 4.3%，东京 23 区住宅地上涨 9.0%。参见日本国土交通省<a href="https://www.mlit.go.jp/totikensangyo/content/001985434.pdf">《令和 8 年地价公示概要》</a>。</li>
+<li>制度变动参见日本法务省<a href="https://www.moj.go.jp/MINJI/minji05_00454.html">继承土地国库归属制度</a>、<a href="https://www.moj.go.jp/MINJI/minji05_00599.html">继承登记申请义务化说明</a>，以及日本国土交通省<a href="https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000035.html">空置房特别措施法相关信息</a>。</li>
+</ol>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
+    <title>百分之九十八为什么输给百分之八十三：读《失去的制造业》</title>
+    <id>https://terazadl.github.io/2026/07/japan-dram-lost-manufacturing/</id>
+    <link href="https://terazadl.github.io/2026/07/japan-dram-lost-manufacturing/"/>
+    <published>2026-07-26T11:10:00.000Z</published>
+    <updated>2026-08-12T10:49:53.402Z</updated>
+    <summary type="html"><![CDATA[日本 DRAM 厂商技术上更优秀，却输给了优化芯片面积、产能、成本和市场适配度的竞争者；这段制造业失败史对 Rapidus 有什么启示？]]></summary>
+    <content type="html"><![CDATA[<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+<p>Japan’s DRAM producers once held roughly four-fifths of the world market and built chips reliable enough to last more than twenty years. Yet the capabilities that won the mainframe era became liabilities when personal computers demanded “good enough,” inexpensive memory delivered at scale. This essay reads Takashi Yunogami’s The Lost Manufacturing Industry as a study of how strong organizations fail when respected local metrics replace the business objective. In 2005, Elpida achieved a 98 percent yield against Samsung’s 83 percent, but Samsung used a much smaller die, obtained more chips per wafer, ran higher-throughput equipment, and earned an operating margin near 30 percent versus Elpida’s roughly 3 percent. Japanese engineers optimized perfection; competitors optimized the production system and the market. Weak market-research functions and difficult-to-standardize equipment compounded the gap. The book’s cultural explanation is too neat: trade agreements, yen appreciation, Korean industrial policy, capital cycles, and the shift to fabless design and foundry manufacturing also mattered. Its deeper lesson is still powerful: an organization is most vulnerable when it retains a celebrated capability that no longer matches the problem. Japan’s Rapidus project will therefore succeed not when it demonstrates a two-nanometre transistor, but when customers repeatedly order, yields and costs support delivery, and decision-makers can revise or stop the project when evidence changes.</p>
+</div>
+
+<blockquote>
+<p>日本制造后来为什么输了，高市早苗又能不能把它救回来</p>
+<p>汤之上隆《失去的制造业：日本制造业的败北》（机械工业出版社，2022；日文原作出版于2013年）</p>
+</blockquote>
+<p>1986年，盛田昭夫写下《日本制造》。</p>
+<p>那是日本制造业最接近世界中心的时刻。索尼的收音机、电视和随身听进入全球家庭，“日本制造”已经从廉价仿制品变成精密、可靠和富有创造力的代名词。盛田昭夫相信，一家公司只要同时理解技术和市场，就可以创造顾客尚未说出口的需求。</p>
+<p>第二年，汤之上隆进入日立，成为一名半导体技术人员。按照书中给出的数字，当时日本企业占据了全球DRAM市场约八成份额，日立、NEC、东芝、富士通和三菱几乎站在产业顶端。没有多少人会怀疑，日本半导体会像汽车一样长期称霸世界。</p>
+<p>此后的二十五年里，汤之上隆看着那个世界逐渐瓦解。他离开日立，转向产业研究；日本主力企业陆续退出DRAM，最后整合出来的尔必达也在2012年破产。他写下《失去的制造业》，试图回答一个看似违反常识的问题：</p>
+<blockquote>
+<p>一群拥有世界最高技术、最严谨工程师和最好产品质量的企业，为什么会输？</p>
+</blockquote>
+<p>他的答案不是美国打压，不是韩国补贴，也不是日元升值。</p>
+<p>他把矛头对准了曾经帮助日本登顶的东西——日本制造对技术和质量的信仰。</p>
+<span id="more"></span>
+
+<h2 id="一块能用二十五年的芯片"><a href="#一块能用二十五年的芯片" class="headerlink" title="一块能用二十五年的芯片"></a>一块能用二十五年的芯片</h2><p>全书最有力量的细节，是一块可以使用二十五年的DRAM。</p>
+<p>在大型计算机时代，日本电报电话公共公司和大型机厂商要求半导体企业制造“不会出故障的DRAM”：大型计算机需要二十五年质量保证，电话交换机需要二十三年。这个要求近乎苛刻，日本工程师却真的实现了。围绕材料、设备、工艺和测试建立起来的精密制造能力，帮助日本企业在八十年代中期拿下世界第一。</p>
+<p>成功同时塑造了一种技术文化：性能越高越好，质量越稳定越好，缺陷越接近于零越好。日本半导体相信，市场份额就是对这套价值观的奖赏。</p>
+<p>但进入九十年代，计算机市场的主角从大型机变成个人电脑。PC厂商并不需要一块能工作二十五年的芯片。一台电脑可能几年就会被淘汰，它真正需要的是足够可靠、价格便宜，而且能够大规模交付的DRAM。</p>
+<p>问题并不在于日本企业没有看见变化。汤之上隆当时就在日立量产工厂。他明确写道，各家厂商都知道PC正在取代大型机，也知道三星正在依靠廉价DRAM扩大市场份额。但日本企业的主要客户仍是大型机厂商，组织、工艺和评价体系也围绕老客户建立。于是，它们把为大型机制造的二十五年质保产品，直接卖给了只需要“够用”的PC。</p>
+<p>一项曾经创造竞争优势的能力，就这样变成了过剩质量。</p>
+<p>日本企业不是没有回答问题的能力，而是没有及时更换问题。旧题目是“怎样造出永远不坏的DRAM”，新题目已经变成“怎样以最低成本、最快速度供给最多芯片”。工程师仍在第一张答题纸上追求满分，市场却已经换了一场考试。</p>
+<p>这也是《日本制造》和《失去的制造业》之间最值得玩味的反差。盛田昭夫早期卖录音机时，先寻找法院和学校这些具体使用场景；做随身听时，他先想象人们会如何在公共空间里拥有私人音乐。索尼从“谁为什么需要它”出发，再让技术完成任务。汤之上隆笔下的日本企业则倒了过来：先把技术做到极致，再设法把生产出来的东西卖掉。</p>
+<p>日本制造的上升和下降，可能就藏在这个顺序里。</p>
+<h2 id="百分之九十八为什么输了"><a href="#百分之九十八为什么输了" class="headerlink" title="百分之九十八为什么输了"></a>百分之九十八为什么输了</h2><p>如果二十五年质保还只是一个观念上的例子，尔必达和三星在2005年的对比，就把这种观念变成了一笔可以计算的账。</p>
+<p>当时生产512M DRAM，尔必达的成品率达到98%，三星只有83%。只看这个指标，尔必达显然技术更强，日本分析师也因此认为它胜过三星。</p>
+<p>但三星的芯片面积只有70平方毫米，尔必达则是91平方毫米。同样一片30厘米晶圆，成品率只有83%的三星大约可以取得830枚芯片，成品率达到98%的尔必达却只能取得约700枚。三星没有赢在把每一枚都做到完美，而是从一开始就把芯片做得更小。</p>
+<p>这还不是全部。</p>
+<p>三星认为，成品率从60%提高到80%相对容易，从80%继续推到95%却需要投入完全不同量级的人力、时间和资金。只要80%以上已经能够支撑利润，就没有必要继续追求漂亮数字。它同时推进多代产品，把资源优先投向面积更小的下一代芯片；它使用的设备吞吐量约为尔必达的两倍，最终单片芯片的制造成本大约只有后者的一半。</p>
+<p>结果是，三星的营业利润率约为30%，尔必达约为3%。</p>
+<p>98%当然是一项工程成就。但企业的目标不是在成品率竞赛里获奖，而是在满足客户要求之后留下利润。一个局部指标被做到极致，如果以整体效率为代价，数字越漂亮，公司反而可能离生意越远。</p>
+<p>汤之上隆把这种倾向称为“高成品率综合征”。这个说法带着一个愤怒的前技术人员特有的刻薄，却点中了许多成熟组织的病灶：手段一旦能被精确测量，就很容易取代原来的目的。成品率、画质、精度、专利数、研发投入，都可以写进报告、接受考核；顾客是否需要、公司是否赚钱、下一代市场在哪里，却很难由某一个部门负责。</p>
+<p>于是所有人都把自己的局部做到最好，整体却一起失败。</p>
+<h2 id="当市场部意味着降职"><a href="#当市场部意味着降职" class="headerlink" title="当市场部意味着降职"></a>当市场部意味着降职</h2><p>书中另一个近乎夸张的对比，发生在市场部门。</p>
+<p>三星电子的战略市场部门有800名员工，其中约230人是专职市场调研人员。负责某个国家的人会在那里生活一两年，学习语言、观察当地人的生活，再判断他们会使用什么产品、使用多久、需要多少。三星还把优秀人才送去做市场研究，高管甚至负有从外部寻找这类人才的任务。</p>
+<p>日本电器企业的市场调研人员通常只有几人，而且常由销售兼任。汤之上隆写到，一名技术研发部长被调去市场部后，第一反应是自己遭到降职。</p>
+<p>这不是“日本人不会营销”那么简单，而是一家公司内部关于知识等级的排序：研发接近技术真理，生产体现匠人精神，销售负责执行，市场则像某种不够硬的辅助工作。最聪明的人被用来解决已经定义好的技术问题，却很少被用来寻找值得解决的问题。</p>
+<p>类似的差异也出现在光刻设备上。尼康公布的每小时晶圆处理能力并不低于ASML，但日本设备的个体差异较大，每台机器都需要熟悉和调校，工厂往往把它固定在特定工序。ASML通过模块化和控制机器误差，使不同设备更容易互换，台积电和三星由此获得更高的设备利用率。</p>
+<p>从单台机器看，日本设备未必落后；从整个工厂看，标准化、调度和吞吐量才决定产出。日本擅长把一台机器调成独一无二的名器，后来居上的企业则把机器变成可以被系统自由调用的节点。</p>
+<p>技术没有消失，只是竞争发生的层级变了。</p>
+<h2 id="一个过于整齐的解释"><a href="#一个过于整齐的解释" class="headerlink" title="一个过于整齐的解释"></a>一个过于整齐的解释</h2><p>《失去的制造业》最好读的地方，也是它最需要警惕的地方：作者给出了一个异常整齐的解释。</p>
+<p>日本曾经因为追求极致技术而成功，后来又因为追求极致技术而失败；三星重视成本和市场，所以取而代之；国家联盟和研发项目不断增加，日本市场份额却一路下降。故事里几乎每一条线，都指向“技术实力神话”这个结论。</p>
+<p>作为一个亲历日立、尔必达和国家项目的工程师，汤之上隆写组织内部的惰性非常有说服力。他见过十三家公司通过合议制确定研发题目，最后做出的技术对领先企业太落后、对二线企业又没有用；也见过耗资巨大的项目把“日本半导体复兴”当作目标，却没有说明复兴究竟是市场份额增加、利润提高，还是技术更先进。</p>
+<p>但当他把这种经验上升为“日本人的技术文化”，解释就开始显得过度。</p>
+<p>日本半导体的衰落不只发生在工厂内部。1986年的《美日半导体协议》对日本芯片设置价格约束，广场协议后的日元升值削弱了出口利润；韩国企业在资本、产业政策和周期底部持续扩产；此后产业又从一体化大企业转向无晶圆厂（Fabless）与晶圆代工分工，美国保留设计和软件，台积电集中制造，日本综合电机企业却迟迟没有完成角色转换。（参见文末资料 1）</p>
+<p>这些因素并不能替日本企业开脱，却说明失败不是一种民族性格的单独产物。书中那张“联盟越多、份额越低”的图尤其需要小心：也可能正因为市场份额正在下跌，政府才不断成立联盟。相关性画得再清楚，也不自动等于因果。</p>
+<p>作者对三星的赞美同样带着2013年的时代印记。快速追随、激进投资和强势决策曾是三星的优势，也可能在新的技术周期里制造另一种路径依赖。没有哪一种企业文化永久正确。所谓优势，往往只是某种能力恰好与一个时代的问题相配。</p>
+<p>因此，这本书最有价值的不是“日本人不懂市场”这个国民性结论，而是它提供了一种更普遍的失败机制：</p>
+<blockquote>
+<p>企业最危险的时候，不是已经失去能力，而是仍然拥有一套很强、很受尊敬，却不再对应现实的能力。</p>
+</blockquote>
+<h2 id="高市早苗能不能跳出旧剧本"><a href="#高市早苗能不能跳出旧剧本" class="headerlink" title="高市早苗能不能跳出旧剧本"></a>高市早苗能不能跳出旧剧本</h2><p>这使《失去的制造业》在2026年重新变得有趣。</p>
+<p>日本正在以Rapidus为核心，尝试重新进入先进逻辑芯片制造。它已经启动北海道千岁试验线，确认2纳米GAA晶体管运行，目标是在2027年量产。2026年2月，Rapidus又获得2676亿日元融资，其中1000亿来自政府，1676亿来自包括索尼、丰田、软银、富士通和多家银行在内的32家企业。（参见文末资料 2）</p>
+<p>Rapidus成立于2022年，并不是高市早苗从零创造的项目；但高市内阁正在把它纳入更大的“强大日本”与经济安全叙事。高市不是不懂产业。她的政策语言已经不只包括研发和建厂，还包括国际标准、人才、海外市场、政府采购和需求创造。（参见文末资料 3）Rapidus也不是封闭的日本国家队：它引进IBM的2纳米技术、使用ASML设备，并试图同时发展设计支持和先进封装。</p>
+<p>这些安排，至少说明日本知道旧剧本出了什么问题。</p>
+<p>但知道答案和做对题目仍是两回事。</p>
+<p>Rapidus现在最容易展示的是设备、制程节点和试制进展，最难回答的仍是市场：谁会把最重要的芯片交给一家没有量产记录的新代工厂？良率、成本和交付速度能否与台积电、三星竞争？最初客户愿意为供应链安全支付多少溢价？如果2027年的目标延迟，项目以什么指标判断继续投入还是止损？</p>
+<p>这些问题与二十多年前的Asuka计划惊人地相似。当年汤之上隆最不满的，正是“复兴日本半导体”被当成无需定义的正确目标。今天，“经济安全”又可能成为一个更难反驳的目标：即使商业上不成功，也可以说它提供了战略保险；投入越大，承认失败的政治成本就越高。2026年的一项日本产业政策研究也提醒，Rapidus面对技术、规模、人才和商业化差距，而国家战略项目一旦形成补贴锁定，政府可能宁愿继续投入，也不愿重新选择路线。（参见文末资料 4）</p>
+<p>高市早苗的优势和风险恰好是同一件事。作为信念型政治家，她愿意打破财政克制、集中资源，也愿意为国家能力支付短期成本。这使她有能力把工厂建起来，却也可能让Rapidus成为不能失败的国家象征。</p>
+<p>政治家可以提供资金、协调部门、承诺采购，甚至帮助找到第一批客户；政治家不能替工厂提高良率，也不能命令全球芯片设计公司产生信任。高市或许有实力让日本重新获得先进半导体生产能力，却没有任何人能够仅凭政治意志，把Rapidus变成下一家台积电。</p>
+<p>需要区分的，是两种不同的“成功”。</p>
+<p>如果目标是降低供应链风险、培养工程师、带动北海道产业集群，并让日本在材料、设备、封装和工业芯片之外重新拥有先进制程能力，那么Rapidus即使规模不大，也可能创造公共价值。</p>
+<p>如果目标是恢复八十年代的世界霸权，与台积电争夺全球先进代工中心，那么技术试制只是入场券，远不是胜利。</p>
+<h2 id="承认失败也是制造能力"><a href="#承认失败也是制造能力" class="headerlink" title="承认失败也是制造能力"></a>承认失败也是制造能力</h2><p>汤之上隆在书里反复说，日本半导体复兴的第一步，是承认自己输了。</p>
+<p>这听起来像一句情绪化的口号，背后却是一种稀缺的组织能力。承认失败，不是举行反省会，而是允许旧指标失去权威，允许过去的成功经验被重新定价，也允许一个已经投入很多资源的项目停止。没有这种能力，改善只会让旧路线走得更远。</p>
+<p>《日本制造》里，索尼发现收音机比普通衬衫口袋稍大，就给推销员定制一批口袋更大的衬衫。那个故事体现了创业公司改变现实的自信：产品与世界不完全吻合，那就先把世界改一改。</p>
+<p>《失去的制造业》里，日本企业造出可以使用二十五年的DRAM，却没有发现顾客的电脑早已换了几代。它们仍然相信，只要技术足够好，市场最终会穿上那件为技术定制的衬衫。</p>
+<p>前者先想象一种生活，再制造产品；后者先制造最好的产品，再寻找一种生活。</p>
+<p>这两本书之间相隔的，不只是日本制造业的黄金时代和失去的三十年，也是同一种自信从创造力变成路径依赖的过程。</p>
+<p>所以，高市早苗能不能救日本半导体，答案不在政府还能投入多少钱，也不在Rapidus能不能点亮一枚2纳米晶体管。真正的答案要等到工厂开始量产以后才会出现：有没有人愿意持续下单，每片晶圆能不能留下利润，目标落空时又有没有人敢叫停。</p>
+<p>一块芯片能使用多久并不重要。</p>
+<p>重要的是，它有没有在属于自己的时代被需要。</p>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ol>
+<li>关于贸易协议、日元升值、产业分工转型及日本企业组织结构的影响，参见 RIETI 2025 年研究：<a href="https://www.rieti.go.jp/jp/publications/dp/25e116.pdf">Chips in Japan: Industrial policy, decline and renewal</a>。</li>
+<li>Rapidus 的试验线、2 纳米进展和融资数据，参见 <a href="https://www.rapidus.inc/en/about/">Rapidus 公司介绍</a>及<a href="https://www.rapidus.inc/en/news_topics/information/rapidus-secures-267-6-billion-yen-in-funding-from-japan-government-and-private-sector-companies/">2026 年 2 月融资公告</a>。</li>
+<li>高市内阁关于国际标准、人才、海外市场和政府采购的政策表述，参见<a href="https://japan.kantei.go.jp/105/statement/202602/20shiseihoshin.html">2026 年施政方针演说</a>。</li>
+<li>关于 Rapidus 的技术与规模风险、补贴锁定和产业政策取舍，参见 RIETI 2026 年研究：<a href="https://www.rieti.go.jp/jp/publications/dp/26e054.pdf">Economic Security and the Revival of Industrial Policy in Japan</a>。</li>
+</ol>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
+    <title>先把口袋做大：读《日本制造》</title>
+    <id>https://terazadl.github.io/2026/07/sony-morita-made-in-japan/</id>
+    <link href="https://terazadl.github.io/2026/07/sony-morita-made-in-japan/"/>
+    <published>2026-07-26T11:00:00.000Z</published>
+    <updated>2026-08-12T10:49:54.012Z</updated>
+    <summary type="html"><![CDATA[从盛田昭夫《日本制造》出发，讨论如何创造客户与产品、拒绝短期订单，并看见巅峰时期写下的成功故事的局限。]]></summary>
+    <content type="html"><![CDATA[<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+<p>Made in Japan is often remembered as a celebration of Sony’s engineering, but its most revealing stories concern the invention of markets. When an early transistor radio was slightly too large for a standard shirt pocket, Sony gave its salespeople shirts with larger pockets and made the promised use case visible. When its first tape recorders attracted attention but no buyers, Akio Morita looked for institutions—courts and schools—whose work made the product necessary. The Walkman repeated the pattern by proposing a new form of private listening before consumers could request it. Morita also rejected a large white-label order from Bulova because immediate revenue would have prevented Sony from building its own name, and priced an oversized order higher when the required capacity could become a future burden. These decisions show marketing as a form of product creation and strategy as choosing what kind of company an order will produce. The book also has limits. Written in 1986 at the height of Japanese manufacturing, it treats lifetime employment and corporate loyalty more generously than later stagnation would justify, and it underplays the importance of technological standards and ecosystem power revealed by Betamax’s defeat. Its durable lesson is not a formula for Japanese management, but a discipline: connect technology, a specific user, and a sustainable organizational future before calling an invention a business.</p>
+</div>
+
+<blockquote>
+<p>一家企业如何发明产品，也发明顾客</p>
+<p>盛田昭夫、下村满子《日本制造》（中信出版社，2016；原作成书于1986年）</p>
+</blockquote>
+<p>《日本制造》里最像索尼的一个细节，不是晶体管，也不是随身听，而是一只衬衫口袋。</p>
+<p>1957年，索尼的前身东京通信工业做出了当时世界上最小的晶体管收音机。盛田昭夫不满足于“便携”，还给它造了一个新词：“袋携”——可以装进口袋随身携带。问题是，成品依然比标准男式衬衫的口袋稍大一点。工程师已经把机器做到了极限，广告却已经准备把“口袋里的收音机”卖给全世界。</p>
+<p>索尼的解决办法不是撤回宣传，而是给推销员定制一批衬衫，把口袋做得恰好能装下收音机。演示时，推销员可以若无其事地把机器滑进口袋，那个尚未完全实现的产品概念，就这样在顾客眼前成为事实。</p>
+<p>这当然是一种营销技巧，甚至带着一点狡黠。但它也把盛田昭夫和他那个时代的索尼解释得异常完整：他们并不把市场看成一道已经写好答案的题目。产品不符合现成的口袋，就改造口袋；消费者没有现成的需求，就为他描绘一种新的生活；日本制造还等同于廉价杂货，就重新发明一个不属于任何语言的名字，让四个字母替日本商品积累信用。</p>
+<p>索尼最重要的产品，或许不是某台机器，而是这种相信世界仍然可以被重新定义的能力。</p>
+<span id="more"></span>
+
+<h2 id="不存在的需求"><a href="#不存在的需求" class="headerlink" title="不存在的需求"></a>不存在的需求</h2><p>这本书很容易被读成一部天才连续命中未来的创业史。但索尼真正的起点不是洞察，而是失败。</p>
+<p>公司最早制造的磁带录音机重达35公斤，售价17万日元，而当时日本大学毕业生的平均月薪还不到1万日元。盛田和井深大以为，只要产品足够新、技术足够好，订单自然会来。结果生产出的50台机器无人问津。人们愿意围观，愿意听自己的声音被录下来再播放，却不愿意掏钱——这东西很有趣，但作为玩具太贵了。</p>
+<p>这里出现了全书最关键的一次分工。井深大继续负责技术和产品，盛田昭夫则开始寻找“谁真正需要它”。法院缺少速记员，录音机便不再是玩具，而是记录庭审的工具；战后学校要恢复英语听说教学，录音机又成了可以反复播放会话的教学设备。索尼没有立即找到大众市场，而是先找到两个能够理解产品价值的具体场景。需求不是从调查问卷里读出来的，而是在产品与真实工作相遇时被辨认出来的。</p>
+<p>后来随身听的故事也是如此。公司内外都怀疑，一台不能录音、只能播放的机器不会有人购买。盛田却认定，年轻人需要一种随时随地拥有私人音乐的方式。索尼卖的不再只是缩小的录音机，而是一幅以前不存在的生活画面：一个人戴着耳机走在街上，公共空间里出现一小块只属于自己的声音。</p>
+<p>所以盛田所说的“市场营销”，并不是把现有商品包装得更漂亮。它与技术开发同样是一种创造：工程师发明机器，经营者发明机器被使用的理由。技术、产品企划和市场营销，任何一环缺位，实验室里的先进都可能变成仓库里的库存。</p>
+<h2 id="拒绝十万台"><a href="#拒绝十万台" class="headerlink" title="拒绝十万台"></a>拒绝十万台</h2><p>如果说把口袋做大体现了盛田的大胆，那么他在美国拒绝宝路华公司的十万台订单，则体现了另一面。</p>
+<p>十万台是索尼当时生产能力的好几倍，对一家仍在建立现金流的小公司来说，几乎是从天而降的机会。对方只有一个条件：收音机必须贴上宝路华的商标。东京总部认为这笔生意不能错过，盛田却坚持拒绝。他要卖的不是一批匿名机器，而是SONY这个名字。宝路华的采购负责人提醒他，对方已有五十年历史，索尼在美国还无人知晓；盛田的回答是，五十年前的宝路华也同样无人知晓。</p>
+<p>这个决定的意义，不只是“重视品牌”这么简单。贴牌可以立即换来收入，自己的名字却是一项需要几十年才能兑现的资产。盛田选择的是把今天的利润，换成未来直接面对消费者的权利。品牌在这里不是字体或广告，而是企业不再借用别人信用、也不能把质量责任推给别人的承诺。</p>
+<p>书里紧接着还有一笔更有意思的订单。另一位美国采购商要求索尼分别为五千、一万、三万、五万和十万台报价。按照通常的规模经济，数量越多，单价应该越低；盛田却画出一条U形曲线：一万台最便宜，此后订得越多，价格反而越高。因为十万台意味着扩建厂房、添置设备、招募并长期雇用新员工。假如第二年订单消失，那些为一次性需求增加的固定成本足以拖垮公司。</p>
+<p>最终，对方接受了一万台的报价。</p>
+<p>这两次拒绝共同揭示了一种如今仍不常见的经营判断：订单不天然等于价值，增长也不天然等于成功。真正需要计算的，不只是这笔生意能赚多少钱，还包括它会迫使企业变成什么。宝路华的订单会把索尼变成代工厂，十万台的订单会让一家小公司提前背上大公司的成本结构。盛田拒绝的不是收入，而是由客户替索尼决定未来。</p>
+<h2 id="“以人为本”的条件"><a href="#“以人为本”的条件" class="headerlink" title="“以人为本”的条件"></a>“以人为本”的条件</h2><p>盛田把日本企业的优势概括为“以人为本”。在他的叙述里，美国公司像砖墙：先规定职位的形状，再寻找大小恰好的砖块；日本公司则像石墙：先把形状各异的人招进来，再由管理者寻找每个人合适的位置。长期雇用、内部培养和较小的收入差距，使员工愿意学习新技能，也让企业能够承受一项十年后才见效的投资。</p>
+<p>这种制度的价值，在索尼早期的产品开发中确实清晰可见。公司购买了美国的晶体管基础专利，却没有停在复制。贝尔实验室放弃的磷掺杂路线，被索尼的工程师重新捡起；负责人允许员工继续试验，并承诺失败由自己承担，最终做出了高频晶体管。井深大负责不断提出看似过分的技术目标，盛田负责把目标翻译成消费者能够理解的场景，工程师、生产和销售再围绕同一个方向工作。所谓日本制造，并不是某种神秘的民族性，而是一套让不同创造力能够彼此接上的组织方式。</p>
+<p>但“亲如一家”也是这本书最需要后退一步审视的地方。</p>
+<p>当企业承诺照顾一个人的整个职业生涯，它同时也获得了介入其人生、要求其忠诚的正当性。盛田鼓励员工把公司看成命运共同体，相信工作带来的成就感不亚于金钱，也赞赏日本人很少休完带薪假。站在高速增长的1980年代，这是一幅和谐图景：企业持续扩张，员工的忍耐最终可以换来工资、职位和稳定。但它成立的前提非常苛刻——市场必须增长，年轻人口必须充足，企业必须仍有能力兑现长期承诺。</p>
+<p>一旦增长停滞，石墙的稳定也可能变成僵硬；“公司不会抛弃你”也可能悄悄变成“你不应该离开公司”。盛田看到了美国式短期主义对组织的破坏，却较少讨论日本式长期主义如何压低个人退出的自由。就像《东大女子》把结构问题重新交还给个人调适，《日本制造》有时也把制度对人的要求，描述成了敬业精神和成就感。</p>
+<h2 id="写在巅峰上的成功史"><a href="#写在巅峰上的成功史" class="headerlink" title="写在巅峰上的成功史"></a>写在巅峰上的成功史</h2><p>《日本制造》原作完成于1986年。那正是索尼和日本制造业最接近世界中心的时刻。书里的盛田昭夫有充分理由自信：日本商品已经从“廉价、易坏”变成可靠与精密的代名词；索尼把晶体管收音机、特丽珑电视、随身听和Betamax送入全球家庭；欧美企业还在研究日本公司究竟掌握了什么秘诀。</p>
+<p>也正因为如此，这是一部写在巅峰上的成功史。盛田能够准确解释索尼为什么走到这里，却不可能知道使它成功的制度中，哪些会在下一个时代成为负担。</p>
+<p>书中谈到Betamax时，重点是索尼如何提出“时间转移”的概念，让观众摆脱电视节目表，以及它如何在美国最高法院赢得家庭录像的合法性。这些都是实实在在的贡献。但从今天回看，另一个结果同样醒目：Betamax后来在消费市场的格式竞争中败给了VHS。索尼正确地预见了人们需要什么，却没有赢得人们最终采用哪一种标准。技术更精巧、概念更先进，不等于生态更强，也不等于消费者愿意为厂商最珍视的性能排序买单。</p>
+<p>这未必是作者有意回避，更像是成书时点给这本书留下的边界。成功者的经验总会把历史写成一条由判断、勇气和努力铺成的道路，但索尼同时站在战后改革、人口城市化、全球市场扩张、美国技术开放和日本供应链成熟的上升气流中。盛田并没有忽略时代，只是作为创业者，他更愿意把决定性力量归于人。这样的叙述让故事充满行动感，也容易低估顺风本身。</p>
+<p>因此，《日本制造》最值得读的，并不是那些可以直接抄走的“日式经营秘诀”。终身雇用不能复制，1980年代的产业环境也不会重来。真正仍然有效的，是盛田反复呈现的一种判断方式：不要只问一件产品能不能造出来，还要问谁会需要它；不要只问订单有多大，还要问它会把公司带向哪里；不要只问技术是否先进，还要问技术、产品和市场能否成为同一个故事。</p>
+<p>索尼年轻时最动人的地方，是它敢于相信现实并非不可更改。收音机放不进口袋，那就先把口袋做大。可一个企业真正成熟的标志，或许还包括另一种能力：知道什么时候应该改变口袋，什么时候必须改变自己。</p>
+<p>毕竟，创业者可以让推销员穿上定制的衬衫，却不能要求整个市场永远穿着同一件衣服。</p>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
+    <title>当所有人都在假装没见过刘无双——读王小波《寻找无双》</title>
+    <id>https://terazadl.github.io/2026/02/wang-xiaobo-searching-wushuang/</id>
+    <link href="https://terazadl.github.io/2026/02/wang-xiaobo-searching-wushuang/"/>
+    <published>2026-02-28T05:33:00.000Z</published>
+    <updated>2026-02-28T06:17:31.000Z</updated>
+    <summary type="html"><![CDATA[通过王小波《寻找无双》讨论习得性遗忘、个人主题，以及荒诞喜剧如何揭穿集体性的自我欺骗。]]></summary>
+    <content type="html"><![CDATA[<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+<p>Wang Xiaobo’s Searching for Wushuang begins with a simple task: Wang Xianke enters Xuanyang Ward to find his missing cousin Wushuang. Everyone insists that no such person exists. Their denials come too quickly to be innocent, revealing forgetting not as a passive failure of memory but as a practiced social skill. This essay reads the novel as an argument about living with a “theme”—a commitment that cannot be reduced to a target, credential, or useful outcome. Wang Xianke continues searching even when the whole neighbourhood treats the search as foolish, and his persistence unsettles people who have survived by pretending not to see, know, or remember. Wushuang consequently becomes more than a missing woman: she stands for truth, curiosity, desire, and other valuable things a practical society learns to call unnecessary. Wang Xiaobo’s method is crucial to the effect. He places cruelty and coercion inside comic, colloquial, anachronistic speech, using absurdity to meet an already absurd reality. The novel’s image of a pig learning to regard its pen as happiness captures how selective memory can become a rational short-term survival strategy. The ending matters less than whether Wushuang is recovered. The enduring question is whether a person is still willing to search for the thing that gives life texture.</p>
+</div>
+
+<blockquote>
+<p><em>“假如人生活在一种不能抗拒的痛苦中，就会把这种痛苦看作幸福。假如你是一只猪，生活在暗无天日的猪圈里，就会把在吃猪食看作极大的幸福，因此忘掉早晚要挨一刀。所以猪的记性是被逼成这样子的，不能说是天生的不好。”</em><br>—— 王小波《寻找无双》</p>
+</blockquote>
+<hr>
+<h2 id="一、你上次认真做一件事，是什么时候"><a href="#一、你上次认真做一件事，是什么时候" class="headerlink" title="一、你上次认真做一件事，是什么时候"></a>一、你上次认真做一件事，是什么时候</h2><p>有时候打开豆瓣，想标记一本书为“想读”，结果发现自己好几年前就标注过了。但为什么好几年里一直没有读过呢？那一刻我突然意识到，可能我不是在收藏，我是在假装还有求知欲。</p>
+<p>我怀疑很多人跟我一样。不是不想认真，而是想要的那个东西模糊了太久，以至于觉得没有也可以生活。难免有些时候会想，少读一本书，自在娱乐几个小时，这对我的人生有什么影响呢？但毫无目的的摄入信息会产生一种类似空虚的感觉。但空虚不是什么都没有——空虚是你其实有想做的事，但你一直没有做。</p>
+<p>如果要从什么书里找来时路，我首先想到王小波的《寻找无双》。一个发生在唐朝的、有些魔幻现实的故事。</p>
+<p>为什么是它？因为王小波在三十年前就精确地诊断了这种状态的病因：<strong>我们活在一个所有人都在假装的世界里。假装没看见，假装不知道，假装不记得。</strong> 而没有质感的生活，就是假装的代价。</p>
+<span id="more"></span>
+
+<hr>
+<h2 id="二、失忆的街坊"><a href="#二、失忆的街坊" class="headerlink" title="二、失忆的街坊"></a>二、失忆的街坊</h2><p>《寻找无双》的情节看起来很简单：唐代青年王仙客来到宣阳坊，寻找他的表妹——一个叫无双的姑娘。</p>
+<p>就这么一件事。找一个人。</p>
+<p>但整个宣阳坊的人都告诉他：没听说过这个人。不认识。没见过。你一定是搞错了。</p>
+<p>王仙客知道他们在撒谎。这些人的否认来得太快了——不是回忆之后摇头，而是话还没听完就摆手。那种熟练的、不假思索的拒绝，恰恰暴露了他们知道的比谁都多。</p>
+<p>这个判断的速度，才是最可怕的部分。它说明这些人不是第一次做这种选择。他们已经熟练了。遗忘不是被动发生的，而是一种<strong>经过反复练习的技能</strong>。</p>
+<p>无双的消失牵涉一段往事——众人做过见不得人的事，所以不愿被人提起。但王小波真正写的不是那段往事本身，而是<strong>这种遗忘是如何运作的</strong>：先是一个人不说，接着两个人不说，然后整条街都不说。等到所有人都不说了，这件事就自动变成了”没发生过”。</p>
+<p>你一边笑——因为这些居民否认的姿态实在太滑稽——一边觉得脊背发凉。可能你想起来了：去年公司那次裁员之后，你和同事也是这样的。先是没人提被裁的那个人，然后没人提裁员本身，再然后，连那个工位都重新摆了绿植，好像那里从来就没坐过人。</p>
+<p>宣阳坊就是你住的那条街。</p>
+<hr>
+<h2 id="三、人活着要有一个主题"><a href="#三、人活着要有一个主题" class="headerlink" title="三、人活着要有一个主题"></a>三、人活着要有一个主题</h2><p>《寻找无双》里有一段讨论，我认为是全书的思想核心——甚至是理解王小波整个人的钥匙。</p>
+<p>王仙客被宣阳坊的人反复刁难、搪塞、冷嘲热讽，但他就是不走。他的种种行动都在印证书里那句话：<strong>每个人的生活都有个主题，这是无法改变的。</strong></p>
+<p>这句话看似简单，其实极为重要。因为王小波借这个回答，提出了一个贯穿他许多作品的根本命题：<strong>人活着，到底有没有一个属于自己的「主题」？</strong></p>
+<p>主题不是目标，不是KPI，不是五年规划。目标可以被完成或放弃，主题不能。主题是一种执念——是即使全世界都告诉你”没有这个人””你在浪费时间””你快别找了”，你还要找下去的那个东西。</p>
+<p>王仙客的了不起之处不在于他勇敢或执着，而在于：<strong>他知道自己的主题是什么。</strong> 光是”知道”这件事，就已经把他和宣阳坊所有人区分开了。</p>
+<p>王小波在1990年代写这本书的时候，中国正处于市场经济转轨的亢奋期。”下海”、”发展才是硬道理”，所有人都在忙着”有用”。但王小波几乎是当时唯一在说：等一下，我们是不是在忙着有用的时候，把什么没用但珍贵的东西弄丢了？</p>
+<p>那个被弄丢的东西，就是”无双”。</p>
+<hr>
+<h3 id="无双是谁？"><a href="#无双是谁？" class="headerlink" title="无双是谁？"></a>无双是谁？</h3><p>看到最后你会发现，无双这个人已经不再代表她自己了。她在小说的表层是一个具体的人——王仙客的表妹，一个被权力吞噬的女性。但在更深的层面上，无双是一个隐喻：<strong>她是被我们集体遗忘的那些东西——真相、热情、不计后果的好奇心。</strong></p>
+<p>崔健唱”我要干我最喜欢干的，不管挣钱多少”——这也是无双。不是一个人名，而是一种活法：<strong>不假装，不合理化，真实而决绝。</strong></p>
+<p>但王小波最狠的一层暗示在这里：宣阳坊的人否认无双的存在，不仅仅是因为害怕权力，还因为<strong>王仙客”有主题”这件事本身就让他们不安</strong>。一个有主题的人，站在一群没有主题的人中间，不需要指责任何人——他的存在本身就是一面镜子，照出其他人正在回避的问题。</p>
+<p>所以他们不只是想让无双消失，还想让”寻找”这个行为本身变得可笑。你看你，找什么找呢？务实一点不好吗？</p>
+<p><strong>嘲笑别人的主题，是没有主题之人最后的尊严。</strong></p>
+<hr>
+<h2 id="四、荒诞即日常——王小波的写作方法"><a href="#四、荒诞即日常——王小波的写作方法" class="headerlink" title="四、荒诞即日常——王小波的写作方法"></a>四、荒诞即日常——王小波的写作方法</h2><p>初读《寻找无双》你会困惑：这到底是什么东西？</p>
+<p>它写的是唐朝，但人物说话的方式像是1990年代北京胡同里的混不吝——那种痞里痞气的、满不在乎的语气，偏偏用来说最严肃的事情。比如书中彭先生谈到历史的残酷，口吻却好像在聊隔壁老王家的闲事。王小波把恐怖的内容装进了一个玩世不恭的容器里，然后端到你面前说：喝吧，不苦的。你喝下去才发现，苦到舌根。</p>
+<p>这就是他的方法：<strong>用荒诞来对付荒诞。</strong></p>
+<p>现实已经够荒诞了——一群人假装不认识一个他们明明认识的人，这在任何时代都在发生。你用”严肃”的方式写它，反而写不过现实本身的荒诞。但你用一种更荒诞的方式去写——嬉皮笑脸的、不正经的——读者反而笑着笑着就懂了。</p>
+<p>再看卷首那段关于猪的话。猪活在暗无天日的猪圈里，把吃猪食看作极大的幸福，”因此忘掉早晚要挨一刀”。王小波说猪的记性不是天生不好，而是”被逼成这样子的”。</p>
+<p>这段话比任何宏大叙事都精准。它写的不是猪。它写的是一种<strong>主动遗忘的生存策略</strong>——当你无法改变处境的时候，忘掉处境本身就成了最理性的选择。宣阳坊的人在做同一件事。而且，这个逻辑和塔勒布后来在《黑天鹅》里讲的”火鸡问题”惊人地一致：一只火鸡被喂了一千天，它得出结论”人类是善意的”——直到感恩节那天。猪也好，火鸡也好，宣阳坊的居民也好，都是<strong>用短期的合理性，屏蔽了长期的真相</strong>。王小波在1990年代用一段调侃，解释了了二十年后纳西姆·塔勒。</p>
+<hr>
+<h2 id="五、结语：无双在哪里"><a href="#五、结语：无双在哪里" class="headerlink" title="五、结语：无双在哪里"></a>五、结语：无双在哪里</h2><p>小说的最后，无双找到了吗？</p>
+<p>这个问题我十多年来多次重读都没留意过。这次再读才意识到，王小波根本就没打算给你一个干净利落的结局。因为”找到”不是重点。重点是：你还在不在找。</p>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
+    <title>两条被挑战的经济学&quot;常识&quot;</title>
+    <id>https://terazadl.github.io/2026/02/two-broken-economic-conventions/</id>
+    <link href="https://terazadl.github.io/2026/02/two-broken-economic-conventions/"/>
+    <published>2026-02-11T14:58:00.000Z</published>
+    <updated>2026-02-12T11:44:29.000Z</updated>
+    <summary type="html"><![CDATA[将货币紧缩与黄金、汇率升值与出口这两条常见关系放回货币制度、计价方式和供应链结构中，重新理解它们为何会失效。]]></summary>
+    <content type="html"><![CDATA[<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+<p>This essay revisits two textbook relationships that recent evidence has made less reliable. The first says that monetary tightening should weaken gold. Yet gold rose sharply after 2022 even as US interest rates remained high, suggesting that de-dollarization, geopolitical fragmentation, reserve demand, and concern about the usability of financial assets were being priced alongside real yields. Gold is therefore better understood not only as a non-yielding asset, but also as monetary insurance whose value cannot be explained by discounted cash flow alone. The second relationship says that an appreciating currency should weaken exports. In 2025, however, the renminbi strengthened against the US dollar while China recorded a historically large trade surplus. The apparent contradiction fades when the bilateral exchange rate is separated from effective exchange rates, and when dollar invoicing, margin compression, weak imports, supply-chain depth, and rerouted trade are considered. The argument is not that interest rates or exchange rates have stopped mattering. It is that their effects depend on the surrounding monetary regime, balance sheets, pricing conventions, and industrial structure. Economic “common sense” is often conditional knowledge presented as a universal rule.</p>
+</div>
+
+<p>2018年或2019年时，我也推荐过别人定投黄金。彼时的理由很“教科书”：黄金与美元宽松程度大体成反比——美元越宽松，黄金越受追捧。今天回头看，这个建议不能说错，但支撑它的那套推理链条，已经被现实反复挑战。</p>
+<span id="more"></span>
+
+<h3 id="常识一：紧缩黄金就该跌？——2022以后不一定"><a href="#常识一：紧缩黄金就该跌？——2022以后不一定" class="headerlink" title="常识一：紧缩黄金就该跌？——2022以后不一定"></a><strong>常识一：紧缩黄金就该跌？——2022以后不一定</strong></h3><p>2022年俄乌战争爆发后，黄金在3月一度冲高至2070美元，随后又在美联储严厉加息下回落震荡，全年涨幅接近零。表面看，这像一次短期事件冲击；但从今天回望，它更像一个序幕：市场开始把“安全性&#x2F;可用性”重新纳入定价，黄金不再只是“利率交易”的附庸。</p>
+<p>真正令人瞩目的是2023年至今：在美联储维持高利率环境下，黄金从1800美元一带一路冲到5000美元上方（2026年2月），短短几年涨幅惊人。</p>
+<p><img src="/images/gold_price_final_2026.png" alt="图片描述"></p>
+<p>或许只能把它理解为：这不是某一次事件冲击，而更像是去美元化、金融碎片化、以及地缘冲突常态化，被市场持续、系统地定价。</p>
+<p>回想2022年4月，我第一次在彭博播客里听到 <strong>Zoltan Pozsar</strong> 讲他的“布雷顿森林体系III”。尽管彼时我对他说的“人民币会走强”仍有疑虑，但我几乎立刻认同：黄金会大放异彩。也是那一年，接连有两位“师奶”来问我，想买黄金送闺蜜或者女儿女婿，其中一位还说一句：“乱世买黄金。”后来每每想到这句，就感慨“师奶”是个神奇的团体。在日本，“渡边太太”也相当知名。她们或许不是金融从业者，但她们有自己的生存智慧：她们买的不是收益率，而是最坏情形下的可交换性。</p>
+<p>黄金这轮涨法，让我们不得不重新审视金融学课堂里最常用的工具——DCF（现金流折现模型）的适用边界。</p>
+<p>要知道，黄金不生息，没有利息（现金流&#x3D;0）、没有分红（现金流&#x3D;0）、不产生租金（现金流&#x3D;0）。按最朴素的DCF逻辑，它的价值似乎应该≈0。但现实是，黄金从2000年至今涨了十几倍。</p>
+<p>所以问题不在黄金“反金融学”，而在我们常常忘记：**DCF只能给“会生钱的资产”定价，却很难解释“货币性资产&#x2F;储备性资产”——那些价值来自安全性、流动性与尾部保险的东西。**而这层限制，在课堂上反而很少被郑重强调。</p>
+<h3 id="常识二：本币升值出口就弱？——2025中国给出反例"><a href="#常识二：本币升值出口就弱？——2025中国给出反例" class="headerlink" title="常识二：本币升值出口就弱？——2025中国给出反例"></a><strong>常识二：本币升值出口就弱？——2025中国给出反例</strong></h3><p>正巧最近看到智堡的 Mikko 发了一条朋友圈：</p>
+<p><img src="/images/mikkomoments.JPG" alt="图片描述"></p>
+<p>2025年至今人民币累计升幅约4.9%，但中国2025年的贸易顺差同比增长20%，达到史无前例的约1.19万亿美元。</p>
+<p><img src="/images/goldmansachs.jpeg" alt="图片描述"></p>
+<p>高盛统计的货运数据也显示，2026年以来似乎依旧强劲。所以，货币升值也没挡住出口，到底是哪里不对劲？</p>
+<p>后知后觉的我才意识到，我可能一开始就盯错了变量：我盯的是人民币对美元的双边汇率，却在用它解释中国对全球的出口竞争力。</p>
+<p>更贴近贸易的口径其实是两套：一套是 <strong>CFETS 一篮子（名义有效汇率）</strong>，另一套是把通胀&#x2F;成本差异也扣掉之后的 <strong>REER（实际有效汇率）</strong>。</p>
+<p>先说CFETS。2025年人民币对一篮子的表现并不是一路走强：年中一度明显走弱——比如到2025年年末CFETS收在 <strong>97.99</strong>，但过程中是“先弱后修复”，并不是直线升值。</p>
+<p>更关键的是REER。按BIS口径（2020&#x3D;100），2025年末中国REER大约在 <strong>89.24</strong>，而2025年初还在 <strong>91.90</strong>，全年反而是下行的。</p>
+<p>把时间拉长看更直观：如果真实有效汇率并不“贵”，那么出口韧性就并不反常。</p>
+<p>当然，口径纠错只是第一层。因为出口从来不是被一个变量驱动，而是被一整套“缓冲器”共同决定的：</p>
+<p>1）**美元主导计价：汇率冲击先打在利润率上，而不是立刻打在出口量上。**大量外贸以美元标价、按合同周期结算。人民币升值时，企业未必马上失单，更多时候是先压毛利、先让利、先吞掉汇兑冲击——于是你会看到“出口量还行，但企业体感更苦”。</p>
+<p>2）**顺差的另一半是进口：顺差爆表不等于出口爆表。**贸易顺差&#x3D;出口−进口。内需偏弱、投资偏谨慎时，进口弹性往往比出口更大，进口走弱会把顺差“放大”。</p>
+<p>3）**价格与结构：以价换量、产业链能力、贸易路径重构，都在分摊汇率压力。**当竞争维度从“劳动力成本”转向供应链集成、交付稳定与工程迭代速度，汇率的边际解释力就会下降；而转口、本地化、规则拆分，也让出口“路径”变得更复杂。</p>
+<p>归根结底，汇率升值没有挡住出口，并不是因为汇率不重要，而是因为企业用利润率、用价格、用供应链能力、甚至用贸易路径的重构，把汇率冲击摊平了。宏观顺差因此更亮眼，微观体感却更紧。</p>
+<p>所以，我越来越觉得，所谓“常识”往往只在某个制度与某段历史里成立；一旦秩序变了，常识就会被重新定价。</p>
+<p>尽信书不如无书，学吧，学无止境。</p>
+<p><img src="/images/fdb.png" alt="图片描述"></p>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
+    <title>巧媳难为无米之炊-读白川方明《动荡三十年》</title>
+    <id>https://terazadl.github.io/2026/02/shirakawa-boj-39-years/</id>
+    <link href="https://terazadl.github.io/2026/02/shirakawa-boj-39-years/"/>
+    <published>2026-02-06T14:13:00.000Z</published>
+    <updated>2026-02-11T08:31:18.000Z</updated>
+    <summary type="html"><![CDATA[白川方明在日本银行39年的经历说明，货币政策无法替代银行修复、财政选择、结构改革和政治共识。]]></summary>
+    <content type="html"><![CDATA[<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+<p>Masaaki Shirakawa’s memoir of thirty-nine years at the Bank of Japan resists the simple claim that Japan’s post-bubble stagnation was caused by an incompetent central bank. This essay follows his account from yen appreciation and prolonged low rates in the late 1980s through the collapse of asset prices, the slow recognition of non-performing loans, the banking crisis, and the political pressure for unlimited monetary easing. The central analytical point is transmission. A central bank can reduce funding costs, provide emergency liquidity, purchase assets, and shape expectations, but it cannot force damaged banks to lend, indebted firms to invest, or an aging economy to generate productivity. Japan’s delayed recovery also reflected weak disclosure, tax and regulatory barriers to recognizing losses, the absence of a political trigger for recapitalization, and slow development of bank-resolution tools. Financial stability and demand stimulus are therefore different objectives: lender-of-last-resort action can prevent system collapse, while ever-larger balance-sheet expansion may still fail to restore growth. Shirakawa’s caution created a political problem because monetary policy became the only institution visibly “doing something” while fiscal and structural reforms remained difficult. The book’s lasting warning is that when a central bank does too much, it often reveals how little other parts of government are doing—and transfers unresolved tensions into the currency, bond market, and the institution’s future credibility.</p>
+</div>
+
+<p>不得不说，出版社取名取到“会写故事”的程度了。原名《中央銀行：セントラルバンカーの経験した39年》明明很诚实——“一位央行人的39年”；中文版却改成“动荡三十年”，把39削成30，几乎是把吴晓波那本《激荡三十年》的符号直接贴了上去，只为更顺口、更像时代史、更好卖。</p>
+<p>作者白川方明1972年从东京大学毕业后进入日本银行（日本的中央银行），从基层做起。平成二十年（2008年）出任日本银行副行长，后任行长，平成二十五年（2013年）辞职，并于2014年开始动笔写作本书。日文版出版于2018年冬，中文版出版于2021年。</p>
+<p>如果你关注全球宏观，日本银行几乎是绕不开的存在：一方面，日本“失去的三十年”长期被简化为“日银无效货币政策”的注脚；另一方面，2024年日银宣布升息，最先被打到的不是日本本土，而是全球流动性链条——尤其是以日元融资为底座的 carry trade，一旦利差预期与波动率结构被改写，风险资产的定价就会立刻跟着重估。更何况，即便只看国内讨论，也不难发现这几年把日本与我们对照的声音越来越多：人口、地产、财政、通缩（或低通胀）预期……日本不再只是“远处的案例”，而更像一面会被反复拿来照的镜子。</p>
+<p>我读这本书的起因也是：究竟应该如何理解日本泡沫崩坏以来的经济。白川在书里为了叙述方便，把“日本泡沫经济时期”明确界定为 1986–1990 年。</p>
+<span id="more"></span>
+
+<p>首先，从白川的视角看，这件事确实绕不开美国。80年代日本出口竞争力提升，对美顺差扩大，引发美国国会贸易保护主义情绪高涨，甚至出现议员用铁锤砸日本车的名场面 。但日本并非到“广场协议”后才开始升值日元，其实1985年2月美元见顶后就开始走弱，“广场协议”更多是明确了美元贬值趋势。随后日元急升、景气恶化，降息在当时是合理选择，真正的问题不在“降息”，而在低利率为何被维持得如此之久 。在信贷扩张的顺周期里，股价与地价快速上行：日经指数四年多涨了约3倍，东京地价在1987年后涨势迅猛并持续到1991年前后 。但资产不可能只涨不回调，泡沫破裂后担保价值下跌、不良债权累积，冲击并非当场出清，而是在90年代后半演化为更严重的金融危机与行业整合。</p>
+<p>顺周期最危险的地方，不在价格涨得多，而在杠杆长得快。真正触发大级别回调的，常常不是“贵了”，而是<strong>资金结构不再允许你继续贵</strong>：融资期限缩短、抵押品折价、保证金上调、风控阈值触发——一切都指向同一个结果：你必须去杠杆。杠杆越高，越容易从“流动性充裕”切换到“流动性断崖”；而越是顺周期，杠杆越会自发堆积，因为上涨会把风险感知磨平。所以史铁生那句话才那么精准——“当太阳初升的时候，葬礼的号角就已吹响。”繁荣的起点里，已经写着脆弱的终点。</p>
+<p>当年“泡沫”破灭时，大多数人都跟郑少秋的经典角色“丁蟹”一样：<strong>“不要怕啊，是技术性调整。”</strong></p>
+<p>白川方明写道：泡沫经济崩溃后，对日本未来景气的预测普遍仍偏乐观——政府、日银、学界、市场参与者，甚至国际组织都在同一条情绪曲线上。日本银行的判断也“同样乐观”，并在《形势资料》中一边承认放缓，一边仍判断：日本经济会继续保持增长；虽然减速，但由于基础牢固，未来值得期待。</p>
+<p>但白川紧接着就把刀往下切：与这种乐观相伴的，是对不良债权严重性的系统性低估。更关键的是，问题之所以拖成一场“慢性病”，并不只是因为资产价格回调，而是因为处置机制本身就带着摩擦：税务与监管规则对拨备核销的约束、检查与证明的成本、信息披露与统计口径的缺口——换句话说，缺的不是“发现问题的直觉”，而是能把问题迅速出清的<strong>信息与制度基础设施</strong>。再叠加当时宏观判断难以形成共识、缺少一个足以迫使政治与舆论迅速同意注资的“契机事件”（白川拿“雷曼兄弟”作对照）、以及大型金融机构破产处理方案长期难以达成一致，日本的不良债权就这样在时间里越滚越大。</p>
+<p>所以，“不良债权并无一个精确的结束点”这句话才格外有分量：大型银行不良债权比率在2001年达到峰值8.7%，贷款损失率同年触顶后回落；银行股价到2003年上半年才算筑底，国际评级到2004年才开始改善——从泡沫崩溃算起，已经过去十多年。白川还补了一组更硬的“压力测试指标”：不良债权对GDP之比在2001年超过8%，通过存款保险机构资金援助处理的破产数量在2001年达到56件，而2002年后降为零。</p>
+<p>至于为什么最后能恢复，白川这样认为：一方面是时间让“人、财、物”的过剩慢慢被消化；另一方面是21世纪初外部环境转暖提供顺风；再加上注资与破产处置的法律框架逐步完善（并在后期通过政策推动加速处置）。白川笔下，日本银行在泡沫—崩溃—危机这条链上，既是外部冲击下的稳定器，也是退出过慢所放大的顺周期变量；而当风险终于从价格问题变成资金结构问题时，它又回到央行最本职的位置：作为最后贷款人，把体系从断裂边缘拉回来。</p>
+<p>所以，如果把日本的故事讲成一句许多人都在说的“日银无能”，那等于是抛弃了复杂的历史，也抛弃了真实。白川写这本书的价值，恰恰在于他拒绝用这种叙事。他把央行重新放回三个坐标系里——<strong>传导机制、资产负债表、制度与舆论约束</strong>：政策究竟通过哪条链条起效？扩表与承诺各自解决什么问题？金融稳定与景气刺激是不是同一个目标函数？而央行一旦把风险从市场价格“接”到自己的资产负债表上，它在技术上能做什么、在政治上又会被允许做什么？于是，这本书真正提供的不是“结论”，而是一套更费劲、但更可靠的读法（豆瓣上有人吐槽这本书啰嗦，事实上后记中白川也承认自己写作无法集中于一个主题，但他觉得问题复杂且相互交织）：把每一次“宽松&#x2F;紧缩”的争论拆成可核算的环节，把每一次“无效&#x2F;有效”的指责还原成目标与约束的错配。</p>
+<p>这三个坐标系里，最容易被忽略的恰恰是<strong>第一个</strong>——传导机制。白川在书中反复强调一个在当时（尤其是2008年后）显得”政治不正确”的观点：<strong>货币政策不是万能的，央行能做的远比人们期待的要少。</strong> 这不是央行行长的”卸责”，而是对传导链条的清醒认知：降息能把资金成本压到接近零，但无法强迫银行放贷、无法强迫企业借钱投资、更无法改变人口结构、技术进步速度、或者僵尸企业占用的资源配置效率。当实体经济的问题根植于<strong>资产负债表受损</strong>（企业&#x2F;银行都在去杠杆）、<strong>人口老龄化</strong>（这个问题白川认为非常重要）、<strong>全要素生产率停滞</strong>（创新与淘汰机制失灵）时，货币政策能做的，充其量是<strong>防止流动性断裂触发系统性崩溃</strong>，而不是”重启增长引擎”。</p>
+<p>但问题在于：当财政因为债务压力而犹豫不决、结构改革因为利益固化而推进缓慢时，<strong>货币政策就成了唯一还在”做事”的工具</strong>。于是舆论、政治、市场，都把期待值一股脑儿压到央行身上——“你为什么不多印点钱？””你为什么不把利率降成负的？””你为什么不直接买股票？” 白川在书里多次吐苦水：<strong>“货币政策承担了太多本不应由其承担的责任。”</strong> 这句话的潜台词是：当你指望央行”一招吃遍天下”时，你其实是在逃避真正需要动刀子的地方——财政扩张、僵尸企业出清、劳动力市场改革、社保体系重构——这些都不是央行能碰的领域，但恰恰是日本”失去的三十年”里最该被追问、却最少被追问的部分。我以前在哪里也听到类似的话：“如果央行做得太多，那一定是因为其他部门做得太少了”。</p>
+<p>更微妙的是，<strong>“金融稳定”和”景气刺激”根本不是同一个目标函数</strong>。当银行体系面临挤兑风险、同业拆借市场冻结时，央行作为最后贷款人注入流动性，这是救命；但当经济陷入低增长、低通胀时，指望央行通过买债、买ETF来”拉动总需求”，这就是让央行干它干不了的活儿。白川在2008年后推行量化宽松，外界批评他”动作太慢、力度太小”，但他自己的逻辑很清楚：<strong>央行可以把短期利率压到零、可以扩表买国债、甚至可以承诺”长期维持宽松”来锚定预期，但这些操作的效果，高度依赖财政是否配合、企业是否愿意投资、以及金融体系的信贷创造能力是否恢复。</strong> 如果这些前置条件不成立，央行扩表只是把流动性从一个池子倒进另一个池子，改变不了实体经济的资金需求曲线。</p>
+<p>所以，白川笔下的日本银行，与其说是”无能”，不如说是<strong>被卡在一个不可能三角里</strong>：技术上能做的有限（传导机制失效）、政治上被要求的太多（替财政和改革背锅）、而资产负债表上每一次扩张，都意味着风险从市场价格转移到央行自己的账面上——一旦未来通胀真的起来、或者财政纪律彻底失守，央行的独立性与可信度就会成为代价。这不是”技术问题”，而是<strong>制度设计与政治经济学的根本张力</strong>：你究竟是要一个”只管价格稳定”的央行,还是一个”什么都管、但什么都管不好”的央行？白川的答案很明确，但这个答案在当时（尤其是面对通缩压力时）几乎不被接受。白川在书里写道，前美联储主席在做学者时也猛烈抨击日本银行。10年后却说，“我现在有点同情日本银行了”。</p>
+<p>现实是：那些理解复杂性的人，常常输给那些简化叙事的人。2013年，白川辞职了。虽然他没明说原因，但书里对2012年大选期间安倍晋三的描述已经足够直白：在野党党首身份对日银提出”印钞机””无上限宽松”等”赤裸裸”的政策要求，白川直言这在发达国家选举中”实属罕见”，并感叹”迄今为止都是极力运用各种政治智慧避免’货币政策政治化’”，而当时”完全是无所顾忌了”。</p>
+<p>白川把安倍式的强刺激叙事视为对央行独立性与财政-货币边界的挤压；他反复强调财政纪律，是因为在他的框架里，<strong>货币、国债与央行的信任是相互依存的</strong>——一旦财政失去中长期均衡，央行再怎么”大胆宽松”，最终都会被拖向”财政支配”的方向。</p>
+<p>历史当然不会给谁发奖状，但它会给出一种更残酷的“事后标价”：那些当年被当作权宜之计、被制度化为常态的政策安排，会在若干年后以另一种形式回到市场上——有时表现为汇率，有时表现为长端利率，有时表现为央行信誉的边际变化。</p>
+<p>站在白川的框架里，安倍路线真正留下的“伏笔”，并不只是某一次政策动作，而是<strong>把“更强刺激、更久宽松”的政治叙事写进了制度与预期</strong>：通胀目标、政府—央行的协调框架、以及市场对“央行会在多大程度上替财政与结构改革兜底”的想象。一旦这种想象成型，它就会改变两个关键变量的定价方式。</p>
+<p>第一是<strong>日元</strong>。当利差与预期利差长期存在，日元天然更容易被塑造成融资货币；而当全球进入加息周期、日本仍处于超低利率区间时，日元走弱就不再只是短期情绪，而更像一种结构性的结果：它不是“有人看空日本”，而是“资金结构把日元放在了那个位置”。 carry trade，本质上就是这种结构的外在表现。</p>
+<p>第二是<strong>国债收益率</strong>。安倍时代通过央行工具压低了收益率，这是事实；但与此同时，它也让市场更敏感地盯住另一个问题：当政策开始正常化、当财政扩张预期上升、当通胀或期限溢价回归时，长端利率会不会出现“更陡的重估”？因为在白川的世界里，货币、国债与央行的信任是相互依存的——财政纪律一旦被质疑，市场对国债与汇率的定价都会更容易发生非线性变化。换句话说：<strong>利率被压得越久，恢复市场定价时的弹性越大；边界被模糊得越久，边界被重新厘清时的摩擦越大。</strong></p>
+<p>我把安倍时期的货币和财政政策理解为一种“概率改写”：它未必决定了今天每一个点位，但它提高了“日元更易偏弱、长端更易重估”的结构条件。也正因此，白川的提醒才显得刺耳：当你把央行推到“唯一还在做事的部门”时，你获得的是短期确定性，付出的却可能是长期的制度张力——财政纪律、结构改革与央行独立性之间的张力。</p>
+<p>而这本书最难得的地方，也正在这里：它不让你轻松地选边站队。它让你承认，央行在危机里确实必须做很多；也让你承认，央行做得越多，越说明其他部门做得太少。那些理解复杂性的人，常常输给简化叙事的人——但市场最终会把复杂性一笔一笔算回来。</p>
+<p><strong>这就是我读完《动荡时代》最强烈的感受：巧媳妇难为无米之炊。央行的“米”，从来不只在它自己的资产负债表里，更在财政纪律、制度框架与社会共识里。</strong></p>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
+    <title>肉片凉油下锅还是热油下锅：小事里藏着大输赢</title>
+    <id>https://terazadl.github.io/2026/01/liu-zhenyun-salty-joke/</id>
+    <link href="https://terazadl.github.io/2026/01/liu-zhenyun-salty-joke/"/>
+    <published>2026-01-31T10:44:00.000Z</published>
+    <updated>2026-02-11T08:35:37.000Z</updated>
+    <summary type="html"><![CDATA[通过刘震云小说中的日常争执，讨论孤独、尊严，以及人们无法直接说出的情感如何藏进关于做饭和诗歌的小事里。]]></summary>
+    <content type="html"><![CDATA[<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+<p>Liu Zhenyun’s fiction often begins with a trivial disturbance and follows it until an entire social world appears. His new novel Salty Joke centres on Du Taibai, a former Chinese teacher whose attachment to poetry contributes to the loss of his job and whose later work as a wedding host turns elevated language into a practical service. This essay reads the novel through Liu’s recurring idea of being able to “talk with” another person. Du cannot speak meaningfully with his former wife or children, but he can with Marilyn, a hairdresser who understands both his loneliness and the dignity he is trying to protect. When she leaves, familiar lines of poetry stop being quotation and become the only language large enough for absence. The novel’s sharpest conflicts are deliberately small. An old dispute about whether pork should enter cool or hot oil returns when Du is publicly humiliated. The cooking question is not about technique; it is a demand that one person acknowledge another’s words and status. Liu uses such minor arguments as containers for shame, old scores, and the power to make someone feel smaller. Du’s eventual restaurant near Mount Tai does not restore his former life. It gives his learning a modest, livable form and turns the novel’s salty joke into a place where he can breathe.</p>
+</div>
+
+<p>“小林家的一斤豆腐馊了”。二十多年前，第一次看到刘震云的书，便是《一地鸡毛》，便是这起手一句。</p>
+<p>不知与个人性格有无关系，我觉得马尔克斯式的开头有些繁复，如今也有些泛滥了。反倒是这种从日子里钻出来的一句话——豆腐馊了，事儿就来了——更像有人坐你对面，先叹口气，再说：“我跟你讲个事。”你就忍不住往下听。</p>
+<p>上大学那阵子，我把图书馆里能摸到的刘震云都翻了个遍。书里的人兜兜转转，绕来绕去，绕到最后还是绕回延津的一碗羊肉汤、一句闲话、一点小算盘。慢慢地，延津在我心里就不再是地图上的一个点了——明明没去过，却好像知道那儿城东城北都是些什么店家、风怎么刮、话怎么说、事怎么起：先从一件小事开始，比如豆腐馊了；再从一句话开始，比如“你听说了吗”；然后一层一层往下牵，牵出一地鸡毛。</p>
+<p>今年年初，刘震云又出了长篇，叫《咸的玩笑》。名字听着像一句随口的打趣，可你大概也知道，他的玩笑从来不是白开水：咸味儿一出来，就说明生活又要让我们舌头、手和脚不知道往哪里放了。</p>
+<span id="more"></span>
+
+<p>《咸的玩笑》的主人公叫杜太白，一看就有来历。果然，书里交代了这是幼时爱写诗的他央语文老师改的名字。杜太白跟《一地鸡毛》里的小林有点像：都爱诗。只是命不一样。小林是部委级的公务员，至少听着体面，县委书记都得托人辗转找他办事；杜太白不过是县城的语文老师，后来还因为李商隐的《夜雨寄北》里的妻子究竟在外地还是已经离世，跟校长动了手，被人家用视频拍下来，公职也就没了。原来，诗这东西，写在纸上挺轻，落到人身上却挺沉，沉到能把饭碗砸掉。</p>
+<p>他们还有一点像，便是后来都不能享受诗了。小林的生活捉襟见肘，哪还有心情——老婆想换个有班车的单位、孩子要进幼儿园、小学老师要来北京看病，后来还忙着帮同学卖鸭子挣钱；杜太白做婚礼主持人。婚礼上当然用得着雅词——“琴瑟和鸣”“执子之手”之类，场面一热，词就显得像那么回事。用刘震云的话就是，全靠他一人独撑延津婚礼主持“雅派”；可他觉得雅词的用处也就到这儿了：够生活就行。于是他原先读古诗文到深夜的习惯，也就改成了看短视频：手指一滑就过去，干净利落，不用回味，也不怕回味。后来则是网上交友，就这样认识了梦露，一位在“纯情发廊”上班的纯情的姑娘。名字都像玩笑：纯情发廊，纯情梦露，可人偏偏就是这么遇上的。</p>
+<p>杜太白与梦露之间，首先是“说得着”。这一点很要紧。在刘震云的故事里，人和人之间能不能“说得着”，常常比能不能睡一个被窝更致命。早在二十多年前的《手机》，他就写这件事。后来的《一句顶一万句》，还是这件事。杜太白虽然五十来岁，是前语文老师，延津的“知识分子”。但他与自己的前妻、子女说不着，只与梦露说得着。什么叫“说得着”？我觉得就是你讲的话，落下去至少有温暖甚至是幽默的反馈，话一来一回，人才不孤独。他的前妻则是一个爱“讲道理，论对错”的人。他们的儿子跟自己的语文老师私奔了，前妻来问他，“你说这孩子像谁？”，杜太白喉咙哽住；他们的女儿有同性绯闻，前妻也来问，“你说这孩子像谁？”。前妻要的仍旧是对错、是归因、是判决。杜太白仍旧哽住。</p>
+<p>所以他后来跟梦露“说得着”，并不神秘。梦露不一定懂诗，但她会把他的话接过去，也明白他放不下他不值钱的面子，注定不会跟她结婚。于是两人出行梦露都戴发套，怕被认出给杜太白招是非。你看，这就是“说得着”的另一层：不是把话说漂亮，而是把人护周全。她替他把尴尬提前挡了，把闲话提前咽了，让他在外头还能像个杜老师，不至于一下子就成了街口茶余饭后的那个下流胚。</p>
+<p>梦露离开后，杜太白是真伤心，说了好几次：“梦露，今夜我不关心人类，我只想你。”这句海子的诗，如今早成了互联网上的名句（八卦一句，海子是刘震云老婆郭建梅的同班同学），谁都能抄，谁都能发，发完也就过去了。可在这个故事里，它不是“引用”，更像是“喊出来”——喊给一个不在的人听，也喊给自己听。一个人到了要靠一句诗才能把心里的空说清楚的时候，那空就已经不是普通的空了：不是寂寞，是孤独；不是没人陪，是“说得着”的那个人不在了。就像《手机》里于文娟最后给严守信说，“你今后没我了”。你心知肚明，对方不是彻底消失，也不是老死不相往来，但就是不复以往。声音还在，回声没了，人就开始疼。</p>
+<p>书里还有个情节挺妙。几年前，杜太白跟裁缝老殷因为小炒肉的做法吵过一架：究竟“肉片是凉油下锅好”，还是“热油下锅好”。俩人谁也不服谁，这事看着小，其实不小——小事吵得凶，是因为大事没处吵；大事没处吵，只好把力气都使在油温上。争的哪里是油温，争的是“我说的话你得当回事”。</p>
+<p>后来“咸猪手”事件一出，杜太白成了“过街老鼠”。这时候老殷上门来送那件改好的大衣，特地又问一句：“我问你个事儿，做小炒肉，肉片是凉油下锅好，还是热油下锅好？”你说他是真惦记做菜吗？当然不是。他是来补那口气的：你看，你现在落到这份上了，你还敢不敢嘴硬？你还配不配“说得着”？</p>
+<p>这让我想到电影《霸王别姬》，袁世卿跟段小楼第一次见面，就在“楚霸王回营究竟走几步”上较劲。后来程蝶衣出事，段小楼上门求袁世卿，袁世卿不急不忙，先问一句：“那我倒要请教下，霸王回营究竟是几步啊？”段小楼当场噎住——他求的是人，袁世卿问的是面子；他要的是活路，袁世卿要的是旧账。旧账一翻，人就矮一截。刘震云写老殷这一问，也是同样的刀法：不见血，但刀锋正好卡在喉咙里，让你说不出，也咽不下。</p>
+<p>故事最后，杜太白挨了那么多打击，疯过一次，又像被生活拎着后脖颈子，终于离开了延津，回到故事的起点——泰安。在泰山脚下开了家小饭馆，诗词功底不用来抒情了，用在菜单上：把“雅”落到“食”里，算是给自己找了个能喘气的角落。</p>
+<p>而且很刘震云的是：到这一章，他这个说书人又回到第一人称。像讲到最后，席散了，人也走了，他忽然把扇子一收，说：我再跟你说两句。故事结束了，可他端出来的这盘菜，热气还在——从胸口往上涌，带点咸，带点辣。</p>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
+    <title>你买的理财产品到底是什么</title>
+    <id>https://terazadl.github.io/2026/01/what-is-a-wealth-management-product/</id>
+    <link href="https://terazadl.github.io/2026/01/what-is-a-wealth-management-product/"/>
+    <published>2026-01-18T13:00:00.000Z</published>
+    <updated>2026-02-11T08:23:45.000Z</updated>
+    <summary type="html"><![CDATA[从资产负债表和现金流出发，解释中国银行理财产品的底层资产、估值规则、流动性约束，以及收益背后的反馈回路。]]></summary>
+    <content type="html"><![CDATA[<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+<p>Chinese bank wealth-management products are often treated as higher-yielding deposits, but economically they are something else: a share in a portfolio of assets governed by a detailed set of liquidity, valuation, and redemption rules. This essay follows the money from subscription to investment and eventual redemption. It explains how bonds, interbank certificates of deposit, money-market instruments, and occasional risk assets generate returns; why rising yields reduce bond prices; and how market-value versus amortized-cost accounting changes the way volatility appears to investors. Two Bank of China product documents are used to show how apparently similar products can differ in maturity, redemption timing, fees, valuation, and the right to suspend withdrawals. The 2022 drawdown is presented as a feedback loop in which rising yields weakened net asset values, redemptions forced bond sales, and those sales intensified further losses. Lower interest rates can support current valuations while simultaneously reducing future reinvestment income. The practical lesson is that “fixed income” does not mean principal protection. Before buying, investors should be able to identify the underlying assets, duration, valuation method, redemption rules, fees, and historical drawdown—and should treat a smooth return line as presentation, not proof that risk is absent.</p>
+</div>
+
+<p>近三年，随着利率进一步下行，理财产品的收益率也跟着一层层往下走。很多人会出现一种很微妙的心态：</p>
+<p><strong>理财产品让人看不太懂也就算了，利息还越来越低，越发觉得索然无味。</strong></p>
+<p>但这恰恰是问题所在：当收益变薄、波动变显眼，“看不懂”不再只是一个体验问题，而会直接变成一个决策问题——你会更频繁地在“赎回&#x2F;再买&#x2F;换产品”之间摇摆，而每一次摇摆，都可能踩在净值的低点或规则的坑上。</p>
+<span id="more"></span>
+
+<p>图1：净值变化截图</p>
+<img src="/images/%E5%87%80%E5%80%BC%E5%8F%98%E5%8C%96%E5%9B%BE.jpeg" style="max-width:100%;" alt="净值变化图" />
+
+<p>笔者最近在学习 Zoltan Pozsar 关于美国影子银行的一系列论文。他有个很厉害的切入：不从宏观数据出发（GDP、CPI、货币政策口号），而是从更底层、更可操作的角度——<strong>资金到底从哪里来、经过谁、以什么形式停留、出了事会在哪里断</strong>——去拆解一套金融体系的运作。</p>
+<p>这一下提醒了我：笔者刚毕业时在银行做过理财客户经理，完整经历了2018年资管新规带来的理财产品范式转换。最常被客户问到的问题是“这笔理财不会亏吧”，笔者当时只能回答“要相信国有银行，还是非常重视声誉”，不是因为不想讲清楚，而是鄙视的笔者自己也缺少一张能够把理财产品讲清楚的“结构图”。</p>
+<p>于是笔者这次尝试把那个一直说不太清楚的问题重新捡起来：<strong>在信息不完全透明的前提下，我们究竟还能通过什么方式，去揭开理财产品的“面纱”？</strong></p>
+<p>这就是这一系列文章的初衷：<strong>用资金流向图，把你买的理财到底是什么，说得比你的理财经理还清楚。</strong></p>
+<h2 id="一、先说结论：理财不是“存款Plus”，是“一篮子资产-一套规则”"><a href="#一、先说结论：理财不是“存款Plus”，是“一篮子资产-一套规则”" class="headerlink" title="一、先说结论：理财不是“存款Plus”，是“一篮子资产 + 一套规则”"></a><strong>一、先说结论：理财不是“存款Plus”，是“一篮子资产 + 一套规则”</strong></h2><p>很多人（包括一些理财经理）都在有意无意地模糊一件事：<strong>理财 ≠ 存款的高息版本。</strong></p>
+<p>你在银行买理财，本质上买到的是两样东西：一篮子底层资产 + 一套运作规则。</p>
+<h3 id="1）一篮子底层资产"><a href="#1）一篮子底层资产" class="headerlink" title="1）一篮子底层资产"></a><strong>1）一篮子底层资产</strong></h3><p>常见底层资产包括：债券（国债、地方债、政金债、企业债等）、同业存单、回购&#x2F;逆回购等货币市场工具，以及少量基金、可转债、权益类资产（不同产品差异很大）。部分产品还可能涉及非标类资产（取决于产品类型与监管要求）。</p>
+<p>关键点是：<strong>这些资产不是静止的。它们会涨会跌，会受利率、信用与流动性影响。</strong></p>
+<p>为了不空谈，本文只用两只不同形态的中国银行的产品说明书做对照：</p>
+<ul>
+<li>样本A：封闭式固收类。存续期明确、不可提前赎回，到期一次性分配；资产端以固定收益与货币市场工具为主，规则边界内可能涉及非标。</li>
+<li>样本B：开放式。日常可申赎、T+1到账、申赎价格为1元；固定收益资产采用摊余成本法估值，并设置大额赎回情形下的暂停赎回安排。</li>
+</ul>
+<p>你会发现：说明书能告诉你“资产大类”“比例约束”“风险边界”，但不一定像公募基金那样定期披露到“前十大持仓”的颗粒度。同时，部分理财会发布运行报告&#x2F;投资运作报告披露资产配置甚至前十大资产；只是披露频率与颗粒度差异很大，有的产品有、有的产品没有。</p>
+<h3 id="2）一套运作规则"><a href="#2）一套运作规则" class="headerlink" title="2）一套运作规则"></a><strong>2）一套运作规则</strong></h3><p>规则决定你“能不能动”“怎么动”“遇到事会不会被卡住”。通常包括：能否赎回（封闭&#x2F;定开&#x2F;开放）、到账节奏（T+0&#x2F;T+1&#x2F;到期后）、估值与净值呈现方式（市值&#x2F;摊余成本&#x2F;混合）、费用、巨额赎回与是否可暂停赎回、信息披露方式等。</p>
+<p>把两只样本的关键规则直接摆出来更直观：</p>
+<ul>
+<li>样本A：存续期 <strong>102天</strong>；存续期内不办理赎回；到期一次性分配，本金及收益到期后 <strong>2个工作日内到账</strong>（到期日至到账日不计息）。</li>
+<li>样本B：日常可申赎；T日赎回通常 <strong>T+1到账</strong>；发生大额赎回等情形可暂停当日赎回，下一交易日再继续受理（并有受理时间窗口）。</li>
+</ul>
+<p>最关键的认知转变是：你买的不是“银行的承诺”，而是<strong>一份资产组合的份额</strong>。管理人按规则管理资产；<strong>收益与风险来自资产本身</strong>。合同也会明确：非保本浮动收益型，最不利情况下可能收益为零甚至本金损失。</p>
+<h2 id="二、一张图看懂：你的钱经历了什么？（个人视角）"><a href="#二、一张图看懂：你的钱经历了什么？（个人视角）" class="headerlink" title="二、一张图看懂：你的钱经历了什么？（个人视角）"></a><strong>二、一张图看懂：你的钱经历了什么？（个人视角）</strong></h2><p>图2：个人买入—运作—赎回资金流图</p>
+<img src="/images/%E7%90%86%E8%B4%A2%E4%BA%A7%E5%93%81%E6%8A%95%E5%85%A5%E8%B5%8E%E5%9B%9E%E5%85%A8%E6%B5%81%E7%A8%8B.png" style="display:block;max-width:100%;height:auto;" alt="理财产品投入赎回全流程" />
+
+<p>看到这里，恐怕很多读者会问：利率为什么会影响债券？债券又怎么影响理财净值？这两个问题不讲透，后面的“破净”“回撤”“赎回潮”都会像玄学。</p>
+<h2 id="三、利率为什么会影响债券？"><a href="#三、利率为什么会影响债券？" class="headerlink" title="三、利率为什么会影响债券？"></a><strong>三、利率为什么会影响债券？</strong></h2><p>债券是一串“未来现金流”（利息 + 到期本金）。债券价格就是把未来现金流按折现率折回到今天。</p>
+<ul>
+<li>利率&#x2F;收益率上升 → 折现率更高 → 债券价格下降</li>
+<li>利率&#x2F;收益率下降 → 折现率更低 → 债券价格上升</li>
+</ul>
+<p>类比也很直观：你手里一张年息3%的债，如果市场新债能给到4%，你这张就不香了，想卖出去就得打折；反过来市场只能给2%，你这张3%就会更值钱。</p>
+<p>债券价格对利率的敏感度，用“久期”可以做一个常用近似：</p>
+<blockquote>
+<p>债券价格变化（%）≈ -久期 × 收益率变化（百分点）</p>
+</blockquote>
+<p>例：久期2年，收益率上升0.5个百分点（50bp），价格大约下跌≈1%。这就是为什么固收平时稳，但遇到“短时间利率上行很快”的阶段，净值会出现肉眼可见的回撤。</p>
+<h2 id="四、债券又是如何影响理财产品净值的？"><a href="#四、债券又是如何影响理财产品净值的？" class="headerlink" title="四、债券又是如何影响理财产品净值的？"></a><strong>四、债券又是如何影响理财产品净值的？</strong></h2><p>你买的是份额。份额值多少钱，取决于底层资产现在值多少钱，以及这些资产产生了多少利息收入。</p>
+<p>为什么有的净值波动更明显、有的更平滑？关键在于波动如何呈现：</p>
+<ul>
+<li>市值&#x2F;公允价值呈现更直观：债券价格一跌，净值更快回撤；债券一涨，净值更快上行。</li>
+<li>摊余成本&#x2F;混合估值更平滑：不每天把价格波动“摊给你看”，收益按规则计提，曲线更顺。样本B属于典型。</li>
+</ul>
+<p>但请记住：<strong>曲线更平滑≠底层没有风险</strong>。风险只是更多在需要兑现、需要变现、或者遇到流动性压力时暴露出来。</p>
+<h2 id="五、2022年那一次究竟发生了什么？"><a href="#五、2022年那一次究竟发生了什么？" class="headerlink" title="五、2022年那一次究竟发生了什么？"></a><strong>五、2022年那一次究竟发生了什么？</strong></h2><p>那次“破净”更像一次机制演示：债券—赎回—被动卖出的反馈回路。</p>
+<p>1）利率短时间快速上行，债券价格下跌；</p>
+<p>2）理财净值&#x2F;收益转弱；</p>
+<p>3）投资者赎回上升（把理财当存款替代的心理被击穿）；</p>
+<p>4）管理人卖出债券换现金，被动卖出压低价格，净值更承压，赎回更强，循环放大。</p>
+<p>读者需要记住的重点是：当你买的是债券组合，最怕的不是慢慢跌，而是“短时间利率上行 + 集体赎回触发被动卖出”。开放式产品里“暂停赎回”等条款，本质上是为了打断这条反馈链。</p>
+<h2 id="六、再上一层：理财放进更大的“资金闭环”（体系视角）"><a href="#六、再上一层：理财放进更大的“资金闭环”（体系视角）" class="headerlink" title="六、再上一层：理财放进更大的“资金闭环”（体系视角）"></a><strong>六、再上一层：理财放进更大的“资金闭环”（体系视角）</strong></h2><p>图3：理财资金闭环</p>
+<img src="/images/%E7%90%86%E8%B4%A2%E4%BA%A7%E5%93%81%E5%A4%A7%E8%A7%86%E8%A7%92.png" style="display:block;max-width:100%;height:auto;" alt="理财产品大视角" />
+
+<p>压力反馈回路：</p>
+<img src="/images/%E7%90%86%E8%B4%A2%E4%BA%A7%E5%93%81%E5%8E%8B%E5%8A%9B%E5%8F%8D%E9%A6%88%E5%9B%9E%E8%B7%AF.png" style="display:block;max-width:100%;height:auto;" alt="理财产品压力反馈回路" />
+
+<h2 id="七、现在理财“利息低”又是什么链路？"><a href="#七、现在理财“利息低”又是什么链路？" class="headerlink" title="七、现在理财“利息低”又是什么链路？"></a><strong>七、现在理财“利息低”又是什么链路？</strong></h2><p>更真实的链路是：底层资产能提供的收益率整体下来了。</p>
+<p>1）再投资链路：旧债到期后只能买到更低收益的新债，组合“可持续收益”下台阶；</p>
+<p>2）利差链路：信用溢价变薄，额外收益减少；</p>
+<p>3）费用链路：收益薄时，费用与浮动管理费机制更显眼。</p>
+<h2 id="八、给读者一个判断指标：存款利率下行对理财净值是正向还是负向？"><a href="#八、给读者一个判断指标：存款利率下行对理财净值是正向还是负向？" class="headerlink" title="八、给读者一个判断指标：存款利率下行对理财净值是正向还是负向？"></a><strong>八、给读者一个判断指标：存款利率下行对理财净值是正向还是负向？</strong></h2><p>关键：存款利率下行对理财有两条相反方向的影响，要分短期与长期看。</p>
+<p>一句话结论：<strong>利率下行往往托一把当下净值，但也会压一截未来收益。</strong></p>
+<img src="/images/%E5%88%A9%E7%8E%87%E5%BD%B1%E5%93%8D%E5%AF%B9%E7%85%A7%E8%A1%A8.png" style="display:block;max-width:100%;height:auto;" alt="利率影响对照表" />
+
+<p>3分钟判断法：看利率趋势（国债&#x2F;政金债收益率上还是下）、看久期与资产结构、看规则（开放&#x2F;封闭、是否可能暂停赎回）。</p>
+<h2 id="九、你买之前最好知道的5件事"><a href="#九、你买之前最好知道的5件事" class="headerlink" title="九、你买之前最好知道的5件事"></a><strong>九、你买之前最好知道的5件事</strong></h2><p>1）风险等级是分类，不是保本承诺；</p>
+<p>2）固收+里的“+”千差万别；</p>
+<p>3）现金管理的流动性体验差很多；</p>
+<p>4）费用都体现在净值&#x2F;收益里；</p>
+<p>5）7日年化不等于长期收益承诺。</p>
+<h2 id="十、常见误解对照表"><a href="#十、常见误解对照表" class="headerlink" title="十、常见误解对照表"></a><strong>十、常见误解对照表</strong></h2><img src="/images/%E5%B8%B8%E8%A7%81%E8%AF%AF%E8%A7%A3%E5%AF%B9%E7%85%A7%E8%A1%A8.png" style="display:block;max-width:100%;height:auto;" alt="常见误解对照表" />
+
+<h2 id="十一、3分钟自测：你真的了解自己的理财吗？"><a href="#十一、3分钟自测：你真的了解自己的理财吗？" class="headerlink" title="十一、3分钟自测：你真的了解自己的理财吗？"></a><strong>十一、3分钟自测：你真的了解自己的理财吗？</strong></h2><p>基础级：主要投什么？赎回几天到账？历史最大回撤多少？</p>
+<p>进阶级：费用合计多少？估值方法是什么？是否含权益&#x2F;可转债&#x2F;信用下沉？</p>
+<p><strong>如果基础级三题答不上来：先别加仓。</strong></p>
+<h2 id="十二、写在最后：理财的本质是理解"><a href="#十二、写在最后：理财的本质是理解" class="headerlink" title="十二、写在最后：理财的本质是理解"></a><strong>十二、写在最后：理财的本质是理解</strong></h2><p>很多人抱怨理财越来越低，以为是银行变抠门。但更真实的情况是：市场利率与资产收益率在变化，理财只是把这种变化传导给了你。</p>
+<p>真正的理财不是找到一个“永远不会亏、收益还高”的产品（不存在），而是：搞清楚买的是什么，理解收益从哪里来，接受合理波动，不要在最低点用情绪做交易。</p>
+<h1 id="附录：用两份中行说明书演示如何在3分钟内找到6字段"><a href="#附录：用两份中行说明书演示如何在3分钟内找到6字段" class="headerlink" title="附录：用两份中行说明书演示如何在3分钟内找到6字段"></a><strong>附录：用两份中行说明书演示如何在3分钟内找到6字段</strong></h1><img src="/images/6%E5%AD%97%E6%AE%B5%E5%BF%AB%E9%80%9F%E5%AE%9A%E4%BD%8D%E8%A1%A8.png" style="display:block;max-width:100%;height:auto;" alt="6字段快速定位表" />
+
+<hr>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
+    <title>塔勒布为什么“黑”比特币？</title>
+    <id>https://terazadl.github.io/2026/01/taleb-against-bitcoin/</id>
+    <link href="https://terazadl.github.io/2026/01/taleb-against-bitcoin/"/>
+    <published>2026-01-06T03:00:00.000Z</published>
+    <updated>2026-02-11T08:23:45.000Z</updated>
+    <summary type="html"><![CDATA[重构纳西姆·塔勒布从谨慎认可到否定比特币的转变，讨论比特币作为货币、支付基础设施、尾部对冲和制度避风港的局限。]]></summary>
+    <content type="html"><![CDATA[<div class="abstract" lang="en">
+<span class="abstract-label">English abstract</span>
+
+<p>Nassim Nicholas Taleb was not always hostile to Bitcoin. From 2013 through 2019 he described government-independent money as an important idea, praised Bitcoin’s lack of a central owner, and saw cryptocurrency as a possible answer to weaknesses in banking. His 2021 paper marked a decisive reversal. This essay reconstructs that shift through four arguments. First, Bitcoin produces no cash flow or residual value and depends on sustained future interest, making an absorbing path to zero impossible to ignore; gold, by contrast, has physical persistence, industrial demand, and a much longer Lindy record. Second, speculative appreciation is not evidence that a digital currency has succeeded: a currency needs stability and practical use. Third, accepting Bitcoin at checkout is different from pricing wages, costs, and goods in Bitcoin. Without a surrounding unit-of-account network, merchants inherit volatility and arbitrage risk. Fourth, immutable code is not a substitute for law, contextual judgment, or institutions. Bitcoin also failed Taleb’s empirical tests as a tail hedge in March 2020 and as an anonymous refuge from governments. The dispute is therefore not mainly about price volatility. It is about whether Bitcoin satisfies the structural requirements of money, payments, legal order, and protection against systemic risk.</p>
+</div>
+
+<blockquote>
+<p>——读 <strong>纳西姆·塔勒布</strong> 的比特币“黑”皮书</p>
+</blockquote>
+<p>在很多讨论中，有一个颇为有趣、却经常被忽略的事实：</p>
+<p>塔勒布提出的概念被许多加密领域的 KOL 反复引用，动辄“反脆弱”“黑天鹅”，却有意无意地回避了这样一件事——<strong>塔勒布本人在 2021 年已经相当明确地转而反对比特币。</strong></p>
+<p>这种选择性的引用并不难理解。</p>
+<p>毕竟，“反脆弱”“黑天鹅”本身极具传播力，也极易被嫁接进任何高波动、高叙事密度的市场之中。</p>
+<p>但问题在于：<strong>为什么概念提出者本人，反而会反对比特币？</strong></p>
+<span id="more"></span>
+
+<h3 id="一、塔勒布并非一开始就反对比特币"><a href="#一、塔勒布并非一开始就反对比特币" class="headerlink" title="一、塔勒布并非一开始就反对比特币"></a><strong>一、塔勒布并非一开始就反对比特币</strong></h3><p>事实上，塔勒布并非从一开始就持否定立场。相反，毒舌的塔勒布多次嘲讽过旧金融体系与学院派，他<strong>曾经确实对比特币抱有相当程度的好感</strong>。2013 年 10 月，塔勒布在 reddit 写下这样一段评论：</p>
+<blockquote>
+<p>Bitcoin is the beginning of something great: a currency without a government, something necessary and imperative. But I am not familiar with the specific product to assert whether it is the best potential setup. And we need a long time to establish confidence. I only talk from skin-in-the-game. If I had money in bitcoin, I would have reported it. But I don’t yet. I am waiting to understand it better, not with my brain, but with my experience…</p>
+<p><strong>比特币是某种伟大事物的开端：一种不依赖政府的货币，这是必要的，也是迫切的。但我并不熟悉这一具体产品，因此无法断言它是否是当前条件下最优的实现形式。此外，我们还需要相当长的时间，才能真正建立起信心。我只从“<strong>skin in the game（亲身承担风险）</strong>”的角度谈论问题。如果我已经把钱投进了比特币，我会如实说明这一点。但目前我还没有。我仍在等待对它有更深入的理解——不是通过大脑，而是通过亲身经验。</strong></p>
+</blockquote>
+<p>2018 年，他给加密圈知名著作《Bitcoin Standard》撰写序言，并明确表示：</p>
+<blockquote>
+<p>We are… witnessing a complete riot against some class of experts… in domains that are too difficult for us to understand… in which not only is the expert not an expert, but he doesn’t know it….Which is why Bitcoin is an excellent idea….It fulfills the needs of the complex system, not because it is a cryptocurrency, but precisely because it has no owner, no authority that can decide on its fate…Bitcoin has a huge advantage over gold in transactions: clearance does not require a specific custodian.</p>
+<p>我们正在目睹一场针对某一类“专家”的全面反叛——发生在那些复杂到超出我们理解能力的领域之中；在这些领域里，不仅所谓的专家并非真正的专家，而且他们自己甚至并不知道这一点。</p>
+<p>正因如此，比特币是一个极其出色的构想。</p>
+<p>它之所以能够满足复杂系统的需要，并不是因为它是一种加密货币，</p>
+<p>而恰恰因为它没有所有者，也不存在任何可以决定其命运的权威。</p>
+<p>在交易层面，比特币相较于黄金具有巨大的优势：它的清算过程并不依赖于任何特定的托管机构。</p>
+</blockquote>
+<p>他甚至与 <strong>纳瓦尔·拉维坎特</strong>——也就是《纳瓦尔宝典》中那位被反复塑造为“长期主义者”“比特币信仰者”的主角——进行过一次颇受关注的“炉边谈话”，公开讨论自己为何会欣赏比特币。</p>
+<p>直到 2019 年，他依然在 X 上写：</p>
+<blockquote>
+<p>The most potent case for cryptocurrencies: banks are never there when you need them. And they are trying to bully the public so they avoid accountability and profit disbursements. Bankers are legal crooks.</p>
+</blockquote>
+<p>（支持加密货币最有力的论点在于：当你真正需要银行的时候，银行往往并不在那里。与此同时，它们还试图通过施压和操纵舆论来恐吓公众，以此逃避问责，并继续攫取利润分配。银行家是合法的骗子。）</p>
+<p>也正因为如此，<strong>要解释塔勒布为何已经从“喜欢”转向近乎“憎恶”，并不是一件讨喜、也不是一件容易的事</strong>。或许正因如此，这条转变路径在中文世界里几乎没有被认真讨论过。笔者不才，尝试理解并阐释这一转变的内在逻辑。</p>
+<p>我们从上述梳理中还可以得出一个重要结论：</p>
+<p>至少在 2018—2019 年的比特币熊市期间，塔勒布并未因为价格转而看空比特币，尽管当时对比特币的质疑和嘲笑满天飞。</p>
+<p>真正的转折点，必须从他发表于 2021 年（当年比特币反弹至 7 万美元）、后来被称为“比特币黑皮书”的那篇论文谈起。</p>
+<h3 id="二、塔勒布真正反对的，并不是“价格波动”"><a href="#二、塔勒布真正反对的，并不是“价格波动”" class="headerlink" title="二、塔勒布真正反对的，并不是“价格波动”"></a>二、塔勒布真正反对的，并不是“价格波动”</h3><p>2013–2019 年的塔勒布还愿意在“无政府货币”的理念层面给比特币留出空间，但在 2021 年这篇被称为“黑皮书”的论文，他彻底改变了讨论方式：不再谈愿景，而是把比特币直接放回金融资产的检验框架里。</p>
+<p>该篇论文以四段 comment 划分结构，笔者也按此思路阐述。</p>
+<h4 id="Comment-1-Why-BTC-is-worth-exactly-0（评论一：为什么比特币的价值恰好等于-0）"><a href="#Comment-1-Why-BTC-is-worth-exactly-0（评论一：为什么比特币的价值恰好等于-0）" class="headerlink" title="Comment 1: Why BTC is worth exactly 0（评论一：为什么比特币的价值恰好等于 0）"></a><strong>Comment 1: Why BTC is worth exactly 0（评论一：为什么比特币的价值恰好等于 0）</strong></h4><p>在第一个 Comment 中，塔勒布并没有从技术愿景谈起，而是直接抛出一个近乎挑衅的标题：<strong>Why BTC is worth exactly 0</strong>。这并非情绪化的否定，而是一次资产定价意义上的“定锚”。</p>
+<p>他首先拿出黄金作为对照：黄金及其他贵金属在很大程度上 <strong>maintenance free</strong>，在历史尺度上不会退化，也不依赖任何人的持续参与来维持其物理属性。相较之下，他用一句非常关键的话概括加密货币的结构性弱点：</p>
+<blockquote>
+<p>Cryptocurrencies require a sustained amount of interest in them.</p>
+</blockquote>
+<p>也就是说，比特币的存在并不是“放在那里自然成立”，而是依赖于持续的兴趣、激励与维护。一旦这种持续性出现断裂，价值并不会缓慢衰减，而可能触及塔勒布所谓的“吸收性归零”边界。</p>
+<p>这也引出了他在理性预期与证券定价框架下的核心推导：对不产生收益、也缺乏剩余价值的资产而言，只要我们预期未来在某一时点可能归零，那么这种归零风险就必须通过反向归纳被折现进当下价格——用他的原话说：</p>
+<blockquote>
+<p>…if we expect that at any point in the future the value will be zero … then the value must be zero now.</p>
+</blockquote>
+<p>同样“不生息”的黄金之所以能够成为例外，而在于它在物理属性上并不路径依赖，并且在数千年的历史尺度上已经证明了自身的可持续存在；工业用途与需求弹性，则进一步提供了某种“退出价值”。相比之下，比特币要求未来世代持续投入兴趣与维护，而塔勒布认为我们无法对未来世代的偏好与技术环境作出任何确定性假设。一旦信念与维护无法延续，它就更容易跌入那个不可逆的归零边界。用他在其他著作中的概念来说，黄金早已具备某种“林迪效应”，而比特币尚未通过这一时间检验。</p>
+<h4 id="Comment-2：Success-for-a-digital-currency（数字货币成功的条件）"><a href="#Comment-2：Success-for-a-digital-currency（数字货币成功的条件）" class="headerlink" title="Comment 2：Success for a digital currency（数字货币成功的条件）"></a><strong>Comment 2：Success for a digital currency（数字货币成功的条件）</strong></h4><p>在第二个 Comment 中，塔勒布指出了一个在加密讨论中反复出现、却极少被认真澄清的混淆：<strong>数字货币的成功，与价格的投机性上涨，被错误地当成了一回事。</strong></p>
+<p>他认为：</p>
+<blockquote>
+<p>There is a mistaken conflation between success for a ‘digital currency’, which requires some stability and usability, and speculative price appreciation.</p>
+</blockquote>
+<p>在塔勒布看来，一种真正成功的数字货币，其成立条件并不取决于价格表现，而取决于是否具备基本的 <strong>稳定性与可用性</strong>。而比特币的现实表现，并未在这两个维度上支撑其价格叙事。无论是交易成本、交易速度，还是系统本身对大规模交易的承载能力，比特币都难以在现实支付体系中形成优势。</p>
+<p>也正因如此，他进一步给出了一个极具现实指向的观察：在比特币诞生十二年（论文发表于 2021 年）之后，尽管围绕它的讨论与炒作从未停歇，现实经济中几乎不存在以比特币作为计价单位、并在法币体系中浮动结算的商品或服务。他写道：</p>
+<blockquote>
+<p>To date, twelve years into its life, in spite of all the fanfare, there are currently no prices fixed in bitcoin floating in fiat currencies in the economy.</p>
+</blockquote>
+<p>在这一意义上，塔勒布试图强调的并不是“比特币价格是否合理”，而是一个更基础的判断：**价格上涨本身，并不能构成一种货币成功的证据。**当“数字货币的成功”被简化为“价格上涨”，讨论本身就已经偏离了货币这一概念所应接受的基本检验。</p>
+<h4 id="Comment-3：Payment-system（支付系统）"><a href="#Comment-3：Payment-system（支付系统）" class="headerlink" title="Comment 3：Payment system（支付系统）"></a><strong>Comment 3：Payment system（支付系统）</strong></h4><p>在第三个 Comment 中，他针对比特币“已经被广泛用于支付”的说法，指出了一个极易被忽略、却至关重要的概念混淆：<strong>“接受比特币支付”，并不等同于“以比特币作为计价单位”。</strong>（塔：There is a conflation between ‘accepting bitcoin for payments’ and pricing goods in bitcoin.）</p>
+<p>在塔勒布看来，真正意义上的“以比特币定价”，并不是商家在结账时将法币价格换算为比特币，而是 <strong>商品价格本身固定为比特币，法币价格随汇率浮动，而非相反</strong>。（塔：To ‘price’ in bitcoin, the price must be fixed, with a conversion into fiat floating, rather than the reverse.）</p>
+<p>这一点之所以重要，是因为在现实经济中，没有任何一笔交易是可以被孤立讨论的（塔：No transaction between two persons is analytically pairwise in an open economy.）。塔勒布明确反对那种将交易视为“两个自愿成年人之间的局部行为”的自由意志主义直觉（Fallacy of libertarianism）。</p>
+<p>如果商品要稳定地以比特币计价，消费者就必须拥有以比特币计价的收入；而这又要求雇主的收入、企业的成本结构、供应链支出乃至资产负债表中的义务，同样以比特币计价。换言之，<strong>货币并不是从“支付端”自然生长出来的，而是嵌入整个经济系统的计价与结算网络之中。</strong></p>
+<p>在这一结构尚未建立的情况下，以比特币固定价格出售商品，还会引出一个无法回避的金融学问题——<strong>套利</strong>。塔勒布用量化金融的语言指出，若某商品以比特币定价、却在其他地方以法币出售，那么商家实际上等同于做空了一份货币期权。只要汇率存在波动，交易就必然被套利：当兑换条件有利时，消费者会选择比特币渠道；不利时，则转向其他市场，甚至通过退货等方式实现直接套利。</p>
+<p>因此，塔勒布给出的结论并非“采用速度不够快”，而是一个更根本的判断：**在缺乏稳定计价、收入来源与成本嵌套的情况下，比特币尚未满足作为支付系统存在的结构性条件。**也正因如此，现实中几乎不存在真正以比特币定价的商品；即便有，其价格对象也往往只是其他加密资产本身。</p>
+<h4 id="Comment-4：Law-vs-Regulations-vs-Rules（法律-VS-监管-VS-规则）"><a href="#Comment-4：Law-vs-Regulations-vs-Rules（法律-VS-监管-VS-规则）" class="headerlink" title="Comment 4：Law vs. Regulations vs. Rules（法律 VS 监管 VS 规则）"></a><strong>Comment 4：Law vs. Regulations vs. Rules（法律 VS 监管 VS 规则）</strong></h4><p>在这一段，将讨论从资产与支付系统，推进到一个更根本的层面：<strong>比特币背后所依赖的制度想象，本身是否成立。</strong></p>
+<p>他首先澄清了一个在加密语境中被反复误用的概念——自由意志主义。塔勒布指出，自由意志主义所主张的，并非“规则的统治”，而是 <strong>法治（rule of law）对监管（rule of regulation）的替代</strong>（塔：Libertarianism is about the rule of law in place of the rule of regulation. It is not about the rule of rules.），而不是对一套僵硬、自动执行、且不可逆规则的迷信。</p>
+<p>塔勒布认为，在现实世界中，法律必须面对模糊性与情境判断；即便是相对成文法取向的拿破仑法系，也无法将复杂的人类行为完全机械化处理。正因如此，在风险管理实践中，大量商业合同与金融衍生品更倾向于选择以普通法为基础的司法辖区，因为后者能够在裁决中权衡意图、对称性与整体公平。而比特币所依赖的，却是一套 <strong>一旦触发便不可逆的自动规则体系</strong>，这在塔勒布看来，并非制度进步，而是一种风险外包。</p>
+<p>在此基础上，他系统性地否定了比特币作为“安全避风港”的两种常见叙事。</p>
+<p>第一，比特币并不能对冲金融体系的尾部风险。塔勒布以 2020 年 3 月疫情冲击为例指出：</p>
+<blockquote>
+<p>The experience of March 2020 … when bitcoin dropped farther than the stock market — and subsequently recovered with it upon the massive injection of liquidity is sufficient evidence that it cannot remotely be used as a tail hedge against systemic risk.</p>
+<p>Furthermore, bitcoin appears to respond to liquidity, exactly like other bubble items.</p>
+<p>2020 年 3 月的经验已经足以说明问题：在疫情爆发引发市场恐慌之际，比特币的跌幅大于股市，并且在随后随着大规模流动性注入与股市一同反弹。这一事实本身就已经构成了充分证据，表明它根本无法被用作对冲系统性风险的尾部工具。</p>
+<p>此外，比特币对流动性的反应方式，与其他泡沫类资产并无二致。</p>
+</blockquote>
+<p>也就是说，在真正的系统性冲击中，比特币不仅没有提供保护，反而表现得像其他高波动风险资产一样，对流动性高度敏感。</p>
+<p>第二，将比特币视为对抗政府暴政的“隐秘财富避难所”，在塔勒布看来同样是一种危险的幻想。他直言，一个基于 <strong>公开账本</strong> 的电子代币，被营销为“藏匿资产的工具”，本身就需要相当程度的金融幼稚与统计无知。区块链交易不仅可被执法机构追踪，也可被普通研究者在公开数据中进行关联分析；殖民管道事件中“匿名”赎金被迅速定位并追回，正是这一点的现实注脚。</p>
+<p>他进一步指出，政府在组织能力、计算能力与渗透能力上，长期来看几乎必然强于一个彼此并不信任的分布式网络。在这种背景下，“逃离政府暴政，因此选择比特币”的口号，与上世纪宣传香烟有益健康的广告，并无本质区别。</p>
+<p>最后，塔勒布否定了“去中心化可以消除代理问题”的说法。他认为，比特币非但没有解决代理问题，反而制造了一个更严重的版本：<strong>早期持有者的高度集中</strong>。一小撮内部人囤积他们认为将成为“世界货币”的资产，等待他人未来向其索取流动性，由此形成的，并非民主化，而是一场向早期持有者的财富转移。</p>
+<p>在结论中，塔勒布彻底否定了“比特币或许有缺陷但区块链伟大”的退路。他认为，所谓“伟大技术”的说法，在缺乏可验证成果的情况下，只是一种对失败的重新包装。技术的价值不取决于其结构多么复杂、概念多么前沿，而只取决于它是否在现实中解决了问题；在这一标准下，区块链迄今为止几乎交出了一张空白答卷。</p>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+</feed>
