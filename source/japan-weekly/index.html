@@ -1,0 +1,50 @@
+---
+layout: page
+title: 日本政经周报｜Lei Deng
+description: Lei Deng 每周关于日本政治经济、货币政策、日元、国债、产业与居民经济的研究。
+comments: false
+toc: false
+header: false
+permalink: /japan-weekly/
+---
+
+<script>document.body.classList.add('portfolio-collection-page');</script>
+
+<div class="portfolio-collection">
+  <p class="portfolio-kicker">JAPAN WEEKLY</p>
+  <h1 data-site-i18n="weeklyJapanTitle">日本政经周报</h1>
+  <p class="portfolio-collection-intro" data-site-i18n="weeklyIntro">每周追踪日本政治、财政、货币、产业与居民经济的实质变化。</p>
+  <p class="portfolio-collection-note" data-site-i18n="weeklyJapanAvailability">中文、English、日本語版本均已发布。</p>
+
+  <div class="portfolio-collection-grid">
+    <section>
+      <p class="portfolio-collection-label" data-site-i18n="weeklyIssueList">ISSUES</p>
+      <h2 data-site-i18n="weeklyMonth">2026年8月</h2>
+      <a class="portfolio-collection-link" data-weekly-language="ZH" href="/2026/08/japan-political-economy-weekly-2026-08-30/">8月24日—30日：加息信号与财政成本共振 <span class="portfolio-collection-meta"><span class="portfolio-latest-badge" data-site-i18n="weeklyLatest">最新号</span><span>中文</span></span></a>
+      <a class="portfolio-collection-link" data-weekly-language="EN" href="/2026/08/japan-political-economy-weekly-2026-08-30-en/">Aug 24–30: Rate-Hike Signals Meet Fiscal Costs <span class="portfolio-collection-meta"><span class="portfolio-latest-badge" data-site-i18n="weeklyLatest">LATEST</span><span>English</span></span></a>
+      <a class="portfolio-collection-link" data-weekly-language="JA" href="/2026/08/japan-political-economy-weekly-2026-08-30-ja/">8月24日〜30日：利上げシグナルと財政コストの共振 <span class="portfolio-collection-meta"><span class="portfolio-latest-badge" data-site-i18n="weeklyLatest">最新号</span><span>日本語</span></span></a>
+      <a class="portfolio-collection-link" data-weekly-language="ZH" href="/2026/08/japan-political-economy-weekly-2026-08-23/">8月17日—23日：内需转弱与利率逼近3% <span>中文</span></a>
+      <a class="portfolio-collection-link" data-weekly-language="EN" href="/2026/08/japan-political-economy-weekly-2026-08-23-en/">Aug 17–23: Weak Domestic Demand Meets Near-3% JGBs <span>English</span></a>
+      <a class="portfolio-collection-link" data-weekly-language="JA" href="/2026/08/japan-political-economy-weekly-2026-08-23-ja/">8月17日〜23日：内需の弱さと3％近い国債利回り <span>日本語</span></a>
+      <a class="portfolio-collection-link" data-weekly-language="ZH" href="/2026/08/japan-political-economy-weekly-2026-08-16/">8月10日—16日：日元再逼160与高市双重压力 <span>中文</span></a>
+      <a class="portfolio-collection-link" data-weekly-language="EN" href="/2026/08/japan-political-economy-weekly-2026-08-16-en/">Aug 10–16: Yen Nears 160 Under Takaichi’s Fiscal Pressure <span>English</span></a>
+      <a class="portfolio-collection-link" data-weekly-language="JA" href="/2026/08/japan-political-economy-weekly-2026-08-16-ja/">8月10日〜16日：円160円接近と高市政権の財政圧力 <span>日本語</span></a>
+    </section>
+
+    <section>
+      <p class="portfolio-collection-label" data-site-i18n="weeklyScopeLabel">SCOPE</p>
+      <h2 data-site-i18n="weeklyScope">每周看什么</h2>
+      <p data-site-i18n="weeklyJapanScope">日本银行、日元与国债、财政税制、工资与通胀、产业政策，以及这些变化如何影响居民和企业。</p>
+      <a class="portfolio-collection-link" href="/politics-economy/"><span data-site-i18n="weeklyBack">返回政经总览</span> <span>Back</span></a>
+    </section>
+  </div>
+</div>
+
+<script>
+  (() => {
+    const selected = new URLSearchParams(window.location.search).get('lang') || 'ZH';
+    const links = Array.from(document.querySelectorAll('[data-weekly-language]'));
+    const matches = links.filter(link => link.dataset.weeklyLanguage === selected);
+    if (matches.length) links.forEach(link => { link.hidden = link.dataset.weeklyLanguage !== selected; });
+  })();
+</script>

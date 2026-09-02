@@ -1,0 +1,46 @@
+---
+layout: page
+title: 中国政经周报｜Lei Deng
+description: Lei Deng 每周关于中国政治经济、财政、货币、产业与居民经济的研究。
+comments: false
+toc: false
+header: false
+permalink: /china-weekly/
+---
+
+<script>document.body.classList.add('portfolio-collection-page');</script>
+
+<div class="portfolio-collection">
+  <p class="portfolio-kicker">CHINA WEEKLY</p>
+  <h1 data-site-i18n="weeklyChinaTitle">中国政经周报</h1>
+  <p class="portfolio-collection-intro" data-site-i18n="weeklyIntro">每周追踪中国政治、财政、货币、产业与居民经济的实质变化。</p>
+
+  <div class="portfolio-collection-grid">
+    <section>
+      <p class="portfolio-collection-label" data-site-i18n="weeklyIssueList">ISSUES</p>
+      <h2 data-site-i18n="weeklyMonth">2026年8月</h2>
+      <a class="portfolio-collection-link" data-weekly-language="ZH" href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-zh/">8月24日—30日：信用规则重写，利润修复仍分化 <span class="portfolio-collection-meta"><span class="portfolio-latest-badge" data-site-i18n="weeklyLatest">最新号</span><span>中文</span></span></a>
+      <a class="portfolio-collection-link" data-weekly-language="EN" href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30/">Aug 24–30: Credit Rules Are Being Rewritten <span class="portfolio-collection-meta"><span class="portfolio-latest-badge" data-site-i18n="weeklyLatest">LATEST</span><span>English</span></span></a>
+      <a class="portfolio-collection-link" data-weekly-language="JA" href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-ja/">8月24日〜30日：信用ルールの再設計 <span class="portfolio-collection-meta"><span class="portfolio-latest-badge" data-site-i18n="weeklyLatest">最新号</span><span>日本語</span></span></a>
+      <a class="portfolio-collection-link" data-weekly-language="ZH" href="/2026/08/china-political-economy-weekly-fiscal-support-zh/">8月17日—23日：财政支持走到前台 <span>中文</span></a>
+      <a class="portfolio-collection-link" data-weekly-language="EN" href="/2026/08/china-political-economy-weekly-fiscal-support/">Aug 17–23: Fiscal Support Takes the Lead <span>English</span></a>
+      <a class="portfolio-collection-link" data-weekly-language="JA" href="/2026/08/china-political-economy-weekly-fiscal-support-ja/">8月17日〜23日：財政支援が前面に <span>日本語</span></a>
+    </section>
+
+    <section>
+      <p class="portfolio-collection-label" data-site-i18n="weeklyScopeLabel">SCOPE</p>
+      <h2 data-site-i18n="weeklyScope">每周看什么</h2>
+      <p data-site-i18n="weeklyChinaScope">财政执行、货币政策、房地产信用、工业利润、AI 与产业政策，以及这些变化如何传导到企业和居民。</p>
+      <a class="portfolio-collection-link" href="/politics-economy/"><span data-site-i18n="weeklyBack">返回政经总览</span> <span>Back</span></a>
+    </section>
+  </div>
+</div>
+
+<script>
+  (() => {
+    const selected = new URLSearchParams(window.location.search).get('lang') || 'ZH';
+    const links = Array.from(document.querySelectorAll('[data-weekly-language]'));
+    const matches = links.filter(link => link.dataset.weeklyLanguage === selected);
+    if (matches.length) links.forEach(link => { link.hidden = link.dataset.weeklyLanguage !== selected; });
+  })();
+</script>

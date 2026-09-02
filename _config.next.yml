@@ -102,11 +102,10 @@ open_graph:
 # Value before `||` delimiter is the target link, value after `||` delimiter is the name of Font Awesome icon.
 # External url should start with http:// or https://
 menu:
-  Essays: /essays/ || fa fa-pen
-  Japan: /categories/japan/ || fa fa-torii-gate
-  Money & Markets: /categories/markets/ || fa fa-chart-line
-  AI & Industry: /categories/ai-industry/ || fa fa-microchip
-  About: /about/ || fa fa-user
+  政经: /politics-economy/ || fa fa-landmark
+  项目: /projects/ || fa fa-code
+  生活: /life/ || fa fa-book-open
+  About me: /about/ || fa fa-user
   #tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
   #archives: /archives/ || fa fa-archive

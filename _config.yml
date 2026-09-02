@@ -4,8 +4,8 @@
 
 # Site
 title: Lei Deng
-subtitle: Political Economy, Markets & Technology
-description: Independent research by Lei Deng on political economy, financial markets, technology, and institutional change in China and Japan.
+subtitle: 政治经济 · 市场 · 技术
+description: 邓磊关于政治经济、金融市场、技术与中日制度变迁的独立研究。
 keywords:
   - political economy
   - financial markets
@@ -15,7 +15,7 @@ keywords:
   - China
   - Japan
 author: Lei Deng
-language: en
+language: zh-CN
 timezone: Asia/Tokyo
 
 # URL

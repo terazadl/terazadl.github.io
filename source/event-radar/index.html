@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Polymarket观测站
-description: 非官方的Polymarket事件概率观测页，跟踪霍尔木兹海峡风险与美联储利率决策。
+description: 非官方的Polymarket事件概率观测页，跟踪当前有效的霍尔木兹海峡通航恢复与美联储利率决策。
 header: false
 comments: false
 toc: false
@@ -17,7 +17,7 @@ permalink: /event-radar/
 .radar-kicker{color:#2f55d4;font-size:12px;font-weight:900;letter-spacing:.15em;margin:0 0 9px;text-transform:uppercase;}
 .radar-head h1{font-family:"Libre Caslon Display","Noto Serif SC",serif;font-size:clamp(37px,5vw,58px);font-weight:400;letter-spacing:-.035em;line-height:1;margin:0;}
 .radar-time{color:#706a60;font-size:13px;line-height:1.45;margin:0;text-align:right;}
-.radar-time strong{color:#1d1c18;font-size:14px;letter-spacing:.04em;}
+.radar-time strong{color:#1d1c18;display:inline-block;font-size:20px;font-weight:800;letter-spacing:.04em;line-height:1.1;}
 .radar-time small{font-size:12px;}
 .radar-summary{border-left:3px solid #2f55d4;color:#45423b;font-family:"Noto Serif SC",serif;font-size:16px;line-height:1.55;margin:0 0 24px;padding:10px 14px;}
 .radar-summary strong{color:#1d1c18;font-weight:700;}
@@ -39,6 +39,14 @@ permalink: /event-radar/
 .radar-method dd{font-family:"Noto Serif SC",serif;font-size:12px;line-height:1.55;margin:0;}
 .radar-method a{border-bottom:1px solid currentColor;color:#2f55d4;text-decoration:none;}
 .radar-explainer{color:#45423b;font-family:"Noto Serif SC",serif;font-size:12px;line-height:1.65;margin:16px 0 0;}
+.radar-archive{border-top:1px solid #1d1c18;margin-top:28px;padding-top:20px;}
+.radar-archive[hidden]{display:none;}
+.radar-archive-head{align-items:baseline;display:flex;gap:14px;justify-content:space-between;margin-bottom:14px;}
+.radar-archive-head h2{font-family:"Libre Caslon Text","Noto Serif SC",serif;font-size:22px;font-weight:600;margin:0;}
+.radar-archive-head p{color:#706a60;font-family:"Noto Serif SC",serif;font-size:12px;margin:0;}
+.radar-event--archived{border-top-color:#8d877c;opacity:.9;}
+.radar-event--archived .radar-eyebrow{color:#706a60;}
+.radar-event--archived .radar-number{font-size:54px;}
 .radar-actions{align-items:center;border-top:1px solid #1d1c18;display:flex;flex-wrap:wrap;gap:12px;margin-top:28px;padding-top:20px;}
 .radar-action{background:#2f55d4;border:1px solid #2f55d4;color:#fff!important;cursor:pointer;font:800 12px "Lato",sans-serif;letter-spacing:.04em;padding:12px 17px;text-decoration:none;}
 .radar-action--secondary{background:transparent;color:#2f55d4!important;}
@@ -48,22 +56,27 @@ permalink: /event-radar/
 </style>
 <main class="radar-shell" aria-labelledby="radar-title">
   <header class="radar-head">
-    <div><p class="radar-kicker">Polymarket Observatory · Unofficial</p><h1 id="radar-title">Polymarket观测站</h1><p class="radar-summary"><strong>今日读数</strong>｜霍尔木兹未恢复 97.2%｜美联储9月维持利率不变 65.8%</p></div>
-    <p class="radar-time">日报 20260813<br><small>2026-08-13 08:32（北京时间）</small></p>
+    <div><p class="radar-kicker">Polymarket Observatory · Unofficial</p><h1 id="radar-title">Polymarket观测站</h1><p class="radar-summary"><strong>今日读数</strong>｜霍尔木兹9月30日前恢复正常 3%｜美联储9月维持利率不变 65.8%</p></div>
+    <p class="radar-time"><strong>日报 20260902</strong><br><small>2026-09-02 16:19（北京时间）</small></p>
   </header>
-  <div class="radar-grid"><article class="radar-event"><p class="radar-eyebrow">霍尔木兹未恢复风险</p><h2>霍尔木兹海峡未恢复正常风险（8月31日前）</h2><p class="radar-number">97.2%</p><p class="radar-question">截至8月31日仍未恢复正常</p><dl class="radar-method"><div><dt>市场定价</dt><dd><a href="https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-august-31-20260702154212320" target="_blank" rel="noopener">Polymarket</a></dd></div><div><dt>最终判定来源</dt><dd><a href="https://portwatch.imf.org/pages/cb5856222a5b4105adc6ee7e880a1730" target="_blank" rel="noopener">IMF PortWatch</a><br>霍尔木兹海峡7日平均通行船次</dd></div><div><dt>判定规则</dt><dd>达到60即视为恢复正常；雷达显示的是截至8月31日仍未达到60的概率</dd></div></dl><p class="radar-explainer">Polymarket负责“市场怎么押”；IMF PortWatch负责“最后发生了什么”。</p></article><article class="radar-event"><p class="radar-eyebrow">美联储9月决策</p><h2>美联储9月利率决策</h2><p class="radar-question">当前最可能</p><p class="radar-leader">维持利率不变</p><p class="radar-number">65.8%</p><ol class="radar-outcomes" aria-label="五个互斥结果，合计100%"><li><span>降息至少0.50个百分点</span><span class="radar-outcome-track" aria-hidden="true"><span style="width:0.5%"></span></span><strong>0.5%</strong></li><li><span>降息0.25个百分点</span><span class="radar-outcome-track" aria-hidden="true"><span style="width:1.0%"></span></span><strong>1.0%</strong></li><li><span>维持利率不变</span><span class="radar-outcome-track" aria-hidden="true"><span style="width:65.8%"></span></span><strong>65.8%</strong></li><li><span>加息0.25个百分点</span><span class="radar-outcome-track" aria-hidden="true"><span style="width:32.2%"></span></span><strong>32.2%</strong></li><li><span>加息至少0.50个百分点</span><span class="radar-outcome-track" aria-hidden="true"><span style="width:0.5%"></span></span><strong>0.5%</strong></li></ol><dl class="radar-method"><div><dt>市场定价</dt><dd><a href="https://polymarket.com/event/fed-decision-in-september-762" target="_blank" rel="noopener">Polymarket</a></dd></div><div><dt>最终判定来源</dt><dd><a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noopener">FOMC会后声明</a><br>联邦基金目标区间上限的变化</dd></div><div><dt>判定规则</dt><dd>按降息至少0.50、降息0.25、不变、加息0.25、加息至少0.50个百分点五种互斥结果判定</dd></div></dl><p class="radar-explainer">Polymarket负责“市场怎么押”；FOMC会后声明负责“最后发生了什么”。</p></article></div>
+  <div class="radar-grid"><article class="radar-event"><p class="radar-eyebrow">霍尔木兹通航恢复</p><h2>霍尔木兹海峡在9月30日前恢复正常？</h2><p class="radar-number">3%</p><p class="radar-question">市场对“9月30日前恢复正常”的隐含概率（2026-09-02抓取）</p><dl class="radar-method"><div><dt>市场定价</dt><dd><a href="https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-september-30-20260702154339440" target="_blank" rel="noopener">Polymarket</a></dd></div><div><dt>最终判定来源</dt><dd><a href="https://portwatch.imf.org/pages/cb5856222a5b4105adc6ee7e880a1730" target="_blank" rel="noopener">IMF PortWatch</a><br>霍尔木兹海峡7日平均通行船次（Arrivals of Ships）</dd></div><div><dt>判定规则</dt><dd>若截至9月30日任一日期的7日移动平均通行船次达到60，则判定“是”；否则为“否”。</dd></div></dl><p class="radar-explainer">3%是市场定价，不是事实判断。8月31日到期合约已移出当前读数；走势图将从本次读数起持续积累。</p></article><article class="radar-event"><p class="radar-eyebrow">美联储9月决策</p><h2>美联储9月利率决策</h2><p class="radar-question">当前最可能</p><p class="radar-leader">维持利率不变</p><p class="radar-number">65.8%</p><ol class="radar-outcomes" aria-label="五个互斥结果，合计100%"><li><span>降息至少0.50个百分点</span><span class="radar-outcome-track" aria-hidden="true"><span style="width:0.5%"></span></span><strong>0.5%</strong></li><li><span>降息0.25个百分点</span><span class="radar-outcome-track" aria-hidden="true"><span style="width:1.0%"></span></span><strong>1.0%</strong></li><li><span>维持利率不变</span><span class="radar-outcome-track" aria-hidden="true"><span style="width:65.8%"></span></span><strong>65.8%</strong></li><li><span>加息0.25个百分点</span><span class="radar-outcome-track" aria-hidden="true"><span style="width:32.2%"></span></span><strong>32.2%</strong></li><li><span>加息至少0.50个百分点</span><span class="radar-outcome-track" aria-hidden="true"><span style="width:0.5%"></span></span><strong>0.5%</strong></li></ol><dl class="radar-method"><div><dt>市场定价</dt><dd><a href="https://polymarket.com/event/fed-decision-in-september-762" target="_blank" rel="noopener">Polymarket</a></dd></div><div><dt>最终判定来源</dt><dd><a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noopener">FOMC会后声明</a><br>联邦基金目标区间上限的变化</dd></div><div><dt>判定规则</dt><dd>按降息至少0.50、降息0.25、不变、加息0.25、加息至少0.50个百分点五种互斥结果判定</dd></div></dl><p class="radar-explainer">Polymarket负责“市场怎么押”；FOMC会后声明负责“最后发生了什么”。</p></article></div>
+
+  <section class="radar-archive" id="radar-archive" hidden aria-labelledby="radar-archive-title">
+    <div class="radar-archive-head"><h2 id="radar-archive-title">归档事件</h2><p>已结束或不再作为当前读数的合约</p></div>
+    <div class="radar-grid"><article class="radar-event radar-event--archived"><p class="radar-eyebrow">已结束合约 · 2026-08-31</p><h2>霍尔木兹海峡在8月31日前恢复正常？</h2><p class="radar-number">97.1%</p><p class="radar-question">最后一次保存的市场读数：截至8月31日仍未恢复正常（2026-08-13）</p><dl class="radar-method"><div><dt>历史快照</dt><dd>日报 20260813 · 09:04（北京时间）</dd></div><div><dt>合约页面</dt><dd><a href="https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-august-31-20260702154212320" target="_blank" rel="noopener">查看 Polymarket 合约</a></dd></div><div><dt>说明</dt><dd>该合约已过截止日期，不再参与当前读数；97.1%仅代表当时的“未恢复正常”市场概率，不等于最终事实。</dd></div></dl></article></div>
+  </section>
 
   <div class="radar-actions" aria-label="分享选项">
+    <button class="radar-action radar-action--secondary" type="button" data-radar-archive-toggle aria-expanded="false" aria-controls="radar-archive">归档事件</button>
     <button class="radar-action" type="button" data-radar-share>分享页面</button>
     <button class="radar-action radar-action--secondary" type="button" data-radar-copy>复制分享摘要</button>
-    <a class="radar-action radar-action--secondary" href="/images/event-radar-latest.png" download>下载朋友圈图片</a>
     <span class="radar-status" role="status" aria-live="polite"></span>
   </div>
   <p class="radar-foot">概率来自Polymarket公开市场价格。Polymarket提供市场预期，IMF PortWatch或FOMC会后声明负责确认最终事实。市场概率会变化，不是客观预测，也不构成交易建议。本产品为非官方观测工具，与Polymarket无隶属或合作关系。</p>
 </main>
 <script>
 (() => {
-  const text = "Polymarket观测站｜日报 20260813\n今日读数：\n霍尔木兹：截至8月31日仍未恢复正常 97.2%\n美联储9月：维持利率不变 65.8%\n五个互斥结果：降息至少0.50个百分点 0.5%；降息0.25个百分点 1.0%；维持利率不变 65.8%；加息0.25个百分点 32.2%；加息至少0.50个百分点 0.5%\n概率来自Polymarket；最终结果按各事件的独立判定指标确认。\n仅反映市场当时预期，不构成交易建议。\n非Polymarket官方产品。\nhttps://terazadl.github.io/event-radar/";
+  const text = "Polymarket观测站｜日报 20260902\n今日读数：\n霍尔木兹：9月30日前恢复正常 3%（市场隐含概率）\n美联储9月：维持利率不变 65.8%\n五个互斥结果：降息至少0.50个百分点 0.5%；降息0.25个百分点 1.0%；维持利率不变 65.8%；加息0.25个百分点 32.2%；加息至少0.50个百分点 0.5%\n概率来自Polymarket；最终结果按各事件的独立判定指标确认。\n仅反映市场当时预期，不构成交易建议。\n非Polymarket官方产品。\nhttps://terazadl.github.io/event-radar/";
   const title = "Polymarket观测站｜霍尔木兹与美联储";
   const status = document.querySelector('.radar-status');
   const setStatus = value => { if (status) status.textContent = value; };
@@ -72,6 +85,15 @@ permalink: /event-radar/
     catch (_) { setStatus('复制失败，请手动选择文字'); }
   };
   document.querySelector('[data-radar-copy]')?.addEventListener('click', copy);
+  document.querySelector('[data-radar-archive-toggle]')?.addEventListener('click', event => {
+    const button = event.currentTarget;
+    const archive = document.getElementById('radar-archive');
+    if (!archive) return;
+    const willOpen = archive.hidden;
+    archive.hidden = !willOpen;
+    button.setAttribute('aria-expanded', String(willOpen));
+    button.textContent = willOpen ? '收起归档' : '归档事件';
+  });
   document.querySelector('[data-radar-share]')?.addEventListener('click', async () => {
     if (navigator.share) {
       try { await navigator.share({ title, text, url: window.location.href }); } catch (_) {}

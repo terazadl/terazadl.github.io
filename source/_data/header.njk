@@ -2,38 +2,54 @@
   <a class="research-brand" href="/" rel="home" aria-label="Lei Deng — home">
     <span class="research-brand-name">Lei Deng</span>
     <span class="research-brand-divider" aria-hidden="true"></span>
-    <span class="research-brand-field">Political Economy, Markets &amp; Technology</span>
+    <span class="research-brand-field" data-site-i18n="brandField">政治经济 · 市场 · 技术</span>
   </a>
 
-  <nav class="research-desktop-nav" aria-label="Primary navigation">
-    <a href="/#latest" data-nav-root="latest">Latest</a>
-    <a href="/essays/" data-nav-root="essays">Essays</a>
-    <a href="/#topics" data-nav-root="topics">Topics</a>
-    <a href="/about/" data-nav-root="about">About</a>
+  <nav class="research-desktop-nav" aria-label="主导航" data-site-i18n-aria="mainNav">
+    <a href="/politics-economy/" data-nav-root="politics" data-site-i18n="navPolitics">政经</a>
+    <a href="/projects/" data-nav-root="projects" data-site-i18n="navProjects">项目</a>
+    <a href="/life/" data-nav-root="life" data-site-i18n="navLife">生活</a>
+    <a href="/about/" data-nav-root="about" data-site-i18n="navAbout">About me</a>
   </nav>
+
+  <div class="research-language-switcher research-desktop-language" aria-label="阅读语言" data-site-i18n-aria="languageSwitcher">
+    <span class="research-language-label" data-site-i18n="languageLabel">Language</span>
+    <a href="/" data-language-link="ZH" title="中文">中</a>
+    <span aria-hidden="true">/</span>
+    <a href="/essays/?lang=EN" data-language-link="EN" title="English">EN</a>
+    <span aria-hidden="true">/</span>
+    <a href="/essays/?lang=JA" data-language-link="JA" title="日本語">日</a>
+  </div>
 
   <a class="research-github-link" href="https://github.com/terazadl" target="_blank" rel="noopener">
     <i class="fab fa-github" aria-hidden="true"></i>
-    <span>GitHub</span>
+    <span data-site-i18n="codeLabel">代码</span>
   </a>
 
   <button
     class="research-menu-button"
     type="button"
-    aria-label="Open navigation"
+    aria-label="打开导航"
+    data-site-i18n-aria="openNav"
     aria-expanded="false"
     aria-controls="research-mobile-navigation"
   >
     <span></span><span></span><span></span>
   </button>
 
-  <nav class="research-mobile-nav" id="research-mobile-navigation" aria-label="Mobile navigation">
-    <a href="/#latest">Latest</a>
-    <a href="/essays/">Essays</a>
-    <a href="/#topics">Topics</a>
-    <a href="/about/">About</a>
+  <nav class="research-mobile-nav" id="research-mobile-navigation" aria-label="移动端导航" data-site-i18n-aria="mobileNav">
+    <div class="research-language-switcher research-mobile-language" aria-label="阅读语言" data-site-i18n-aria="languageSwitcher">
+      <span class="research-language-label" data-site-i18n="languageLabel">Language</span>
+      <a href="/" data-language-link="ZH" title="中文">中文</a>
+      <a href="/essays/?lang=EN" data-language-link="EN" title="English">English</a>
+      <a href="/essays/?lang=JA" data-language-link="JA" title="日本語">日本語</a>
+    </div>
+    <a href="/politics-economy/" data-site-i18n="navPolitics">政经</a>
+    <a href="/projects/" data-site-i18n="navProjects">项目</a>
+    <a href="/life/" data-site-i18n="navLife">生活</a>
+    <a href="/about/" data-site-i18n="navAbout">About me</a>
     <a href="https://github.com/terazadl" target="_blank" rel="noopener">
-      GitHub <i class="fa fa-external-link-alt" aria-hidden="true"></i>
+      <span data-site-i18n="codeLabel">代码</span> <i class="fa fa-external-link-alt" aria-hidden="true"></i>
     </a>
   </nav>
 </div>
@@ -47,7 +63,11 @@
       section !== "latest" &&
       (path.startsWith("/essays/") || path.startsWith("/writing/") || path.startsWith("/archives/") || path.match(/^\/2026\//))
     ) section = "essays";
+    if (path.startsWith("/event-radar/")) section = "radar";
     if (path.startsWith("/categories/") || path.startsWith("/tags/")) section = "topics";
+    if (path.startsWith("/politics-economy/")) section = "politics";
+    if (path.startsWith("/projects/")) section = "projects";
+    if (path.startsWith("/life/")) section = "life";
     if (path.startsWith("/about/")) section = "about";
     const current = document.querySelector(`[data-nav-root="${section}"]`);
     if (current) {
