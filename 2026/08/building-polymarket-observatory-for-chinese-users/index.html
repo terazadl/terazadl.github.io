@@ -78,6 +78,11 @@
 <meta name="twitter:title" content="Building a Read-Only Polymarket Observatory for Chinese Users">
 <meta name="twitter:description" content="A small product case study in turning public prediction-market data into a clear, auditable, Beijing-time monitoring service without turning probabilities into false certainty.">
 <meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="https://terazadl.github.io/images/tera-android-512.png">
+<meta property="og:image:alt" content="Lei Deng monogram">
+<meta property="og:image:width" content="512">
+<meta property="og:image:height" content="512">
+<meta name="twitter:image" content="https://terazadl.github.io/images/tera-android-512.png">
 <link rel="sitemap" type="application/xml" href="https://terazadl.github.io/sitemap.xml">
 <link rel="alternate" type="application/atom+xml" title="Lei Deng｜最新文章" href="https://terazadl.github.io/atom.xml">
 
@@ -346,7 +351,7 @@
   Prediction markets can make an event’s implied odds visible, but a bare probability is often a poor notification product. I built Polymarket Observatory, a read-only monitor for Chinese-speaking users that screens public markets for quality, shows complete mutually exclusive outcomes, separates a market’s belief from the source that resolves the event, and sends a daily Beijing-time digest with restrained anomaly alerts. This note documents the product choices behind it—not as trading software, but as a small experiment in auditable information design.
 </div>
 
-<p><img src="/images/event-radar-latest.png" alt="A sample Polymarket Observatory share card. It shows a Strait of Hormuz risk probability and the complete distribution for a Federal Reserve decision."></p>
+<p><img height="1350" width="1080" decoding="async" loading="eager" src="/images/event-radar-latest.png" alt="A sample Polymarket Observatory share card. It shows a Strait of Hormuz risk probability and the complete distribution for a Federal Reserve decision."></p>
 <h2 id="The-problem-is-not-retrieving-a-number"><a href="#The-problem-is-not-retrieving-a-number" class="headerlink" title="The problem is not retrieving a number"></a>The problem is not retrieving a number</h2><p>Prediction-market pages are good at answering a narrow question: <em>what is the market pricing right now?</em> They are less good at the recurring task that many people actually have: <em>tell me when this event is worth paying attention to, without making me monitor a dashboard all day.</em></p>
 <p>That difference matters. A notification that says “the probability of a Federal Reserve rate cut is 2%” can be technically accurate yet cognitively misleading. The reader immediately asks: 2% compared with what? Is the market pricing no change? A hike? Does the contract have enough liquidity to trust its price? And, when the meeting ends, who determines the outcome?</p>
 <p>I built <strong>Polymarket Observatory</strong> to make those questions explicit. It is a small, read-only monitoring system for Chinese-speaking users. It reads selected public Polymarket markets through the <a target="_blank" rel="noopener" href="https://docs.polymarket.com/api-reference/introduction">Gamma API</a>, generates a Beijing-time daily briefing, and uses <a target="_blank" rel="noopener" href="https://sct.ftqq.com/docs/getting-started/faq/">ServerChan</a> to deliver concise WeChat notifications. Market selection is currently an explicit watchlist decision rather than an automatic discovery or ranking system.</p>
@@ -477,7 +482,7 @@
 </noscript>
 <script class="next-config" data-name="utterances" type="application/json">{"enable":true,"repo":"terazadl/blog-comments","issue_term":"pathname","theme":"github-light"}</script>
 <script src="/js/third-party/comments/utterances.js" defer></script>
-<script src="/js/content-index.js?v=20260830-1"></script>
+<script src="/js/content-index.js?v=20260905153053"></script>
 <script>
   (() => {
     const contentIndex = window.__SITE_CONTENT_INDEX__ || { entries: [], groups: [] };
