@@ -144,7 +144,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-文章"><a href="/essays/" rel="section">文章</a></li><li class="menu-item menu-item-观测站"><a href="/event-radar/" rel="section">观测站</a></li><li class="menu-item menu-item-日本"><a href="/categories/japan/" rel="section">日本</a></li><li class="menu-item menu-item-金融与市场"><a href="/categories/markets/" rel="section">金融与市场</a></li><li class="menu-item menu-item-ai-与产业"><a href="/categories/ai-industry/" rel="section">AI 与产业</a></li><li class="menu-item menu-item-关于"><a href="/about/" rel="section">关于</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-政经"><a href="/politics-economy/" rel="section">政经</a></li><li class="menu-item menu-item-项目"><a href="/projects/" rel="section">项目</a></li><li class="menu-item menu-item-生活"><a href="/life/" rel="section">生活</a></li><li class="menu-item menu-item-about-me"><a href="/about/" rel="section">About me</a></li>
   </ul>
 </nav>
 
@@ -154,19 +154,18 @@
   <a class="research-brand" href="/" rel="home" aria-label="Lei Deng — home">
     <span class="research-brand-name">Lei Deng</span>
     <span class="research-brand-divider" aria-hidden="true"></span>
-    <span class="research-brand-field">政治经济 · 市场 · 技术</span>
+    <span class="research-brand-field" data-site-i18n="brandField">政治经济 · 市场 · 技术</span>
   </a>
 
-  <nav class="research-desktop-nav" aria-label="主导航">
-    <a href="/#latest" data-nav-root="latest">最新</a>
-    <a href="/essays/" data-nav-root="essays">文章</a>
-    <a href="/event-radar/" data-nav-root="radar">观测站</a>
-    <a href="/#topics" data-nav-root="topics">主题</a>
-    <a href="/about/" data-nav-root="about">关于</a>
+  <nav class="research-desktop-nav" aria-label="主导航" data-site-i18n-aria="mainNav">
+    <a href="/politics-economy/" data-nav-root="politics" data-site-i18n="navPolitics">政经</a>
+    <a href="/projects/" data-nav-root="projects" data-site-i18n="navProjects">项目</a>
+    <a href="/life/" data-nav-root="life" data-site-i18n="navLife">生活</a>
+    <a href="/about/" data-nav-root="about" data-site-i18n="navAbout">About me</a>
   </nav>
 
-  <div class="research-language-switcher research-desktop-language" aria-label="阅读语言">
-    <span class="research-language-label">语言</span>
+  <div class="research-language-switcher research-desktop-language" aria-label="阅读语言" data-site-i18n-aria="languageSwitcher">
+    <span class="research-language-label" data-site-i18n="languageLabel">Language</span>
     <a href="/" data-language-link="ZH" title="中文">中</a>
     <span aria-hidden="true">/</span>
     <a href="/essays/?lang=EN" data-language-link="EN" title="English">EN</a>
@@ -176,33 +175,33 @@
 
   <a class="research-github-link" href="https://github.com/terazadl" target="_blank" rel="noopener">
     <i class="fab fa-github" aria-hidden="true"></i>
-    <span>代码</span>
+    <span data-site-i18n="codeLabel">代码</span>
   </a>
 
   <button
     class="research-menu-button"
     type="button"
     aria-label="打开导航"
+    data-site-i18n-aria="openNav"
     aria-expanded="false"
     aria-controls="research-mobile-navigation"
   >
     <span></span><span></span><span></span>
   </button>
 
-  <nav class="research-mobile-nav" id="research-mobile-navigation" aria-label="移动端导航">
-    <div class="research-language-switcher research-mobile-language" aria-label="阅读语言">
-      <span class="research-language-label">阅读语言</span>
+  <nav class="research-mobile-nav" id="research-mobile-navigation" aria-label="移动端导航" data-site-i18n-aria="mobileNav">
+    <div class="research-language-switcher research-mobile-language" aria-label="阅读语言" data-site-i18n-aria="languageSwitcher">
+      <span class="research-language-label" data-site-i18n="languageLabel">Language</span>
       <a href="/" data-language-link="ZH" title="中文">中文</a>
       <a href="/essays/?lang=EN" data-language-link="EN" title="English">English</a>
       <a href="/essays/?lang=JA" data-language-link="JA" title="日本語">日本語</a>
     </div>
-    <a href="/#latest">最新</a>
-    <a href="/essays/">文章</a>
-    <a href="/event-radar/">观测站</a>
-    <a href="/#topics">主题</a>
-    <a href="/about/">关于</a>
+    <a href="/politics-economy/" data-site-i18n="navPolitics">政经</a>
+    <a href="/projects/" data-site-i18n="navProjects">项目</a>
+    <a href="/life/" data-site-i18n="navLife">生活</a>
+    <a href="/about/" data-site-i18n="navAbout">About me</a>
     <a href="https://github.com/terazadl" target="_blank" rel="noopener">
-      代码 <i class="fa fa-external-link-alt" aria-hidden="true"></i>
+      <span data-site-i18n="codeLabel">代码</span> <i class="fa fa-external-link-alt" aria-hidden="true"></i>
     </a>
   </nav>
 </div>
@@ -218,6 +217,9 @@
     ) section = "essays";
     if (path.startsWith("/event-radar/")) section = "radar";
     if (path.startsWith("/categories/") || path.startsWith("/tags/")) section = "topics";
+    if (path.startsWith("/politics-economy/")) section = "politics";
+    if (path.startsWith("/projects/")) section = "projects";
+    if (path.startsWith("/life/")) section = "life";
     if (path.startsWith("/about/")) section = "about";
     const current = document.querySelector(`[data-nav-root="${section}"]`);
     if (current) {
@@ -245,7 +247,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%89%A7%E8%A1%8C%E6%91%98%E8%A6%81"><span class="nav-text">执行摘要</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%B7%A5%E4%B8%9A%E5%88%A9%E6%B6%A6%E5%8F%8D%E5%BC%B9%EF%BC%9A%E6%80%BB%E9%87%8F%E6%94%B9%E5%96%84%EF%BC%8C%E7%BB%93%E6%9E%84%E4%BB%8D%E7%84%B6%E5%BE%88%E7%AA%84"><span class="nav-text">一、工业利润反弹：总量改善，结构仍然很窄</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E6%88%BF%E5%9C%B0%E4%BA%A7%EF%BC%9A%E4%BB%8E%E4%B8%BB%E4%BD%93%E4%BF%A1%E7%94%A8%E8%BD%AC%E5%90%91%E9%A1%B9%E7%9B%AE%E3%80%81%E4%BA%A4%E4%BB%98%E5%92%8C%E8%B5%84%E9%87%91%E5%B0%81%E9%97%AD%E7%AE%A1%E7%90%86"><span class="nav-text">二、房地产：从主体信用转向项目、交付和资金封闭管理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96%EF%BC%9A%E4%B8%AD%E6%9C%9F%E8%B5%84%E9%87%91%E4%B8%8E%E9%9A%94%E5%A4%9C%E5%B7%A5%E5%85%B7%E9%85%8D%E5%90%88%EF%BC%8C%E4%BB%8D%E4%B8%8D%E6%98%AFLPR%E4%BF%A1%E5%8F%B7"><span class="nav-text">三、货币政策：中期资金与隔夜工具配合，仍不是LPR信号</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81AI%E4%B8%8E%E9%87%91%E8%9E%8D%EF%BC%9A%E4%BB%8E%E2%80%9C%E8%83%BD%E4%B8%8D%E8%83%BD%E5%81%9A%E2%80%9D%E8%BF%9B%E5%85%A5%E2%80%9C%E8%B0%81%E8%B4%9F%E8%B4%A3%E3%80%81%E5%A6%82%E4%BD%95%E5%9B%9E%E9%80%80%E2%80%9D"><span class="nav-text">四、AI与金融：从“能不能做”进入“谁负责、如何回退”</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E6%94%BF%E6%B2%BB%E4%B8%8E%E6%B2%BB%E7%90%86%EF%BC%9A%E5%85%AC%E5%BC%80%E4%BA%8B%E5%AE%9E%E6%98%BE%E7%A4%BA%E4%BA%BA%E5%91%98%E5%A4%84%E7%90%86%E7%BB%A7%E7%BB%AD%E6%8E%A8%E8%BF%9B"><span class="nav-text">五、政治与治理：公开事实显示人员处理继续推进</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%AD%E3%80%81%E5%A4%96%E9%83%A8%E7%8E%AF%E5%A2%83%EF%BC%9A%E5%85%B3%E7%A8%8E%E9%A3%8E%E9%99%A9%E4%BB%8D%E5%A4%84%E4%BA%8E%E2%80%9C%E5%8F%AF%E8%83%BD%E5%8D%87%E7%BA%A7%E2%80%9D%E8%80%8C%E9%9D%9E%E2%80%9C%E5%B7%B2%E5%AE%9E%E6%96%BD%E2%80%9D"><span class="nav-text">六、外部环境：关税风险仍处于“可能升级”而非“已实施”</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AC%E5%91%A8%E5%88%A4%E6%96%AD"><span class="nav-text">本周判断</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E5%91%A8%E8%A7%82%E5%AF%9F%E6%B8%85%E5%8D%95"><span class="nav-text">下周观察清单</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BC%96%E8%BE%91%E8%AF%B4%E6%98%8E"><span class="nav-text">编辑说明</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%89%A7%E8%A1%8C%E6%91%98%E8%A6%81"><span class="nav-text">执行摘要</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B7%A5%E4%B8%9A%E5%88%A9%E6%B6%A6%E5%8F%8D%E5%BC%B9%EF%BC%9A%E6%80%BB%E9%87%8F%E6%94%B9%E5%96%84%EF%BC%8C%E7%BB%93%E6%9E%84%E4%BB%8D%E7%84%B6%E5%BE%88%E7%AA%84"><span class="nav-text">工业利润反弹：总量改善，结构仍然很窄</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%88%BF%E5%9C%B0%E4%BA%A7%E6%94%BF%E7%AD%96%E4%BB%8E%E4%B8%BB%E4%BD%93%E4%BF%A1%E7%94%A8%E8%BD%AC%E5%90%91%E9%A1%B9%E7%9B%AE%E3%80%81%E4%BA%A4%E4%BB%98%E5%92%8C%E8%B5%84%E9%87%91%E5%B0%81%E9%97%AD%E7%AE%A1%E7%90%86"><span class="nav-text">房地产政策从主体信用转向项目、交付和资金封闭管理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B5%81%E5%8A%A8%E6%80%A7%E7%AE%A1%E7%90%86%E8%B5%B0%E5%9C%A8%E5%85%A8%E9%9D%A2%E8%B4%A7%E5%B8%81%E5%AE%BD%E6%9D%BE%E4%B9%8B%E5%89%8D"><span class="nav-text">流动性管理走在全面货币宽松之前</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#AI%E4%B8%8E%E9%87%91%E8%9E%8D%E8%BF%9B%E5%85%A5%E6%8E%88%E6%9D%83%E3%80%81%E9%97%AE%E8%B4%A3%E5%92%8C%E5%9B%9E%E9%80%80%E5%B1%82"><span class="nav-text">AI与金融进入授权、问责和回退层</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%94%BF%E6%B2%BB%E4%BF%A1%E5%8F%B7%E5%9C%A8%E4%BA%8E%E6%89%A7%E8%A1%8C%E4%B8%8E%E9%97%AE%E8%B4%A3"><span class="nav-text">政治信号在于执行与问责</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%96%E9%83%A8%E5%8E%8B%E5%8A%9B%E4%BB%8D%E6%98%AF%E6%94%BF%E7%AD%96%E9%A3%8E%E9%99%A9%EF%BC%8C%E8%80%8C%E9%9D%9E%E5%B7%B2%E7%BB%8F%E5%85%91%E7%8E%B0%E7%9A%84%E5%86%B2%E5%87%BB"><span class="nav-text">外部压力仍是政策风险，而非已经兑现的冲击</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8E%A5%E4%B8%8B%E6%9D%A5%E5%85%B3%E6%B3%A8%E4%BB%80%E4%B9%88"><span class="nav-text">接下来关注什么</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BB%B6%E4%BC%B8%E9%97%AE%E9%A2%98"><span class="nav-text">延伸问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%A3%E5%BE%84%E4%B8%8E%E5%81%87%E8%AE%BE"><span class="nav-text">口径与假设</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BC%96%E8%BE%91%E8%AF%B4%E6%98%8E"><span class="nav-text">编辑说明</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -350,7 +352,6 @@
 
 <blockquote>
 <p><strong>报道区间：</strong> 2026年8月24日至30日（北京时间）。发布于2026年8月30日。</p>
-<p><strong>财新周刊参考：</strong> 《财新周刊》第1220期，2026年8月24日出版；下一期超出本期资料截止日。</p>
 <p><strong>语言版本：</strong> <a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30/">English</a> · <strong>中文</strong> · <a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-ja/">日本語</a></p>
 </blockquote>
 <span id="more"></span>
@@ -362,7 +363,7 @@
 <li><strong>AI开始进入金融交易的责任层。</strong> 中国支付清算协会发布智能体支付自律公约，提出“了解你的智能体”（KYA）、清晰授权、持牌机构负责和上线前报备评估；国家数据局披露全国智算规模已达到245万PFLOPS（FP16）。</li>
 <li><strong>政治信号集中在人员处理和执行问责。</strong> 张又侠、刘振立等四名军方代表资格终止，张又侠和刘振立的国家军委职务被免去；公开公告没有说明具体原因，分析应停留在可验证的制度事实层面。</li>
 </ul>
-<h2 id="一、工业利润反弹：总量改善，结构仍然很窄"><a href="#一、工业利润反弹：总量改善，结构仍然很窄" class="headerlink" title="一、工业利润反弹：总量改善，结构仍然很窄"></a>一、工业利润反弹：总量改善，结构仍然很窄</h2><p>国家统计局8月27日公布，1—7月全国规模以上工业企业实现利润总额 <strong>4.582万亿元</strong>，同比增长 <strong>17.6%</strong>；营业收入增长6.5%，营业收入利润率为5.66%，同比提高0.54个百分点。<a target="_blank" rel="noopener" href="https://www.stats.gov.cn/sj/zxfb/202608/t20260827_1965126.html">国家统计局数据</a></p>
+<h2 id="工业利润反弹：总量改善，结构仍然很窄"><a href="#工业利润反弹：总量改善，结构仍然很窄" class="headerlink" title="工业利润反弹：总量改善，结构仍然很窄"></a>工业利润反弹：总量改善，结构仍然很窄</h2><p>国家统计局8月27日公布，1—7月全国规模以上工业企业实现利润总额 <strong>4.582万亿元</strong>，同比增长 <strong>17.6%</strong>；营业收入增长6.5%，营业收入利润率为5.66%，同比提高0.54个百分点。<a target="_blank" rel="noopener" href="https://www.stats.gov.cn/sj/zxfb/202608/t20260827_1965126.html">国家统计局数据</a></p>
 <table>
 <thead>
 <tr>
@@ -414,7 +415,7 @@
 </tbody></table>
 <p>这组数据更像是<strong>结构性利润修复</strong>，而不是广泛的内需复苏。电子、有色、化工和采矿等行业的利润改善，可能反映产业位置、价格和出口结构的变化；但汽车、建材及电力等行业仍弱，且应收账款与存货增长快于企业愿望中的健康现金循环。</p>
 <p>因此，本周不宜把“利润同比增长17.6%”直接写成“企业信心恢复”。更有价值的问题是：利润能否转化为现金流，民营企业能否获得订单，库存能否下降，传统行业的价格竞争能否缓和。</p>
-<h2 id="二、房地产：从主体信用转向项目、交付和资金封闭管理"><a href="#二、房地产：从主体信用转向项目、交付和资金封闭管理" class="headerlink" title="二、房地产：从主体信用转向项目、交付和资金封闭管理"></a>二、房地产：从主体信用转向项目、交付和资金封闭管理</h2><p>8月28日，央行与金融监管总局发布房地产信贷管理意见，共36条，重点包括：</p>
+<h2 id="房地产政策从主体信用转向项目、交付和资金封闭管理"><a href="#房地产政策从主体信用转向项目、交付和资金封闭管理" class="headerlink" title="房地产政策从主体信用转向项目、交付和资金封闭管理"></a>房地产政策从主体信用转向项目、交付和资金封闭管理</h2><p>8月28日，央行与金融监管总局发布房地产信贷管理意见，共36条，重点包括：</p>
 <ul>
 <li>房地产开发贷款实行<strong>项目主办银行制</strong>，单个项目对应一家主办银行；</li>
 <li>预售项目开发贷款期限原则上不超过3年、最长5年，现售项目最长可至7年；</li>
@@ -425,10 +426,10 @@
 <p>同日，证监会发布房地产资本市场支持意见，支持上市房企再融资、公司债、CMBS、ABS、租赁住房和城市更新REITs，并强调从依赖主体信用转向基于项目情况融资，同时加强信息披露和募集资金穿透监管。<a target="_blank" rel="noopener" href="https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml">证监会公告</a></p>
 <p>这不是单向度的“地产放松”，而是<strong>支持合理项目融资，同时把预售和集团信用的风险隔离开</strong>。从购房人角度，竣工备案后发放贷款和封闭管理有助于降低交付风险；从开发商角度，预售资金转化为可用融资的时间可能延后，项目的现金流管理要求更高。</p>
 <p>短期内，部分预售项目的新增按揭和房企现金转换速度可能受压；中长期能否改善地产信用，要看项目是否真的可以获得主办银行融资、预售资金是否能够闭环、以及二手房和现房交易是否出现持续改善。政策本身不能证明全国房价已经见底。</p>
-<h2 id="三、货币政策：中期资金与隔夜工具配合，仍不是LPR信号"><a href="#三、货币政策：中期资金与隔夜工具配合，仍不是LPR信号" class="headerlink" title="三、货币政策：中期资金与隔夜工具配合，仍不是LPR信号"></a>三、货币政策：中期资金与隔夜工具配合，仍不是LPR信号</h2><p>央行8月25日开展5000亿元、期限一年的MLF操作。由于当月有6000亿元MLF到期，单看MLF为缩量续作1000亿元；同时，央行安排8月27日至9月1日开展隔夜逆回购，每日操作量不超过6000亿元。<a target="_blank" rel="noopener" href="https://www.thepaper.cn/newsDetail_forward_33840494">相关公告及报道</a></p>
+<h2 id="流动性管理走在全面货币宽松之前"><a href="#流动性管理走在全面货币宽松之前" class="headerlink" title="流动性管理走在全面货币宽松之前"></a>流动性管理走在全面货币宽松之前</h2><p>央行8月25日开展5000亿元、期限一年的MLF操作。由于当月有6000亿元MLF到期，单看MLF为缩量续作1000亿元；同时，央行安排8月27日至9月1日开展隔夜逆回购，每日操作量不超过6000亿元。<a target="_blank" rel="noopener" href="https://www.thepaper.cn/newsDetail_forward_33840494">相关公告及报道</a></p>
 <p>财新此前对8月隔夜逆回购的解读是：该工具兼有应急和日常流动性管理功能，央行更关注短期资金面和操作精准度，而不是用每一次操作表达新的政策利率方向。<a target="_blank" rel="noopener" href="https://finance.caixin.com/2026-08-19/102475698.html">财新：央行连续三个月动用隔夜逆回购</a></p>
 <p>本周的组合可以概括为：<strong>流动性保持可用，价格信号保持克制</strong>。MLF缩量并不自动等同于收紧，隔夜逆回购放量也不自动等同于全面宽松。对LPR的判断，仍应观察政策利率、存款利率、银行净息差和财政支出进度，而不能只看央行投放金额。本周没有出现新的LPR下调信号。</p>
-<h2 id="四、AI与金融：从“能不能做”进入“谁负责、如何回退”"><a href="#四、AI与金融：从“能不能做”进入“谁负责、如何回退”" class="headerlink" title="四、AI与金融：从“能不能做”进入“谁负责、如何回退”"></a>四、AI与金融：从“能不能做”进入“谁负责、如何回退”</h2><p>《财新周刊》第1220期（8月24日出版）把“AI基建：得东南亚者得天下”放在封面，并同时讨论个人信息保护、AI投资仓位重整和L3级自动驾驶量产。这组目录线索说明，AI竞争已经从单一模型能力扩展到<strong>算力与能源、跨境部署、数据治理和商业化兑现</strong>。<a target="_blank" rel="noopener" href="https://weekly.caixin.com/2026/cw1220/">《财新周刊》第1220期目录</a></p>
+<h2 id="AI与金融进入授权、问责和回退层"><a href="#AI与金融进入授权、问责和回退层" class="headerlink" title="AI与金融进入授权、问责和回退层"></a>AI与金融进入授权、问责和回退层</h2><p>《财新周刊》第1220期（8月24日出版）把“AI基建：得东南亚者得天下”放在封面，并同时讨论个人信息保护、AI投资仓位重整和L3级自动驾驶量产。这组目录线索说明，AI竞争已经从单一模型能力扩展到<strong>算力与能源、跨境部署、数据治理和商业化兑现</strong>。<a target="_blank" rel="noopener" href="https://weekly.caixin.com/2026/cw1220/">《财新周刊》第1220期目录</a></p>
 <p>封面报道的公开摘要提到，东南亚正在承接全球算力外溢，来自中国的数据中心运营商、托管服务商以及电力、能源和液冷供应商参与其中；周刊导播还把局部电网实时平衡视为扩张瓶颈。<a target="_blank" rel="noopener" href="https://weekly.caixin.com/2026-08-21/102476335.html">封面报道公开摘要</a> <a target="_blank" rel="noopener" href="https://weekly.caixin.com/zkdb/index.html">周刊导播</a> <strong>据此推断</strong>，中国AI产业的“出海”不只是卖模型或服务器，也是在输出数据中心、电力配套和运维能力；政策观察不能只盯国内算力总量，还要看跨境基础设施的审批、用电和风险定价。</p>
 <p>8月24日，中国支付清算协会发布《智能体支付应用自律公约》。公约提出：</p>
 <ul>
@@ -439,18 +440,12 @@
 </ul>
 <p>与此同时，国家数据局披露，截至7月底全国智算总规模达到 <strong>245万PFLOPS（FP16）</strong>，八大国家算力枢纽和三个算电协同发展区的智算规模占全国比重超过85%。<a target="_blank" rel="noopener" href="https://www.nda.gov.cn/sjj/jgsz/jld/llh/llhldhd/0829/20260829150055779816795_pc.html">国家数据局</a></p>
 <p>AI本周出现了两个值得放在一起看的变化：一边是算力被纳入基础设施和能源配置，另一边是智能体被纳入支付责任和消费者保护。对金融行业而言，AI的核心竞争力不只是模型准确率，还包括授权记录、交易限额、人工接管、审计日志和事故回退。</p>
-<h2 id="五、政治与治理：公开事实显示人员处理继续推进"><a href="#五、政治与治理：公开事实显示人员处理继续推进" class="headerlink" title="五、政治与治理：公开事实显示人员处理继续推进"></a>五、政治与治理：公开事实显示人员处理继续推进</h2><p>8月28日，十四届全国人大常委会作出相关决定：张又侠被免去中央军委副主席职务，刘振立被免去中央军委委员职务；张又侠、钟绍军、刘振立、巨乾生四人的全国人大代表资格终止。<a target="_blank" rel="noopener" href="https://china.caixin.com/m/2026-08-28/102479454.html">财新报道</a></p>
+<h2 id="政治信号在于执行与问责"><a href="#政治信号在于执行与问责" class="headerlink" title="政治信号在于执行与问责"></a>政治信号在于执行与问责</h2><p>8月28日，十四届全国人大常委会作出相关决定：张又侠被免去中央军委副主席职务，刘振立被免去中央军委委员职务；张又侠、钟绍军、刘振立、巨乾生四人的全国人大代表资格终止。<a target="_blank" rel="noopener" href="https://china.caixin.com/m/2026-08-28/102479454.html">财新报道</a></p>
 <p>目前公开公告主要确认了职务和代表资格处理，<strong>没有说明四人的具体原因</strong>。因此，周报可以写“制度性处理和军队人事调整已公开化”，不应把未披露的动机、派系关系或后续刑事结果写成事实。</p>
 <p>另一个地方治理信号是，上海市委副书记朱忠明于8月29日以市政府党组书记身份主持会议。朱忠明有财政、审计和中央财经部门经历，但截至资料截止日，上海市长的正式任命尚未在公开材料中完成确认。<a target="_blank" rel="noopener" href="https://china.caixin.com/m/2026-08-29/102479808.html">财新人事观察</a></p>
-<h2 id="六、外部环境：关税风险仍处于“可能升级”而非“已实施”"><a href="#六、外部环境：关税风险仍处于“可能升级”而非“已实施”" class="headerlink" title="六、外部环境：关税风险仍处于“可能升级”而非“已实施”"></a>六、外部环境：关税风险仍处于“可能升级”而非“已实施”</h2><p>8月27日，商务部回应美国政府考虑以“产能过剩”为由，对包括中国在内的16个经济体发起301调查并可能对华额外加征7.5%关税。中方表示坚决反对，将继续评估美方举措并保留采取必要措施的权利。<a target="_blank" rel="noopener" href="https://www.xinhuanet.com/20260827/7915bcf14cda488083f7ef4eed33ee05/c.html">新华社转述商务部发布会</a></p>
+<h2 id="外部压力仍是政策风险，而非已经兑现的冲击"><a href="#外部压力仍是政策风险，而非已经兑现的冲击" class="headerlink" title="外部压力仍是政策风险，而非已经兑现的冲击"></a>外部压力仍是政策风险，而非已经兑现的冲击</h2><p>8月27日，商务部回应美国政府考虑以“产能过剩”为由，对包括中国在内的16个经济体发起301调查并可能对华额外加征7.5%关税。中方表示坚决反对，将继续评估美方举措并保留采取必要措施的权利。<a target="_blank" rel="noopener" href="https://www.xinhuanet.com/20260827/7915bcf14cda488083f7ef4eed33ee05/c.html">新华社转述商务部发布会</a></p>
 <p>截至资料截止日，7.5%仍是<strong>可能措施</strong>，不是已经生效的税率。对中国经济的直接影响取决于最终产品清单、实施时间、豁免范围和企业转嫁能力；在此之前，更适合把它作为出口和产业链的政策风险，而不是已经兑现的冲击。</p>
-<h2 id="本周判断"><a href="#本周判断" class="headerlink" title="本周判断"></a>本周判断</h2><ol>
-<li><strong>政策重心从“便宜的信用”转向“可控的信用”。</strong> 房地产新规、项目主办银行、预售资金监管和AI支付责任，都在强化资金用途、责任主体和事后追溯。</li>
-<li><strong>利润修复仍未穿透到广泛需求。</strong> 高技术和资源行业表现强，不足以抵消汽车、建材、电力和民营部门的压力；应收账款与库存是更重要的反向指标。</li>
-<li><strong>降LPR不是本周的主线。</strong> 央行仍在提供流动性，但更关注工具的期限和精准度；是否降价，要看财政执行和银行负债成本是否出现新的约束变化。</li>
-<li><strong>AI的制度化速度快于商业模式验证。</strong> 支付公约、算力监测和持牌责任先行，意味着金融科技项目的合规架构会成为产品能力的一部分。</li>
-</ol>
-<h2 id="下周观察清单"><a href="#下周观察清单" class="headerlink" title="下周观察清单"></a>下周观察清单</h2><ul>
+<h2 id="接下来关注什么"><a href="#接下来关注什么" class="headerlink" title="接下来关注什么"></a>接下来关注什么</h2><ul>
 <li>官方PMI中的新订单、建筑业和小型企业指数，是否显示财政资金开始传导到需求；</li>
 <li>房地产信贷、现房销售和预售资金监管的地方执行细则，是否影响项目开工、成交和按揭节奏；</li>
 <li>央行9月初的公开市场操作、政策利率和LPR报价，是否出现新的价格信号；</li>
@@ -459,6 +454,19 @@
 <li>智能体支付是否出现首批报备、测试或持牌机构试点信息；</li>
 <li>上海市长正式任命及军队相关职务处理是否有进一步公开信息。</li>
 </ul>
+<h2 id="延伸问题"><a href="#延伸问题" class="headerlink" title="延伸问题"></a>延伸问题</h2><ul>
+<li>房地产信贷新框架有多少会转化为项目层面的实际融资和交付，而不只是银行流程的调整？</li>
+<li>工业利润改善能否从电子和资源行业扩散，还是会继续集中在少数政策支持行业？</li>
+<li>智能体支付规则能否让授权、责任和回退机制可审计，同时不压低有用金融应用的效率？</li>
+<li>如果需求和民营企业现金流在9月仍弱，缺少新的LPR信号是否会持续？</li>
+</ul>
+<h2 id="口径与假设"><a href="#口径与假设" class="headerlink" title="口径与假设"></a>口径与假设</h2><ul>
+<li>报道区间为2026年8月24日至30日，以北京时间计算。此后信息仅用于核验状态，不作为本周新增事件处理。</li>
+<li>工业利润、房地产和流动性数据采用不同统计或操作口径，不能合并理解为单一综合指标。</li>
+<li>《财新周刊》第1220期仅使用公开目录和公开摘要，未转载付费正文。</li>
+<li>对政策意图、政治意义和后续LPR行动的判断属于分析，不是预测或投资建议。</li>
+</ul>
+<hr>
 <h3 id="编辑说明"><a href="#编辑说明" class="headerlink" title="编辑说明"></a>编辑说明</h3><p>本周报由作者独立撰写，以国家统计局、央行、金融监管总局、证监会、国家数据局、商务部、新华社等公开材料为事实底稿，并参考《财新周刊》第1220期的公开目录和公开摘要。本文不转载付费正文；事实、结构性分析和作者推断分开呈现，链接仅用于来源说明和延伸阅读。</p>
 <p><em>本文提供一般性政治经济分析，不构成法律、财务、购房、信贷或投资建议。</em></p>
 
@@ -473,8 +481,8 @@
               <a href="/tags/%E6%88%BF%E5%9C%B0%E4%BA%A7/" rel="tag"># 房地产</a>
               <a href="/tags/%E4%B8%AD%E5%9B%BD/" rel="tag"># 中国</a>
               <a href="/tags/%E6%94%BF%E6%B2%BB%E7%BB%8F%E6%B5%8E/" rel="tag"># 政治经济</a>
-              <a href="/tags/%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96/" rel="tag"># 货币政策</a>
               <a href="/tags/%E5%B7%A5%E4%B8%9A%E5%88%A9%E6%B6%A6/" rel="tag"># 工业利润</a>
+              <a href="/tags/%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96/" rel="tag"># 货币政策</a>
               <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" rel="tag"># 人工智能</a>
               <a href="/tags/%E8%B4%A2%E6%96%B0%E5%91%A8%E5%88%8A/" rel="tag"># 财新周刊</a>
           </div>
@@ -483,13 +491,13 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-ja/" rel="prev" title="中国政経ウィークリー｜2026年8月24日〜30日：信用ルールの再設計と不均一な利益回復">
-                  <i class="fa fa-angle-left"></i> 中国政経ウィークリー｜2026年8月24日〜30日：信用ルールの再設計と不均一な利益回復
+                <a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30/" rel="prev" title="China Political Economy Weekly | Aug 24–30, 2026: Credit Rules Are Being Rewritten">
+                  <i class="fa fa-angle-left"></i> China Political Economy Weekly | Aug 24–30, 2026: Credit Rules Are Being Rewritten
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30/" rel="next" title="China Political Economy Weekly | Aug 24–30, 2026: Credit Rules Are Being Rewritten">
-                  China Political Economy Weekly | Aug 24–30, 2026: Credit Rules Are Being Rewritten <i class="fa fa-angle-right"></i>
+                <a href="/2026/08/japan-political-economy-weekly-2026-08-30/" rel="next" title="日本政经周报：加息信号与财政成本共振">
+                  日本政经周报：加息信号与财政成本共振 <i class="fa fa-angle-right"></i>
                 </a>
             </div>
           </div>
@@ -509,9 +517,9 @@
   <footer class="footer">
     <div class="footer-inner">
 <div class="portfolio-footer">
-  <span>&copy; 2026 邓磊。独立研究与写作。</span>
+  <span data-site-i18n="footerCopyright">&copy; 2026 Lei Deng。我思故我在。</span>
   <span class="portfolio-footer-separator" aria-hidden="true"></span>
-  <span><a href="/about/">关于我</a> · <a href="/event-radar/">Polymarket观测站</a> · <a href="/atom.xml">RSS 订阅</a> · <a href="https://github.com/terazadl" target="_blank" rel="noopener">GitHub</a></span>
+  <span><a href="/about/" data-site-i18n="navAbout">About me</a> · <a href="/projects/" data-site-i18n="navProjects">项目</a> · <a href="https://github.com/terazadl" target="_blank" rel="noopener" data-site-i18n="githubLabel">GitHub</a></span>
 </div>
 
 
@@ -555,6 +563,233 @@
       Japan: "日本",
       Notes: "笔记"
     };
+    const siteCopy = {
+      ZH: {
+        htmlLang: "zh-CN",
+        brandField: "政治经济 · 市场 · 技术",
+        navPolitics: "政经",
+        navProjects: "项目",
+        navLife: "生活",
+        navAbout: "About me",
+        languageLabel: "Language",
+        languageSwitcher: "阅读语言",
+        mainNav: "主导航",
+        mobileNav: "移动端导航",
+        openNav: "打开导航",
+        codeLabel: "代码",
+        githubLabel: "GitHub",
+        footerCopyright: "© 2026 Lei Deng。我思故我在。",
+        archiveEyebrow: "文章归档",
+        archiveTitle: "文章",
+        archiveIntro: "关于政治经济、金融市场、技术与中日制度变迁的研究与写作。",
+        filterTopic: "主题",
+        filterLanguage: "语言",
+        all: "全部",
+        markets: "金融与市场",
+        ai: "AI 与产业",
+        japan: "日本",
+        countSuffix: "篇文章",
+        readMore: "阅读全文",
+        tocLabel: "本页目录",
+        translationAvailable: "可用译本",
+        translationRead: "阅读：",
+        languageVersions: "可用语言版本",
+        nextReading: "继续阅读",
+        discussionTitle: "讨论",
+        discussionPrompt: "欢迎留下想法、修正与不同意见。",
+        discussionLogin: "使用 GitHub 登录后即可留言。",
+        weeklyChinaTitle: "中国政经周报",
+        weeklyJapanTitle: "日本政经周报",
+        weeklyIntro: "每周追踪政治、财政、货币、产业与居民经济的实质变化。",
+        weeklyLatest: "最新号",
+        weeklyIssueList: "周报列表",
+        weeklyScopeLabel: "范围",
+        weeklyMonth: "2026年8月",
+        weeklyScope: "每周看什么",
+        weeklyChinaScope: "财政执行、货币政策、房地产信用、工业利润、AI 与产业政策，以及这些变化如何传导到企业和居民。",
+        weeklyJapanScope: "日本银行、日元与国债、财政税制、工资与通胀、产业政策，以及这些变化如何影响居民和企业。",
+        weeklyJapanAvailability: "中文、English、日本語版本均已发布。",
+        radarChartTitle: "核心通胀回升幅度高于总项",
+        radarChartSub: "东京 CPI：前值与本期实际值 · 单位：同比百分比",
+        radarChartPrevious: "前值",
+        radarChartActual: "本期",
+        radarChartSource: "F12 哑铃对比 · 日本总务省统计局 · 2026年8月",
+        weeklyBack: "返回政经总览",
+        about: {
+          pageTitle: "关于我",
+          aboutGreeting: "Hi！",
+          aboutKicker: "关于我",
+          aboutHeadlineA: "金融经验，",
+          aboutHeadlineB: "独立研究。",
+          aboutTagline: "写给关心中国、日本与技术变迁的人。",
+          aboutLead: "我是 Lei Deng。这里的写作把我在中国银行业的工作经验，与对政治经济、金融市场、技术和中日制度变迁的独立研究放在一起。",
+          aboutEducation: "目前就读于早稻田大学 MSc in Finance 项目。",
+          aboutResearchTitle: "正在研究",
+          aboutResearchOne: "日本产业转型、人口变化与政策制度",
+          aboutResearchTwo: "银行产品、中央银行、市场结构与金融风险",
+          aboutResearchThree: "开放权重 AI、模型经济学与产业链价值分配",
+          aboutSiteTitle: "这个站点",
+          aboutSiteText: "中文是研究底稿入口；英文和日文面向不同读者分别编辑。同一篇研究的不同语言版本会合并在同一张文章卡中。",
+          aboutWorksTitle: "代表作品",
+          aboutWorkOne: "中国政经周报：财政支持走到前台",
+          aboutWorkTwo: "Polymarket观测站：从概率到可审计读数",
+          aboutWorkThree: "百分之九十八为什么输给百分之八十三",
+          aboutContactTitle: "联系",
+          aboutContactText: "欢迎通过 GitHub 联系我，或浏览项目与研究文章。"
+        },
+        categoryLabels
+      },
+      EN: {
+        htmlLang: "en",
+        brandField: "Politics · Markets · Technology",
+        navPolitics: "Politics & Economy",
+        navProjects: "Projects",
+        navLife: "Life",
+        navAbout: "About",
+        languageLabel: "Language",
+        languageSwitcher: "Reading language",
+        mainNav: "Main navigation",
+        mobileNav: "Mobile navigation",
+        openNav: "Open navigation",
+        codeLabel: "Code",
+        githubLabel: "GitHub",
+        footerCopyright: "© 2026 Lei Deng。I think, therefore I am.",
+        archiveEyebrow: "WRITING ARCHIVE",
+        archiveTitle: "Writing",
+        archiveIntro: "Research and essays on political economy, financial markets, technology, and institutional change across China and Japan.",
+        filterTopic: "Topic",
+        filterLanguage: "Language",
+        all: "All",
+        markets: "Money & Markets",
+        ai: "AI & Industry",
+        japan: "Japan",
+        countSuffix: "articles",
+        readMore: "Read article",
+        tocLabel: "On this page",
+        translationAvailable: "Available editions",
+        translationRead: "Read:",
+        languageVersions: "Available language versions",
+        nextReading: "Continue reading",
+        discussionTitle: "Discussion",
+        discussionPrompt: "Comments, corrections, and disagreements are welcome.",
+        discussionLogin: "Sign in with GitHub to leave a comment.",
+        weeklyChinaTitle: "China Political Economy Weekly",
+        weeklyJapanTitle: "Japan Political Economy Weekly",
+        weeklyIntro: "A weekly record of material changes in politics, fiscal policy, money, industry, and household economies.",
+        weeklyLatest: "LATEST",
+        weeklyIssueList: "ISSUES",
+        weeklyScopeLabel: "SCOPE",
+        weeklyMonth: "August 2026",
+        weeklyScope: "WHAT TO WATCH EACH WEEK",
+        weeklyChinaScope: "Fiscal execution, monetary policy, property credit, industrial profits, AI and industrial policy—and how they reach firms and households.",
+        weeklyJapanScope: "The Bank of Japan, the yen and JGBs, fiscal policy, wages and inflation, industrial policy—and their effects on households and firms.",
+        weeklyJapanAvailability: "Chinese, English, and Japanese editions are all available.",
+        radarChartTitle: "Core inflation is running ahead of headline",
+        radarChartSub: "Tokyo CPI: previous reading versus current actual · unit: y/y percent",
+        radarChartPrevious: "Previous",
+        radarChartActual: "Current",
+        radarChartSource: "F12 Dumbbell Queue · Statistics Bureau of Japan · August 2026",
+        weeklyBack: "Back to Politics & Economy",
+        about: {
+          pageTitle: "About",
+          aboutGreeting: "Hi！",
+          aboutKicker: "ABOUT ME",
+          aboutHeadlineA: "Finance experience,",
+          aboutHeadlineB: "independent research.",
+          aboutTagline: "Writing for readers who follow China, Japan, and technological change.",
+          aboutLead: "I’m Lei Deng. This site brings together my experience in Chinese banking and independent research on political economy, financial markets, technology, and institutional change across China and Japan.",
+          aboutEducation: "Currently pursuing an MSc in Finance at Waseda University.",
+          aboutResearchTitle: "CURRENTLY RESEARCHING",
+          aboutResearchOne: "Industrial transformation, demographics, and policy institutions in Japan",
+          aboutResearchTwo: "Banking products, central banks, market structure, and financial risk",
+          aboutResearchThree: "Open-weight AI, model economics, and value allocation across industry chains",
+          aboutSiteTitle: "THIS SITE",
+          aboutSiteText: "Chinese is the working language for research drafts; English and Japanese editions are edited for different readers. Translations of the same research are grouped into one article card.",
+          aboutWorksTitle: "SELECTED WORK",
+          aboutWorkOne: "China Political Economy Weekly: Fiscal support moves to the front",
+          aboutWorkTwo: "Polymarket Observatory: From probabilities to auditable readings",
+          aboutWorkThree: "Why 98 percent loses to 83 percent",
+          aboutContactTitle: "CONTACT",
+          aboutContactText: "Find me on GitHub, or browse the projects and research."
+        },
+        categoryLabels: { "Money & Markets": "Money & Markets", "AI & Industry": "AI & Industry", Japan: "Japan", Notes: "Notes" }
+      },
+      JA: {
+        htmlLang: "ja",
+        brandField: "政治経済 · 市場 · テクノロジー",
+        navPolitics: "政経",
+        navProjects: "プロジェクト",
+        navLife: "生活",
+        navAbout: "プロフィール",
+        languageLabel: "Language",
+        languageSwitcher: "表示言語",
+        mainNav: "メインナビゲーション",
+        mobileNav: "モバイルナビゲーション",
+        openNav: "ナビゲーションを開く",
+        codeLabel: "コード",
+        githubLabel: "GitHub",
+        footerCopyright: "© 2026 Lei Deng。我思う、ゆえに我あり。",
+        archiveEyebrow: "記事アーカイブ",
+        archiveTitle: "記事",
+        archiveIntro: "中国と日本の政治経済、金融市場、テクノロジー、制度変化に関する研究と執筆。",
+        filterTopic: "テーマ",
+        filterLanguage: "言語",
+        all: "すべて",
+        markets: "金融と市場",
+        ai: "AIと産業",
+        japan: "日本",
+        countSuffix: "件の記事",
+        readMore: "記事を読む",
+        tocLabel: "目次",
+        translationAvailable: "利用できる版",
+        translationRead: "読む：",
+        languageVersions: "利用できる言語版",
+        nextReading: "続きを読む",
+        discussionTitle: "ディスカッション",
+        discussionPrompt: "ご意見、修正、異なる見解をお寄せください。",
+        discussionLogin: "GitHubにログインするとコメントできます。",
+        weeklyChinaTitle: "中国政経ウィークリー",
+        weeklyJapanTitle: "日本政経ウィークリー",
+        weeklyIntro: "政治、財政、金融、産業、家計経済の実質的な変化を毎週追います。",
+        weeklyLatest: "最新号",
+        weeklyIssueList: "記事一覧",
+        weeklyScopeLabel: "対象範囲",
+        weeklyMonth: "2026年8月",
+        weeklyScope: "毎週見るテーマ",
+        weeklyChinaScope: "財政執行、金融政策、不動産信用、工業利益、AI・産業政策が企業と家計にどう波及するか。",
+        weeklyJapanScope: "日本銀行、円と国債、財政・税制、賃金と物価、産業政策が家計と企業に与える影響。",
+        weeklyJapanAvailability: "中国語・英語・日本語の各版を公開しています。",
+        radarChartTitle: "基調インフレの上昇幅が総合を上回る",
+        radarChartSub: "東京CPI：前回と今回の実績 · 単位：前年比％",
+        radarChartPrevious: "前回",
+        radarChartActual: "今回",
+        radarChartSource: "F12 Dumbbell Queue · 総務省統計局 · 2026年8月",
+        weeklyBack: "政経トップへ戻る",
+        about: {
+          pageTitle: "プロフィール",
+          aboutGreeting: "Hi！",
+          aboutKicker: "プロフィール",
+          aboutHeadlineA: "金融の経験、",
+          aboutHeadlineB: "独立した研究。",
+          aboutTagline: "中国、日本、そして技術の変化を追う人へ。",
+          aboutLead: "Lei Dengです。中国の銀行業務での経験と、中国・日本の政治経済、金融市場、テクノロジー、制度変化に関する独立研究を、このサイトにまとめています。",
+          aboutEducation: "現在、早稲田大学でMSc in Financeを学んでいます。",
+          aboutResearchTitle: "研究テーマ",
+          aboutResearchOne: "日本の産業転換、人口動態、政策・制度",
+          aboutResearchTwo: "銀行商品、中央銀行、市場構造、金融リスク",
+          aboutResearchThree: "オープンウェイトAI、モデル経済学、産業チェーンの価値配分",
+          aboutSiteTitle: "このサイトについて",
+          aboutSiteText: "中国語を研究の下書き言語とし、英語と日本語は読者に合わせて編集しています。同じ研究の各言語版は一つの記事カードにまとめています。",
+          aboutWorksTitle: "主な記事",
+          aboutWorkOne: "中国政経週報：財政支援が前面に",
+          aboutWorkTwo: "Polymarket観測站：確率から監査可能な数値へ",
+          aboutWorkThree: "なぜ98％は83％に負けるのか",
+          aboutContactTitle: "連絡先",
+          aboutContactText: "GitHubから連絡するか、プロジェクトと研究記事をご覧ください。"
+        },
+        categoryLabels: { "Money & Markets": "金融と市場", "AI & Industry": "AIと産業", Japan: "日本", Notes: "ノート" }
+      }
+    };
 
     const normalizePath = value => {
       try {
@@ -577,6 +812,14 @@
     const groupByKey = new Map(
       contentIndex.groups.map(group => [group.key, group])
     );
+    const localizedGroupEntry = (group, language) => {
+      if (!group) return null;
+      const languageEntry = group.languages?.find(item => item.code === language);
+      if (languageEntry) {
+        return entryByPath.get(normalizePath(languageEntry.path)) || null;
+      }
+      return entryByPath.get(normalizePath(group.primaryPath)) || null;
+    };
 
     const activePostEntry = !window.location.pathname.startsWith("/essays/")
       ? entryByPath.get(normalizePath(window.location.pathname))
@@ -599,24 +842,197 @@
     }
 
     const archiveLanguage = new URLSearchParams(window.location.search).get("lang");
+    const isEssaysPage = window.location.pathname.startsWith("/essays/");
+    const isAboutPage = window.location.pathname.startsWith("/about/");
+    const isWeeklyPage = window.location.pathname.startsWith("/china-weekly/")
+      || window.location.pathname.startsWith("/japan-weekly/");
     const activeLanguage = activePostEntry?.langCode || (
-      window.location.pathname.startsWith("/essays/") && ["EN", "ZH", "JA"].includes(archiveLanguage)
+      (isEssaysPage || isAboutPage || isWeeklyPage) && ["EN", "ZH", "JA"].includes(archiveLanguage)
         ? archiveLanguage
         : "ZH"
     );
+    const copy = siteCopy[activeLanguage] || siteCopy.ZH;
+    window.__PORTFOLIO_SITE_COPY__ = copy;
+    document.documentElement.lang = copy.htmlLang;
+    document.querySelectorAll("[data-site-i18n]").forEach(node => {
+      const value = copy[node.dataset.siteI18n];
+      if (value) node.textContent = value;
+    });
+    document.querySelectorAll("[data-site-i18n-aria]").forEach(node => {
+      const value = copy[node.dataset.siteI18nAria];
+      if (value) node.setAttribute("aria-label", value);
+    });
+    if (isAboutPage && copy.about) {
+      document.title = copy.about.pageTitle + " — Lei Deng";
+      document.querySelectorAll("[data-site-i18n]").forEach(node => {
+        const value = copy.about[node.dataset.siteI18n];
+        if (value) node.textContent = value;
+      });
+    }
+    if (isWeeklyPage) {
+      const weeklyKey = window.location.pathname.startsWith("/china-weekly/")
+        ? "weeklyChinaTitle" : "weeklyJapanTitle";
+      document.title = copy[weeklyKey] + " — Lei Deng";
+    }
     const activeGroup = activePostEntry
       ? groupByKey.get(activePostEntry.translationKey)
       : null;
     document.querySelectorAll("[data-language-link]").forEach(link => {
       const code = link.dataset.languageLink;
       const edition = activeGroup?.languages?.find(language => language.code === code);
-      const fallback = code === "ZH" ? "/" : "/essays/?lang=" + code;
+      const fallback = isAboutPage
+        ? (code === "ZH" ? "/about/" : "/about/?lang=" + code)
+        : isWeeklyPage
+          ? (window.location.pathname + (code === "ZH" ? "" : "?lang=" + code))
+          : (code === "ZH" ? "/" : "/essays/?lang=" + code);
       link.href = edition?.path || fallback;
       const isActive = code === activeLanguage;
       link.classList.toggle("is-active", isActive);
       if (isActive) link.setAttribute("aria-current", "page");
       else link.removeAttribute("aria-current");
     });
+    document.querySelectorAll('[data-nav-root="about"]').forEach(link => {
+      link.href = activeLanguage === "ZH" ? "/about/" : "/about/?lang=" + activeLanguage;
+    });
+
+    const dataRadarHeading = Array.from(document.querySelectorAll(".post-content h2")).find(node =>
+      /数据雷达|data\s*radar|データ[・\s]?レーダー/i.test(node.textContent || "")
+    );
+    const dataRadarTable = dataRadarHeading?.nextElementSibling;
+    if (dataRadarHeading && dataRadarTable?.tagName === "TABLE") {
+      dataRadarHeading.classList.add("portfolio-data-radar-heading");
+      dataRadarTable.classList.add("portfolio-data-radar-table");
+      const wrapper = document.createElement("div");
+      wrapper.className = "portfolio-data-radar";
+      dataRadarTable.parentNode.insertBefore(wrapper, dataRadarTable);
+      wrapper.appendChild(dataRadarTable);
+
+      const labels = Array.from(dataRadarTable.querySelectorAll("thead th"))
+        .map(cell => cell.textContent.trim());
+      dataRadarTable.querySelectorAll("tbody tr").forEach(row => {
+        row.querySelectorAll("td").forEach((cell, index) => {
+          cell.dataset.label = labels[index] || "";
+          if (index === 1) cell.dataset.radarRole = "actual";
+          if (index === row.children.length - 1) cell.dataset.radarRole = "meaning";
+        });
+      });
+
+      const percentValue = value => {
+        const match = String(value || "").match(/[+\-−]?\s*\d+(?:\.\d+)?\s*[%％]/);
+        if (!match) return null;
+        return Number(match[0].replace(/[^0-9.+\-]/g, ""));
+      };
+      const cpiLabel = value => {
+        const text = String(value || "");
+        if (/总项|headline|総合/i.test(text)) return activeLanguage === "EN" ? "Headline" : activeLanguage === "JA" ? "総合" : "总项";
+        if (/生鲜食品及能源|fresh food\s*&\s*energy|生鮮・エネルギー/i.test(text)) return activeLanguage === "EN" ? "Ex fresh food & energy" : activeLanguage === "JA" ? "生鮮・エネルギー除き" : "除生鲜及能源";
+        if (/生鲜食品|fresh food|生鮮/i.test(text)) return activeLanguage === "EN" ? "Ex fresh food" : activeLanguage === "JA" ? "生鮮除き" : "除生鲜";
+        return text;
+      };
+      const cpiRows = Array.from(dataRadarTable.querySelectorAll("tbody tr"))
+        .map(row => {
+          const cells = Array.from(row.querySelectorAll("td"));
+          return {
+            label: cpiLabel(cells[0]?.textContent),
+            actual: percentValue(cells[1]?.textContent),
+            previous: percentValue(cells[2]?.textContent)
+          };
+        })
+        .filter(row => /CPI|总项|除生鲜|総合|生鲜|生鮮|headline|fresh food/i.test(row.label) && row.actual !== null && row.previous !== null)
+        .slice(0, 3);
+
+      if (cpiRows.length >= 2) {
+        const chartId = "data-radar-cpi-" + normalizePath(window.location.pathname).replace(/[^a-z0-9]+/gi, "-");
+        const chartCard = document.createElement("section");
+        chartCard.className = "portfolio-data-radar-chart";
+        chartCard.setAttribute("aria-labelledby", chartId + "-title");
+        chartCard.innerHTML = `
+          <div class="portfolio-data-radar-chart-head">
+            <p class="portfolio-data-radar-chart-kicker">CPI LAYERS · F12 DUMBBELL QUEUE</p>
+            <h3 id="${chartId}-title"></h3>
+            <p class="portfolio-data-radar-chart-sub"></p>
+          </div>
+          <svg id="${chartId}" viewBox="0 0 760 300" preserveAspectRatio="xMidYMid meet" role="img"></svg>
+          <div class="portfolio-data-radar-chart-legend"><span class="is-previous">${copy.radarChartPrevious}</span><span class="is-actual">${copy.radarChartActual}</span></div>
+          <p class="portfolio-data-radar-chart-source"></p>`;
+        chartCard.querySelector("h3").textContent = copy.radarChartTitle;
+        chartCard.querySelector(".portfolio-data-radar-chart-sub").textContent = copy.radarChartSub;
+        chartCard.querySelector(".portfolio-data-radar-chart-source").textContent = copy.radarChartSource;
+        chartCard.querySelector("svg").setAttribute("aria-label", copy.radarChartTitle);
+        dataRadarHeading.parentNode.insertBefore(chartCard, wrapper);
+
+        // F12 Dumbbell Queue skeleton: hollow = previous, solid = current,
+        // beads = each 0.1 percentage-point change between the two readings.
+        const INK = "#1C1C1A";
+        const PAPER = "#F0EFEB";
+        const MUTED = "#8F8E88";
+        const GRID = "#DEDDD6";
+        const DATA = "#2F55D4";
+        const NS = "http://www.w3.org/2000/svg";
+        const el = (parent, tag, attrs) => {
+          const node = document.createElementNS(NS, tag);
+          Object.entries(attrs).forEach(([key, value]) => node.setAttribute(key, value));
+          parent.appendChild(node);
+          return node;
+        };
+        const txt = (parent, attrs, value) => {
+          const node = el(parent, "text", attrs);
+          node.textContent = value;
+          return node;
+        };
+        const tip = (node, value) => {
+          const title = document.createElementNS(NS, "title");
+          title.textContent = value;
+          node.appendChild(title);
+        };
+        const obsReveal = (id, render) => {
+          const svg = document.getElementById(id);
+          if (!svg) return;
+          const draw = () => { svg.innerHTML = ""; render(svg); };
+          const observer = new IntersectionObserver(entries => {
+            if (entries[0]?.isIntersecting) { draw(); observer.disconnect(); }
+          }, { threshold: .3 });
+          observer.observe(svg);
+          svg.addEventListener("click", draw);
+        };
+
+        obsReveal(chartId, svg => {
+          const x0 = 190;
+          const x1 = 700;
+          const y0 = 62;
+          const rowGap = 56;
+          const values = cpiRows.flatMap(row => [row.previous, row.actual]);
+          const min = Math.min(...values) - .12;
+          const max = Math.max(...values) + .12;
+          const mapX = value => x0 + (value - min) / (max - min) * (x1 - x0);
+
+          cpiRows.forEach((row, index) => {
+            const y = y0 + index * rowGap;
+            const previousX = mapX(row.previous);
+            const actualX = mapX(row.actual);
+            txt(svg, { x: 176, y: y + 4, "font-size": 13, "font-weight": 700, fill: INK, "text-anchor": "end" }, row.label);
+            el(svg, "line", { x1: x0 - 8, y1: y, x2: x1 + 8, y2: y, stroke: GRID, "stroke-width": 1 });
+
+            const beadCount = Math.max(1, Math.round(Math.abs(row.actual - row.previous) * 10));
+            for (let bead = 0; bead < beadCount; bead += 1) {
+              const t = (bead + .5) / beadCount;
+              const x = previousX + t * (actualX - previousX);
+              el(svg, "circle", { cx: x, cy: y, r: 3, fill: DATA, opacity: .72 });
+            }
+            const previous = el(svg, "circle", { cx: previousX, cy: y, r: 6, fill: PAPER, stroke: INK, "stroke-width": 1.5 });
+            tip(previous, `${copy.radarChartPrevious}: ${row.previous.toFixed(1)}%`);
+            const actual = el(svg, "circle", { cx: actualX, cy: y, r: 7, fill: DATA });
+            tip(actual, `${copy.radarChartActual}: ${row.actual.toFixed(1)}%`);
+            txt(svg, { x: previousX, y: y - 13, "font-size": 11, "font-weight": 700, fill: MUTED, "text-anchor": "middle" }, `${row.previous.toFixed(1)}%`);
+            txt(svg, { x: actualX, y: y - 13, "font-size": 11, "font-weight": 800, fill: DATA, "text-anchor": "middle" }, `${row.actual.toFixed(1)}%`);
+          });
+
+          txt(svg, { x: x0, y: 260, "font-size": 10, "font-weight": 700, fill: MUTED }, copy.radarChartPrevious.toUpperCase());
+          txt(svg, { x: x1, y: 260, "font-size": 10, "font-weight": 700, fill: DATA, "text-anchor": "end" }, copy.radarChartActual.toUpperCase());
+          txt(svg, { x: 380, y: 286, "font-size": 9, "font-weight": 600, fill: MUTED, "text-anchor": "middle", "letter-spacing": ".12em" }, "ONE BEAD = 0.1 PERCENTAGE POINT");
+        });
+      }
+    }
 
     const getPostPath = post => {
       const link = post.querySelector(".post-title-link");
@@ -653,17 +1069,17 @@
 
       const eyebrow = document.createElement("p");
       eyebrow.className = "research-eyebrow";
-      eyebrow.textContent = "文章归档";
+      eyebrow.textContent = copy.archiveEyebrow;
 
       const title = document.createElement("h1");
-      title.textContent = "文章";
+      title.textContent = copy.archiveTitle;
 
       const intro = document.createElement("p");
-      intro.textContent = "关于政治经济、金融市场、技术与中日制度变迁的研究与写作。";
+      intro.textContent = copy.archiveIntro;
 
       const filters = document.createElement("div");
       filters.className = "portfolio-essay-filters";
-      filters.setAttribute("aria-label", "筛选文章");
+      filters.setAttribute("aria-label", copy.archiveTitle);
 
       const createFilter = (name, values, key) => {
         const group = document.createElement("div");
@@ -690,14 +1106,14 @@
       };
 
       filters.append(
-        createFilter("主题", [
-          { value: "all", label: "全部" },
-          { value: "markets", label: "金融与市场" },
-          { value: "ai", label: "AI 与产业" },
-          { value: "japan", label: "日本" }
+        createFilter(copy.filterTopic, [
+          { value: "all", label: copy.all },
+          { value: "markets", label: copy.markets },
+          { value: "ai", label: copy.ai },
+          { value: "japan", label: copy.japan }
         ], "topic"),
-        createFilter("语言", [
-          { value: "all", label: "全部" },
+        createFilter(copy.filterLanguage, [
+          { value: "all", label: copy.all },
           { value: "EN", label: "EN" },
           { value: "ZH", label: "中文" },
           { value: "JA", label: "日本語" }
@@ -764,7 +1180,7 @@
         const entry = entryByPath.get(path);
         const group = entry ? groupByKey.get(entry.translationKey) : null;
         const defaultEntry = group
-          ? entryByPath.get(normalizePath(group.primaryPath)) || entry
+          ? localizedGroupEntry(group, activeLanguage) || entry
           : entry;
         const languages = group?.languages || [{
           code: normalizeLanguage(card.querySelector(".post-content")?.getAttribute("lang")),
@@ -776,14 +1192,14 @@
         const categoryName = card.querySelector('[itemprop="about"] [itemprop="name"]');
         const cardCategory = group?.category || entry?.category || "";
         if (categoryName && cardCategory) {
-          categoryName.textContent = categoryLabels[cardCategory] || cardCategory;
+          categoryName.textContent = copy.categoryLabels[cardCategory] || cardCategory;
         }
 
         card.__portfolioTranslationState = {
           group,
           defaultEntry,
-          defaultPath: group?.primaryPath || path,
-          defaultTitle: group?.cardTitle || defaultEntry?.title || card.querySelector(".post-title-link")?.textContent.trim() || "",
+          defaultPath: defaultEntry?.path || group?.primaryPath || path,
+          defaultTitle: defaultEntry?.cardTitle || defaultEntry?.title || card.querySelector(".post-title-link")?.textContent.trim() || "",
           defaultDescription: defaultEntry?.description || card.querySelector(".post-body > p")?.textContent.trim() || "",
           defaultLanguage: defaultEntry?.langCode || normalizeLanguage(card.querySelector(".post-content")?.getAttribute("lang")),
           titleLink: card.querySelector(".post-title-link"),
@@ -797,10 +1213,10 @@
         if (group && group.languages.length >= 2) {
           const translationLinks = document.createElement("nav");
           translationLinks.className = "portfolio-translation-links";
-          translationLinks.setAttribute("aria-label", "可用译本");
+          translationLinks.setAttribute("aria-label", copy.translationAvailable);
 
           const translationLabel = document.createElement("span");
-          translationLabel.textContent = "阅读：";
+          translationLabel.textContent = copy.translationRead;
           translationLinks.appendChild(translationLabel);
 
           group.languages.forEach(language => {
@@ -838,7 +1254,7 @@
           if (visible) visibleCount += 1;
         });
 
-        status.textContent = visibleCount + " 篇文章";
+        status.textContent = visibleCount + " " + copy.countSuffix;
       };
 
       filters.querySelectorAll(".portfolio-filter-button").forEach(button => {
@@ -871,8 +1287,9 @@
       applyFilters();
     }
 
-    const latestResearch = contentIndex.groups
+    const latestResearchGroup = contentIndex.groups
       .filter(group => group.category !== "Notes")[0];
+    const latestResearch = localizedGroupEntry(latestResearchGroup, activeLanguage) || latestResearchGroup;
     const featured = document.querySelector("[data-featured-research]");
     if (featured && latestResearch) {
       const titleLink = featured.querySelector("[data-featured-title]");
@@ -880,17 +1297,18 @@
       const date = featured.querySelector("[data-featured-date]");
       const category = featured.querySelector("[data-featured-category]");
       const readLink = featured.querySelector("[data-featured-read]");
+      const researchPath = latestResearch.path || latestResearch.primaryPath;
       if (titleLink) {
-        titleLink.href = latestResearch.primaryPath;
-        titleLink.textContent = latestResearch.title;
+        titleLink.href = researchPath;
+        titleLink.textContent = latestResearch.cardTitle || latestResearch.title;
       }
       if (description) description.textContent = latestResearch.description;
       if (date) {
         date.dateTime = latestResearch.date;
         date.textContent = latestResearch.date;
       }
-      if (category) category.textContent = categoryLabels[latestResearch.category] || latestResearch.category;
-      if (readLink) readLink.href = latestResearch.primaryPath;
+      if (category) category.textContent = copy.categoryLabels[latestResearch.category] || latestResearch.category;
+      if (readLink) readLink.href = researchPath;
     }
 
     const latestList = document.getElementById("research-latest-list");
@@ -901,6 +1319,7 @@
         .slice(0, 3);
 
       latestGroups.forEach(group => {
+        const localizedEntry = localizedGroupEntry(group, activeLanguage) || group;
         const row = document.createElement("article");
         row.className = "research-latest-row";
 
@@ -910,13 +1329,13 @@
         date.dateTime = group.date;
         date.textContent = group.date;
         const detail = document.createElement("span");
-        detail.textContent = categoryLabels[group.category] || group.category;
+        detail.textContent = copy.categoryLabels[group.category] || group.category;
         meta.append(date, detail);
 
         if (group.languages.length > 1) {
           const languageLinks = document.createElement("nav");
           languageLinks.className = "research-latest-language-links";
-          languageLinks.setAttribute("aria-label", "可用语言版本");
+          languageLinks.setAttribute("aria-label", copy.languageVersions);
           group.languages.forEach(language => {
             const languageLink = document.createElement("a");
             languageLink.href = language.path;
@@ -930,17 +1349,17 @@
 
         const heading = document.createElement("h3");
         const titleLink = document.createElement("a");
-        titleLink.href = group.primaryPath;
-        titleLink.textContent = group.title;
+        titleLink.href = localizedEntry.path || group.primaryPath;
+        titleLink.textContent = localizedEntry.cardTitle || localizedEntry.title || group.title;
         heading.appendChild(titleLink);
 
         const description = document.createElement("p");
-        description.textContent = group.description;
+        description.textContent = localizedEntry.description || group.description;
 
         const readLink = document.createElement("a");
         readLink.className = "research-arrow-link";
-        readLink.href = group.primaryPath;
-        readLink.append("阅读全文 ");
+        readLink.href = localizedEntry.path || group.primaryPath;
+        readLink.append(copy.readMore + " ");
         const icon = document.createElement("i");
         icon.className = "fa fa-arrow-right";
         icon.setAttribute("aria-hidden", "true");
@@ -960,7 +1379,7 @@
       details.className = "mobile-article-toc";
 
       const summary = document.createElement("summary");
-      summary.textContent = "本页目录";
+      summary.textContent = copy.tocLabel;
 
       const list = document.createElement("ol");
       desktopTocLinks.forEach(tocLink => {
@@ -994,20 +1413,17 @@
       nextSection.setAttribute("aria-labelledby", "portfolio-article-next-title");
       const nextTitle = document.createElement("h2");
       nextTitle.id = "portfolio-article-next-title";
-      nextTitle.textContent = "继续阅读";
+      nextTitle.textContent = copy.nextReading;
       nextSection.appendChild(nextTitle);
       const nextList = document.createElement("div");
       nextList.className = "portfolio-article-next-list";
       related.forEach(group => {
+        const localizedEntry = localizedGroupEntry(group, activeLanguage) || group;
         const link = document.createElement("a");
-        link.href = group.primaryPath;
-        link.textContent = group.title;
+        link.href = localizedEntry.path || group.primaryPath;
+        link.textContent = localizedEntry.cardTitle || localizedEntry.title || group.title;
         nextList.appendChild(link);
       });
-      const rssLink = document.createElement("a");
-      rssLink.href = "/atom.xml";
-      rssLink.textContent = "订阅 RSS，获取新文章";
-      nextList.appendChild(rssLink);
       nextSection.appendChild(nextList);
       articleBlock.appendChild(nextSection);
     }
@@ -1016,6 +1432,11 @@
   (() => {
     const comments = document.querySelector(".comments.utterances-container");
     if (!comments || comments.closest(".portfolio-discussion")) return;
+    const copy = window.__PORTFOLIO_SITE_COPY__ || {
+      discussionTitle: "Discussion",
+      discussionPrompt: "Comments, corrections, and disagreements are welcome.",
+      discussionLogin: "Sign in with GitHub to leave a comment."
+    };
 
     const discussion = document.createElement("section");
     discussion.className = "portfolio-discussion";
@@ -1027,26 +1448,14 @@
     const title = document.createElement("h2");
     title.id = "portfolio-discussion-title";
     title.className = "portfolio-discussion-title";
-    title.append("讨论 ");
-
-    const divider = document.createElement("span");
-    divider.setAttribute("aria-hidden", "true");
-    divider.textContent = "/";
-    title.append(divider, " ");
-
-    const chineseTitle = document.createElement("span");
-    chineseTitle.lang = "zh";
-    chineseTitle.textContent = "讨论";
-    title.appendChild(chineseTitle);
+    title.textContent = copy.discussionTitle;
 
     const note = document.createElement("p");
     note.className = "portfolio-discussion-note";
-    note.append("欢迎留下想法、修正与不同意见。 ");
-
-    const chineseNote = document.createElement("span");
-    chineseNote.lang = "zh";
-    chineseNote.textContent = "使用 GitHub 登录后即可留言。";
-    note.appendChild(chineseNote);
+    note.append(copy.discussionPrompt + " ");
+    const login = document.createElement("span");
+    login.textContent = copy.discussionLogin;
+    note.appendChild(login);
 
     header.append(title, note);
     discussion.appendChild(header);
