@@ -1221,7 +1221,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #8732a7;
+  background: #daff6c;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -4181,6 +4181,9 @@ body.portfolio-collection-page .post-block {
   box-shadow: none;
 }
 body.portfolio-collection-page .post-header {
+  display: none;
+}
+body.portfolio-collection-page ul.breadcrumb {
   display: none;
 }
 .portfolio-collection {
