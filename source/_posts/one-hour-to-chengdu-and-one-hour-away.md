@@ -7,7 +7,7 @@ alias:
   - 2026/09/05/一小时直达成都：读两篇写我家乡的招商文/index.html
 description: "两篇关于遂宁与雅安的招商报道，把产业基础、AI预期和人口流动放在了同一条一小时交通线上。"
 categories:
-  - Money & Markets
+  - Life
 tags:
   - 中国经济
   - 区域经济
