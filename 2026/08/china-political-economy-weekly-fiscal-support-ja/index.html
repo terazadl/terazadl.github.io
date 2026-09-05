@@ -473,9 +473,9 @@
           <div class="post-tags">
               <a href="/tags/%E4%B8%AD%E5%9B%BD/" rel="tag"># 中国</a>
               <a href="/tags/%E4%B8%AD%E5%9B%BD%E7%B5%8C%E6%B8%88/" rel="tag"># 中国経済</a>
-              <a href="/tags/%E8%B2%A1%E6%94%BF%E6%94%BF%E7%AD%96/" rel="tag"># 財政政策</a>
-              <a href="/tags/%E9%87%91%E8%9E%8D%E6%94%BF%E7%AD%96/" rel="tag"># 金融政策</a>
               <a href="/tags/%E4%B8%8D%E5%8B%95%E7%94%A3/" rel="tag"># 不動産</a>
+              <a href="/tags/%E9%87%91%E8%9E%8D%E6%94%BF%E7%AD%96/" rel="tag"># 金融政策</a>
+              <a href="/tags/%E8%B2%A1%E6%94%BF%E6%94%BF%E7%AD%96/" rel="tag"># 財政政策</a>
               <a href="/tags/%E6%81%92%E5%A4%A7%E9%9B%86%E5%9B%A3/" rel="tag"># 恒大集団</a>
           </div>
 
@@ -488,8 +488,8 @@
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2026/08/japan-political-economy-weekly-2026-08-23-ja/" rel="next" title="日本政経ウィークリー｜2026年8月17日〜23日：内需の弱さと3％近い国債利回り">
-                  日本政経ウィークリー｜2026年8月17日〜23日：内需の弱さと3％近い国債利回り <i class="fa fa-angle-right"></i>
+                <a href="/2026/08/japan-political-economy-weekly-2026-08-23-en/" rel="next" title="Japan Political Economy Weekly | Aug 17–23, 2026: Weak Domestic Demand Meets Near-3% JGBs">
+                  Japan Political Economy Weekly | Aug 17–23, 2026: Weak Domestic Demand Meets Near-3% JGBs <i class="fa fa-angle-right"></i>
                 </a>
             </div>
           </div>
@@ -553,7 +553,8 @@
       "Money & Markets": "金融与市场",
       "AI & Industry": "AI 与产业",
       Japan: "日本",
-      Notes: "笔记"
+      "书评": "书评",
+      "生活观察": "生活观察"
     };
     const siteCopy = {
       ZH: {
@@ -580,6 +581,8 @@
         markets: "金融与市场",
         ai: "AI 与产业",
         japan: "日本",
+        reading: "书评",
+        life: "生活观察",
         countSuffix: "篇文章",
         readMore: "阅读全文",
         tocLabel: "本页目录",
@@ -655,6 +658,8 @@
         markets: "Money & Markets",
         ai: "AI & Industry",
         japan: "Japan",
+        reading: "Book Reviews",
+        life: "Life Notes",
         countSuffix: "articles",
         readMore: "Read article",
         tocLabel: "On this page",
@@ -704,7 +709,7 @@
           aboutContactTitle: "CONTACT",
           aboutContactText: "Find me on GitHub, or browse the projects and research."
         },
-        categoryLabels: { "Money & Markets": "Money & Markets", "AI & Industry": "AI & Industry", Japan: "Japan", Notes: "Notes" }
+        categoryLabels: { "Money & Markets": "Money & Markets", "AI & Industry": "AI & Industry", Japan: "Japan", "书评": "Book Reviews", "生活观察": "Life Notes" }
       },
       JA: {
         htmlLang: "ja",
@@ -730,6 +735,8 @@
         markets: "金融と市場",
         ai: "AIと産業",
         japan: "日本",
+        reading: "書評",
+        life: "生活メモ",
         countSuffix: "件の記事",
         readMore: "記事を読む",
         tocLabel: "目次",
@@ -779,7 +786,7 @@
           aboutContactTitle: "連絡先",
           aboutContactText: "GitHubから連絡するか、プロジェクトと研究記事をご覧ください。"
         },
-        categoryLabels: { "Money & Markets": "金融と市場", "AI & Industry": "AIと産業", Japan: "日本", Notes: "ノート" }
+        categoryLabels: { "Money & Markets": "金融と市場", "AI & Industry": "AIと産業", Japan: "日本", "书评": "書評", "生活观察": "生活メモ" }
       }
     };
 
@@ -1102,7 +1109,9 @@
           { value: "all", label: copy.all },
           { value: "markets", label: copy.markets },
           { value: "ai", label: copy.ai },
-          { value: "japan", label: copy.japan }
+          { value: "japan", label: copy.japan },
+          { value: "reading", label: copy.reading },
+          { value: "life", label: copy.life }
         ], "topic"),
         createFilter(copy.filterLanguage, [
           { value: "all", label: copy.all },
@@ -1123,6 +1132,8 @@
         if (category === "Money & Markets") return "markets";
         if (category === "AI & Industry") return "ai";
         if (category === "Japan") return "japan";
+        if (category === "书评") return "reading";
+        if (category === "生活观察") return "life";
         return "other";
       };
 

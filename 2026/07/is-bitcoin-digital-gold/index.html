@@ -477,7 +477,8 @@
       "Money & Markets": "金融与市场",
       "AI & Industry": "AI 与产业",
       Japan: "日本",
-      Notes: "笔记"
+      "书评": "书评",
+      "生活观察": "生活观察"
     };
     const siteCopy = {
       ZH: {
@@ -504,6 +505,8 @@
         markets: "金融与市场",
         ai: "AI 与产业",
         japan: "日本",
+        reading: "书评",
+        life: "生活观察",
         countSuffix: "篇文章",
         readMore: "阅读全文",
         tocLabel: "本页目录",
@@ -579,6 +582,8 @@
         markets: "Money & Markets",
         ai: "AI & Industry",
         japan: "Japan",
+        reading: "Book Reviews",
+        life: "Life Notes",
         countSuffix: "articles",
         readMore: "Read article",
         tocLabel: "On this page",
@@ -628,7 +633,7 @@
           aboutContactTitle: "CONTACT",
           aboutContactText: "Find me on GitHub, or browse the projects and research."
         },
-        categoryLabels: { "Money & Markets": "Money & Markets", "AI & Industry": "AI & Industry", Japan: "Japan", Notes: "Notes" }
+        categoryLabels: { "Money & Markets": "Money & Markets", "AI & Industry": "AI & Industry", Japan: "Japan", "书评": "Book Reviews", "生活观察": "Life Notes" }
       },
       JA: {
         htmlLang: "ja",
@@ -654,6 +659,8 @@
         markets: "金融と市場",
         ai: "AIと産業",
         japan: "日本",
+        reading: "書評",
+        life: "生活メモ",
         countSuffix: "件の記事",
         readMore: "記事を読む",
         tocLabel: "目次",
@@ -703,7 +710,7 @@
           aboutContactTitle: "連絡先",
           aboutContactText: "GitHubから連絡するか、プロジェクトと研究記事をご覧ください。"
         },
-        categoryLabels: { "Money & Markets": "金融と市場", "AI & Industry": "AIと産業", Japan: "日本", Notes: "ノート" }
+        categoryLabels: { "Money & Markets": "金融と市場", "AI & Industry": "AIと産業", Japan: "日本", "书评": "書評", "生活观察": "生活メモ" }
       }
     };
 
@@ -1026,7 +1033,9 @@
           { value: "all", label: copy.all },
           { value: "markets", label: copy.markets },
           { value: "ai", label: copy.ai },
-          { value: "japan", label: copy.japan }
+          { value: "japan", label: copy.japan },
+          { value: "reading", label: copy.reading },
+          { value: "life", label: copy.life }
         ], "topic"),
         createFilter(copy.filterLanguage, [
           { value: "all", label: copy.all },
@@ -1047,6 +1056,8 @@
         if (category === "Money & Markets") return "markets";
         if (category === "AI & Industry") return "ai";
         if (category === "Japan") return "japan";
+        if (category === "书评") return "reading";
+        if (category === "生活观察") return "life";
         return "other";
       };
 

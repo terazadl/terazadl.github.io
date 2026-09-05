@@ -26,8 +26,8 @@
 <meta property="og:site_name" content="Lei Deng">
 <meta property="og:description" content="读书、迁移、工作与不必归入研究的日常观察。">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2026-09-02T06:37:44.836Z">
-<meta property="article:modified_time" content="2026-09-02T06:37:39.682Z">
+<meta property="article:published_time" content="2026-09-05T13:50:12.604Z">
+<meta property="article:modified_time" content="2026-09-05T13:50:12.604Z">
 <meta property="article:author" content="Lei Deng">
 <meta property="article:tag" content="China">
 <meta property="article:tag" content="Japan">
@@ -286,9 +286,7 @@
       <p class="portfolio-collection-label">READING</p>
       <h2>读书</h2>
       <p>从小说、传记和商业写作里，寻找人与制度之间的另一种证据。</p>
-      <a class="portfolio-collection-link" href="/categories/notes/">读书与笔记 <span>Archive</span></a>
-      <a class="portfolio-collection-link" href="/2026/02/wang-xiaobo-searching-wushuang/">寻找无双 <span>Essay</span></a>
-      <a class="portfolio-collection-link" href="/2026/01/liu-zhenyun-salty-joke/">小事里的大输赢 <span>Essay</span></a>
+      <a class="portfolio-collection-link" href="/categories/book-reviews/">书评归档 <span>Archive</span></a>
     </section>
 
     <section>
@@ -296,7 +294,8 @@
       <h2>日常观察</h2>
       <p>关于在日本生活、学习、转职和重新安排自己时间的记录。</p>
       <a class="portfolio-collection-link" href="/about/">关于我 <span>Profile</span></a>
-      <a class="portfolio-collection-link" href="/categories/notes/">更多生活笔记 <span>Archive</span></a>
+      <a class="portfolio-collection-link" href="/categories/Life/">生活观察归档 <span>Archive</span></a>
+      <a class="portfolio-collection-link" href="/2026/09/one-hour-to-chengdu-and-one-hour-away/">一小时直达成都 <span>Essay</span></a>
     </section>
   </div>
 </div>
@@ -365,7 +364,8 @@
       "Money & Markets": "金融与市场",
       "AI & Industry": "AI 与产业",
       Japan: "日本",
-      Notes: "笔记"
+      "书评": "书评",
+      "生活观察": "生活观察"
     };
     const siteCopy = {
       ZH: {
@@ -392,6 +392,8 @@
         markets: "金融与市场",
         ai: "AI 与产业",
         japan: "日本",
+        reading: "书评",
+        life: "生活观察",
         countSuffix: "篇文章",
         readMore: "阅读全文",
         tocLabel: "本页目录",
@@ -467,6 +469,8 @@
         markets: "Money & Markets",
         ai: "AI & Industry",
         japan: "Japan",
+        reading: "Book Reviews",
+        life: "Life Notes",
         countSuffix: "articles",
         readMore: "Read article",
         tocLabel: "On this page",
@@ -516,7 +520,7 @@
           aboutContactTitle: "CONTACT",
           aboutContactText: "Find me on GitHub, or browse the projects and research."
         },
-        categoryLabels: { "Money & Markets": "Money & Markets", "AI & Industry": "AI & Industry", Japan: "Japan", Notes: "Notes" }
+        categoryLabels: { "Money & Markets": "Money & Markets", "AI & Industry": "AI & Industry", Japan: "Japan", "书评": "Book Reviews", "生活观察": "Life Notes" }
       },
       JA: {
         htmlLang: "ja",
@@ -542,6 +546,8 @@
         markets: "金融と市場",
         ai: "AIと産業",
         japan: "日本",
+        reading: "書評",
+        life: "生活メモ",
         countSuffix: "件の記事",
         readMore: "記事を読む",
         tocLabel: "目次",
@@ -591,7 +597,7 @@
           aboutContactTitle: "連絡先",
           aboutContactText: "GitHubから連絡するか、プロジェクトと研究記事をご覧ください。"
         },
-        categoryLabels: { "Money & Markets": "金融と市場", "AI & Industry": "AIと産業", Japan: "日本", Notes: "ノート" }
+        categoryLabels: { "Money & Markets": "金融と市場", "AI & Industry": "AIと産業", Japan: "日本", "书评": "書評", "生活观察": "生活メモ" }
       }
     };
 
@@ -914,7 +920,9 @@
           { value: "all", label: copy.all },
           { value: "markets", label: copy.markets },
           { value: "ai", label: copy.ai },
-          { value: "japan", label: copy.japan }
+          { value: "japan", label: copy.japan },
+          { value: "reading", label: copy.reading },
+          { value: "life", label: copy.life }
         ], "topic"),
         createFilter(copy.filterLanguage, [
           { value: "all", label: copy.all },
@@ -935,6 +943,8 @@
         if (category === "Money & Markets") return "markets";
         if (category === "AI & Industry") return "ai";
         if (category === "Japan") return "japan";
+        if (category === "书评") return "reading";
+        if (category === "生活观察") return "life";
         return "other";
       };
 
