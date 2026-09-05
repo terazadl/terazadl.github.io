@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f1e8">
+    <title>页面未找到｜Lei Deng</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Libre+Caslon+Display&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+      :root { color-scheme: light; --paper: #f5f1e8; --ink: #1d1c18; --muted: #706a60; --line: #a8a092; --blue: #2f55d4; }
+      * { box-sizing: border-box; }
+      body { background: var(--paper); color: var(--ink); font-family: Lato, "PingFang SC", "Noto Sans SC", sans-serif; margin: 0; }
+      .not-found-shell { margin: 0 auto; max-width: 1500px; padding: 0 56px; }
+      .not-found-header { align-items: center; border-bottom: 1px solid var(--ink); display: flex; justify-content: space-between; min-height: 94px; }
+      .not-found-brand { color: inherit; font-family: "Libre Caslon Display", Georgia, serif; font-size: 34px; text-decoration: none; }
+      .not-found-nav { display: flex; gap: 30px; }
+      .not-found-nav a, .not-found-action { border-bottom: 1px solid var(--ink); color: inherit; font-size: 13px; font-weight: 700; text-decoration: none; }
+      .not-found-nav a:hover, .not-found-action:hover { border-color: var(--blue); color: var(--blue); }
+      .not-found-content { min-height: calc(100vh - 190px); padding: 19vh 0 90px; }
+      .not-found-eyebrow { color: var(--blue); font-size: 12px; font-weight: 900; letter-spacing: .15em; margin: 0 0 18px; text-transform: uppercase; }
+      h1 { font-family: "Libre Caslon Display", "Noto Serif SC", Georgia, serif; font-size: clamp(58px, 11vw, 148px); font-weight: 400; letter-spacing: -.05em; line-height: .9; margin: 0; }
+      .not-found-message { color: var(--muted); font-family: "Noto Serif SC", Georgia, serif; font-size: 20px; line-height: 1.6; margin: 30px 0 38px; max-width: 520px; }
+      @media (max-width: 650px) { .not-found-shell { padding: 0 22px; } .not-found-header { align-items: flex-start; flex-direction: column; gap: 18px; padding: 22px 0 17px; } .not-found-brand { font-size: 29px; } .not-found-nav { gap: 18px; } .not-found-content { padding-top: 24vh; } .not-found-message { font-size: 17px; } }
+    </style>
+  </head>
+  <body>
+    <main class="not-found-shell">
+      <header class="not-found-header">
+        <a class="not-found-brand" href="/">Lei Deng</a>
+        <nav class="not-found-nav" aria-label="主导航">
+          <a href="/essays/">文章</a>
+          <a href="/topics/">主题</a>
+          <a href="/about/">关于</a>
+        </nav>
+      </header>
+      <section class="not-found-content" aria-labelledby="not-found-title">
+        <p class="not-found-eyebrow">404 · PAGE NOT FOUND</p>
+        <h1 id="not-found-title">找不到<br>这一页。</h1>
+        <p class="not-found-message">这个地址可能已经移动，或者从来没有发布过。回到首页，继续从研究、项目或主题索引开始。</p>
+        <a class="not-found-action" href="/">返回首页 →</a>
+      </section>
+    </main>
+  </body>
+</html>
