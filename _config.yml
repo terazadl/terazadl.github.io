@@ -77,7 +77,8 @@ category_map:
   Japan: japan
   Money & Markets: markets
   AI & Industry: ai-industry
-  Notes: notes
+  书评: book-reviews
+  生活观察: Life
 tag_map:
 
 # Metadata elements

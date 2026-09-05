@@ -7,7 +7,7 @@ alias:
   - 2026/02/28/寻找无双导读/index.html
 description: 通过王小波《寻找无双》讨论习得性遗忘、个人主题，以及荒诞喜剧如何揭穿集体性的自我欺骗。
 categories:
-  - Notes
+  - 书评
 tags:
   - 中国现代小说
   - 王小波
