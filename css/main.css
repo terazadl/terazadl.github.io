@@ -1221,7 +1221,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #9fe441;
+  background: #e3d752;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -3387,9 +3387,9 @@ body:not(.portfolio-home-page):not(.portfolio-about-page) .post-body h3 {
   --research-line: #a8a092;
   --research-blue: #2f55d4;
   --research-blue-hover: #2144bd;
-  --research-display: "Libre Caslon Display", "Libre Caslon Text", Georgia, "Noto Serif SC", serif;
-  --research-serif: "Libre Caslon Text", Georgia, "Noto Serif SC", serif;
-  --research-sans: "Lato", "PingFang SC", "Noto Sans SC", Arial, sans-serif;
+  --research-display: "Libre Caslon Display", "Libre Caslon Text", "Songti SC", STSong, SimSun, Georgia, serif;
+  --research-serif: "Libre Caslon Text", "Songti SC", STSong, SimSun, Georgia, serif;
+  --research-sans: "Lato", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", Arial, sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -3567,7 +3567,7 @@ header.header {
 .research-hero-grid {
   display: grid;
   grid-template-columns: minmax(420px, 0.9fr) minmax(0, 1.1fr);
-  padding: 52px 0 32px;
+  padding: 38px 0 24px;
 }
 .research-hero-intro {
   display: flex;
@@ -3582,7 +3582,7 @@ header.header {
   font-weight: 400;
 }
 .research-hero-intro h1 {
-  font-size: clamp(48px, 4.1vw, 64px);
+  font-size: clamp(44px, 3.6vw, 56px);
   letter-spacing: -0.035em;
   line-height: 1.06;
   margin: 0;
@@ -3592,9 +3592,9 @@ header.header {
 .research-hero-intro > p {
   color: var(--research-muted);
   font-family: var(--research-serif);
-  font-size: 19px;
+  font-size: 17px;
   line-height: 1.45;
-  margin: 30px 0 0;
+  margin: 24px 0 0;
   max-width: 490px;
   text-align: left;
 }
@@ -3605,7 +3605,7 @@ header.header {
   flex-wrap: wrap;
   justify-content: center;
   gap: 26px;
-  margin-top: 36px;
+  margin-top: 30px;
 }
 .research-primary-button,
 .research-text-button {
@@ -3652,7 +3652,7 @@ header.header {
   text-transform: uppercase;
 }
 .research-featured h2 {
-  font-size: clamp(36px, 3.1vw, 48px);
+  font-size: clamp(32px, 2.7vw, 42px);
   letter-spacing: -0.025em;
   line-height: 1.12;
   margin: 0;
@@ -3661,7 +3661,7 @@ header.header {
   display: grid;
   gap: 32px;
   grid-template-columns: minmax(205px, 0.72fr) minmax(360px, 1.28fr);
-  margin-top: 32px;
+  margin-top: 26px;
 }
 .research-summary {
   display: flex;
@@ -3890,6 +3890,67 @@ header.header {
   color: var(--research-muted);
   font-size: 12px;
   line-height: 1.45;
+}
+/* Keep the editorial interface usable when third-party icon fonts are
+ * unavailable. These compact glyphs cover the legacy NexT icon classes that
+ * remain in generated metadata and utility controls. */
+i.fa,
+i.fab,
+i.far {
+  font-family: var(--research-sans);
+  font-style: normal;
+  line-height: 1;
+}
+i.fa-arrow-right::before {
+  content: "→";
+}
+i.fa-external-link-alt::before {
+  content: "↗";
+}
+i.fa-arrow-up::before {
+  content: "↑";
+}
+i.fa-angle-left::before {
+  content: "‹";
+}
+i.fa-angle-right::before {
+  content: "›";
+}
+i.fa-angle-up::before {
+  content: "⌃";
+}
+i.fa-angle-down::before {
+  content: "⌄";
+}
+i.fa-map-marker-alt::before {
+  content: "●";
+}
+i.fa-chart-line::before {
+  content: "↗";
+}
+i.fa-book-open::before {
+  content: "▤";
+}
+i.fa-user::before {
+  content: "●";
+}
+i.fa-folder::before {
+  content: "▱";
+}
+i.fa-file-word::before {
+  content: "▤";
+}
+i.fa-clock::before {
+  content: "◷";
+}
+i.fa-calendar::before,
+i.fa-calendar-check::before {
+  content: "□";
+}
+i.fa-github::before {
+  content: "GH";
+  font-size: 0.72em;
+  font-weight: 900;
 }
 a.research-profile-item:hover strong {
   color: var(--research-blue);
@@ -4231,7 +4292,7 @@ body.portfolio-collection-page ul.breadcrumb {
   color: var(--portfolio-ink);
 }
 .portfolio-collection > h1 {
-  font-family: "Noto Serif SC", Georgia, "Times New Roman", serif;
+  font-family: "Songti SC", STSong, SimSun, Georgia, "Times New Roman", serif;
   font-size: clamp(52px, 7vw, 88px);
   font-weight: 600;
   letter-spacing: -0.06em;
@@ -4240,7 +4301,7 @@ body.portfolio-collection-page ul.breadcrumb {
 }
 .portfolio-collection-intro {
   border-bottom: 1px solid var(--portfolio-ink);
-  font-family: "Noto Serif SC", Georgia, serif;
+  font-family: "Songti SC", STSong, SimSun, Georgia, serif;
   font-size: 21px;
   line-height: 1.65;
   margin: 0;
@@ -4266,7 +4327,7 @@ body.portfolio-collection-page ul.breadcrumb {
   margin: 0 0 15px;
 }
 .portfolio-collection-grid h2 {
-  font-family: "Noto Serif SC", Georgia, serif;
+  font-family: "Songti SC", STSong, SimSun, Georgia, serif;
   font-size: 31px;
   font-weight: 600;
   letter-spacing: -0.025em;
@@ -4274,7 +4335,7 @@ body.portfolio-collection-page ul.breadcrumb {
 }
 .portfolio-collection-grid section > p:not(.portfolio-collection-label) {
   color: var(--portfolio-muted);
-  font-family: "Noto Serif SC", Georgia, serif;
+  font-family: "Songti SC", STSong, SimSun, Georgia, serif;
   font-size: 16px;
   line-height: 1.7;
   margin: 0 0 24px;
@@ -4284,7 +4345,7 @@ body.portfolio-collection-page ul.breadcrumb {
   align-items: baseline;
   border-bottom: 1px solid var(--portfolio-rule);
   display: flex;
-  font-family: "Noto Serif SC", Georgia, serif;
+  font-family: "Songti SC", STSong, SimSun, Georgia, serif;
   font-size: 16px;
   justify-content: space-between;
   gap: 18px;
@@ -4599,20 +4660,48 @@ body.portfolio-collection-page ul.breadcrumb {
   }
   .portfolio-home-page .research-hero-intro {
     order: 1;
-  }
-  .portfolio-home-page .research-latest {
-    margin-top: 44px;
-    order: 2;
+    padding-left: 0;
+    padding-right: 0;
   }
   .portfolio-home-page .research-featured {
-    margin-top: 52px;
+    margin-top: 38px;
+    order: 2;
+  }
+  .portfolio-home-page .research-latest {
+    margin-top: 42px;
     order: 3;
   }
-  .portfolio-home-page .research-topics {
+  .portfolio-home-page .research-observatory {
+    margin-top: 42px;
     order: 4;
   }
-  .portfolio-home-page .research-profile-strip {
+  .portfolio-home-page .research-topics {
     order: 5;
+  }
+  .portfolio-home-page .research-profile-strip {
+    order: 6;
+  }
+  .research-hero-intro h1 {
+    font-size: clamp(38px, 10.5vw, 52px);
+    line-height: 1.12;
+  }
+  .research-hero-intro > p {
+    font-size: 16px;
+    margin-top: 18px;
+  }
+  .research-hero-actions {
+    margin-top: 22px;
+  }
+  .research-primary-button {
+    min-height: 48px;
+    min-width: 150px;
+    padding: 0 22px;
+  }
+  .research-featured {
+    border-left: 0;
+    border-top: 1px solid var(--research-line);
+    padding-left: 0;
+    padding-top: 25px;
   }
   .research-section-heading {
     align-items: flex-start;
@@ -4695,6 +4784,18 @@ body.portfolio-collection-page ul.breadcrumb {
   .mobile-article-toc a:hover,
   .mobile-article-toc a:focus-visible {
     color: var(--research-blue);
+  }
+}
+@media (max-width: 991px) {
+  .back-to-top {
+    bottom: 20px !important;
+    height: 36px;
+    left: auto !important;
+    right: 20px;
+    width: 36px;
+  }
+  .back-to-top .fa {
+    width: 36px;
   }
 }
 @media (max-width: 600px) {
