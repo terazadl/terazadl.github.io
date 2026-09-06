@@ -84,6 +84,13 @@ hexo.extend.filter.register('after_render:html', html => {
       /<meta name="twitter:card" content="summary">\s*/g,
       ''
     )
+    // NexT's legacy Font Awesome bundle is not needed by the custom UI. The
+    // site supplies a small local text/icon fallback in styles.styl instead
+    // of depending on cdnjs for every page.
+    .replace(
+      /<link rel="stylesheet" href="https:\/\/cdnjs\.cloudflare\.com\/ajax\/libs\/font-awesome\/[^>]+>\s*/g,
+      ''
+    )
     .replace(
       /(\/css\/main\.css)(?!\?)/g,
       `$1?v=${buildVersion}`
