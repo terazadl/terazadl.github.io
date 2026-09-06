@@ -1221,7 +1221,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #67f560;
+  background: #9fe441;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2334,9 +2334,6 @@ ul.breadcrumb li:last-child {
   border-bottom-color: #111;
   color: #111;
 }
-.utterances {
-  max-width: unset;
-}
 mark.search-keyword {
   background: transparent;
   border-bottom: 1px dashed #ff2a2a;
@@ -3297,6 +3294,20 @@ body:not(.portfolio-home-page):not(.portfolio-about-page) .post-body h3 {
 .portfolio-discussion .comments {
   margin: 0;
 }
+.portfolio-discussion .waline-container {
+  --waline-theme-color: var(--research-blue);
+  --waline-active-color: var(--research-blue-hover);
+  --waline-color: var(--research-ink);
+  --waline-bg-color: var(--research-paper);
+  --waline-bg-color-light: #efe9dd;
+  --waline-border-color: var(--research-line);
+  --waline-border: 1px solid var(--research-line);
+  --waline-info-bg-color: transparent;
+  font-family: var(--research-sans);
+}
+.portfolio-discussion .waline-container a {
+  color: var(--research-blue);
+}
 @media (max-width: 980px) {
   .portfolio-nav {
     gap: 23px;
@@ -4174,6 +4185,30 @@ a.research-profile-item:hover strong {
 body.portfolio-collection-page .sidebar,
 body.portfolio-collection-page .sidebar-toggle {
   display: none !important;
+}
+/* Keep the legacy utility controls inside the editorial visual system. */
+.sidebar-toggle,
+.back-to-top {
+  background: var(--research-paper) !important;
+  border: 1px solid var(--research-line);
+  border-radius: 2px;
+  box-shadow: 0 3px 10px rgba(29,28,24,0.12);
+  color: var(--research-ink);
+}
+.sidebar-toggle .toggle-line {
+  background: currentColor;
+}
+.sidebar-toggle:hover,
+.back-to-top:hover {
+  background: var(--research-blue) !important;
+  border-color: var(--research-blue);
+  color: #fff;
+  opacity: 1;
+}
+.sidebar-toggle:focus-visible,
+.back-to-top:focus-visible {
+  outline: 3px solid rgba(47,85,212,0.42);
+  outline-offset: 3px;
 }
 body.portfolio-collection-page .main-inner {
   box-sizing: border-box;
