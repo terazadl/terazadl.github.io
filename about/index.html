@@ -363,7 +363,7 @@
 <noscript>
   <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
 </noscript>
-<script src="/js/content-index.js?v=20260906023950"></script>
+<script src="/js/content-index.js?v=20260906032101"></script>
 <script>
   (() => {
     const contentIndex = window.__SITE_CONTENT_INDEX__ || { entries: [], groups: [] };
@@ -1345,7 +1345,8 @@
     discussion.append(header, container);
     mainInner.appendChild(discussion);
 
-    const stylesheetUrl = "https://unpkg.com/@waline/client@v3/dist/waline.css";
+    const walineVersion = "3.15.2";
+    const stylesheetUrl = `https://unpkg.com/@waline/client@${walineVersion}/dist/waline.css`;
     if (!document.querySelector(`link[href="${stylesheetUrl}"]`)) {
       const stylesheet = document.createElement("link");
       stylesheet.rel = "stylesheet";
@@ -1354,7 +1355,7 @@
     }
 
     const lang = document.documentElement.lang || "zh-CN";
-    import("https://unpkg.com/@waline/client@v3/dist/waline.js")
+    import(`https://unpkg.com/@waline/client@${walineVersion}/dist/waline.js`)
       .then(({ init }) => {
         init({
           el: container,
