@@ -75,8 +75,13 @@ hexo.extend.generator.register('content-index', function(locals) {
 // a changed article index cannot be hidden behind a cached static asset.
 const buildVersion = new Date().toISOString().replace(/\D/g, '').slice(0, 14);
 hexo.extend.filter.register('after_render:html', html => {
-  return html.replace(
-    /\/js\/content-index\.js\?v=BUILD_VERSION/g,
-    `/js/content-index.js?v=${buildVersion}`
-  );
+  return html
+    .replace(
+      /\/js\/content-index\.js\?v=BUILD_VERSION/g,
+      `/js/content-index.js?v=${buildVersion}`
+    )
+    .replace(
+      /(\/css\/main\.css)(?!\?)/g,
+      `$1?v=${buildVersion}`
+    );
 });

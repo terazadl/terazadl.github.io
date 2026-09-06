@@ -1,0 +1,47 @@
+{% extends '_layout.njk' %}
+{% import '_macro/sidebar.njk' as sidebar_template with context %}
+
+{% block title %}
+  {{ page.title + ' | ' + title }}
+{% endblock %}
+
+{% block class %}page posts-expand{% endblock %}
+
+{% block content %}
+  <div class="post-block" lang="{{ page.lang }}">
+    <div class="post-body">
+      <div class="research-taxonomy-page">
+        {% if page.type === 'categories' %}
+          <p class="research-eyebrow">TOPICS · CATEGORIES</p>
+          <h1>分类</h1>
+          <p class="research-taxonomy-intro">按研究方向浏览文章。当前共有 {{ site.categories.length }} 个分类。</p>
+          <div class="research-taxonomy-list">
+            {{ list_categories() }}
+          </div>
+          <p class="research-taxonomy-switch"><a href="/tags/">改按标签浏览 →</a></p>
+        {% else %}
+          <p class="research-eyebrow">TOPICS · TAGS</p>
+          <h1>标签</h1>
+          <p class="research-taxonomy-intro">按更具体的主题浏览文章。当前共有 {{ site.tags.length }} 个标签。</p>
+          <div class="research-taxonomy-cloud">
+            {{ tagcloud({
+              min_font: theme.tagcloud.min,
+              max_font: theme.tagcloud.max,
+              amount  : theme.tagcloud.amount,
+              orderby : 'name',
+              order   : 'asc',
+              class   : 'research-taxonomy-tag'
+              })
+            }}
+          </div>
+          <p class="research-taxonomy-switch"><a href="/categories/">改按分类浏览 →</a></p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {%- include '_partials/page/breadcrumb.njk' -%}
+{% endblock %}
+
+{% block sidebar %}
+  {{ sidebar_template.render(page.toc.enable) }}
+{% endblock %}
