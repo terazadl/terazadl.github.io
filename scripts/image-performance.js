@@ -49,6 +49,28 @@ function parseWebpDimensions(buffer) {
     };
   }
 
+  const chunkSize = buffer.length >= 20 ? buffer.readUInt32LE(16) : 0;
+  const dataOffset = 20;
+  if (chunk === 'VP8 ' && chunkSize >= 10 && buffer.length >= dataOffset + 10) {
+    const syncCode = [0x9d, 0x01, 0x2a];
+    const hasSyncCode = syncCode.every((byte, index) => buffer[dataOffset + 3 + index] === byte);
+    if (hasSyncCode) {
+      return {
+        width: buffer.readUInt16LE(dataOffset + 6) & 0x3fff,
+        height: buffer.readUInt16LE(dataOffset + 8) & 0x3fff
+      };
+    }
+  }
+
+  if (chunk === 'VP8L' && chunkSize >= 5 && buffer.length >= dataOffset + 5
+    && buffer[dataOffset] === 0x2f) {
+    const bits = buffer.readUInt32LE(dataOffset + 1);
+    return {
+      width: 1 + (bits & 0x3fff),
+      height: 1 + ((bits >>> 14) & 0x3fff)
+    };
+  }
+
   return null;
 }
 
