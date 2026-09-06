@@ -6,7 +6,6 @@ translation_key: japan-political-economy-weekly-2026-08-16
 description: "日元重新逼近160，输入型成本压力与食品减税争议并存，日本银行与政府的政策组合面临新的约束。"
 categories:
   - Japan
-  - Money & Markets
 tags:
   - 日本
   - 政治经济

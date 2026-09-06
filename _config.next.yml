@@ -105,7 +105,7 @@ menu:
   政经: /politics-economy/ || fa fa-landmark
   项目: /projects/ || fa fa-code
   生活: /life/ || fa fa-book-open
-  About me: /about/ || fa fa-user
+  关于我: /about/ || fa fa-user
   #tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
   #archives: /archives/ || fa fa-archive
@@ -638,7 +638,7 @@ quicklink:
 # Use Animate.css to animate everything.
 # For more information: https://animate.style
 motion:
-  enable: true
+  enable: false
   async: false
   duration: 200
   transition:
@@ -736,7 +736,7 @@ gitalk:
   body:
 
 utterances:
-  enable: true
+  enable: false
   repo: terazadl/blog-comments
   issue_term: pathname
   theme: github-light

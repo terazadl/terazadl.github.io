@@ -9,7 +9,8 @@
     <a href="/politics-economy/" data-nav-root="politics" data-site-i18n="navPolitics">政经</a>
     <a href="/projects/" data-nav-root="projects" data-site-i18n="navProjects">项目</a>
     <a href="/life/" data-nav-root="life" data-site-i18n="navLife">生活</a>
-    <a href="/about/" data-nav-root="about" data-site-i18n="navAbout">About me</a>
+    <a href="/topics/" data-nav-root="topics" data-site-i18n="navTopics">主题</a>
+    <a href="/about/" data-nav-root="about" data-site-i18n="navAbout">关于我</a>
   </nav>
 
   <div class="research-language-switcher research-desktop-language" aria-label="阅读语言" data-site-i18n-aria="languageSwitcher">
@@ -47,7 +48,8 @@
     <a href="/politics-economy/" data-site-i18n="navPolitics">政经</a>
     <a href="/projects/" data-site-i18n="navProjects">项目</a>
     <a href="/life/" data-site-i18n="navLife">生活</a>
-    <a href="/about/" data-site-i18n="navAbout">About me</a>
+    <a href="/topics/" data-site-i18n="navTopics">主题</a>
+    <a href="/about/" data-site-i18n="navAbout">关于我</a>
     <a href="https://github.com/terazadl" target="_blank" rel="noopener">
       <span data-site-i18n="codeLabel">代码</span> <i class="fa fa-external-link-alt" aria-hidden="true"></i>
     </a>
@@ -65,6 +67,7 @@
     ) section = "essays";
     if (path.startsWith("/event-radar/")) section = "radar";
     if (path.startsWith("/categories/") || path.startsWith("/tags/")) section = "topics";
+    if (path.startsWith("/topics/")) section = "topics";
     if (path.startsWith("/politics-economy/")) section = "politics";
     if (path.startsWith("/projects/")) section = "projects";
     if (path.startsWith("/life/")) section = "life";
