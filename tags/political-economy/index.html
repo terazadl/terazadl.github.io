@@ -409,7 +409,7 @@
 <noscript>
   <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
 </noscript>
-<script src="/js/content-index.js?v=20260906023433"></script>
+<script src="/js/content-index.js?v=20260906023950"></script>
 <script>
   (() => {
     const contentIndex = window.__SITE_CONTENT_INDEX__ || { entries: [], groups: [] };
@@ -1407,7 +1407,7 @@
           serverURL: "https://tera-blog-comments.vercel.app",
           path: window.location.pathname,
           lang: lang.startsWith("ja") ? "jp" : lang.startsWith("en") ? "en" : "zh-CN",
-          dark: "auto",
+          dark: false,
           login: "enable",
           meta: ["nick", "mail", "link"],
           requiredMeta: ["nick"],
