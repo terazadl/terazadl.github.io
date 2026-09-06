@@ -580,137 +580,130 @@
     <author><name>Lei Deng</name></author>
   </entry>
   <entry>
-    <title>中国政经周报：信用规则重写，利润修复仍分化</title>
-    <id>https://terazadl.github.io/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-zh/</id>
-    <link href="https://terazadl.github.io/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-zh/"/>
+    <title>中国政経ウィークリー｜2026年8月24日〜30日：信用ルールの再設計と不均一な利益回復</title>
+    <id>https://terazadl.github.io/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-ja/</id>
+    <link href="https://terazadl.github.io/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-ja/"/>
     <published>2026-08-30T08:30:00.000Z</published>
     <updated>2026-08-30T09:15:00.000Z</updated>
-    <summary type="html"><![CDATA[工业利润修复仍高度分化，房地产信贷规则转向项目和交付管理，流动性保持可用但暂无新的LPR信号，AI治理进入支付责任层。]]></summary>
-    <content type="html"><![CDATA[<p><span hidden data-article-language="ZH"></span></p>
+    <summary type="html"><![CDATA[工業企業の利益回復は分野ごとの差が大きい。不動産信用はプロジェクトと引き渡しを軸に再設計され、流動性は維持される一方、新たなLPR利下げシグナルは出ていない。]]></summary>
+    <content type="html"><![CDATA[<p><span hidden data-article-language="JA"></span></p>
 <div class="abstract">
-  <span class="abstract-label">本周主线</span>
-  本周的主线不是简单加大总量刺激，而是开始重写信用和产业运行规则：工业利润反弹仍高度分化，房地产同步推进现房销售、项目制融资和按揭制度调整，央行用中期与隔夜工具维持流动性，人工智能则从模型竞争进入支付责任和算力基础设施治理。
+  <span class="abstract-label">今週の論点</span>
+  今週の主題は、単純な総量刺激の拡大ではなく、信用と産業の運用ルールの再設計である。工業企業の利益回復には大きなばらつきが残り、不動産では現物販売、プロジェクト主幹銀行、前売り資金、住宅ローンを同時に組み替える。人民銀行は中期・翌日物の手段で流動性を維持し、AIはモデル競争から決済責任と計算基盤のガバナンスへ進みつつある。
 </div>
 
 <blockquote>
-<p><strong>报道区间：</strong> 2026年8月24日至30日（北京时间）。发布于2026年8月30日。</p>
-<p><strong>语言版本：</strong> <a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30/">English</a> · <strong>中文</strong> · <a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-ja/">日本語</a></p>
+<p><strong>対象期間：</strong> 2026年8月24日〜30日（北京時間）。2026年8月30日公開。</p>
+<p><strong>言語：</strong> <a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30/">English</a> · <a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-zh/">中文</a> · <strong>日本語</strong></p>
 </blockquote>
 <span id="more"></span>
 
-<h2 id="执行摘要"><a href="#执行摘要" class="headerlink" title="执行摘要"></a>执行摘要</h2><ul>
-<li><strong>工业利润修复不等于需求全面恢复。</strong> 1—7月规模以上工业企业利润同比增长17.6%，但增长集中在电子、有色、化工、采矿等行业；汽车、非金属矿物制品和电力等行业仍明显承压。应收账款和产成品存货继续上升，现金流和产能问题没有消失。</li>
-<li><strong>房地产政策进入制度重构阶段。</strong> 央行、金融监管总局、住建等部门围绕现房销售、项目主办银行、预售资金和个人住房贷款同步调整；证监会则把股权、债券、ABS、REITs等融资工具纳入“项目制”框架。政策目标更接近重建信用基础设施、降低交付风险，而不是无条件恢复旧式地产杠杆。</li>
-<li><strong>货币政策继续“稳流动性、慎发价格信号”。</strong> 央行8月25日开展5000亿元MLF，本月到期量为6000亿元；同时安排8月27日至9月1日隔夜逆回购，每日上限6000亿元。这个组合更像月末和政府债发行期的流动性管理，不能直接等同于LPR即将下调。</li>
-<li><strong>AI开始进入金融交易的责任层。</strong> 中国支付清算协会发布智能体支付自律公约，提出“了解你的智能体”（KYA）、清晰授权、持牌机构负责和上线前报备评估；国家数据局披露全国智算规模已达到245万PFLOPS（FP16）。</li>
-<li><strong>政治信号集中在人员处理和执行问责。</strong> 张又侠、刘振立等四名军方代表资格终止，张又侠和刘振立的国家军委职务被免去；公开公告没有说明具体原因，分析应停留在可验证的制度事实层面。</li>
+<h2 id="エグゼクティブ・サマリー"><a href="#エグゼクティブ・サマリー" class="headerlink" title="エグゼクティブ・サマリー"></a>エグゼクティブ・サマリー</h2><ul>
+<li><strong>利益の伸びはなお狭い。</strong> 1〜7月の一定規模以上工業企業の利益は前年同期比17.6%増となったが、電子・資源関連が改善の大半を担い、自動車、建材、電力は弱い。売掛金と製品在庫も増えており、全般的な需要回復とは言いにくい。</li>
+<li><strong>不動産政策は信用インフラの再設計に入った。</strong> プロジェクト主幹銀行、現物販売プロジェクトの開発融資期間延長、個人住宅ローンの40年上限、前売り住宅ローンの実行時期の後倒し、プロジェクト口座管理を組み合わせている。証券市場の資金調達も、開発企業全体ではなくプロジェクト単位に寄せられる。</li>
+<li><strong>流動性は維持されるが、価格シグナルは慎重である。</strong> 人民銀行は8月25日に1年物MLFを5000億元実施し、当月6000億元の満期を迎えた。翌日物リバースレポも大規模に設定されたが、これはLPR利下げの直接的な約束とは読めない。</li>
+<li><strong>AIは金融取引の責任レイヤーに入った。</strong> 支払決済協会の自律規約は、KYA（Know Your Agent）、明確な利用者同意、免許を持つ機関の責任、事前評価・監視・ロールバックを求めている。</li>
+<li><strong>政治面では人事処理と説明可能な責任が焦点となった。</strong> 4人の軍関係人大代表資格が終了し、張又侠と劉振立は中央軍事委員会の職務を解かれた。公開文書は理由を説明していないため、確認できる制度上の事実にとどめる。</li>
 </ul>
-<h2 id="工业利润反弹：总量改善，结构仍然很窄"><a href="#工业利润反弹：总量改善，结构仍然很窄" class="headerlink" title="工业利润反弹：总量改善，结构仍然很窄"></a>工业利润反弹：总量改善，结构仍然很窄</h2><p>国家统计局8月27日公布，1—7月全国规模以上工业企业实现利润总额 <strong>4.582万亿元</strong>，同比增长 <strong>17.6%</strong>；营业收入增长6.5%，营业收入利润率为5.66%，同比提高0.54个百分点。<a href="https://www.stats.gov.cn/sj/zxfb/202608/t20260827_1965126.html">国家统计局数据</a></p>
+<h2 id="工業利益：総量は改善、裾野は狭い"><a href="#工業利益：総量は改善、裾野は狭い" class="headerlink" title="工業利益：総量は改善、裾野は狭い"></a>工業利益：総量は改善、裾野は狭い</h2><p>国家統計局によると、1〜7月の一定規模以上工業企業の利益総額は4兆5820.6億元で、前年同期比17.6%増となった。売上高は6.5%増、売上高利益率は5.66%で、前年同期より0.54ポイント上昇した。<a href="https://www.stats.gov.cn/sj/zxfb/202608/t20260827_1965126.html">国家統計局</a></p>
 <table>
 <thead>
 <tr>
-<th>指标</th>
-<th align="right">1—7月同比</th>
-<th>读法</th>
+<th>指標</th>
+<th align="right">1〜7月の前年比</th>
+<th>読み方</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>国有控股企业利润</td>
+<td>国有持株企業の利益</td>
 <td align="right">+16.3%</td>
-<td>政策和资源集中部门修复较快</td>
+<td>政策・資源関連部門の回復が速い</td>
 </tr>
 <tr>
-<td>私营企业利润</td>
+<td>民営企業の利益</td>
 <td align="right">+10.9%</td>
-<td>有修复，但弱于整体利润增速</td>
+<td>改善するが全体を下回る</td>
 </tr>
 <tr>
-<td>外商及港澳台企业利润</td>
+<td>外資・香港・マカオ・台湾企業の利益</td>
 <td align="right">+1.2%</td>
-<td>外资部门改善有限</td>
+<td>改善は限定的</td>
 </tr>
 <tr>
-<td>计算机、通信等电子设备制造业</td>
-<td align="right">+110%左右</td>
-<td>高技术板块是主要亮点之一</td>
+<td>コンピューター・通信・電子機器製造</td>
+<td align="right">約+110%</td>
+<td>ハイテク部門の主な牽引役</td>
 </tr>
 <tr>
-<td>汽车制造业</td>
+<td>自動車製造</td>
 <td align="right">-20.4%</td>
-<td>价格竞争和需求压力仍在</td>
+<td>価格競争と需要圧力</td>
 </tr>
 <tr>
-<td>非金属矿物制品业</td>
+<td>非金属鉱物製品</td>
 <td align="right">-48.2%</td>
-<td>地产和传统投资链条较弱</td>
+<td>不動産・従来型投資の弱さ</td>
 </tr>
 <tr>
-<td>应收账款</td>
+<td>売掛金</td>
 <td align="right">+8.5%</td>
-<td>回款压力仍在累积</td>
+<td>回収圧力が続く</td>
 </tr>
 <tr>
-<td>产成品存货</td>
+<td>製品在庫</td>
 <td align="right">+10.8%</td>
-<td>库存和产销衔接值得警惕</td>
+<td>在庫と販売の連動を要確認</td>
 </tr>
 </tbody></table>
-<p>这组数据更像是<strong>结构性利润修复</strong>，而不是广泛的内需复苏。电子、有色、化工和采矿等行业的利润改善，可能反映产业位置、价格和出口结构的变化；但汽车、建材及电力等行业仍弱，且应收账款与存货增长快于企业愿望中的健康现金循环。</p>
-<p>因此，本周不宜把“利润同比增长17.6%”直接写成“企业信心恢复”。更有价值的问题是：利润能否转化为现金流，民营企业能否获得订单，库存能否下降，传统行业的价格竞争能否缓和。</p>
-<h2 id="房地产政策从主体信用转向项目、交付和资金封闭管理"><a href="#房地产政策从主体信用转向项目、交付和资金封闭管理" class="headerlink" title="房地产政策从主体信用转向项目、交付和资金封闭管理"></a>房地产政策从主体信用转向项目、交付和资金封闭管理</h2><p>8月28日，央行与金融监管总局发布房地产信贷管理意见，共36条，重点包括：</p>
+<p>この数字は、広範な内需回復というより<strong>構造的な利益修復</strong>と呼ぶ方が適切である。電子、非鉄金属、化学、鉱業の改善には、産業内の位置、価格、輸出構成が影響している可能性がある。一方、自動車、建材、電力は弱く、売掛金と在庫の増加は利益が健全なキャッシュフローに変わっていないことを示唆する。</p>
+<h2 id="不動産政策は主体信用からプロジェクトと引き渡しへ"><a href="#不動産政策は主体信用からプロジェクトと引き渡しへ" class="headerlink" title="不動産政策は主体信用からプロジェクトと引き渡しへ"></a>不動産政策は主体信用からプロジェクトと引き渡しへ</h2><p>8月28日、中国人民銀行と金融監督当局は36項目の不動産信用管理意見を公表した。主な内容は次の通りである。</p>
 <ul>
-<li>房地产开发贷款实行<strong>项目主办银行制</strong>，单个项目对应一家主办银行；</li>
-<li>预售项目开发贷款期限原则上不超过3年、最长5年，现售项目最长可至7年；</li>
-<li>个人住房贷款期限上限延长至 <strong>40年</strong>；</li>
-<li>预售商品房个人住房贷款发放时点调整为<strong>竣工备案后</strong>；</li>
-<li>现房、预售项目的贷款资金分别进入项目公司主办银行账户或预售资金监管账户。<a href="https://www.xinhuanet.com/20260828/36dc5659375e407abd8e01a281305df5/c.html">央行、金融监管总局意见的权威转述</a></li>
+<li>開発融資に<strong>プロジェクト主幹銀行制度</strong>を導入する；</li>
+<li>前売りプロジェクトの開発融資は原則3年以内、最長5年、現物販売プロジェクトは最長7年とする；</li>
+<li>個人住宅ローンの期間上限を <strong>40年</strong> に延長する；</li>
+<li>前売り住宅の住宅ローンは竣工届出後に実行する；</li>
+<li>融資資金をプロジェクト会社の主幹銀行口座または前売り資金監督口座に入れる。<a href="https://www.xinhuanet.com/20260828/36dc5659375e407abd8e01a281305df5/c.html">新華社による権威ある要約</a></li>
 </ul>
-<p>同日，证监会发布房地产资本市场支持意见，支持上市房企再融资、公司债、CMBS、ABS、租赁住房和城市更新REITs，并强调从依赖主体信用转向基于项目情况融资，同时加强信息披露和募集资金穿透监管。<a href="https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml">证监会公告</a></p>
-<p>这不是单向度的“地产放松”，而是<strong>支持合理项目融资，同时把预售和集团信用的风险隔离开</strong>。从购房人角度，竣工备案后发放贷款和封闭管理有助于降低交付风险；从开发商角度，预售资金转化为可用融资的时间可能延后，项目的现金流管理要求更高。</p>
-<p>短期内，部分预售项目的新增按揭和房企现金转换速度可能受压；中长期能否改善地产信用，要看项目是否真的可以获得主办银行融资、预售资金是否能够闭环、以及二手房和现房交易是否出现持续改善。政策本身不能证明全国房价已经见底。</p>
-<h2 id="流动性管理走在全面货币宽松之前"><a href="#流动性管理走在全面货币宽松之前" class="headerlink" title="流动性管理走在全面货币宽松之前"></a>流动性管理走在全面货币宽松之前</h2><p>央行8月25日开展5000亿元、期限一年的MLF操作。由于当月有6000亿元MLF到期，单看MLF为缩量续作1000亿元；同时，央行安排8月27日至9月1日开展隔夜逆回购，每日操作量不超过6000亿元。<a href="https://www.thepaper.cn/newsDetail_forward_33840494">相关公告及报道</a></p>
-<p>财新此前对8月隔夜逆回购的解读是：该工具兼有应急和日常流动性管理功能，央行更关注短期资金面和操作精准度，而不是用每一次操作表达新的政策利率方向。<a href="https://finance.caixin.com/2026-08-19/102475698.html">财新：央行连续三个月动用隔夜逆回购</a></p>
-<p>本周的组合可以概括为：<strong>流动性保持可用，价格信号保持克制</strong>。MLF缩量并不自动等同于收紧，隔夜逆回购放量也不自动等同于全面宽松。对LPR的判断，仍应观察政策利率、存款利率、银行净息差和财政支出进度，而不能只看央行投放金额。本周没有出现新的LPR下调信号。</p>
-<h2 id="AI与金融进入授权、问责和回退层"><a href="#AI与金融进入授权、问责和回退层" class="headerlink" title="AI与金融进入授权、问责和回退层"></a>AI与金融进入授权、问责和回退层</h2><p>《财新周刊》第1220期（8月24日出版）把“AI基建：得东南亚者得天下”放在封面，并同时讨论个人信息保护、AI投资仓位重整和L3级自动驾驶量产。这组目录线索说明，AI竞争已经从单一模型能力扩展到<strong>算力与能源、跨境部署、数据治理和商业化兑现</strong>。<a href="https://weekly.caixin.com/2026/cw1220/">《财新周刊》第1220期目录</a></p>
-<p>封面报道的公开摘要提到，东南亚正在承接全球算力外溢，来自中国的数据中心运营商、托管服务商以及电力、能源和液冷供应商参与其中；周刊导播还把局部电网实时平衡视为扩张瓶颈。<a href="https://weekly.caixin.com/2026-08-21/102476335.html">封面报道公开摘要</a> <a href="https://weekly.caixin.com/zkdb/index.html">周刊导播</a> <strong>据此推断</strong>，中国AI产业的“出海”不只是卖模型或服务器，也是在输出数据中心、电力配套和运维能力；政策观察不能只盯国内算力总量，还要看跨境基础设施的审批、用电和风险定价。</p>
-<p>8月24日，中国支付清算协会发布《智能体支付应用自律公约》。公约提出：</p>
-<ul>
-<li>在KYC基础上探索“了解你的智能体”（KYA）；</li>
-<li>明确用户授权边界，并核验身份和真实交易意愿；</li>
-<li>账户管理、交易处理和资金清算等核心环节由持牌机构承担；</li>
-<li>智能体自主发起支付前，需要报备、业务评估、安全测试、风险监控和回退机制。<a href="https://www.xinhuanet.com/20260824/4efa360edc8a486dbf0b19d0fb37ef41/c.html">新华社报道</a></li>
+<p>同日、中国証監会は上場不動産企業の再調達、社債、CMBS、ABS、賃貸住宅・都市更新REITsなどを支援する意見を公表した。企業全体への信用依存からプロジェクト単位の融資へ移し、情報開示と資金使途の貫通管理を強める内容である。<a href="https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml">中国証監会</a></p>
+<p>これは一方向の不動産緩和ではない。実行可能なプロジェクトを支えながら、前売りと企業グループ信用のリスクを切り分ける政策である。購入者にとっては引き渡しリスクの低下に資する一方、開発業者にとっては前売り資金を利用可能な現金へ転換するまでの時間が長くなり、プロジェクトの資金繰りがより重要になる。</p>
+<p>短期的には、一部の前売りプロジェクトで住宅ローン実行や現金化が遅れる可能性がある。中長期の評価は、主幹銀行が実際に融資するか、監督資金がプロジェクト内で閉じるか、現物・中古住宅の取引が継続的に改善するかにかかっている。制度変更だけで全国の住宅価格の底入れを証明することはできない。</p>
+<h2 id="流動性管理は広範な金融緩和に先行"><a href="#流動性管理は広範な金融緩和に先行" class="headerlink" title="流動性管理は広範な金融緩和に先行"></a>流動性管理は広範な金融緩和に先行</h2><p>人民銀行は8月25日に1年物MLFを5000億元実施した。当月6000億元の満期を考えると、MLF単体では1000億元の縮小ロールとなる。8月27日から9月1日までは、1日あたり6000億元を上限とする翌日物リバースレポも設定した。<a href="https://www.thepaper.cn/newsDetail_forward_33840494">人民銀行のオペレーション報道</a></p>
+<p>財新は8月の翌日物リバースレポについて、緊急対応と日常的な短期流動性管理の両方を担う手段であり、毎回の操作を新たな政策金利シグナルとみなすべきではないと説明している。<a href="https://finance.caixin.com/2026-08-19/102475698.html">財新の背景解説</a></p>
+<p>今週の組み合わせは、<strong>流動性は使える状態に保ち、価格シグナルは慎重にする</strong>というものだ。MLFの縮小は自動的に引き締めを意味せず、翌日物の大規模設定も全面緩和を意味しない。LPRの判断では、政策金利、預金コスト、銀行の純金利マージン、財政執行を併せて見る必要がある。今週、新たなLPR利下げシグナルは確認できなかった。</p>
+<h2 id="AIと金融は認可・説明責任・ロールバックの段階へ"><a href="#AIと金融は認可・説明責任・ロールバックの段階へ" class="headerlink" title="AIと金融は認可・説明責任・ロールバックの段階へ"></a>AIと金融は認可・説明責任・ロールバックの段階へ</h2><p>『財新周刊』第1220号（8月24日発行）は「AI基建：東南アジアを制する者が天下を取る」を表紙に掲げ、個人情報保護、AI投資ポジションの組み替え、L3自動運転の量産も取り上げた。この目次構成は、AI競争がモデル性能だけでなく、<strong>計算資源とエネルギー、越境展開、データガバナンス、商業化</strong>の組み合わせになったことを示している。<a href="https://weekly.caixin.com/2026/cw1220/">『財新周刊』第1220号</a></p>
+<p>表紙記事の公開要約は、東南アジアが世界の計算資源の外部化を受け入れ、中国のデータセンター運営会社、コロケーション事業者、電力・エネルギー・液冷設備の供給企業も参加していると紹介する。周刊導播は、局所的な電力網のリアルタイム需給バランスを拡張の制約として挙げる。<a href="https://weekly.caixin.com/2026-08-21/102476335.html">表紙記事の公開要約</a> <a href="https://weekly.caixin.com/zkdb/index.html">周刊導播</a> <strong>この公開情報からの推論として</strong>、中国AI産業の海外展開はモデルやサーバーの販売だけでなく、データセンター、電力設備、運用能力の輸出でもある。政策を見る際は、国内の計算資源総量だけでなく、越境インフラの許認可、電力、リスク価格も追う必要がある。</p>
+<p>8月24日、中国支付清算協会は『智能体支付应用自律公约』を公表した。KYCを基礎にしたKYA（Know Your Agent）、利用者の明確な同意、本人確認と取引意思の確認、免許を持つ機関による決済・清算、事前届出、評価、安全テスト、監視、ロールバックを求めている。<a href="https://www.xinhuanet.com/20260824/4efa360edc8a486dbf0b19d0fb37ef41/c.html">新華社</a></p>
+<p>国家データ局は、7月末時点の全国のインテリジェント・コンピューティング規模が245万PFLOPS（FP16）に達し、8大国家計算ハブと3つの計算・電力協調発展区が全国の85%超を占めると明らかにした。<a href="https://www.nda.gov.cn/sjj/jgsz/jld/llh/llhldhd/0829/20260829150055779816795_pc.html">国家データ局</a></p>
+<p>AIの金融利用で重要なのは、モデルの正確さだけではない。「誰が同意し、誰が実行し、誰が損失を負い、どう停止するのか」を答えられる設計が、製品能力の一部になっている。</p>
+<h2 id="政治的シグナルは執行と説明責任"><a href="#政治的シグナルは執行と説明責任" class="headerlink" title="政治的シグナルは執行と説明責任"></a>政治的シグナルは執行と説明責任</h2><p>8月28日、全国人民代表大会常務委員会は、張又侠、鍾紹軍、劉振立、巨乾生の4人について代表資格を終了させた。張又侠は中央軍事委員会副主席、劉振立は同委員会委員の職を解かれた。<a href="https://china.caixin.com/m/2026-08-28/102479454.html">財新報道</a></p>
+<p>公開文書が確認するのは職務と代表資格の処理であり、具体的な理由は示されていない。したがって本稿では、制度上の人事処理が公表されたという事実にとどめ、未公表の動機、派閥関係、刑事結果を事実として扱わない。</p>
+<p>上海市では、党委員会副書記の朱忠明が8月29日、市政府党組書記として会議を主宰した。財政・監査・中央経済部門での経験を持つが、資料締切時点で上海市長への正式任命は確認されていない。<a href="https://china.caixin.com/m/2026-08-29/102479808.html">財新の人事観察</a></p>
+<h2 id="外部圧力は実施済みの衝撃ではなく政策リスク"><a href="#外部圧力は実施済みの衝撃ではなく政策リスク" class="headerlink" title="外部圧力は実施済みの衝撃ではなく政策リスク"></a>外部圧力は実施済みの衝撃ではなく政策リスク</h2><p>8月27日、商務部は、米国政府が「過剰生産能力」を理由に中国を含む16経済体を対象とする301条調査を始め、対中追加関税7.5%を検討していることに反応した。中国側は反対を表明し、必要な措置を取る権利を留保した。<a href="https://www.xinhuanet.com/20260827/7915bcf14cda488083f7ef4eed33ee05/c.html">新華社による商務部会見の要約</a></p>
+<p>資料締切時点で7.5%は可能性のある措置であり、発効済みの税率ではない。影響は最終的な品目、実施時期、免除範囲、企業のコスト転嫁力によって変わる。</p>
+<h2 id="次に注目すべき点"><a href="#次に注目すべき点" class="headerlink" title="次に注目すべき点"></a>次に注目すべき点</h2><ul>
+<li>公式PMIの新規受注、建設業、小企業指数が財政執行の需要波及を示すか；</li>
+<li>不動産信用、現物販売、前売り資金監督の地方実施細則が着工・成約・住宅ローンに与える影響；</li>
+<li>9月初旬の公開市場操作、政策金利、LPR公表に新しい価格シグナルが出るか；</li>
+<li>工業利益の改善が売掛金・在庫の減少、民営企業のキャッシュフロー改善に転じるか；</li>
+<li>米国301条調査の品目範囲と日程；</li>
+<li>インテリジェント・エージェント決済の届出、テスト、免許機関の試行；</li>
+<li>上海市長の正式任命と軍関係人事に関する追加公表。</li>
 </ul>
-<p>与此同时，国家数据局披露，截至7月底全国智算总规模达到 <strong>245万PFLOPS（FP16）</strong>，八大国家算力枢纽和三个算电协同发展区的智算规模占全国比重超过85%。<a href="https://www.nda.gov.cn/sjj/jgsz/jld/llh/llhldhd/0829/20260829150055779816795_pc.html">国家数据局</a></p>
-<p>AI本周出现了两个值得放在一起看的变化：一边是算力被纳入基础设施和能源配置，另一边是智能体被纳入支付责任和消费者保护。对金融行业而言，AI的核心竞争力不只是模型准确率，还包括授权记录、交易限额、人工接管、审计日志和事故回退。</p>
-<h2 id="政治信号在于执行与问责"><a href="#政治信号在于执行与问责" class="headerlink" title="政治信号在于执行与问责"></a>政治信号在于执行与问责</h2><p>8月28日，十四届全国人大常委会作出相关决定：张又侠被免去中央军委副主席职务，刘振立被免去中央军委委员职务；张又侠、钟绍军、刘振立、巨乾生四人的全国人大代表资格终止。<a href="https://china.caixin.com/m/2026-08-28/102479454.html">财新报道</a></p>
-<p>目前公开公告主要确认了职务和代表资格处理，<strong>没有说明四人的具体原因</strong>。因此，周报可以写“制度性处理和军队人事调整已公开化”，不应把未披露的动机、派系关系或后续刑事结果写成事实。</p>
-<p>另一个地方治理信号是，上海市委副书记朱忠明于8月29日以市政府党组书记身份主持会议。朱忠明有财政、审计和中央财经部门经历，但截至资料截止日，上海市长的正式任命尚未在公开材料中完成确认。<a href="https://china.caixin.com/m/2026-08-29/102479808.html">财新人事观察</a></p>
-<h2 id="外部压力仍是政策风险，而非已经兑现的冲击"><a href="#外部压力仍是政策风险，而非已经兑现的冲击" class="headerlink" title="外部压力仍是政策风险，而非已经兑现的冲击"></a>外部压力仍是政策风险，而非已经兑现的冲击</h2><p>8月27日，商务部回应美国政府考虑以“产能过剩”为由，对包括中国在内的16个经济体发起301调查并可能对华额外加征7.5%关税。中方表示坚决反对，将继续评估美方举措并保留采取必要措施的权利。<a href="https://www.xinhuanet.com/20260827/7915bcf14cda488083f7ef4eed33ee05/c.html">新华社转述商务部发布会</a></p>
-<p>截至资料截止日，7.5%仍是<strong>可能措施</strong>，不是已经生效的税率。对中国经济的直接影响取决于最终产品清单、实施时间、豁免范围和企业转嫁能力；在此之前，更适合把它作为出口和产业链的政策风险，而不是已经兑现的冲击。</p>
-<h2 id="接下来关注什么"><a href="#接下来关注什么" class="headerlink" title="接下来关注什么"></a>接下来关注什么</h2><ul>
-<li>官方PMI中的新订单、建筑业和小型企业指数，是否显示财政资金开始传导到需求；</li>
-<li>房地产信贷、现房销售和预售资金监管的地方执行细则，是否影响项目开工、成交和按揭节奏；</li>
-<li>央行9月初的公开市场操作、政策利率和LPR报价，是否出现新的价格信号；</li>
-<li>工业利润改善能否转化为应收账款下降、库存下降和民营企业现金流改善；</li>
-<li>美国301调查是否公布更具体的产品范围和时间表；</li>
-<li>智能体支付是否出现首批报备、测试或持牌机构试点信息；</li>
-<li>上海市长正式任命及军队相关职务处理是否有进一步公开信息。</li>
+<h2 id="さらに考えるべき問い"><a href="#さらに考えるべき問い" class="headerlink" title="さらに考えるべき問い"></a>さらに考えるべき問い</h2><ul>
+<li>不動産信用の新しい枠組みのうち、どれだけがプロジェクト単位の実融資と引き渡しに結びつき、銀行手続きの変更だけにとどまらないのか。</li>
+<li>工業利益の改善は電子・資源分野から広がるのか、それとも政策支援を受ける一部産業に集中し続けるのか。</li>
+<li>インテリジェント・エージェント決済の規則は、金融アプリの有用性を損なわずに、認可・責任・ロールバックを監査可能にできるのか。</li>
+<li>需要と民営企業のキャッシュフローが9月も弱い場合、新たなLPRシグナルが出ない状態は続くのか。</li>
 </ul>
-<h2 id="延伸问题"><a href="#延伸问题" class="headerlink" title="延伸问题"></a>延伸问题</h2><ul>
-<li>房地产信贷新框架有多少会转化为项目层面的实际融资和交付，而不只是银行流程的调整？</li>
-<li>工业利润改善能否从电子和资源行业扩散，还是会继续集中在少数政策支持行业？</li>
-<li>智能体支付规则能否让授权、责任和回退机制可审计，同时不压低有用金融应用的效率？</li>
-<li>如果需求和民营企业现金流在9月仍弱，缺少新的LPR信号是否会持续？</li>
-</ul>
-<h2 id="口径与假设"><a href="#口径与假设" class="headerlink" title="口径与假设"></a>口径与假设</h2><ul>
-<li>报道区间为2026年8月24日至30日，以北京时间计算。此后信息仅用于核验状态，不作为本周新增事件处理。</li>
-<li>工业利润、房地产和流动性数据采用不同统计或操作口径，不能合并理解为单一综合指标。</li>
-<li>《财新周刊》第1220期仅使用公开目录和公开摘要，未转载付费正文。</li>
-<li>对政策意图、政治意义和后续LPR行动的判断属于分析，不是预测或投资建议。</li>
+<h2 id="前提と留意点"><a href="#前提と留意点" class="headerlink" title="前提と留意点"></a>前提と留意点</h2><ul>
+<li>対象期間は2026年8月24日〜30日、北京時間である。それ以降の情報は状況確認にのみ使い、対象週の新規事象としては扱わない。</li>
+<li>工業利益、不動産、流動性のデータは異なる統計・運用基準に基づくため、単一の総合指標として読むべきではない。</li>
+<li>『財新周刊』第1220号は公開の目次と要約のみを参照し、購読者向け本文は転載していない。</li>
+<li>政策意図、政治的意味、今後のLPR対応に関する記述は分析であり、予測や投資助言ではない。</li>
 </ul>
 <hr>
-<h3 id="编辑说明"><a href="#编辑说明" class="headerlink" title="编辑说明"></a>编辑说明</h3><p>本周报由作者独立撰写，以国家统计局、央行、金融监管总局、证监会、国家数据局、商务部、新华社等公开材料为事实底稿，并参考《财新周刊》第1220期的公开目录和公开摘要。本文不转载付费正文；事实、结构性分析和作者推断分开呈现，链接仅用于来源说明和延伸阅读。</p>
-<p><em>本文提供一般性政治经济分析，不构成法律、财务、购房、信贷或投资建议。</em></p>
+<h3 id="編集方針"><a href="#編集方針" class="headerlink" title="編集方針"></a>編集方針</h3><p>本ニュースレターは筆者が独立して執筆した。国家統計局、人民銀行、金融監督当局、証監会、国家データ局、商務部、新華社などの公開資料を事実の基礎とし、『財新周刊』第1220号は公開の目次と要約のみを参照した。購読者向け本文は転載せず、事実、構造分析、筆者の推論を区別している。リンクは出所の明示と追加確認のために掲載した。</p>
+<p><em>本稿は一般的な政治経済分析を提供するものであり、法律・財務・住宅購入・信用・投資上の助言ではない。</em></p>
 ]]></content>
     <author><name>Lei Deng</name></author>
   </entry>
@@ -844,250 +837,137 @@
     <author><name>Lei Deng</name></author>
   </entry>
   <entry>
-    <title>中国政経ウィークリー｜2026年8月24日〜30日：信用ルールの再設計と不均一な利益回復</title>
-    <id>https://terazadl.github.io/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-ja/</id>
-    <link href="https://terazadl.github.io/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-ja/"/>
+    <title>中国政经周报：信用规则重写，利润修复仍分化</title>
+    <id>https://terazadl.github.io/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-zh/</id>
+    <link href="https://terazadl.github.io/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-zh/"/>
     <published>2026-08-30T08:30:00.000Z</published>
     <updated>2026-08-30T09:15:00.000Z</updated>
-    <summary type="html"><![CDATA[工業企業の利益回復は分野ごとの差が大きい。不動産信用はプロジェクトと引き渡しを軸に再設計され、流動性は維持される一方、新たなLPR利下げシグナルは出ていない。]]></summary>
-    <content type="html"><![CDATA[<p><span hidden data-article-language="JA"></span></p>
+    <summary type="html"><![CDATA[工业利润修复仍高度分化，房地产信贷规则转向项目和交付管理，流动性保持可用但暂无新的LPR信号，AI治理进入支付责任层。]]></summary>
+    <content type="html"><![CDATA[<p><span hidden data-article-language="ZH"></span></p>
 <div class="abstract">
-  <span class="abstract-label">今週の論点</span>
-  今週の主題は、単純な総量刺激の拡大ではなく、信用と産業の運用ルールの再設計である。工業企業の利益回復には大きなばらつきが残り、不動産では現物販売、プロジェクト主幹銀行、前売り資金、住宅ローンを同時に組み替える。人民銀行は中期・翌日物の手段で流動性を維持し、AIはモデル競争から決済責任と計算基盤のガバナンスへ進みつつある。
+  <span class="abstract-label">本周主线</span>
+  本周的主线不是简单加大总量刺激，而是开始重写信用和产业运行规则：工业利润反弹仍高度分化，房地产同步推进现房销售、项目制融资和按揭制度调整，央行用中期与隔夜工具维持流动性，人工智能则从模型竞争进入支付责任和算力基础设施治理。
 </div>
 
 <blockquote>
-<p><strong>対象期間：</strong> 2026年8月24日〜30日（北京時間）。2026年8月30日公開。</p>
-<p><strong>言語：</strong> <a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30/">English</a> · <a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-zh/">中文</a> · <strong>日本語</strong></p>
+<p><strong>报道区间：</strong> 2026年8月24日至30日（北京时间）。发布于2026年8月30日。</p>
+<p><strong>语言版本：</strong> <a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30/">English</a> · <strong>中文</strong> · <a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-ja/">日本語</a></p>
 </blockquote>
 <span id="more"></span>
 
-<h2 id="エグゼクティブ・サマリー"><a href="#エグゼクティブ・サマリー" class="headerlink" title="エグゼクティブ・サマリー"></a>エグゼクティブ・サマリー</h2><ul>
-<li><strong>利益の伸びはなお狭い。</strong> 1〜7月の一定規模以上工業企業の利益は前年同期比17.6%増となったが、電子・資源関連が改善の大半を担い、自動車、建材、電力は弱い。売掛金と製品在庫も増えており、全般的な需要回復とは言いにくい。</li>
-<li><strong>不動産政策は信用インフラの再設計に入った。</strong> プロジェクト主幹銀行、現物販売プロジェクトの開発融資期間延長、個人住宅ローンの40年上限、前売り住宅ローンの実行時期の後倒し、プロジェクト口座管理を組み合わせている。証券市場の資金調達も、開発企業全体ではなくプロジェクト単位に寄せられる。</li>
-<li><strong>流動性は維持されるが、価格シグナルは慎重である。</strong> 人民銀行は8月25日に1年物MLFを5000億元実施し、当月6000億元の満期を迎えた。翌日物リバースレポも大規模に設定されたが、これはLPR利下げの直接的な約束とは読めない。</li>
-<li><strong>AIは金融取引の責任レイヤーに入った。</strong> 支払決済協会の自律規約は、KYA（Know Your Agent）、明確な利用者同意、免許を持つ機関の責任、事前評価・監視・ロールバックを求めている。</li>
-<li><strong>政治面では人事処理と説明可能な責任が焦点となった。</strong> 4人の軍関係人大代表資格が終了し、張又侠と劉振立は中央軍事委員会の職務を解かれた。公開文書は理由を説明していないため、確認できる制度上の事実にとどめる。</li>
+<h2 id="执行摘要"><a href="#执行摘要" class="headerlink" title="执行摘要"></a>执行摘要</h2><ul>
+<li><strong>工业利润修复不等于需求全面恢复。</strong> 1—7月规模以上工业企业利润同比增长17.6%，但增长集中在电子、有色、化工、采矿等行业；汽车、非金属矿物制品和电力等行业仍明显承压。应收账款和产成品存货继续上升，现金流和产能问题没有消失。</li>
+<li><strong>房地产政策进入制度重构阶段。</strong> 央行、金融监管总局、住建等部门围绕现房销售、项目主办银行、预售资金和个人住房贷款同步调整；证监会则把股权、债券、ABS、REITs等融资工具纳入“项目制”框架。政策目标更接近重建信用基础设施、降低交付风险，而不是无条件恢复旧式地产杠杆。</li>
+<li><strong>货币政策继续“稳流动性、慎发价格信号”。</strong> 央行8月25日开展5000亿元MLF，本月到期量为6000亿元；同时安排8月27日至9月1日隔夜逆回购，每日上限6000亿元。这个组合更像月末和政府债发行期的流动性管理，不能直接等同于LPR即将下调。</li>
+<li><strong>AI开始进入金融交易的责任层。</strong> 中国支付清算协会发布智能体支付自律公约，提出“了解你的智能体”（KYA）、清晰授权、持牌机构负责和上线前报备评估；国家数据局披露全国智算规模已达到245万PFLOPS（FP16）。</li>
+<li><strong>政治信号集中在人员处理和执行问责。</strong> 张又侠、刘振立等四名军方代表资格终止，张又侠和刘振立的国家军委职务被免去；公开公告没有说明具体原因，分析应停留在可验证的制度事实层面。</li>
 </ul>
-<h2 id="工業利益：総量は改善、裾野は狭い"><a href="#工業利益：総量は改善、裾野は狭い" class="headerlink" title="工業利益：総量は改善、裾野は狭い"></a>工業利益：総量は改善、裾野は狭い</h2><p>国家統計局によると、1〜7月の一定規模以上工業企業の利益総額は4兆5820.6億元で、前年同期比17.6%増となった。売上高は6.5%増、売上高利益率は5.66%で、前年同期より0.54ポイント上昇した。<a href="https://www.stats.gov.cn/sj/zxfb/202608/t20260827_1965126.html">国家統計局</a></p>
+<h2 id="工业利润反弹：总量改善，结构仍然很窄"><a href="#工业利润反弹：总量改善，结构仍然很窄" class="headerlink" title="工业利润反弹：总量改善，结构仍然很窄"></a>工业利润反弹：总量改善，结构仍然很窄</h2><p>国家统计局8月27日公布，1—7月全国规模以上工业企业实现利润总额 <strong>4.582万亿元</strong>，同比增长 <strong>17.6%</strong>；营业收入增长6.5%，营业收入利润率为5.66%，同比提高0.54个百分点。<a href="https://www.stats.gov.cn/sj/zxfb/202608/t20260827_1965126.html">国家统计局数据</a></p>
 <table>
 <thead>
 <tr>
-<th>指標</th>
-<th align="right">1〜7月の前年比</th>
-<th>読み方</th>
+<th>指标</th>
+<th align="right">1—7月同比</th>
+<th>读法</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>国有持株企業の利益</td>
+<td>国有控股企业利润</td>
 <td align="right">+16.3%</td>
-<td>政策・資源関連部門の回復が速い</td>
+<td>政策和资源集中部门修复较快</td>
 </tr>
 <tr>
-<td>民営企業の利益</td>
+<td>私营企业利润</td>
 <td align="right">+10.9%</td>
-<td>改善するが全体を下回る</td>
+<td>有修复，但弱于整体利润增速</td>
 </tr>
 <tr>
-<td>外資・香港・マカオ・台湾企業の利益</td>
+<td>外商及港澳台企业利润</td>
 <td align="right">+1.2%</td>
-<td>改善は限定的</td>
+<td>外资部门改善有限</td>
 </tr>
 <tr>
-<td>コンピューター・通信・電子機器製造</td>
-<td align="right">約+110%</td>
-<td>ハイテク部門の主な牽引役</td>
+<td>计算机、通信等电子设备制造业</td>
+<td align="right">+110%左右</td>
+<td>高技术板块是主要亮点之一</td>
 </tr>
 <tr>
-<td>自動車製造</td>
+<td>汽车制造业</td>
 <td align="right">-20.4%</td>
-<td>価格競争と需要圧力</td>
+<td>价格竞争和需求压力仍在</td>
 </tr>
 <tr>
-<td>非金属鉱物製品</td>
+<td>非金属矿物制品业</td>
 <td align="right">-48.2%</td>
-<td>不動産・従来型投資の弱さ</td>
+<td>地产和传统投资链条较弱</td>
 </tr>
 <tr>
-<td>売掛金</td>
+<td>应收账款</td>
 <td align="right">+8.5%</td>
-<td>回収圧力が続く</td>
+<td>回款压力仍在累积</td>
 </tr>
 <tr>
-<td>製品在庫</td>
+<td>产成品存货</td>
 <td align="right">+10.8%</td>
-<td>在庫と販売の連動を要確認</td>
+<td>库存和产销衔接值得警惕</td>
 </tr>
 </tbody></table>
-<p>この数字は、広範な内需回復というより<strong>構造的な利益修復</strong>と呼ぶ方が適切である。電子、非鉄金属、化学、鉱業の改善には、産業内の位置、価格、輸出構成が影響している可能性がある。一方、自動車、建材、電力は弱く、売掛金と在庫の増加は利益が健全なキャッシュフローに変わっていないことを示唆する。</p>
-<h2 id="不動産政策は主体信用からプロジェクトと引き渡しへ"><a href="#不動産政策は主体信用からプロジェクトと引き渡しへ" class="headerlink" title="不動産政策は主体信用からプロジェクトと引き渡しへ"></a>不動産政策は主体信用からプロジェクトと引き渡しへ</h2><p>8月28日、中国人民銀行と金融監督当局は36項目の不動産信用管理意見を公表した。主な内容は次の通りである。</p>
+<p>这组数据更像是<strong>结构性利润修复</strong>，而不是广泛的内需复苏。电子、有色、化工和采矿等行业的利润改善，可能反映产业位置、价格和出口结构的变化；但汽车、建材及电力等行业仍弱，且应收账款与存货增长快于企业愿望中的健康现金循环。</p>
+<p>因此，本周不宜把“利润同比增长17.6%”直接写成“企业信心恢复”。更有价值的问题是：利润能否转化为现金流，民营企业能否获得订单，库存能否下降，传统行业的价格竞争能否缓和。</p>
+<h2 id="房地产政策从主体信用转向项目、交付和资金封闭管理"><a href="#房地产政策从主体信用转向项目、交付和资金封闭管理" class="headerlink" title="房地产政策从主体信用转向项目、交付和资金封闭管理"></a>房地产政策从主体信用转向项目、交付和资金封闭管理</h2><p>8月28日，央行与金融监管总局发布房地产信贷管理意见，共36条，重点包括：</p>
 <ul>
-<li>開発融資に<strong>プロジェクト主幹銀行制度</strong>を導入する；</li>
-<li>前売りプロジェクトの開発融資は原則3年以内、最長5年、現物販売プロジェクトは最長7年とする；</li>
-<li>個人住宅ローンの期間上限を <strong>40年</strong> に延長する；</li>
-<li>前売り住宅の住宅ローンは竣工届出後に実行する；</li>
-<li>融資資金をプロジェクト会社の主幹銀行口座または前売り資金監督口座に入れる。<a href="https://www.xinhuanet.com/20260828/36dc5659375e407abd8e01a281305df5/c.html">新華社による権威ある要約</a></li>
+<li>房地产开发贷款实行<strong>项目主办银行制</strong>，单个项目对应一家主办银行；</li>
+<li>预售项目开发贷款期限原则上不超过3年、最长5年，现售项目最长可至7年；</li>
+<li>个人住房贷款期限上限延长至 <strong>40年</strong>；</li>
+<li>预售商品房个人住房贷款发放时点调整为<strong>竣工备案后</strong>；</li>
+<li>现房、预售项目的贷款资金分别进入项目公司主办银行账户或预售资金监管账户。<a href="https://www.xinhuanet.com/20260828/36dc5659375e407abd8e01a281305df5/c.html">央行、金融监管总局意见的权威转述</a></li>
 </ul>
-<p>同日、中国証監会は上場不動産企業の再調達、社債、CMBS、ABS、賃貸住宅・都市更新REITsなどを支援する意見を公表した。企業全体への信用依存からプロジェクト単位の融資へ移し、情報開示と資金使途の貫通管理を強める内容である。<a href="https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml">中国証監会</a></p>
-<p>これは一方向の不動産緩和ではない。実行可能なプロジェクトを支えながら、前売りと企業グループ信用のリスクを切り分ける政策である。購入者にとっては引き渡しリスクの低下に資する一方、開発業者にとっては前売り資金を利用可能な現金へ転換するまでの時間が長くなり、プロジェクトの資金繰りがより重要になる。</p>
-<p>短期的には、一部の前売りプロジェクトで住宅ローン実行や現金化が遅れる可能性がある。中長期の評価は、主幹銀行が実際に融資するか、監督資金がプロジェクト内で閉じるか、現物・中古住宅の取引が継続的に改善するかにかかっている。制度変更だけで全国の住宅価格の底入れを証明することはできない。</p>
-<h2 id="流動性管理は広範な金融緩和に先行"><a href="#流動性管理は広範な金融緩和に先行" class="headerlink" title="流動性管理は広範な金融緩和に先行"></a>流動性管理は広範な金融緩和に先行</h2><p>人民銀行は8月25日に1年物MLFを5000億元実施した。当月6000億元の満期を考えると、MLF単体では1000億元の縮小ロールとなる。8月27日から9月1日までは、1日あたり6000億元を上限とする翌日物リバースレポも設定した。<a href="https://www.thepaper.cn/newsDetail_forward_33840494">人民銀行のオペレーション報道</a></p>
-<p>財新は8月の翌日物リバースレポについて、緊急対応と日常的な短期流動性管理の両方を担う手段であり、毎回の操作を新たな政策金利シグナルとみなすべきではないと説明している。<a href="https://finance.caixin.com/2026-08-19/102475698.html">財新の背景解説</a></p>
-<p>今週の組み合わせは、<strong>流動性は使える状態に保ち、価格シグナルは慎重にする</strong>というものだ。MLFの縮小は自動的に引き締めを意味せず、翌日物の大規模設定も全面緩和を意味しない。LPRの判断では、政策金利、預金コスト、銀行の純金利マージン、財政執行を併せて見る必要がある。今週、新たなLPR利下げシグナルは確認できなかった。</p>
-<h2 id="AIと金融は認可・説明責任・ロールバックの段階へ"><a href="#AIと金融は認可・説明責任・ロールバックの段階へ" class="headerlink" title="AIと金融は認可・説明責任・ロールバックの段階へ"></a>AIと金融は認可・説明責任・ロールバックの段階へ</h2><p>『財新周刊』第1220号（8月24日発行）は「AI基建：東南アジアを制する者が天下を取る」を表紙に掲げ、個人情報保護、AI投資ポジションの組み替え、L3自動運転の量産も取り上げた。この目次構成は、AI競争がモデル性能だけでなく、<strong>計算資源とエネルギー、越境展開、データガバナンス、商業化</strong>の組み合わせになったことを示している。<a href="https://weekly.caixin.com/2026/cw1220/">『財新周刊』第1220号</a></p>
-<p>表紙記事の公開要約は、東南アジアが世界の計算資源の外部化を受け入れ、中国のデータセンター運営会社、コロケーション事業者、電力・エネルギー・液冷設備の供給企業も参加していると紹介する。周刊導播は、局所的な電力網のリアルタイム需給バランスを拡張の制約として挙げる。<a href="https://weekly.caixin.com/2026-08-21/102476335.html">表紙記事の公開要約</a> <a href="https://weekly.caixin.com/zkdb/index.html">周刊導播</a> <strong>この公開情報からの推論として</strong>、中国AI産業の海外展開はモデルやサーバーの販売だけでなく、データセンター、電力設備、運用能力の輸出でもある。政策を見る際は、国内の計算資源総量だけでなく、越境インフラの許認可、電力、リスク価格も追う必要がある。</p>
-<p>8月24日、中国支付清算協会は『智能体支付应用自律公约』を公表した。KYCを基礎にしたKYA（Know Your Agent）、利用者の明確な同意、本人確認と取引意思の確認、免許を持つ機関による決済・清算、事前届出、評価、安全テスト、監視、ロールバックを求めている。<a href="https://www.xinhuanet.com/20260824/4efa360edc8a486dbf0b19d0fb37ef41/c.html">新華社</a></p>
-<p>国家データ局は、7月末時点の全国のインテリジェント・コンピューティング規模が245万PFLOPS（FP16）に達し、8大国家計算ハブと3つの計算・電力協調発展区が全国の85%超を占めると明らかにした。<a href="https://www.nda.gov.cn/sjj/jgsz/jld/llh/llhldhd/0829/20260829150055779816795_pc.html">国家データ局</a></p>
-<p>AIの金融利用で重要なのは、モデルの正確さだけではない。「誰が同意し、誰が実行し、誰が損失を負い、どう停止するのか」を答えられる設計が、製品能力の一部になっている。</p>
-<h2 id="政治的シグナルは執行と説明責任"><a href="#政治的シグナルは執行と説明責任" class="headerlink" title="政治的シグナルは執行と説明責任"></a>政治的シグナルは執行と説明責任</h2><p>8月28日、全国人民代表大会常務委員会は、張又侠、鍾紹軍、劉振立、巨乾生の4人について代表資格を終了させた。張又侠は中央軍事委員会副主席、劉振立は同委員会委員の職を解かれた。<a href="https://china.caixin.com/m/2026-08-28/102479454.html">財新報道</a></p>
-<p>公開文書が確認するのは職務と代表資格の処理であり、具体的な理由は示されていない。したがって本稿では、制度上の人事処理が公表されたという事実にとどめ、未公表の動機、派閥関係、刑事結果を事実として扱わない。</p>
-<p>上海市では、党委員会副書記の朱忠明が8月29日、市政府党組書記として会議を主宰した。財政・監査・中央経済部門での経験を持つが、資料締切時点で上海市長への正式任命は確認されていない。<a href="https://china.caixin.com/m/2026-08-29/102479808.html">財新の人事観察</a></p>
-<h2 id="外部圧力は実施済みの衝撃ではなく政策リスク"><a href="#外部圧力は実施済みの衝撃ではなく政策リスク" class="headerlink" title="外部圧力は実施済みの衝撃ではなく政策リスク"></a>外部圧力は実施済みの衝撃ではなく政策リスク</h2><p>8月27日、商務部は、米国政府が「過剰生産能力」を理由に中国を含む16経済体を対象とする301条調査を始め、対中追加関税7.5%を検討していることに反応した。中国側は反対を表明し、必要な措置を取る権利を留保した。<a href="https://www.xinhuanet.com/20260827/7915bcf14cda488083f7ef4eed33ee05/c.html">新華社による商務部会見の要約</a></p>
-<p>資料締切時点で7.5%は可能性のある措置であり、発効済みの税率ではない。影響は最終的な品目、実施時期、免除範囲、企業のコスト転嫁力によって変わる。</p>
-<h2 id="次に注目すべき点"><a href="#次に注目すべき点" class="headerlink" title="次に注目すべき点"></a>次に注目すべき点</h2><ul>
-<li>公式PMIの新規受注、建設業、小企業指数が財政執行の需要波及を示すか；</li>
-<li>不動産信用、現物販売、前売り資金監督の地方実施細則が着工・成約・住宅ローンに与える影響；</li>
-<li>9月初旬の公開市場操作、政策金利、LPR公表に新しい価格シグナルが出るか；</li>
-<li>工業利益の改善が売掛金・在庫の減少、民営企業のキャッシュフロー改善に転じるか；</li>
-<li>米国301条調査の品目範囲と日程；</li>
-<li>インテリジェント・エージェント決済の届出、テスト、免許機関の試行；</li>
-<li>上海市長の正式任命と軍関係人事に関する追加公表。</li>
+<p>同日，证监会发布房地产资本市场支持意见，支持上市房企再融资、公司债、CMBS、ABS、租赁住房和城市更新REITs，并强调从依赖主体信用转向基于项目情况融资，同时加强信息披露和募集资金穿透监管。<a href="https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml">证监会公告</a></p>
+<p>这不是单向度的“地产放松”，而是<strong>支持合理项目融资，同时把预售和集团信用的风险隔离开</strong>。从购房人角度，竣工备案后发放贷款和封闭管理有助于降低交付风险；从开发商角度，预售资金转化为可用融资的时间可能延后，项目的现金流管理要求更高。</p>
+<p>短期内，部分预售项目的新增按揭和房企现金转换速度可能受压；中长期能否改善地产信用，要看项目是否真的可以获得主办银行融资、预售资金是否能够闭环、以及二手房和现房交易是否出现持续改善。政策本身不能证明全国房价已经见底。</p>
+<h2 id="流动性管理走在全面货币宽松之前"><a href="#流动性管理走在全面货币宽松之前" class="headerlink" title="流动性管理走在全面货币宽松之前"></a>流动性管理走在全面货币宽松之前</h2><p>央行8月25日开展5000亿元、期限一年的MLF操作。由于当月有6000亿元MLF到期，单看MLF为缩量续作1000亿元；同时，央行安排8月27日至9月1日开展隔夜逆回购，每日操作量不超过6000亿元。<a href="https://www.thepaper.cn/newsDetail_forward_33840494">相关公告及报道</a></p>
+<p>财新此前对8月隔夜逆回购的解读是：该工具兼有应急和日常流动性管理功能，央行更关注短期资金面和操作精准度，而不是用每一次操作表达新的政策利率方向。<a href="https://finance.caixin.com/2026-08-19/102475698.html">财新：央行连续三个月动用隔夜逆回购</a></p>
+<p>本周的组合可以概括为：<strong>流动性保持可用，价格信号保持克制</strong>。MLF缩量并不自动等同于收紧，隔夜逆回购放量也不自动等同于全面宽松。对LPR的判断，仍应观察政策利率、存款利率、银行净息差和财政支出进度，而不能只看央行投放金额。本周没有出现新的LPR下调信号。</p>
+<h2 id="AI与金融进入授权、问责和回退层"><a href="#AI与金融进入授权、问责和回退层" class="headerlink" title="AI与金融进入授权、问责和回退层"></a>AI与金融进入授权、问责和回退层</h2><p>《财新周刊》第1220期（8月24日出版）把“AI基建：得东南亚者得天下”放在封面，并同时讨论个人信息保护、AI投资仓位重整和L3级自动驾驶量产。这组目录线索说明，AI竞争已经从单一模型能力扩展到<strong>算力与能源、跨境部署、数据治理和商业化兑现</strong>。<a href="https://weekly.caixin.com/2026/cw1220/">《财新周刊》第1220期目录</a></p>
+<p>封面报道的公开摘要提到，东南亚正在承接全球算力外溢，来自中国的数据中心运营商、托管服务商以及电力、能源和液冷供应商参与其中；周刊导播还把局部电网实时平衡视为扩张瓶颈。<a href="https://weekly.caixin.com/2026-08-21/102476335.html">封面报道公开摘要</a> <a href="https://weekly.caixin.com/zkdb/index.html">周刊导播</a> <strong>据此推断</strong>，中国AI产业的“出海”不只是卖模型或服务器，也是在输出数据中心、电力配套和运维能力；政策观察不能只盯国内算力总量，还要看跨境基础设施的审批、用电和风险定价。</p>
+<p>8月24日，中国支付清算协会发布《智能体支付应用自律公约》。公约提出：</p>
+<ul>
+<li>在KYC基础上探索“了解你的智能体”（KYA）；</li>
+<li>明确用户授权边界，并核验身份和真实交易意愿；</li>
+<li>账户管理、交易处理和资金清算等核心环节由持牌机构承担；</li>
+<li>智能体自主发起支付前，需要报备、业务评估、安全测试、风险监控和回退机制。<a href="https://www.xinhuanet.com/20260824/4efa360edc8a486dbf0b19d0fb37ef41/c.html">新华社报道</a></li>
 </ul>
-<h2 id="さらに考えるべき問い"><a href="#さらに考えるべき問い" class="headerlink" title="さらに考えるべき問い"></a>さらに考えるべき問い</h2><ul>
-<li>不動産信用の新しい枠組みのうち、どれだけがプロジェクト単位の実融資と引き渡しに結びつき、銀行手続きの変更だけにとどまらないのか。</li>
-<li>工業利益の改善は電子・資源分野から広がるのか、それとも政策支援を受ける一部産業に集中し続けるのか。</li>
-<li>インテリジェント・エージェント決済の規則は、金融アプリの有用性を損なわずに、認可・責任・ロールバックを監査可能にできるのか。</li>
-<li>需要と民営企業のキャッシュフローが9月も弱い場合、新たなLPRシグナルが出ない状態は続くのか。</li>
+<p>与此同时，国家数据局披露，截至7月底全国智算总规模达到 <strong>245万PFLOPS（FP16）</strong>，八大国家算力枢纽和三个算电协同发展区的智算规模占全国比重超过85%。<a href="https://www.nda.gov.cn/sjj/jgsz/jld/llh/llhldhd/0829/20260829150055779816795_pc.html">国家数据局</a></p>
+<p>AI本周出现了两个值得放在一起看的变化：一边是算力被纳入基础设施和能源配置，另一边是智能体被纳入支付责任和消费者保护。对金融行业而言，AI的核心竞争力不只是模型准确率，还包括授权记录、交易限额、人工接管、审计日志和事故回退。</p>
+<h2 id="政治信号在于执行与问责"><a href="#政治信号在于执行与问责" class="headerlink" title="政治信号在于执行与问责"></a>政治信号在于执行与问责</h2><p>8月28日，十四届全国人大常委会作出相关决定：张又侠被免去中央军委副主席职务，刘振立被免去中央军委委员职务；张又侠、钟绍军、刘振立、巨乾生四人的全国人大代表资格终止。<a href="https://china.caixin.com/m/2026-08-28/102479454.html">财新报道</a></p>
+<p>目前公开公告主要确认了职务和代表资格处理，<strong>没有说明四人的具体原因</strong>。因此，周报可以写“制度性处理和军队人事调整已公开化”，不应把未披露的动机、派系关系或后续刑事结果写成事实。</p>
+<p>另一个地方治理信号是，上海市委副书记朱忠明于8月29日以市政府党组书记身份主持会议。朱忠明有财政、审计和中央财经部门经历，但截至资料截止日，上海市长的正式任命尚未在公开材料中完成确认。<a href="https://china.caixin.com/m/2026-08-29/102479808.html">财新人事观察</a></p>
+<h2 id="外部压力仍是政策风险，而非已经兑现的冲击"><a href="#外部压力仍是政策风险，而非已经兑现的冲击" class="headerlink" title="外部压力仍是政策风险，而非已经兑现的冲击"></a>外部压力仍是政策风险，而非已经兑现的冲击</h2><p>8月27日，商务部回应美国政府考虑以“产能过剩”为由，对包括中国在内的16个经济体发起301调查并可能对华额外加征7.5%关税。中方表示坚决反对，将继续评估美方举措并保留采取必要措施的权利。<a href="https://www.xinhuanet.com/20260827/7915bcf14cda488083f7ef4eed33ee05/c.html">新华社转述商务部发布会</a></p>
+<p>截至资料截止日，7.5%仍是<strong>可能措施</strong>，不是已经生效的税率。对中国经济的直接影响取决于最终产品清单、实施时间、豁免范围和企业转嫁能力；在此之前，更适合把它作为出口和产业链的政策风险，而不是已经兑现的冲击。</p>
+<h2 id="接下来关注什么"><a href="#接下来关注什么" class="headerlink" title="接下来关注什么"></a>接下来关注什么</h2><ul>
+<li>官方PMI中的新订单、建筑业和小型企业指数，是否显示财政资金开始传导到需求；</li>
+<li>房地产信贷、现房销售和预售资金监管的地方执行细则，是否影响项目开工、成交和按揭节奏；</li>
+<li>央行9月初的公开市场操作、政策利率和LPR报价，是否出现新的价格信号；</li>
+<li>工业利润改善能否转化为应收账款下降、库存下降和民营企业现金流改善；</li>
+<li>美国301调查是否公布更具体的产品范围和时间表；</li>
+<li>智能体支付是否出现首批报备、测试或持牌机构试点信息；</li>
+<li>上海市长正式任命及军队相关职务处理是否有进一步公开信息。</li>
 </ul>
-<h2 id="前提と留意点"><a href="#前提と留意点" class="headerlink" title="前提と留意点"></a>前提と留意点</h2><ul>
-<li>対象期間は2026年8月24日〜30日、北京時間である。それ以降の情報は状況確認にのみ使い、対象週の新規事象としては扱わない。</li>
-<li>工業利益、不動産、流動性のデータは異なる統計・運用基準に基づくため、単一の総合指標として読むべきではない。</li>
-<li>『財新周刊』第1220号は公開の目次と要約のみを参照し、購読者向け本文は転載していない。</li>
-<li>政策意図、政治的意味、今後のLPR対応に関する記述は分析であり、予測や投資助言ではない。</li>
+<h2 id="延伸问题"><a href="#延伸问题" class="headerlink" title="延伸问题"></a>延伸问题</h2><ul>
+<li>房地产信贷新框架有多少会转化为项目层面的实际融资和交付，而不只是银行流程的调整？</li>
+<li>工业利润改善能否从电子和资源行业扩散，还是会继续集中在少数政策支持行业？</li>
+<li>智能体支付规则能否让授权、责任和回退机制可审计，同时不压低有用金融应用的效率？</li>
+<li>如果需求和民营企业现金流在9月仍弱，缺少新的LPR信号是否会持续？</li>
+</ul>
+<h2 id="口径与假设"><a href="#口径与假设" class="headerlink" title="口径与假设"></a>口径与假设</h2><ul>
+<li>报道区间为2026年8月24日至30日，以北京时间计算。此后信息仅用于核验状态，不作为本周新增事件处理。</li>
+<li>工业利润、房地产和流动性数据采用不同统计或操作口径，不能合并理解为单一综合指标。</li>
+<li>《财新周刊》第1220期仅使用公开目录和公开摘要，未转载付费正文。</li>
+<li>对政策意图、政治意义和后续LPR行动的判断属于分析，不是预测或投资建议。</li>
 </ul>
 <hr>
-<h3 id="編集方針"><a href="#編集方針" class="headerlink" title="編集方針"></a>編集方針</h3><p>本ニュースレターは筆者が独立して執筆した。国家統計局、人民銀行、金融監督当局、証監会、国家データ局、商務部、新華社などの公開資料を事実の基礎とし、『財新周刊』第1220号は公開の目次と要約のみを参照した。購読者向け本文は転載せず、事実、構造分析、筆者の推論を区別している。リンクは出所の明示と追加確認のために掲載した。</p>
-<p><em>本稿は一般的な政治経済分析を提供するものであり、法律・財務・住宅購入・信用・投資上の助言ではない。</em></p>
-]]></content>
-    <author><name>Lei Deng</name></author>
-  </entry>
-  <entry>
-    <title>Japan Political Economy Weekly | Aug 17–23, 2026: Weak Domestic Demand Meets Near-3% JGBs</title>
-    <id>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-23-en/</id>
-    <link href="https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-23-en/"/>
-    <published>2026-08-25T09:00:00.000Z</published>
-    <updated>2026-09-05T15:28:19.936Z</updated>
-    <summary type="html"><![CDATA[Q2 GDP grew, but domestic demand contracted as core inflation accelerated and 10-year JGB yields approached 3%, tightening the government’s policy trade-off.]]></summary>
-    <content type="html"><![CDATA[<p><span hidden data-article-language="EN"></span></p>
-<blockquote>
-<p><strong>Coverage:</strong> Aug 17–23, 2026 (Japan time).<br><strong>Language versions:</strong> <a href="/2026/08/japan-political-economy-weekly-2026-08-23/">中文</a> · <strong>English</strong> · <a href="/2026/08/japan-political-economy-weekly-2026-08-23-ja/">日本語</a></p>
-</blockquote>
-<div class="abstract">
-  <span class="abstract-label">This week</span>
-  Japan’s Q2 GDP still grew, but household consumption and business investment weakened. Core inflation accelerated again while the 10-year JGB yield approached 3%, placing the government’s tax-cut and expansion promises between household support and rising financing costs.
-</div>
-
-<h2 id="Executive-summary"><a href="#Executive-summary" class="headerlink" title="Executive summary"></a>Executive summary</h2><ul>
-<li>Real GDP rose <strong>0.3% q&#x2F;q</strong>, or <strong>1.1% annualised</strong>, but domestic demand subtracted <strong>0.2 percentage points</strong> and net exports added 0.5 points. Consumption fell 0.1% q&#x2F;q and equipment investment 1.2%.</li>
-<li>July core CPI rose <strong>1.8% y&#x2F;y</strong> (1.6% in June); CPI excluding fresh food and energy rose 1.9%. Food inflation was 3.0%.</li>
-<li>The 10-year JGB yield briefly reached <strong>2.945%</strong> on Aug 18, the highest since 1996. Reports suggested a possible <strong>3.8%</strong> FY2027 budget-rate assumption; this was not yet official during the week.</li>
-<li>July imports grew faster than exports, producing a <strong>¥634.5 billion</strong> trade deficit. Alternative crude routes restored physical supply but increased freight and energy costs.</li>
-<li>Core machinery orders rebounded <strong>9.7% m&#x2F;m</strong>, but one large non-ferrous-metals order exaggerated the headline.</li>
-<li>Kyodo’s Aug 22–23 telephone poll put Cabinet approval at <strong>50.2%</strong>, its lowest since the Takaichi Cabinet formed. Opposition-party merger talks remained stuck.</li>
-<li>Rakuten was reported to be helping German defence start-up Helsing market the HX-2 AI strike drone to the Ground Self-Defense Force; testing and procurement were not officially confirmed.</li>
-</ul>
-<h2 id="Core-news"><a href="#Core-news" class="headerlink" title="Core news"></a>Core news</h2><h3 id="1-Q2-GDP-grew-1-1-annualised-while-domestic-demand-contracted"><a href="#1-Q2-GDP-grew-1-1-annualised-while-domestic-demand-contracted" class="headerlink" title="1. Q2 GDP grew 1.1% annualised, while domestic demand contracted"></a>1. Q2 GDP grew 1.1% annualised, while domestic demand contracted</h3><p><strong>Confirmed | Aug 17</strong></p>
-<p>Real GDP increased 0.3% q&#x2F;q and nominal GDP 1.2%. Domestic demand contributed <strong>-0.2 points</strong>; net exports contributed <strong>+0.5 points</strong>. Household consumption fell 0.1%, housing 0.5% and equipment investment 1.2%; exports rose 0.5% and imports fell 1.5%.</p>
-<p><strong>Why it matters (analysis):</strong> Lower imports mechanically lift net exports in GDP accounting. The headline therefore overstates the strength of the household and corporate economy. <a href="https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/gaiyou/pdf/main_1.pdf">Cabinet Office GDP</a> · <a href="https://www.nri.com/jp/media/column/kiuchi/20260817.html">NRI analysis</a></p>
-<h3 id="2-Ten-year-JGB-yields-approach-3-a-3-8-budget-assumption-is-reported"><a href="#2-Ten-year-JGB-yields-approach-3-a-3-8-budget-assumption-is-reported" class="headerlink" title="2. Ten-year JGB yields approach 3%; a 3.8% budget assumption is reported"></a>2. Ten-year JGB yields approach 3%; a 3.8% budget assumption is reported</h3><p><strong>Market data confirmed; budget assumption was still media-reported | Aug 18–21</strong></p>
-<p>The 10-year yield touched <strong>2.945%</strong> on Aug 18 and the new issue closed at 2.870% on Aug 21. Reports said the MOF was considering a 3.8% rate for FY2027 interest-cost estimates, versus 3.0% in the FY2026 budget.</p>
-<p><strong>Why it matters (analysis):</strong> Existing debt is not instantly repriced at 3.8%, but refinancing costs rise over time. Tax cuts and expansionary spending will face a stronger bond-market test. <a href="https://www.investing.com/news/economy-news/japans-10year-government-bond-yield-rises-to-threedecade-peak-4864126">Reuters&#x2F;Investing</a> · <a href="https://www.bb.jbts.co.jp/ja/historical/main_rate.htm">JGB rates</a></p>
-<h3 id="3-July-core-CPI-returns-to-1-8-with-food-prices-still-high"><a href="#3-July-core-CPI-returns-to-1-8-with-food-prices-still-high" class="headerlink" title="3. July core CPI returns to 1.8%, with food prices still high"></a>3. July core CPI returns to 1.8%, with food prices still high</h3><p><strong>Confirmed | Aug 21</strong></p>
-<p>Headline CPI rose 1.9% y&#x2F;y, core CPI 1.8% and core-core CPI 1.9%. Fresh-food-excluding food prices rose 3.0%; fuel-tax and related measures reduced headline CPI by an estimated 0.35 points.</p>
-<p><strong>Why it matters (analysis):</strong> Subsidised gasoline lowers the headline while food and services keep rising. This preserves a case for BOJ normalisation but argues for a careful pace while demand is weak. <a href="https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/zenkoku.pdf">Statistics Bureau CPI</a></p>
-<h3 id="4-July-trade-deficit-reaches-¥634-5-billion"><a href="#4-July-trade-deficit-reaches-¥634-5-billion" class="headerlink" title="4. July trade deficit reaches ¥634.5 billion"></a>4. July trade deficit reaches ¥634.5 billion</h3><p><strong>Confirmed | Aug 18 and 20</strong></p>
-<p>Exports rose 23.2% y&#x2F;y to ¥11.5118 trillion and imports 27.8% to ¥12.1463 trillion. Export volume rose 5.2%, import volume 1.2%, while the customs exchange rate was ¥161.83 per dollar. Cars and semiconductor parts lifted exports; crude, semiconductor inputs and non-ferrous metals lifted imports.</p>
-<p><strong>Why it matters (analysis):</strong> Japan’s energy problem is shifting from availability to delivered cost. A weak yen, oil prices and longer shipping routes can worsen the terms of trade even when physical volumes recover. <a href="https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_07.pdf">MOF trade statistics</a> · <a href="https://www.dir.co.jp/report/research/economics/japan/20260820_025996.html">Daiwa</a></p>
-<h3 id="5-Machinery-orders-rebound-9-7-but-the-signal-is-narrow"><a href="#5-Machinery-orders-rebound-9-7-but-the-signal-is-narrow" class="headerlink" title="5. Machinery orders rebound 9.7%, but the signal is narrow"></a>5. Machinery orders rebound 9.7%, but the signal is narrow</h3><p><strong>Confirmed | Aug 19</strong></p>
-<p>Core private machinery orders rose 9.7% m&#x2F;m; manufacturing orders rose 19.9% and non-manufacturing 4.5%. Q2 core orders rose only 0.2%, and the survey expected 4.9% growth in Q3. A single large non-ferrous-metals order lifted the monthly result.</p>
-<p><strong>Why it matters (analysis):</strong> Capital spending has not collapsed, but one month cannot prove a broad investment recovery. <a href="https://www.esri.cao.go.jp/jp/stat/juchu/2026/2606gaiyou.pdf">Cabinet Office machinery orders</a></p>
-<h3 id="6-Kyodo-approval-poll-falls-to-50-2"><a href="#6-Kyodo-approval-poll-falls-to-50-2" class="headerlink" title="6. Kyodo approval poll falls to 50.2%"></a>6. Kyodo approval poll falls to 50.2%</h3><p><strong>Media poll | Aug 22–23</strong></p>
-<p>Kyodo’s nationwide telephone survey put approval at <strong>50.2%</strong>, down 3.5 points, and disapproval at 33.9%. Different pollsters and methods should not be blended.</p>
-<p><strong>Why it matters (analysis):</strong> The Cabinet still has a workable base, but disaster response and tax-cut promises have not produced stable political dividends. <a href="https://news.livedoor.com/article/detail/32137534/">Kyodo via livedoor</a></p>
-<h3 id="7-Opposition-merger-talks-remain-stuck"><a href="#7-Opposition-merger-talks-remain-stuck" class="headerlink" title="7. Opposition merger talks remain stuck"></a>7. Opposition merger talks remain stuck</h3><p><strong>Media reports | Aug 18 and 21</strong></p>
-<p>The Constitutional Democratic Party, Komeito and Chudo Reform Alliance aimed for an end-August conclusion, but local organisations and policy differences remained obstacles.</p>
-<p><strong>Why it matters (analysis):</strong> A failed merger keeps opposition votes fragmented; a forced merger could create new organisational costs. <a href="https://news.tv-asahi.co.jp/news_politics/articles/000527106.html">TV Asahi</a> · <a href="https://www.fnn.jp/articles/-/1098782">FNN</a></p>
-<h3 id="8-Rakuten-reportedly-markets-Helsing’s-AI-strike-drone"><a href="#8-Rakuten-reportedly-markets-Helsing’s-AI-strike-drone" class="headerlink" title="8. Rakuten reportedly markets Helsing’s AI strike drone"></a>8. Rakuten reportedly markets Helsing’s AI strike drone</h3><p><strong>Media report; testing and procurement not officially confirmed | Aug 17–18</strong></p>
-<p>Rakuten was reported to be helping German defence company Helsing promote the HX-2 to the GSDF. Tests were said to run through September, but the Defence Ministry had not tied the system to a confirmed procurement programme.</p>
-<p><strong>Why it matters (analysis):</strong> Japan’s defence supply chain may combine traditional primes with software and AI start-ups. Compliance, testing and procurement cycles remain the bottlenecks. <a href="https://www.aerotime.aero/articles/rakuten-helsing-hx-2-strike-drone-japan">AeroTime</a></p>
-<h2 id="Data-radar"><a href="#Data-radar" class="headerlink" title="Data radar"></a>Data radar</h2><table>
-<thead>
-<tr>
-<th>Indicator</th>
-<th align="right">Actual</th>
-<th align="right">Previous &#x2F; expectation</th>
-<th>Read-through</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Q2 real GDP</td>
-<td align="right">+0.3% q&#x2F;q; +1.1% annualised</td>
-<td align="right">Domestic demand -0.2 pts</td>
-<td>Growth quality weak</td>
-</tr>
-<tr>
-<td>July core CPI</td>
-<td align="right">+1.8% y&#x2F;y</td>
-<td align="right">June +1.6%</td>
-<td>BOJ hike window remains open</td>
-</tr>
-<tr>
-<td>June core machinery orders</td>
-<td align="right">+9.7% m&#x2F;m</td>
-<td align="right">May -12.4%</td>
-<td>Rebound, but large-order effect</td>
-</tr>
-<tr>
-<td>July trade balance</td>
-<td align="right">-¥634.5bn</td>
-<td align="right">Third straight deficit</td>
-<td>Energy and yen costs bite</td>
-</tr>
-<tr>
-<td>10-year JGB</td>
-<td align="right">2.870% Aug 21</td>
-<td align="right">Intraday 2.945%</td>
-<td>Fiscal and hike expectations pressure yields</td>
-</tr>
-<tr>
-<td>USD&#x2F;JPY</td>
-<td align="right">158.80–158.90</td>
-<td align="right">Still near 159</td>
-<td>Imported-cost risk persists</td>
-</tr>
-<tr>
-<td>Nikkei 225</td>
-<td align="right">66,016.36 Aug 21</td>
-<td align="right">About -3.9% w&#x2F;w</td>
-<td>Higher-rate and valuation sensitivity</td>
-</tr>
-</tbody></table>
-<h2 id="Politics-and-institutions"><a href="#Politics-and-institutions" class="headerlink" title="Politics and institutions"></a>Politics and institutions</h2><p>Kyodo’s 50.2% reading should be tracked only within Kyodo’s own series. The reported 3.8% budget rate is an interest-cost assumption, not a guaranteed market yield. No parliamentary vote this week changed the path of food-tax reform; the autumn Diet and opposition coordination remain the key institutional tests.</p>
-<h2 id="Policy-and-market-implications-analysis"><a href="#Policy-and-market-implications-analysis" class="headerlink" title="Policy and market implications (analysis)"></a>Policy and market implications (analysis)</h2><ol>
-<li><strong>BOJ:</strong> Core inflation and a weak yen keep normalisation possible, but weak consumption and investment argue against aggressive hikes.</li>
-<li><strong>Fiscal policy:</strong> A higher budget-rate assumption raises the opportunity cost of unfunded tax cuts and puts term premium in focus.</li>
-<li><strong>Households:</strong> Positive GDP does not guarantee better living standards when food inflation, energy bills and poor terms of trade erode real income.</li>
-<li><strong>Yen and equities:</strong> Yen weakness supports exporters but raises import costs; a rising Nikkei is not evidence of stronger household purchasing power.</li>
-<li><strong>Industry:</strong> Energy procurement, defence software and labour-saving investment may grow, but logistics and compliance costs determine who captures the margin.</li>
-</ol>
-<h2 id="Next-week"><a href="#Next-week" class="headerlink" title="Next week"></a>Next week</h2><ul>
-<li>Aug 26: July corporate-services price index.</li>
-<li>Aug 27–28: BOJ Deputy Governor Himino speech and press-conference record.</li>
-<li>Aug 28: Tokyo August CPI and two-year JGB auction.</li>
-<li>Aug 28–31: Opposition-party internal meetings and merger deadline.</li>
-<li>End-August: FY2027 budget requests and confirmation of the 3.8% assumption.</li>
-</ul>
-<h2 id="Sources"><a href="#Sources" class="headerlink" title="Sources"></a>Sources</h2><p>Primary sources are the Cabinet Office, Statistics Bureau, MOF&#x2F;Customs, BOJ, Diet materials and party statements. Reuters, Kyodo, TV Asahi, FNN, NRI and Daiwa were used as free cross-checks. Paywalls were not bypassed; key facts were checked against official documents or accessible reporting.</p>
+<h3 id="编辑说明"><a href="#编辑说明" class="headerlink" title="编辑说明"></a>编辑说明</h3><p>本周报由作者独立撰写，以国家统计局、央行、金融监管总局、证监会、国家数据局、商务部、新华社等公开材料为事实底稿，并参考《财新周刊》第1220期的公开目录和公开摘要。本文不转载付费正文；事实、结构性分析和作者推断分开呈现，链接仅用于来源说明和延伸阅读。</p>
+<p><em>本文提供一般性政治经济分析，不构成法律、财务、购房、信贷或投资建议。</em></p>
 ]]></content>
     <author><name>Lei Deng</name></author>
   </entry>
@@ -1439,6 +1319,126 @@
 <li>[[日本出海模式对中国通缩的抗性：三层拆解 2026-07-29]]</li>
 <li>[[日本无人机：起了个大早，与政策窗口的赌注 2026-07-25]]</li>
 </ul>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
+    <title>Japan Political Economy Weekly | Aug 17–23, 2026: Weak Domestic Demand Meets Near-3% JGBs</title>
+    <id>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-23-en/</id>
+    <link href="https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-23-en/"/>
+    <published>2026-08-25T09:00:00.000Z</published>
+    <updated>2026-09-05T15:28:19.936Z</updated>
+    <summary type="html"><![CDATA[Q2 GDP grew, but domestic demand contracted as core inflation accelerated and 10-year JGB yields approached 3%, tightening the government’s policy trade-off.]]></summary>
+    <content type="html"><![CDATA[<p><span hidden data-article-language="EN"></span></p>
+<blockquote>
+<p><strong>Coverage:</strong> Aug 17–23, 2026 (Japan time).<br><strong>Language versions:</strong> <a href="/2026/08/japan-political-economy-weekly-2026-08-23/">中文</a> · <strong>English</strong> · <a href="/2026/08/japan-political-economy-weekly-2026-08-23-ja/">日本語</a></p>
+</blockquote>
+<div class="abstract">
+  <span class="abstract-label">This week</span>
+  Japan’s Q2 GDP still grew, but household consumption and business investment weakened. Core inflation accelerated again while the 10-year JGB yield approached 3%, placing the government’s tax-cut and expansion promises between household support and rising financing costs.
+</div>
+
+<h2 id="Executive-summary"><a href="#Executive-summary" class="headerlink" title="Executive summary"></a>Executive summary</h2><ul>
+<li>Real GDP rose <strong>0.3% q&#x2F;q</strong>, or <strong>1.1% annualised</strong>, but domestic demand subtracted <strong>0.2 percentage points</strong> and net exports added 0.5 points. Consumption fell 0.1% q&#x2F;q and equipment investment 1.2%.</li>
+<li>July core CPI rose <strong>1.8% y&#x2F;y</strong> (1.6% in June); CPI excluding fresh food and energy rose 1.9%. Food inflation was 3.0%.</li>
+<li>The 10-year JGB yield briefly reached <strong>2.945%</strong> on Aug 18, the highest since 1996. Reports suggested a possible <strong>3.8%</strong> FY2027 budget-rate assumption; this was not yet official during the week.</li>
+<li>July imports grew faster than exports, producing a <strong>¥634.5 billion</strong> trade deficit. Alternative crude routes restored physical supply but increased freight and energy costs.</li>
+<li>Core machinery orders rebounded <strong>9.7% m&#x2F;m</strong>, but one large non-ferrous-metals order exaggerated the headline.</li>
+<li>Kyodo’s Aug 22–23 telephone poll put Cabinet approval at <strong>50.2%</strong>, its lowest since the Takaichi Cabinet formed. Opposition-party merger talks remained stuck.</li>
+<li>Rakuten was reported to be helping German defence start-up Helsing market the HX-2 AI strike drone to the Ground Self-Defense Force; testing and procurement were not officially confirmed.</li>
+</ul>
+<h2 id="Core-news"><a href="#Core-news" class="headerlink" title="Core news"></a>Core news</h2><h3 id="1-Q2-GDP-grew-1-1-annualised-while-domestic-demand-contracted"><a href="#1-Q2-GDP-grew-1-1-annualised-while-domestic-demand-contracted" class="headerlink" title="1. Q2 GDP grew 1.1% annualised, while domestic demand contracted"></a>1. Q2 GDP grew 1.1% annualised, while domestic demand contracted</h3><p><strong>Confirmed | Aug 17</strong></p>
+<p>Real GDP increased 0.3% q&#x2F;q and nominal GDP 1.2%. Domestic demand contributed <strong>-0.2 points</strong>; net exports contributed <strong>+0.5 points</strong>. Household consumption fell 0.1%, housing 0.5% and equipment investment 1.2%; exports rose 0.5% and imports fell 1.5%.</p>
+<p><strong>Why it matters (analysis):</strong> Lower imports mechanically lift net exports in GDP accounting. The headline therefore overstates the strength of the household and corporate economy. <a href="https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/gaiyou/pdf/main_1.pdf">Cabinet Office GDP</a> · <a href="https://www.nri.com/jp/media/column/kiuchi/20260817.html">NRI analysis</a></p>
+<h3 id="2-Ten-year-JGB-yields-approach-3-a-3-8-budget-assumption-is-reported"><a href="#2-Ten-year-JGB-yields-approach-3-a-3-8-budget-assumption-is-reported" class="headerlink" title="2. Ten-year JGB yields approach 3%; a 3.8% budget assumption is reported"></a>2. Ten-year JGB yields approach 3%; a 3.8% budget assumption is reported</h3><p><strong>Market data confirmed; budget assumption was still media-reported | Aug 18–21</strong></p>
+<p>The 10-year yield touched <strong>2.945%</strong> on Aug 18 and the new issue closed at 2.870% on Aug 21. Reports said the MOF was considering a 3.8% rate for FY2027 interest-cost estimates, versus 3.0% in the FY2026 budget.</p>
+<p><strong>Why it matters (analysis):</strong> Existing debt is not instantly repriced at 3.8%, but refinancing costs rise over time. Tax cuts and expansionary spending will face a stronger bond-market test. <a href="https://www.investing.com/news/economy-news/japans-10year-government-bond-yield-rises-to-threedecade-peak-4864126">Reuters&#x2F;Investing</a> · <a href="https://www.bb.jbts.co.jp/ja/historical/main_rate.htm">JGB rates</a></p>
+<h3 id="3-July-core-CPI-returns-to-1-8-with-food-prices-still-high"><a href="#3-July-core-CPI-returns-to-1-8-with-food-prices-still-high" class="headerlink" title="3. July core CPI returns to 1.8%, with food prices still high"></a>3. July core CPI returns to 1.8%, with food prices still high</h3><p><strong>Confirmed | Aug 21</strong></p>
+<p>Headline CPI rose 1.9% y&#x2F;y, core CPI 1.8% and core-core CPI 1.9%. Fresh-food-excluding food prices rose 3.0%; fuel-tax and related measures reduced headline CPI by an estimated 0.35 points.</p>
+<p><strong>Why it matters (analysis):</strong> Subsidised gasoline lowers the headline while food and services keep rising. This preserves a case for BOJ normalisation but argues for a careful pace while demand is weak. <a href="https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/zenkoku.pdf">Statistics Bureau CPI</a></p>
+<h3 id="4-July-trade-deficit-reaches-¥634-5-billion"><a href="#4-July-trade-deficit-reaches-¥634-5-billion" class="headerlink" title="4. July trade deficit reaches ¥634.5 billion"></a>4. July trade deficit reaches ¥634.5 billion</h3><p><strong>Confirmed | Aug 18 and 20</strong></p>
+<p>Exports rose 23.2% y&#x2F;y to ¥11.5118 trillion and imports 27.8% to ¥12.1463 trillion. Export volume rose 5.2%, import volume 1.2%, while the customs exchange rate was ¥161.83 per dollar. Cars and semiconductor parts lifted exports; crude, semiconductor inputs and non-ferrous metals lifted imports.</p>
+<p><strong>Why it matters (analysis):</strong> Japan’s energy problem is shifting from availability to delivered cost. A weak yen, oil prices and longer shipping routes can worsen the terms of trade even when physical volumes recover. <a href="https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_07.pdf">MOF trade statistics</a> · <a href="https://www.dir.co.jp/report/research/economics/japan/20260820_025996.html">Daiwa</a></p>
+<h3 id="5-Machinery-orders-rebound-9-7-but-the-signal-is-narrow"><a href="#5-Machinery-orders-rebound-9-7-but-the-signal-is-narrow" class="headerlink" title="5. Machinery orders rebound 9.7%, but the signal is narrow"></a>5. Machinery orders rebound 9.7%, but the signal is narrow</h3><p><strong>Confirmed | Aug 19</strong></p>
+<p>Core private machinery orders rose 9.7% m&#x2F;m; manufacturing orders rose 19.9% and non-manufacturing 4.5%. Q2 core orders rose only 0.2%, and the survey expected 4.9% growth in Q3. A single large non-ferrous-metals order lifted the monthly result.</p>
+<p><strong>Why it matters (analysis):</strong> Capital spending has not collapsed, but one month cannot prove a broad investment recovery. <a href="https://www.esri.cao.go.jp/jp/stat/juchu/2026/2606gaiyou.pdf">Cabinet Office machinery orders</a></p>
+<h3 id="6-Kyodo-approval-poll-falls-to-50-2"><a href="#6-Kyodo-approval-poll-falls-to-50-2" class="headerlink" title="6. Kyodo approval poll falls to 50.2%"></a>6. Kyodo approval poll falls to 50.2%</h3><p><strong>Media poll | Aug 22–23</strong></p>
+<p>Kyodo’s nationwide telephone survey put approval at <strong>50.2%</strong>, down 3.5 points, and disapproval at 33.9%. Different pollsters and methods should not be blended.</p>
+<p><strong>Why it matters (analysis):</strong> The Cabinet still has a workable base, but disaster response and tax-cut promises have not produced stable political dividends. <a href="https://news.livedoor.com/article/detail/32137534/">Kyodo via livedoor</a></p>
+<h3 id="7-Opposition-merger-talks-remain-stuck"><a href="#7-Opposition-merger-talks-remain-stuck" class="headerlink" title="7. Opposition merger talks remain stuck"></a>7. Opposition merger talks remain stuck</h3><p><strong>Media reports | Aug 18 and 21</strong></p>
+<p>The Constitutional Democratic Party, Komeito and Chudo Reform Alliance aimed for an end-August conclusion, but local organisations and policy differences remained obstacles.</p>
+<p><strong>Why it matters (analysis):</strong> A failed merger keeps opposition votes fragmented; a forced merger could create new organisational costs. <a href="https://news.tv-asahi.co.jp/news_politics/articles/000527106.html">TV Asahi</a> · <a href="https://www.fnn.jp/articles/-/1098782">FNN</a></p>
+<h3 id="8-Rakuten-reportedly-markets-Helsing’s-AI-strike-drone"><a href="#8-Rakuten-reportedly-markets-Helsing’s-AI-strike-drone" class="headerlink" title="8. Rakuten reportedly markets Helsing’s AI strike drone"></a>8. Rakuten reportedly markets Helsing’s AI strike drone</h3><p><strong>Media report; testing and procurement not officially confirmed | Aug 17–18</strong></p>
+<p>Rakuten was reported to be helping German defence company Helsing promote the HX-2 to the GSDF. Tests were said to run through September, but the Defence Ministry had not tied the system to a confirmed procurement programme.</p>
+<p><strong>Why it matters (analysis):</strong> Japan’s defence supply chain may combine traditional primes with software and AI start-ups. Compliance, testing and procurement cycles remain the bottlenecks. <a href="https://www.aerotime.aero/articles/rakuten-helsing-hx-2-strike-drone-japan">AeroTime</a></p>
+<h2 id="Data-radar"><a href="#Data-radar" class="headerlink" title="Data radar"></a>Data radar</h2><table>
+<thead>
+<tr>
+<th>Indicator</th>
+<th align="right">Actual</th>
+<th align="right">Previous &#x2F; expectation</th>
+<th>Read-through</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Q2 real GDP</td>
+<td align="right">+0.3% q&#x2F;q; +1.1% annualised</td>
+<td align="right">Domestic demand -0.2 pts</td>
+<td>Growth quality weak</td>
+</tr>
+<tr>
+<td>July core CPI</td>
+<td align="right">+1.8% y&#x2F;y</td>
+<td align="right">June +1.6%</td>
+<td>BOJ hike window remains open</td>
+</tr>
+<tr>
+<td>June core machinery orders</td>
+<td align="right">+9.7% m&#x2F;m</td>
+<td align="right">May -12.4%</td>
+<td>Rebound, but large-order effect</td>
+</tr>
+<tr>
+<td>July trade balance</td>
+<td align="right">-¥634.5bn</td>
+<td align="right">Third straight deficit</td>
+<td>Energy and yen costs bite</td>
+</tr>
+<tr>
+<td>10-year JGB</td>
+<td align="right">2.870% Aug 21</td>
+<td align="right">Intraday 2.945%</td>
+<td>Fiscal and hike expectations pressure yields</td>
+</tr>
+<tr>
+<td>USD&#x2F;JPY</td>
+<td align="right">158.80–158.90</td>
+<td align="right">Still near 159</td>
+<td>Imported-cost risk persists</td>
+</tr>
+<tr>
+<td>Nikkei 225</td>
+<td align="right">66,016.36 Aug 21</td>
+<td align="right">About -3.9% w&#x2F;w</td>
+<td>Higher-rate and valuation sensitivity</td>
+</tr>
+</tbody></table>
+<h2 id="Politics-and-institutions"><a href="#Politics-and-institutions" class="headerlink" title="Politics and institutions"></a>Politics and institutions</h2><p>Kyodo’s 50.2% reading should be tracked only within Kyodo’s own series. The reported 3.8% budget rate is an interest-cost assumption, not a guaranteed market yield. No parliamentary vote this week changed the path of food-tax reform; the autumn Diet and opposition coordination remain the key institutional tests.</p>
+<h2 id="Policy-and-market-implications-analysis"><a href="#Policy-and-market-implications-analysis" class="headerlink" title="Policy and market implications (analysis)"></a>Policy and market implications (analysis)</h2><ol>
+<li><strong>BOJ:</strong> Core inflation and a weak yen keep normalisation possible, but weak consumption and investment argue against aggressive hikes.</li>
+<li><strong>Fiscal policy:</strong> A higher budget-rate assumption raises the opportunity cost of unfunded tax cuts and puts term premium in focus.</li>
+<li><strong>Households:</strong> Positive GDP does not guarantee better living standards when food inflation, energy bills and poor terms of trade erode real income.</li>
+<li><strong>Yen and equities:</strong> Yen weakness supports exporters but raises import costs; a rising Nikkei is not evidence of stronger household purchasing power.</li>
+<li><strong>Industry:</strong> Energy procurement, defence software and labour-saving investment may grow, but logistics and compliance costs determine who captures the margin.</li>
+</ol>
+<h2 id="Next-week"><a href="#Next-week" class="headerlink" title="Next week"></a>Next week</h2><ul>
+<li>Aug 26: July corporate-services price index.</li>
+<li>Aug 27–28: BOJ Deputy Governor Himino speech and press-conference record.</li>
+<li>Aug 28: Tokyo August CPI and two-year JGB auction.</li>
+<li>Aug 28–31: Opposition-party internal meetings and merger deadline.</li>
+<li>End-August: FY2027 budget requests and confirmation of the 3.8% assumption.</li>
+</ul>
+<h2 id="Sources"><a href="#Sources" class="headerlink" title="Sources"></a>Sources</h2><p>Primary sources are the Cabinet Office, Statistics Bureau, MOF&#x2F;Customs, BOJ, Diet materials and party statements. Reuters, Kyodo, TV Asahi, FNN, NRI and Daiwa were used as free cross-checks. Paywalls were not bypassed; key facts were checked against official documents or accessible reporting.</p>
 ]]></content>
     <author><name>Lei Deng</name></author>
   </entry>

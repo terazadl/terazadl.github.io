@@ -1221,7 +1221,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ff36d0;
+  background: #67f560;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2495,8 +2495,8 @@ header.header {
   --portfolio-ink: #171714;
   --portfolio-muted: #6f6b62;
   --portfolio-rule: #9b9589;
-  --portfolio-blue: #1549d6;
-  --portfolio-blue-dark: #103bad;
+  --portfolio-blue: #2f55d4;
+  --portfolio-blue-dark: #2144bd;
 }
 html {
   scroll-behavior: smooth;
