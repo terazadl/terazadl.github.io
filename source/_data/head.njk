@@ -10,7 +10,7 @@
 <meta name="twitter:title" content="{{ page_title | escape }}">
 <meta name="twitter:description" content="{{ page_description | escape }}">
 <meta name="twitter:card" content="summary_large_image">
-{%- if page.layout != 'post' %}
+{%- if page.layout != 'post' or '<img' not in page.content %}
 <meta property="og:image" content="https://terazadl.github.io/images/tera-android-512.png">
 <meta property="og:image:alt" content="Lei Deng monogram">
 <meta property="og:image:width" content="512">

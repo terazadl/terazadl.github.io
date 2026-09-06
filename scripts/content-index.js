@@ -81,6 +81,10 @@ hexo.extend.filter.register('after_render:html', html => {
       `/js/content-index.js?v=${buildVersion}`
     )
     .replace(
+      /<meta name="twitter:card" content="summary">\s*/g,
+      ''
+    )
+    .replace(
       /(\/css\/main\.css)(?!\?)/g,
       `$1?v=${buildVersion}`
     );
