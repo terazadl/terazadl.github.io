@@ -70,3 +70,22 @@ hexo.extend.generator.register('content-index', function(locals) {
     data: `window.__SITE_CONTENT_INDEX__ = ${payload};\n`
   };
 });
+
+// Replace the source placeholder in rendered HTML with a per-build version so
+// a changed article index cannot be hidden behind a cached static asset.
+const buildVersion = new Date().toISOString().replace(/\D/g, '').slice(0, 14);
+hexo.extend.filter.register('after_render:html', html => {
+  return html
+    .replace(
+      /\/js\/content-index\.js\?v=BUILD_VERSION/g,
+      `/js/content-index.js?v=${buildVersion}`
+    )
+    .replace(
+      /<meta name="twitter:card" content="summary">\s*/g,
+      ''
+    )
+    .replace(
+      /(\/css\/main\.css)(?!\?)/g,
+      `$1?v=${buildVersion}`
+    );
+});

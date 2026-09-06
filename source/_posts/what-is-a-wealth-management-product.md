@@ -74,7 +74,7 @@ Chinese bank wealth-management products are often treated as higher-yielding dep
 
 图2：个人买入—运作—赎回资金流图
 
-<img src="/images/%E7%90%86%E8%B4%A2%E4%BA%A7%E5%93%81%E6%8A%95%E5%85%A5%E8%B5%8E%E5%9B%9E%E5%85%A8%E6%B5%81%E7%A8%8B.png" style="display:block;max-width:100%;height:auto;" alt="理财产品投入赎回全流程" />
+<img src="/images/%E7%90%86%E8%B4%A2%E4%BA%A7%E5%93%81%E6%8A%95%E5%85%A5%E8%B5%8E%E5%9B%9E%E5%85%A8%E6%B5%81%E7%A8%8B.webp" width="1000" height="1792" style="display:block;max-width:100%;height:auto;" alt="理财产品投入赎回全流程" />
 
 看到这里，恐怕很多读者会问：利率为什么会影响债券？债券又怎么影响理财净值？这两个问题不讲透，后面的“破净”“回撤”“赎回潮”都会像玄学。
 
@@ -122,11 +122,11 @@ Chinese bank wealth-management products are often treated as higher-yielding dep
 
 图3：理财资金闭环
 
-<img src="/images/%E7%90%86%E8%B4%A2%E4%BA%A7%E5%93%81%E5%A4%A7%E8%A7%86%E8%A7%92.png" style="display:block;max-width:100%;height:auto;" alt="理财产品大视角" />
+<img src="/images/%E7%90%86%E8%B4%A2%E4%BA%A7%E5%93%81%E5%A4%A7%E8%A7%86%E8%A7%92.webp" width="1000" height="1792" style="display:block;max-width:100%;height:auto;" alt="理财产品大视角" />
 
 压力反馈回路：
 
-<img src="/images/%E7%90%86%E8%B4%A2%E4%BA%A7%E5%93%81%E5%8E%8B%E5%8A%9B%E5%8F%8D%E9%A6%88%E5%9B%9E%E8%B7%AF.png" style="display:block;max-width:100%;height:auto;" alt="理财产品压力反馈回路" />
+<img src="/images/%E7%90%86%E8%B4%A2%E4%BA%A7%E5%93%81%E5%8E%8B%E5%8A%9B%E5%8F%8D%E9%A6%88%E5%9B%9E%E8%B7%AF.webp" width="1000" height="1792" style="display:block;max-width:100%;height:auto;" alt="理财产品压力反馈回路" />
 
 ## **七、现在理财“利息低”又是什么链路？**
 
@@ -144,7 +144,7 @@ Chinese bank wealth-management products are often treated as higher-yielding dep
 
 一句话结论：**利率下行往往托一把当下净值，但也会压一截未来收益。**
 
-<img src="/images/%E5%88%A9%E7%8E%87%E5%BD%B1%E5%93%8D%E5%AF%B9%E7%85%A7%E8%A1%A8.png" style="display:block;max-width:100%;height:auto;" alt="利率影响对照表" />
+<img src="/images/%E5%88%A9%E7%8E%87%E5%BD%B1%E5%93%8D%E5%AF%B9%E7%85%A7%E8%A1%A8.webp" width="1000" height="738" style="display:block;max-width:100%;height:auto;" alt="利率影响对照表" />
 
 3分钟判断法：看利率趋势（国债/政金债收益率上还是下）、看久期与资产结构、看规则（开放/封闭、是否可能暂停赎回）。
 
@@ -162,7 +162,7 @@ Chinese bank wealth-management products are often treated as higher-yielding dep
 
 ## **十、常见误解对照表**
 
-<img src="/images/%E5%B8%B8%E8%A7%81%E8%AF%AF%E8%A7%A3%E5%AF%B9%E7%85%A7%E8%A1%A8.png" style="display:block;max-width:100%;height:auto;" alt="常见误解对照表" />
+<img src="/images/%E5%B8%B8%E8%A7%81%E8%AF%AF%E8%A7%A3%E5%AF%B9%E7%85%A7%E8%A1%A8.webp" width="1000" height="865" style="display:block;max-width:100%;height:auto;" alt="常见误解对照表" />
 
 ## **十一、3分钟自测：你真的了解自己的理财吗？**
 
@@ -178,8 +178,8 @@ Chinese bank wealth-management products are often treated as higher-yielding dep
 
 真正的理财不是找到一个“永远不会亏、收益还高”的产品（不存在），而是：搞清楚买的是什么，理解收益从哪里来，接受合理波动，不要在最低点用情绪做交易。
 
-# **附录：用两份中行说明书演示如何在3分钟内找到6字段**
+## **附录：用两份中行说明书演示如何在3分钟内找到6字段**
 
-<img src="/images/6%E5%AD%97%E6%AE%B5%E5%BF%AB%E9%80%9F%E5%AE%9A%E4%BD%8D%E8%A1%A8.png" style="display:block;max-width:100%;height:auto;" alt="6字段快速定位表" />
+<img src="/images/6%E5%AD%97%E6%AE%B5%E5%BF%AB%E9%80%9F%E5%AE%9A%E4%BD%8D%E8%A1%A8.webp" width="1000" height="900" style="display:block;max-width:100%;height:auto;" alt="6字段快速定位表" />
 
 ------------------------------------------------------------------------

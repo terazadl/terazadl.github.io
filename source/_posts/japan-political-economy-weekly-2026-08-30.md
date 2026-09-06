@@ -6,7 +6,6 @@ translation_key: japan-political-economy-weekly-2026-08-30
 description: "日银保留继续加息空间，国债利息预算、燃油补贴与灾后支出同步上升，日本政策面临控通胀、稳内需与控制财政成本的平衡。"
 categories:
   - Japan
-  - Money & Markets
 tags:
   - 日本
   - 政治经济

@@ -7,7 +7,6 @@ card_title: "Japan Political Economy Weekly | Aug 24–30, 2026: Rate-Hike Signa
 description: "The BOJ keeps the door open to further hikes while debt-service costs, fuel subsidies and disaster spending tighten Japan’s fiscal constraint."
 categories:
   - Japan
-  - Money & Markets
 tags:
   - Japan
   - political economy

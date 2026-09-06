@@ -7,7 +7,6 @@ card_title: "Japan Political Economy Weekly | Aug 10–16, 2026: Yen Nears 160 U
 description: "The yen returned toward 160 as upstream costs stayed high and Takaichi’s food-tax cut raised funding questions; Russia and Yasukuni added diplomatic risk."
 categories:
   - Japan
-  - Money & Markets
 tags:
   - Japan
   - political economy

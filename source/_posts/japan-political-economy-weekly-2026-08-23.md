@@ -6,7 +6,6 @@ translation_key: japan-political-economy-weekly-2026-08-23
 description: "日本二季度GDP仍增长，但内需贡献为负、家庭消费和设备投资转弱；核心物价重新加速，长端国债收益率逼近3%。"
 categories:
   - Japan
-  - Money & Markets
 tags:
   - 日本
   - 政治经济

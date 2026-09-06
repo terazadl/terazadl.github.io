@@ -7,7 +7,6 @@ card_title: "Japan Political Economy Weekly | Aug 17–23, 2026: Weak Domestic D
 description: "Q2 GDP grew, but domestic demand contracted as core inflation accelerated and 10-year JGB yields approached 3%, tightening the government’s policy trade-off."
 categories:
   - Japan
-  - Money & Markets
 tags:
   - Japan
   - political economy

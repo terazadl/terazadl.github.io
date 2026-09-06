@@ -27,7 +27,7 @@ Two local investment-promotion stories from Sichuan—one about Suining's lithiu
 
 ——但人也能流动
 
-![Editorial illustration: a factory, a railway, and people leaving](/images/toukou-yizhou-cover.png)
+![Editorial illustration: a factory, a railway, and people leaving](/images/toukou-yizhou-cover.webp)
 
 本文讨论的两篇报道：
 

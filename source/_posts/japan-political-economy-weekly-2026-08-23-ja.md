@@ -7,7 +7,6 @@ card_title: "日本政経ウィークリー｜2026年8月17日〜23日：内需�
 description: "第2四半期GDPは成長したが内需は縮小し、基調インフレと長期金利が上昇した。家計支援と財政コストのトレードオフが強まっている。"
 categories:
   - Japan
-  - Money & Markets
 tags:
   - 日本
   - 政治経済
