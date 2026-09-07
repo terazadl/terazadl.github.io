@@ -9,11 +9,11 @@ categories:
   - Japan
 tags:
   - 日本
-  - 政治経済
-  - 周報
-  - 円
-  - インフレ
-  - 財政政策
+  - 政治经济
+  - 周报
+  - 日元
+  - 通胀
+  - 财政政策
 lang: ja
 weekly_series: japan
 ---

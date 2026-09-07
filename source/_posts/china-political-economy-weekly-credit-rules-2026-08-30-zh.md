@@ -14,7 +14,7 @@ tags:
   - 工业利润
   - 房地产
   - 货币政策
-  - 人工智能
+  - AI
   - 财新周刊
 lang: zh
 series: china-weekly

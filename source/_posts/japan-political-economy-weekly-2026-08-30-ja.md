@@ -9,11 +9,11 @@ categories:
   - Japan
 tags:
   - 日本
-  - 政治経済
-  - 周報
-  - 日本銀行
-  - 円
-  - 国債
+  - 政治经济
+  - 周报
+  - 日本银行
+  - 日元
+  - 国债
 lang: ja
 weekly_series: japan
 ---

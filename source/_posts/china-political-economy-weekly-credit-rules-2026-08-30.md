@@ -8,13 +8,13 @@ description: "Industrial profits are recovering unevenly as China redesigns prop
 categories:
   - Money & Markets
 tags:
-  - China
-  - political economy
-  - industrial profits
-  - property
-  - monetary policy
-  - artificial intelligence
-  - Caixin Weekly
+  - 中国
+  - 政治经济
+  - 工业利润
+  - 房地产
+  - 货币政策
+  - AI
+  - 财新周刊
 lang: en
 ---
 

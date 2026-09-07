@@ -9,7 +9,7 @@ description: "中国经济在2026年中期仍处于扩张，但出口和高技�
 categories:
   - Money & Markets
 tags:
-  - 中国经济
+  - 中国
   - 商业周期
   - 内需
   - 房地产

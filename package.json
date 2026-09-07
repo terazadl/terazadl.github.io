@@ -7,7 +7,8 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
-    "test": "node checks/run-all-qa-tests.js"
+    "test": "node checks/run-all-qa-tests.js",
+    "note": "node scripts/add-note.js"
   },
   "hexo": {
     "version": "8.1.1"
