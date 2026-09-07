@@ -139,7 +139,7 @@ hexo.extend.filter.register('after_post_render', data => {
     // is included so that mobile screens constraining width will not stretch the image vertically.
     if (/\sstyle\s*=/i.test(result)) {
       result = result.replace(/style\s*=\s*["']([^"']*)["']/i, (match, styleVal) => {
-        if (!/height\s*:/i.test(styleVal)) {
+        if (!/(?:^|;)\s*height\s*:/i.test(styleVal)) {
           const sep = styleVal.trim().endsWith(';') || styleVal.trim() === '' ? '' : '; ';
           return `style="${styleVal}${sep}height: auto;"`;
         }
