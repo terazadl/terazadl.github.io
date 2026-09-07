@@ -74,8 +74,12 @@ hexo.extend.generator.register('content-index', function(locals) {
 // Replace the source placeholder in rendered HTML with a per-build version so
 // a changed article index cannot be hidden behind a cached static asset.
 const buildVersion = new Date().toISOString().replace(/\D/g, '').slice(0, 14);
-hexo.extend.filter.register('after_render:html', html => {
-  return html
+hexo.extend.filter.register('after_render:html', (html, locals) => {
+  const pagePath = String(locals?.path || locals?.page?.path || '').replace(/^\/+/, '');
+  const hasCustomShell = /portfolio-(?:home|about|collection)-page|research-topic-hub-page|event-radar-page-body/.test(html)
+    || /^(?:essays|writing|topics)\/index\.html$/.test(pagePath);
+
+  html = html
     .replace(
       /\/js\/content-index\.js\?v=BUILD_VERSION/g,
       `/js/content-index.js?v=${buildVersion}`
@@ -95,4 +99,24 @@ hexo.extend.filter.register('after_render:html', html => {
       /(\/css\/main\.css)(?!\?)/g,
       `$1?v=${buildVersion}`
     );
+
+  // The custom shell is the only visible navigation. Remove NexT's legacy
+  // brand/menu/search markup from the generated DOM instead of merely hiding
+  // it with CSS. This keeps assistive technology and maintenance work aligned
+  // with what readers actually see.
+  if (html.includes('research-site-header')) {
+    html = html.replace(
+      /(<header class="header"[^>]*>)\s*[\s\S]*?(<div class="research-site-header">)/,
+      '$1$2'
+    );
+  }
+
+  // These custom landing pages do not use NexT's sidebar or generated TOC.
+  // Strip it at build time so it cannot collapse the hero or remain in the
+  // accessibility tree as a second navigation surface.
+  if (hasCustomShell) {
+    html = html.replace(/\s*<aside class="sidebar">[\s\S]*?<\/aside>\s*/g, '\n');
+  }
+
+  return html;
 });
