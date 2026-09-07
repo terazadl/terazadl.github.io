@@ -140,7 +140,11 @@ hexo.extend.filter.register('after_post_render', data => {
     if (/\sstyle\s*=/i.test(result)) {
       result = result.replace(/style\s*=\s*["']([^"']*)["']/i, (match, styleVal) => {
         if (!/(?:^|;)\s*height\s*:/i.test(styleVal)) {
-          const sep = styleVal.trim().endsWith(';') || styleVal.trim() === '' ? '' : '; ';
+          const trimmed = styleVal.trim();
+          if (trimmed === '') {
+            return 'style="height: auto;"';
+          }
+          const sep = trimmed.endsWith(';') ? '' : '; ';
           return `style="${styleVal}${sep}height: auto;"`;
         }
         return match;

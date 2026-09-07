@@ -6,7 +6,8 @@
     "build": "hexo generate && node checks/check-homepage.js",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "test": "node checks/run-all-qa-tests.js"
   },
   "hexo": {
     "version": "8.1.1"
