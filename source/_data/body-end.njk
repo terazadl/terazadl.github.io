@@ -372,8 +372,9 @@
         .then(markup => {
           if (!markup) return;
           const radarDocument = new DOMParser().parseFromString(markup, "text/html");
+          const structuredDate = radarDocument.querySelector(".radar-time")?.dataset.radarDate || "";
           const radarTime = radarDocument.querySelector(".radar-time strong")?.textContent || "";
-          const digits = radarTime.match(/(20\d{2})(\d{2})(\d{2})/);
+          const digits = (structuredDate.match(/(20\d{2})[-]?(\d{2})[-]?(\d{2})/) || radarTime.match(/(20\d{2})(\d{2})(\d{2})/));
           if (!digits) return;
           const label = `观测站日报 · ${digits[2]}-${digits[3]}`;
           observatoryDates.forEach(node => { node.textContent = label; });

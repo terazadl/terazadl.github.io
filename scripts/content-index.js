@@ -76,7 +76,7 @@ hexo.extend.generator.register('content-index', function(locals) {
 const buildVersion = new Date().toISOString().replace(/\D/g, '').slice(0, 14);
 hexo.extend.filter.register('after_render:html', (html, locals) => {
   const pagePath = String(locals?.path || locals?.page?.path || '').replace(/^\/+/, '');
-  const hasCustomShell = /portfolio-(?:home|about|collection)-page|research-topic-hub-page/.test(html)
+  const hasCustomShell = /portfolio-(?:home|about|collection)-page|research-topic-hub-page|event-radar-page-body/.test(html)
     || /^(?:essays|writing|topics)\/index\.html$/.test(pagePath);
 
   html = html
