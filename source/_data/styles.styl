@@ -3188,3 +3188,615 @@ body.portfolio-collection-page ul.breadcrumb {
     font-size: 20px;
   }
 }
+
+/* ==========================================================================
+   Weekly Political Economy Product Line (R1-R7)
+   Unified Dual Briefs, Data Radar, Compare Table, Mainline Chart & Homepage IA
+   ========================================================================== */
+
+:root {
+  --weekly-china: #b35922;
+  --weekly-china-bg: #faf4ed;
+  --weekly-japan: #3a5a6b;
+  --weekly-japan-bg: #edf2f5;
+  --weekly-card-bg: rgba(255, 255, 255, 0.65);
+  --weekly-card-border: #d5cfc4;
+}
+
+/* --- R5: Homepage Dual Weekly Section --- */
+.weekly-product-section {
+  border-bottom: 1px solid var(--research-line);
+  margin-bottom: 36px;
+  padding-bottom: 40px;
+}
+
+.weekly-section-kicker-row {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.weekly-section-kicker {
+  color: var(--research-blue);
+  font-family: var(--research-sans);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.weekly-section-archive-links {
+  display: flex;
+  gap: 16px;
+  font-size: 13px;
+  font-family: var(--research-sans);
+}
+
+.weekly-section-archive-links a {
+  border-bottom: 1px solid var(--research-line);
+  color: var(--research-muted);
+  text-decoration: none;
+}
+
+.weekly-section-archive-links a:hover {
+  border-color: var(--research-blue);
+  color: var(--research-blue);
+}
+
+.weekly-dual-briefs {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-bottom: 20px;
+}
+
+.weekly-brief-card {
+  background: var(--weekly-card-bg);
+  border: 1px solid var(--weekly-card-border);
+  display: flex;
+  flex-direction: column;
+  padding: 24px 28px 22px;
+  position: relative;
+  transition: transform 0.16s ease, box-shadow 0.16s ease;
+}
+
+.weekly-brief-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(29, 28, 24, 0.06);
+}
+
+.weekly-brief-card.is-china {
+  border-top: 4px solid var(--weekly-china);
+}
+
+.weekly-brief-card.is-japan {
+  border-top: 4px solid var(--weekly-japan);
+}
+
+.weekly-brief-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.weekly-brief-kicker {
+  font-family: var(--research-sans);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.weekly-brief-card.is-china .weekly-brief-kicker {
+  color: var(--weekly-china);
+}
+
+.weekly-brief-card.is-japan .weekly-brief-kicker {
+  color: var(--weekly-japan);
+}
+
+.weekly-brief-date {
+  color: var(--research-muted);
+  font-family: var(--research-sans);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.weekly-brief-title {
+  font-family: var(--research-display);
+  font-size: clamp(20px, 1.7vw, 25px);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.22;
+  margin: 0 0 12px;
+}
+
+.weekly-brief-title a {
+  color: var(--research-ink);
+  text-decoration: none;
+}
+
+.weekly-brief-title a:hover {
+  color: var(--research-blue);
+}
+
+.weekly-brief-mainline {
+  color: var(--research-muted);
+  font-family: var(--research-serif);
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0 0 16px;
+}
+
+.weekly-brief-highlights {
+  border-top: 1px dashed var(--research-line);
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 14px 0 0;
+}
+
+.weekly-brief-highlights li {
+  color: var(--research-ink);
+  font-family: var(--research-sans);
+  font-size: 13px;
+  line-height: 1.45;
+  margin-bottom: 8px;
+  padding-left: 14px;
+  position: relative;
+}
+
+.weekly-brief-highlights li::before {
+  content: "•";
+  color: var(--research-muted);
+  left: 0;
+  position: absolute;
+}
+
+.weekly-brief-footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 10px;
+}
+
+/* Shared Sino-Japan Compare One-Liner Bar */
+.weekly-shared-compare {
+  align-items: center;
+  background: #f0eae1;
+  border: 1px solid var(--weekly-card-border);
+  border-left: 4px solid var(--research-ink);
+  display: flex;
+  gap: 16px;
+  padding: 14px 20px;
+  margin-bottom: 24px;
+}
+
+.weekly-compare-badge {
+  background: var(--research-ink);
+  color: #fff;
+  font-family: var(--research-sans);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  padding: 3px 8px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.weekly-shared-compare p {
+  color: var(--research-ink);
+  font-family: var(--research-serif);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.45;
+  margin: 0;
+}
+
+/* --- R5: Homepage Visualization & Observatory Bar --- */
+.weekly-viz-bar {
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid var(--research-line);
+  display: grid;
+  gap: 20px;
+  grid-template-columns: minmax(0, 1.4fr) minmax(280px, 0.6fr);
+  margin-bottom: 40px;
+  padding: 20px 24px;
+}
+
+.weekly-viz-metrics-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.weekly-viz-group-title {
+  color: var(--research-muted);
+  font-family: var(--research-sans);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.weekly-viz-chips {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.weekly-metric-chip {
+  background: #fff;
+  border: 1px solid var(--weekly-card-border);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 12px;
+}
+
+.weekly-metric-chip.is-china {
+  border-top: 2px solid var(--weekly-china);
+}
+
+.weekly-metric-chip.is-japan {
+  border-top: 2px solid var(--weekly-japan);
+}
+
+.weekly-chip-label {
+  color: var(--research-muted);
+  font-family: var(--research-sans);
+  font-size: 11px;
+  line-height: 1.2;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.weekly-chip-val-row {
+  align-items: baseline;
+  display: flex;
+  gap: 6px;
+}
+
+.weekly-chip-val {
+  color: var(--research-ink);
+  font-family: var(--research-display);
+  font-size: 17px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.weekly-chip-dir {
+  font-family: var(--research-sans);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.weekly-chip-dir.is-up {
+  color: #c0392b;
+}
+
+.weekly-chip-dir.is-down {
+  color: #27ae60;
+}
+
+.weekly-chip-dir.is-flat {
+  color: var(--research-muted);
+}
+
+.weekly-viz-observatory-box {
+  align-items: flex-start;
+  border-left: 1px solid var(--research-line);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 24px;
+}
+
+.weekly-observatory-meta {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.weekly-observatory-meta strong {
+  color: var(--research-blue);
+  font-family: var(--research-sans);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.weekly-observatory-meta span {
+  color: var(--research-muted);
+  font-family: var(--research-sans);
+  font-size: 11px;
+}
+
+.weekly-viz-observatory-box p {
+  color: var(--research-ink);
+  font-family: var(--research-sans);
+  font-size: 13px;
+  line-height: 1.4;
+  margin: 0 0 12px;
+}
+
+.weekly-observatory-cta {
+  align-items: center;
+  background: var(--research-blue);
+  color: #fff !important;
+  display: inline-flex;
+  font-family: var(--research-sans);
+  font-size: 12px;
+  font-weight: 800;
+  gap: 8px;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background 0.16s ease;
+}
+
+.weekly-observatory-cta:hover {
+  background: var(--research-blue-hover);
+}
+
+/* --- R3: Article Data Radar Grid & Cards --- */
+.weekly-radar-panel {
+  background: #fbf9f5;
+  border: 1px solid var(--weekly-card-border);
+  margin: 28px 0;
+  padding: 22px 24px 20px;
+}
+
+.weekly-radar-head {
+  border-bottom: 1px solid var(--research-line);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  padding-bottom: 10px;
+}
+
+.weekly-radar-head h3 {
+  font-family: var(--research-display);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.weekly-radar-head span {
+  color: var(--research-muted);
+  font-family: var(--research-sans);
+  font-size: 12px;
+}
+
+.weekly-radar-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.weekly-radar-card {
+  background: #fff;
+  border: 1px solid var(--weekly-card-border);
+  display: flex;
+  flex-direction: column;
+  padding: 16px 18px 14px;
+}
+
+.weekly-radar-card.is-china {
+  border-top: 3px solid var(--weekly-china);
+}
+
+.weekly-radar-card.is-japan {
+  border-top: 3px solid var(--weekly-japan);
+}
+
+.weekly-radar-card-head {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.weekly-radar-tag {
+  font-family: var(--research-sans);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.weekly-radar-card.is-china .weekly-radar-tag {
+  color: var(--weekly-china);
+}
+
+.weekly-radar-card.is-japan .weekly-radar-tag {
+  color: var(--weekly-japan);
+}
+
+.weekly-radar-label {
+  color: var(--research-ink);
+  font-family: var(--research-sans);
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+.weekly-radar-metric-body {
+  align-items: baseline;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.weekly-radar-value {
+  font-family: var(--research-display);
+  font-size: 28px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.weekly-radar-change {
+  align-items: center;
+  display: inline-flex;
+  font-family: var(--research-sans);
+  font-size: 13px;
+  font-weight: 700;
+  gap: 4px;
+}
+
+.weekly-radar-change.is-up {
+  color: #c0392b;
+}
+
+.weekly-radar-change.is-down {
+  color: #27ae60;
+}
+
+.weekly-radar-change.is-flat {
+  color: var(--research-muted);
+}
+
+.weekly-radar-note {
+  color: var(--research-muted);
+  font-family: var(--research-sans);
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 0 0 10px;
+}
+
+.weekly-sparkline-svg {
+  display: block;
+  height: 28px;
+  margin-top: auto;
+  width: 100%;
+}
+
+/* --- R2: Sino-Japan Comparison Component --- */
+.weekly-compare-section {
+  background: #fbf9f5;
+  border: 1px solid var(--weekly-card-border);
+  border-left: 4px solid var(--research-blue);
+  margin: 28px 0;
+  padding: 22px 24px;
+}
+
+.weekly-compare-intro {
+  color: var(--research-ink);
+  font-family: var(--research-serif);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0 0 18px;
+}
+
+.weekly-compare-table {
+  border-collapse: collapse;
+  font-family: var(--research-sans);
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 0;
+  width: 100%;
+}
+
+.weekly-compare-table th {
+  background: #ede8df;
+  border: 1px solid var(--weekly-card-border);
+  color: var(--research-ink);
+  font-weight: 800;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+.weekly-compare-table td {
+  border: 1px solid var(--weekly-card-border);
+  padding: 10px 12px;
+  vertical-align: top;
+}
+
+.weekly-compare-table tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.weekly-axis-badge {
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+/* --- R4: Weekly Mainline Figure --- */
+.weekly-mainline-figure {
+  background: #fff;
+  border: 1px solid var(--weekly-card-border);
+  margin: 24px 0 28px;
+  padding: 18px 20px 14px;
+  text-align: center;
+}
+
+.weekly-mainline-figure img,
+.weekly-mainline-figure svg {
+  display: block;
+  height: auto;
+  margin: 0 auto 12px;
+  max-width: 100%;
+}
+
+.weekly-figure-caption {
+  color: var(--research-muted);
+  font-family: var(--research-serif);
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.weekly-figure-caption strong {
+  color: var(--research-ink);
+  font-style: normal;
+}
+
+/* --- Responsive Media Queries (Mobile & Tablet) --- */
+@media (max-width: 800px) {
+  .weekly-dual-briefs {
+    grid-template-columns: 1fr;
+  }
+
+  .weekly-shared-compare {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .weekly-viz-bar {
+    grid-template-columns: 1fr;
+    padding: 18px;
+  }
+
+  .weekly-viz-chips {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .weekly-viz-observatory-box {
+    border-left: none;
+    border-top: 1px solid var(--research-line);
+    padding-left: 0;
+    padding-top: 16px;
+  }
+
+  .weekly-radar-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .weekly-compare-table {
+    display: block;
+    overflow-x: auto;
+  }
+}
+

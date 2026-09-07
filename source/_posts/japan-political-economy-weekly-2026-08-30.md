@@ -11,16 +11,25 @@ tags:
   - 政治经济
   - 周报
 lang: zh
-weekly_series: japan
+series: japan-weekly
+week_start: 2026-08-24
+week_end: 2026-08-30
+mainline: "日银仍为继续加息保留空间，而国债付息预算、能源补贴与灾后支出同步上升，使“压通胀—稳内需—控财政成本”成为日本未来数月最难的政策平衡。"
+compare_one_liner: "中国重定价信用规则，日本重定价利率与财政成本。"
 ---
 
 > **覆盖范围**：日本时间 2026 年 8 月 24 日 00:00 至 8 月 30 日 23:59。只收录当周新发生、首次披露或取得实质进展的事项。此前发生的事件仅作背景。
 
-## 一句话总览
+## 本周主线
 
-**日银仍为继续加息保留空间，而国债付息预算、能源补贴与灾后支出同步上升，使“压通胀—稳内需—控财政成本”成为日本未来数月最难的政策平衡。**
+日银仍为继续加息保留空间，而国债付息预算、能源补贴与灾后支出同步上升，使“压通胀—稳内需—控财政成本”成为日本未来数月最难的政策平衡。
 
-## 核心新闻（按重要性排序）
+<div class="weekly-mainline-figure">
+  <img src="/images/weekly/japan-policy-triangle-2026-08-30.svg" alt="日本政策三角：压通胀—稳内需—控财政成本（2026年8月24日–30日）" />
+  <p class="weekly-figure-caption"><strong>政策三角</strong>：加息窗口保留、燃油补贴延期与国债付息预算激增共振，三者构成不可兼得的宏观约束。</p>
+</div>
+
+## 核心事件
 
 ### 1. 日银副总裁重申加息路径，但没有承诺 9 月行动
 
@@ -67,123 +76,165 @@ weekly_series: japan
 - **接下来关注什么**：9 月全国 CPI、服务价格与租金；补贴基数效应消退后总项通胀是否再上行。
 - **来源**：[总务省统计局东京 CPI 页面（8 月 28 日）](https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-t.html)、[东京 CPI 结果 PDF（8 月 28 日）](https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/kubu.pdf)、[Reuters／Newsweek Japan（8 月 28 日）](https://www.newsweekjapan.jp/articles/-/332515)
 
-### 6. 企业服务价格同比上涨 3.6%，工资与运输成本仍在传导
-
-**状态：已确认｜发布日期：8 月 26 日**
-
-- **发生了什么（事实）**：日银 7 月企业服务价格指数（企業向けサービス価格指数）同比上涨 3.6%，高于 6 月修订后的 3.4%；环比上涨 0.4%。剔除国际运输后同比上涨 3.1%。运输与邮政同比上涨 6.4%，其中国际航空货运上涨 37.7%，远洋非油轮运价上涨 67.4%。
-- **为什么重要（分析判断）**：服务价格比进口能源价格更能反映国内工资与企业定价行为。持续在 3% 上方会增强日银的加息理由，也会压缩难以转嫁成本的中小企业利润率。
-- **接下来关注什么**：企业是否继续把工资与物流成本转嫁给消费者；运输价格在中东风险缓和后是否回落。
-- **来源**：[日本银行企业服务价格指数 PDF（8 月 26 日）](https://www.boj.or.jp/statistics/pi/cspi_release/sppi2607.pdf)、[Reuters／Newsweek Japan（8 月 26 日）](https://www.newsweekjapan.jp/articles/-/332284)
-
-### 7. 失业率降至 2.4%，但求人倍率没有改善
-
-**状态：已确认｜发布日期：8 月 28 日**
-
-- **发生了什么（事实）**：7 月经季调失业率为 2.4%，低于 6 月的 2.5%；就业人数 6,850 万人、失业人数 169 万人，均与上年同期大体持平。有效求人倍率为 1.18，与 6 月持平；新规求人倍率降至 2.10，环比下降 0.06。
-- **为什么重要（分析判断）**：低失业率显示劳动力市场仍紧，但求人指标未走强，不能简单解读为需求全面加速。若企业招工趋谨慎，明年工资谈判的广度可能弱于头部企业。
-- **接下来关注什么**：实际工资、非正规就业、制造业新订单与中小企业招聘计划。
-- **来源**：[总务省劳动力调查（8 月 28 日）](https://www.stat.go.jp/data/roudou/sokuhou/tsuki/index.html)、[劳动力调查结果 PDF（8 月 28 日）](https://www.stat.go.jp/data/roudou/sokuhou/tsuki/pdf/gaiyou.pdf)、[厚生劳动省一般职业介绍状况](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/topics_150876_156.html)、[Reuters／Newsweek Japan（8 月 28 日）](https://www.newsweekjapan.jp/articles/-/332516)
-
-### 8. 月例经济报告维持“缓慢复苏”，但新增自然灾害风险
-
-**状态：已确认｜日期：8 月 27 日**
-
-- **发生了什么（事实）**：内阁府维持“景气正在缓慢复苏”的总判断，同时把自然灾害加入下行风险，并继续提示中东局势与金融市场波动。分项中，住宅投资由“低迷”调整为“大体持平”；企业利润被描述为“正在改善”，但需警惕中东局势影响。
-- **为什么重要（分析判断）**：政府判断较二季度 GDP 所显示的内需疲软更乐观，部分原因是 GDP 中资本开支和消费受统计分类影响。政策层可能据此避免大规模刺激，但若后续消费和工业生产走弱，表述会面临下调压力。
-- **接下来关注什么**：7 月工业生产与零售销售是否支持“缓慢复苏”；灾害对九州供应链、农业和旅游的拖累。
-- **来源**：[内阁府 8 月月例经济报告 PDF（8 月 27 日）](https://www5.cao.go.jp/keizai3/getsurei/2026/0827getsurei/main.pdf)、[首相官邸月例经济报告会议（8 月 27 日）](https://www.kantei.go.jp/jp/105/actions/202608/27getsurei.html)
-
-### 9. 铠侠与闪迪拟到 2032 年在日本投资约 5 万亿日元
+### 6. 铠侠与闪迪拟到 2032 年在日本投资约 5 万亿日元
 
 **状态：企业计划已确认；政府支持金额尚待官方确认｜日期：8 月 27 日**
 
-- **发生了什么（事实）**：铠侠与闪迪宣布，预计到 2032 年在日本累计投资约 5 万亿日元，用于四日市与北上基地的产能、基础设施和技术；计划以市场需求、财务状况及政府支持为条件。双方过去 25 年累计投资约 9 万亿日元。北上 K3 厂房被媒体报道为约 1.8 万亿日元、计划 2029 财年投产。
-- **为什么重要（分析判断）**：这是日本半导体产业政策从“建设先进逻辑芯片”扩展到存储器与 AI 数据中心需求的又一大额项目。长期利好设备、材料与地方就业，但 NAND 周期波动大，公共支持应避免把需求风险单向转给纳税人。
+- **发生了什么（事实）**：铠侠与闪迪宣布，预计到 2032 年在日本累计投资约 5 万亿日元，用于四日市与北上基地的产能、基础设施和技术；计划以市场需求、财务状况及政府支持为条件。北上 K3 厂房被媒体报道为约 1.8 万亿日元、计划 2029 财年投产。
+- **为什么重要（分析判断）**：这是日本半导体产业政策从“建设先进逻辑芯片”扩展到存储器与 AI 数据中心需求的又一大额项目。长期利好设备、材料与地方就业，但公共支持应避免把需求风险单向转给纳税人。
 - **接下来关注什么**：经产省支持条件与金额、K3 量产节点、AI 存储需求和 NAND 价格周期。
-- **来源**：[铠侠公司公告（8 月 27 日）](https://www.kioxia.com/ja-jp/about/news/2026/20260827-3.html)、[nippon.com／时事通信（8 月 27 日）](https://www.nippon.com/ja/news/yjj2026082700516/)、[政府在线首相会见（8 月 27 日）](https://www.gov-online.go.jp/press_conferences/prime_minister/202608/video-313899.html)
-
-### 10. 熊本地震支援方案获批，动用预备费 1,478 亿日元
-
-**状态：已确认｜方案汇总：8 月 27 日；阁议批准：8 月 28 日**
-
-- **发生了什么（事实）**：内阁批准动用 1,478 亿日元预备费。其中生活重建 365 亿、灾害废弃物处理 381 亿、受灾企业支持 74 亿、农业林业水产 148 亿、旅游恢复 157 亿、公共工程及设施修复 305 亿日元。政府特别提示熊本地区近年来多次受灾，需防止“灾害相关死亡”。
-- **为什么重要（分析判断）**：短期将支撑九州建筑、废弃物处理与旅游恢复，但材料、人手和施工能力可能形成瓶颈。它也说明自然灾害已从单次救援转为需要长期韧性投资的财政问题。
-- **接下来关注什么**：资金下达速度、地方配套负担、农业与半导体供应链停工损失，以及重建推高地方工程成本的程度。
-- **来源**：[财务省预备费明细 PDF（8 月 28 日）](https://www.mof.go.jp/policy/budget/budger_workflow/budget/fy2026/km260828.pdf)、[财务省灾害信息页（8 月 28 日更新）](https://www.mof.go.jp/public_relations/disaster/202607_kumamoto-jishin/20260729093052.html)、[首相官邸熊本地震应对页](https://www.kantei.go.jp/jp/kikikanri/earthquake20260728.html)
-
-### 11. 立宪民主党退出三党合并，反对党整合再次受挫
-
-**状态：立宪不参与已确认；公明党与中道改革联合最终安排尚待确认｜日期：8 月 28—30 日**
-
-- **发生了什么（事实）**：立宪民主党 8 月 28 日决定不以组织形式参与立宪、公明和中道改革联合的合并，并向其他两党领导人传达；党内将以选举与国会合作替代组织合并。公明党表示将在 8 月 31 日以后作最终结论。
-- **为什么重要（分析判断）**：合并受挫降低了反对党短期内形成统一选举品牌的概率，也使执政阵营在选区协调上更占优势。但“组织不合并、选举合作”仍可能在部分单一选区改变票源分配。
-- **接下来关注什么**：公明党与中道改革联合的最终决定、候选人协调规则、立宪党内路线斗争。
-- **来源**：[立宪民主党（8 月 28 日）](https://cdp-japan.jp/news/20260828_0552/amp)、[公明党（8 月 29 日）](https://www.komei.or.jp/komeinews/p513191/)、[FNN（8 月 28 日）](https://www.fnn.jp/articles/-/1103259)、[TBS（8 月 30 日）](https://newsdig.tbs.co.jp/articles/withbloomberg/2907492?display=1)
+- **来源**：[铠侠公司公告（8 月 27 日）](https://www.kioxia.com/ja-jp/about/news/2026/20260827-3.html)、[nippon.com／时事通信（8 月 27 日）](https://www.nippon.com/ja/news/yjj2026082700516/)
 
 ## 数据雷达
 
-| 指标 | 本期实际值 | 前值／预期值 | 方向与含义 |
-|---|---:|---:|---|
-| 东京 23 区 CPI（8 月，总项） | **+1.9% 同比** | 7 月 +1.8%；可靠免费来源未查得一致预期 | 小幅加速，但能源补贴压低总项 |
-| 东京 CPI（除生鲜食品） | **+1.8%** | 7 月 +1.7%；可靠免费来源未查得一致预期 | 日银常用先行指标重新回升 |
-| 东京 CPI（除生鲜食品及能源） | **+2.0%** | 7 月 +1.8% | 国内价格压力强于表面总项 |
-| 企业服务价格（7 月） | **+3.6% 同比；+0.4% 环比** | 6 月 +3.4%（修订）、-0.3% | 工资与物流成本继续向服务价格传导 |
-| 失业率（7 月，经季调） | **2.4%** | 6 月 2.5%；可靠免费来源未查得一致预期 | 劳动力市场仍紧 |
-| 有效求人倍率（7 月） | **1.18** | 6 月 1.18 | 招聘需求没有同步增强 |
-| 10 年期日本国债（8 月 28 日） | **2.925%** | 上周末 2.870% | 周内约升 5.5 个基点，财政与加息预期仍施压 |
-| 美元／日元（8 月 28 日 15:00） | **159.52/53** | 上周末约 158.8 | 日元走弱；不能据此判断实体经济改善或恶化 |
-| 日经平均（8 月 28 日） | **66,405.56** | 上周末 66,016.36 | 周涨约 0.6%；股指上涨不等于居民实际收入改善 |
-| 财务省所管国债费概算要求 | **36.6386 万亿日元** | 2026 财年预算 31.2758 万亿 | 增 17.1%，财政利率敏感度上升 |
+<div class="weekly-radar-panel">
+  <div class="weekly-radar-head">
+    <h3>日本政经关键读数（2026.08）</h3>
+    <span>固定指标面板 · 跨期可比</span>
+  </div>
+  <div class="weekly-radar-grid">
+    <div class="weekly-radar-card is-japan">
+      <div class="weekly-radar-card-head">
+        <span class="weekly-radar-tag">JAPAN · 物价</span>
+        <span class="weekly-radar-change is-up">↑ +0.1%</span>
+      </div>
+      <div class="weekly-radar-label">东京 CPI（总项同比）</div>
+      <div class="weekly-radar-metric-body">
+        <span class="weekly-radar-value">+1.9%</span>
+      </div>
+      <div class="weekly-radar-note">前值 +1.8% · 能源补贴压低总项</div>
+    </div>
+    <div class="weekly-radar-card is-japan">
+      <div class="weekly-radar-card-head">
+        <span class="weekly-radar-tag">JAPAN · 核心物价</span>
+        <span class="weekly-radar-change is-up">↑ +0.2%</span>
+      </div>
+      <div class="weekly-radar-label">东京 CPI（除生鲜及能源）</div>
+      <div class="weekly-radar-metric-body">
+        <span class="weekly-radar-value">+2.0%</span>
+      </div>
+      <div class="weekly-radar-note">前值 +1.8% · 服务与食品韧性强</div>
+    </div>
+    <div class="weekly-radar-card is-japan">
+      <div class="weekly-radar-card-head">
+        <span class="weekly-radar-tag">JAPAN · 服务成本</span>
+        <span class="weekly-radar-change is-up">↑ +0.2%</span>
+      </div>
+      <div class="weekly-radar-label">企业服务价格（同比）</div>
+      <div class="weekly-radar-metric-body">
+        <span class="weekly-radar-value">+3.6%</span>
+      </div>
+      <div class="weekly-radar-note">前值 +3.4% · 工资与物流成本传导</div>
+    </div>
+    <div class="weekly-radar-card is-japan">
+      <div class="weekly-radar-card-head">
+        <span class="weekly-radar-tag">JAPAN · 就业</span>
+        <span class="weekly-radar-change is-flat">→ 持平</span>
+      </div>
+      <div class="weekly-radar-label">失业率 / 有效求人倍率</div>
+      <div class="weekly-radar-metric-body">
+        <span class="weekly-radar-value">2.4% / 1.18</span>
+      </div>
+      <div class="weekly-radar-note">失业微降 0.1%，求人需求未明显加速</div>
+    </div>
+    <div class="weekly-radar-card is-japan">
+      <div class="weekly-radar-card-head">
+        <span class="weekly-radar-tag">JAPAN · 利率</span>
+        <span class="weekly-radar-change is-up">↑ +5.5bp</span>
+      </div>
+      <div class="weekly-radar-label">10 年期日本国债 (JGB)</div>
+      <div class="weekly-radar-metric-body">
+        <span class="weekly-radar-value">2.925%</span>
+      </div>
+      <div class="weekly-radar-note">上周末 2.870% · 逼近 3% 心理关口</div>
+    </div>
+    <div class="weekly-radar-card is-japan">
+      <div class="weekly-radar-card-head">
+        <span class="weekly-radar-tag">JAPAN · 汇率</span>
+        <span class="weekly-radar-change is-down">↓ 走弱</span>
+      </div>
+      <div class="weekly-radar-label">美元／日元 (USDJPY)</div>
+      <div class="weekly-radar-metric-body">
+        <span class="weekly-radar-value">159.52</span>
+      </div>
+      <div class="weekly-radar-note">上周末 158.8 · 日元低位承压震荡</div>
+    </div>
+  </div>
+</div>
 
-市场数据交叉来源：[Reuters／Newsweek Japan 市场综述（8 月 28 日）](https://www.newsweekjapan.jp/articles/-/332588)、[日本相互证券国债收益率历史数据](https://www.bb.jbts.co.jp/ja/historical/main_rate.html)、[日本银行外汇市况](https://www.boj.or.jp/statistics/market/forex/fxdaily/)
+| 指标名称 | 本期读数 | 前值 / 预期值 | 方向与简要说明 |
+| --- | ---: | ---: | --- |
+| **东京 CPI（总项同比）** | **+1.9%** | +1.8% | ↑ 小幅加速，能源补贴压低表面读数 |
+| **东京 CPI（除生鲜及能源）** | **+2.0%** | +1.8% | ↑ 核心服务成本回升，支撑日银信心 |
+| **企业服务价格（同比）** | **+3.6%** | +3.4% | ↑ 劳务与运输成本继续转嫁 |
+| **完全失业率 / 求人倍率** | **2.4% / 1.18** | 2.5% / 1.18 | → 劳动力供求偏紧，但企业招聘趋谨慎 |
+| **10 年期日本国债收益率** | **2.925%** | 2.870% | ↑ 收益率走高，财政付息压力显性化 |
+| **美元 / 日元汇率** | **159.52** | 158.80 | ↓ 日元仍受制于利差与能源账单 |
 
-## 政治与制度观察
+数据交叉来源：[日本银行外汇与服务价格统计](https://www.boj.or.jp/statistics/)、[总务省统计局](https://www.stat.go.jp/data/cpi/)、[日本相互证券](https://www.bb.jbts.co.jp/)。若需观察市场对央行决议的定价预期，可查阅 [Polymarket 观测站](/event-radar/)。
 
-### 内阁支持率
+## 中日对照
 
-- **ANN 民调首次披露于本周**：内阁支持率 55.4%，较该机构上次调查上升 6.2 个百分点；不支持率 29.9%，下降 4.9 个百分点。
-- **调查方法**：ANN 于 8 月 22—23 日实施全国 RDD 电话调查，覆盖 18 岁以上人群；调查对象 2,668 人，有效回答率 39.1%。调查发生在上周末，但结果于本周首次披露，故收录。官方页面没有披露可直接核验的最终有效样本人数，本报告不作推算。
-- **解释边界（分析判断）**：这显示高市内阁在该机构调查中从前次下滑中反弹，但单次民调不等于趋势反转，也不与上一期共同社 50.2% 直接混算。
-- **来源**：[ANN 民调方法与明细（8 月 24 日公开）](https://www.tv-asahi.co.jp/hst/poll/202608/)、[朝日电视台结果报道（8 月 25 日）](https://news.tv-asahi.co.jp/news_politics/articles/900197843.html)
+<div class="weekly-compare-section">
+  <div class="weekly-compare-intro">
+    <strong>中日对照一句话</strong>：中国重定价信用规则，日本重定价利率与财政成本。
+  </div>
+  <table class="weekly-compare-table">
+    <thead>
+      <tr>
+        <th style="width: 15%;">比较维度</th>
+        <th style="width: 30%;">中国观察</th>
+        <th style="width: 30%;">日本观察</th>
+        <th style="width: 25%;">交汇与启示</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="weekly-axis-badge">货币政策</span></td>
+        <td>央行稳流动性、慎发降息信号，通过 MLF 与隔夜工具提供平稳流动性支撑。</td>
+        <td>日银高层重申加息方向，东京核心 CPI 与服务价格上行强化加息窗口。</td>
+        <td><strong>周期错位</strong>：中国以宽松托底流动性，日本处在退出超宽松后对加息幅度的谨慎博弈。</td>
+      </tr>
+      <tr>
+        <td><span class="weekly-axis-badge">财政刚性</span></td>
+        <td>房地产从传统高周转转向“项目制”与现房销售，重整开发与信用约束。</td>
+        <td>国债费概算增至 36.6 万亿，概算基准利率提高至 3.8%，付息刚性大增。</td>
+        <td><strong>约束收紧</strong>：两国皆在告别旧杠杆模式，财政与信贷资金更加注重安全垫与偿付纪律。</td>
+      </tr>
+      <tr>
+        <td><span class="weekly-axis-badge">产业驱动</span></td>
+        <td>工业利润分化明显，电子通信高景气，汽车与传统建材承受价格压力。</td>
+        <td>パワーGX 重设能源安全优先，铠侠闪迪拟在日追加 5 万亿投资半导体。</td>
+        <td><strong>战略转向</strong>：高新技术与供应链韧性成为公共资本与产业扶持的焦点。</td>
+      </tr>
+      <tr>
+        <td><span class="weekly-axis-badge">居民体感</span></td>
+        <td>规上企业利润增长 17.6%，但应收账款与存货走高，微观体感温差明显。</td>
+        <td>汽油补贴延期至 170 日元/升，但食品与日用品价格仍侵蚀实际购买力。</td>
+        <td><strong>内需短板</strong>：短期政策性对冲无法替代居民持久性收入增长对消费的支撑。</td>
+      </tr>
+      <tr>
+        <td><span class="weekly-axis-badge">外部风险</span></td>
+        <td>面临外需与地缘规则调整，加快构建自主可控与多边经贸通道。</td>
+        <td>受制于中东局势、能源进口账单与美日高利差，汇率输入性通胀持续。</td>
+        <td><strong>外部约束</strong>：地缘动荡与全球供应链重组对中日内需定价形成共同外部传导。</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-### 执政联盟、在野党与国会
+## 一条结构性判断
 
-- **执政阵营**：本周没有出现改变执政联盟议席结构的事件；较高支持率与反对党整合受挫，短期有利于政府掌握政策议程。
-- **在野党**：立宪民主党退出组织合并，但仍保留选举和国会合作；实际影响取决于选区层面的候选人协调，而非党名是否合并。
-- **国会进度**：本周未出现值得列入核心新闻的重大法案表决。众议院公报显示，8 月 25 日举行众议院选举制度协议会干事会，26 日举行议院运营委员会相关小委员会；下一轮实质立法焦点仍是 9 月拟定“给付付き税額控除”（附带给付的税额抵扣）大纲及随后提交临时国会。[众议院公报（8 月 24 日）](https://www.shugiin.go.jp/internet/itdb_kouhou.nsf/html/kouhou/it2210824_l.htm)、[第 221 回国会议案资料](https://www.shugiin.go.jp/Internet/itdb_rchome.nsf/html/rchome/Shiryo/221yoshi.htm)
-- **财政税制**：本周最实质进展是国债费概算与灾后预备费，而不是新税法。燃油补贴和未来税额抵扣若同时扩大，将提高政府对增收或支出重排的需求。
+日本已实质进入“利率与财政刚性共振”的新宏观阶段。当 10 年期国债利率逼近 3% 且概算付息大增，政府既无法承受过快加息带来的财政利息挤压，又难以在日元贬值与服务通胀高企下长期维持超宽松。短期以燃油补贴和预备费“买时间”，但中长期唯有依靠企业投资与生产率实际回升才能打破政策三角死结。
 
-## 政策与市场影响
+## 下周观察清单
 
-> 以下均为分析判断，并非既成事实。
+1. **9 月 1 日** · 10 年期日本国债拍卖 · 关注投标倍数、尾差与国内机构认购意愿
+2. **9 月 2 日** · 日银审议委员高田创讲话 · 市场寻找 9 月决议对加息门槛与长端容忍度的线索
+3. **9 月 5 日** · 厚生劳动省 7 月每月勤劳统计 · 检验实际工资转正的广度与可持续性
+4. **9 月上旬** · 临时国会前税制与物价对策汇总 · 关注税额抵扣方案与财源安排
 
-1. **日本经济与居民生活**：燃油、电气和燃气支持会压低短期账单，但食品与服务通胀仍在 3% 左右或以上。若工资增速不能覆盖这些项目，居民体感不会因总项 CPI 接近 2% 而明显改善。
-2. **日元**：日银加息预期原则上支撑日元，但中东风险、能源进口账单和美日利差仍可能压制日元。日元上涨不自动意味着经济改善；若来自避险或增长走弱，含义相反。
-3. **日本国债**：3.8% 概算利率与国债费激增，会让市场更关注财政对利率的脆弱性。若日银加息与大规模发债叠加，长端收益率可能继续承压；若市场流动性失序，日银才更可能调整购债节奏。
-4. **日本股票**：半导体设备、存储器、核电、电网与防灾建设可能获得政策性订单；运输、零售和中小服务业则面临工资、能源与融资成本三重挤压。日经上涨主要反映上市公司与汇率结构，不代表居民部门同步改善。
-5. **中日关系与产业链**：能源采购多元化和半导体本土投资都在强化经济安全导向。对中国企业而言，机会可能更多集中在非敏感消费与部分材料贸易；先进半导体、关键矿产与能源基础设施的政策审查大概率趋严。
+## 口径与来源说明
 
-## 下周观察清单（8 月 31 日—9 月 6 日）
-
-1. **8 月 31 日 08:50**：经产省公布 7 月工业生产、制造业生产预测与商业动态统计（零售销售），检验“缓慢复苏”是否有硬数据支撑。[经产省发布日程](https://www.meti.go.jp/statistics/toppage/kohyo.html)
-2. **9 月 1 日 08:50**：财务省公布 4—6 月法人企业统计；熊本受灾企业获延后回答，需注意样本覆盖变化。[财务省法人企业统计说明](https://www.mof.go.jp/pri/reference/ssc/summary/202608.htm)
-3. **9 月 1 日**：10 年期日本国债拍卖，关注投标倍数、尾差和国内银行需求。[财务省每周日程](https://www.mof.go.jp/english/public_relations/weekly_schedule/index.htm)
-4. **9 月 2 日**：日银公布货币基础；审议委员高田创在札幌讲话，市场将寻找 9 月加息线索。[日本银行日程](https://www.boj.or.jp/about/calendar/index.htm)
-5. **8 月 31 日以后**：公明党与中道改革联合公布是否继续组织整合，及立宪退出后的选举合作安排。
-6. **9 月政策窗口**：政府拟确定“给付付き税額控除”大纲；关注适用收入、给付方式、所得捕捉和财政来源是否具体化。[首相官邸既定方针说明（8 月 5 日）](https://www.kantei.go.jp/jp/105/statement/2026/0805kaiken.html)
-
-## 来源说明
-
-- **官方优先**：本期主要使用日本银行、首相官邸、内阁府、内阁官房、财务省、总务省统计局、厚生劳动省、经济产业省、资源能源厅、众议院、政党及企业公告。
-- **免费新闻交叉核验**：使用 Newsweek Japan 免费转载的 Reuters 报道、nippon.com／时事通信、朝日电视台、FNN、TBS 与行业协会页面。重要政策、统计与监管事项至少有一项官方原文。
-- **访问与付费情况**：未绕过付费墙，也未根据付费媒体标题推断正文。个别网页自动读取不稳定时，改用同机构 PDF、政府镜像页或其他免费权威来源；未因此降低关键事实的核验标准。
-- **口径提醒**：市场预期只在可靠免费来源可核验时列入；本周多项数据没有找到口径一致的公开预期，已在“数据雷达”中明确标注。
-
-## 相关笔记
-
-- [[骨太方针2026：责任ある積極財政与债券市场的反制 2026-07-21]]
-- [[日本央行的光与影-书评]]
-- [[日本 AI 与半导体复兴的现实困境]]
-- [[高市内阁结局推演：议席护城河、日元与外国人政策 2026-07-25]]
-- [[日本三线更新：食品减税落笔、2-3再可决与熊本地震 2026-08-03]]
+- 数据来源：日本银行、日本财务省、总务省统计局、厚生劳动省、经济产业省等官方发布渠道，以及 Reuters、时事通信等权威财经媒体。
+- 本文分析判断均标明逻辑边界，不构成任何投资建议。如需查看预测市场隐含概率与判定标准，请参阅 [Polymarket 观测站](/event-radar/)。
