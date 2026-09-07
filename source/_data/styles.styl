@@ -3851,3 +3851,312 @@ body.portfolio-collection-page ul.breadcrumb {
   }
 }
 
+/* --- Life Stream & Field Notes (Inspired by before.town) --- */
+.life-channel-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 36px;
+  margin-bottom: 28px;
+  max-width: 720px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--portfolio-rule);
+}
+
+.life-channel-chips {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.life-chip {
+  background: transparent;
+  border: 1px solid var(--portfolio-rule);
+  border-radius: 999px;
+  color: var(--portfolio-ink);
+  cursor: pointer;
+  font-family: var(--research-sans);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 8px 14px;
+  transition: all 0.2s ease;
+}
+
+.life-chip:hover {
+  border-color: var(--portfolio-blue);
+  color: var(--portfolio-blue);
+}
+
+.life-chip.is-active {
+  background: var(--portfolio-ink);
+  border-color: var(--portfolio-ink);
+  color: var(--portfolio-paper);
+}
+
+.life-chip-count {
+  font-size: 11px;
+  opacity: 0.7;
+  margin-left: 4px;
+}
+
+.life-channel-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.life-channel-link {
+  color: var(--portfolio-muted);
+  font-size: 13px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.2s ease;
+}
+
+.life-channel-link span {
+  font-family: var(--research-sans);
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.life-channel-link:hover {
+  color: var(--portfolio-blue);
+}
+
+/* Life Stream Feed */
+.life-stream-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 720px;
+  margin-top: 10px;
+}
+
+.life-stream-card {
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid rgba(155, 149, 137, 0.4);
+  border-radius: 12px;
+  padding: 24px 26px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.life-stream-card:hover {
+  border-color: var(--portfolio-rule);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
+}
+
+.life-stream-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.life-stream-author-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.life-stream-avatar {
+  align-items: center;
+  background: var(--portfolio-ink);
+  border-radius: 50%;
+  color: var(--portfolio-paper);
+  display: flex;
+  font-family: var(--research-sans);
+  font-size: 12px;
+  font-weight: 700;
+  height: 32px;
+  justify-content: center;
+  letter-spacing: 0.05em;
+  width: 32px;
+  flex-shrink: 0;
+}
+
+.life-stream-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.life-stream-author-name {
+  color: var(--portfolio-ink);
+  font-family: var(--research-sans);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.life-stream-submeta {
+  align-items: center;
+  color: var(--portfolio-muted);
+  display: flex;
+  gap: 8px;
+  font-family: var(--research-sans);
+  font-size: 12px;
+}
+
+.life-stream-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.life-stream-badge {
+  background: rgba(47, 85, 212, 0.08);
+  border: 1px solid rgba(47, 85, 212, 0.2);
+  border-radius: 999px;
+  color: var(--portfolio-blue);
+  font-family: var(--research-sans);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 9px;
+}
+
+.life-stream-badge.is-reading {
+  background: rgba(112, 106, 96, 0.1);
+  border-color: rgba(112, 106, 96, 0.25);
+  color: var(--portfolio-ink);
+}
+
+.life-stream-body {
+  color: var(--portfolio-ink);
+  font-family: "Songti SC", STSong, SimSun, Georgia, serif;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.life-stream-body p {
+  margin: 0 0 12px;
+}
+
+.life-stream-body p:last-child {
+  margin-bottom: 0;
+}
+
+.life-stream-media {
+  border-radius: 8px;
+  margin: 14px 0 12px;
+  overflow: hidden;
+  border: 1px solid rgba(155, 149, 137, 0.3);
+}
+
+.life-stream-media img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Embedded Article Card inside Stream (before.town style) */
+.life-stream-article-embed {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid var(--portfolio-rule);
+  border-radius: 10px;
+  display: block;
+  margin-top: 14px;
+  padding: 16px 20px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.life-stream-article-embed:hover {
+  background: #ffffff;
+  border-color: var(--portfolio-blue);
+  transform: translateY(-1px);
+}
+
+.life-stream-article-embed-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+
+.life-stream-article-embed-title {
+  color: var(--portfolio-ink);
+  font-family: "Songti SC", STSong, SimSun, Georgia, serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0;
+  transition: color 0.2s ease;
+}
+
+.life-stream-article-embed:hover .life-stream-article-embed-title {
+  color: var(--portfolio-blue);
+}
+
+.life-stream-article-embed-desc {
+  color: var(--portfolio-muted);
+  font-family: "Songti SC", STSong, SimSun, Georgia, serif;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0 0 10px;
+}
+
+.life-stream-article-embed-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--research-sans);
+  font-size: 12px;
+}
+
+.life-stream-reading-capsule {
+  align-items: center;
+  color: var(--portfolio-muted);
+  display: inline-flex;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.life-stream-read-action {
+  align-items: center;
+  color: var(--portfolio-blue);
+  display: inline-flex;
+  gap: 4px;
+  font-weight: 600;
+}
+
+.life-stream-footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px dashed rgba(155, 149, 137, 0.3);
+}
+
+.life-stream-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.life-stream-tag {
+  color: var(--portfolio-muted);
+  font-family: var(--research-sans);
+  font-size: 12px;
+}
+
+@media (max-width: 640px) {
+  .life-channel-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .life-stream-card {
+    padding: 18px 18px;
+  }
+}
+

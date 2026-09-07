@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 生活
-description: 读书、迁移、工作与不必归入研究的日常观察。
+description: 读书、迁移、工作与不必归入研究的日常观察与自留地。
 comments: false
 toc: false
 header: false
@@ -11,24 +11,215 @@ permalink: /life/
 <script>document.body.classList.add('portfolio-collection-page');</script>
 
 <div class="portfolio-collection">
-  <p class="portfolio-kicker">LIFE</p>
+  <p class="portfolio-kicker">LIFE · STREAM & NOTES</p>
   <h1>生活</h1>
-  <p class="portfolio-collection-intro">不是所有观察都需要成为研究。这里放读书、迁移、工作和那些让我重新看见日常的片段。</p>
+  <p class="portfolio-collection-intro">不是所有观察都需要成为严肃研究。这里是一处自留地，记录读书、迁移、求学、工作，以及在东京与中日之间重新看见日常的片段手记。</p>
 
-  <div class="portfolio-collection-grid">
-    <section>
-      <p class="portfolio-collection-label">READING</p>
-      <h2>读书</h2>
-      <p>从小说、传记和商业写作里，寻找人与制度之间的另一种证据。</p>
-      <a class="portfolio-collection-link" href="/categories/book-reviews/">书评归档 <span>Archive</span></a>
-    </section>
+  <!-- 顶部轻量专栏导航条（支持快速筛选与专栏跳跃） -->
+  <div class="life-channel-nav">
+    <div class="life-channel-chips" role="tablist" aria-label="手记分类筛选">
+      <button class="life-chip is-active" data-filter="all" role="tab" aria-selected="true">全部手记 <span class="life-chip-count" id="chip-count">4</span></button>
+      <button class="life-chip" data-filter="observation" role="tab" aria-selected="false">日常观察</button>
+      <button class="life-chip" data-filter="reading" role="tab" aria-selected="false">读书思考</button>
+    </div>
+    <div class="life-channel-links">
+      <a href="/categories/book-reviews/" class="life-channel-link">书评专栏 <span>Archive <i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
+      <a href="/about/" class="life-channel-link">关于我 <span>Profile <i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
+    </div>
+  </div>
 
-    <section>
-      <p class="portfolio-collection-label">PERSONAL NOTES</p>
-      <h2>日常观察</h2>
-      <p>关于在日本生活、学习、转职和重新安排自己时间的记录。</p>
-      <a class="portfolio-collection-link" href="/about/">关于我 <span>Profile</span></a>
-      <a class="portfolio-collection-link" href="/categories/Life/">生活观察归档 <span>Archive</span></a>
-    </section>
+  <!-- 流式自留地手记（The Life Stream） -->
+  <div class="life-stream-container" id="life-stream">
+
+    <!-- 条目 1：短手记 · 东京生活微体感 -->
+    <article class="life-stream-card" data-category="observation">
+      <header class="life-stream-header">
+        <div class="life-stream-author-info">
+          <div class="life-stream-avatar" aria-hidden="true">LD</div>
+          <div class="life-stream-meta">
+            <span class="life-stream-author-name">Lei Deng</span>
+            <div class="life-stream-submeta">
+              <time datetime="2026-09-06">2026-09-06</time>
+              <span aria-hidden="true">·</span>
+              <span class="life-stream-location"><i class="fa fa-map-marker-alt" aria-hidden="true"></i> 东京 · 高田马场</span>
+            </div>
+          </div>
+        </div>
+        <span class="life-stream-badge">日常观察</span>
+      </header>
+
+      <div class="life-stream-body">
+        <p>周末在神田川边的旧书店淘到一本 1980 年代日本兴业银行（IBJ）的信贷评审实务手册。</p>
+        <p>翻看着那些泛黄的表格，对比今天日银加息与企业财务成本的讨论，忽然意识到：四十年前分析师在表格里手算抵押率与还本付息现金流的谨慎，和四十年后我们在终端机前盯盘的焦虑，底层逻辑并没有变过。时代在变，但人对风险的定价与对确定性的渴望，始终是同一个故事。</p>
+        <p>不做严肃宏观分析的下午，在电车叮咚声里读完两章，算是一种难得的呼吸。</p>
+      </div>
+
+      <footer class="life-stream-footer">
+        <div class="life-stream-tags">
+          <span class="life-stream-tag">#东京日常</span>
+          <span class="life-stream-tag">#银行记忆</span>
+          <span class="life-stream-tag">#信贷与周期</span>
+        </div>
+      </footer>
+    </article>
+
+    <!-- 条目 2：长文融入卡片 · 家乡招商与流动 -->
+    <article class="life-stream-card" data-category="observation">
+      <header class="life-stream-header">
+        <div class="life-stream-author-info">
+          <div class="life-stream-avatar" aria-hidden="true">LD</div>
+          <div class="life-stream-meta">
+            <span class="life-stream-author-name">Lei Deng</span>
+            <div class="life-stream-submeta">
+              <time datetime="2026-09-05">2026-09-05</time>
+              <span aria-hidden="true">·</span>
+              <span class="life-stream-location"><i class="fa fa-map-marker-alt" aria-hidden="true"></i> 东京 ⇄ 遂宁</span>
+            </div>
+          </div>
+        </div>
+        <span class="life-stream-badge">生活观察</span>
+      </header>
+
+      <div class="life-stream-body">
+        <p>作为一个四川人，我现在住在东京，隔着这个距离看家乡，感受越来越不一样。读了两篇写家乡遂宁与雅安的招商文章，试着把产业基础、AI预期和人口流动放在同一条一小时交通线上。</p>
+        
+        <div class="life-stream-media">
+          <img src="/images/toukou-yizhou-cover.webp" alt="一小时直达成都插画" loading="lazy">
+        </div>
+
+        <a href="/2026/09/one-hour-to-chengdu-and-one-hour-away/" class="life-stream-article-embed">
+          <div class="life-stream-article-embed-head">
+            <h3 class="life-stream-article-embed-title">一小时直达成都：读两篇写我家乡的招商文</h3>
+          </div>
+          <p class="life-stream-article-embed-desc">两篇关于遂宁与雅安的招商报道，把产业基础、AI预期和人口流动放在了同一条一小时交通线上。资本在流动，但人也能流动。</p>
+          <div class="life-stream-article-embed-foot">
+            <span class="life-stream-reading-capsule"><i class="fa fa-file-alt" aria-hidden="true"></i> 观察长文 · 约 8 分钟</span>
+            <span class="life-stream-read-action">阅读全文 <i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+          </div>
+        </a>
+      </div>
+
+      <footer class="life-stream-footer">
+        <div class="life-stream-tags">
+          <span class="life-stream-tag">#家乡观察</span>
+          <span class="life-stream-tag">#区域经济</span>
+          <span class="life-stream-tag">#人口流动</span>
+        </div>
+      </footer>
+    </article>
+
+    <!-- 条目 3：长文融入卡片 · 王小波《寻找无双》 -->
+    <article class="life-stream-card" data-category="reading">
+      <header class="life-stream-header">
+        <div class="life-stream-author-info">
+          <div class="life-stream-avatar" aria-hidden="true">LD</div>
+          <div class="life-stream-meta">
+            <span class="life-stream-author-name">Lei Deng</span>
+            <div class="life-stream-submeta">
+              <time datetime="2026-02-28">2026-02-28</time>
+              <span aria-hidden="true">·</span>
+              <span class="life-stream-location"><i class="fa fa-book" aria-hidden="true"></i> 读王小波</span>
+            </div>
+          </div>
+        </div>
+        <span class="life-stream-badge is-reading">读书思考</span>
+      </header>
+
+      <div class="life-stream-body">
+        <p>重读王小波的《寻找无双》。荒诞不经的长安城里，所有人都在集体编造或遗忘同一个名字。荒诞喜剧的深处，藏着对集体性自我欺骗最锋利的解剖。</p>
+
+        <a href="/2026/02/wang-xiaobo-searching-wushuang/" class="life-stream-article-embed">
+          <div class="life-stream-article-embed-head">
+            <h3 class="life-stream-article-embed-title">当所有人都在假装没见过刘无双——读王小波《寻找无双》</h3>
+          </div>
+          <p class="life-stream-article-embed-desc">通过王小波《寻找无双》讨论习得性遗忘、个人主题，以及荒诞喜剧如何揭穿集体性的自我欺骗。</p>
+          <div class="life-stream-article-embed-foot">
+            <span class="life-stream-reading-capsule"><i class="fa fa-book-open" aria-hidden="true"></i> 书评 · 约 6 分钟</span>
+            <span class="life-stream-read-action">阅读全文 <i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+          </div>
+        </a>
+      </div>
+
+      <footer class="life-stream-footer">
+        <div class="life-stream-tags">
+          <span class="life-stream-tag">#书评</span>
+          <span class="life-stream-tag">#王小波</span>
+          <span class="life-stream-tag">#荒诞与真实</span>
+        </div>
+      </footer>
+    </article>
+
+    <!-- 条目 4：长文融入卡片 · 刘震云日常生活中的输赢 -->
+    <article class="life-stream-card" data-category="reading">
+      <header class="life-stream-header">
+        <div class="life-stream-author-info">
+          <div class="life-stream-avatar" aria-hidden="true">LD</div>
+          <div class="life-stream-meta">
+            <span class="life-stream-author-name">Lei Deng</span>
+            <div class="life-stream-submeta">
+              <time datetime="2026-01-31">2026-01-31</time>
+              <span aria-hidden="true">·</span>
+              <span class="life-stream-location"><i class="fa fa-book" aria-hidden="true"></i> 读刘震云</span>
+            </div>
+          </div>
+        </div>
+        <span class="life-stream-badge is-reading">读书思考</span>
+      </header>
+
+      <div class="life-stream-body">
+        <p>读刘震云的小说，最耐人寻味的从来不是大起大落的戏剧化事件，而是锅碗瓢盆、油盐酱醋等日常琐事里暗涌的尊严与机锋。</p>
+
+        <a href="/2026/01/liu-zhenyun-salty-joke/" class="life-stream-article-embed">
+          <div class="life-stream-article-embed-head">
+            <h3 class="life-stream-article-embed-title">肉片凉油下锅还是热油下锅：小事里藏着大输赢</h3>
+          </div>
+          <p class="life-stream-article-embed-desc">通过刘震云小说中的日常争执，讨论孤独、尊严，以及人们无法直接说出的情感如何藏进关于做饭和诗歌的小事里。</p>
+          <div class="life-stream-article-embed-foot">
+            <span class="life-stream-reading-capsule"><i class="fa fa-book-open" aria-hidden="true"></i> 书评 · 约 5 分钟</span>
+            <span class="life-stream-read-action">阅读全文 <i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+          </div>
+        </a>
+      </div>
+
+      <footer class="life-stream-footer">
+        <div class="life-stream-tags">
+          <span class="life-stream-tag">#书评</span>
+          <span class="life-stream-tag">#刘震云</span>
+          <span class="life-stream-tag">#日常与孤独</span>
+        </div>
+      </footer>
+    </article>
+
   </div>
 </div>
+
+<script>
+  (() => {
+    const chips = document.querySelectorAll('.life-chip');
+    const cards = document.querySelectorAll('.life-stream-card');
+    const countBadge = document.getElementById('chip-count');
+
+    chips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        const filter = chip.dataset.filter;
+        
+        chips.forEach(c => {
+          c.classList.remove('is-active');
+          c.setAttribute('aria-selected', 'false');
+        });
+        chip.classList.add('is-active');
+        chip.setAttribute('aria-selected', 'true');
+
+        let visibleCount = 0;
+        cards.forEach(card => {
+          const category = card.dataset.category;
+          const match = filter === 'all' || category === filter;
+          card.style.display = match ? 'block' : 'none';
+          if (match) visibleCount++;
+        });
+
+        if (countBadge) countBadge.textContent = visibleCount;
+      });
+    });
+  })();
+</script>
