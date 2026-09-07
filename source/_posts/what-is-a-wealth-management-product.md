@@ -30,7 +30,7 @@ Chinese bank wealth-management products are often treated as higher-yielding dep
 
 图1：净值变化截图
 
-<img src="/images/%E5%87%80%E5%80%BC%E5%8F%98%E5%8C%96%E5%9B%BE.jpeg" style="max-width:100%;" alt="净值变化图" />
+<img src="/images/%E5%87%80%E5%80%BC%E5%8F%98%E5%8C%96%E5%9B%BE.jpeg" style="display:block;max-width:100%;height:auto;" alt="净值变化图" />
 
 笔者最近在学习 Zoltan Pozsar 关于美国影子银行的一系列论文。他有个很厉害的切入：不从宏观数据出发（GDP、CPI、货币政策口号），而是从更底层、更可操作的角度——**资金到底从哪里来、经过谁、以什么形式停留、出了事会在哪里断**——去拆解一套金融体系的运作。
 
