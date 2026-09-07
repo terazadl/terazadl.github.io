@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 项目
-description: Vibe coding、数据工具与正在搭建的研究实验。
+description: 平时写的小工具、数据实验与代码。
 comments: false
 toc: false
 header: false
@@ -13,24 +13,105 @@ permalink: /projects/
 <div class="portfolio-collection">
   <p class="portfolio-kicker">PROJECTS</p>
   <h1>项目</h1>
-  <p class="portfolio-collection-intro">把问题做成可以运行、复查和继续迭代的东西。这里记录 Vibe coding、数据工具与小型产品实验。</p>
+  <p class="portfolio-collection-intro">记录平时写的小工具、数据实验与代码。</p>
 
-  <div class="portfolio-collection-grid">
-    <section>
-      <p class="portfolio-collection-label">CASE STUDY</p>
-      <h2>静态快照</h2>
-      <p>把公开概率、来源和最终判定规则放在同一张可审计读数卡里。</p>
-      <a class="portfolio-collection-link" href="/event-radar/">Polymarket 观测站 <span>Open tool</span></a>
-      <a class="portfolio-collection-link" href="https://github.com/terazadl/event-probability-radar" target="_blank" rel="noopener">GitHub repository <span>External</span></a>
-    </section>
+  <!-- 产品卡片流 (Showcase Cards) -->
+  <div class="project-showcase-container">
 
-    <section>
-      <p class="portfolio-collection-label">BUILD LOGS</p>
-      <h2>项目笔记</h2>
-      <p>记录产品边界、数据质量、判定机制，以及哪些想法不值得继续做。</p>
-      <a class="portfolio-collection-link" href="/2026/08/building-polymarket-observatory-for-chinese-users/">Building a Read-Only Polymarket Observatory <span>Case study</span></a>
-      <a class="portfolio-collection-link" href="https://github.com/terazadl/btc-risk-research" target="_blank" rel="noopener">Bitcoin 风险研究 <span>Research repo</span></a>
-      <a class="portfolio-collection-link" href="https://github.com/terazadl" target="_blank" rel="noopener">更多代码与实验 <span>GitHub</span></a>
-    </section>
+    <!-- 项目 1：Polymarket 观测站 -->
+    <article class="project-card">
+      <header class="project-card-header">
+        <div class="project-card-badges">
+          <span class="project-status-pill is-live">
+            <span class="project-status-dot"></span> 静态快照 · Case Study
+          </span>
+          <span class="project-type-tag">Web Data Tool · Vibe Coding</span>
+        </div>
+      </header>
+
+      <h2 class="project-card-title">
+        <a href="/event-radar/">Polymarket 观测站：从公开概率到可审计读数</a>
+      </h2>
+      
+      <p class="project-card-desc">
+        面向中文研究者的只读式事件预测观测站。把高频波动的公开市场概率（Odds）与不可篡改的事实判定规则（Resolution Criteria）放在同一张可审计读数卡里，沉淀为清晰的历史快照。
+      </p>
+
+      <!-- 实时快照微组件 -->
+      <div class="project-preview-bar">
+        <div class="project-preview-bar-title">
+          <span>观测站核心追踪读数预览 · SNAPSHOT</span>
+          <span style="font-weight: 500; font-size: 11px; color: var(--portfolio-muted);">只读快照</span>
+        </div>
+        <div class="project-preview-chips">
+          <div class="project-preview-chip">
+            <span class="project-preview-chip-name">美联储年内降息 50bp+</span>
+            <span class="project-preview-chip-prob">74%</span>
+          </div>
+          <div class="project-preview-chip">
+            <span class="project-preview-chip-name">日本银行年末前再度加息</span>
+            <span class="project-preview-chip-prob">42%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card-actions">
+        <a href="/event-radar/" class="project-btn-primary">
+          查看观测站 <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </a>
+        <a href="/2026/08/building-polymarket-observatory-for-chinese-users/" class="project-btn-secondary">
+          <i class="fa fa-file-alt" aria-hidden="true"></i> 项目手记
+        </a>
+        <a href="https://github.com/terazadl/event-probability-radar" target="_blank" rel="noopener" class="project-link-ghost">
+          <i class="fab fa-github" aria-hidden="true"></i> GitHub Repo <i class="fa fa-external-link-alt" aria-hidden="true"></i>
+        </a>
+      </div>
+    </article>
+
+    <!-- 项目 2：Bitcoin 风险与宏观对冲研究 -->
+    <article class="project-card">
+      <header class="project-card-header">
+        <div class="project-card-badges">
+          <span class="project-status-pill is-active">
+            <span class="project-status-dot"></span> 量化回测 · Research Repo
+          </span>
+          <span class="project-type-tag">Quant & Empirical Finance</span>
+        </div>
+      </header>
+
+      <h2 class="project-card-title">
+        <a href="/2026/07/is-bitcoin-digital-gold/">Bitcoin 风险研究：跨周期因子指纹与避险属性归因</a>
+      </h2>
+
+      <p class="project-card-desc">
+        独立开源量化研究项目（<code>btc-risk-research</code>）。包含 3 个完整执行的 Jupyter Notebooks，利用滚动相关性、通胀敏感度回归与风险匹配投资组合，实证检验加密资产在宏观流动性收紧与地缘冲击下的真实表现。提供离线验证套件与数据清单。
+      </p>
+
+      <div class="project-card-media">
+        <img src="/images/digital-gold-safe-haven.png" alt="数字黄金避险属性回测分析" loading="lazy">
+      </div>
+
+      <div class="project-card-actions">
+        <a href="/2026/07/is-bitcoin-digital-gold/" class="project-btn-primary">
+          阅读研究文章 <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/terazadl/btc-risk-research" target="_blank" rel="noopener" class="project-link-ghost">
+          <i class="fab fa-github" aria-hidden="true"></i> GitHub Repo (Notebooks & Data) <i class="fa fa-external-link-alt" aria-hidden="true"></i>
+        </a>
+      </div>
+    </article>
+
+    <!-- GitHub 更多实验引导卡 -->
+    <div class="project-github-box">
+      <div>
+        <h3 style="margin: 0 0 4px; font-size: 15px; font-weight: 700; color: var(--portfolio-ink);">更多代码与实验 · GitHub</h3>
+        <p style="margin: 0; font-size: 13px; color: var(--portfolio-muted);">平时写的一些脚本、小工具与代码实验。</p>
+      </div>
+      <a href="https://github.com/terazadl" target="_blank" rel="noopener" class="project-btn-secondary">
+        <i class="fab fa-github" aria-hidden="true"></i> 访问 GitHub @terazadl <i class="fa fa-external-link-alt" aria-hidden="true"></i>
+      </a>
+    </div>
+
   </div>
 </div>
+
