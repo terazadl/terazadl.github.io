@@ -1221,7 +1221,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #e3d752;
+  background: #06faff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2510,6 +2510,14 @@ body.portfolio-about-page.sidebar-active {
 a {
   color: inherit;
 }
+/* --- Global Responsive Media & Anti-Distortion Rules --- */
+img,
+svg,
+video,
+iframe {
+  max-width: 100%;
+  height: auto;
+}
 .headband {
   display: none;
 }
@@ -3192,6 +3200,38 @@ body:not(.portfolio-home-page):not(.portfolio-about-page) .post-body h3 {
   font-size: 22px;
   font-weight: 600;
   margin-top: 2em;
+}
+.post-body img {
+  display: block;
+  margin: 24px auto;
+  max-width: 100%;
+  height: auto !important;
+  object-fit: contain;
+  border-radius: 4px;
+}
+.post-body .article-img-link {
+  display: block;
+  margin: 24px auto;
+  text-align: center;
+  text-decoration: none;
+  cursor: zoom-in;
+  border-bottom: none !important;
+}
+.post-body .article-img-link:hover img {
+  opacity: 0.95;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+.post-body .article-img-link img {
+  margin: 0 auto;
+}
+.article-img-caption {
+  display: block;
+  text-align: center;
+  color: var(--portfolio-muted);
+  font-family: var(--portfolio-sans, "Inter", sans-serif);
+  font-size: 13px;
+  line-height: 1.5;
+  margin: -14px auto 24px;
 }
 .abstract {
   background: rgba(255,255,255,0.28);
@@ -5233,5 +5273,806 @@ body.portfolio-collection-page ul.breadcrumb {
   }
   .portfolio-data-radar-chart-head h3 {
     font-size: 20px;
+  }
+}
+/* ==========================================================================
+   Weekly Political Economy Product Line (R1-R7)
+   Unified Dual Briefs, Data Radar, Compare Table, Mainline Chart & Homepage IA
+   ========================================================================== */
+:root {
+  --weekly-china: #b35922;
+  --weekly-china-bg: #faf4ed;
+  --weekly-japan: #3a5a6b;
+  --weekly-japan-bg: #edf2f5;
+  --weekly-card-bg: rgba(255,255,255,0.65);
+  --weekly-card-border: #d5cfc4;
+}
+/* --- R5: Homepage Dual Weekly Section --- */
+.weekly-product-section {
+  border-bottom: 1px solid var(--research-line);
+  margin-bottom: 36px;
+  padding-bottom: 40px;
+}
+.weekly-section-kicker-row {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.weekly-section-kicker {
+  color: var(--research-blue);
+  font-family: var(--research-sans);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  margin: 0;
+  text-transform: uppercase;
+}
+.weekly-section-archive-links {
+  display: flex;
+  gap: 16px;
+  font-size: 13px;
+  font-family: var(--research-sans);
+}
+.weekly-section-archive-links a {
+  border-bottom: 1px solid var(--research-line);
+  color: var(--research-muted);
+  text-decoration: none;
+}
+.weekly-section-archive-links a:hover {
+  border-color: var(--research-blue);
+  color: var(--research-blue);
+}
+.weekly-dual-briefs {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-bottom: 20px;
+}
+.weekly-brief-card {
+  background: var(--weekly-card-bg);
+  border: 1px solid var(--weekly-card-border);
+  display: flex;
+  flex-direction: column;
+  padding: 24px 28px 22px;
+  position: relative;
+  transition: transform 0.16s ease, box-shadow 0.16s ease;
+}
+.weekly-brief-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(29,28,24,0.06);
+}
+.weekly-brief-card.is-china {
+  border-top: 4px solid var(--weekly-china);
+}
+.weekly-brief-card.is-japan {
+  border-top: 4px solid var(--weekly-japan);
+}
+.weekly-brief-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.weekly-brief-kicker {
+  font-family: var(--research-sans);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.weekly-brief-card.is-china .weekly-brief-kicker {
+  color: var(--weekly-china);
+}
+.weekly-brief-card.is-japan .weekly-brief-kicker {
+  color: var(--weekly-japan);
+}
+.weekly-brief-date {
+  color: var(--research-muted);
+  font-family: var(--research-sans);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+.weekly-brief-title {
+  font-family: var(--research-display);
+  font-size: clamp(20px, 1.7vw, 25px);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.22;
+  margin: 0 0 12px;
+}
+.weekly-brief-title a {
+  color: var(--research-ink);
+  text-decoration: none;
+}
+.weekly-brief-title a:hover {
+  color: var(--research-blue);
+}
+.weekly-brief-mainline {
+  color: var(--research-muted);
+  font-family: var(--research-serif);
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0 0 16px;
+}
+.weekly-brief-highlights {
+  border-top: 1px dashed var(--research-line);
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 14px 0 0;
+}
+.weekly-brief-highlights li {
+  color: var(--research-ink);
+  font-family: var(--research-sans);
+  font-size: 13px;
+  line-height: 1.45;
+  margin-bottom: 8px;
+  padding-left: 14px;
+  position: relative;
+}
+.weekly-brief-highlights li::before {
+  content: "•";
+  color: var(--research-muted);
+  left: 0;
+  position: absolute;
+}
+.weekly-brief-footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 10px;
+}
+/* Shared Sino-Japan Compare One-Liner Bar */
+.weekly-shared-compare {
+  align-items: center;
+  background: #f0eae1;
+  border: 1px solid var(--weekly-card-border);
+  border-left: 4px solid var(--research-ink);
+  display: flex;
+  gap: 16px;
+  padding: 14px 20px;
+  margin-bottom: 24px;
+}
+.weekly-compare-badge {
+  background: var(--research-ink);
+  color: #fff;
+  font-family: var(--research-sans);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  padding: 3px 8px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.weekly-shared-compare p {
+  color: var(--research-ink);
+  font-family: var(--research-serif);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.45;
+  margin: 0;
+}
+/* --- R5: Homepage Visualization & Observatory Bar --- */
+.weekly-viz-bar {
+  background: rgba(255,255,255,0.45);
+  border: 1px solid var(--research-line);
+  display: grid;
+  gap: 20px;
+  grid-template-columns: minmax(0, 1.4fr) minmax(280px, 0.6fr);
+  margin-bottom: 40px;
+  padding: 20px 24px;
+}
+.weekly-viz-metrics-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.weekly-viz-group-title {
+  color: var(--research-muted);
+  font-family: var(--research-sans);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  margin: 0;
+  text-transform: uppercase;
+}
+.weekly-viz-chips {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.weekly-metric-chip {
+  background: #fff;
+  border: 1px solid var(--weekly-card-border);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 12px;
+}
+.weekly-metric-chip.is-china {
+  border-top: 2px solid var(--weekly-china);
+}
+.weekly-metric-chip.is-japan {
+  border-top: 2px solid var(--weekly-japan);
+}
+.weekly-chip-label {
+  color: var(--research-muted);
+  font-family: var(--research-sans);
+  font-size: 11px;
+  line-height: 1.2;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.weekly-chip-val-row {
+  align-items: baseline;
+  display: flex;
+  gap: 6px;
+}
+.weekly-chip-val {
+  color: var(--research-ink);
+  font-family: var(--research-display);
+  font-size: 17px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+.weekly-chip-dir {
+  font-family: var(--research-sans);
+  font-size: 12px;
+  font-weight: 700;
+}
+.weekly-chip-dir.is-up {
+  color: #c0392b;
+}
+.weekly-chip-dir.is-down {
+  color: #27ae60;
+}
+.weekly-chip-dir.is-flat {
+  color: var(--research-muted);
+}
+.weekly-viz-observatory-box {
+  align-items: flex-start;
+  border-left: 1px solid var(--research-line);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 24px;
+}
+.weekly-observatory-meta {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+.weekly-observatory-meta strong {
+  color: var(--research-blue);
+  font-family: var(--research-sans);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.weekly-observatory-meta span {
+  color: var(--research-muted);
+  font-family: var(--research-sans);
+  font-size: 11px;
+}
+.weekly-viz-observatory-box p {
+  color: var(--research-ink);
+  font-family: var(--research-sans);
+  font-size: 13px;
+  line-height: 1.4;
+  margin: 0 0 12px;
+}
+.weekly-observatory-cta {
+  align-items: center;
+  background: var(--research-blue);
+  color: #fff !important;
+  display: inline-flex;
+  font-family: var(--research-sans);
+  font-size: 12px;
+  font-weight: 800;
+  gap: 8px;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background 0.16s ease;
+}
+.weekly-observatory-cta:hover {
+  background: var(--research-blue-hover);
+}
+/* --- R3: Article Data Radar Grid & Cards --- */
+.weekly-radar-panel {
+  background: #fbf9f5;
+  border: 1px solid var(--weekly-card-border);
+  margin: 28px 0;
+  padding: 22px 24px 20px;
+}
+.weekly-radar-head {
+  border-bottom: 1px solid var(--research-line);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  padding-bottom: 10px;
+}
+.weekly-radar-head h3 {
+  font-family: var(--research-display);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+.weekly-radar-head span {
+  color: var(--research-muted);
+  font-family: var(--research-sans);
+  font-size: 12px;
+}
+.weekly-radar-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.weekly-radar-card {
+  background: #fff;
+  border: 1px solid var(--weekly-card-border);
+  display: flex;
+  flex-direction: column;
+  padding: 16px 18px 14px;
+}
+.weekly-radar-card.is-china {
+  border-top: 3px solid var(--weekly-china);
+}
+.weekly-radar-card.is-japan {
+  border-top: 3px solid var(--weekly-japan);
+}
+.weekly-radar-card-head {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.weekly-radar-tag {
+  font-family: var(--research-sans);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.weekly-radar-card.is-china .weekly-radar-tag {
+  color: var(--weekly-china);
+}
+.weekly-radar-card.is-japan .weekly-radar-tag {
+  color: var(--weekly-japan);
+}
+.weekly-radar-label {
+  color: var(--research-ink);
+  font-family: var(--research-sans);
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+.weekly-radar-metric-body {
+  align-items: baseline;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.weekly-radar-value {
+  font-family: var(--research-display);
+  font-size: 28px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+.weekly-radar-change {
+  align-items: center;
+  display: inline-flex;
+  font-family: var(--research-sans);
+  font-size: 13px;
+  font-weight: 700;
+  gap: 4px;
+}
+.weekly-radar-change.is-up {
+  color: #c0392b;
+}
+.weekly-radar-change.is-down {
+  color: #27ae60;
+}
+.weekly-radar-change.is-flat {
+  color: var(--research-muted);
+}
+.weekly-radar-note {
+  color: var(--research-muted);
+  font-family: var(--research-sans);
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 0 0 10px;
+}
+.weekly-sparkline-svg {
+  display: block;
+  height: 28px;
+  margin-top: auto;
+  width: 100%;
+}
+/* --- R2: Sino-Japan Comparison Component --- */
+.weekly-compare-section {
+  background: #fbf9f5;
+  border: 1px solid var(--weekly-card-border);
+  border-left: 4px solid var(--research-blue);
+  margin: 28px 0;
+  padding: 22px 24px;
+}
+.weekly-compare-intro {
+  color: var(--research-ink);
+  font-family: var(--research-serif);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0 0 18px;
+}
+.weekly-compare-table {
+  border-collapse: collapse;
+  font-family: var(--research-sans);
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 0;
+  width: 100%;
+}
+.weekly-compare-table th {
+  background: #ede8df;
+  border: 1px solid var(--weekly-card-border);
+  color: var(--research-ink);
+  font-weight: 800;
+  padding: 10px 12px;
+  text-align: left;
+}
+.weekly-compare-table td {
+  border: 1px solid var(--weekly-card-border);
+  padding: 10px 12px;
+  vertical-align: top;
+}
+.weekly-compare-table tr:nth-child(even) td {
+  background: rgba(255,255,255,0.5);
+}
+.weekly-axis-badge {
+  font-weight: 800;
+  white-space: nowrap;
+}
+/* --- R4: Weekly Mainline Figure --- */
+.weekly-mainline-figure {
+  background: #fff;
+  border: 1px solid var(--weekly-card-border);
+  margin: 24px 0 28px;
+  padding: 18px 20px 14px;
+  text-align: center;
+}
+.weekly-mainline-figure img,
+.weekly-mainline-figure svg {
+  display: block;
+  height: auto !important;
+  margin: 0 auto 12px;
+  max-width: 100%;
+}
+.weekly-mainline-figure .article-img-link {
+  display: block;
+  margin: 0 auto 12px;
+}
+.weekly-figure-caption {
+  color: var(--research-muted);
+  font-family: var(--research-serif);
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.45;
+  margin: 0;
+}
+.weekly-figure-caption strong {
+  color: var(--research-ink);
+  font-style: normal;
+}
+/* --- Responsive Media Queries (Mobile & Tablet) --- */
+@media (max-width: 800px) {
+  .weekly-dual-briefs {
+    grid-template-columns: 1fr;
+  }
+  .weekly-shared-compare {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .weekly-viz-bar {
+    grid-template-columns: 1fr;
+    padding: 18px;
+  }
+  .weekly-viz-chips {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .weekly-viz-observatory-box {
+    border-left: none;
+    border-top: 1px solid var(--research-line);
+    padding-left: 0;
+    padding-top: 16px;
+  }
+  .weekly-radar-grid {
+    grid-template-columns: 1fr;
+  }
+  .weekly-compare-table {
+    display: block;
+    overflow-x: auto;
+  }
+}
+/* --- Life Stream & Field Notes (Inspired by before.town) --- */
+.life-channel-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 36px;
+  margin-bottom: 28px;
+  max-width: 720px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--portfolio-rule);
+}
+.life-channel-chips {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.life-chip {
+  background: transparent;
+  border: 1px solid var(--portfolio-rule);
+  border-radius: 999px;
+  color: var(--portfolio-ink);
+  cursor: pointer;
+  font-family: var(--research-sans);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 8px 14px;
+  transition: all 0.2s ease;
+}
+.life-chip:hover {
+  border-color: var(--portfolio-blue);
+  color: var(--portfolio-blue);
+}
+.life-chip.is-active {
+  background: var(--portfolio-ink);
+  border-color: var(--portfolio-ink);
+  color: var(--portfolio-paper);
+}
+.life-chip-count {
+  font-size: 11px;
+  opacity: 0.7;
+  margin-left: 4px;
+}
+.life-channel-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.life-channel-link {
+  color: var(--portfolio-muted);
+  font-size: 13px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.2s ease;
+}
+.life-channel-link span {
+  font-family: var(--research-sans);
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.life-channel-link:hover {
+  color: var(--portfolio-blue);
+}
+/* Life Stream Feed */
+.life-stream-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 720px;
+  margin-top: 10px;
+}
+.life-stream-card {
+  background: rgba(255,255,255,0.45);
+  border: 1px solid rgba(155,149,137,0.4);
+  border-radius: 12px;
+  padding: 24px 26px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.life-stream-card:hover {
+  border-color: var(--portfolio-rule);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.03);
+}
+.life-stream-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.life-stream-author-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.life-stream-avatar {
+  align-items: center;
+  background: var(--portfolio-ink);
+  border-radius: 50%;
+  color: var(--portfolio-paper);
+  display: flex;
+  font-family: var(--research-sans);
+  font-size: 12px;
+  font-weight: 700;
+  height: 32px;
+  justify-content: center;
+  letter-spacing: 0.05em;
+  width: 32px;
+  flex-shrink: 0;
+}
+.life-stream-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.life-stream-author-name {
+  color: var(--portfolio-ink);
+  font-family: var(--research-sans);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.life-stream-submeta {
+  align-items: center;
+  color: var(--portfolio-muted);
+  display: flex;
+  gap: 8px;
+  font-family: var(--research-sans);
+  font-size: 12px;
+}
+.life-stream-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.life-stream-badge {
+  background: rgba(47,85,212,0.08);
+  border: 1px solid rgba(47,85,212,0.2);
+  border-radius: 999px;
+  color: var(--portfolio-blue);
+  font-family: var(--research-sans);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 9px;
+}
+.life-stream-badge.is-reading {
+  background: rgba(112,106,96,0.1);
+  border-color: rgba(112,106,96,0.25);
+  color: var(--portfolio-ink);
+}
+.life-stream-body {
+  color: var(--portfolio-ink);
+  font-family: "Songti SC", STSong, SimSun, Georgia, serif;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.life-stream-body p {
+  margin: 0 0 12px;
+}
+.life-stream-body p:last-child {
+  margin-bottom: 0;
+}
+.life-stream-media {
+  border-radius: 8px;
+  margin: 14px 0 12px;
+  overflow: hidden;
+  border: 1px solid rgba(155,149,137,0.3);
+}
+.life-stream-media img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+/* Embedded Article Card inside Stream (before.town style) */
+.life-stream-article-embed {
+  background: rgba(255,255,255,0.7);
+  border: 1px solid var(--portfolio-rule);
+  border-radius: 10px;
+  display: block;
+  margin-top: 14px;
+  padding: 16px 20px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.life-stream-article-embed:hover {
+  background: #fff;
+  border-color: var(--portfolio-blue);
+  transform: translateY(-1px);
+}
+.life-stream-article-embed-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+.life-stream-article-embed-title {
+  color: var(--portfolio-ink);
+  font-family: "Songti SC", STSong, SimSun, Georgia, serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0;
+  transition: color 0.2s ease;
+}
+.life-stream-article-embed:hover .life-stream-article-embed-title {
+  color: var(--portfolio-blue);
+}
+.life-stream-article-embed-desc {
+  color: var(--portfolio-muted);
+  font-family: "Songti SC", STSong, SimSun, Georgia, serif;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0 0 10px;
+}
+.life-stream-article-embed-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--research-sans);
+  font-size: 12px;
+}
+.life-stream-reading-capsule {
+  align-items: center;
+  color: var(--portfolio-muted);
+  display: inline-flex;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.life-stream-read-action {
+  align-items: center;
+  color: var(--portfolio-blue);
+  display: inline-flex;
+  gap: 4px;
+  font-weight: 600;
+}
+.life-stream-footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px dashed rgba(155,149,137,0.3);
+}
+.life-stream-tags {
+  display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+.life-stream-tag {
+  color: var(--portfolio-muted);
+  font-family: var(--research-sans);
+  font-size: 12px;
+}
+@media (max-width: 640px) {
+  .life-channel-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .life-stream-card {
+    padding: 18px 18px;
   }
 }

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 500" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #f5f1e8; }
+      .border-box { fill: none; stroke: #a8a092; stroke-width: 1; }
+      .triangle-line { stroke: #3a5a6b; stroke-width: 2.5; stroke-dasharray: 6 4; fill: none; }
+      .triangle-accent { stroke: #2f55d4; stroke-width: 1.5; fill: none; }
+      .node-card { fill: #ffffff; stroke: #1d1c18; stroke-width: 1.5; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.04)); }
+      .node-card-top { fill: #ffffff; stroke: #3a5a6b; stroke-width: 2; }
+      .center-badge { fill: #f0eae1; stroke: #1d1c18; stroke-width: 1.5; }
+      .title-text { font-family: "Libre Caslon Display", "Songti SC", STSong, Georgia, serif; font-size: 19px; font-weight: 700; fill: #1d1c18; }
+      .subtitle-text { font-family: "Lato", "PingFang SC", sans-serif; font-size: 13px; fill: #706a60; font-weight: 400; }
+      .kicker-text { font-family: "Lato", "PingFang SC", sans-serif; font-size: 11px; font-weight: 900; letter-spacing: 0.12em; fill: #3a5a6b; text-transform: uppercase; }
+      .edge-label { font-family: "Lato", "PingFang SC", sans-serif; font-size: 12px; font-weight: 600; fill: #b35922; text-anchor: middle; }
+      .edge-bg { fill: #f5f1e8; }
+      .tag-text { font-family: "Lato", "PingFang SC", sans-serif; font-size: 11px; fill: #706a60; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#3a5a6b" />
+    </marker>
+  </defs>
+
+  <!-- Background Frame -->
+  <rect width="840" height="500" class="bg" rx="4" />
+  <rect x="12" y="12" width="816" height="476" class="border-box" />
+
+  <!-- Triangle Connections -->
+  <polygon points="420,115 190,375 650,375" class="triangle-line" />
+
+  <!-- Trade-off / Tension Edge Labels -->
+  <g>
+    <rect x="230" y="220" width="135" height="24" class="edge-bg" rx="3" stroke="#a8a092" stroke-width="0.75" />
+    <text x="297" y="236" class="edge-label">加息 vs 居民还贷负担</text>
+  </g>
+  <g>
+    <rect x="475" y="220" width="135" height="24" class="edge-bg" rx="3" stroke="#a8a092" stroke-width="0.75" />
+    <text x="542" y="236" class="edge-label">加息 vs 国债付息激增</text>
+  </g>
+  <g>
+    <rect x="350" y="388" width="140" height="24" class="edge-bg" rx="3" stroke="#a8a092" stroke-width="0.75" />
+    <text x="420" y="404" class="edge-label">补贴延长 vs 财政赤字扩张</text>
+  </g>
+
+  <!-- Center Hub: Policy Equilibrium -->
+  <circle cx="420" cy="285" r="54" class="center-badge" />
+  <text x="420" y="275" text-anchor="middle" font-family="'Libre Caslon Display', 'Songti SC', serif" font-size="16" font-weight="700" fill="#1d1c18">日本政策三角</text>
+  <text x="420" y="293" text-anchor="middle" font-family="'Lato', sans-serif" font-size="11" font-weight="700" fill="#3a5a6b" letter-spacing="0.05em">2026.08.24–30</text>
+  <text x="420" y="308" text-anchor="middle" font-family="'Lato', 'PingFang SC', sans-serif" font-size="10" fill="#706a60">共振与制衡</text>
+
+  <!-- Top Vertex: 压通胀 (Price Stability) -->
+  <g transform="translate(420, 75)">
+    <rect x="-140" y="-45" width="280" height="84" rx="3" class="node-card-top" />
+    <rect x="-140" y="-45" width="280" height="5" fill="#3a5a6b" />
+    <text x="0" y="-23" text-anchor="middle" class="kicker-text">VERTEX 01 · 货币政策</text>
+    <text x="0" y="1" text-anchor="middle" class="title-text">压通胀 · 加息窗口</text>
+    <text x="0" y="22" text-anchor="middle" class="subtitle-text">东京 CPI 重新走强 · 日银副总裁保留加息空间</text>
+  </g>
+
+  <!-- Bottom Left Vertex: 稳内需 (Domestic Demand) -->
+  <g transform="translate(190, 420)">
+    <rect x="-135" y="-45" width="270" height="84" rx="3" class="node-card" />
+    <rect x="-135" y="-45" width="270" height="5" fill="#b35922" />
+    <text x="0" y="-23" text-anchor="middle" class="kicker-text" fill="#b35922">VERTEX 02 · 居民与民生</text>
+    <text x="0" y="1" text-anchor="middle" class="title-text">稳内需 · 消费支撑</text>
+    <text x="0" y="22" text-anchor="middle" class="subtitle-text">燃油补贴延期 (170円/升) · 实际工资修复脆弱</text>
+  </g>
+
+  <!-- Bottom Right Vertex: 控财政成本 (Fiscal Constraints) -->
+  <g transform="translate(650, 420)">
+    <rect x="-135" y="-45" width="270" height="84" rx="3" class="node-card" />
+    <rect x="-135" y="-45" width="270" height="5" fill="#1d1c18" />
+    <text x="0" y="-23" text-anchor="middle" class="kicker-text" fill="#1d1c18">VERTEX 03 · 财政纪律</text>
+    <text x="0" y="1" text-anchor="middle" class="title-text">控财政 · 国债成本</text>
+    <text x="0" y="22" text-anchor="middle" class="subtitle-text">国债费概算 36.6 万亿 · 概算利率假设提至 3.8%</text>
+  </g>
+</svg>
