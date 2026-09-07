@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 'use strict';
 
 const fs = require('fs');
@@ -6,9 +5,10 @@ const path = require('path');
 const yaml = require('js-yaml');
 const { execSync } = require('child_process');
 
-const args = process.argv.slice(2);
-if (args.length === 0 || args.includes('-h') || args.includes('--help')) {
-  console.log(`
+if (require.main === module) {
+  const args = process.argv.slice(2);
+  if (args.length === 0 || args.includes('-h') || args.includes('--help')) {
+    console.log(`
 📝 用法: npm run note -- "<手记内容>" [选项]
    或者: node scripts/add-note.js "<手记内容>" [选项]
 
@@ -26,8 +26,8 @@ if (args.length === 0 || args.includes('-h') || args.includes('--help')) {
   npm run note -- "神田川的河水很清" -l "东京·高田马场" -t "散步,日常"
   npm run note -- "东京秋天的第一张随手拍" -p ~/Desktop/photo.jpg
 `);
-  process.exit(0);
-}
+    process.exit(0);
+  }
 
 let text = '';
 let location = '东京';
@@ -158,4 +158,5 @@ if (shouldBuild) {
   } catch (err) {
     console.error(`⚠️ 构建时遇到问题:`, err.message);
   }
+}
 }

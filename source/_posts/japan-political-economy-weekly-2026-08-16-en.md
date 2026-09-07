@@ -8,12 +8,12 @@ description: "The yen returned toward 160 as upstream costs stayed high and Taka
 categories:
   - Japan
 tags:
-  - Japan
-  - political economy
-  - weekly
-  - yen
-  - inflation
-  - fiscal policy
+  - 日本
+  - 政治经济
+  - 周报
+  - 日元
+  - 通胀
+  - 财政政策
 lang: en
 weekly_series: japan
 ---

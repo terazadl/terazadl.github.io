@@ -8,12 +8,12 @@ description: "Q2 GDP grew, but domestic demand contracted as core inflation acce
 categories:
   - Japan
 tags:
-  - Japan
-  - political economy
-  - weekly
+  - 日本
+  - 政治经济
+  - 周报
   - GDP
-  - inflation
-  - JGBs
+  - 通胀
+  - 国债
 lang: en
 weekly_series: japan
 ---

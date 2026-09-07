@@ -1085,4 +1085,12 @@
       link.appendChild(img);
     });
   })();
+
+  // Archive page: replace the NexT default cheer copy with a plain summary line.
+  (() => {
+    const cheer = document.querySelector(".archive .collection-title .collection-header");
+    if (!cheer) return;
+    const count = cheer.textContent.match(/\d+/);
+    cheer.textContent = count ? `共 ${count[0]} 篇文章，按年份归档` : "按年份归档";
+  })();
 </script>

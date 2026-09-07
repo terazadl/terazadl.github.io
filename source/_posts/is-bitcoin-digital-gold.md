@@ -5,9 +5,9 @@ description: An empirical test of whether Bitcoin has behaved like gold in purch
 categories:
   - Money & Markets
 tags:
-  - Bitcoin
+  - 比特币
   - quantitative research
-  - digital gold
+  - 数字黄金
 lang: en
 ---
 

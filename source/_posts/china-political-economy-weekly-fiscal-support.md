@@ -8,12 +8,12 @@ description: "China’s July slowdown is pushing policy toward faster fiscal exe
 categories:
   - Money & Markets
 tags:
-  - China
-  - political economy
-  - fiscal policy
-  - monetary policy
-  - property
-  - Evergrande
+  - 中国
+  - 政治经济
+  - 财政政策
+  - 货币政策
+  - 房地产
+  - 恒大
 lang: en
 ---
 

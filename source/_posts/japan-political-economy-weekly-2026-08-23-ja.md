@@ -9,11 +9,11 @@ categories:
   - Japan
 tags:
   - 日本
-  - 政治経済
-  - 周報
+  - 政治经济
+  - 周报
   - GDP
-  - インフレ
-  - 国債
+  - 通胀
+  - 国债
 lang: ja
 weekly_series: japan
 ---

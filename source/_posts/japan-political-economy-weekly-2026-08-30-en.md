@@ -8,12 +8,12 @@ description: "The BOJ keeps the door open to further hikes while debt-service co
 categories:
   - Japan
 tags:
-  - Japan
-  - political economy
-  - weekly
-  - Bank of Japan
-  - yen
-  - JGBs
+  - 日本
+  - 政治经济
+  - 周报
+  - 日本银行
+  - 日元
+  - 国债
 lang: en
 weekly_series: japan
 ---
