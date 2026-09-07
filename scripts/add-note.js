@@ -71,9 +71,10 @@ if (!badge) {
   badge = category === 'reading' ? '读书思考' : '日常观察';
 }
 
-// Get today's date YYYY-MM-DD
+// Get today's date YYYY-MM-DD (local time, not UTC)
 const now = new Date();
-const dateStr = now.toISOString().slice(0, 10);
+const pad = (n) => String(n).padStart(2, '0');
+const dateStr = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
 const id = `note-${now.getTime()}`;
 
 // Handle photo if provided
@@ -101,7 +102,8 @@ if (fs.existsSync(notesFile)) {
   try {
     notes = yaml.load(fs.readFileSync(notesFile, 'utf8')) || [];
   } catch (e) {
-    console.error('⚠️ 读取现有 notes.yml 失败，将创建新文件');
+    console.error('❌ 错误: 现有 notes.yml 解析失败，已中止以避免覆盖既有手记数据。请先修复该文件后重试。');
+    process.exit(1);
   }
 }
 
@@ -146,7 +148,7 @@ if (shouldBuild) {
     // Sync to machiya if machiya directory exists
     const machiyaDir = path.resolve(__dirname, '../../machiya');
     if (fs.existsSync(machiyaDir)) {
-      execSync('cp public/life/index.html ../machiya/life/index.html && cp public/css/main.css ../machiya/css/main.css', {
+      execSync('mkdir -p ../machiya/life ../machiya/css && cp public/life/index.html ../machiya/life/index.html && cp public/css/main.css ../machiya/css/main.css', {
         cwd: path.resolve(__dirname, '..'),
         stdio: 'inherit'
       });

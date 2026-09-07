@@ -105,7 +105,7 @@ hexo.extend.filter.register('after_render:html', function(html, locals) {
     // Replace the stream container contents
     html = html.replace(
       /(<div class="life-stream-container" id="life-stream">)[\s\S]*?(<\/div>\s*<\/div>\s*<script>)/,
-      `$1\n${cardsHtml}\n  </div>\n</div>\n<script>`
+      (match, containerOpen) => `${containerOpen}\n${cardsHtml}\n  </div>\n</div>\n<script>`
     );
 
     // Update count in chips
