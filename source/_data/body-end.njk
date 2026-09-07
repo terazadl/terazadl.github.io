@@ -28,6 +28,7 @@
         navLife: "生活",
         navTopics: "主题",
         navAbout: "关于我",
+        latestWriting: "最新写作",
         languageLabel: "Language",
         languageSwitcher: "阅读语言",
         mainNav: "主导航",
@@ -35,6 +36,8 @@
         openNav: "打开导航",
         codeLabel: "代码",
         githubLabel: "GitHub",
+        radarLabel: "观测站",
+        rssLabel: "RSS",
         footerCopyright: "© 2026 Lei Deng。我思故我在。",
         archiveEyebrow: "文章归档",
         archiveTitle: "文章",
@@ -110,6 +113,7 @@
         navLife: "Life",
         navTopics: "Topics",
         navAbout: "About",
+        latestWriting: "Latest writing",
         languageLabel: "Language",
         languageSwitcher: "Reading language",
         mainNav: "Main navigation",
@@ -117,6 +121,8 @@
         openNav: "Open navigation",
         codeLabel: "Code",
         githubLabel: "GitHub",
+        radarLabel: "Observatory",
+        rssLabel: "RSS",
         footerCopyright: "© 2026 Lei Deng。I think, therefore I am.",
         archiveEyebrow: "WRITING ARCHIVE",
         archiveTitle: "Writing",
@@ -192,6 +198,7 @@
         navLife: "生活",
         navTopics: "テーマ",
         navAbout: "プロフィール",
+        latestWriting: "最新の執筆",
         languageLabel: "Language",
         languageSwitcher: "表示言語",
         mainNav: "メインナビゲーション",
@@ -199,6 +206,8 @@
         openNav: "ナビゲーションを開く",
         codeLabel: "コード",
         githubLabel: "GitHub",
+        radarLabel: "観測站",
+        rssLabel: "RSS",
         footerCopyright: "© 2026 Lei Deng。我思う、ゆえに我あり。",
         archiveEyebrow: "記事アーカイブ",
         archiveTitle: "記事",
@@ -350,6 +359,26 @@
       const weeklyKey = window.location.pathname.startsWith("/china-weekly/")
         ? "weeklyChinaTitle" : "weeklyJapanTitle";
       document.title = copy[weeklyKey] + " — Lei Deng";
+    }
+
+    // Keep the homepage observatory label honest even when the daily radar
+    // snapshot is refreshed independently of the Hexo source branch. The
+    // generic server-rendered fallback never claims an old date; after the
+    // same-origin page loads, show the date currently published there.
+    const observatoryDates = document.querySelectorAll("[data-observatory-date]");
+    if (observatoryDates.length) {
+      fetch("/event-radar/", { credentials: "same-origin" })
+        .then(response => response.ok ? response.text() : "")
+        .then(markup => {
+          if (!markup) return;
+          const radarDocument = new DOMParser().parseFromString(markup, "text/html");
+          const radarTime = radarDocument.querySelector(".radar-time strong")?.textContent || "";
+          const digits = radarTime.match(/(20\d{2})(\d{2})(\d{2})/);
+          if (!digits) return;
+          const label = `观测站日报 · ${digits[2]}-${digits[3]}`;
+          observatoryDates.forEach(node => { node.textContent = label; });
+        })
+        .catch(() => {});
     }
     const activeGroup = activePostEntry
       ? groupByKey.get(activePostEntry.translationKey)
