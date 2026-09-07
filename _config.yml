@@ -134,3 +134,4 @@ deploy:
   type: git
   repo: https://github.com/terazadl/terazadl.github.io.git
   branch: master
+  message: "deploy: publish merged hexo-src {{ now('yyyy-MM-dd HH:mm:ss') }}"
