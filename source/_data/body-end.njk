@@ -1064,4 +1064,25 @@
       if (event.key === "Escape") setOpen(false);
     });
   })();
+
+  // Native Fullscreen / Lightbox zoom for content images:
+  // Wraps post images with a link to their original source so mobile and desktop readers
+  // can tap to inspect full-resolution diagrams with native touch-zoom/pan capabilities.
+  (() => {
+    document.querySelectorAll(".main-inner:not(.index) .post-body img").forEach(img => {
+      if (img.closest("a") || img.classList.contains("no-zoom")) return;
+      const src = img.getAttribute("src");
+      if (!src) return;
+
+      const link = document.createElement("a");
+      link.className = "article-img-link";
+      link.href = src;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.title = img.getAttribute("alt") || "点击查看高清原图";
+
+      img.parentNode.insertBefore(link, img);
+      link.appendChild(img);
+    });
+  })();
 </script>

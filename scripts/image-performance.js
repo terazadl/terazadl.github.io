@@ -135,6 +135,22 @@ hexo.extend.filter.register('after_post_render', data => {
       result = addAttribute(result, 'height', dimensions.height);
     }
 
+    // Defensive normalization: if an inline style is present without height: auto, ensure height: auto
+    // is included so that mobile screens constraining width will not stretch the image vertically.
+    if (/\sstyle\s*=/i.test(result)) {
+      result = result.replace(/style\s*=\s*["']([^"']*)["']/i, (match, styleVal) => {
+        if (!/(?:^|;)\s*height\s*:/i.test(styleVal)) {
+          const trimmed = styleVal.trim();
+          if (trimmed === '') {
+            return 'style="height: auto;"';
+          }
+          const sep = trimmed.endsWith(';') ? '' : '; ';
+          return `style="${styleVal}${sep}height: auto;"`;
+        }
+        return match;
+      });
+    }
+
     return result;
   });
 }, 20);
