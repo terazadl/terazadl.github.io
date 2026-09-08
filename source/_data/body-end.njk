@@ -310,22 +310,9 @@
     const activePostEntry = !window.location.pathname.startsWith("/essays/")
       ? entryByPath.get(normalizePath(window.location.pathname))
       : null;
-    if (activePostEntry && document.querySelector(".main-inner:not(.index)")) {
-      const htmlLanguage = activePostEntry.langCode === "EN"
-        ? "en"
-        : activePostEntry.langCode === "JA" ? "ja" : "zh-CN";
-      document.documentElement.lang = htmlLanguage;
-      const activeGroup = groupByKey.get(activePostEntry.translationKey);
-      activeGroup?.languages?.forEach(language => {
-        const alternate = document.createElement("link");
-        alternate.rel = "alternate";
-        alternate.hreflang = language.code === "EN"
-          ? "en"
-          : language.code === "JA" ? "ja" : "zh-CN";
-        alternate.href = new URL(language.path, window.location.origin).href;
-        document.head.appendChild(alternate);
-      });
-    }
+    // hreflang alternates for translation groups are emitted statically in
+    // the page <head> by scripts/seo-filters.js, so crawlers do not need JS
+    // rendering to associate the zh/en/ja versions of a post.
 
     const archiveLanguage = new URLSearchParams(window.location.search).get("lang");
     const isEssaysPage = window.location.pathname.startsWith("/essays/");

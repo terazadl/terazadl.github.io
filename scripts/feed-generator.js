@@ -67,8 +67,3 @@ hexo.extend.generator.register('atom', locals => ({
   path: 'atom.xml',
   data: buildFeed(locals)
 }));
-
-hexo.extend.generator.register('feed-alias', locals => ({
-  path: 'feed.xml',
-  data: buildFeed(locals)
-}));
