@@ -2426,54 +2426,18 @@ body.portfolio-collection-page ul.breadcrumb {
 
 .research-topics {
   border-bottom: 1px solid var(--research-ink);
-  padding: 44px 4px 40px;
+  padding: 44px 0 40px;
 }
 
 .research-topic-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  margin-top: 27px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 28px;
 }
 
-.research-topic-grid a {
-  border-left: 1px solid var(--research-line);
-  color: var(--research-ink);
-  display: grid;
-  gap: 11px;
-  min-height: 170px;
-  padding: 20px 25px;
-  text-decoration: none;
-  transition: background .16s ease, color .16s ease;
-}
-
-.research-topic-grid a:first-child {
-  border-left: 0;
-  padding-left: 6px;
-}
-
-.research-topic-grid a:hover,
-.research-topic-grid a:focus-visible {
-  background: rgba(47, 85, 212, .055);
-  color: var(--research-blue);
-}
-
-.research-topic-grid span {
-  color: var(--research-muted);
-  font-size: 11px;
-  font-weight: 900;
-  letter-spacing: .08em;
-}
-
-.research-topic-grid strong {
-  font-family: var(--research-serif);
-  font-size: 19px;
-  font-weight: 400;
-}
-
-.research-topic-grid small {
-  color: var(--research-muted);
-  font-size: 13px;
-  line-height: 1.5;
+.research-topic-grid .research-topic-card {
+  min-height: 185px;
 }
 
 .posts-expand.index .post-body > p:first-child,
@@ -2701,6 +2665,8 @@ body.portfolio-collection-page ul.breadcrumb {
 
   .portfolio-home-page .research-topics {
     order: 5;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .portfolio-home-page .research-profile-strip {
@@ -2751,20 +2717,8 @@ body.portfolio-collection-page ul.breadcrumb {
   }
 
   .research-topic-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .research-topic-grid a,
-  .research-topic-grid a:first-child {
-    border-left: 0;
-    border-top: 1px solid var(--research-line);
-    min-height: 145px;
-    padding: 20px 12px;
-  }
-
-  .research-topic-grid a:nth-child(even) {
-    border-left: 1px solid var(--research-line);
-    padding-left: 24px;
+    grid-template-columns: 1fr;
+    gap: 16px;
   }
 
   .portfolio-essays-header {
@@ -2859,14 +2813,7 @@ body.portfolio-collection-page ul.breadcrumb {
 
   .research-topic-grid {
     grid-template-columns: 1fr;
-  }
-
-  .research-topic-grid a,
-  .research-topic-grid a:first-child,
-  .research-topic-grid a:nth-child(even) {
-    border-left: 0;
-    min-height: 0;
-    padding: 20px 4px;
+    gap: 14px;
   }
 
   .portfolio-essays-header h1 {
