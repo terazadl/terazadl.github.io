@@ -938,9 +938,17 @@
       const currentEntry = entryByPath.get(currentPath);
       if (!currentEntry) return;
       const currentCategory = currentEntry?.category;
+      const currentKey = currentEntry?.translationKey;
       const related = contentIndex.groups
-        .filter(group => group.category === currentCategory && group.primaryPath !== currentPath)
+        .filter(group => {
+          if (group.category !== currentCategory) return false;
+          if (currentKey && group.key === currentKey) return false;
+          if (normalizePath(group.primaryPath) === currentPath) return false;
+          if (group.languages?.some(lang => normalizePath(lang.path) === currentPath)) return false;
+          return true;
+        })
         .slice(0, 2);
+      if (!related.length) return;
       const nextSection = document.createElement("section");
       nextSection.className = "portfolio-article-next";
       nextSection.setAttribute("aria-labelledby", "portfolio-article-next-title");
