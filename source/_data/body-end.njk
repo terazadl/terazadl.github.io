@@ -862,7 +862,16 @@
         date.dateTime = group.date;
         date.textContent = group.date;
         const detail = document.createElement("span");
-        detail.textContent = copy.categoryLabels[group.category] || group.category;
+        detail.className = "research-cat-pill";
+        if (group.key.startsWith("china-political-economy-weekly")) {
+          detail.classList.add("is-china");
+          detail.textContent = "中国周报";
+        } else if (group.key.startsWith("japan-political-economy-weekly")) {
+          detail.classList.add("is-japan");
+          detail.textContent = "日本周报";
+        } else {
+          detail.textContent = copy.categoryLabels[group.category] || group.category;
+        }
         meta.append(date, detail);
 
         if (group.languages.length > 1) {
@@ -872,12 +881,11 @@
           group.languages.forEach(language => {
             const languageLink = document.createElement("a");
             languageLink.href = language.path;
-            languageLink.textContent = languageNames[language.code];
+            languageLink.className = "research-lang-chip";
+            languageLink.textContent = language.code;
             languageLinks.appendChild(languageLink);
           });
           meta.appendChild(languageLinks);
-        } else {
-          detail.textContent += " · " + group.languages[0].code;
         }
 
         const heading = document.createElement("h3");

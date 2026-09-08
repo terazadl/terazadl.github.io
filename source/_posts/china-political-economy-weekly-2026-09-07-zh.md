@@ -3,7 +3,7 @@ title: "中国政经周报：化债与补资本，回暖仍不均衡"
 date: 2026-09-08 09:00:00
 slug: china-political-economy-weekly-2026-09-07-zh
 translation_key: china-political-economy-weekly-2026-09-07
-card_title: "中国政经周报｜2026年8月31日—9月6日：化债与补资本，回暖仍不均衡"
+card_title: "中国政经周报：化债与补资本，回暖仍不均衡"
 description: "制造业订单恢复扩张但用工偏弱；财政启动3000亿元特别国债为大行与头部险企补充资本金，全口径政府负债升至102.5万亿。"
 categories:
   - Money & Markets
