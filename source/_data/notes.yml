@@ -1,6 +1,16 @@
 # 生活手记与自留地数据源 (Life Stream Notes)
 # 自动按顺序在 /life/ 页面展示，最新的一条排在最前面
 
+- id: note-1788863763082
+  date: "2026-09-08"
+  location: 东京
+  category: observation
+  badge: 观影随想
+  text: 无意间看一部电影，《应召女郎1988》，编剧是左翼吧，为了抨击吃人的港英社会，怎么惨怎么写。
+  tags:
+    - 电影
+    - 港片
+    - 文化观察
 - id: 2026-09-05-suining
   date: "2026-09-05"
   location: 东京 ⇄ 四川
