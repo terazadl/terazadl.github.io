@@ -9,20 +9,12 @@
   text: Hello，AI， my friend！
   tags:
     - 日常
-- id: note-1788872161302
-  date: "2026-09-08"
-  location: 东京
-  category: observation
-  badge: 日常观察
-  text: test from iOS shortcuts
-  tags:
-    - 日常
 - id: note-1788867318373
   date: "2026-09-08"
   location: 东京
   category: observation
   badge: 观影随想
-  text: 「海が聞こえる」という映画が真的很有青春感！
+  text: 「海が聞こえる」という映画、本当に青春感がある！
   tags:
     - 电影
     - 随笔
