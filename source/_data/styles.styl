@@ -3735,6 +3735,234 @@ body.portfolio-collection-page ul.breadcrumb {
   width: 100%;
 }
 
+/* --- R8: Enhanced Visual Radar Table & Mini-Gauges --- */
+.weekly-radar-table-wrap {
+  background: #fbf9f5;
+  border: 1px solid var(--weekly-card-border);
+  margin: 24px 0 28px;
+  padding: 20px 22px;
+}
+
+.weekly-radar-table-head {
+  align-items: baseline;
+  border-bottom: 1px solid var(--research-line);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+}
+
+.weekly-radar-table-head h4 {
+  color: var(--research-ink);
+  font-family: var(--research-display);
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.weekly-radar-table-head span {
+  color: var(--research-muted);
+  font-family: var(--research-sans);
+  font-size: 12px;
+}
+
+.weekly-radar-table-scroll {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+}
+
+.weekly-radar-table {
+  border-collapse: collapse;
+  font-family: var(--research-sans);
+  font-size: 13px;
+  line-height: 1.45;
+  margin: 0;
+  width: 100%;
+}
+
+.weekly-radar-table th {
+  background: #ede8df;
+  border: 1px solid var(--weekly-card-border);
+  color: var(--research-ink);
+  font-weight: 700;
+  padding: 9px 12px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.weekly-radar-table td {
+  background: #ffffff;
+  border: 1px solid var(--weekly-card-border);
+  padding: 10px 12px;
+  vertical-align: middle;
+}
+
+.weekly-radar-table tr:nth-child(even) td {
+  background: #fdfbf7;
+}
+
+.weekly-radar-table .col-metric {
+  font-weight: 600;
+  min-width: 140px;
+}
+
+.weekly-radar-table .col-val {
+  font-family: var(--research-display);
+  font-size: 17px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  min-width: 80px;
+  white-space: nowrap;
+}
+
+.weekly-radar-table .col-gauge {
+  min-width: 170px;
+}
+
+.weekly-radar-table .col-trend {
+  min-width: 100px;
+  white-space: nowrap;
+}
+
+.weekly-radar-table .col-note {
+  color: #555;
+  font-size: 12px;
+  line-height: 1.4;
+  min-width: 200px;
+}
+
+/* Category Badges */
+.radar-cat-badge {
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  margin-right: 6px;
+  padding: 1px 5px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.radar-cat-badge.is-china {
+  background: rgba(179, 89, 34, 0.12);
+  border: 1px solid rgba(179, 89, 34, 0.28);
+  color: #b35922;
+}
+
+.radar-cat-badge.is-japan {
+  background: rgba(58, 90, 107, 0.12);
+  border: 1px solid rgba(58, 90, 107, 0.28);
+  color: #3a5a6b;
+}
+
+/* Trend Pills */
+.radar-trend-pill {
+  align-items: center;
+  border-radius: 12px;
+  display: inline-flex;
+  font-size: 11px;
+  font-weight: 700;
+  gap: 4px;
+  padding: 2px 8px;
+  white-space: nowrap;
+}
+
+.radar-trend-pill.is-up {
+  background: #e8f5e9;
+  border: 1px solid #c8e6c9;
+  color: #1b5e20;
+}
+
+.radar-trend-pill.is-down {
+  background: #ffebee;
+  border: 1px solid #ffcdd2;
+  color: #b71c1c;
+}
+
+.radar-trend-pill.is-flat {
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  color: #616161;
+}
+
+.radar-trend-pill.is-warn {
+  background: #fff3e0;
+  border: 1px solid #ffe0b2;
+  color: #b35922;
+}
+
+/* Mini Visual Gauge Bar (CSS Range Tracker) */
+.radar-mini-gauge {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  width: 100%;
+}
+
+.radar-gauge-track {
+  background: #e5e0d5;
+  border-radius: 4px;
+  height: 8px;
+  overflow: visible;
+  position: relative;
+}
+
+.radar-gauge-fill {
+  border-radius: 4px;
+  height: 100%;
+  transition: width 0.25s ease;
+}
+
+.radar-gauge-fill.is-up {
+  background: #2d6a4f;
+}
+
+.radar-gauge-fill.is-down {
+  background: #9b2226;
+}
+
+.radar-gauge-fill.is-warn {
+  background: #b35922;
+}
+
+.radar-gauge-fill.is-neutral {
+  background: #6c757d;
+}
+
+.radar-gauge-midline {
+  background: #1d1c18;
+  bottom: -3px;
+  position: absolute;
+  top: -3px;
+  width: 2px;
+  z-index: 2;
+}
+
+.radar-gauge-val-marker {
+  background: #1d1c18;
+  border-radius: 1px;
+  height: 14px;
+  position: absolute;
+  top: -3px;
+  transform: translateX(-50%);
+  width: 4px;
+  z-index: 3;
+}
+
+.radar-gauge-labels {
+  color: var(--research-muted);
+  display: flex;
+  font-size: 10px;
+  justify-content: space-between;
+  line-height: 1;
+}
+
+.radar-midline-label {
+  color: var(--research-ink);
+  font-weight: 700;
+}
+
 /* --- R2: Sino-Japan Comparison Component --- */
 .weekly-compare-section {
   background: #fbf9f5;

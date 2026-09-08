@@ -172,14 +172,147 @@ compare_one_liner: "中国以财政工具直接兜底金融负债端，日本在
   </div>
 </div>
 
-| 指标名称 | 本期读数 | 环比/前值 | 方向 | 研判简注 |
-| :--- | :---: | :---: | :---: | :--- |
-| **官方制造业 PMI** | **49.8%** | +0.6 pct | ↑ | 需求与生产双双转暖，距荣枯线仅一步之遥 |
-| **制造业新订单指数** | **50.6%** | +1.3 pct | ↑ | 外需拉动重回扩张区间，韧性超预期 |
-| **制造业从业人员指数** | **48.7%** | -0.3 pct | ↓ | 订单回升尚未惠及招工用人，用工端偏谨慎 |
-| **服务业商务活动指数** | **49.3%** | 持平 | → | 处于临界线下方，暑期消费退潮内需体感平淡 |
-| **政府全口径负债率** | **73.2%** | 2025年末 | ↑ | 隐债压降转法定债，全口径债务 102.5 万亿 |
-| **8 月美元出口同比增速** | **+25.0%** | +18.0% | ↑ | 达 4014.4 亿美元，技术密集型机电产品单价领跑 |
+<div class="weekly-radar-table-wrap">
+  <div class="weekly-radar-table-head">
+    <h4>关键指标雷达标尺 · RADAR BENCHMARKS</h4>
+    <span>以荣枯线（50.0）与法定基准为中轴的可视化刻度</span>
+  </div>
+  <div class="weekly-radar-table-scroll">
+    <table class="weekly-radar-table">
+      <thead>
+        <tr>
+          <th style="width: 22%;">指标名称</th>
+          <th style="width: 12%;">本期读数</th>
+          <th style="width: 28%;">刻度标尺与区间定位</th>
+          <th style="width: 14%;">趋势变动</th>
+          <th style="width: 24%;">研判简注</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="col-metric"><span class="radar-cat-badge is-china">景气</span>官方制造业 PMI</td>
+          <td class="col-val">49.8%</td>
+          <td class="col-gauge">
+            <div class="radar-mini-gauge">
+              <div class="radar-gauge-track">
+                <div class="radar-gauge-midline" style="left: 50%;" title="50.0 荣枯线"></div>
+                <div class="radar-gauge-fill is-warn" style="width: 49.0%;"></div>
+                <div class="radar-gauge-val-marker" style="left: 49.0%;" title="当前值 49.8%"></div>
+              </div>
+              <div class="radar-gauge-labels">
+                <span>40 收缩</span>
+                <span class="radar-midline-label">50.0 荣枯线</span>
+                <span>60 扩张</span>
+              </div>
+            </div>
+          </td>
+          <td class="col-trend"><span class="radar-trend-pill is-up"><i class="fa fa-arrow-up" aria-hidden="true"></i> +0.6 pct</span></td>
+          <td class="col-note">生产与需求双转暖，距荣枯线仅一步之遥</td>
+        </tr>
+        <tr>
+          <td class="col-metric"><span class="radar-cat-badge is-china">订单</span>制造业新订单指数</td>
+          <td class="col-val">50.6%</td>
+          <td class="col-gauge">
+            <div class="radar-mini-gauge">
+              <div class="radar-gauge-track">
+                <div class="radar-gauge-midline" style="left: 50%;" title="50.0 荣枯线"></div>
+                <div class="radar-gauge-fill is-up" style="width: 53.0%;"></div>
+                <div class="radar-gauge-val-marker" style="left: 53.0%;" title="当前值 50.6%"></div>
+              </div>
+              <div class="radar-gauge-labels">
+                <span>40 收缩</span>
+                <span class="radar-midline-label">50.0 荣枯线</span>
+                <span>60 扩张</span>
+              </div>
+            </div>
+          </td>
+          <td class="col-trend"><span class="radar-trend-pill is-up"><i class="fa fa-arrow-up" aria-hidden="true"></i> +1.3 pct</span></td>
+          <td class="col-note">外需拉动重回扩张区间，韧性超预期</td>
+        </tr>
+        <tr>
+          <td class="col-metric"><span class="radar-cat-badge is-china">用工</span>制造业从业人员指数</td>
+          <td class="col-val">48.7%</td>
+          <td class="col-gauge">
+            <div class="radar-mini-gauge">
+              <div class="radar-gauge-track">
+                <div class="radar-gauge-midline" style="left: 50%;" title="50.0 荣枯线"></div>
+                <div class="radar-gauge-fill is-down" style="width: 43.5%;"></div>
+                <div class="radar-gauge-val-marker" style="left: 43.5%;" title="当前值 48.7%"></div>
+              </div>
+              <div class="radar-gauge-labels">
+                <span>40 收缩</span>
+                <span class="radar-midline-label">50.0 荣枯线</span>
+                <span>60 扩张</span>
+              </div>
+            </div>
+          </td>
+          <td class="col-trend"><span class="radar-trend-pill is-down"><i class="fa fa-arrow-down" aria-hidden="true"></i> -0.3 pct</span></td>
+          <td class="col-note">订单改善尚未惠及招工用人，用工偏谨慎</td>
+        </tr>
+        <tr>
+          <td class="col-metric"><span class="radar-cat-badge is-china">服务</span>服务业商务活动指数</td>
+          <td class="col-val">49.3%</td>
+          <td class="col-gauge">
+            <div class="radar-mini-gauge">
+              <div class="radar-gauge-track">
+                <div class="radar-gauge-midline" style="left: 50%;" title="50.0 荣枯线"></div>
+                <div class="radar-gauge-fill is-warn" style="width: 46.5%;"></div>
+                <div class="radar-gauge-val-marker" style="left: 46.5%;" title="当前值 49.3%"></div>
+              </div>
+              <div class="radar-gauge-labels">
+                <span>40 收缩</span>
+                <span class="radar-midline-label">50.0 荣枯线</span>
+                <span>60 扩张</span>
+              </div>
+            </div>
+          </td>
+          <td class="col-trend"><span class="radar-trend-pill is-flat"><i class="fa fa-minus" aria-hidden="true"></i> 持平 49.3</span></td>
+          <td class="col-note">处于临界线下方，暑期消费退潮体感平淡</td>
+        </tr>
+        <tr>
+          <td class="col-metric"><span class="radar-cat-badge is-china">债务</span>政府全口径负债率</td>
+          <td class="col-val">73.2%</td>
+          <td class="col-gauge">
+            <div class="radar-mini-gauge">
+              <div class="radar-gauge-track">
+                <div class="radar-gauge-midline" style="left: 52.9%;" title="法定上限 68.5%"></div>
+                <div class="radar-gauge-fill is-warn" style="width: 66.3%;"></div>
+                <div class="radar-gauge-val-marker" style="left: 66.3%;" title="含隐债 73.2%"></div>
+              </div>
+              <div class="radar-gauge-labels">
+                <span>50%</span>
+                <span class="radar-midline-label">法定 68.5%</span>
+                <span>85%</span>
+              </div>
+            </div>
+          </td>
+          <td class="col-trend"><span class="radar-trend-pill is-warn"><i class="fa fa-arrow-up" aria-hidden="true"></i> 隐债显性化</span></td>
+          <td class="col-note">全口径债务 102.5 万亿，隐债压降转法定债</td>
+        </tr>
+        <tr>
+          <td class="col-metric"><span class="radar-cat-badge is-china">外贸</span>8 月美元出口同比增速</td>
+          <td class="col-val">+25.0%</td>
+          <td class="col-gauge">
+            <div class="radar-mini-gauge">
+              <div class="radar-gauge-track">
+                <div class="radar-gauge-midline" style="left: 57.5%;" title="前值 18.0%"></div>
+                <div class="radar-gauge-fill is-up" style="width: 75.0%;"></div>
+                <div class="radar-gauge-val-marker" style="left: 75.0%;" title="当前值 +25.0%"></div>
+              </div>
+              <div class="radar-gauge-labels">
+                <span>0%</span>
+                <span class="radar-midline-label">前值 +18.0%</span>
+                <span>+35%</span>
+              </div>
+            </div>
+          </td>
+          <td class="col-trend"><span class="radar-trend-pill is-up"><i class="fa fa-arrow-up" aria-hidden="true"></i> +7.0 pct</span></td>
+          <td class="col-note">达 4014.4 亿美元，技术密集型芯片单价领跑</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
 数据交叉来源：[国家统计局制造业与服务业公报](http://www.stats.gov.cn)、[全国人大常委会预决算审议报告](http://www.npc.gov.cn)、[海关总署月度快讯](http://www.customs.gov.cn)。若需观察市场对央行货币决策的预期定价，可查阅 [Polymarket 观测站](/event-radar/)。
 

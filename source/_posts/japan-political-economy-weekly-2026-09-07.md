@@ -166,14 +166,147 @@ compare_one_liner: "中国在低通胀环境中以政策工具托底信贷与资
   </div>
 </div>
 
-| 指标名称 | 本期读数 | 环比/前值 | 方向 | 研判简注 |
-| :--- | :---: | :---: | :---: | :--- |
-| **东京核心 CPI 同比** | **+2.4%** | +2.2% | ↑ | 能源补贴虽有平抑，但物价基调依然坚挺 |
-| **10 年期日本国债收益率** | **1.06%** | 1.03% | ↑ | 市场持续消化 9 月日银追加加息概率 |
-| **美元兑日元 (USD/JPY)** | **142.50** | 144.00 | ↓ | 日元阶段性反弹，但输入通胀压力未除 |
-| **实际工资同比变动** | **+0.4%** | -0.1% | → | 名义加薪受通胀粘性吞噬，保本线附近拉锯 |
-| **家庭实际消费支出同比** | **-3.6%** | -1.8% | ↓ | 连续 8 个月负增长，居民内需处于极度防守态 |
-| **2027 年度预算概算要求** | **117.5 万亿¥** | 创纪录 | ↑ | 国债付息费膨胀至近 30 万亿，财政弹性枯竭 |
+<div class="weekly-radar-table-wrap">
+  <div class="weekly-radar-table-head">
+    <h4>关键指标雷达标尺 · RADAR BENCHMARKS</h4>
+    <span>以政策目标（2.0% CPI / 0% 工资）与临界阈值为中轴的可视化刻度</span>
+  </div>
+  <div class="weekly-radar-table-scroll">
+    <table class="weekly-radar-table">
+      <thead>
+        <tr>
+          <th style="width: 22%;">指标名称</th>
+          <th style="width: 12%;">本期读数</th>
+          <th style="width: 28%;">刻度标尺与区间定位</th>
+          <th style="width: 14%;">趋势变动</th>
+          <th style="width: 24%;">研判简注</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="col-metric"><span class="radar-cat-badge is-japan">物价</span>东京核心 CPI 同比</td>
+          <td class="col-val">+2.4%</td>
+          <td class="col-gauge">
+            <div class="radar-mini-gauge">
+              <div class="radar-gauge-track">
+                <div class="radar-gauge-midline" style="left: 50%;" title="日银 2.0% 目标线"></div>
+                <div class="radar-gauge-fill is-up" style="width: 60.0%;"></div>
+                <div class="radar-gauge-val-marker" style="left: 60.0%;" title="当前值 2.4%"></div>
+              </div>
+              <div class="radar-gauge-labels">
+                <span>0.0%</span>
+                <span class="radar-midline-label">2.0% 通胀目标</span>
+                <span>4.0%</span>
+              </div>
+            </div>
+          </td>
+          <td class="col-trend"><span class="radar-trend-pill is-up"><i class="fa fa-arrow-up" aria-hidden="true"></i> +0.2 pct</span></td>
+          <td class="col-note">前值 +2.2%，物价基调坚挺，补贴平抑有限</td>
+        </tr>
+        <tr>
+          <td class="col-metric"><span class="radar-cat-badge is-japan">利率</span>10 年期日本国债 (JGB)</td>
+          <td class="col-val">1.06%</td>
+          <td class="col-gauge">
+            <div class="radar-mini-gauge">
+              <div class="radar-gauge-track">
+                <div class="radar-gauge-midline" style="left: 50%;" title="1.00% 心理关口"></div>
+                <div class="radar-gauge-fill is-warn" style="width: 53.0%;"></div>
+                <div class="radar-gauge-val-marker" style="left: 53.0%;" title="当前值 1.06%"></div>
+              </div>
+              <div class="radar-gauge-labels">
+                <span>0.0%</span>
+                <span class="radar-midline-label">1.00% 心理关口</span>
+                <span>2.0%</span>
+              </div>
+            </div>
+          </td>
+          <td class="col-trend"><span class="radar-trend-pill is-up"><i class="fa fa-arrow-up" aria-hidden="true"></i> +3 bp</span></td>
+          <td class="col-note">前值 1.03%，市场持续消化 9 月追加加息概率</td>
+        </tr>
+        <tr>
+          <td class="col-metric"><span class="radar-cat-badge is-japan">汇率</span>美元／日元 (USDJPY)</td>
+          <td class="col-val">142.50</td>
+          <td class="col-gauge">
+            <div class="radar-mini-gauge">
+              <div class="radar-gauge-track">
+                <div class="radar-gauge-midline" style="left: 66.7%;" title="150 警戒线"></div>
+                <div class="radar-gauge-fill is-neutral" style="width: 41.7%;"></div>
+                <div class="radar-gauge-val-marker" style="left: 41.7%;" title="当前 142.50"></div>
+              </div>
+              <div class="radar-gauge-labels">
+                <span>130 (升值)</span>
+                <span class="radar-midline-label">150 警戒线</span>
+                <span>160 (贬值)</span>
+              </div>
+            </div>
+          </td>
+          <td class="col-trend"><span class="radar-trend-pill is-down"><i class="fa fa-arrow-down" aria-hidden="true"></i> -1.50 ¥</span></td>
+          <td class="col-note">日元阶段性避险反弹，但输入通胀仍存</td>
+        </tr>
+        <tr>
+          <td class="col-metric"><span class="radar-cat-badge is-japan">薪酬</span>实际工资同比变动</td>
+          <td class="col-val">+0.4%</td>
+          <td class="col-gauge">
+            <div class="radar-mini-gauge">
+              <div class="radar-gauge-track">
+                <div class="radar-gauge-midline" style="left: 50%;" title="0.0% 零轴"></div>
+                <div class="radar-gauge-fill is-warn" style="width: 56.7%;"></div>
+                <div class="radar-gauge-val-marker" style="left: 56.7%;" title="当前 +0.4%"></div>
+              </div>
+              <div class="radar-gauge-labels">
+                <span>-3.0%</span>
+                <span class="radar-midline-label">0.0% 零轴</span>
+                <span>+3.0%</span>
+              </div>
+            </div>
+          </td>
+          <td class="col-trend"><span class="radar-trend-pill is-flat"><i class="fa fa-minus" aria-hidden="true"></i> 保本拉锯</span></td>
+          <td class="col-note">名义加薪受通胀粘性吞噬，零轴边缘徘徊</td>
+        </tr>
+        <tr>
+          <td class="col-metric"><span class="radar-cat-badge is-japan">消费</span>家庭实际消费支出</td>
+          <td class="col-val">-3.6%</td>
+          <td class="col-gauge">
+            <div class="radar-mini-gauge">
+              <div class="radar-gauge-track">
+                <div class="radar-gauge-midline" style="left: 62.5%;" title="0.0% 零轴"></div>
+                <div class="radar-gauge-fill is-down" style="width: 17.5%;"></div>
+                <div class="radar-gauge-val-marker" style="left: 17.5%;" title="当前 -3.6%"></div>
+              </div>
+              <div class="radar-gauge-labels">
+                <span>-5.0% 收缩</span>
+                <span class="radar-midline-label">0.0% 零轴</span>
+                <span>+3.0% 增长</span>
+              </div>
+            </div>
+          </td>
+          <td class="col-trend"><span class="radar-trend-pill is-down"><i class="fa fa-arrow-down" aria-hidden="true"></i> 连跌8月</span></td>
+          <td class="col-note">连续 8 个月负增长，居民内需极度防守</td>
+        </tr>
+        <tr>
+          <td class="col-metric"><span class="radar-cat-badge is-japan">财政</span>2027 年度概算要求</td>
+          <td class="col-val">117.5万亿</td>
+          <td class="col-gauge">
+            <div class="radar-mini-gauge">
+              <div class="radar-gauge-track">
+                <div class="radar-gauge-midline" style="left: 70%;" title="前年 114.4万亿"></div>
+                <div class="radar-gauge-fill is-up" style="width: 87.5%;"></div>
+                <div class="radar-gauge-val-marker" style="left: 87.5%;" title="117.5万亿 破纪录"></div>
+              </div>
+              <div class="radar-gauge-labels">
+                <span>100万亿</span>
+                <span class="radar-midline-label">前年 114.4万亿</span>
+                <span>120万亿</span>
+              </div>
+            </div>
+          </td>
+          <td class="col-trend"><span class="radar-trend-pill is-up"><i class="fa fa-arrow-up" aria-hidden="true"></i> 创历史新高</span></td>
+          <td class="col-note">国债付息预算激增至近 30 万亿日元</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
 数据交叉来源：[日本银行外汇与金融统计](https://www.boj.or.jp/statistics/)、[总务省统计局](https://www.stat.go.jp/data/cpi/)、[财务省国债公报](https://www.mof.go.jp)。若需观察市场对央行决议的定价预期，可查阅 [Polymarket 观测站](/event-radar/)。
 
