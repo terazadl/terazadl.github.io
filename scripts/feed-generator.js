@@ -1,5 +1,8 @@
 'use strict';
 
+const fs = require('fs');
+const path = require('path');
+
 // Small dependency-free Atom generator. Keeping the feed in the site source
 // means RSS works on GitHub Pages without adding another runtime service.
 function xmlEscape(value) {
@@ -67,3 +70,11 @@ hexo.extend.generator.register('atom', locals => ({
   path: 'atom.xml',
   data: buildFeed(locals)
 }));
+
+// `hexo generate` does not remove files emitted by an older build. Remove
+// only the retired duplicate feed so builds can preserve .deploy_git without
+// leaving feed.xml published alongside atom.xml.
+hexo.extend.filter.register('after_generate', () => {
+  const legacyFeed = path.join(hexo.public_dir, 'feed.xml');
+  if (fs.existsSync(legacyFeed)) fs.unlinkSync(legacyFeed);
+});

@@ -4,6 +4,10 @@
 
 {%- set page_title = page.title or config.title -%}
 {%- set page_description = page.description or config.description -%}
+{%- set page_language = page.lang or config.language -%}
+{%- if page_language == 'zh' -%}
+  {%- set page_language = 'zh-CN' -%}
+{%- endif -%}
 <meta name="author" content="{{ config.author | escape }}">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <meta name="twitter:title" content="{{ page_title | escape }}">
@@ -39,7 +43,7 @@
   "datePublished": "{{ date_xml(page.date) }}",
   "author": {"@id": "https://terazadl.github.io/#lei-deng"},
   "mainEntityOfPage": {"@type": "WebPage", "@id": "{{ page_url }}"},
-  "inLanguage": {{ (page.lang or config.language) | safedump | safe }}
+  "inLanguage": {{ page_language | safedump | safe }}
 }
 </script>
 {%- endif %}

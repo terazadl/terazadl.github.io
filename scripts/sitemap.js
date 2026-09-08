@@ -18,7 +18,15 @@
 // Pagination routes and the noindex /categories/notes/ redirect stub (which
 // sets `sitemap: false`) stay out automatically.
 
-const MIN_TAG_POSTS = 2;
+const MIN_TAG_GROUPS = 2;
+
+function translationGroupCount(tag) {
+  return new Set(
+    tag.posts
+      .toArray()
+      .map(post => String(post.translation_key || post.path || ''))
+  ).size;
+}
 
 function isoDate(moment) {
   const date = moment && typeof moment.toDate === 'function' ? moment.toDate() : moment;
@@ -79,9 +87,12 @@ hexo.extend.generator.register('sitemap', function(locals) {
     .filter(category => category.length > 0)
     .forEach(category => push(urlOf(siteUrl, category.path), now, 'weekly', '0.4'));
 
-  // Tag archives, skipping thin single-post tags
+  // Tag archives, skipping tags that contain fewer than two distinct
+  // research items. Hexo's tag.length counts language variants separately,
+  // so use translation_key to avoid indexing a tag with one article in
+  // multiple languages as if it contained multiple articles.
   locals.tags.toArray()
-    .filter(tag => tag.length >= MIN_TAG_POSTS)
+    .filter(tag => translationGroupCount(tag) >= MIN_TAG_GROUPS)
     .forEach(tag => push(urlOf(siteUrl, tag.path), now, 'weekly', '0.3'));
 
   const body = urls.map(url => [

@@ -188,6 +188,14 @@ for (const entry of entries) {
   if (!htmlLang) fail(`${entry.path}: html lang attribute missing`);
   else if (htmlLang[1] !== expected) fail(`${entry.path}: html lang is ${htmlLang[1]}, expected ${expected}`);
   if (!html.includes('"@type": "BlogPosting"')) fail(`${entry.path}: BlogPosting JSON-LD missing`);
+  if (entry.langCode === 'ZH') {
+    if (!html.includes('<meta property="og:locale" content="zh_CN">')) {
+      fail(`${entry.path}: Chinese og:locale is missing or malformed`);
+    }
+    if (!html.includes('"inLanguage": "zh-CN"')) {
+      fail(`${entry.path}: Chinese JSON-LD inLanguage is not zh-CN`);
+    }
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -199,7 +207,16 @@ let noindexTags = 0;
 for (const [key, html] of tagPages) {
   const noindex = /name="robots" content="noindex/.test(html);
   const inSitemap = locKeys.has(key);
+  const groupKeys = new Set(
+    [...html.matchAll(/href="(\/[^"]*)"/g)]
+      .map(match => entryByPath.get(urlKey(match[1]))?.translationKey)
+      .filter(Boolean)
+  );
+  const shouldNoindex = groupKeys.size < 2;
   if (noindex) noindexTags += 1;
+  if (noindex !== shouldNoindex) {
+    fail(`${key}: tag index state does not match ${groupKeys.size} distinct translation groups`);
+  }
   if (noindex && inSitemap) fail(`thin tag page is both noindex and in the sitemap: ${key}`);
   if (!noindex && !inSitemap) fail(`indexable tag page missing from sitemap: ${key}`);
 }
@@ -230,11 +247,15 @@ for (const entry of entries) {
     if (target.langCode !== entry.langCode) {
       fail(`${entry.path}: ${direction} links to a ${target.langCode} article: ${link[1]}`);
     }
-    if (direction === 'prev' && String(target.date) > String(entry.date)) {
-      fail(`${entry.path}: prev article is newer (${target.date} > ${entry.date})`);
+    const currentHtml = htmlFor.get(urlKey(entry.path));
+    const targetHtml = htmlFor.get(urlKey(link[1]));
+    const currentPublished = currentHtml?.match(/article:published_time" content="([^"]+)"/)?.[1] || entry.date;
+    const targetPublished = targetHtml?.match(/article:published_time" content="([^"]+)"/)?.[1] || target.date;
+    if (direction === 'prev' && targetPublished > currentPublished) {
+      fail(`${entry.path}: prev article is newer (${targetPublished} > ${currentPublished})`);
     }
-    if (direction === 'next' && String(target.date) < String(entry.date)) {
-      fail(`${entry.path}: next article is older (${target.date} < ${entry.date})`);
+    if (direction === 'next' && targetPublished < currentPublished) {
+      fail(`${entry.path}: next article is older (${targetPublished} < ${currentPublished})`);
     }
   }
 }
@@ -263,6 +284,14 @@ stats.atomEntries = atomEntries;
 if (atomEntries < 20) fail(`atom.xml has only ${atomEntries} entries`);
 for (const match of atom.matchAll(/<id>([^<]+)<\/id>/g)) {
   if (!fileExists(match[1])) fail(`atom entry id does not resolve: ${match[1]}`);
+}
+for (const block of atom.split('<entry>').slice(1)) {
+  const link = block.match(/<link href="([^"]+)"\/>/)?.[1];
+  if (!link) {
+    fail('atom entry is missing its link');
+  } else if (!fileExists(link)) {
+    fail(`atom entry link does not resolve: ${link}`);
+  }
 }
 if (!atom.includes('Japan Weekly: Rate-Hike Signals Meet Fiscal Costs')) {
   fail('atom.xml does not contain the new short English weekly titles');

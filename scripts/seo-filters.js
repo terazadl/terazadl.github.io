@@ -16,10 +16,10 @@ const sectionSeo = {
   }
 };
 
-// Tag archives with fewer posts than this are treated as thin pages: they get
-// a noindex robots directive here and are left out of the sitemap
-// (scripts/sitemap.js).
-const MIN_TAG_POSTS = 2;
+// Tag archives with fewer distinct research items than this are treated as
+// thin pages: they get a noindex robots directive here and are left out of
+// the sitemap (scripts/sitemap.js).
+const MIN_TAG_GROUPS = 2;
 
 const HREFLANG_CODE = { EN: 'en', ZH: 'zh-CN', JA: 'ja' };
 const POST_PATH_PATTERN = /^\d{4}\/\d{2}\/[^/]+\/index\.html$/;
@@ -60,6 +60,14 @@ function escapeAttr(value) {
 function samePath(postPath, pagePath) {
   const normalize = value => String(value || '').replace(/index\.html$/, '').replace(/\/+$/, '');
   return normalize(postPath) === normalize(pagePath);
+}
+
+function translationGroupCount(tag) {
+  return new Set(
+    tag.posts
+      .toArray()
+      .map(post => String(post.translation_key || post.path || ''))
+  ).size;
 }
 
 // Server-rendered hreflang alternates for posts that belong to a translation
@@ -128,6 +136,10 @@ hexo.extend.filter.register('after_render:html', function(html, locals) {
     // and og:locale values (this used to be patched client-side).
     if (languageCode(page.lang) === 'ZH') {
       html = html.replace(/<html lang="zh">/, '<html lang="zh-CN">');
+      html = html.replace(
+        '<meta property="og:locale">',
+        '<meta property="og:locale" content="zh_CN">'
+      );
     }
 
     // Same-language prev/next navigation
@@ -170,7 +182,7 @@ hexo.extend.filter.register('after_render:html', function(html, locals) {
   // Thin tag archives: noindex, keep following the links
   if (TAG_PATH_PATTERN.test(pagePath)) {
     const tag = hexo.locals.get('tags').toArray().find(item => samePath(item.path, pagePath));
-    if (tag && tag.length < MIN_TAG_POSTS) {
+    if (tag && translationGroupCount(tag) < MIN_TAG_GROUPS) {
       html = html.replace('<meta name="robots" content="index,follow', '<meta name="robots" content="noindex,follow');
     }
   }
