@@ -1,6 +1,14 @@
 # 生活手记与自留地数据源 (Life Stream Notes)
 # 自动按顺序在 /life/ 页面展示，最新的一条排在最前面
 
+- id: note-1788872288420
+  date: "2026-09-08"
+  location: 东京
+  category: observation
+  badge: 日常观察
+  text: Hello，AI， my friend！
+  tags:
+    - 日常
 - id: note-1788872161302
   date: "2026-09-08"
   location: 东京
