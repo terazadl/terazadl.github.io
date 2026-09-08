@@ -4,25 +4,25 @@ name: Publish Life Stream Note
       workflow_dispatch:
         inputs:
           text:
-            description: '手记正文'
+            description: "手记正文"
             required: true
             type: string
           location:
-            description: '发生地点'
+            description: "发生地点"
             required: false
-            default: '东京'
+            default: "东京"
             type: string
           badge:
-            description: '徽章分类'
-            required: false
-            default: '日常观察'
-            type: string
-          tags:
-            description: '标签'
-            required: false
-            default: '日常'
-            type: string
-
+            description: "徽章分类"
+            required: false                                                        
+            default: "日常观察"                                                    
+            type: string                                                           
+          tags:                                                                    
+            description: "标签"                                                    
+            required: false                                                        
+            default: "日常"                                                        
+            type: string                                                           
+                                                                                   
     permissions:
       contents: write
 
@@ -40,18 +40,15 @@ name: Publish Life Stream Note
             uses: actions/setup-node@v4
             with:
               node-version: 20
-              cache: 'npm'
+              cache: "npm"
 
           - name: Install dependencies
             run: npm ci || npm install
 
           - name: Add Note to source/_data/notes.yml
             run: |
-              node scripts/add-note.js "${{ inputs.text }}" \
-                -l "${{ inputs.location }}" \
-                -b "${{ inputs.badge }}" \
-                -t "${{ inputs.tags }}" \
-                --no-build
+              node scripts/add-note.js "${{ inputs.text }}" -l "${{ inputs.location
+  }}" -b "${{ inputs.badge }}" -t "${{ inputs.tags }}" --no-build
 
           - name: Commit and push source update to hexo-src-2
             run: |
@@ -59,8 +56,7 @@ name: Publish Life Stream Note
               git config --global user.email "github-actions[bot]@users.noreply.
   github.com"
               git add source/_data/notes.yml
-              git commit -m "feat(life): mobile publish note: $(echo "${{ inputs.
-  text }}" | head -c 20)..."
+              git commit -m "feat(life): mobile publish note"
               git push origin hexo-src-2
 
           - name: Build static site
@@ -76,4 +72,4 @@ name: Publish Life Stream Note
               publish_dir: ./public
               keep_files: false
               commit_message: "deploy: mobile publish life-stream via GitHub
-  Actions"                            
+  Actions"
