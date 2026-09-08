@@ -393,8 +393,10 @@ compare_one_liner: "中国以财政工具直接兜底金融负债端，日本在
 ## 站内延伸阅读
 
 ### 往期周报
-- [中国政经周报：信用规则重写，利润修复仍分化（2026年8月24日—30日）](/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-zh/)
-- [日本政经周报：内需萎缩体感与财政付息极限（2026年8月31日—9月6日）](/2026/09/japan-political-economy-weekly-2026-09-07/)
+- [中国政经周报：社融结构分化与外贸抢跑（第 1 期）](/2026/08/china-political-economy-weekly-2026-08-16-zh/)
+- [中国政经周报：财政支持走到前台（第 2 期）](/2026/08/china-political-economy-weekly-fiscal-support-zh/)
+- [中国政经周报：信用规则重写，利润修复仍分化（第 3 期）](/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-zh/)
+- [日本政经周报：内需萎缩体感与财政付息极限（第 4 期）](/2026/09/japan-political-economy-weekly-2026-09-07/)
 
 ### 专题深度解析
 - [理解中国地方债务置换与资产负债表机制](/2026/08/china-political-economy-weekly-fiscal-support-zh/) —— 解析专项债显性化化债与地方财政流动性修复逻辑
