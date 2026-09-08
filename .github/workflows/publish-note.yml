@@ -1,0 +1,79 @@
+name: Publish Life Stream Note                                                 
+
+    on:
+      workflow_dispatch:
+        inputs:
+          text:
+            description: '手记正文'
+            required: true
+            type: string
+          location:
+            description: '发生地点'
+            required: false
+            default: '东京'
+            type: string
+          badge:
+            description: '徽章分类'
+            required: false
+            default: '日常观察'
+            type: string
+          tags:
+            description: '标签'
+            required: false
+            default: '日常'
+            type: string
+
+    permissions:
+      contents: write
+
+    jobs:
+      publish:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Checkout repository
+            uses: actions/checkout@v4
+            with:
+              ref: hexo-src-2
+              fetch-depth: 0
+
+          - name: Setup Node.js
+            uses: actions/setup-node@v4
+            with:
+              node-version: 20
+              cache: 'npm'
+
+          - name: Install dependencies
+            run: npm ci || npm install
+
+          - name: Add Note to source/_data/notes.yml
+            run: |
+              node scripts/add-note.js "${{ inputs.text }}" \
+                -l "${{ inputs.location }}" \
+                -b "${{ inputs.badge }}" \
+                -t "${{ inputs.tags }}" \
+                --no-build
+
+          - name: Commit and push source update to hexo-src-2
+            run: |
+              git config --global user.name "github-actions[bot]"
+              git config --global user.email "github-actions[bot]@users.noreply.
+  github.com"
+              git add source/_data/notes.yml
+              git commit -m "feat(life): mobile publish note: $(echo "${{ inputs.
+  text }}" | head -c 20)..."
+              git push origin hexo-src-2
+
+          - name: Build static site
+            run: |
+              npx hexo generate
+              node checks/check-homepage.js
+
+          - name: Deploy to GitHub Pages (master branch)
+            uses: peaceiris/actions-gh-pages@v4
+            with:
+              github_token: ${{ secrets.GITHUB_TOKEN }}
+              publish_branch: master
+              publish_dir: ./public
+              keep_files: false
+              commit_message: "deploy: mobile publish life-stream via GitHub
+  Actions"                            
