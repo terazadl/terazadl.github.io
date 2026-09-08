@@ -346,11 +346,16 @@ async function main() {
     process.exit(1);
   }
 
+  if (badge) {
+    if (badge === '读书思考' || badge.includes('读') || badge.includes('书')) {
+      category = 'reading';
+    }
+  } else {
+    badge = category === 'reading' ? '读书思考' : '日常观察';
+  }
+
   if (tags.length === 0) {
     tags = category === 'reading' ? ['读书思考'] : ['日常观察'];
-  }
-  if (!badge) {
-    badge = category === 'reading' ? '读书思考' : '日常观察';
   }
 
   await publishNote({
