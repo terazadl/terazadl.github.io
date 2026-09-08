@@ -1,6 +1,16 @@
 # 生活手记与自留地数据源 (Life Stream Notes)
 # 自动按顺序在 /life/ 页面展示，最新的一条排在最前面
 
+- id: note-1788867318373
+  date: "2026-09-08"
+  location: 东京
+  category: observation
+  badge: 观影随想
+  text: 「海が聞こえる」という映画が本当に青春的な感覚だ！
+  tags:
+    - 电影
+    - 随笔
+  image: /images/notes/note-1788867318373.png
 - id: note-1788863763082
   date: "2026-09-08"
   location: 东京
