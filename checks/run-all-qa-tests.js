@@ -37,6 +37,18 @@ const testSuites = [
     name: 'Native Full-Res Zoom Script DOM Tree Verification',
     file: 'checks/test-body-end-zoom.js',
     desc: 'Verifies body-end.njk lightbox link wrapping behavior across various DOM structures'
+  },
+  {
+    id: 'SUITE-6',
+    name: 'SEO Regression Check (sitemap, hreflang, meta, navigation, links)',
+    file: 'checks/check-seo.js',
+    desc: 'Verifies sitemap hygiene, static hreflang alternates, og:url/canonical consistency, noindex on thin tags, same-language prev/next, and link integrity over public/'
+  },
+  {
+    id: 'SUITE-7',
+    name: 'Next Reading & Recommendation Integrity Verification',
+    file: 'checks/test-next-reading-integrity.js',
+    desc: 'Verifies zero self-recommendations, cross-language group exclusions, and 100% valid recommendation links across all posts'
   }
 ];
 

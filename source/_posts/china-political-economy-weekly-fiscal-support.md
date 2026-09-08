@@ -1,5 +1,5 @@
 ---
-title: "China Political Economy Weekly | Aug 17–23, 2026: Fiscal Support Takes the Lead"
+title: "China Weekly: Fiscal Support Takes the Lead (Aug 17–23)"
 date: 2026-08-25 17:27:56
 updated: 2026-08-25 17:41:00
 slug: china-political-economy-weekly-fiscal-support
@@ -59,7 +59,7 @@ The composition matters as much as the headline slowdown. High-technology manufa
 
 ## Fiscal execution is moving ahead of broad monetary easing
 
-The Ministry of Finance’s most important signal this week was about implementation. China’s 2026 budget includes more than RMB 30tn in fiscal expenditure and RMB 11.89tn in planned new government bond issuance. According to the ministry, more than RMB 2tn in local special-purpose bonds and ultra-long special treasury bonds remained to be issued and used in the second half. It also said additional measures could be introduced if economic conditions require them. [Caixin’s account](https://finance.caixin.com/2026-08-21/102476528.html) adds useful policy context; the underlying fiscal data are available from the [Ministry of Finance](https://gks.mof.gov.cn/tongjishuju/202608/t20260814_3995497.htm).
+The Ministry of Finance’s most important signal this week was about implementation. China’s 2026 budget includes more than RMB 30tn in fiscal expenditure and RMB 11.89tn in planned new government bond issuance. According to the ministry, more than RMB 2tn in local special-purpose bonds and ultra-long special treasury bonds remained to be issued and used in the second half. It also said additional measures could be introduced if economic conditions require them. Macro fiscal execution and revenue data are available from the [Ministry of Finance](https://gks.mof.gov.cn/tongjishuju/202608/t20260814_3995497.htm).
 
 The distinction between authorization and execution is crucial. A bond quota does not support growth until proceeds are allocated, projects begin, contractors are paid and orders reach suppliers. July general public budget revenue rose 11.7% year on year, but expenditure increased only 0.5%. Meanwhile, land-sale revenue was down 30.8% in January–July, leaving local governments with less self-generated fiscal capacity.
 
@@ -71,7 +71,7 @@ As of August 25, 2026, my base case is a **roughly 20% probability of an LPR cut
 
 ## Targeted tools are trying to repair cash flow from both sides
 
-The government is combining cheaper credit with efforts to make sure businesses are actually paid. At an August 21 briefing, officials said the annual cap per borrower at each participating institution would rise from RMB 3,000 to RMB 5,000, while the interest subsidy on eligible personal consumer loans would remain one percentage point. Newly originated credit-card installment plans for cars and home renovation would be included, and the subsidized-loan ceilings for small businesses and service-sector operators would increase. A revised written implementation notice was not linked at publication time. [Caixin reported the expanded design](https://economy.caixin.com/2026-08-21/102476355.html); the Ministry of Finance’s January [policy notice](https://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982160.htm) provides the baseline framework.
+The government is combining cheaper credit with efforts to make sure businesses are actually paid. At an August 21 briefing, officials said the annual cap per borrower at each participating institution would rise from RMB 3,000 to RMB 5,000, while the interest subsidy on eligible personal consumer loans would remain one percentage point. Newly originated credit-card installment plans for cars and home renovation would be included, and the subsidized-loan ceilings for small businesses and service-sector operators would increase. A revised written implementation notice was not linked at publication time. Market reports outlined the scope expansion, while the Ministry of Finance’s January [policy notice](https://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982160.htm) provides the baseline framework.
 
 This may help households and firms that already intend to spend, but it cannot substitute for income confidence. The right measure of success is additional consumption and investment—not the gross volume of subsidized loans, some of which may simply replace borrowing that would have occurred anyway.
 
@@ -93,7 +93,7 @@ The sequence is revealing: the focus has moved from stabilizing projects and aff
 
 ## Strategic industries still receive capital—and face external legal pressure
 
-Capital allocation remains highly selective. Yangtze Memory Technologies’ parent company has applied for a Shanghai STAR Market listing that would raise as much as RMB 33bn, with most proceeds intended for production-line upgrades and research. The application has been accepted, which begins regulatory review but does not guarantee approval or the final fundraising amount. [Caixin’s report](https://companies.caixin.com/2026-08-22/102476776.html) provides the transaction details; application status can be monitored through the [Shanghai Stock Exchange](https://www.sse.com.cn/star/renewal/).
+Capital allocation remains highly selective. Yangtze Memory Technologies’ parent company has applied for a Shanghai STAR Market listing that would raise as much as RMB 33bn, with most proceeds intended for production-line upgrades and research. The application has been accepted, which begins regulatory review but does not guarantee approval or the final fundraising amount. Public reporting detailed the filing plan, and application status can be monitored through the [Shanghai Stock Exchange](https://www.sse.com.cn/star/renewal/).
 
 At the same time, the U.S. International Trade Commission opened a Section 337 investigation into cylindrical rechargeable batteries and related products. EVE Energy and several downstream customers are among the respondents. The investigation concerns alleged patent infringement; opening a case is not a finding of liability. The [USITC notice](https://www.usitc.gov/press_room/news_release/2026/er0820_69103.htm) is the controlling source.
 

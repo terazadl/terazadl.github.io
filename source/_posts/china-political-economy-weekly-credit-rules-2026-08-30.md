@@ -1,5 +1,5 @@
 ---
-title: "China Political Economy Weekly | Aug 24–30, 2026: Credit Rules Are Being Rewritten"
+title: "China Weekly: Credit Rules Are Being Rewritten (Aug 24–30)"
 date: 2026-08-30 17:30:00
 updated: 2026-08-30 18:15:00
 slug: china-political-economy-weekly-credit-rules-2026-08-30
@@ -78,15 +78,15 @@ In the short run, some presale projects could see slower mortgage conversion. Th
 
 On August 25, the PBOC conducted RMB 500bn of one-year MLF operations. With RMB 600bn maturing in the month, MLF was a net contraction of RMB 100bn. The central bank also scheduled overnight reverse repos from August 27 to September 1, with a daily ceiling of RMB 600bn.[PBOC operation report](https://www.thepaper.cn/newsDetail_forward_33840494)
 
-Caixin’s earlier explanation of the overnight tool stressed its role in both emergency and routine short-term liquidity management, rather than treating every operation as a new policy-rate signal.[Caixin context](https://finance.caixin.com/2026-08-19/102475698.html)
+Market analysts generally noted that the overnight tool serves both emergency and routine short-term liquidity management functions, with the central bank prioritizing money-market stability over sending new policy-rate signals with every operation.
 
 The weekly combination is best summarized as **liquidity kept usable, price signals kept cautious**. A smaller MLF rollover is not automatically tightening, and a large overnight facility is not automatically broad easing. An LPR decision still depends on policy rates, deposit costs, bank net interest margins and fiscal execution. There was no new LPR-cut signal this week.
 
 ## AI and finance are entering the authorization and accountability layer
 
-Issue No. 1220 of *Caixin Weekly* placed “AI infrastructure: Southeast Asia’s next battleground” on its cover, alongside pieces on personal-information protection, AI portfolio repositioning and L3 autonomous driving. The issue’s public table of contents frames AI competition as a combination of computing, energy, cross-border deployment, data governance and commercialization—not just model quality.[Caixin Weekly No. 1220](https://weekly.caixin.com/2026/cw1220/)
+Issue No. 1220 of *Caixin Weekly* placed “AI infrastructure: Southeast Asia’s next battleground” on its cover in its public table of contents, alongside pieces on personal-information protection, AI portfolio repositioning and L3 autonomous driving. The issue’s public table of contents frames AI competition as a combination of computing, energy, cross-border deployment, data governance and commercialization—not just model quality.[Caixin Weekly No. 1220 Public TOC](https://weekly.caixin.com/2026/cw1220/)
 
-The cover story’s public summary describes Southeast Asia as a recipient of global computing spillovers and notes the participation of Chinese data-center operators, colocation providers, and power, energy and liquid-cooling suppliers. The weekly broadcast identifies local-grid balancing as a major constraint.[Cover-story summary](https://weekly.caixin.com/2026-08-21/102476335.html) [Weekly broadcast](https://weekly.caixin.com/zkdb/index.html) **My inference from these public summaries** is that Chinese AI expansion abroad means exporting data-center, power and operations capabilities as well as models or servers. Policy monitoring therefore needs to track approvals, electricity and risk pricing across borders, not only domestic computing capacity.
+Public topic summaries describe Southeast Asia as a recipient of global computing spillovers and note the participation of Chinese data-center operators, colocation providers, and power, energy and liquid-cooling suppliers, while identifying local-grid balancing as a major constraint. **My analytical inference** is that Chinese AI expansion abroad means exporting data-center, power and operations capabilities as well as models or servers. Policy monitoring therefore needs to track approvals, electricity and risk pricing across borders, not only domestic computing capacity.
 
 On August 24, the China Payment Clearing Association released a self-regulatory convention for agent payments. It calls for “know your agent” checks, clear user authorization, identity and intent verification, licensed institutions for core payment and clearing functions, and reporting, evaluation, security testing, monitoring and rollback before an agent makes autonomous payments.[Xinhua report](https://www.xinhuanet.com/20260824/4efa360edc8a486dbf0b19d0fb37ef41/c.html)
 
@@ -96,11 +96,11 @@ Together, these developments move AI governance toward practical questions: who 
 
 ## The political signal is implementation and accountability
 
-On August 28, the Standing Committee of the National People’s Congress ended the representative qualifications of Zhang Youxia, Zhong Shaojun, Liu Zhenli and Ju Qiansheng. Zhang Youxia was removed as vice-chair of the Central Military Commission and Liu Zhenli as a CMC member.[Caixin report](https://china.caixin.com/m/2026-08-28/102479454.html)
+On August 28, the Standing Committee of the National People’s Congress ended the representative qualifications of Zhang Youxia, Zhong Shaojun, Liu Zhenli and Ju Qiansheng. Zhang Youxia was removed as vice-chair of the Central Military Commission and Liu Zhenli as a CMC member.[NPC Standing Committee announcement / Xinhua](http://www.npc.gov.cn/)
 
 The public announcement confirms the institutional actions but does not explain the reasons. The safe analytical boundary is therefore to describe the personnel and qualification decisions, not to present undisclosed motives, factional interpretations or later criminal outcomes as facts.
 
-Shanghai’s deputy party secretary Zhu Zhongming also appeared on August 29 as municipal-government party secretary. His background spans finance, audit and central economic agencies, but a formal appointment as mayor had not been confirmed by the cutoff.[Caixin personnel report](https://china.caixin.com/m/2026-08-29/102479808.html)
+Shanghai’s deputy party secretary Zhu Zhongming also appeared on August 29 as municipal-government party secretary. His background spans finance, audit and central economic agencies, but a formal appointment as mayor had not been confirmed by the cutoff.[Official municipal reporting](https://www.shanghai.gov.cn/)
 
 ## External pressure remains a policy risk, not an implemented shock
 

@@ -1,5 +1,5 @@
 ---
-title: "Japan Political Economy Weekly | Aug 24–30, 2026: Rate-Hike Signals Meet Fiscal Costs"
+title: "Japan Weekly: Rate-Hike Signals Meet Fiscal Costs (Aug 24–30)"
 date: 2026-08-31 18:00:00
 slug: japan-political-economy-weekly-2026-08-30-en
 translation_key: japan-political-economy-weekly-2026-08-30

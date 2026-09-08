@@ -9,6 +9,26 @@
   text: test from Github workflow.
   tags:
     - 日常
+- id: note-1788867318373
+  date: "2026-09-08"
+  location: 东京
+  category: observation
+  badge: 观影随想
+  text: 「海が聞こえる」という映画が真的很有青春感！
+  tags:
+    - 电影
+    - 随笔
+  image: /images/notes/note-1788867318373.png
+- id: note-1788863763082
+  date: "2026-09-08"
+  location: 东京
+  category: observation
+  badge: 观影随想
+  text: 无意间看一部电影，《应召女郎1988》，编剧是左翼吧，为了抨击吃人的港英社会，怎么惨怎么写。
+  tags:
+    - 电影
+    - 港片
+    - 文化观察
 - id: 2026-09-05-suining
   date: "2026-09-05"
   location: 东京 ⇄ 四川

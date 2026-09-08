@@ -39,6 +39,7 @@ permalink: /life/
     const chips = document.querySelectorAll('.life-chip');
     const cards = document.querySelectorAll('.life-stream-card');
     const countBadge = document.getElementById('chip-count');
+    if (countBadge && cards.length) countBadge.textContent = cards.length;
 
     chips.forEach(chip => {
       chip.addEventListener('click', () => {
