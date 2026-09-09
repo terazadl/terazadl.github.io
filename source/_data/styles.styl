@@ -3524,36 +3524,63 @@ body.portfolio-collection-page ul.breadcrumb {
   margin: 0 0 16px;
 }
 
-.weekly-brief-highlights {
-  border-top: 1px dashed var(--research-line);
-  list-style: none;
-  margin: 0 0 20px;
-  padding: 14px 0 0;
-}
-
-.weekly-brief-highlights li {
-  color: var(--research-ink);
-  font-family: var(--research-sans);
-  font-size: 13px;
-  line-height: 1.45;
-  margin-bottom: 8px;
-  padding-left: 14px;
-  position: relative;
-}
-
-.weekly-brief-highlights li::before {
-  content: "•";
-  color: var(--research-muted);
-  left: 0;
-  position: absolute;
-}
-
 .weekly-brief-footer {
   align-items: center;
   display: flex;
   justify-content: space-between;
   margin-top: auto;
   padding-top: 10px;
+}
+
+/* Card CTA: comfortable 44px tap target on touch screens. */
+.weekly-brief-footer .research-arrow-link {
+  min-height: 44px;
+  padding: 10px 0;
+}
+
+/* R5b: second brief collapsed to a quiet push row on small screens
+   (desktop keeps the two-card grid, so this row is hidden there). */
+.weekly-brief-link-row {
+  border-top: 1px dashed var(--research-line);
+  display: none;
+  margin: -8px 4px 24px;
+}
+
+.weekly-brief-link-row a {
+  align-items: center;
+  color: var(--research-ink);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  min-height: 44px;
+  text-decoration: none;
+}
+
+.weekly-brief-link-row a:hover {
+  color: var(--research-blue);
+}
+
+.weekly-brief-link-row a:hover i {
+  transform: translateX(3px);
+}
+
+.weekly-brief-link-row i {
+  font-size: 11px;
+  transition: transform 0.16s ease;
+}
+
+.weekly-link-kicker {
+  color: var(--weekly-japan);
+  font-family: var(--research-sans);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.weekly-link-title {
+  font-family: var(--research-sans);
+  font-size: 14px;
 }
 
 /* Shared Sino-Japan Compare One-Liner Bar */
@@ -4359,6 +4386,21 @@ body.portfolio-collection-page ul.breadcrumb {
 @media (max-width: 800px) {
   .weekly-dual-briefs {
     grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  /* First screen: one featured card (China). The Japan brief collapses
+     into the 同步推送 link row below to cut visual density. */
+  .weekly-brief-card.is-japan {
+    display: none;
+  }
+
+  .weekly-brief-link-row {
+    display: block;
+  }
+
+  .weekly-brief-card {
+    padding: 22px 20px 20px;
   }
 
   .weekly-shared-compare {

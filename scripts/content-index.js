@@ -105,6 +105,8 @@ function homepageLatestList(posts) {
   const { entries, groups } = buildContentIndex(posts);
   const latestGroups = groups
     .filter(group => group.category !== 'Notes')
+    // 周报已在首屏置顶/并排展示，最新列表不再重复（与客户端渲染一致）。
+    .filter(group => !weeklyVariant(group))
     .slice(0, 3);
   if (!latestGroups.length) return null;
 

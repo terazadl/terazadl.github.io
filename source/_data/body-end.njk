@@ -849,6 +849,9 @@
       latestList.querySelectorAll("[data-static-latest]").forEach(row => row.remove());
       const latestGroups = contentIndex.groups
         .filter(group => group.category !== "Notes")
+        // 周报已在首屏置顶展示，最新列表不再重复（与构建时静态列表一致）。
+        .filter(group => !group.key.startsWith("china-political-economy-weekly")
+          && !group.key.startsWith("japan-political-economy-weekly"))
         .slice(0, 3);
 
       latestGroups.forEach(group => {
