@@ -5052,3 +5052,216 @@ body.portfolio-collection-page ul.breadcrumb {
   font-weight: 700;
 }
 
+/* --- Weekly event grammar: status capsules, four-field fields, watchlist follow-up ---
+   Render-time markup comes from scripts/weekly-event-grammar.js. Drafts stay
+   plain markdown; the semantic classes are emitted for published posts, so the
+   vocabulary (事实/研判/观察点, Analysis / Watch next, 重要性（分析判断）) and the
+   state capsules render identically across editions. */
+:root {
+  --weekly-status-delivered-fg: #2e6b4c;
+  --weekly-status-delivered-bg: #e6f0ea;
+  --weekly-status-pending-fg: #99691f;
+  --weekly-status-pending-bg: #f6eedd;
+  --weekly-status-media-fg: #736e62;
+  --weekly-status-media-bg: #efede7;
+  --weekly-status-scenario-fg: #5d4a8a;
+  --weekly-status-scenario-bg: #efebf6;
+  --weekly-status-neutral-fg: #6f6b62;
+  --weekly-status-neutral-bg: #f0eee8;
+  --weekly-status-partial-fg: #99691f;
+  --weekly-status-partial-bg: #f6eedd;
+  --weekly-status-missed-fg: #a03a32;
+  --weekly-status-missed-bg: #f6e9e6;
+  --weekly-status-tracking-fg: #2f55d4;
+  --weekly-status-tracking-bg: #e9edf9;
+}
+
+.weekly-event-status {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 4px 0 16px;
+}
+
+.weekly-status,
+.weekly-followup-state {
+  border-radius: 99px;
+  display: inline-block;
+  font-family: var(--research-sans);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  line-height: 1;
+  padding: 5px 11px;
+  text-transform: uppercase;
+}
+
+.weekly-status.is-confirmed,
+.weekly-followup-state.is-delivered {
+  background: var(--weekly-status-delivered-bg);
+  color: var(--weekly-status-delivered-fg);
+}
+
+.weekly-status.is-pending,
+.weekly-followup-state.is-partial {
+  background: var(--weekly-status-pending-bg);
+  color: var(--weekly-status-pending-fg);
+}
+
+.weekly-status.is-media {
+  background: var(--weekly-status-media-bg);
+  color: var(--weekly-status-media-fg);
+}
+
+.weekly-status.is-scenario {
+  background: var(--weekly-status-scenario-bg);
+  color: var(--weekly-status-scenario-fg);
+}
+
+.weekly-status.is-neutral {
+  background: var(--weekly-status-neutral-bg);
+  color: var(--weekly-status-neutral-fg);
+}
+
+.weekly-followup-state.is-missed {
+  background: var(--weekly-status-missed-bg);
+  color: var(--weekly-status-missed-fg);
+}
+
+.weekly-followup-state.is-tracking {
+  background: var(--weekly-status-tracking-bg);
+  color: var(--weekly-status-tracking-fg);
+}
+
+.weekly-status-meta {
+  color: var(--research-muted);
+  font-family: var(--research-sans);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+}
+
+.weekly-event-fields {
+  margin: 18px 0 26px;
+}
+
+.weekly-event-tag {
+  display: block;
+  font-family: var(--research-sans);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.weekly-event-fact {
+  margin: 0 0 16px;
+}
+
+.weekly-event-fact .weekly-event-tag {
+  color: var(--research-muted);
+}
+
+.weekly-event-judgment {
+  border-left: 4px solid var(--weekly-china);
+  margin: 0 0 16px;
+  padding: 2px 0 2px 16px;
+}
+
+.weekly-event-judgment .weekly-event-tag {
+  color: var(--weekly-china);
+}
+
+.weekly-event-fields.is-japan .weekly-event-judgment,
+.weekly-event-judgment.is-japan {
+  border-left-color: var(--weekly-japan);
+}
+
+.weekly-event-fields.is-japan .weekly-event-judgment .weekly-event-tag,
+.weekly-event-judgment.is-japan .weekly-event-tag {
+  color: var(--weekly-japan);
+}
+
+.weekly-event-judgment p {
+  margin: 0;
+}
+
+.weekly-event-watch {
+  border-top: 1px dashed var(--research-line);
+  margin: 0 0 14px;
+  padding-top: 12px;
+}
+
+.weekly-event-watch .weekly-event-tag {
+  color: var(--research-blue);
+}
+
+.weekly-event-watch p {
+  font-family: var(--research-sans);
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  padding-left: 16px;
+  position: relative;
+}
+
+.weekly-event-watch p::before {
+  color: var(--research-blue);
+  content: "▸";
+  font-size: 13px;
+  left: 0;
+  position: absolute;
+  top: 0.15em;
+}
+
+.weekly-event-source {
+  color: var(--research-muted);
+  font-family: var(--research-sans);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+.weekly-event-source a {
+  border-bottom: 1px solid var(--research-line);
+  color: var(--research-muted);
+  text-decoration: none;
+}
+
+.weekly-event-source a:hover {
+  border-color: var(--research-blue);
+  color: var(--research-blue);
+}
+
+/* Watchlist follow-up panel: answer to the previous issue's 下周观察清单. */
+.weekly-followup-list {
+  background: var(--weekly-card-bg);
+  border: 1px solid var(--weekly-card-border);
+  border-left: 3px solid var(--research-blue);
+  list-style: none;
+  margin: 18px 0 30px;
+  padding: 6px 22px 12px;
+}
+
+.weekly-followup {
+  align-items: baseline;
+  border-bottom: 1px dashed var(--research-line);
+  display: grid;
+  gap: 14px;
+  grid-template-columns: auto 1fr;
+  list-style: none;
+  padding: 11px 0;
+}
+
+.weekly-followup:last-child {
+  border-bottom: 0;
+}
+
+.weekly-followup-text {
+  color: #403d36;
+  font-family: var(--research-sans);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
