@@ -1,6 +1,14 @@
 # 生活手记与自留地数据源 (Life Stream Notes)
 # 自动按顺序在 /life/ 页面展示，最新的一条排在最前面
 
+- id: note-1788996476094
+  date: "2026-09-09"
+  location: 东京
+  category: observation
+  badge: 日常观察
+  text: 我们可以用Defi模拟金融游戏，用agents模拟当老板。虽然他们是模拟，但就像任何一种游戏，对于我们开拓视野体验他人心理与出境，都是有好处的。
+  tags:
+    - 日常
 - id: note-1788912000495
   date: "2026-09-09"
   location: 东京
