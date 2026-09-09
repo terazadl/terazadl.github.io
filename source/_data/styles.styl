@@ -4384,6 +4384,17 @@ body.portfolio-collection-page ul.breadcrumb {
 
 /* --- Responsive Media Queries (Mobile & Tablet) --- */
 @media (max-width: 800px) {
+  /* The kicker row crowds on phones: drop the English subtitle and tighten
+     the archive links so 近期周报 + 专栏 links fit on one line. */
+  .weekly-section-kicker-en {
+    display: none;
+  }
+
+  .weekly-section-archive-links {
+    font-size: 12px;
+    gap: 10px;
+  }
+
   .weekly-dual-briefs {
     grid-template-columns: 1fr;
     gap: 16px;
@@ -4401,6 +4412,13 @@ body.portfolio-collection-page ul.breadcrumb {
 
   .weekly-brief-card {
     padding: 22px 20px 20px;
+  }
+
+  /* Fold the 关键读数缩略 radar bar out of the phone first screen. The
+     radar panel lives in full inside each weekly post, and the observatory
+     stays reachable via the hero actions, so no information is lost. */
+  .weekly-viz-bar {
+    display: none;
   }
 
   .weekly-shared-compare {
