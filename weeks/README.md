@@ -18,12 +18,24 @@ weeks/
     ├── visual/
     │   ├── radar-cn.html ← W3：中国雷达卡 HTML
     │   ├── radar-jp.html ← W3：日本雷达卡 HTML
+    │   ├── charts-cn.html← W3：中国 ECharts 图表（生成器产出）
+    │   ├── charts-jp.html← W3：日本 ECharts 图表（生成器产出）
     │   └── mainline.svg  ← W3：主线图（按需）
     ├── review-notes.md   ← W4：责任编辑审查报告
     └── FINAL/            ← W5：你终审通过后的定稿
         ├── china-weekly-YYYY-MM-DD.zh.md
         └── japan-weekly-YYYY-MM-DD.zh.md
 ```
+
+## ECharts 交互图表
+
+每期用生成器从 radar JSON 产出（不要手写）：
+
+```bash
+node bin/gen-weekly-charts.js weeks/YYYY-MM-DD
+```
+
+产出 `.weekly-chart` 容器（雷达蛛网 + 本期 vs 前值条形图），内含静态兜底表格。渲染由 `source/js/weekly-charts.js` 懒加载 ECharts 完成，仅在有图表的页面注入 loader；无 JS 时兜底表格保持可读。详见 `.agents/skills/weekly-visual/SKILL.md`。
 
 ## 00-briefing.md 模板
 

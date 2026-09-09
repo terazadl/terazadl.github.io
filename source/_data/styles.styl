@@ -4285,6 +4285,76 @@ body.portfolio-collection-page ul.breadcrumb {
   border-color: var(--research-blue);
 }
 
+/* --- Weekly ECharts Component (progressive enhancement) ---
+   Interactive radar / bar charts rendered by source/js/weekly-charts.js.
+   The static fallback table stays visible without JS; the loader replaces
+   it with an ECharts canvas only when the library is available. */
+.weekly-chart {
+  background: #fbf9f5;
+  border: 1px solid var(--weekly-card-border);
+  margin: 24px 0 28px;
+  padding: 18px 20px 16px;
+}
+
+.weekly-chart-head {
+  align-items: baseline;
+  border-bottom: 1px solid var(--research-line);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+}
+
+.weekly-chart-head h4 {
+  font-family: var(--research-display);
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.weekly-chart-head span {
+  color: var(--research-muted);
+  font-family: var(--research-sans);
+  font-size: 12px;
+}
+
+.weekly-chart-canvas {
+  height: 380px;
+  width: 100%;
+}
+
+.weekly-chart-fallback {
+  color: var(--research-muted);
+  font-family: var(--research-sans);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.weekly-chart-fallback table {
+  border-collapse: collapse;
+  font-size: 13px;
+  margin: 0;
+  width: 100%;
+}
+
+.weekly-chart-fallback th,
+.weekly-chart-fallback td {
+  border: 1px solid var(--weekly-card-border);
+  padding: 6px 10px;
+  text-align: left;
+}
+
+.weekly-chart-fallback th {
+  background: #ede8df;
+  font-weight: 700;
+}
+
+@media (max-width: 800px) {
+  .weekly-chart-canvas {
+    height: 320px;
+  }
+}
+
 /* --- Responsive Media Queries (Mobile & Tablet) --- */
 @media (max-width: 800px) {
   .weekly-dual-briefs {
