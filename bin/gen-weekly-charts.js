@@ -5,7 +5,7 @@
 // radar JSON files. Emits one radar spider chart and one value-vs-prev bar
 // chart per country into weeks/YYYY-MM-DD/visual/.
 //
-// Usage: node scripts/gen-weekly-charts.js weeks/YYYY-MM-DD
+// Usage: node bin/gen-weekly-charts.js weeks/YYYY-MM-DD
 //
 // The output uses the .weekly-chart component (see source/_data/styles.styl)
 // and is rendered client-side by source/js/weekly-charts.js, which lazily
@@ -17,7 +17,7 @@ const path = require('path');
 
 const dir = process.argv[2];
 if (!dir) {
-  console.error('Usage: node scripts/gen-weekly-charts.js <weeks/YYYY-MM-DD>');
+  console.error('Usage: node bin/gen-weekly-charts.js <weeks/YYYY-MM-DD>');
   process.exit(1);
 }
 

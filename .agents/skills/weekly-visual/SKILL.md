@@ -86,7 +86,7 @@ node bin/gen-weekly-charts.js weeks/YYYY-MM-DD
 
 1. 读取 radar JSON → 检查哪些字段是 `null`（跳过，不显示空格）
 2. 按卡片结构生成雷达卡 HTML，direction 字段决定 class 和箭头符号
-3. 运行 `node scripts/gen-weekly-charts.js weeks/YYYY-MM-DD` 生成 ECharts 图表 HTML
+3. 运行 `node bin/gen-weekly-charts.js weeks/YYYY-MM-DD` 生成 ECharts 图表 HTML
 4. 如果 briefing 中「可视化意向」包含「主线图」，生成 SVG
 5. 输出文件到 `weeks/YYYY-MM-DD/visual/`
 

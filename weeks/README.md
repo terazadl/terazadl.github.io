@@ -18,8 +18,8 @@ weeks/
     ├── visual/
     │   ├── radar-cn.html ← W3：中国雷达卡 HTML
     │   ├── radar-jp.html ← W3：日本雷达卡 HTML
-    │   ├── charts-cn.html← W3：中国 ECharts 图表（生成器产出）
-    │   ├── charts-jp.html← W3：日本 ECharts 图表（生成器产出）
+    │   ├── charts-cn.html ← W3：中国 ECharts 图表（生成器产出）
+    │   ├── charts-jp.html ← W3：日本 ECharts 图表（生成器产出）
     │   └── mainline.svg  ← W3：主线图（按需）
     ├── review-notes.md   ← W4：责任编辑审查报告
     └── FINAL/            ← W5：你终审通过后的定稿
