@@ -14,8 +14,39 @@ function languageCode(lang) {
   return 'ZH';
 }
 
-hexo.extend.generator.register('content-index', function(locals) {
-  const entries = locals.posts
+// Attribute-only escaping. hexo-util's escapeHTML also escapes "/" as
+// &#x2F; (for inline <script> use), which is needlessly noisy in href and
+// title attributes.
+function escapeAttr(value) {
+  return String(value || '')
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+const ZH_CATEGORY_LABELS = {
+  'Money & Markets': '金融与市场',
+  'AI & Industry': 'AI 与产业',
+  Japan: '日本',
+  书评: '书评',
+  生活观察: '生活观察'
+};
+
+// Weekly briefs get the country-colored pill; everything else falls back to
+// the category label. Mirrors the client-side render in body-end.njk.
+function weeklyVariant(group) {
+  if (group.key.startsWith('china-political-economy-weekly')) return 'china';
+  if (group.key.startsWith('japan-political-economy-weekly')) return 'japan';
+  return '';
+}
+
+// Single source of truth for the site's post index. The generator below
+// emits /js/content-index.js (read by the client), and the after_render
+// filter uses the same builder for the homepage's no-JS latest list, so the
+// static fallback and the dynamic index can never drift apart.
+function buildContentIndex(posts) {
+  const entries = posts
     .sort('-date')
     .toArray()
     .map(post => {
@@ -63,6 +94,58 @@ hexo.extend.generator.register('content-index', function(locals) {
     };
   });
 
+  return { entries, groups };
+}
+
+// Homepage 最新写作 rows for readers without JS. Kept in the same-shaped
+// markup the client replaces at runtime, and generated from the same post
+// index, so check-homepage.js (which requires the top three groups to appear
+// before the content-index script) stays green without hand-maintenance.
+function homepageLatestList(posts) {
+  const { entries, groups } = buildContentIndex(posts);
+  const latestGroups = groups
+    .filter(group => group.category !== 'Notes')
+    .slice(0, 3);
+  if (!latestGroups.length) return null;
+
+  const entryByPath = new Map(entries.map(entry => [entry.path, entry]));
+  return latestGroups.map(group => {
+    const preferred = group.languages.find(language => language.code === 'ZH')
+      || group.languages.find(language => language.code === 'EN')
+      || group.languages[0];
+    const entry = preferred ? entryByPath.get(preferred.path) : null;
+    const title = entry?.cardTitle || entry?.title || group.title;
+    const href = entry?.path || group.primaryPath;
+    const description = entry?.description || group.description;
+    const variant = weeklyVariant(group);
+    const pillClass = variant === 'china' ? 'is-china' : variant === 'japan' ? 'is-japan' : '';
+    const pillLabel = variant === 'china' ? '中国周报'
+      : variant === 'japan' ? '日本周报'
+      : ZH_CATEGORY_LABELS[group.category] || group.category;
+    const pill = `<span class="research-cat-pill${pillClass ? ` ${pillClass}` : ''}">${escapeAttr(pillLabel)}</span>`;
+    const languageChips = group.languages.length > 1
+      ? `<nav class="research-latest-language-links" aria-label="可用语言版本">${group.languages
+          .map(language => `<a href="${escapeAttr(language.path)}" class="research-lang-chip">${escapeAttr(language.code)}</a>`)
+          .join('')}</nav>`
+      : '';
+
+    return [
+      '      <article class="research-latest-row" data-static-latest>',
+      '        <div class="research-latest-meta">',
+      `          <time datetime="${escapeAttr(group.date)}">${escapeAttr(group.date)}</time>`,
+      `          ${pill}`,
+      languageChips,
+      '        </div>',
+      `        <h3><a href="${escapeAttr(href)}">${escapeAttr(title)}</a></h3>`,
+      description ? `        <p>${escapeAttr(description)}</p>` : '',
+      `        <a class="research-arrow-link" href="${escapeAttr(href)}">阅读全文 <i class="fa fa-arrow-right" aria-hidden="true"></i></a>`,
+      '      </article>'
+    ].filter(Boolean).join('\n');
+  }).join('\n');
+}
+
+hexo.extend.generator.register('content-index', function(locals) {
+  const { entries, groups } = buildContentIndex(locals.posts);
   const payload = JSON.stringify({ entries, groups }).replace(/</g, '\\u003c');
 
   return {
@@ -76,6 +159,39 @@ hexo.extend.generator.register('content-index', function(locals) {
 const buildVersion = new Date().toISOString().replace(/\D/g, '').slice(0, 14);
 hexo.extend.filter.register('after_render:html', (html, locals) => {
   const pagePath = String(locals?.path || locals?.page?.path || '').replace(/^\/+/, '');
+
+  // Homepage: render the no-JS latest list from the same post index that
+  // feeds /js/content-index.js and the client-side list.
+  if (html.includes('id="research-latest-list"')) {
+    const rows = homepageLatestList(hexo.locals.get('posts'));
+    if (rows) {
+      const list = '<div class="research-latest-list"';
+      const start = html.indexOf(list);
+      if (start >= 0) {
+        const tagEnd = html.indexOf('>', start) + 1;
+        const tokenPattern = /<\/?div\b[^>]*>/g;
+        tokenPattern.lastIndex = tagEnd;
+        let depth = 1;
+        let end = -1;
+        let match;
+        while ((match = tokenPattern.exec(html)) !== null) {
+          if (match[0].startsWith('</div')) {
+            if (--depth === 0) {
+              end = match.index;
+              break;
+            }
+          } else {
+            depth += 1;
+          }
+        }
+        if (end >= 0) {
+          const closeEnd = end + '</div>'.length;
+          html = html.slice(0, tagEnd) + `\n${rows}\n` + html.slice(closeEnd);
+        }
+      }
+    }
+  }
+
   const hasCustomShell = /portfolio-(?:home|about|collection)-page|research-topic-hub-page|event-radar-page-body/.test(html)
     || /^(?:essays|writing|topics)\/index\.html$/.test(pagePath);
 
