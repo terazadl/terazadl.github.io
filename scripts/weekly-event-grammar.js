@@ -80,6 +80,20 @@ function langOf(page) {
   return String(page.lang || '').toLowerCase().split('-')[0];
 }
 
+// Only turn a bare non-enum status text into a neutral capsule when the line
+// is explicitly marked as a status (状态/Status prefix, or the legacy JA/EN
+// starting forms). Bare bold field labels such as 「事实」「发生了什么」 must
+// stay untouched — they are not status lines.
+function isExplicitStatus(raw, lang) {
+  if (lang === 'zh') return /^状态[:：]/.test(raw);
+  if (lang === 'en') {
+    return /^Status\s*[:：]/i.test(raw) ||
+      /^(Confirmed|Policy direction|Media|Market data)/i.test(raw);
+  }
+  if (lang === 'ja') return /^(確認済み|政策方針|メディア|公式未確認|未定)/.test(raw);
+  return false;
+}
+
 // Parse a rendered **status** paragraph into a capsule + trailing metadata.
 // Accepts:
 //   zh: **状态：已确认｜发布日期：8 月 28 日**
@@ -105,7 +119,7 @@ function parseStatus(text, lang) {
   const matchCount = (STATUS_RULES[lang] || STATUS_RULES.zh)
     .filter(([re]) => re.test(labelPart)).length;
   if (matchCount > 1 || labelPart.includes('；') || labelPart.includes(';')) {
-    return { cls: 'is-neutral', label: labelPart, meta };
+    return isExplicitStatus(text, lang) ? { cls: 'is-neutral', label: labelPart, meta } : null;
   }
 
   const rules = STATUS_RULES[lang] || STATUS_RULES.zh;
@@ -114,7 +128,7 @@ function parseStatus(text, lang) {
       return { cls, label, meta };
     }
   }
-  return { cls: 'is-neutral', label: labelPart || '状态', meta };
+  return isExplicitStatus(text, lang) ? { cls: 'is-neutral', label: labelPart || '状态', meta } : null;
 }
 
 function renderStatusStatus({ cls, label, meta }) {

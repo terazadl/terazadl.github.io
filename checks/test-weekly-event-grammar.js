@@ -124,6 +124,23 @@ check('ZH status no meta still renders', () => {
   assert.ok(out.includes('weekly-status is-confirmed'), 'confirmed class');
 });
 
+// Bare bold field labels must NOT become neutral capsules (regression guard
+// for japan-weekly 08-23 and 08-16 which use **事实** / **发生了什么** headings).
+check('ZH bare bold field label 发生了什么 untouched', () => {
+  const html = `<p><strong>发生了什么</strong></p>`;
+  assert.strictEqual(render(html, zhPage), html, 'label paragraph untouched');
+});
+
+check('ZH bare bold field label 事实 untouched', () => {
+  const html = `<p><strong>事实</strong></p>`;
+  assert.strictEqual(render(html, zhPage), html, 'label paragraph untouched');
+});
+
+check('ZH bare bold 为什么重要 untouched', () => {
+  const html = `<p><strong>为什么重要</strong></p>`;
+  assert.strictEqual(render(html, zhPage), html, 'label paragraph untouched');
+});
+
 // ---------------------------------------------------------------------------
 // 5. EN: status + panels
 // ---------------------------------------------------------------------------
