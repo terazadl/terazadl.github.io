@@ -172,6 +172,22 @@ compare_one_liner: "中国以财政工具直接兜底金融负债端，日本在
   </div>
 </div>
 
+<div class="weekly-chart" data-chart="radar" data-series='{"title":"中国 · 数据雷达","color":"#b35922","indicators":[{"label":"制造业PMI","value":49.8,"prev":49.2,"unit":"%","max":55,"min":0},{"label":"新订单指数","value":50.6,"prev":49.3,"unit":"%","max":55,"min":0},{"label":"制造业用工","value":48.7,"prev":49,"unit":"%","max":55,"min":0},{"label":"服务业PMI","value":49.3,"prev":49.3,"unit":"%","max":55,"min":0},{"label":"美元出口同比","value":25,"prev":18,"unit":"%YoY","max":30,"min":0},{"label":"含隐债负债率","value":73.2,"prev":68.5,"unit":"%","max":80,"min":0}]}'>
+  <div class="weekly-chart-head"><h4>中国 · 数据雷达</h4><span>CN</span></div>
+  <div class="weekly-chart-fallback">
+    <table><thead><tr><th>指标</th><th>本期</th><th>前值</th></tr></thead>
+    <tbody><tr><td>制造业PMI</td><td><strong>49.8%</strong></td><td>49.2%</td></tr><tr><td>新订单指数</td><td><strong>50.6%</strong></td><td>49.3%</td></tr><tr><td>制造业用工</td><td><strong>48.7%</strong></td><td>49%</td></tr><tr><td>服务业PMI</td><td><strong>49.3%</strong></td><td>49.3%</td></tr><tr><td>美元出口同比</td><td><strong>25%YoY</strong></td><td>18%YoY</td></tr><tr><td>含隐债负债率</td><td><strong>73.2%</strong></td><td>68.5%</td></tr></tbody></table>
+  </div>
+</div>
+
+<div class="weekly-chart" data-chart="bar" data-series='{"title":"中国 · 本期 vs 前值","color":"#b35922","indicators":[{"label":"制造业PMI","value":49.8,"prev":49.2,"unit":"%","max":55,"min":0},{"label":"新订单指数","value":50.6,"prev":49.3,"unit":"%","max":55,"min":0},{"label":"制造业用工","value":48.7,"prev":49,"unit":"%","max":55,"min":0},{"label":"服务业PMI","value":49.3,"prev":49.3,"unit":"%","max":55,"min":0},{"label":"美元出口同比","value":25,"prev":18,"unit":"%YoY","max":30,"min":0},{"label":"含隐债负债率","value":73.2,"prev":68.5,"unit":"%","max":80,"min":0}]}'>
+  <div class="weekly-chart-head"><h4>中国 · 本期 vs 前值</h4><span>CN</span></div>
+  <div class="weekly-chart-fallback">
+    <table><thead><tr><th>指标</th><th>本期</th><th>前值</th></tr></thead>
+    <tbody><tr><td>制造业PMI</td><td><strong>49.8%</strong></td><td>49.2%</td></tr><tr><td>新订单指数</td><td><strong>50.6%</strong></td><td>49.3%</td></tr><tr><td>制造业用工</td><td><strong>48.7%</strong></td><td>49%</td></tr><tr><td>服务业PMI</td><td><strong>49.3%</strong></td><td>49.3%</td></tr><tr><td>美元出口同比</td><td><strong>25%YoY</strong></td><td>18%YoY</td></tr><tr><td>含隐债负债率</td><td><strong>73.2%</strong></td><td>68.5%</td></tr></tbody></table>
+  </div>
+</div>
+
 <div class="weekly-radar-table-wrap">
   <div class="weekly-radar-table-head">
     <h4>关键指标雷达标尺 · RADAR BENCHMARKS</h4>

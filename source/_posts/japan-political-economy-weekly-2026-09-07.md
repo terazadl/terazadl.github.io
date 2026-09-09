@@ -166,6 +166,22 @@ compare_one_liner: "中国在低通胀环境中以政策工具托底信贷与资
   </div>
 </div>
 
+<div class="weekly-chart" data-chart="radar" data-series='{"title":"日本 · 数据雷达","color":"#3a5a6b","indicators":[{"label":"东京核心CPI","value":2.4,"prev":2.2,"unit":"%YoY","max":4,"min":0},{"label":"10年期国债利率","value":1.06,"prev":1.03,"unit":"%","max":2,"min":0},{"label":"美元兑日元","value":142.5,"prev":144,"unit":"¥","max":160,"min":0},{"label":"实际工资同比","value":0.4,"prev":-0.1,"unit":"%YoY","max":4,"min":0},{"label":"家庭实际消费","value":-3.6,"prev":-1.8,"unit":"%YoY","max":2,"min":-6},{"label":"2027概算要求","value":117.5,"prev":114.4,"unit":"万亿¥","max":130,"min":0}]}'>
+  <div class="weekly-chart-head"><h4>日本 · 数据雷达</h4><span>JP</span></div>
+  <div class="weekly-chart-fallback">
+    <table><thead><tr><th>指标</th><th>本期</th><th>前值</th></tr></thead>
+    <tbody><tr><td>东京核心CPI</td><td><strong>2.4%YoY</strong></td><td>2.2%YoY</td></tr><tr><td>10年期国债利率</td><td><strong>1.06%</strong></td><td>1.03%</td></tr><tr><td>美元兑日元</td><td><strong>142.5¥</strong></td><td>144¥</td></tr><tr><td>实际工资同比</td><td><strong>0.4%YoY</strong></td><td>-0.1%YoY</td></tr><tr><td>家庭实际消费</td><td><strong>-3.6%YoY</strong></td><td>-1.8%YoY</td></tr><tr><td>2027概算要求</td><td><strong>117.5万亿¥</strong></td><td>114.4万亿¥</td></tr></tbody></table>
+  </div>
+</div>
+
+<div class="weekly-chart" data-chart="bar" data-series='{"title":"日本 · 本期 vs 前值","color":"#3a5a6b","indicators":[{"label":"东京核心CPI","value":2.4,"prev":2.2,"unit":"%YoY","max":4,"min":0},{"label":"10年期国债利率","value":1.06,"prev":1.03,"unit":"%","max":2,"min":0},{"label":"美元兑日元","value":142.5,"prev":144,"unit":"¥","max":160,"min":0},{"label":"实际工资同比","value":0.4,"prev":-0.1,"unit":"%YoY","max":4,"min":0},{"label":"家庭实际消费","value":-3.6,"prev":-1.8,"unit":"%YoY","max":2,"min":-6},{"label":"2027概算要求","value":117.5,"prev":114.4,"unit":"万亿¥","max":130,"min":0}]}'>
+  <div class="weekly-chart-head"><h4>日本 · 本期 vs 前值</h4><span>JP</span></div>
+  <div class="weekly-chart-fallback">
+    <table><thead><tr><th>指标</th><th>本期</th><th>前值</th></tr></thead>
+    <tbody><tr><td>东京核心CPI</td><td><strong>2.4%YoY</strong></td><td>2.2%YoY</td></tr><tr><td>10年期国债利率</td><td><strong>1.06%</strong></td><td>1.03%</td></tr><tr><td>美元兑日元</td><td><strong>142.5¥</strong></td><td>144¥</td></tr><tr><td>实际工资同比</td><td><strong>0.4%YoY</strong></td><td>-0.1%YoY</td></tr><tr><td>家庭实际消费</td><td><strong>-3.6%YoY</strong></td><td>-1.8%YoY</td></tr><tr><td>2027概算要求</td><td><strong>117.5万亿¥</strong></td><td>114.4万亿¥</td></tr></tbody></table>
+  </div>
+</div>
+
 <div class="weekly-radar-table-wrap">
   <div class="weekly-radar-table-head">
     <h4>关键指标雷达标尺 · RADAR BENCHMARKS</h4>
