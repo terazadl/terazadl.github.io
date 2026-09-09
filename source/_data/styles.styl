@@ -4188,6 +4188,103 @@ body.portfolio-collection-page ul.breadcrumb {
   font-style: normal;
 }
 
+/* --- Core Event Four-Field Grammar (Lightweight) ---
+   Transforms the markdown list (发生了什么 / 为什么重要 / 接下来关注什么 /
+   来源) into a semantic four-role grammar: fact (neutral baseline),
+   judgment (country-color left bar + label), watch (cobalt-blue action
+   list), source (quiet metadata). Drafts stay plain markdown; the
+   transformation happens in scripts/weekly-fields.js. */
+.weekly-event-fields {
+  margin: 18px 0 26px;
+}
+
+.weekly-event-tag {
+  display: block;
+  font-family: var(--research-sans);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.weekly-event-fact {
+  margin: 0 0 16px;
+}
+
+.weekly-event-fact .weekly-event-tag {
+  color: var(--research-muted);
+}
+
+.weekly-event-judgment {
+  border-left: 4px solid var(--weekly-china);
+  margin: 0 0 16px;
+  padding: 2px 0 2px 16px;
+}
+
+.weekly-event-judgment .weekly-event-tag {
+  color: var(--weekly-china);
+}
+
+.weekly-event-fields.is-japan .weekly-event-judgment {
+  border-left-color: var(--weekly-japan);
+}
+
+.weekly-event-fields.is-japan .weekly-event-judgment .weekly-event-tag {
+  color: var(--weekly-japan);
+}
+
+.weekly-event-judgment p {
+  margin: 0;
+}
+
+.weekly-event-watch {
+  border-top: 1px dashed var(--research-line);
+  margin: 0 0 14px;
+  padding-top: 12px;
+}
+
+.weekly-event-watch .weekly-event-tag {
+  color: var(--research-blue);
+}
+
+.weekly-event-watch p {
+  font-family: var(--research-sans);
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  padding-left: 16px;
+  position: relative;
+}
+
+.weekly-event-watch p::before {
+  color: var(--research-blue);
+  content: "▸";
+  font-size: 13px;
+  left: 0;
+  position: absolute;
+  top: 0.15em;
+}
+
+.weekly-event-source {
+  color: var(--research-muted);
+  font-family: var(--research-sans);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+.weekly-event-source a {
+  color: var(--research-muted);
+  text-decoration: none;
+  border-bottom: 1px solid var(--research-line);
+}
+
+.weekly-event-source a:hover {
+  color: var(--research-blue);
+  border-color: var(--research-blue);
+}
+
 /* --- Responsive Media Queries (Mobile & Tablet) --- */
 @media (max-width: 800px) {
   .weekly-dual-briefs {
