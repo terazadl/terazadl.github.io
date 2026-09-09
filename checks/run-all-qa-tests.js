@@ -37,6 +37,12 @@ const testSuites = [
     name: 'Native Full-Res Zoom Script DOM Tree Verification',
     file: 'checks/test-body-end-zoom.js',
     desc: 'Verifies body-end.njk lightbox link wrapping behavior across various DOM structures'
+  },
+  {
+    id: 'SUITE-6',
+    name: 'Weekly Event Grammar & Watchlist Follow-up Filter Unit Tests',
+    file: 'checks/test-weekly-event-grammar.js',
+    desc: 'Verifies status capsules, trilingual four-field panels, follow-up four-state mapping, gating, and idempotency'
   }
 ];
 

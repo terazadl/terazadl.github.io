@@ -149,7 +149,7 @@ const FOLLOWUP_SECTION =
 
 function renderFollowupItems(block, lang) {
   const rules = FOLLOWUP_STATES[lang] || FOLLOWUP_STATES.zh;
-  return block.replace(/<li>([\s\S]*?)<\/li>/g, (li, inner) => {
+  let out = block.replace(/<li>([\s\S]*?)<\/li>/g, (li, inner) => {
     const stateMatch = inner.match(/<strong>([^<]{1,40})<\/strong>([\s\S]*)$/);
     if (!stateMatch) return li;
     const label = stateMatch[1].trim();
@@ -161,6 +161,9 @@ function renderFollowupItems(block, lang) {
     }
     return li;
   });
+  // Panel wrapper on the outer list (ol or ul), whatever the source used.
+  out = out.replace(/<(ol|ul)>/, '<$1 class="weekly-followup-list">');
+  return out;
 }
 
 hexo.extend.filter.register('after_render:html', function (html, locals) {
