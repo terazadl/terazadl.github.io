@@ -1855,6 +1855,9 @@ a.research-profile-item:hover strong {
     border-bottom-color: var(--research-ink);
     max-height: 360px;
     opacity: 1;
+    /* Short landscape viewports: keep the bottom links reachable while the
+       body scroll is locked by the backdrop. */
+    overflow-y: auto;
   }
 
   /* PRD 2026-09-10 US-2.4 (optional polish): dim the page behind the open
