@@ -1,5 +1,5 @@
 ---
-title: "Japan Political Economy Weekly | Aug 10–16, 2026: Yen Nears 160 Under Takaichi’s Fiscal Pressure"
+title: "Japan Weekly: Yen Nears 160 Under Takaichi’s Fiscal Pressure (Aug 10–16)"
 date: 2026-08-17 18:00:00
 slug: japan-political-economy-weekly-2026-08-16-en
 translation_key: japan-political-economy-weekly-2026-08-16

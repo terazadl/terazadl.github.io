@@ -1,5 +1,5 @@
 ---
-title: "China Political Economy Weekly | Aug 24–30, 2026: Credit Rules Are Being Rewritten"
+title: "China Weekly: Credit Rules Are Being Rewritten (Aug 24–30)"
 date: 2026-08-30 17:30:00
 updated: 2026-08-30 18:15:00
 slug: china-political-economy-weekly-credit-rules-2026-08-30

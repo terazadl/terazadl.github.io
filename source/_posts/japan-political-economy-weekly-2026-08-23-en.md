@@ -1,5 +1,5 @@
 ---
-title: "Japan Political Economy Weekly | Aug 17–23, 2026: Weak Domestic Demand Meets Near-3% JGBs"
+title: "Japan Weekly: Weak Domestic Demand Meets Near-3% JGBs (Aug 17–23)"
 date: 2026-08-25 18:00:00
 slug: japan-political-economy-weekly-2026-08-23-en
 translation_key: japan-political-economy-weekly-2026-08-23

@@ -43,6 +43,12 @@ const testSuites = [
     name: 'Weekly Event Grammar & Watchlist Follow-up Filter Unit Tests',
     file: 'checks/test-weekly-event-grammar.js',
     desc: 'Verifies status capsules, trilingual four-field panels, follow-up four-state mapping, gating, and idempotency'
+  },
+  {
+    id: 'SUITE-7',
+    name: 'SEO Regression Check (sitemap, hreflang, meta, navigation, links)',
+    file: 'checks/check-seo.js',
+    desc: 'Verifies sitemap hygiene, static hreflang alternates, og:url/canonical consistency, noindex on thin tags, same-language prev/next, and link integrity over public/'
   }
 ];
 
