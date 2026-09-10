@@ -55,6 +55,12 @@ const testSuites = [
     name: 'Homepage Weekly Layout Lock (PRD 2026-09-10 US-1/US-2)',
     file: 'checks/test-homepage-weekly-layout.js',
     desc: 'Verifies single featured card at all viewports, scoped Japan-card hide, and always-on 同步推送 row'
+  },
+  {
+    id: 'SUITE-9',
+    name: 'Homepage Content Rules Lock (PRD 2026-09-10 US-3/US-4)',
+    file: 'checks/test-homepage-content-rules.js',
+    desc: 'Verifies latest-writing weekly exclusion (static + generator + front-end) and 4-layer no-bullet weekly cards'
   }
 ];
 
