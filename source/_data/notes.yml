@@ -6,7 +6,12 @@
   location: 东京
   category: observation
   badge: 日常观察
-  text: 我们可以用Defi模拟金融游戏，用agents模拟当老板。虽然他们是模拟，但就像任何一种游戏，对于我们开拓视野体验他人心理与出境，都是有好处的。
+  text: |-
+    我们可以用DeFi模拟金融游戏，用agent模拟当老板。虽然仅仅是模拟，但就像任何一种游戏，对于我们开拓视野、体验他人心理与处境，都是有好处的。
+
+    DeFiを使えば、ゲームのように金融を体験できます。AIエージェントを使えば、社長になったような体験ができます。ただのシミュレーションですが、ほかのゲームと同じように、私たちの視野を広げたり、他人の心理や置かれている状況を理解したりするのに役立つと思います。
+
+    We can use DeFi as a game to experience finance. We can use AI agents as a game to experience being a boss. Although these are only simulations, like any other game, they can help us broaden our horizons and put ourselves in others' shoes.
   tags:
     - 日常
 - id: note-1788912000495
