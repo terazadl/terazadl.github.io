@@ -11,7 +11,7 @@
     "note": "node scripts/add-note.js"
   },
   "hexo": {
-    "version": "8.1.1"
+    "version": "8.1.2"
   },
   "dependencies": {
     "hexo": "^8.1.2",
