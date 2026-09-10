@@ -1,0 +1,41 @@
+name: Build and Deploy Site
+
+on:
+  push:
+    branches: [hexo-src-2]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: hexo-src-2
+          fetch-depth: 0
+          submodules: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run QA suites
+        run: npx hexo generate && npm test
+
+      - name: Deploy to master
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: master
+          publish_dir: ./public
+          keep_files: false
+          commit_message: "deploy: publish hexo-src-2 via GitHub Actions"

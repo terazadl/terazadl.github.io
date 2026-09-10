@@ -58,15 +58,4 @@ jobs:
           git commit -m "feat(life): mobile publish note"
           git push origin hexo-src-2
 
-      - name: Build static site
-        run: |
-          npx hexo generate
-
-      - name: Deploy to master
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: master
-          publish_dir: ./public
-          keep_files: false
-          commit_message: "deploy: mobile publish life-stream via GitHub Actions"
+      # Build + deploy happen in deploy.yml, triggered by the push above.

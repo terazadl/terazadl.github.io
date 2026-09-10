@@ -51,7 +51,7 @@ const testSuites = [
     desc: 'Verifies sitemap hygiene, static hreflang alternates, og:url/canonical consistency, noindex on thin tags, same-language prev/next, and link integrity over public/'
   },
   {
-    id: 'SUITE-7',
+    id: 'SUITE-10',
     name: 'Next Reading & Recommendation Integrity Verification',
     file: 'checks/test-next-reading-integrity.js',
     desc: 'Verifies zero self-recommendations, cross-language group exclusions, and 100% valid recommendation links across all posts'
