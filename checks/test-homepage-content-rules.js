@@ -51,7 +51,9 @@ assert(
 // --- US-4: weekly cards stay 4-layer, no bullets ---------------------------
 
 const homepageCards = [...homepage.matchAll(/<article class="weekly-brief-card[^"]*"[\s\S]*?<\/article>/g)];
-assert(homepageCards.length >= 2, 'expected at least the china/japan weekly cards on the homepage');
+// >= 1: the Japan card is currently kept in the DOM and hidden by CSS, but a
+// future template-level removal must not break this check.
+assert(homepageCards.length >= 1, 'expected at least the featured weekly card on the homepage');
 homepageCards.forEach((card, index) => {
   assert(
     !/<[uo]l[\s>]/.test(card[0]),
