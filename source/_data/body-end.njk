@@ -1056,6 +1056,8 @@
       button.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
       button.classList.toggle("is-open", open);
       navigation.classList.toggle("is-open", open);
+      // US-2.4: dim + lock the page behind the open menu (see styles.styl).
+      document.body.classList.toggle("research-nav-open", open);
     };
 
     button.addEventListener("click", () => {
@@ -1068,6 +1070,13 @@
 
     document.addEventListener("keydown", event => {
       if (event.key === "Escape") setOpen(false);
+    });
+
+    // US-2.4: a tap on the dimmed backdrop closes the menu.
+    document.addEventListener("click", event => {
+      if (button.getAttribute("aria-expanded") !== "true") return;
+      if (navigation.contains(event.target) || button.contains(event.target)) return;
+      setOpen(false);
     });
   })();
 

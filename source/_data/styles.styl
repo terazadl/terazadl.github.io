@@ -1857,6 +1857,23 @@ a.research-profile-item:hover strong {
     opacity: 1;
   }
 
+  /* PRD 2026-09-10 US-2.4 (optional polish): dim the page behind the open
+     mobile menu so underlying weekly cards and text do not compete with the
+     nav links. Backdrop sits below the header (z-index 20) but above page
+     content, swallows taps (the JS closes the menu on outside click), and
+     the body scroll is locked while open. */
+  body.research-nav-open {
+    overflow: hidden;
+  }
+
+  body.research-nav-open::after {
+    background: rgba(29, 28, 24, 0.35);
+    content: "";
+    inset: 0;
+    position: fixed;
+    z-index: 10;
+  }
+
   .research-mobile-nav a {
     align-items: center;
     border: 0;
