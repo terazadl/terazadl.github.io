@@ -8,6 +8,11 @@ on:
 permissions:
   contents: write
 
+# Keep the runner clock aligned with _config.yml timezone (Asia/Tokyo) so
+# date-sensitive plugins behave the same in CI as locally.
+env:
+  TZ: Asia/Tokyo
+
 jobs:
   deploy:
     runs-on: ubuntu-latest

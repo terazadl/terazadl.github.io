@@ -45,6 +45,22 @@ function weeklyVariant(group) {
 // emits /js/content-index.js (read by the client), and the after_render
 // filter uses the same builder for the homepage's no-JS latest list, so the
 // static fallback and the dynamic index can never drift apart.
+
+// Format dates in the configured site timezone, never in the process TZ.
+// post.date is a shared mutable moment: it carries UTC offset during the
+// generator phase and gets shifted to the site timezone by render time, so
+// a plain .format() gives different dates in CI (UTC) vs local (JST).
+const SITE_TIMEZONE = hexo.config.timezone || 'Asia/Tokyo';
+
+function postDate(post) {
+  const date = post.date;
+  if (!date) return '';
+  if (typeof date.clone === 'function' && typeof date.tz === 'function') {
+    return date.clone().tz(SITE_TIMEZONE).format('YYYY-MM-DD');
+  }
+  return date.format?.('YYYY-MM-DD') || '';
+}
+
 function buildContentIndex(posts) {
   const entries = posts
     .sort('-date')
@@ -56,7 +72,7 @@ function buildContentIndex(posts) {
         title: String(post.title || ''),
         cardTitle: String(post.card_title || ''),
         description: String(post.description || ''),
-        date: post.date?.format?.('YYYY-MM-DD') || '',
+        date: postDate(post),
         category: categories[0]?.name || 'Uncategorized',
         langCode: languageCode(post.lang),
         translationKey: String(post.translation_key || post.path || '')

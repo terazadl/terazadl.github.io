@@ -26,6 +26,10 @@ on:
 permissions:
   contents: write
 
+# Note dates are written with the local clock; keep the runner on site time.
+env:
+  TZ: Asia/Tokyo
+
 jobs:
   publish:
     runs-on: ubuntu-latest
