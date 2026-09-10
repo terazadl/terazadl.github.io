@@ -3438,11 +3438,20 @@ body.portfolio-collection-page ul.breadcrumb {
   color: var(--research-blue);
 }
 
+/* PRD 2026-09-10 US-1: one featured brief on the homepage first screen at
+   every viewport. The second country collapses to the 同步推送 link row
+   below; desktop no longer shows two full cards side by side. */
 .weekly-dual-briefs {
   display: grid;
   gap: 24px;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr);
   margin-bottom: 20px;
+}
+
+/* Homepage only: hide the Japan full card (it stays visible on the
+   /politics-economy/ hub, which uses .politics-dual-grid instead). */
+.weekly-dual-briefs .weekly-brief-card.is-japan {
+  display: none;
 }
 
 .weekly-brief-card {
@@ -3538,11 +3547,12 @@ body.portfolio-collection-page ul.breadcrumb {
   padding: 10px 0;
 }
 
-/* R5b: second brief collapsed to a quiet push row on small screens
-   (desktop keeps the two-card grid, so this row is hidden there). */
+/* R5b / PRD 2026-09-10 US-1: the second brief is always a quiet push row —
+   on phones and on desktop. The full Japan card stays available on
+   /politics-economy/ and /japan-weekly/. */
 .weekly-brief-link-row {
   border-top: 1px dashed var(--research-line);
-  display: none;
+  display: block;
   margin: -8px 4px 24px;
 }
 
@@ -4396,18 +4406,7 @@ body.portfolio-collection-page ul.breadcrumb {
   }
 
   .weekly-dual-briefs {
-    grid-template-columns: 1fr;
     gap: 16px;
-  }
-
-  /* First screen: one featured card (China). The Japan brief collapses
-     into the 同步推送 link row below to cut visual density. */
-  .weekly-brief-card.is-japan {
-    display: none;
-  }
-
-  .weekly-brief-link-row {
-    display: block;
   }
 
   .weekly-brief-card {
