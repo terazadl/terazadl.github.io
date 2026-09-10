@@ -49,6 +49,12 @@ const testSuites = [
     name: 'Next Reading & Recommendation Integrity Verification',
     file: 'checks/test-next-reading-integrity.js',
     desc: 'Verifies zero self-recommendations, cross-language group exclusions, and 100% valid recommendation links across all posts'
+  },
+  {
+    id: 'SUITE-9',
+    name: 'Homepage Content Rules Lock (PRD 2026-09-10 US-3/US-4)',
+    file: 'checks/test-homepage-content-rules.js',
+    desc: 'Verifies latest-writing weekly exclusion (static + generator + front-end) and 4-layer no-bullet weekly cards'
   }
 ];
 
