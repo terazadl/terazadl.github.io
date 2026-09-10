@@ -49,6 +49,12 @@ const testSuites = [
     name: 'Next Reading & Recommendation Integrity Verification',
     file: 'checks/test-next-reading-integrity.js',
     desc: 'Verifies zero self-recommendations, cross-language group exclusions, and 100% valid recommendation links across all posts'
+  },
+  {
+    id: 'SUITE-8',
+    name: 'Homepage Weekly Layout Lock (PRD 2026-09-10 US-1/US-2)',
+    file: 'checks/test-homepage-weekly-layout.js',
+    desc: 'Verifies single featured card at all viewports, scoped Japan-card hide, and always-on 同步推送 row'
   }
 ];
 
