@@ -10,7 +10,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/images/tera-favicon-16.png">
   <link rel="manifest" href="/images/site.webmanifest">
 
-<link rel="stylesheet" href="/css/main.css?v=20260910095744">
+<link rel="stylesheet" href="/css/main.css?v=20260910124213">
 
 
 
@@ -23,8 +23,8 @@
 <meta property="og:site_name" content="Lei Deng">
 <meta property="og:description" content="非官方的Polymarket事件概率观测页，跟踪大事件市场概率分布与判定进展。">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2026-09-10T09:02:18.417Z">
-<meta property="article:modified_time" content="2026-09-10T09:02:18.417Z">
+<meta property="article:published_time" content="2026-09-10T12:41:59.963Z">
+<meta property="article:modified_time" content="2026-09-10T12:41:59.963Z">
 <meta property="article:author" content="Lei Deng">
 <meta property="article:tag" content="China">
 <meta property="article:tag" content="Japan">
@@ -339,7 +339,7 @@ body.radar-card{background:#f7f5f0;color:#1d1c18;}
 <noscript>
   <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
 </noscript>
-<script src="/js/content-index.js?v=20260910095744"></script>
+<script src="/js/content-index.js?v=20260910124213"></script>
 <script>
   (() => {
     const contentIndex = window.__SITE_CONTENT_INDEX__ || { entries: [], groups: [] };
@@ -1397,6 +1397,8 @@ body.radar-card{background:#f7f5f0;color:#1d1c18;}
       button.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
       button.classList.toggle("is-open", open);
       navigation.classList.toggle("is-open", open);
+      // US-2.4: dim + lock the page behind the open menu (see styles.styl).
+      document.body.classList.toggle("research-nav-open", open);
     };
 
     button.addEventListener("click", () => {
@@ -1409,6 +1411,13 @@ body.radar-card{background:#f7f5f0;color:#1d1c18;}
 
     document.addEventListener("keydown", event => {
       if (event.key === "Escape") setOpen(false);
+    });
+
+    // US-2.4: a tap on the dimmed backdrop closes the menu.
+    document.addEventListener("click", event => {
+      if (button.getAttribute("aria-expanded") !== "true") return;
+      if (navigation.contains(event.target) || button.contains(event.target)) return;
+      setOpen(false);
     });
   })();
 

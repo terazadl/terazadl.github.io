@@ -10,7 +10,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/images/tera-favicon-16.png">
   <link rel="manifest" href="/images/site.webmanifest">
 
-<link rel="stylesheet" href="/css/main.css?v=20260910095744">
+<link rel="stylesheet" href="/css/main.css?v=20260910124213">
 
 
 
@@ -1094,8 +1094,8 @@
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh">
-    <link itemprop="mainEntityOfPage" href="https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-16/">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="ja">
+    <link itemprop="mainEntityOfPage" href="https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-16-ja/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -1113,7 +1113,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2026/08/japan-political-economy-weekly-2026-08-16/" class="post-title-link" itemprop="url">日本政经周报：日元再逼160与高市双重压力</a>
+          <a href="/2026/08/japan-political-economy-weekly-2026-08-16-ja/" class="post-title-link" itemprop="url">日本政経ウィークリー｜2026年8月10日〜16日：円160円接近と高市政権の財政圧力</a>
         </h2>
 
         <div class="post-meta-container">
@@ -1143,14 +1143,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>3.8k</span>
+      <span>2.1k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>14 分钟</span>
+      <span>8 分钟</span>
     </span>
 </div>
 
@@ -1161,10 +1161,10 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p>日元重新逼近160，输入型成本压力与食品减税争议并存，日本银行与政府的政策组合面临新的约束。</p>
+          <p>円が160円に近づき、企業物価高と食品減税の財源論が続いた。択捉島訪問と靖国神社をめぐり外交リスクも高まった。</p>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2026/08/japan-political-economy-weekly-2026-08-16/">
+              <a class="btn" href="/2026/08/japan-political-economy-weekly-2026-08-16-ja/">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1221,7 +1221,7 @@
 <noscript>
   <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
 </noscript>
-<script src="/js/content-index.js?v=20260910095744"></script>
+<script src="/js/content-index.js?v=20260910124213"></script>
 <script>
   (() => {
     const contentIndex = window.__SITE_CONTENT_INDEX__ || { entries: [], groups: [] };
@@ -2279,6 +2279,8 @@
       button.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
       button.classList.toggle("is-open", open);
       navigation.classList.toggle("is-open", open);
+      // US-2.4: dim + lock the page behind the open menu (see styles.styl).
+      document.body.classList.toggle("research-nav-open", open);
     };
 
     button.addEventListener("click", () => {
@@ -2291,6 +2293,13 @@
 
     document.addEventListener("keydown", event => {
       if (event.key === "Escape") setOpen(false);
+    });
+
+    // US-2.4: a tap on the dimmed backdrop closes the menu.
+    document.addEventListener("click", event => {
+      if (button.getAttribute("aria-expanded") !== "true") return;
+      if (navigation.contains(event.target) || button.contains(event.target)) return;
+      setOpen(false);
     });
   })();
 

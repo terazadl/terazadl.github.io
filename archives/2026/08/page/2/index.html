@@ -10,7 +10,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/images/tera-favicon-16.png">
   <link rel="manifest" href="/images/site.webmanifest">
 
-<link rel="stylesheet" href="/css/main.css?v=20260910095744">
+<link rel="stylesheet" href="/css/main.css?v=20260910124213">
 
 
 
@@ -294,8 +294,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2026/08/japan-political-economy-weekly-2026-08-16/" itemprop="url">
-            <span itemprop="name">日本政经周报：日元再逼160与高市双重压力</span>
+          <a class="post-title-link" href="/2026/08/japan-political-economy-weekly-2026-08-16-ja/" itemprop="url">
+            <span itemprop="name">日本政経ウィークリー｜2026年8月10日〜16日：円160円接近と高市政権の財政圧力</span>
           </a>
       </div>
 
@@ -314,8 +314,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2026/08/japan-political-economy-weekly-2026-08-16-ja/" itemprop="url">
-            <span itemprop="name">日本政経ウィークリー｜2026年8月10日〜16日：円160円接近と高市政権の財政圧力</span>
+          <a class="post-title-link" href="/2026/08/japan-political-economy-weekly-2026-08-16/" itemprop="url">
+            <span itemprop="name">日本政经周报：日元再逼160与高市双重压力</span>
           </a>
       </div>
 
@@ -403,7 +403,7 @@
 <noscript>
   <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
 </noscript>
-<script src="/js/content-index.js?v=20260910095744"></script>
+<script src="/js/content-index.js?v=20260910124213"></script>
 <script>
   (() => {
     const contentIndex = window.__SITE_CONTENT_INDEX__ || { entries: [], groups: [] };
@@ -1461,6 +1461,8 @@
       button.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
       button.classList.toggle("is-open", open);
       navigation.classList.toggle("is-open", open);
+      // US-2.4: dim + lock the page behind the open menu (see styles.styl).
+      document.body.classList.toggle("research-nav-open", open);
     };
 
     button.addEventListener("click", () => {
@@ -1473,6 +1475,13 @@
 
     document.addEventListener("keydown", event => {
       if (event.key === "Escape") setOpen(false);
+    });
+
+    // US-2.4: a tap on the dimmed backdrop closes the menu.
+    document.addEventListener("click", event => {
+      if (button.getAttribute("aria-expanded") !== "true") return;
+      if (navigation.contains(event.target) || button.contains(event.target)) return;
+      setOpen(false);
     });
   })();
 

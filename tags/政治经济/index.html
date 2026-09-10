@@ -10,7 +10,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/images/tera-favicon-16.png">
   <link rel="manifest" href="/images/site.webmanifest">
 
-<link rel="stylesheet" href="/css/main.css?v=20260910095744">
+<link rel="stylesheet" href="/css/main.css?v=20260910124213">
 
 
 
@@ -295,26 +295,6 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2026/08/japan-political-economy-weekly-2026-08-30-ja/" itemprop="url">
-            <span itemprop="name">日本政経ウィークリー｜2026年8月24日〜30日：利上げシグナルと財政コストの共振</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2026-08-31T18:00:00+09:00"
-              content="2026-08-31">
-          08-31
-        </time>
-      </div>
-
-      <div class="post-title">
           <a class="post-title-link" href="/2026/08/japan-political-economy-weekly-2026-08-30-en/" itemprop="url">
             <span itemprop="name">Japan Weekly: Rate-Hike Signals Meet Fiscal Costs (Aug 24–30)</span>
           </a>
@@ -337,6 +317,26 @@
       <div class="post-title">
           <a class="post-title-link" href="/2026/08/japan-political-economy-weekly-2026-08-30/" itemprop="url">
             <span itemprop="name">日本政经周报：加息信号与财政成本共振</span>
+          </a>
+      </div>
+
+      
+    </header>
+  </article>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+      <div class="post-meta-container">
+        <time itemprop="dateCreated"
+              datetime="2026-08-31T18:00:00+09:00"
+              content="2026-08-31">
+          08-31
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/2026/08/japan-political-economy-weekly-2026-08-30-ja/" itemprop="url">
+            <span itemprop="name">日本政経ウィークリー｜2026年8月24日〜30日：利上げシグナルと財政コストの共振</span>
           </a>
       </div>
 
@@ -443,7 +443,7 @@
 <noscript>
   <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
 </noscript>
-<script src="/js/content-index.js?v=20260910095744"></script>
+<script src="/js/content-index.js?v=20260910124213"></script>
 <script>
   (() => {
     const contentIndex = window.__SITE_CONTENT_INDEX__ || { entries: [], groups: [] };
@@ -1501,6 +1501,8 @@
       button.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
       button.classList.toggle("is-open", open);
       navigation.classList.toggle("is-open", open);
+      // US-2.4: dim + lock the page behind the open menu (see styles.styl).
+      document.body.classList.toggle("research-nav-open", open);
     };
 
     button.addEventListener("click", () => {
@@ -1513,6 +1515,13 @@
 
     document.addEventListener("keydown", event => {
       if (event.key === "Escape") setOpen(false);
+    });
+
+    // US-2.4: a tap on the dimmed backdrop closes the menu.
+    document.addEventListener("click", event => {
+      if (button.getAttribute("aria-expanded") !== "true") return;
+      if (navigation.contains(event.target) || button.contains(event.target)) return;
+      setOpen(false);
     });
   })();
 
