@@ -4,6 +4,9 @@ on:
   push:
     branches: [hexo-src-2]
   workflow_dispatch:
+  # Reusable so publish-note.yml can call it: a GITHUB_TOKEN push never
+  # triggers push events, so the note workflow must invoke this directly.
+  workflow_call:
 
 permissions:
   contents: write

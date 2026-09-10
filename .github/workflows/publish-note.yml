@@ -62,4 +62,11 @@ jobs:
           git commit -m "feat(life): mobile publish note"
           git push origin hexo-src-2
 
-      # Build + deploy happen in deploy.yml, triggered by the push above.
+  # GITHUB_TOKEN pushes do not fire push events, so deploy.yml never runs
+  # on its own after a mobile publish. Call it explicitly as a reusable
+  # workflow to keep the QA gate + deploy in the same run.
+  deploy:
+    needs: publish
+    permissions:
+      contents: write
+    uses: ./.github/workflows/deploy.yml
