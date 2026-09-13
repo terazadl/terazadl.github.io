@@ -1,6 +1,14 @@
 # 生活手记与自留地数据源 (Life Stream Notes)
 # 自动按顺序在 /life/ 页面展示，最新的一条排在最前面
 
+- id: note-1789262698053
+  date: "2026-09-13"
+  location: 东京
+  category: observation
+  badge: 日常观察
+  text: 根据我的观察，至少有四川话、闽南语、粤语和上海话，将"下雨"说成"落雨"。"下雨"是北方词汇，建国后强势。
+  tags:
+    - 日常观察
 - id: note-1789178740143
   date: "2026-09-12"
   location: 东京
