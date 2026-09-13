@@ -1,6 +1,14 @@
 # 生活手记与自留地数据源 (Life Stream Notes)
 # 自动按顺序在 /life/ 页面展示，最新的一条排在最前面
 
+- id: note-1789292387840
+  date: "2026-09-13"
+  location: 东京
+  category: observation
+  badge: 日常观察
+  text: 最欣赏又专业又有温度的人。理性但是善良。
+  tags:
+    - 日常
 - id: note-1789262984974
   date: "2026-09-13"
   location: 东京
