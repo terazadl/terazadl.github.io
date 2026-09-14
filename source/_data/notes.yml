@@ -1,6 +1,15 @@
 # 生活手记与自留地数据源 (Life Stream Notes)
 # 自动按顺序在 /life/ 页面展示，最新的一条排在最前面
 
+- id: note-1789393871941
+  date: "2026-09-14"
+  location: 东京
+  category: observation
+  badge: 日常观察
+  text: 花了十几年才明白的事：能够继续，不等于应该继续；没有崩溃，也不等于没有代价。
+  tags:
+    - 日常
+    - 感悟
 - id: note-1789296393287
   date: "2026-09-13"
   location: 东京
