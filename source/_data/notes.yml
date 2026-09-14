@@ -1,6 +1,15 @@
 # 生活手记与自留地数据源 (Life Stream Notes)
 # 自动按顺序在 /life/ 页面展示，最新的一条排在最前面
 
+- id: note-1789394040462
+  date: "2026-09-14"
+  location: 东京
+  category: observation
+  badge: 日常观察
+  text: 有时候会想，如果早几年作出决定，现在可能会轻松一些；我为过去的迟疑付出了代价。但我今天继续留下，同样会让未来的自己付出代价。
+  tags:
+    - 日常
+    - 感悟
 - id: note-1789393871941
   date: "2026-09-14"
   location: 东京
