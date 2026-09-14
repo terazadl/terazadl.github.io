@@ -31,7 +31,7 @@ weekly_series: japan
 ## Executive summary
 
 - USD/JPY returned to the **159 area** by Aug 14, recovering most of the post-intervention move. Yen weakness still reflects the US–Japan rate gap, fiscal expectations and uncertainty over BOJ timing.
-- The BOJ’s July domestic corporate-goods price index rose **7.2% y/y**, just below June’s 7.3% and the 7.4% market expectation. Yen-denominated import prices remained around 30% higher y/y.
+- The BOJ’s July domestic corporate-goods price index rose **7.2% y/y**, just below June’s 7.3% and the 7.4% market expectation. Yen-denominated import prices remained around 30% higher y/y. (The August flash release later revised July CGPI to +7.7% y/y and import prices to +29.3% y/y; this brief records the initial print.)
 - The government’s planned food consumption-tax cut (8% to 1% from April 2027 for two years) moved into a dispute over roughly **¥5 trillion** of permanent funding and the central–local burden.
 - July Economy Watchers’ current DI rose 1.7 points to **45.7**, its third monthly improvement, but stayed below the 50 expansion line.
 - President Putin visited Iturup (Etorofu), narrowing room for Japan–Russia rapprochement. Takaichi’s first August 15 address omitted the word “remorse”; four ministers visited Yasukuni, prompting Chinese and Korean protests.

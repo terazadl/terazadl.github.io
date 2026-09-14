@@ -61,18 +61,18 @@ compare_one_liner: "中国以财政工具直接兜底金融负债端，日本在
 
 **状态：8 月 31 日国家统计局公布**
 
-- **发生了什么（事实）**：8 月份中国制造业采购经理指数（PMI）为 49.8%，较上月回升 0.6 个百分点，仍处于荣枯线下方。分项中，新订单指数升至 50.6%（重回扩张区间），生产指数升至 50.4%；但从业人员指数进一步回落至 48.7%；非制造业商务活动指数为 50.3%，其中服务业为 49.3%，建筑业为 46.9%。大型企业 PMI 达 50.6%，中型与小型企业分别为 49.4% 和 47.9%。
+- **发生了什么（事实）**：8 月份中国制造业采购经理指数（PMI）为 49.8%，较上月回升 0.6 个百分点，仍处于荣枯线下方。分项中，新订单指数升至 50.6%（重回扩张区间），生产指数升至 50.4%；但从业人员指数进一步回落至 48.7%；非制造业商务活动指数为 49.0%，其中服务业为 49.3%，建筑业为 46.9%。大型企业 PMI 达 50.6%，中型与小型企业分别为 49.4% 和 47.9%。
 - **为什么重要（分析判断）**：新订单扩张体现出出口韧性与重点基建支持，但“订单改善未能带动雇佣与中小企业”表明复苏链条存在结构性阻滞。高技术与重资本行业对边际劳动力的拉动相对有限，而关联居民就业与消费体感的服务业、小微企业仍在低位调整。
 - **接下来关注什么**：9 月“金九银十”传统周期内订单转化为企业用工意愿的弹性，以及工业品出厂价格对中下游企业利润的挤压程度。
 - **来源**：[国家统计局](http://www.stats.gov.cn)
 
-### 4. 1—7 月国有资本经营预算收入激增近四成，主因上缴收益比例提升
+### 4. 1—7 月财政收支复核：税收支撑收入平稳增长，非税高增担忧缓和
 
-**状态：8 月 31 日财政部公布财政收支执行数据**
+**状态：8 月 21 日财政部国库司发布 1—7 月财政收支数据（本期复核引用）**
 
-- **发生了什么（事实）**：全国国有资本经营预算收入实现 2575 亿元，同比增长 39.8%。其中中央国有资本经营预算收入同比大幅增长 84.8%，地方增长 14.6%；支出端仅微增 1.1%。财政部指出，收入激增主要源于自 2025 年下半年起调高中央企业及部分地方国企国有资本收益收取比例。
-- **为什么重要（分析判断）**：该数据并非代表国企经营性利润同步激增近四成，而是财政面对土地出让金下行时，统筹存量资源的结构性开源手段。资金上缴并调入一般公共预算有助于保障基层“三保”，但也相应减少了国企自身的留存盈余，需权衡公共兜底与企业内生开支的平衡。
-- **接下来关注什么**：国有资本经营预算调入一般公共预算后的具体支出安排，以及重点央企下半年资本开支规划调整。
+- **发生了什么（事实）**：1—7 月全国一般公共预算收入 143,696 亿元，同比增长 5.8%。其中税收收入 118,381 亿元、同比增长 6.7%，非税收入 25,315 亿元、同比增长 1.6%；中央一般公共预算收入 63,857 亿元、同比增长 9.1%，地方收入 79,839 亿元。
+- **为什么重要（分析判断）**：收入端整体平稳，税收增速（+6.7%）明显高于非税收入（+1.6%），收入结构较前期改善；中央收入增速显著高于地方，反映税源向中央集中与土地出让金下行背景下地方财力的结构性约束。市场上流传的“国有资本经营预算收入激增近四成”缺乏官方口径支撑，本期未予采用。
+- **接下来关注什么**：9 月财政支出提速与新增专项债发行节奏，以及四季度土地出让相关收入变化。
 - **来源**：[中华人民共和国财政部国库司](http://www.mof.gov.cn)
 
 ### 5. 房地产预售制度改革走向纵深，开发资金链面临重新结构
@@ -88,7 +88,7 @@ compare_one_liner: "中国以财政工具直接兜底金融负债端，日本在
 
 **状态：9 月 4 日上海市人大常委会通过任命**
 
-- **发生了什么（事实）**：上海市十六届人大常委会第十五次会议决定，接受龚正辞去上海市市长职务的请求，任命朱忠明为上海市副市长、代理市长。朱忠明此前历任浙江省财政厅厅长、财政部副部长、上海市委副书记。
+- **发生了什么（事实）**：上海市十六届人大常委会第三十三次会议决定，接受龚正辞去上海市市长职务的请求，任命朱忠明为上海市副市长、代理市长。朱忠明此前历任浙江省财政厅厅长、财政部副部长、上海市委副书记。
 - **为什么重要（分析判断）**：朱忠明具备长期中央部委与沿海发达省份的财税管理背景。在地方综合财力面临转型、重大科创母基金运作及涉外产业链重构的背景下，由财税专长官员主持市政府日常工作，有助于提升预算绩效管理与重大产业资本调配效率。
 - **接下来关注什么**：上海下半年稳增长重点政策部署，以及浦东新区和临港自贸区新一轮科创与财税支持政策。
 - **来源**：[上海人大网](http://www.shrd.gov.cn)
@@ -124,13 +124,13 @@ compare_one_liner: "中国以财政工具直接兜底金融负债端，日本在
     <div class="weekly-radar-card is-china">
       <div class="weekly-radar-card-head">
         <span class="weekly-radar-tag">CHINA · 需求动能</span>
-        <span class="weekly-radar-change is-up">↑ +1.3%</span>
+        <span class="weekly-radar-change is-up">↑ +2.1%</span>
       </div>
       <div class="weekly-radar-label">制造业新订单指数</div>
       <div class="weekly-radar-metric-body">
         <span class="weekly-radar-value">50.6%</span>
       </div>
-      <div class="weekly-radar-note">前值 49.3% · 外需拉动重回扩张区间</div>
+      <div class="weekly-radar-note">前值 48.5% · 外需拉动重回扩张区间</div>
     </div>
     <div class="weekly-radar-card is-china">
       <div class="weekly-radar-card-head">
@@ -156,42 +156,31 @@ compare_one_liner: "中国以财政工具直接兜底金融负债端，日本在
     </div>
     <div class="weekly-radar-card is-china">
       <div class="weekly-radar-card-head">
-        <span class="weekly-radar-tag">CHINA · 结构负债</span>
-        <span class="weekly-radar-change is-up">↑ 显性化</span>
-      </div>
-      <div class="weekly-radar-label">含隐债政府全口径负债率</div>
-      <div class="weekly-radar-metric-body">
-        <span class="weekly-radar-value">73.2%</span>
-      </div>
-      <div class="weekly-radar-note">总债务 102.5 万亿 · 隐债压降，法定债扩容</div>
-    </div>
-    <div class="weekly-radar-card is-china">
-      <div class="weekly-radar-card-head">
         <span class="weekly-radar-tag">CHINA · 外贸出口</span>
-        <span class="weekly-radar-change is-up">↑ +7.0%</span>
+        <span class="weekly-radar-change is-up">↑ +1.1%</span>
       </div>
       <div class="weekly-radar-label">8 月美元出口同比增速</div>
       <div class="weekly-radar-metric-body">
         <span class="weekly-radar-value">+25.0%</span>
       </div>
-      <div class="weekly-radar-note">前值 +18.0% · 达 4014 亿美元，芯片单价大涨</div>
+      <div class="weekly-radar-note">前值 +23.9% · 达 4014 亿美元，芯片单价大涨</div>
     </div>
   </div>
 </div>
 
-<div class="weekly-chart" data-chart="radar" data-series='{"title":"中国 · 数据雷达","color":"#b35922","indicators":[{"label":"制造业PMI","value":49.8,"prev":49.2,"unit":"%","max":55,"min":0},{"label":"新订单指数","value":50.6,"prev":49.3,"unit":"%","max":55,"min":0},{"label":"制造业用工","value":48.7,"prev":49,"unit":"%","max":55,"min":0},{"label":"服务业PMI","value":49.3,"prev":49.3,"unit":"%","max":55,"min":0},{"label":"美元出口同比","value":25,"prev":18,"unit":"%YoY","max":30,"min":0},{"label":"含隐债负债率","value":73.2,"prev":68.5,"unit":"%","max":80,"min":0}]}'>
+<div class="weekly-chart" data-chart="radar" data-series='{"title":"中国 · 数据雷达","color":"#b35922","indicators":[{"label":"制造业PMI","value":49.8,"prev":49.2,"unit":"%","max":55,"min":0},{"label":"新订单指数","value":50.6,"prev":48.5,"unit":"%","max":55,"min":0},{"label":"制造业用工","value":48.7,"prev":49,"unit":"%","max":55,"min":0},{"label":"服务业PMI","value":49.3,"prev":49.3,"unit":"%","max":55,"min":0},{"label":"美元出口同比","value":25,"prev":23.9,"unit":"%YoY","max":30,"min":0}]}'>
   <div class="weekly-chart-head"><h4>中国 · 数据雷达</h4><span>CN</span></div>
   <div class="weekly-chart-fallback">
     <table><thead><tr><th>指标</th><th>本期</th><th>前值</th></tr></thead>
-    <tbody><tr><td>制造业PMI</td><td><strong>49.8%</strong></td><td>49.2%</td></tr><tr><td>新订单指数</td><td><strong>50.6%</strong></td><td>49.3%</td></tr><tr><td>制造业用工</td><td><strong>48.7%</strong></td><td>49%</td></tr><tr><td>服务业PMI</td><td><strong>49.3%</strong></td><td>49.3%</td></tr><tr><td>美元出口同比</td><td><strong>25%YoY</strong></td><td>18%YoY</td></tr><tr><td>含隐债负债率</td><td><strong>73.2%</strong></td><td>68.5%</td></tr></tbody></table>
+    <tbody><tr><td>制造业PMI</td><td><strong>49.8%</strong></td><td>49.2%</td></tr><tr><td>新订单指数</td><td><strong>50.6%</strong></td><td>48.5%</td></tr><tr><td>制造业用工</td><td><strong>48.7%</strong></td><td>49%</td></tr><tr><td>服务业PMI</td><td><strong>49.3%</strong></td><td>49.3%</td></tr><tr><td>美元出口同比</td><td><strong>25%YoY</strong></td><td>23.9%YoY</td></tr></tbody></table>
   </div>
 </div>
 
-<div class="weekly-chart" data-chart="bar" data-series='{"title":"中国 · 本期 vs 前值","color":"#b35922","indicators":[{"label":"制造业PMI","value":49.8,"prev":49.2,"unit":"%","max":55,"min":0},{"label":"新订单指数","value":50.6,"prev":49.3,"unit":"%","max":55,"min":0},{"label":"制造业用工","value":48.7,"prev":49,"unit":"%","max":55,"min":0},{"label":"服务业PMI","value":49.3,"prev":49.3,"unit":"%","max":55,"min":0},{"label":"美元出口同比","value":25,"prev":18,"unit":"%YoY","max":30,"min":0},{"label":"含隐债负债率","value":73.2,"prev":68.5,"unit":"%","max":80,"min":0}]}'>
+<div class="weekly-chart" data-chart="bar" data-series='{"title":"中国 · 本期 vs 前值","color":"#b35922","indicators":[{"label":"制造业PMI","value":49.8,"prev":49.2,"unit":"%","max":55,"min":0},{"label":"新订单指数","value":50.6,"prev":48.5,"unit":"%","max":55,"min":0},{"label":"制造业用工","value":48.7,"prev":49,"unit":"%","max":55,"min":0},{"label":"服务业PMI","value":49.3,"prev":49.3,"unit":"%","max":55,"min":0},{"label":"美元出口同比","value":25,"prev":23.9,"unit":"%YoY","max":30,"min":0}]}'>
   <div class="weekly-chart-head"><h4>中国 · 本期 vs 前值</h4><span>CN</span></div>
   <div class="weekly-chart-fallback">
     <table><thead><tr><th>指标</th><th>本期</th><th>前值</th></tr></thead>
-    <tbody><tr><td>制造业PMI</td><td><strong>49.8%</strong></td><td>49.2%</td></tr><tr><td>新订单指数</td><td><strong>50.6%</strong></td><td>49.3%</td></tr><tr><td>制造业用工</td><td><strong>48.7%</strong></td><td>49%</td></tr><tr><td>服务业PMI</td><td><strong>49.3%</strong></td><td>49.3%</td></tr><tr><td>美元出口同比</td><td><strong>25%YoY</strong></td><td>18%YoY</td></tr><tr><td>含隐债负债率</td><td><strong>73.2%</strong></td><td>68.5%</td></tr></tbody></table>
+    <tbody><tr><td>制造业PMI</td><td><strong>49.8%</strong></td><td>49.2%</td></tr><tr><td>新订单指数</td><td><strong>50.6%</strong></td><td>48.5%</td></tr><tr><td>制造业用工</td><td><strong>48.7%</strong></td><td>49%</td></tr><tr><td>服务业PMI</td><td><strong>49.3%</strong></td><td>49.3%</td></tr><tr><td>美元出口同比</td><td><strong>25%YoY</strong></td><td>23.9%YoY</td></tr></tbody></table>
   </div>
 </div>
 
@@ -249,7 +238,7 @@ compare_one_liner: "中国以财政工具直接兜底金融负债端，日本在
               </div>
             </div>
           </td>
-          <td class="col-trend"><span class="radar-trend-pill is-up"><i class="fa fa-arrow-up" aria-hidden="true"></i> +1.3 pct</span></td>
+          <td class="col-trend"><span class="radar-trend-pill is-up"><i class="fa fa-arrow-up" aria-hidden="true"></i> +2.1 pct</span></td>
           <td class="col-note">外需拉动重回扩张区间，韧性超预期</td>
         </tr>
         <tr>
@@ -318,18 +307,18 @@ compare_one_liner: "中国以财政工具直接兜底金融负债端，日本在
           <td class="col-gauge">
             <div class="radar-mini-gauge">
               <div class="radar-gauge-track">
-                <div class="radar-gauge-midline" style="left: 57.5%;" title="前值 18.0%"></div>
+                <div class="radar-gauge-midline" style="left: 57.5%;" title="前值 23.9%"></div>
                 <div class="radar-gauge-fill is-up" style="width: 75.0%;"></div>
                 <div class="radar-gauge-val-marker" style="left: 75.0%;" title="当前值 +25.0%"></div>
               </div>
               <div class="radar-gauge-labels">
                 <span>0%</span>
-                <span class="radar-midline-label">前值 +18.0%</span>
+                <span class="radar-midline-label">前值 +23.9%</span>
                 <span>+35%</span>
               </div>
             </div>
           </td>
-          <td class="col-trend"><span class="radar-trend-pill is-up"><i class="fa fa-arrow-up" aria-hidden="true"></i> +7.0 pct</span></td>
+          <td class="col-trend"><span class="radar-trend-pill is-up"><i class="fa fa-arrow-up" aria-hidden="true"></i> +1.1 pct</span></td>
           <td class="col-note">达 4014.4 亿美元，技术密集型芯片单价领跑</td>
         </tr>
       </tbody>

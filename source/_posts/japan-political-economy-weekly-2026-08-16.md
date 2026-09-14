@@ -52,8 +52,8 @@ weekly_series: japan
 
 **发生了什么**
 
-- 日本银行公布的 7 月国内企业物价指数同比上涨 **7.2%**，略低于 6 月的 **7.3%** 和市场预期 **7.4%**；环比上涨 **0.1%**。
-- 非铁金属、石油煤炭和化工品是主要推力；円价计的进口物价在 6、7 月仍保持约 **30%** 的同比涨幅。
+- 日本银行公布的 7 月国内企业物价指数同比上涨 **7.2%**，略低于 6 月的 **7.3%** 和市场预期 **7.4%**；环比上涨 **0.1%**。（注：其后发布的 8 月速报将 7 月国内企业物价同比修正为 **+7.7%**，本文按最初发布值记录。）
+- 非铁金属、石油煤炭和化工品是主要推力；円价计的进口物价在 6、7 月保持约 **30%** 的同比涨幅（官方修正口径 7 月为 +29.3%）。
 
 **为什么重要**
 
@@ -83,7 +83,7 @@ weekly_series: japan
 
 秋季国会法案是否附带明确、可持续的财源条款；中央与地方的负担比例如何确定；“减税 1% + 定向给付”的设计会否继续调整。
 
-来源：[Bloomberg／Yahoo!ニュース，2026-08-10](https://news.yahoo.co.jp/articles/d74864dacccb9d32d2eb1aada973f9ae8ed52c42)；[毎日新聞转载，2026-08-10](https://topics.smt.docomo.ne.jp/article/mainichi/business/mainichi-20260810k0000m020267000c)；背景：[Reuters Japan，2026-08-05](https://jp.reuters.com/world/japan/MJPPYL5J7VOE3ANHIT4BSICGEY-2026-08-05/)
+来源：[Bloomberg／Yahoo!ニュース，2026-08-10](https://news.yahoo.co.jp/articles/d74864dacccb9d32d2eb1aada973f9ae8ed52c42)；毎日新聞（2026-08-10，转载链接已失效，事实以 Bloomberg 与 Yahoo! ニュース来源为准）；背景：[Reuters Japan，2026-08-05](https://jp.reuters.com/world/japan/MJPPYL5J7VOE3ANHIT4BSICGEY-2026-08-05/)
 
 ### 4. 景气观察者指数连续第三个月改善，但仍明显低于 50
 

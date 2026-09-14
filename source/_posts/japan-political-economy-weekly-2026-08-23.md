@@ -74,7 +74,7 @@ weekly_series: japan
 
 10年期收益率是否突破3%、月底概算要求是否正式采用3.8%，以及财政部会否调整国债发行结构。
 
-来源：[Reuters／Investing.com，2026-08-18](https://www.investing.com/news/economy-news/japans-10year-government-bond-yield-rises-to-threedecade-peak-4864126)；[日本相互证券主要期限收益率，2026-08-21](https://www.bb.jbts.co.jp/ja/historical/main_rate.htm)；[时事通信／nippon.com，2026-08-21](https://www.nippon.com/ja/news/yjj2026082100985/)
+来源：[Reuters／Investing.com，2026-08-18](https://www.investing.com/news/economy-news/japans-10year-government-bond-yield-rises-to-threedecade-peak-4864126)；[日本相互证券主要期限收益率，2026-08-21](https://www.bb.jbts.co.jp/ja/historical/main_rate.htm)。
 
 ### 3. 7月核心CPI回升至1.8%，表面低于2%但生活成本压力未消失
 
