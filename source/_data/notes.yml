@@ -1,6 +1,14 @@
 # 生活手记与自留地数据源 (Life Stream Notes)
 # 自动按顺序在 /life/ 页面展示，最新的一条排在最前面
 
+- id: note-1789395858416
+  date: "2026-09-14"
+  location: 东京
+  category: observation
+  badge: 日常观察
+  text: 发现俺们老中的AI至少用来校对文稿很不行，把我由奥特曼家做得好好的材料改得面目全非。
+  tags:
+    - 日常观察
 - id: note-1789394040462
   date: "2026-09-14"
   location: 东京
