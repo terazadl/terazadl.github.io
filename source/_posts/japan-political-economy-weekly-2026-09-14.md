@@ -33,7 +33,7 @@ compare_one_liner: "中国以五年规划与市场规则推进金融和产业的
 ## 上周观察清单回执
 
 1. **已兑现**：财务省 7 月国际收支速报（本周发布）——经常收支顺差 2 兆 9,889 亿日元（同比增 4,026 亿），第一次所得收支仍是绝对支柱，贸易收支转逆差。
-2. **已兑现**：内阁府 2026 年 4—6 月期 GDP 二次速报（本周发布）——实质环比 +0.4%（年率 +1.4%），私人消费 -0.1%、设备投资下修至 -0.9%，内需拖累延续。
+2. **已兑现**：内阁府 2026 年 4—6 月期 GDP 二次速报（本周发布）——实质环比 +0.4%（年率 +1.4%，较一次上修），私人消费 0.0%、设备投资 -0.9%（降幅较一次收窄），内需拖累延续。
 3. **继续跟踪**：9 月 17—18 日日银金融政策决定会合——本周委员讲话强化加息预期，市场重新为 9 月加息定价，决议本身仍在会合揭晓。
 4. **部分兑现**：自民党总裁选与临时国会前瞻——税制大纲已落笔（食品减税），人事博弈与临时国会税制立法进程仍在进行。
 
@@ -70,7 +70,7 @@ compare_one_liner: "中国以五年规划与市场规则推进金融和产业的
 
 **状态：9 月 11 日日银公布**
 
-- **发生了什么（事实）**：日银公布 8 月企业物价指数（CGPI）：国内企业物价同比上涨 **+7.6%**（环比 -0.2%），7 月修正值为 +7.7%。进口物价按日元计价同比 **+24.8%**（7 月修正 +29.3%），按合同货币计价 +7%；食品类 +4.3%，非铁金属 +43.3%。出口物价日元计价同比 +15.0%。
+- **发生了什么（事实）**：日银公布 8 月企业物价指数（CGPI）：国内企业物价同比上涨 **+7.6%**（环比 -0.2%，7 月修正为 +7.7%）。进口物价按日元计价同比 **+24.8%**（7 月修正 +29.3%），按合同货币计价 +16.7%；食品类 +4.3%，非铁金属 +43.3%。出口物价日元计价同比 +17.9%。
 - **为什么重要（分析判断）**：日元贬值带来的输入型物价压力仍是日本通胀的主引擎，且并非一次性的基数效应：即使环比回落，同比涨幅仍处 2023 年以来的高位区间。这会持续支撑日银「物价风险偏上行」的判断，也意味着食品减税在供给端传导尚未兑现前，物价体感难快速缓解。
 - **接下来关注什么**：9 月环比是否企稳；日元若升破 140 后输入物价回落的斜率；CGPI 对企业定价（PPI 传导至 CPI）的领先幅度。
 - **来源**：[日本银行：企业物价指数发布页（2026-09-11）](https://www.boj.or.jp/statistics/pi/cgpi_release/)；[日本银行：8 月 CGPI PDF（2026-09-11）](https://www.boj.or.jp/statistics/pi/cgpi_release/cgpi2608.pdf)
@@ -88,8 +88,8 @@ compare_one_liner: "中国以五年规划与市场规则推进金融和产业的
 
 **状态：9 月 8 日（窗口内发布）内閣府二次速报**
 
-- **发生了什么（事实）**：内閣府公布 2026 年 4—6 月期 GDP 二次速报：实质环比 **+0.4%**（换算年率 +1.4%），与一次速报持平；按项目拆分：私人消费 -0.1%、设备投资 -0.9%（较一次速报下修）、公共投资+，外需（净出口）为主要贡献项之一。
-- **为什么重要（分析判断）**：增长仍依赖外需，内需两大支柱（消费、投资）均弱：设备投资下修说明企业资本开支意愿受利率上升与中长期需求疑虑压制；消费在加薪兑现与实际工资回升之前难有起色。二次速报与一次基本一致，降低了统计噪音，但仍坐实「外需单引擎」结构。
+- **发生了什么（事实）**：内閣府公布 2026 年 4—6 月期 GDP 二次速报：实质环比 **+0.4%**（换算年率 +1.4%），较一次速报（+0.3%、年率 +1.1%）上修；按项目拆分：私人消费 0.0%、设备投资 -0.9%（较一次速报上修，降幅收窄）、公共需求 -0.8%，外需（净出口）为主要贡献项之一。
+- **为什么重要（分析判断）**：增长仍依赖外需，内需两大支柱（消费、投资）均弱：设备投资虽由上修拉动一次增速，但连续两期负增长，说明企业资本开支意愿仍受利率上升与中长期需求疑虑压制；消费在加薪兑现与实际工资回升之前难有起色。二次速报与一次方向一致但强度上修，降低了统计噪音，但仍坐实「外需单引擎」结构。
 - **接下来关注什么**：7—9 月期的先行指标（BSI、景气观察、零售、机械订单）；10 月政府经济对策对设备投资的刺激效果；工资回升对三季度消费的传导。
 - **来源**：[内阁府经济社会综合研究所：四半期别 GDP 速报（2026-09）](https://www.esri.cao.go.jp/jp/sna/sokuhou/sokuhou_top.html)
 
@@ -152,46 +152,46 @@ compare_one_liner: "中国以五年规划与市场规则推进金融和产业的
       <div class="weekly-radar-metric-body">
         <span class="weekly-radar-value">+0.4%</span>
       </div>
-      <div class="weekly-radar-note">年率 +1.4% · 消费 -0.1%、设备投资 -0.9%</div>
+      <div class="weekly-radar-note">年率 +1.4% · 消费 0.0%、设备投资 -0.9%</div>
     </div>
     <div class="weekly-radar-card is-japan">
       <div class="weekly-radar-card-head">
         <span class="weekly-radar-tag">JAPAN · 外部均衡</span>
-        <span class="weekly-radar-change is-up">↑ 顺差扩大</span>
+        <span class="weekly-radar-change is-up">↑ 由负转正</span>
       </div>
       <div class="weekly-radar-label">7 月经常收支</div>
       <div class="weekly-radar-metric-body">
         <span class="weekly-radar-value">2兆9,889亿 ¥</span>
       </div>
-      <div class="weekly-radar-note">同比 +4,026 亿 · 贸易收支转逆差</div>
+      <div class="weekly-radar-note">6 月 -923 亿（赤字转正）· 贸易收支转逆差</div>
     </div>
     <div class="weekly-radar-card is-japan">
       <div class="weekly-radar-card-head">
         <span class="weekly-radar-tag">JAPAN · 景气判断</span>
         <span class="weekly-radar-change is-up">↑ 改善</span>
       </div>
-      <div class="weekly-radar-label">全规模 BSI（7—9 月期）</div>
+      <div class="weekly-radar-label">大企业 BSI（7—9 月期）</div>
       <div class="weekly-radar-metric-body">
         <span class="weekly-radar-value">+5.3</span>
       </div>
-      <div class="weekly-radar-note">前值 -0.5 · 设备投资计划 +11.0%</div>
+      <div class="weekly-radar-note">前值 -0.5 · 全规模设备投资计划 +11.0%</div>
     </div>
   </div>
 </div>
 
-<div class="weekly-chart" data-chart="radar" data-series='{"title":"日本 · 数据雷达","color":"#3a5a6b","indicators":[{"label":"CGPI同比","value":7.6,"prev":7.7,"unit":"%YoY","max":12,"min":0},{"label":"进口物价同比","value":24.8,"prev":29.3,"unit":"%YoY","max":40,"min":0},{"label":"经常收支","value":29889,"prev":25863,"unit":"亿日元","max":40000,"min":0},{"label":"全规模BSI","value":5.3,"prev":-0.5,"unit":"pt","max":30,"min":-30}]}'>
+<div class="weekly-chart" data-chart="radar" data-series='{"title":"日本 · 数据雷达","color":"#3a5a6b","indicators":[{"label":"CGPI同比","value":7.6,"prev":7.7,"unit":"%YoY","max":12,"min":0},{"label":"进口物价同比","value":24.8,"prev":29.3,"unit":"%YoY","max":40,"min":0},{"label":"经常收支","value":29889,"prev":-923,"unit":"亿日元","max":40000,"min":-4000},{"label":"大企业BSI","value":5.3,"prev":-0.5,"unit":"pt","max":30,"min":-30}]}'>
   <div class="weekly-chart-head"><h4>日本 · 数据雷达</h4><span>JP</span></div>
   <div class="weekly-chart-fallback">
     <table><thead><tr><th>指标</th><th>本期</th><th>前值</th></tr></thead>
-    <tbody><tr><td>CGPI同比</td><td><strong>7.6%YoY</strong></td><td>7.7%YoY</td></tr><tr><td>进口物价同比</td><td><strong>24.8%YoY</strong></td><td>29.3%YoY</td></tr><tr><td>经常收支</td><td><strong>29889亿日元</strong></td><td>25863亿日元</td></tr><tr><td>全规模BSI</td><td><strong>5.3pt</strong></td><td>-0.5pt</td></tr></tbody></table>
+    <tbody><tr><td>CGPI同比</td><td><strong>7.6%YoY</strong></td><td>7.7%YoY</td></tr><tr><td>进口物价同比</td><td><strong>24.8%YoY</strong></td><td>29.3%YoY</td></tr><tr><td>经常收支</td><td><strong>29889亿日元</strong></td><td>-923亿日元(6月)</td></tr><tr><td>大企业BSI</td><td><strong>5.3pt</strong></td><td>-0.5pt</td></tr></tbody></table>
   </div>
 </div>
 
-<div class="weekly-chart" data-chart="bar" data-series='{"title":"日本 · 本期 vs 前值","color":"#3a5a6b","indicators":[{"label":"CGPI同比","value":7.6,"prev":7.7,"unit":"%YoY","max":12,"min":0},{"label":"进口物价同比","value":24.8,"prev":29.3,"unit":"%YoY","max":40,"min":0},{"label":"经常收支","value":29889,"prev":25863,"unit":"亿日元","max":40000,"min":0},{"label":"全规模BSI","value":5.3,"prev":-0.5,"unit":"pt","max":30,"min":-30}]}'>
+<div class="weekly-chart" data-chart="bar" data-series='{"title":"日本 · 本期 vs 前值","color":"#3a5a6b","indicators":[{"label":"CGPI同比","value":7.6,"prev":7.7,"unit":"%YoY","max":12,"min":0},{"label":"进口物价同比","value":24.8,"prev":29.3,"unit":"%YoY","max":40,"min":0},{"label":"经常收支","value":29889,"prev":-923,"unit":"亿日元","max":40000,"min":-4000},{"label":"大企业BSI","value":5.3,"prev":-0.5,"unit":"pt","max":30,"min":-30}]}'>
   <div class="weekly-chart-head"><h4>日本 · 本期 vs 前值</h4><span>JP</span></div>
   <div class="weekly-chart-fallback">
     <table><thead><tr><th>指标</th><th>本期</th><th>前值</th></tr></thead>
-    <tbody><tr><td>CGPI同比</td><td><strong>7.6%YoY</strong></td><td>7.7%YoY</td></tr><tr><td>进口物价同比</td><td><strong>24.8%YoY</strong></td><td>29.3%YoY</td></tr><tr><td>经常收支</td><td><strong>29889亿日元</strong></td><td>25863亿日元</td></tr><tr><td>全规模BSI</td><td><strong>5.3pt</strong></td><td>-0.5pt</td></tr></tbody></table>
+    <tbody><tr><td>CGPI同比</td><td><strong>7.6%YoY</strong></td><td>7.7%YoY</td></tr><tr><td>进口物价同比</td><td><strong>24.8%YoY</strong></td><td>29.3%YoY</td></tr><tr><td>经常收支</td><td><strong>29889亿日元</strong></td><td>-923亿日元(6月)</td></tr><tr><td>大企业BSI</td><td><strong>5.3pt</strong></td><td>-0.5pt</td></tr></tbody></table>
   </div>
 </div>
 
@@ -200,9 +200,9 @@ compare_one_liner: "中国以五年规划与市场规则推进金融和产业的
 | **8月国内企业物价 (CGPI) 同比** | **+7.6%** | 7 月修正 +7.7% | ↓ 环比 -0.2%，同比仍处高位 |
 | **8月进口物价（日元计价）同比** | **+24.8%** | 7 月修正 +29.3% | ↓ 回落但仍为通胀主引擎 |
 | **7月实际工资同比** | **+2.4%** | 名义 +4.7%（436,401 日元） | ↑ 明显回升，持续性待验 |
-| **4—6月期 GDP 实质环比** | **+0.4%** | 年率 +1.4% | → 与一次速报持平，内需仍弱 |
-| **7月经常收支** | **+2兆9,889亿日元** | 同比 +4,026 亿 | ↑ 顺差扩大，贸易收支转逆 |
-| **全规模 BSI（7—9 月期）** | **+5.3** | 前期 -0.5 | ↑ 转正，小型企业仍深负 |
+| **4—6月期 GDP 实质环比** | **+0.4%** | 一次速报 +0.3%（上修） | → 上修但内需仍弱 |
+| **7月经常收支** | **+2兆9,889亿日元** | 6月 -923 亿（转正） | ↑ 由负转正，贸易收支转逆 |
+| **大企业 BSI（7—9 月期）** | **+5.3** | 前期 -0.5 | ↑ 转正，中小企业仍深负 |
 | **日银政策利率（现行）** | **约 1.0%** | 中性利率估算 1.1%—2.5% | → 委员称继续加息必要性增加 |
 
 数据来源：[日本银行：CGPI 发布页（2026-09-11）](https://www.boj.or.jp/statistics/pi/cgpi_release/)；[厚生劳动省：每月勤劳统计 7 月速报（2026-09-08）](https://www.mhlw.go.jp/toukei/itiran/roudou/monthly/r08/2607p/2607p.html)；[内阁府：GDP 速报（2026-09）](https://www.esri.cao.go.jp/jp/sna/sokuhou/sokuhou_top.html)；[财务省：7 月国际收支速报（2026-09-08）](https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202607.htm)。
@@ -272,7 +272,7 @@ compare_one_liner: "中国以五年规划与市场规则推进金融和产业的
 ## 口径与来源说明
 
 - 数据来源：日本银行、财务省、厚生劳动省、内阁府经济社会综合研究所、冲绳县选举管理委员会、朝日新闻、FNN、Car Watch、内阁府（经济安全保障推进法基本方针）。
-- BSI 各项细分（全规模、小型企业、设备投资计划）以财务省法人企业景气预测调查（BSI）发布数据为准，本期内未能逐项读取细目 PDF，数字以调查发布口径引用：[财务省：法人企业景气预测调查结果入口](https://www.mof.go.jp/pri/reference/bos/results/data.htm)。
+- BSI 各项读数（大企业 +5.3、中小企业 -10.9、全规模设备投资计划 +11.0%）已对照财务省发布的调查 Excel 细表逐项核对，口径以财务省发布为准：[财务省：法人企业景气预测调查结果入口](https://www.mof.go.jp/pri/reference/bos/results/data.htm)。
 - 冲绳知事选得票数为 9 月 13 日开票（最终）结果；候选人背景与边野古立场表述分别根据朝日新闻、时事通信、读卖新闻、琉球新报报道，投票率与具体得票明细以县选举管理委员会公布为准。
 - 每条核心事实均附公开可核验来源；事实与判断严格分离；本文不构成任何投资建议。
 
@@ -282,7 +282,7 @@ compare_one_liner: "中国以五年规划与市场规则推进金融和产业的
 
 **状态：9 月 11 日财务省公布**
 
-- **发生了什么（事实）**：财务省法人企业景气预测调查（BSI）7—9 月期结果：全规模企业当前景气判断 **+5.3**（前期 -0.5），由负转正；大型企业改善明显，小型企业仍为 **-10.9** 的深度负值区间；2026 年度设备投资计划较上年 +11.0%。
+- **发生了什么（事实）**：财务省法人企业景气预测调查（BSI）7—9 月期结果：大企业（全产业）当前景气判断 **+5.3**（前期 -0.5），由负转正；中小企业仍为 **-10.9** 的深度负值区间；2026 年度设备投资计划（全规模、含软件、除土地）较上年 +11.0%。
 - **为什么重要（分析判断）**：大企业景气回暖与中小企业深负的分化，与「名义工资普涨、但中小企业利润承压」的现状互为印证——大企业涨价能力强、出口敞口大，小企业被迫承受成本转嫁；这解释了物价高企下中小企业加薪意愿受限的结构性原因。
 - **来源**：[财务省：法人企业景气预测调查（BSI）结果入口（2026-09-11）](https://www.mof.go.jp/pri/reference/bos/results/data.htm)
 
