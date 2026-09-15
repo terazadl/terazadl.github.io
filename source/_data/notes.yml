@@ -1,6 +1,14 @@
 # 生活手记与自留地数据源 (Life Stream Notes)
 # 自动按顺序在 /life/ 页面展示，最新的一条排在最前面
 
+- id: note-1789474490968
+  date: "2026-09-15"
+  location: 东京
+  category: observation
+  badge: 日常观察
+  text: 我的一个语校同学，是香港前五的大学毕业的，拿Jfind签证，虽然没有正式上班，但一直在接freelancer的工作，专业是design，但目前已经在用astra做游戏了。新时代像梦一样。
+  tags:
+    - 日常观察
 - id: note-1789395858416
   date: "2026-09-14"
   location: 东京
