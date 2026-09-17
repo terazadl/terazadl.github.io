@@ -1,6 +1,14 @@
 # 生活手记与自留地数据源 (Life Stream Notes)
 # 自动按顺序在 /life/ 页面展示，最新的一条排在最前面
 
+- id: note-1789616006391
+  date: "2026-09-17"
+  location: 东京
+  category: observation
+  badge: 日常观察
+  text: 东京街头又能闻到桂花了。秋天是母亲生日的季节，但也是我外公去世的季节..
+  tags:
+    - 日常
 - id: note-1789474490968
   date: "2026-09-15"
   location: 东京
