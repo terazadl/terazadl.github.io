@@ -1,6 +1,14 @@
 # 生活手记与自留地数据源 (Life Stream Notes)
 # 自动按顺序在 /life/ 页面展示，最新的一条排在最前面
 
+- id: note-1789653027532
+  date: "2026-09-17"
+  location: 东京
+  category: observation
+  badge: 日常观察
+  text: 和邓煜一样喜欢《漂流瓶》这首歌。以前还经常当M面唱呢。
+  tags:
+    - 日常观察
 - id: note-1789616006391
   date: "2026-09-17"
   location: 东京
