@@ -1,6 +1,14 @@
 # 生活手记与自留地数据源 (Life Stream Notes)
 # 自动按顺序在 /life/ 页面展示，最新的一条排在最前面
 
+- id: note-1789776848833
+  date: "2026-09-19"
+  location: 东京
+  category: observation
+  badge: 日常观察
+  text: 准备了一堆项目的内容，结果HR考两个基础的财务知识，用进废退，久了没接触加上又是日语，懵得很彻底。
+  tags:
+    - 日常观察
 - id: note-1789653027532
   date: "2026-09-17"
   location: 东京
