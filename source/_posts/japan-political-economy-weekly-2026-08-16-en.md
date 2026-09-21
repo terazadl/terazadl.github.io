@@ -31,7 +31,7 @@ weekly_series: japan
 ## Executive summary
 
 - USD/JPY returned to the **159 area** by Aug 14, recovering most of the post-intervention move. Yen weakness still reflects the US–Japan rate gap, fiscal expectations and uncertainty over BOJ timing.
-- The BOJ’s July domestic corporate-goods price index rose **7.2% y/y**, just below June’s 7.3% and the 7.4% market expectation. Yen-denominated import prices remained around 30% higher y/y. (The August flash release later revised July CGPI to +7.7% y/y and import prices to +29.3% y/y; this brief records the initial print.)
+- The BOJ’s July domestic corporate-goods price index rose **7.2% y/y**, just below June’s 7.3%; the 7.4% market expectation comes from a Reuters survey, not a BOJ release. Yen-denominated import prices remained around 30% higher y/y. (The August flash release later revised July CGPI to +7.7% y/y and import prices to +29.3% y/y; this brief records the initial print.)
 - The government’s planned food consumption-tax cut (8% to 1% from April 2027 for two years) moved into a dispute over roughly **¥5 trillion** of permanent funding and the central–local burden.
 - July Economy Watchers’ current DI rose 1.7 points to **45.7**, its third monthly improvement, but stayed below the 50 expansion line.
 - President Putin visited Iturup (Etorofu), narrowing room for Japan–Russia rapprochement. Takaichi’s first August 15 address omitted the word “remorse”; four ministers visited Yasukuni, prompting Chinese and Korean protests.
@@ -51,7 +51,7 @@ USD/JPY traded around 159.24–159.28 in Tokyo on Aug 14 and in the high 159s in
 
 **Confirmed | Aug 13**
 
-The BOJ’s July domestic corporate-goods price index rose **7.2% y/y**, versus 7.3% in June and 7.4% expected; it rose 0.1% m/m. Non-ferrous metals, oil and chemicals led the increase.
+The BOJ’s July domestic corporate-goods price index rose **7.2% y/y**, versus 7.3% in June and 7.4% expected (Reuters survey, not BOJ-published); it rose 0.1% m/m. Non-ferrous metals, oil and chemicals led the increase.
 
 **Why it matters (analysis):** High upstream costs can squeeze smaller firms if they cannot pass them through, while further pass-through keeps pressure on households and the BOJ. [BOJ CGPI](https://www.boj.or.jp/statistics/pi/cgpi_release/cgpi2607.pdf) · [NLI Research](https://www.nli-research.co.jp/report/detail/id=86545?site=nli)
 
@@ -108,10 +108,10 @@ First-half sales rose **32.7% to ¥534.4 billion** and operating profit **48.5% 
 | Indicator | Actual | Previous / expectation | Read-through |
 |---|---:|---:|---|
 | July CGPI | +7.2% y/y; +0.1% m/m | June +7.3%; expected +7.4% | Upstream costs remain high |
-| Economy Watchers current DI | 45.7 | +1.7 points m/m | Improving, still below 50 |
-| Outlook DI | 45.8 | +0.1 points | Recovery confidence weak |
+| Economy Watchers current DI | 45.7 | Prev 44.0 (+1.7 pts this month) | Improving, still below 50 |
+| Outlook DI | 45.8 | Prev 45.7 (+0.1 pts this month) | Recovery confidence weak |
 | USD/JPY Aug 14 | About 159.25 | Intervention background about 155 | Yen weakness returns |
-| Nikkei 225 Aug 14 | 68,713.80 | +405.21 day; +3,000+ week | Asset strength, not household recovery |
+| Nikkei 225 Aug 14 | 68,713.80 | Prev close 68,308.59 (+405.21 on the day) | Asset strength, not household recovery |
 
 ## Politics and institutions
 

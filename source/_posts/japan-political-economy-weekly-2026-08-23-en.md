@@ -54,13 +54,13 @@ Real GDP increased 0.3% q/q and nominal GDP 1.2%. Domestic demand contributed **
 
 The 10-year yield touched **2.945%** on Aug 18 and the new issue closed at 2.870% on Aug 21. Reports said the MOF was considering a 3.8% rate for FY2027 interest-cost estimates, versus 3.0% in the FY2026 budget.
 
-**Why it matters (analysis):** Existing debt is not instantly repriced at 3.8%, but refinancing costs rise over time. Tax cuts and expansionary spending will face a stronger bond-market test. [Reuters/Investing](https://www.investing.com/news/economy-news/japans-10year-government-bond-yield-rises-to-threedecade-peak-4864126) · [JGB rates](https://www.bb.jbts.co.jp/ja/historical/main_rate.htm)
+**Why it matters (analysis):** Existing debt is not instantly repriced at 3.8%, but refinancing costs rise over time. Tax cuts and expansionary spending will face a stronger bond-market test. [Reuters/Investing](https://www.investing.com/news/economy-news/japans-10year-government-bond-yield-rises-to-threedecade-peak-4864126) · [JGB rates](https://www.bb.jbts.co.jp/ja/historical/main_rate.htm); related Jiji Press reporting (via secondary citation; no public link)
 
 ### 3. July core CPI returns to 1.8%, with food prices still high
 
 **Confirmed | Aug 21**
 
-Headline CPI rose 1.9% y/y, core CPI 1.8% and core-core CPI 1.9%. Fresh-food-excluding food prices rose 3.0%; fuel-tax and related measures reduced headline CPI by an estimated 0.35 points.
+Headline CPI rose 1.9% y/y, core CPI 1.8% and core-core CPI 1.9%. Fresh-food-excluding food prices rose 3.0%; the Statistics Bureau’s contribution-breakdown estimate puts the drag from the fuel-tax abolition and related measures on headline CPI at about 0.35 points for the month.
 
 **Why it matters (analysis):** Subsidised gasoline lowers the headline while food and services keep rising. This preserves a case for BOJ normalisation but argues for a careful pace while demand is weak. [Statistics Bureau CPI](https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/zenkoku.pdf)
 
@@ -84,7 +84,7 @@ Core private machinery orders rose 9.7% m/m; manufacturing orders rose 19.9% and
 
 **Media poll | Aug 22–23**
 
-Kyodo’s nationwide telephone survey put approval at **50.2%**, down 3.5 points, and disapproval at 33.9%. Different pollsters and methods should not be blended.
+Kyodo’s nationwide telephone survey put approval at **50.2%**, down 3.5 points from the July survey (back-computed at 53.7%), and disapproval at 33.9%. Different pollsters and methods should not be blended.
 
 **Why it matters (analysis):** The Cabinet still has a workable base, but disaster response and tax-cut promises have not produced stable political dividends. [Kyodo via livedoor](https://news.livedoor.com/article/detail/32137534/)
 
@@ -106,7 +106,7 @@ Rakuten was reported to be helping German defence company Helsing promote the HX
 
 ## Data radar
 
-| Indicator | Actual | Previous / expectation | Read-through |
+| Indicator | Actual | Prev / intra-week ref | Read-through |
 |---|---:|---:|---|
 | Q2 real GDP | +0.3% q/q; +1.1% annualised | Domestic demand -0.2 pts | Growth quality weak |
 | July core CPI | +1.8% y/y | June +1.6% | BOJ hike window remains open |

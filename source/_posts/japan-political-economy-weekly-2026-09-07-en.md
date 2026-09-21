@@ -34,7 +34,7 @@ weekly_series: japan
 - **Debt-servicing budget hits record:** The Ministry of Finance aggregated FY2027 general-account budget requests at **¥143.7 trillion**, with debt-servicing costs climbing to **¥36.6 trillion** under an interest-rate assumption of 3.8%.
 - **Real wages keep rising:** July nominal cash earnings grew 4.7%, with inflation-adjusted real wages up **+2.4% y/y** for a seventh consecutive month.
 - **Retail JGB yields step up:** MOF set the initial coupon for the 197th 10-year variable retail JGB tranche at **1.87%**, accelerating the repricing of domestic funding costs and floating mortgages.
-- **September rate-hike pricing holds firm:** Driven by Middle East energy risks and JGB 10-year yields near 3%, swap markets maintained high probabilities for an eventual policy rate hike to **1.25%**.
+- **September rate-hike pricing holds firm:** Driven by firm inflation and wage data and rising JGB yields (10-year near 2.96%, a three-decade high), OIS and futures markets maintained firm pricing of an additional 25 bp hike to **1.25%** (market pricing is an observation, not a BOJ release). Notably, the yen actually strengthened this week (USDJPY 159.52→153.50), so FX was not a driver of hike pricing.
 - **Semiconductor supply chain friction:** China’s MOFCOM imposed provisional anti-dumping security deposits on Japanese dichlorosilane, injecting trade friction into high-purity precursor gas exports.
 
 ## Core developments
@@ -49,10 +49,10 @@ Central-government requests hit a fourth consecutive all-time high of ¥143.7 tr
 MHLW's preliminary Monthly Labour Survey recorded nominal wage growth of 4.7% y/y in July, with inflation-adjusted real wages rising 2.4% y/y for a seventh consecutive month as the wage-price cycle firms.
 
 ### 4. Retail JGB coupons raised to 1.87%
-The Finance Ministry's 197th 10-year variable retail bond tranche offered 1.87%, reflecting benchmark yields near 3%. While boosting interest income for elderly savers, it signals higher deposit-gathering costs for major banks and upward pressure on mortgage lending rates.
+The Finance Ministry's 197th 10-year variable retail bond tranche offered 1.87%, reflecting benchmark yields near 2.96%. While boosting interest income for elderly savers, it signals higher deposit-gathering costs for major banks and upward pressure on mortgage lending rates.
 
 ### 5. Hawkish expectations test the BOJ ahead of September 17–18
-With 10-year JGB yields near 3% and oil prices supported by Middle East tensions, the BOJ faces an acute policy trilemma: holding rates invites further yen depreciation and imported inflation, while hiking risks compounding household mortgage distress and government debt charges.
+Driven by firm inflation and wage data and rising JGB yields, OIS and futures markets held firm pricing of an additional 25 bp hike to **1.25%** at the September 17–18 meeting (OIS and futures pricing is market observation, not published by the BOJ), with the 10-year JGB yield near 2.96%, a three-decade high. Notably, the yen actually strengthened this week (USDJPY fell from 159.52 to 153.50), so FX was not a driver of hike pricing. The BOJ still faces an acute policy trilemma: holding rates invites renewed yen weakness and imported inflation, while hiking risks compounding household mortgage distress and government debt charges.
 
 ### 6. Chinese anti-dumping measures on Japanese dichlorosilane
 China’s Ministry of Commerce initiated provisional anti-dumping deposits on imports of Japanese dichlorosilane, a critical precursor gas for epitaxial silicon and advanced wafer fabrication. This escalates bilateral tech friction into upstream chemical materials.

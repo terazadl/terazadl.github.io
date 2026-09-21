@@ -140,7 +140,7 @@ The Constitutional Democratic Party chose election and parliamentary cooperation
 | Unemployment | 2.4% | June 2.5% | Labour market remains tight |
 | Job-offers ratio | 1.18 | June 1.18 | Hiring demand is flat |
 | 10-year JGB, Aug 28 | 2.925% | Prior week 2.870% | Fiscal and hike expectations lift term premium |
-| USD/JPY, Aug 28 | 159.52–53 | Prior week about 158.8 | Yen weaker; not a welfare indicator |
+| USD/JPY, Aug 28 | 159.52 | Prev 158.80 | USDJPY rose to 159.52 (prev 158.80), i.e. yen weaker; rate-differential and energy-bill constraints remain |
 | Nikkei 225, Aug 28 | 66,405.56 | Prior week 66,016.36 | Equities up; household income need not follow |
 
 ## Politics and institutions

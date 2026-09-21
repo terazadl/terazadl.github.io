@@ -54,7 +54,7 @@ weekly_series: japan
 
 10年利回りは2.945％まで上昇し、8月21日の新発債は2.870％で引けた。2027年度の利払い計算に3.8％を置く案が報じられたが、市場金利予測ではない。
 
-**重要性（分析判断）：** 既発債が直ちに3.8％で再評価されるわけではないが、借換えコストは時間とともに上昇する。 [市場報道](https://www.investing.com/news/economy-news/japans-10year-government-bond-yield-rises-to-threedecade-peak-4864126)・[国債利回り](https://www.bb.jbts.co.jp/ja/historical/main_rate.htm)
+**重要性（分析判断）：** 既発債が直ちに3.8％で再評価されるわけではないが、借換えコストは時間とともに上昇する。 [市場報道](https://www.investing.com/news/economy-news/japans-10year-government-bond-yield-rises-to-threedecade-peak-4864126)・[国債利回り](https://www.bb.jbts.co.jp/ja/historical/main_rate.htm)；時事通信の関連報道（転述経由、原文の公開リンクなし）
 
 ### 3. 7月コアCPIは1.8％、食品の負担は続く
 
@@ -84,7 +84,7 @@ weekly_series: japan
 
 **メディア調査｜8月22〜23日**
 
-共同通信の全国電話調査で支持率は50.2％（前回比-3.5ポイント）、不支持率は33.9％。調査機関・時期・方法が違う数字と混ぜてはいけない。[共同通信](https://news.livedoor.com/article/detail/32137534/)
+共同通信の全国電話調査で支持率は50.2％（7月調査＝減少幅から逆算で53.7％比-3.5ポイント）、不支持率は33.9％。調査機関・時期・方法が違う数字と混ぜてはいけない。[共同通信](https://news.livedoor.com/article/detail/32137534/)
 
 **重要性（分析判断）：** 政権は運営可能な基盤を保つが、災害対応と減税公約の政治的配当は安定していない。
 
@@ -106,7 +106,7 @@ weekly_series: japan
 
 ## データ・レーダー
 
-| 指標 | 今回 | 前回 | 含意 |
+| 指標 | 今回 | 前回／週内参照 | 含意 |
 |---|---:|---:|---|
 | 実質GDP | 前期比+0.3％、年率+1.1％ | 内需-0.2ポイント | 純輸出が弱さを隠す |
 | コアCPI | +1.8％ | 6月+1.6％ | 利上げ余地は残る |
