@@ -5,14 +5,14 @@
   <id>https://terazadl.github.io/</id>
   <link href="https://terazadl.github.io/atom.xml" rel="self"/>
   <link href="https://terazadl.github.io/"/>
-  <updated>2026-09-21T07:33:38.397Z</updated>
+  <updated>2026-09-21T11:03:52.837Z</updated>
   <author><name>Lei Deng</name></author>
   <entry>
     <title>中国政经周报：生产偏强需求偏弱，中美磋商重启</title>
     <id>https://terazadl.github.io/2026/09/china-political-economy-weekly-2026-09-21-zh/</id>
     <link href="https://terazadl.github.io/2026/09/china-political-economy-weekly-2026-09-21-zh/"/>
     <published>2026-09-21T00:00:00.000Z</published>
-    <updated>2026-09-21T07:33:38.397Z</updated>
+    <updated>2026-09-21T11:03:52.837Z</updated>
     <summary type="html"><![CDATA[8月工业增加值回升至5.2%但社零仅增长0.4%，固投与房地产开发降幅扩大，财政支出慢于收入；美联储加息后人民币走强，中美经贸磋商在纽约开启。]]></summary>
     <content type="html"><![CDATA[<blockquote>
 <p><strong>报道区间：</strong> 2026 年 9 月 14 日至 9 月 20 日（北京时间）。只纳入首次公开发布时间落在窗口内的新闻；标题时间或网页更新时间不作为替代。发布于 2026 年 9 月 21 日。<br><strong>语言版本说明：</strong> 中文为完整研判版；同期日本周报参见 <a href="/2026/09/japan-political-economy-weekly-2026-09-21/">日本政经周报：加息与食品减税并行</a>。</p>
@@ -168,8 +168,7 @@
 <div class="weekly-chart" data-chart="bar" data-series='{"title":"中国 · 本期 vs 前值","color":"#b35922","indicators":[{"label":"工业增加值同比","value":5.2,"prev":4.5,"unit":"%","max":8,"min":0},{"label":"城镇调查失业率","value":5.3,"prev":5.2,"unit":"%","max":8,"min":0},{"label":"公共预算收入(累计)","value":5.7,"prev":5.8,"unit":"%YoY","max":10,"min":0},{"label":"LPR 1年期","value":3,"prev":3,"unit":"%","max":5,"min":0},{"label":"LPR 5年以上","value":3.5,"prev":3.5,"unit":"%","max":5,"min":0}]}'>
   <div class="weekly-chart-head"><h4>中国 · 本期 vs 前值</h4><span>CN</span></div>
   <div class="weekly-chart-fallback">
-    <table><thead><tr><th>指标</th><th>本期</th><th>前值</th></tr></thead>
-    <tbody><tr><td>工业增加值同比</td><td><strong>5.2%</strong></td><td>4.5%</td></tr><tr><td>城镇调查失业率</td><td><strong>5.3%</strong></td><td>5.2%</td></tr><tr><td>公共预算收入(累计)</td><td><strong>5.7%YoY</strong></td><td>5.8%YoY</td></tr><tr><td>LPR 1年期</td><td><strong>3%</strong></td><td>3%</td></tr><tr><td>LPR 5年以上</td><td><strong>3.5%</strong></td><td>3.5%</td></tr></tbody></table>
+    <p>本期与前值对照与上方「数据雷达」相同；启用 JavaScript 可查看柱状对比图。</p>
   </div>
 </div>
 
@@ -307,7 +306,7 @@
     <id>https://terazadl.github.io/2026/09/japan-political-economy-weekly-2026-09-21/</id>
     <link href="https://terazadl.github.io/2026/09/japan-political-economy-weekly-2026-09-21/"/>
     <published>2026-09-21T00:00:00.000Z</published>
-    <updated>2026-09-21T07:33:38.400Z</updated>
+    <updated>2026-09-21T11:03:52.841Z</updated>
     <summary type="html"><![CDATA[政府阁议通过食品减税与就业者负担减轻支援金大纲，日银以7比2加息至1.25%；8月核心CPI回落至1.7%（约0.62pct为能源补贴效果），贸易逆差扩大，财源可信度与加息节奏成为两条验证线。]]></summary>
     <content type="html"><![CDATA[<blockquote>
 <p><strong>报道区间：</strong> 2026 年 9 月 14 日至 9 月 20 日（日本时间）。只纳入首次公开发布时间落在窗口内的新闻；此前的党内减税大纲、7 月工资与二季度 GDP 仅作背景。发布于 2026 年 9 月 21 日。<br><strong>语言版本说明：</strong> 中文为完整研判版；同期中国周报参见 <a href="/2026/09/china-political-economy-weekly-2026-09-21-zh/">中国政经周报：生产偏强需求偏弱，中美磋商重启</a>。</p>
@@ -455,8 +454,7 @@
 <div class="weekly-chart" data-chart="bar" data-series='{"title":"日本 · 本期 vs 前值","color":"#3a5a6b","indicators":[{"label":"政策利率目标","value":1.25,"prev":1,"unit":"%","max":2,"min":0},{"label":"核心CPI同比","value":1.7,"prev":1.8,"unit":"%","max":4,"min":0},{"label":"出口同比","value":19.3,"prev":23.2,"unit":"%YoY","max":30,"min":0},{"label":"进口同比","value":28,"prev":27.9,"unit":"%YoY","max":40,"min":0},{"label":"核心机械订单环比","value":-3.7,"prev":9.7,"unit":"%","max":15,"min":-10},{"label":"美元兑日元","value":157.49,"prev":154.22,"unit":"","max":165,"min":145}]}'>
   <div class="weekly-chart-head"><h4>日本 · 本期 vs 前值</h4><span>JP</span></div>
   <div class="weekly-chart-fallback">
-    <table><thead><tr><th>指标</th><th>本期</th><th>前值</th></tr></thead>
-    <tbody><tr><td>政策利率目标</td><td><strong>1.25%</strong></td><td>1%</td></tr><tr><td>核心CPI同比</td><td><strong>1.7%</strong></td><td>1.8%</td></tr><tr><td>出口同比</td><td><strong>19.3%YoY</strong></td><td>23.2%YoY</td></tr><tr><td>进口同比</td><td><strong>28%YoY</strong></td><td>27.9%YoY</td></tr><tr><td>核心机械订单环比</td><td><strong>-3.7%</strong></td><td>9.7%</td></tr><tr><td>美元兑日元</td><td><strong>157.49</strong></td><td>154.22</td></tr></tbody></table>
+    <p>本期与前值对照与上方「数据雷达」相同；启用 JavaScript 可查看柱状对比图。</p>
   </div>
 </div>
 
@@ -582,7 +580,7 @@
     <id>https://terazadl.github.io/2026/09/china-political-economy-weekly-2026-09-14-zh/</id>
     <link href="https://terazadl.github.io/2026/09/china-political-economy-weekly-2026-09-14-zh/"/>
     <published>2026-09-14T00:00:00.000Z</published>
-    <updated>2026-09-21T07:33:38.397Z</updated>
+    <updated>2026-09-21T11:03:52.837Z</updated>
     <summary type="html"><![CDATA[金融“十五五”规划进入落实阶段，中小企业回款与反低价竞争规则同周落地；8月出口与PPI偏强，但核心CPI温和、车市楼市仍弱。]]></summary>
     <content type="html"><![CDATA[<blockquote>
 <p><strong>报道区间：</strong> 2026 年 9 月 7 日至 9 月 13 日（北京时间）。只纳入首次公开发布时间落在窗口内的新闻；标题时间或网页更新时间不作为替代。发布于 2026 年 9 月 14 日。<br><strong>语言版本说明：</strong> 中文为完整研判版；同期日本周报参见 <a href="/2026/09/japan-political-economy-weekly-2026-09-14/">日本政经周报：食品减税落笔与加息信号升温</a>。</p>
@@ -590,7 +588,7 @@
 <h2 id="本周主线"><a href="#本周主线" class="headerlink" title="本周主线"></a>本周主线</h2><p>金融强国建设“十五五”规划正式进入落实阶段，配套 9 份央行行动方案与更具包容性的资本市场制度改革同周公布；同时，中小企业回款治理与工业品成本调查两项规则落地，把「稳增长」重新锚定在<strong>支付纪律与市场秩序</strong>上。数据面继续呈现「外强内弱」：8 月出口、进口与 PPI 读数偏强，但核心 CPI 温和、车市深跌、土地市场分化，居民端需求仍未全面回暖。</p>
 <h2 id="上周观察清单回执"><a href="#上周观察清单回执" class="headerlink" title="上周观察清单回执"></a>上周观察清单回执</h2><ol>
 <li><strong>已兑现</strong>：9 月 9 日国家统计局公布 8 月 CPI 与 PPI——CPI 同比 +0.8%、核心 CPI +1.0%，PPI 同比 +3.8%，PPI 高于市场预期，CPI 符合预期。<a href="https://www.stats.gov.cn/sj/sjjd/202609/t20260909_1965261.html">国家统计局解读</a></li>
-<li><strong>部分兑现</strong>：9 月 10—15 日人民银行 8 月金融数据窗口——央行公布前 8 个月社会融资规模增量累计 23.91 万亿元；按此前 7 个月累计 22.25 万亿元推算，8 月单月增量为 1.66 万亿元。居民与企业中长期贷款结构、M1 等细项仍待官方通稿完整披露。<a href="https://www.jiemian.com/article/15093161.html">界面新闻：央行公布前八个月社融（2026-09-14）</a></li>
+<li><strong>部分兑现</strong>：9 月 10—15 日人民银行 8 月金融数据窗口——央行公布前 8 个月社会融资规模增量累计 23.91 万亿元；按此前 7 个月累计 22.25 万亿元推算，8 月单月增量约 1.66 万亿元（按累计数推算）。居民与企业中长期贷款结构、M1 等细项仍待官方通稿完整披露。<a href="https://www.jiemian.com/article/15093161.html">界面新闻：央行公布前八个月社融（2026-09-14）</a></li>
 <li><strong>继续跟踪</strong>：9 月 15 日统计局 8 月国民经济运行情况——尚未到发布日，工业增加值、社零与投资数据将在下期核验。</li>
 <li><strong>继续跟踪</strong>：财政部 3000 亿元特别国债发行筹备——本周国新办发布会进一步披露金融“十五五”落实安排，但首期发行窗口与大行险企定增落地进度仍未公告。</li>
 </ol>
@@ -729,11 +727,11 @@
 <div class="weekly-chart" data-chart="bar" data-series='{"title":"中国 · 本期 vs 前值","color":"#b35922","indicators":[{"label":"CPI同比","value":0.8,"prev":0.5,"unit":"%","max":4,"min":0},{"label":"核心CPI同比","value":1.0,"prev":0.9,"unit":"%","max":4,"min":0},{"label":"PPI同比","value":3.8,"prev":3.5,"unit":"%","max":8,"min":0},{"label":"出口同比(美元)","value":25,"prev":23.9,"unit":"%YoY","max":40,"min":0},{"label":"进口同比(美元)","value":28.2,"prev":27.5,"unit":"%YoY","max":40,"min":0},{"label":"外汇储备(月末)","value":34383,"prev":34188,"unit":"亿美元","max":40000,"min":0}]}'>
   <div class="weekly-chart-head"><h4>中国 · 本期 vs 前值</h4><span>CN</span></div>
   <div class="weekly-chart-fallback">
-    <table><thead><tr><th>指标</th><th>本期</th><th>前值</th></tr></thead>
-    <tbody><tr><td>CPI同比</td><td><strong>0.8%</strong></td><td>0.5%</td></tr><tr><td>核心CPI同比</td><td><strong>1.0%</strong></td><td>0.9%</td></tr><tr><td>PPI同比</td><td><strong>3.8%</strong></td><td>3.5%</td></tr><tr><td>出口同比(美元)</td><td><strong>25%YoY</strong></td><td>23.9%YoY</td></tr><tr><td>进口同比(美元)</td><td><strong>28.2%YoY</strong></td><td>27.5%YoY</td></tr><tr><td>外汇储备(月末)</td><td><strong>34383亿美元</strong></td><td>34188亿美元</td></tr></tbody></table>
+    <p>本期与前值对照与上方「数据雷达」相同；启用 JavaScript 可查看柱状对比图。</p>
   </div>
 </div>
 
+<p>下表仅列雷达卡与上方图表未覆盖的读数（CPI、核心 CPI、PPI、进出口与外储见上方卡片与图表）。</p>
 <table>
 <thead>
 <tr>
@@ -744,52 +742,16 @@
 </tr>
 </thead>
 <tbody><tr>
-<td><strong>8月 CPI 同比</strong></td>
-<td align="right"><strong>+0.8%</strong></td>
-<td align="right">前值 +0.5%，预期 +0.8%</td>
-<td>↑ 回升、符合预期，食品仍降 1.4%</td>
-</tr>
-<tr>
-<td><strong>8月核心 CPI 同比</strong></td>
-<td align="right"><strong>+1.0%</strong></td>
-<td align="right">前值 +0.9%</td>
-<td>↑ 温和回升，居民需求修复偏缓</td>
-</tr>
-<tr>
-<td><strong>8月 PPI 同比</strong></td>
-<td align="right"><strong>+3.8%</strong></td>
-<td align="right">前值 +3.5%，预期 +3.6%</td>
-<td>↑ 涨幅扩大、高于预期，上游利润改善</td>
-</tr>
-<tr>
-<td><strong>8月出口同比（美元）</strong></td>
-<td align="right"><strong>+25.0%</strong></td>
-<td align="right">前值 +23.9%</td>
-<td>↑ 外需偏强，基数与价格贡献明显</td>
-</tr>
-<tr>
-<td><strong>8月进口同比（美元）</strong></td>
-<td align="right"><strong>+28.2%</strong></td>
-<td align="right">前值 +27.5%</td>
-<td>↑ 高位加快</td>
-</tr>
-<tr>
 <td><strong>8月贸易顺差</strong></td>
 <td align="right"><strong>1190.9 亿美元</strong></td>
-<td align="right">前月稳健高位</td>
+<td align="right">7月 1124.99 亿美元</td>
 <td>↑ 单月顺差再扩大</td>
-</tr>
-<tr>
-<td><strong>8月末外汇储备</strong></td>
-<td align="right"><strong>34383 亿美元</strong></td>
-<td align="right">7 月末 34188 亿美元</td>
-<td>↑ 增加 195 亿美元（+0.57%）</td>
 </tr>
 <tr>
 <td><strong>8月乘用车零售</strong></td>
 <td align="right"><strong>154.1 万辆（-23.6%）</strong></td>
-<td align="right">环比 +5.5%</td>
-<td>→ 环比季节性改善，同比仍深跌</td>
+<td align="right">—</td>
+<td>→ 环比 +5.5% 有所改善，同比仍深跌</td>
 </tr>
 <tr>
 <td><strong>8月新能源乘用车零售</strong></td>
@@ -910,7 +872,7 @@
     <id>https://terazadl.github.io/2026/09/japan-political-economy-weekly-2026-09-14/</id>
     <link href="https://terazadl.github.io/2026/09/japan-political-economy-weekly-2026-09-14/"/>
     <published>2026-09-14T00:00:00.000Z</published>
-    <updated>2026-09-21T07:33:38.400Z</updated>
+    <updated>2026-09-21T11:03:52.840Z</updated>
     <summary type="html"><![CDATA[执政党就食品消费税降至 1% 与所得联动给付达成大纲，冲绳知事选改选古谢获胜；日银委员明确继续加息，8 月物价偏热与实际工资明显回升交织。]]></summary>
     <content type="html"><![CDATA[<blockquote>
 <p><strong>报道区间：</strong> 2026 年 9 月 7 日至 9 月 13 日（日本时间）。只纳入首次公开发布时间落在窗口内的新闻；标题时间或网页更新时间不作为替代。发布于 2026 年 9 月 14 日。<br><strong>语言版本说明：</strong> 中文为完整研判版；同期中国周报参见 <a href="/2026/09/china-political-economy-weekly-2026-09-14-zh/">中国政经周报：市场规则密集落地，内需修复仍不均衡</a>。</p>
@@ -931,7 +893,7 @@
 </ul>
 <h3 id="2-冲绳知事改选：容许边野古的古谢当选，自民系时隔-12-年夺回县政"><a href="#2-冲绳知事改选：容许边野古的古谢当选，自民系时隔-12-年夺回县政" class="headerlink" title="2. 冲绳知事改选：容许边野古的古谢当选，自民系时隔 12 年夺回县政"></a>2. 冲绳知事改选：容许边野古的古谢当选，自民系时隔 12 年夺回县政</h3><p><strong>状态：9 月 13 日投开票</strong></p>
 <ul>
-<li><strong>发生了什么（事实）</strong>：冲绳县知事改选 9 月 13 日投开票，前那霸市副市长、获自民党与维新会等 6 党推荐的古谢玄太以 <strong>423,124 票</strong>（冲绳县知事选举史上首次突破 40 万票）当选，现任知事玉城康裕以 <strong>276,060 票</strong>落败，投票率 61.57%。古谢对普天间基地向名护市边野古的现行搬迁计划持<strong>容许</strong>立场，成为首个明确容许边野古计划的候选人当选知事；落败的玉城则坚持反对边野古新基地、「以对话与诉讼并行施压」的「オール沖縄」路线。</li>
+<li><strong>发生了什么（事实）</strong>：冲绳县知事改选 9 月 13 日投开票，前那霸市副市长、获自民党与维新会等 6 党推荐的古谢玄太以 <strong>423,124 票</strong>当选，现任知事玉城康裕以 <strong>276,060 票</strong>落败，投票率 61.57%。古谢对普天间基地向名护市边野古的现行搬迁计划持<strong>容许</strong>立场，成为首个明确容许边野古计划的候选人当选知事；落败的玉城则坚持反对边野古新基地、「以对话与诉讼并行施压」的「オール沖縄」路线。</li>
 <li><strong>为什么重要（分析判断）</strong>：这是自民系时隔 12 年夺回冲绳县政，也是「オール沖縄」反基地体制收缩的标志：基地问题仍是冲绳政治主轴，但选民同时在对玉城两期八年县政的疲劳作出清算，古谢「容许边野古、推进对话」的表态给中间选民提供了低对抗选项。古谢对边野古填海工程的具体处置办法（工程已在进行）尚待表态，中央与县关系预计由对抗转向协商；自民党系在冲绳主要选举中获胜，说明其组织动员并未弱化，胜因更接近政党底色淡化后的个人票盘扩大。</li>
 <li><strong>接下来关注什么</strong>：古谢与官邸首次会谈及对边野古工程的具体表态；「オール沖縄」阵营重组与 2027 年县议选走向；冲绳基地负担（直升机部队、普天间返还有关谈判）能否出现政策切换。</li>
 <li><strong>来源</strong>：<a href="https://www.pref.okinawa.lg.jp/kensei/senkyo/1005009/1023802/1040303/index.html">冲绳县选举管理委员会：知事选开票特设页（2026-09-13）</a></li>
@@ -1057,11 +1019,11 @@
 <div class="weekly-chart" data-chart="bar" data-series='{"title":"日本 · 本期 vs 前值","color":"#3a5a6b","indicators":[{"label":"CGPI同比","value":7.6,"prev":7.7,"unit":"%YoY","max":12,"min":0},{"label":"进口物价同比","value":24.8,"prev":29.3,"unit":"%YoY","max":40,"min":0},{"label":"经常收支","value":29889,"prev":-923,"unit":"亿日元","max":40000,"min":-4000},{"label":"大企业BSI","value":5.3,"prev":-0.5,"unit":"pt","max":30,"min":-30}]}'>
   <div class="weekly-chart-head"><h4>日本 · 本期 vs 前值</h4><span>JP</span></div>
   <div class="weekly-chart-fallback">
-    <table><thead><tr><th>指标</th><th>本期</th><th>前值</th></tr></thead>
-    <tbody><tr><td>CGPI同比</td><td><strong>7.6%YoY</strong></td><td>7.7%YoY</td></tr><tr><td>进口物价同比</td><td><strong>24.8%YoY</strong></td><td>29.3%YoY</td></tr><tr><td>经常收支</td><td><strong>29889亿日元</strong></td><td>-923亿日元(6月)</td></tr><tr><td>大企业BSI</td><td><strong>5.3pt</strong></td><td>-0.5pt</td></tr></tbody></table>
+    <p>本期与前值对照与上方「数据雷达」相同；启用 JavaScript 可查看柱状对比图。</p>
   </div>
 </div>
 
+<p><strong>注：</strong> 上方两张图表覆盖 4 项可量化指标；实际工资与 GDP 二次速报另见雷达卡。</p>
 <table>
 <thead>
 <tr>
@@ -1093,7 +1055,7 @@
 <td><strong>4—6月期 GDP 实质环比</strong></td>
 <td align="right"><strong>+0.4%</strong></td>
 <td align="right">一次速报 +0.3%（上修）</td>
-<td>→ 上修但内需仍弱</td>
+<td>↑ 较一次速报 +0.3% 上修，但内需仍弱</td>
 </tr>
 <tr>
 <td><strong>7月经常收支</strong></td>
@@ -1181,7 +1143,7 @@
 <ul>
 <li><strong>发生了什么（事实）</strong>：财务省法人企业景气预测调查（BSI）7—9 月期结果：大企业（全产业）当前景气判断 <strong>+5.3</strong>（前期 -0.5），由负转正；中小企业仍为 <strong>-10.9</strong> 的深度负值区间；2026 年度设备投资计划（全规模、含软件、除土地）较上年 +11.0%。</li>
 <li><strong>为什么重要（分析判断）</strong>：大企业景气回暖与中小企业深负的分化，与「名义工资普涨、但中小企业利润承压」的现状互为印证——大企业涨价能力强、出口敞口大，小企业被迫承受成本转嫁；这解释了物价高企下中小企业加薪意愿受限的结构性原因。</li>
-<li><strong>来源</strong>：<a href="https://www.mof.go.jp/pri/reference/bos/results/data.htm">财务省：法人企业景气预测调查（BSI）结果入口（2026-09-11）</a></li>
+<li><strong>来源</strong>：<a href="https://www.mof.go.jp/pri/reference/bos/results/data.htm">财务省：法人企业景气预测调查（BSI）结果入口（2026-09-11）（入口页；+5.3 等数值见当季结果表）</a></li>
 </ul>
 <h3 id="9-日产国内重组：年产-100-万台体制，九州承接-Note-Kicks"><a href="#9-日产国内重组：年产-100-万台体制，九州承接-Note-Kicks" class="headerlink" title="9. 日产国内重组：年产 100 万台体制，九州承接 Note&#x2F;Kicks"></a>9. 日产国内重组：年产 100 万台体制，九州承接 Note&#x2F;Kicks</h3><p><strong>状态：9 月 10 日日产发布</strong></p>
 <ul>
@@ -1217,7 +1179,7 @@
     <id>https://terazadl.github.io/2026/09/china-political-economy-weekly-2026-09-07-zh/</id>
     <link href="https://terazadl.github.io/2026/09/china-political-economy-weekly-2026-09-07-zh/"/>
     <published>2026-09-08T00:00:00.000Z</published>
-    <updated>2026-09-21T07:33:38.397Z</updated>
+    <updated>2026-09-21T11:03:52.837Z</updated>
     <summary type="html"><![CDATA[制造业订单恢复扩张但用工偏弱；财政启动3000亿元特别国债为大行与头部险企补充资本金，全口径政府负债升至102.5万亿。]]></summary>
     <content type="html"><![CDATA[<blockquote>
 <p><strong>覆盖范围</strong>：2026 年 8 月 31 日 00:00 至 9 月 6 日 23:59（含 9 月 7—8 日重要延伸动态）。核心事实均附官方可核验来源；事实陈述与分析研判严格分离。<br><strong>语言版本说明</strong>：中文为完整研判版；同期日本周报参见 <a href="/2026/09/japan-political-economy-weekly-2026-09-07/">日本政经周报：内需萎缩体感与财政付息极限</a>。</p>
@@ -1234,49 +1196,49 @@
 <li><strong>发生了什么（事实）</strong>：财政部公布本轮特别国债注资明细，合计安排 3000 亿元补充中央金融企业核心一级资本。其中 2300 亿元用于银行：农业银行 1300 亿元、工商银行 700 亿元、中国进出口银行 300 亿元；首次将 700 亿元专项分配给五家国有保险机构：中国人寿集团 350 亿元、中国人保 150 亿元、中国出口信用保险 100 亿元、中国太平 70 亿元、中国再保险 30 亿元。工行与农行同步披露定增预案，总募资达 2600 亿元，其中包含中国烟草总公司及其子公司合计 600 亿元认购。</li>
 <li><strong>为什么重要（分析判断）</strong>：银行净息差收窄后，内生资本补充受限，财政直接注资打破了信贷扩张的资本红线；险企首次获注资更具风向标意义：低利率下险企面临利差损与偿债考核压力，注资意在释放其承接超长期国债和权益市场的长期资金能力，防范非银系统资产负债表被动收缩。</li>
 <li><strong>接下来关注什么</strong>：特别国债的正式发行节奏；资本金注入后银行向制造业与实体项目放贷的实际增速，以及险企配置长期资产的增量动向。</li>
-<li><strong>来源</strong>：<a href="http://www.mof.gov.cn/">中华人民共和国财政部</a>、<a href="http://www.sse.com.cn/">上海证券交易所上市公司公告</a></li>
+<li><strong>来源</strong>：<a href="http://www.mof.gov.cn/">中华人民共和国财政部（入口页；3000 亿元特别国债注资安排见财政部公告栏目）</a>、<a href="http://www.sse.com.cn/">上海证券交易所上市公司公告（入口页）</a></li>
 </ul>
 <h3 id="2-2025-年末政府债务总额达-102-5-万亿元，隐性债务下降与法定负债抬升并存"><a href="#2-2025-年末政府债务总额达-102-5-万亿元，隐性债务下降与法定负债抬升并存" class="headerlink" title="2. 2025 年末政府债务总额达 102.5 万亿元，隐性债务下降与法定负债抬升并存"></a>2. 2025 年末政府债务总额达 102.5 万亿元，隐性债务下降与法定负债抬升并存</h3><p><strong>状态：8 月 31 日向十四届全国人大常委会报告公开披露</strong></p>
 <ul>
 <li><strong>发生了什么（事实）</strong>：十四届全国人大常委会审议报告披露，截至 2025 年末，全国政府法定债务余额 96 万亿元，地方存量隐性债务已压降至 6.5 万亿元，全口径政府债务总额达 102.5 万亿元；包含隐性债务的政府负债率为 73.2%，法定负债率为 68.5%。隐性债务自 2023 年末的 14.3 万亿元压降 7.8 万亿元，同期全口径债务总额由 85 万亿元增至 102.5 万亿元。</li>
 <li><strong>为什么重要（分析判断）</strong>：隐债下降主要依托地方政府置换专项债，实质是将高成本、非标城投隐债显性化转入法定债务账本；全口径债务总额上升说明地方总杠杆仍在抬升。化债消除了高息非标流动性违约的近忧，但根本化解仍取决于土地出让收入企稳、账款清欠落地及新增专项债资产的真实现金流回报。</li>
 <li><strong>接下来关注什么</strong>：下半年置换专项债额度的发行消化节奏，以及地方政府清欠民营企业账款的实际进度。</li>
-<li><strong>来源</strong>：<a href="http://www.npc.gov.cn/">中国人大网</a></li>
+<li><strong>来源</strong>：<a href="http://www.npc.gov.cn/">中国人大网（入口页；政府债务审议报告见常委会公报栏目）</a></li>
 </ul>
 <h3 id="3-8-月官方制造业-PMI-微升至-49-8，订单改善与就业承压形成结构性反差"><a href="#3-8-月官方制造业-PMI-微升至-49-8，订单改善与就业承压形成结构性反差" class="headerlink" title="3. 8 月官方制造业 PMI 微升至 49.8，订单改善与就业承压形成结构性反差"></a>3. 8 月官方制造业 PMI 微升至 49.8，订单改善与就业承压形成结构性反差</h3><p><strong>状态：8 月 31 日国家统计局公布</strong></p>
 <ul>
 <li><strong>发生了什么（事实）</strong>：8 月份中国制造业采购经理指数（PMI）为 49.8%，较上月回升 0.6 个百分点，仍处于荣枯线下方。分项中，新订单指数升至 50.6%（重回扩张区间），生产指数升至 50.4%；但从业人员指数进一步回落至 48.7%；非制造业商务活动指数为 49.0%，其中服务业为 49.3%，建筑业为 46.9%。大型企业 PMI 达 50.6%，中型与小型企业分别为 49.4% 和 47.9%。</li>
 <li><strong>为什么重要（分析判断）</strong>：新订单扩张体现出出口韧性与重点基建支持，但“订单改善未能带动雇佣与中小企业”表明复苏链条存在结构性阻滞。高技术与重资本行业对边际劳动力的拉动相对有限，而关联居民就业与消费体感的服务业、小微企业仍在低位调整。</li>
 <li><strong>接下来关注什么</strong>：9 月“金九银十”传统周期内订单转化为企业用工意愿的弹性，以及工业品出厂价格对中下游企业利润的挤压程度。</li>
-<li><strong>来源</strong>：<a href="http://www.stats.gov.cn/">国家统计局</a></li>
+<li><strong>来源</strong>：<a href="http://www.stats.gov.cn/">国家统计局（入口页；8 月制造业 PMI 见新闻发布栏目）</a></li>
 </ul>
 <h3 id="4-1—7-月财政收支复核：税收支撑收入平稳增长，非税高增担忧缓和"><a href="#4-1—7-月财政收支复核：税收支撑收入平稳增长，非税高增担忧缓和" class="headerlink" title="4. 1—7 月财政收支复核：税收支撑收入平稳增长，非税高增担忧缓和"></a>4. 1—7 月财政收支复核：税收支撑收入平稳增长，非税高增担忧缓和</h3><p><strong>状态：8 月 21 日财政部国库司发布 1—7 月财政收支数据（本期复核引用）</strong></p>
 <ul>
 <li><strong>发生了什么（事实）</strong>：1—7 月全国一般公共预算收入 143,696 亿元，同比增长 5.8%。其中税收收入 118,381 亿元、同比增长 6.7%，非税收入 25,315 亿元、同比增长 1.6%；中央一般公共预算收入 63,857 亿元、同比增长 9.1%，地方收入 79,839 亿元。</li>
 <li><strong>为什么重要（分析判断）</strong>：收入端整体平稳，税收增速（+6.7%）明显高于非税收入（+1.6%），收入结构较前期改善；中央收入增速显著高于地方，反映税源向中央集中与土地出让金下行背景下地方财力的结构性约束。市场上流传的“国有资本经营预算收入激增近四成”缺乏官方口径支撑，本期未予采用。</li>
 <li><strong>接下来关注什么</strong>：9 月财政支出提速与新增专项债发行节奏，以及四季度土地出让相关收入变化。</li>
-<li><strong>来源</strong>：<a href="http://www.mof.gov.cn/">中华人民共和国财政部国库司</a></li>
+<li><strong>来源</strong>：<a href="http://www.mof.gov.cn/">中华人民共和国财政部国库司（入口页；1—7 月财政收支见《2026 年 1—7 月财政收支情况》）</a></li>
 </ul>
 <h3 id="5-房地产预售制度改革走向纵深，开发资金链面临重新结构"><a href="#5-房地产预售制度改革走向纵深，开发资金链面临重新结构" class="headerlink" title="5. 房地产预售制度改革走向纵深，开发资金链面临重新结构"></a>5. 房地产预售制度改革走向纵深，开发资金链面临重新结构</h3><p><strong>状态：8 月下旬部委政策导向明确，各地推进细化试点</strong></p>
 <ul>
 <li><strong>发生了什么（事实）</strong>：住建部及金融监管部门进一步明确预售资金全额专户封闭监管、个人按揭贷款发放节点与主体工程施工形象进度挂钩、压实项目主办银行资金托管连带责任等机制，部分一二线城市加快现房销售试点推进。</li>
 <li><strong>为什么重要（分析判断）</strong>：预售制度强化旨在遏制房企过度加杠杆与交楼风险；短期内这一举措将提高房企沉淀自有资金的要求。若开发贷与白名单信贷未能顺畅接续，可能对房企的拿地意愿与新开工节奏产生抑制。</li>
 <li><strong>接下来关注什么</strong>：重点城市现房销售试点的推行面积与金融配套规则，以及白名单融资在项目层面的实际落账情况。</li>
-<li><strong>来源</strong>：<a href="http://www.mohurd.gov.cn/">中华人民共和国住房和城乡建设部</a></li>
+<li><strong>来源</strong>：<a href="http://www.mohurd.gov.cn/">中华人民共和国住房和城乡建设部（入口页，具体公告见对应栏目）</a></li>
 </ul>
 <h3 id="6-上海市主要负责人调整：朱忠明任代理市长"><a href="#6-上海市主要负责人调整：朱忠明任代理市长" class="headerlink" title="6. 上海市主要负责人调整：朱忠明任代理市长"></a>6. 上海市主要负责人调整：朱忠明任代理市长</h3><p><strong>状态：9 月 4 日上海市人大常委会通过任命</strong></p>
 <ul>
 <li><strong>发生了什么（事实）</strong>：上海市十六届人大常委会第三十三次会议决定，接受龚正辞去上海市市长职务的请求，任命朱忠明为上海市副市长、代理市长。朱忠明此前历任浙江省财政厅厅长、财政部副部长、上海市委副书记。</li>
 <li><strong>为什么重要（分析判断）</strong>：朱忠明具备长期中央部委与沿海发达省份的财税管理背景。在地方综合财力面临转型、重大科创母基金运作及涉外产业链重构的背景下，由财税专长官员主持市政府日常工作，有助于提升预算绩效管理与重大产业资本调配效率。</li>
 <li><strong>接下来关注什么</strong>：上海下半年稳增长重点政策部署，以及浦东新区和临港自贸区新一轮科创与财税支持政策。</li>
-<li><strong>来源</strong>：<a href="http://www.shrd.gov.cn/">上海人大网</a></li>
+<li><strong>来源</strong>：<a href="http://www.shrd.gov.cn/">上海人大网（入口页，具体公告见对应栏目）</a></li>
 </ul>
 <h3 id="7-执纪反腐纵深推进：江苏省委常委刘建洋接受纪律审查"><a href="#7-执纪反腐纵深推进：江苏省委常委刘建洋接受纪律审查" class="headerlink" title="7. 执纪反腐纵深推进：江苏省委常委刘建洋接受纪律审查"></a>7. 执纪反腐纵深推进：江苏省委常委刘建洋接受纪律审查</h3><p><strong>状态：8 月 31 日中央纪委国家监委官方通报</strong></p>
 <ul>
 <li><strong>发生了什么（事实）</strong>：中央纪委国家监委通报，江苏省委常委、组织部部长刘建洋涉嫌严重违纪违法，目前正接受中央纪委国家监委纪律审查和监察调查。</li>
 <li><strong>为什么重要（分析判断）</strong>：现任省委常委、组织部部长任上接受审查，表明执纪反腐从基建工程、金融系统进一步延伸至选人用人与组织权力关键岗位，凸显从严治党与权力规范运行的监督力度。</li>
 <li><strong>接下来关注什么</strong>：相关案件后续调查进展与通报，以及关键省份组织架构的人事调整。</li>
-<li><strong>来源</strong>：<a href="http://www.ccdi.gov.cn/">中央纪委国家监委网站</a></li>
+<li><strong>来源</strong>：<a href="http://www.ccdi.gov.cn/">中央纪委国家监委网站（入口页，审查调查通报见对应栏目）</a></li>
 </ul>
 <h2 id="数据雷达"><a href="#数据雷达" class="headerlink" title="数据雷达"></a>数据雷达</h2><div class="weekly-radar-panel">
   <div class="weekly-radar-head">
@@ -1337,7 +1299,7 @@
       <div class="weekly-radar-metric-body">
         <span class="weekly-radar-value">+25.0%</span>
       </div>
-      <div class="weekly-radar-note">前值 +23.9% · 达 4014 亿美元，芯片单价大涨</div>
+      <div class="weekly-radar-note">前值 +23.9% · 达 4014.4 亿美元，芯片单价大涨（9 月 8 日发布，延伸动态）</div>
     </div>
   </div>
 </div>
@@ -1353,8 +1315,7 @@
 <div class="weekly-chart" data-chart="bar" data-series='{"title":"中国 · 本期 vs 前值","color":"#b35922","indicators":[{"label":"制造业PMI","value":49.8,"prev":49.2,"unit":"%","max":55,"min":0},{"label":"新订单指数","value":50.6,"prev":48.5,"unit":"%","max":55,"min":0},{"label":"制造业用工","value":48.7,"prev":49,"unit":"%","max":55,"min":0},{"label":"服务业PMI","value":49.3,"prev":49.3,"unit":"%","max":55,"min":0},{"label":"美元出口同比","value":25,"prev":23.9,"unit":"%YoY","max":30,"min":0}]}'>
   <div class="weekly-chart-head"><h4>中国 · 本期 vs 前值</h4><span>CN</span></div>
   <div class="weekly-chart-fallback">
-    <table><thead><tr><th>指标</th><th>本期</th><th>前值</th></tr></thead>
-    <tbody><tr><td>制造业PMI</td><td><strong>49.8%</strong></td><td>49.2%</td></tr><tr><td>新订单指数</td><td><strong>50.6%</strong></td><td>48.5%</td></tr><tr><td>制造业用工</td><td><strong>48.7%</strong></td><td>49%</td></tr><tr><td>服务业PMI</td><td><strong>49.3%</strong></td><td>49.3%</td></tr><tr><td>美元出口同比</td><td><strong>25%YoY</strong></td><td>23.9%YoY</td></tr></tbody></table>
+    <p>本期与前值对照与上方「数据雷达」相同；启用 JavaScript 可查看柱状对比图。</p>
   </div>
 </div>
 
@@ -1461,7 +1422,7 @@
           <td class="col-gauge">
             <div class="radar-mini-gauge">
               <div class="radar-gauge-track">
-                <div class="radar-gauge-midline" style="left: 52.9%;" title="法定上限 68.5%"></div>
+                <div class="radar-gauge-midline" style="left: 52.9%;" title="法定负债率 68.5%"></div>
                 <div class="radar-gauge-fill is-warn" style="width: 66.3%;"></div>
                 <div class="radar-gauge-val-marker" style="left: 66.3%;" title="含隐债 73.2%"></div>
               </div>
@@ -1473,7 +1434,7 @@
             </div>
           </td>
           <td class="col-trend"><span class="radar-trend-pill is-warn"><i class="fa fa-arrow-up" aria-hidden="true"></i> 隐债显性化</span></td>
-          <td class="col-note">全口径债务 102.5 万亿，隐债压降转法定债</td>
+          <td class="col-note">全口径债务由 2023 年末约 85 万亿增至目前 102.5 万亿，隐债压降转法定债</td>
         </tr>
         <tr>
           <td class="col-metric"><span class="radar-cat-badge is-china">外贸</span>8 月美元出口同比增速</td>
@@ -1560,7 +1521,7 @@
 <li><strong>发生了什么（事实）</strong>：海关总署公布 8 月份外贸数据，以美元计价出口同比增长 <strong>25.0%</strong>（达 4014.4 亿美元），超越市场预期的 23.3%；进口同比增长 28.2%。其中，集成电路出口金额同比增长 <strong>129.8%</strong>，但出口数量同比微降 <strong>7.9%</strong>。</li>
 <li><strong>为什么重要（分析判断）</strong>：出口金额的高增包含结构升级与单价抬升效应。集成电路量缩价涨反映出中国半导体出海重心正从传统中低端元器件向高单价、车规级与先进封装产品倾斜；但由于此类高端产线对就业拉动相对有限，出口繁荣向城镇用工端的传导效应依然平缓。</li>
 <li><strong>接下来关注什么</strong>：四季度欧美圣诞备货季订单持续性，以及主要贸易伙伴对高端机电产品的新一轮关税调查。</li>
-<li><strong>来源</strong>：<a href="http://www.customs.gov.cn/">中华人民共和国海关总署</a></li>
+<li><strong>来源</strong>：<a href="http://www.customs.gov.cn/">中华人民共和国海关总署（入口页；8 月进出口数据见统计快讯栏目）</a></li>
 </ul>
 <hr>
 <h2 id="站内延伸阅读"><a href="#站内延伸阅读" class="headerlink" title="站内延伸阅读"></a>站内延伸阅读</h2><h3 id="往期周报"><a href="#往期周报" class="headerlink" title="往期周报"></a>往期周报</h3><ul>
@@ -1581,7 +1542,7 @@
     <id>https://terazadl.github.io/2026/09/japan-political-economy-weekly-2026-09-07-en/</id>
     <link href="https://terazadl.github.io/2026/09/japan-political-economy-weekly-2026-09-07-en/"/>
     <published>2026-09-08T00:00:00.000Z</published>
-    <updated>2026-09-21T07:33:38.400Z</updated>
+    <updated>2026-09-21T11:03:52.840Z</updated>
     <summary type="html"><![CDATA[Real household spending dropped for an 8th month while FY2027 debt-servicing budget requests reached ¥36.6 trillion, leaving the BOJ with virtually zero policy buffer.]]></summary>
     <content type="html"><![CDATA[<p><span hidden data-article-language="EN"></span></p>
 <blockquote>
@@ -1621,11 +1582,136 @@
     <author><name>Lei Deng</name></author>
   </entry>
   <entry>
+    <title>日本政経ウィークリー｜2026年8月31日〜9月6日：実質消費の収縮と財政利払いの限界</title>
+    <id>https://terazadl.github.io/2026/09/japan-political-economy-weekly-2026-09-07-ja/</id>
+    <link href="https://terazadl.github.io/2026/09/japan-political-economy-weekly-2026-09-07-ja/"/>
+    <published>2026-09-08T00:00:00.000Z</published>
+    <updated>2026-09-21T11:03:52.840Z</updated>
+    <summary type="html"><![CDATA[7月の実質消費支出は8カ月連続の減少となり、2027年度概算要求の国債費は36.6兆円規模へ膨張。日銀と政府の政策バランスは極限の緊張に直面している。]]></summary>
+    <content type="html"><![CDATA[<p><span hidden data-article-language="JA"></span></p>
+<blockquote>
+<p><strong>対象期間：</strong> 2026年8月31日〜9月6日（日本時間、9月7〜8日の最新動向を含む）。過去の出来事は背景としてのみ扱う。<br><strong>言語版：</strong> <a href="/2026/09/japan-political-economy-weekly-2026-09-07/">中文</a> · <a href="/2026/09/japan-political-economy-weekly-2026-09-07-en/">English</a> · <strong>日本語</strong></p>
+</blockquote>
+<div class="abstract">
+  <span class="abstract-label">今週の主線</span>
+  総務省の7月家計調査で実質消費支出が8カ月連続の減少（-3.6％）となる一方、財務省の2027年度概算要求では国債費が36.6兆円規模へ急増した。家計の実質購買力低下と国の利払いコスト膨張という二重の制約下で、9月17〜18日の日銀金融政策決定会合に向けた利上げ観測が政策三角関係の緊張を極限まで高めている。
+</div>
+
+<h2 id="エグゼクティブ・サマリー"><a href="#エグゼクティブ・サマリー" class="headerlink" title="エグゼクティブ・サマリー"></a>エグゼクティブ・サマリー</h2><ul>
+<li><strong>実質消費は8カ月連続減：</strong> 7月の2人以上世帯の実質消費支出は前年比 <strong>-3.6％</strong> と大幅減。名義賃上げが進むものの、物価高による防衛的消費が定着。</li>
+<li><strong>概算要求は143.7兆円で過去最大：</strong> 想定金利の3.8％への引き上げに伴い、国債費要求額が <strong>36.6兆円</strong> へ膨張。防衛費も8兆8908億円と過去最高を更新。</li>
+<li><strong>実質賃金は7カ月連続のプラス：</strong> 7月の現金給与総額は+4.7％、物価高を差し引いた実質賃金は <strong>+2.4％</strong> と7カ月連続の正成長。</li>
+<li><strong>個人向け国債利率が1.87％へ上昇：</strong> 第197回10年変動利付債の初回適用利率が引き上げられ、民間における預金調達コストや変動住宅ローン金利の改定圧力が顕在化。</li>
+<li><strong>9月日銀会合へ向けた利上げ織り込み：</strong> 中東情勢による資源高や為替の綱引きを背景に、政策金利を <strong>1.25％</strong> へ追加引き上げする市場観測が根強く持続。</li>
+<li><strong>半導体材料巡る中日間貿易摩擦：</strong> 中国商務部が日本産ジクロロシランに対して反ダンピング保証金の徴収を決定し、高純度特殊ガスのサプライチェーンに影響。</li>
+</ul>
+<h2 id="主要ニュース"><a href="#主要ニュース" class="headerlink" title="主要ニュース"></a>主要ニュース</h2><h3 id="1-7月の実質消費支出は前年比3-6％減、8カ月連続マイナス"><a href="#1-7月の実質消費支出は前年比3-6％減、8カ月連続マイナス" class="headerlink" title="1. 7月の実質消費支出は前年比3.6％減、8カ月連続マイナス"></a>1. 7月の実質消費支出は前年比3.6％減、8カ月連続マイナス</h3><p><strong>確認済み｜9月4日 総務省統計局公表</strong></p>
+<p>2人以上世帯の1世帯当たり消費支出は301,245円で、実質前年同月比 <strong>-3.6％</strong>（名義-1.5％）となった。食料（-1.3％）、光熱・水道（-9.2％）、交通・通信（-8.5％）が減少した一方、教養娯楽（+4.8％）は増加。食品価格上昇と前年を下回る気温が消費を下押しし、春闘による賃上げにもかかわらず家計は防衛的支出を続けている。</p>
+<h3 id="2-2027年度概算要求は143-7兆円、国債費要求が36-6兆円規模へ拡大"><a href="#2-2027年度概算要求は143-7兆円、国債費要求が36-6兆円規模へ拡大" class="headerlink" title="2. 2027年度概算要求は143.7兆円、国債費要求が36.6兆円規模へ拡大"></a>2. 2027年度概算要求は143.7兆円、国債費要求が36.6兆円規模へ拡大</h3><p><strong>確認済み｜9月初旬 財務省集計</strong></p>
+<p>一般会計概算要求総額は <strong>143兆656億円</strong> と4年連続で過去最大を更新した。国債費（元利払い）は積算基準金利3.8％の採用により <strong>36兆6386億円</strong> に達し、過去最大水準を記録。金利上昇が財政の自由度を奪い、社会保障や産業投資の財源配分を著しく狭めている。</p>
+<h3 id="3-実質賃金は-2-4％、7カ月連続のプラス成長"><a href="#3-実質賃金は-2-4％、7カ月連続のプラス成長" class="headerlink" title="3. 実質賃金は+2.4％、7カ月連続のプラス成長"></a>3. 実質賃金は+2.4％、7カ月連続のプラス成長</h3><p><strong>確認済み｜9月8日 厚生労働省毎月勤労統計速報</strong></p>
+<p>7月の現金給与総額は前年比+4.7％、総合インフレ率を控除した実質賃金は <strong>+2.4％</strong> と7カ月連続のプラスを維持した。日銀が掲げる「賃金と物価の好循環」は実質購買力の回復につながりつつあり、名目と実質のギャップは改善傾向にある。</p>
+<h3 id="4-個人向け国債の適用利率が1-87％へ引き上げ"><a href="#4-個人向け国債の適用利率が1-87％へ引き上げ" class="headerlink" title="4. 個人向け国債の適用利率が1.87％へ引き上げ"></a>4. 個人向け国債の適用利率が1.87％へ引き上げ</h3><p><strong>確認済み｜9月3日 財務省募集開始</strong></p>
+<p>長期金利の上昇を反映し、第197回個人向け国債（変動10年）の初回適用利率が <strong>1.87％</strong> に設定された。預金者にとっては利息収入改善となる一方、民間銀行の調達コスト上昇や変動型住宅ローンの金利見直しを通じ、家計債務への波及が懸念される。</p>
+<h3 id="5-日銀9月会合を控えた追加利上げ観測の継続"><a href="#5-日銀9月会合を控えた追加利上げ観測の継続" class="headerlink" title="5. 日銀9月会合を控えた追加利上げ観測の継続"></a>5. 日銀9月会合を控えた追加利上げ観測の継続</h3><p><strong>確認済み｜9月17〜18日会合前哨期</strong></p>
+<p>10年国債利回りが3％近辺で推移する中、OIS市場等では政策金利を1.25％へ引き上げる確率が高水準で維持されている。利上げ見送りは円安・輸入インフレを長期化させ、利上げ断行は内需冷え込みと国の財政負担を加速させるという、政策の板挟みが深刻化している。</p>
+<h3 id="6-中国が日本産ジクロロシランに反ダンピング措置適用"><a href="#6-中国が日本産ジクロロシランに反ダンピング措置適用" class="headerlink" title="6. 中国が日本産ジクロロシランに反ダンピング措置適用"></a>6. 中国が日本産ジクロロシランに反ダンピング措置適用</h3><p><strong>確認済み｜9月8日 中国商務部公告</strong></p>
+<p>中国商務部は日本産ジクロロシランに対し、暫定的な反ダンピング保証金徴収を決定した。ウエハー製造における重要な前駆体ガスであり、先端半導体素材をめぐる通商摩擦が素材レイヤーまで波及していることを示している。</p>
+<h2 id="データレーダー-·-日本"><a href="#データレーダー-·-日本" class="headerlink" title="データレーダー · 日本"></a>データレーダー · 日本</h2><div class="weekly-radar-panel">
+  <div class="weekly-radar-head">
+    <h3>日本政経主要指標（2026.09）</h3>
+    <span>固定指標パネル · 期間比較</span>
+  </div>
+  <div class="weekly-radar-grid">
+    <div class="weekly-radar-card is-japan">
+      <div class="weekly-radar-card-head">
+        <span class="weekly-radar-tag">JAPAN · 物価</span>
+        <span class="weekly-radar-change is-up">↑ +0.1%</span>
+      </div>
+      <div class="weekly-radar-label">東京コア CPI（前年比）</div>
+      <div class="weekly-radar-metric-body">
+        <span class="weekly-radar-value">+1.8%</span>
+      </div>
+      <div class="weekly-radar-note">前値 +1.7% · 補助金が表層の物価を抑制</div>
+    </div>
+    <div class="weekly-radar-card is-japan">
+      <div class="weekly-radar-card-head">
+        <span class="weekly-radar-tag">JAPAN · 金利</span>
+        <span class="weekly-radar-change is-up">↑ +3.5 bp</span>
+      </div>
+      <div class="weekly-radar-label">新発10年国債利回り (JGB)</div>
+      <div class="weekly-radar-metric-body">
+        <span class="weekly-radar-value">2.96%</span>
+      </div>
+      <div class="weekly-radar-note">前値 2.925% · 1996年以来の高水準</div>
+    </div>
+    <div class="weekly-radar-card is-japan">
+      <div class="weekly-radar-card-head">
+        <span class="weekly-radar-tag">JAPAN · 為替</span>
+        <span class="weekly-radar-change is-down">↓ 円高進行</span>
+      </div>
+      <div class="weekly-radar-label">ドル／円 (USDJPY)</div>
+      <div class="weekly-radar-metric-body">
+        <span class="weekly-radar-value">153.50</span>
+      </div>
+      <div class="weekly-radar-note">前値 159.52 · 円は8月末比で大幅に上昇</div>
+    </div>
+    <div class="weekly-radar-card is-japan">
+      <div class="weekly-radar-card-head">
+        <span class="weekly-radar-tag">JAPAN · 賃金</span>
+        <span class="weekly-radar-change is-up">↑ 7カ月連続プラス</span>
+      </div>
+      <div class="weekly-radar-label">実質賃金（前年比）</div>
+      <div class="weekly-radar-metric-body">
+        <span class="weekly-radar-value">+2.4%</span>
+      </div>
+      <div class="weekly-radar-note">前値 +2.2% · 7カ月連続の正成長</div>
+    </div>
+    <div class="weekly-radar-card is-japan">
+      <div class="weekly-radar-card-head">
+        <span class="weekly-radar-tag">JAPAN · 内需消費</span>
+        <span class="weekly-radar-change is-down">↓ 8カ月連続減</span>
+      </div>
+      <div class="weekly-radar-label">実質消費支出（前年比）</div>
+      <div class="weekly-radar-metric-body">
+        <span class="weekly-radar-value">-3.6%</span>
+      </div>
+      <div class="weekly-radar-note">前値 -1.8% · 家計は強い防衛的姿勢</div>
+    </div>
+    <div class="weekly-radar-card is-japan">
+      <div class="weekly-radar-card-head">
+        <span class="weekly-radar-tag">JAPAN · 財政規律</span>
+        <span class="weekly-radar-change is-up">↑ 過去最大</span>
+      </div>
+      <div class="weekly-radar-label">2027年度概算要求総額</div>
+      <div class="weekly-radar-metric-body">
+        <span class="weekly-radar-value">143.7兆円</span>
+      </div>
+      <div class="weekly-radar-note">国債費要求は36.6兆円規模へ拡大</div>
+    </div>
+  </div>
+</div>
+
+<h2 id="構造的判断（まとめ）"><a href="#構造的判断（まとめ）" class="headerlink" title="構造的判断（まとめ）"></a>構造的判断（まとめ）</h2><blockquote>
+<p>日本経済の真の焦点は為替の短期水準ではなく、「金利正常化」と「内需の受容力」の構造的ギャップにある。実質消費が8カ月連続でマイナスに沈む中、インフレ抑制の利上げ要請と、利払い膨張を恐れる財政制約が正面衝突しており、政策三角関係のバッファーは限界に達している。</p>
+</blockquote>
+<h2 id="来週の注目点"><a href="#来週の注目点" class="headerlink" title="来週の注目点"></a>来週の注目点</h2><ol>
+<li><strong>9月10日</strong> · 財務省 7月国際収支状況速報（経常黒字と第一次所得収支の動向）</li>
+<li><strong>9月8日</strong> · 内閣府 2026年4〜6月期GDP2次速報（発表済み：前期比 +0.4%、年率 +1.4%、設備投資が上方修正）</li>
+<li><strong>9月17〜18日</strong> · 日本銀行金融政策決定会合（追加利上げの有無と長期国債買入減額方針）</li>
+<li><strong>9月中旬</strong> · 自民党総裁選および臨時国会に向けた経済対策論争</li>
+</ol>
+<hr>
+<p><em>情報源：日本銀行、財務省、総務省統計局、厚生労働省、中国商務部。本分析は筆者独自の判断を含み、投資勧誘を目的としたものではありません。</em></p>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
     <title>日本政经周报：内需萎缩体感与财政付息极限</title>
     <id>https://terazadl.github.io/2026/09/japan-political-economy-weekly-2026-09-07/</id>
     <link href="https://terazadl.github.io/2026/09/japan-political-economy-weekly-2026-09-07/"/>
     <published>2026-09-08T00:00:00.000Z</published>
-    <updated>2026-09-21T07:33:38.400Z</updated>
+    <updated>2026-09-21T11:03:52.840Z</updated>
     <summary type="html"><![CDATA[7月家庭实际消费连续8个月下滑，2027年度概算要求国债付息预算急增至36.6万亿日元，日本宏观政策三角逼近无冗余极限。]]></summary>
     <content type="html"><![CDATA[<blockquote>
 <p><strong>覆盖范围</strong>：日本时间 2026 年 8 月 31 日 00:00 至 9 月 6 日 23:59（含 9 月 7—8 日重要延伸动态）。核心事实均引自日本银行、财务省、总务省统计局、厚生劳动省等一手官方发布；事实陈述与分析研判严格分离。<br><strong>语言版本说明</strong>：中文为完整研判版；<a href="/2026/09/japan-political-economy-weekly-2026-09-07-en/">English</a> 为核心简报（Executive Brief）；<a href="/2026/09/japan-political-economy-weekly-2026-09-07-ja/">日本語</a> 同步核心议题。</p>
@@ -1668,14 +1754,14 @@
 <li><strong>发生了什么（事实）</strong>：财务省 9 月发售第 197 期「个人面向国债」（变动 10 年期），基于基准 10 年期国债收益率（约 2.96%）计算，本期首期适用利率定为 <strong>1.87%</strong>；固定 5 年与固定 3 年期利率亦随基准同步处于历史高位。</li>
 <li><strong>为什么重要（分析判断）</strong>：个人国债利率走高表明民间无风险利率中枢彻底脱离零时代。利好大额储蓄居民的财产性收入，但反向推升了商业银行吸储成本与民间浮动房贷利率的重定价压力。</li>
 <li><strong>接下来关注什么</strong>：主要都市银行（三菱UFJ、三井住友、瑞穗）短期优惠利率（短普）的调整时间窗口与信贷需求变化。</li>
-<li><strong>来源</strong>：<a href="https://www.mof.go.jp/policy/jgbs/individual/kojinmuke/index.html">日本财务省国债发售公告</a></li>
+<li><strong>来源</strong>：<a href="https://www.mof.go.jp/policy/jgbs/individual/kojinmuke/index.html">日本财务省国债发售公告（入口页；第 197 期变动 10 年期适用利率 1.87% 见当期公告）</a></li>
 </ul>
 <h3 id="5-临近-9-月中旬日银会合，中东地缘溢价推高追加加息预期"><a href="#5-临近-9-月中旬日银会合，中东地缘溢价推高追加加息预期" class="headerlink" title="5. 临近 9 月中旬日银会合，中东地缘溢价推高追加加息预期"></a>5. 临近 9 月中旬日银会合，中东地缘溢价推高追加加息预期</h3><p><strong>状态：9 月 17—18 日金融政策决定会合前哨期</strong></p>
 <ul>
-<li><strong>发生了什么（事实）</strong>：由于中东地缘局势反复推高国际原油与物流成本，叠加日元汇率在 153~157 区间反复拉锯，隔夜指数掉期（OIS）与金融期货市场对日本银行在 9 月政策会合上再次追加加息 25 个基点至 <strong>1.25%</strong> 的定价分位保持坚挺，10 年期国债收益率行至 3% 附近的 30 年高位。</li>
+<li><strong>发生了什么（事实）</strong>：受通胀与工资数据偏强、日本国债收益率持续上行推动，隔夜指数掉期（OIS）与金融期货市场对日本银行在 9 月政策会合上再次追加加息 25 个基点至 <strong>1.25%</strong> 的定价分位保持坚挺（OIS 与期货定价均为市场观测，非日银发布），10 年期国债收益率行至 2.96% 附近的 30 年高位。需要指出，本周日元实际明显走强（USDJPY 自 159.52 回落至 153.50），汇率并非本轮加息定价的驱动因素。</li>
 <li><strong>为什么重要（分析判断）</strong>：日银处于两难：不加息则日元贬值与输入通胀持续侵害民生；若加息，在家庭消费连降 8 个月且国债费要求已达 36.6 万亿日元的背景下，可能加剧内需紧缩与财政负担。</li>
 <li><strong>接下来关注什么</strong>：日银审议委员在决定会合前的沉默期表态，以及会合前夕 8 月东京与全国物价指标变化。</li>
-<li><strong>来源</strong>：<a href="https://www.boj.or.jp/mopo/index.htm">日本银行市场观测与日程</a></li>
+<li><strong>来源</strong>：<a href="https://www.boj.or.jp/mopo/index.htm">日银发布日程（OIS 与行情定价为市场观测，非日银发布）</a></li>
 </ul>
 <h3 id="6-中国商务部对日二氯二氢硅实施反倾销措施，半导体原材料供应链承压"><a href="#6-中国商务部对日二氯二氢硅实施反倾销措施，半导体原材料供应链承压" class="headerlink" title="6. 中国商务部对日二氯二氢硅实施反倾销措施，半导体原材料供应链承压"></a>6. 中国商务部对日二氯二氢硅实施反倾销措施，半导体原材料供应链承压</h3><p><strong>状态：9 月 8 日起正式征收保证金</strong></p>
 <ul>
@@ -1715,13 +1801,13 @@
     <div class="weekly-radar-card is-japan">
       <div class="weekly-radar-card-head">
         <span class="weekly-radar-tag">JAPAN · 汇率</span>
-        <span class="weekly-radar-change is-down">↓ 走强</span>
+        <span class="weekly-radar-change is-up">↑ 日元走强</span>
       </div>
       <div class="weekly-radar-label">美元／日元 (USDJPY)</div>
       <div class="weekly-radar-metric-body">
         <span class="weekly-radar-value">153.50</span>
       </div>
-      <div class="weekly-radar-note">前值 159.52 · 日元显著走强，回到 153 一线</div>
+      <div class="weekly-radar-note">USDJPY 159.52→153.50（汇率对下行＝日元走强）</div>
     </div>
     <div class="weekly-radar-card is-japan">
       <div class="weekly-radar-card-head">
@@ -1770,8 +1856,7 @@
 <div class="weekly-chart" data-chart="bar" data-series='{"title":"日本 · 本期 vs 前值","color":"#3a5a6b","indicators":[{"label":"东京核心CPI","value":1.8,"prev":1.7,"unit":"%YoY","max":4,"min":0},{"label":"10年期国债利率","value":2.96,"prev":2.925,"unit":"%","max":4,"min":0},{"label":"美元兑日元","value":153.5,"prev":159.52,"unit":"¥","max":160,"min":0},{"label":"实际工资同比","value":2.4,"prev":2.2,"unit":"%YoY","max":4,"min":0},{"label":"家庭实际消费","value":-3.6,"prev":-1.8,"unit":"%YoY","max":2,"min":-6},{"label":"2027概算要求","value":143.7,"prev":122.4,"unit":"万亿¥","max":160,"min":0}]}'>
   <div class="weekly-chart-head"><h4>日本 · 本期 vs 前值</h4><span>JP</span></div>
   <div class="weekly-chart-fallback">
-    <table><thead><tr><th>指标</th><th>本期</th><th>前值</th></tr></thead>
-    <tbody><tr><td>东京核心CPI</td><td><strong>1.8%YoY</strong></td><td>1.7%YoY</td></tr><tr><td>10年期国债利率</td><td><strong>2.96%</strong></td><td>2.925%</td></tr><tr><td>美元兑日元</td><td><strong>153.5¥</strong></td><td>159.52¥</td></tr><tr><td>实际工资同比</td><td><strong>2.4%YoY</strong></td><td>2.2%YoY</td></tr><tr><td>家庭实际消费</td><td><strong>-3.6%YoY</strong></td><td>-1.8%YoY</td></tr><tr><td>2027概算要求</td><td><strong>143.7万亿¥</strong></td><td>122.4万亿¥</td></tr></tbody></table>
+    <p>本期与前值对照与上方「数据雷达」相同；启用 JavaScript 可查看柱状对比图。</p>
   </div>
 </div>
 
@@ -1987,131 +2072,6 @@
     <author><name>Lei Deng</name></author>
   </entry>
   <entry>
-    <title>日本政経ウィークリー｜2026年8月31日〜9月6日：実質消費の収縮と財政利払いの限界</title>
-    <id>https://terazadl.github.io/2026/09/japan-political-economy-weekly-2026-09-07-ja/</id>
-    <link href="https://terazadl.github.io/2026/09/japan-political-economy-weekly-2026-09-07-ja/"/>
-    <published>2026-09-08T00:00:00.000Z</published>
-    <updated>2026-09-21T07:33:38.400Z</updated>
-    <summary type="html"><![CDATA[7月の実質消費支出は8カ月連続の減少となり、2027年度概算要求の国債費は36.6兆円規模へ膨張。日銀と政府の政策バランスは極限の緊張に直面している。]]></summary>
-    <content type="html"><![CDATA[<p><span hidden data-article-language="JA"></span></p>
-<blockquote>
-<p><strong>対象期間：</strong> 2026年8月31日〜9月6日（日本時間、9月7〜8日の最新動向を含む）。過去の出来事は背景としてのみ扱う。<br><strong>言語版：</strong> <a href="/2026/09/japan-political-economy-weekly-2026-09-07/">中文</a> · <a href="/2026/09/japan-political-economy-weekly-2026-09-07-en/">English</a> · <strong>日本語</strong></p>
-</blockquote>
-<div class="abstract">
-  <span class="abstract-label">今週の主線</span>
-  総務省の7月家計調査で実質消費支出が8カ月連続の減少（-3.6％）となる一方、財務省の2027年度概算要求では国債費が36.6兆円規模へ急増した。家計の実質購買力低下と国の利払いコスト膨張という二重の制約下で、9月17〜18日の日銀金融政策決定会合に向けた利上げ観測が政策三角関係の緊張を極限まで高めている。
-</div>
-
-<h2 id="エグゼクティブ・サマリー"><a href="#エグゼクティブ・サマリー" class="headerlink" title="エグゼクティブ・サマリー"></a>エグゼクティブ・サマリー</h2><ul>
-<li><strong>実質消費は8カ月連続減：</strong> 7月の2人以上世帯の実質消費支出は前年比 <strong>-3.6％</strong> と大幅減。名義賃上げが進むものの、物価高による防衛的消費が定着。</li>
-<li><strong>概算要求は143.7兆円で過去最大：</strong> 想定金利の3.8％への引き上げに伴い、国債費要求額が <strong>36.6兆円</strong> へ膨張。防衛費も8兆8908億円と過去最高を更新。</li>
-<li><strong>実質賃金は7カ月連続のプラス：</strong> 7月の現金給与総額は+4.7％、物価高を差し引いた実質賃金は <strong>+2.4％</strong> と7カ月連続の正成長。</li>
-<li><strong>個人向け国債利率が1.87％へ上昇：</strong> 第197回10年変動利付債の初回適用利率が引き上げられ、民間における預金調達コストや変動住宅ローン金利の改定圧力が顕在化。</li>
-<li><strong>9月日銀会合へ向けた利上げ織り込み：</strong> 中東情勢による資源高や為替の綱引きを背景に、政策金利を <strong>1.25％</strong> へ追加引き上げする市場観測が根強く持続。</li>
-<li><strong>半導体材料巡る中日間貿易摩擦：</strong> 中国商務部が日本産ジクロロシランに対して反ダンピング保証金の徴収を決定し、高純度特殊ガスのサプライチェーンに影響。</li>
-</ul>
-<h2 id="主要ニュース"><a href="#主要ニュース" class="headerlink" title="主要ニュース"></a>主要ニュース</h2><h3 id="1-7月の実質消費支出は前年比3-6％減、8カ月連続マイナス"><a href="#1-7月の実質消費支出は前年比3-6％減、8カ月連続マイナス" class="headerlink" title="1. 7月の実質消費支出は前年比3.6％減、8カ月連続マイナス"></a>1. 7月の実質消費支出は前年比3.6％減、8カ月連続マイナス</h3><p><strong>確認済み｜9月4日 総務省統計局公表</strong></p>
-<p>2人以上世帯の1世帯当たり消費支出は301,245円で、実質前年同月比 <strong>-3.6％</strong>（名義-1.5％）となった。食料（-1.3％）、光熱・水道（-9.2％）、交通・通信（-8.5％）が減少した一方、教養娯楽（+4.8％）は増加。食品価格上昇と前年を下回る気温が消費を下押しし、春闘による賃上げにもかかわらず家計は防衛的支出を続けている。</p>
-<h3 id="2-2027年度概算要求は143-7兆円、国債費要求が36-6兆円規模へ拡大"><a href="#2-2027年度概算要求は143-7兆円、国債費要求が36-6兆円規模へ拡大" class="headerlink" title="2. 2027年度概算要求は143.7兆円、国債費要求が36.6兆円規模へ拡大"></a>2. 2027年度概算要求は143.7兆円、国債費要求が36.6兆円規模へ拡大</h3><p><strong>確認済み｜9月初旬 財務省集計</strong></p>
-<p>一般会計概算要求総額は <strong>143兆656億円</strong> と4年連続で過去最大を更新した。国債費（元利払い）は積算基準金利3.8％の採用により <strong>36兆6386億円</strong> に達し、過去最大水準を記録。金利上昇が財政の自由度を奪い、社会保障や産業投資の財源配分を著しく狭めている。</p>
-<h3 id="3-実質賃金は-2-4％、7カ月連続のプラス成長"><a href="#3-実質賃金は-2-4％、7カ月連続のプラス成長" class="headerlink" title="3. 実質賃金は+2.4％、7カ月連続のプラス成長"></a>3. 実質賃金は+2.4％、7カ月連続のプラス成長</h3><p><strong>確認済み｜9月8日 厚生労働省毎月勤労統計速報</strong></p>
-<p>7月の現金給与総額は前年比+4.7％、総合インフレ率を控除した実質賃金は <strong>+2.4％</strong> と7カ月連続のプラスを維持した。日銀が掲げる「賃金と物価の好循環」は実質購買力の回復につながりつつあり、名目と実質のギャップは改善傾向にある。</p>
-<h3 id="4-個人向け国債の適用利率が1-87％へ引き上げ"><a href="#4-個人向け国債の適用利率が1-87％へ引き上げ" class="headerlink" title="4. 個人向け国債の適用利率が1.87％へ引き上げ"></a>4. 個人向け国債の適用利率が1.87％へ引き上げ</h3><p><strong>確認済み｜9月3日 財務省募集開始</strong></p>
-<p>長期金利の上昇を反映し、第197回個人向け国債（変動10年）の初回適用利率が <strong>1.87％</strong> に設定された。預金者にとっては利息収入改善となる一方、民間銀行の調達コスト上昇や変動型住宅ローンの金利見直しを通じ、家計債務への波及が懸念される。</p>
-<h3 id="5-日銀9月会合を控えた追加利上げ観測の継続"><a href="#5-日銀9月会合を控えた追加利上げ観測の継続" class="headerlink" title="5. 日銀9月会合を控えた追加利上げ観測の継続"></a>5. 日銀9月会合を控えた追加利上げ観測の継続</h3><p><strong>確認済み｜9月17〜18日会合前哨期</strong></p>
-<p>10年国債利回りが3％近辺で推移する中、OIS市場等では政策金利を1.25％へ引き上げる確率が高水準で維持されている。利上げ見送りは円安・輸入インフレを長期化させ、利上げ断行は内需冷え込みと国の財政負担を加速させるという、政策の板挟みが深刻化している。</p>
-<h3 id="6-中国が日本産ジクロロシランに反ダンピング措置適用"><a href="#6-中国が日本産ジクロロシランに反ダンピング措置適用" class="headerlink" title="6. 中国が日本産ジクロロシランに反ダンピング措置適用"></a>6. 中国が日本産ジクロロシランに反ダンピング措置適用</h3><p><strong>確認済み｜9月8日 中国商務部公告</strong></p>
-<p>中国商務部は日本産ジクロロシランに対し、暫定的な反ダンピング保証金徴収を決定した。ウエハー製造における重要な前駆体ガスであり、先端半導体素材をめぐる通商摩擦が素材レイヤーまで波及していることを示している。</p>
-<h2 id="データレーダー-·-日本"><a href="#データレーダー-·-日本" class="headerlink" title="データレーダー · 日本"></a>データレーダー · 日本</h2><div class="weekly-radar-panel">
-  <div class="weekly-radar-head">
-    <h3>日本政経主要指標（2026.09）</h3>
-    <span>固定指標パネル · 期間比較</span>
-  </div>
-  <div class="weekly-radar-grid">
-    <div class="weekly-radar-card is-japan">
-      <div class="weekly-radar-card-head">
-        <span class="weekly-radar-tag">JAPAN · 物価</span>
-        <span class="weekly-radar-change is-up">↑ +0.1%</span>
-      </div>
-      <div class="weekly-radar-label">東京コア CPI（前年比）</div>
-      <div class="weekly-radar-metric-body">
-        <span class="weekly-radar-value">+1.8%</span>
-      </div>
-      <div class="weekly-radar-note">前値 +1.7% · 補助金が表層の物価を抑制</div>
-    </div>
-    <div class="weekly-radar-card is-japan">
-      <div class="weekly-radar-card-head">
-        <span class="weekly-radar-tag">JAPAN · 金利</span>
-        <span class="weekly-radar-change is-up">↑ +3.5 bp</span>
-      </div>
-      <div class="weekly-radar-label">新発10年国債利回り (JGB)</div>
-      <div class="weekly-radar-metric-body">
-        <span class="weekly-radar-value">2.96%</span>
-      </div>
-      <div class="weekly-radar-note">前値 2.925% · 1996年以来の高水準</div>
-    </div>
-    <div class="weekly-radar-card is-japan">
-      <div class="weekly-radar-card-head">
-        <span class="weekly-radar-tag">JAPAN · 為替</span>
-        <span class="weekly-radar-change is-down">↓ 円高進行</span>
-      </div>
-      <div class="weekly-radar-label">ドル／円 (USDJPY)</div>
-      <div class="weekly-radar-metric-body">
-        <span class="weekly-radar-value">153.50</span>
-      </div>
-      <div class="weekly-radar-note">前値 159.52 · 円は8月末比で大幅に上昇</div>
-    </div>
-    <div class="weekly-radar-card is-japan">
-      <div class="weekly-radar-card-head">
-        <span class="weekly-radar-tag">JAPAN · 賃金</span>
-        <span class="weekly-radar-change is-up">↑ 7カ月連続プラス</span>
-      </div>
-      <div class="weekly-radar-label">実質賃金（前年比）</div>
-      <div class="weekly-radar-metric-body">
-        <span class="weekly-radar-value">+2.4%</span>
-      </div>
-      <div class="weekly-radar-note">前値 +2.2% · 7カ月連続の正成長</div>
-    </div>
-    <div class="weekly-radar-card is-japan">
-      <div class="weekly-radar-card-head">
-        <span class="weekly-radar-tag">JAPAN · 内需消費</span>
-        <span class="weekly-radar-change is-down">↓ 8カ月連続減</span>
-      </div>
-      <div class="weekly-radar-label">実質消費支出（前年比）</div>
-      <div class="weekly-radar-metric-body">
-        <span class="weekly-radar-value">-3.6%</span>
-      </div>
-      <div class="weekly-radar-note">前値 -1.8% · 家計は強い防衛的姿勢</div>
-    </div>
-    <div class="weekly-radar-card is-japan">
-      <div class="weekly-radar-card-head">
-        <span class="weekly-radar-tag">JAPAN · 財政規律</span>
-        <span class="weekly-radar-change is-up">↑ 過去最大</span>
-      </div>
-      <div class="weekly-radar-label">2027年度概算要求総額</div>
-      <div class="weekly-radar-metric-body">
-        <span class="weekly-radar-value">143.7兆円</span>
-      </div>
-      <div class="weekly-radar-note">国債費要求は36.6兆円規模へ拡大</div>
-    </div>
-  </div>
-</div>
-
-<h2 id="構造的判断（まとめ）"><a href="#構造的判断（まとめ）" class="headerlink" title="構造的判断（まとめ）"></a>構造的判断（まとめ）</h2><blockquote>
-<p>日本経済の真の焦点は為替の短期水準ではなく、「金利正常化」と「内需の受容力」の構造的ギャップにある。実質消費が8カ月連続でマイナスに沈む中、インフレ抑制の利上げ要請と、利払い膨張を恐れる財政制約が正面衝突しており、政策三角関係のバッファーは限界に達している。</p>
-</blockquote>
-<h2 id="来週の注目点"><a href="#来週の注目点" class="headerlink" title="来週の注目点"></a>来週の注目点</h2><ol>
-<li><strong>9月10日</strong> · 財務省 7月国際収支状況速報（経常黒字と第一次所得収支の動向）</li>
-<li><strong>9月8日</strong> · 内閣府 2026年4〜6月期GDP2次速報（発表済み：前期比 +0.4%、年率 +1.4%、設備投資が上方修正）</li>
-<li><strong>9月17〜18日</strong> · 日本銀行金融政策決定会合（追加利上げの有無と長期国債買入減額方針）</li>
-<li><strong>9月中旬</strong> · 自民党総裁選および臨時国会に向けた経済対策論争</li>
-</ol>
-<hr>
-<p><em>情報源：日本銀行、財務省、総務省統計局、厚生労働省、中国商務部。本分析は筆者独自の判断を含み、投資勧誘を目的としたものではありません。</em></p>
-]]></content>
-    <author><name>Lei Deng</name></author>
-  </entry>
-  <entry>
     <title>一小时直达成都：读两篇写我家乡的招商文</title>
     <id>https://terazadl.github.io/2026/09/one-hour-to-chengdu-and-one-hour-away/</id>
     <link href="https://terazadl.github.io/2026/09/one-hour-to-chengdu-and-one-hour-away/"/>
@@ -2192,11 +2152,299 @@
     <author><name>Lei Deng</name></author>
   </entry>
   <entry>
+    <title>日本政经周报：加息信号与财政成本共振</title>
+    <id>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-30/</id>
+    <link href="https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-30/"/>
+    <published>2026-08-31T09:00:00.000Z</published>
+    <updated>2026-09-21T11:03:52.840Z</updated>
+    <summary type="html"><![CDATA[日银保留继续加息空间，国债利息预算、燃油补贴与灾后支出同步上升，日本政策面临控通胀、稳内需与控制财政成本的平衡。]]></summary>
+    <content type="html"><![CDATA[<blockquote>
+<p><strong>覆盖范围</strong>：日本时间 2026 年 8 月 24 日 00:00 至 8 月 30 日 23:59。只收录当周新发生、首次披露或取得实质进展的事项。此前发生的事件仅作背景。<br><strong>语言版本说明</strong>：中文为完整研判版；<a href="/2026/08/japan-political-economy-weekly-2026-08-30-en/">English</a> 为核心简报（Executive Brief）；<a href="/2026/08/japan-political-economy-weekly-2026-08-30-ja/">日本語</a> 同步核心议题。</p>
+</blockquote>
+<h2 id="本周主线"><a href="#本周主线" class="headerlink" title="本周主线"></a>本周主线</h2><p>日银仍为继续加息保留空间，而国债付息预算、能源补贴与灾后支出同步上升，使“压通胀—稳内需—控财政成本”成为日本未来数月最难的政策平衡。</p>
+<div class="weekly-mainline-figure">
+  <img decoding="async" loading="eager" src="/images/weekly/japan-policy-triangle-2026-08-30.svg" alt="日本政策三角：压通胀—稳内需—控财政成本（2026年8月24日–30日）" />
+  <p class="weekly-figure-caption"><strong>政策三角</strong>：加息窗口保留、燃油补贴延期与国债付息预算激增共振，三者构成不可兼得的宏观约束。</p>
+</div>
+
+<h2 id="核心事件"><a href="#核心事件" class="headerlink" title="核心事件"></a>核心事件</h2><h3 id="1-日银副总裁重申加息路径，但没有承诺-9-月行动"><a href="#1-日银副总裁重申加息路径，但没有承诺-9-月行动" class="headerlink" title="1. 日银副总裁重申加息路径，但没有承诺 9 月行动"></a>1. 日银副总裁重申加息路径，但没有承诺 9 月行动</h3><p><strong>状态：已确认｜发生日期：8 月 27 日；记者会记录发布：8 月 28 日</strong></p>
+<ul>
+<li><strong>发生了什么（事实）</strong>：日本银行副总裁氷見野良三表示，若经济与物价按日银展望实现，日银将继续提高政策利率、调整货币宽松程度；具体时点与速度要观察中东局势、AI 相关需求、汇率及金融市场。记者会上，他称 7 月展望“没有明显变化”，统计大体符合判断，但仍需在每次会议逐次评估。他也表示，10 年期国债收益率接近 3% 尚未造成特别的市场功能问题。</li>
+<li><strong>为什么重要（分析判断）</strong>：这不是明确的 9 月加息预告，却把近期加息继续留在桌面上。东京通胀与企业服务价格均重新走强，会提高日银对“基调通胀”接近 2% 的信心；但内需偏弱与财政利息负担急增，使快速加息的代价更高。</li>
+<li><strong>接下来关注什么</strong>：9 月 2 日日银审议委员高田创讲话；工资、服务价格与汇率是否继续支持加息；日银对长端收益率失序上升的容忍边界。</li>
+<li><strong>来源</strong>：<a href="https://www.boj.or.jp/about/press/koen_2026/ko260827a.htm">日本银行演讲稿（8 月 27 日）</a>、<a href="https://www.boj.or.jp/about/press/kaiken_2026/kk260828a.pdf">日本银行记者会记录（8 月 28 日）</a>、<a href="https://www.newsweekjapan.jp/articles/-/332457">Reuters／Newsweek Japan（8 月 27 日）</a></li>
+</ul>
+<h3 id="2-国债费概算要求升至-36-64-万亿日元，利率假设提高至-3-8"><a href="#2-国债费概算要求升至-36-64-万亿日元，利率假设提高至-3-8" class="headerlink" title="2. 国债费概算要求升至 36.64 万亿日元，利率假设提高至 3.8%"></a>2. 国债费概算要求升至 36.64 万亿日元，利率假设提高至 3.8%</h3><p><strong>状态：已确认｜日期：8 月 28 日</strong></p>
+<ul>
+<li><strong>发生了什么（事实）</strong>：财务省所管的一般会计概算要求为 38.6948 万亿日元，其中国债费（国債費）36.6386 万亿，较 2026 财年预算增加 5.3628 万亿、增幅 17.1%；利息及折价费为 16.5888 万亿，增加 27.2%。编制概算采用 3.8% 的利率假设，高于上年度的 3.0%。这一数字是预算安全垫，并非财务省对市场利率的正式预测。</li>
+<li><strong>为什么重要（分析判断）</strong>：上一期“概算利率可能升至 3.8%”仍属媒体线索，本周已由正式概算要求落实。即使税收表现良好，利息支出的刚性上升也会挤压补贴、社保、产业政策和防卫支出的空间。</li>
+<li><strong>接下来关注什么</strong>：各省概算要求汇总、年末预算编制是否削减非刚性支出，以及 10 年期国债拍卖需求与期限溢价。</li>
+<li><strong>来源</strong>：<a href="https://www.mof.go.jp/about_mof/mof_budget/budget/fy2027/20260828.html">财务省概算要求（8 月 28 日）</a>、<a href="https://news.tv-asahi.co.jp/news_economy/articles/000529537.html">朝日电视台（8 月 28 日）</a></li>
+</ul>
+<h3 id="3-政府延长燃油补贴，汽油目标价维持约-170-日元-升"><a href="#3-政府延长燃油补贴，汽油目标价维持约-170-日元-升" class="headerlink" title="3. 政府延长燃油补贴，汽油目标价维持约 170 日元&#x2F;升"></a>3. 政府延长燃油补贴，汽油目标价维持约 170 日元&#x2F;升</h3><p><strong>状态：已确认｜日期：8 月 25—27 日</strong></p>
+<ul>
+<li><strong>发生了什么（事实）</strong>：首相宣布继续实施燃油价格缓和措施，使用“中東情勢等対応予備費”，力争把普通汽油全国均价维持在约 170 日元&#x2F;升。政府称，8 月 17 日实际均价为 169.8 日元；若无措施，估算约为 187 日元。8 月 27 日起，汽油、柴油、煤油和重油的补贴率为 32.5 日元&#x2F;升，航空燃油亦维持补贴。</li>
+<li><strong>为什么重要（分析判断）</strong>：措施可以直接缓冲家庭出行、物流和农业成本，但也延长了财政承担，并削弱高能源价格推动节能和需求调整的信号。它改善的是短期可支配收入，不等于工资与生产率的结构性改善。</li>
+<li><strong>接下来关注什么</strong>：中东局势、进口成本和日元汇率；政府是否提出明确退出机制，以及补贴延长所需追加金额。</li>
+<li><strong>来源</strong>：<a href="https://www.kantei.go.jp/jp/105/statement/2026/0825kaiken.html">首相官邸记者会（8 月 25 日）</a>、<a href="https://www.nenryo-teigakuhikisage.go.jp/">资源能源厅燃油价格缓和措施（8 月 26 日更新）</a></li>
+</ul>
+<h3 id="4-政府推出“パワーGX”，能源安全重新压过单一脱碳目标"><a href="#4-政府推出“パワーGX”，能源安全重新压过单一脱碳目标" class="headerlink" title="4. 政府推出“パワーGX”，能源安全重新压过单一脱碳目标"></a>4. 政府推出“パワーGX”，能源安全重新压过单一脱碳目标</h3><p><strong>状态：已确认；执行细节待定｜日期：8 月 26 日</strong></p>
+<ul>
+<li><strong>发生了什么（事实）</strong>：第 17 次 GX 实行会议汇总“エネルギー需給構造強靱化総合パッケージ（パワーGX）”，即“能源供需结构强韧化综合方案”。两条主线是分散化石燃料采购风险、降低化石燃料依赖；政策方向包括支持原油与石脑油采购多元化、强化石油产品供应链、在安全前提下最大限度利用核电，并加强 NEDO 对下一代革新反应堆、钙钛矿光伏和新型地热等技术的支持。</li>
+<li><strong>为什么重要（分析判断）</strong>：政策重心从单纯减排转向“能源安全＋价格＋脱碳”。核电设备、储能、电网与先进材料可能受益，但若审批、电网投资和成本分摊规则跟不上，方案仍可能停留在供给侧愿景。</li>
+<li><strong>接下来关注什么</strong>：预算额度、核电重启与新建审批、NEDO 项目条件，以及石油采购多元化是否增加短期成本。</li>
+<li><strong>来源</strong>：<a href="https://www.cas.go.jp/jp/seisaku/gx_jikkou_kaigi/dai17/index.html">内阁官房第 17 次 GX 实行会议（8 月 26 日）</a>、<a href="https://www.kantei.go.jp/jp/105/actions/202608/26gx.html">首相官邸会议纪要（8 月 26 日）</a>、<a href="https://www.jaif.or.jp/journal/japan/35467.html">日本原子力产业协会（8 月 27 日）</a></li>
+</ul>
+<h3 id="5-东京核心-CPI-回升，剔除能源后的通胀更强"><a href="#5-东京核心-CPI-回升，剔除能源后的通胀更强" class="headerlink" title="5. 东京核心 CPI 回升，剔除能源后的通胀更强"></a>5. 东京核心 CPI 回升，剔除能源后的通胀更强</h3><p><strong>状态：已确认｜发布日期：8 月 28 日</strong></p>
+<ul>
+<li><strong>发生了什么（事实）</strong>：采用 2025 年基期后，东京 23 区 8 月 CPI 总项同比上涨 1.9%（7 月 1.8%），除生鲜食品外上涨 1.8%（前值 1.7%），除生鲜食品及能源外上涨 2.0%（前值 1.8%）。能源分项同比为负，政策性补贴与汽油税措施对其构成持续拖累；非生鲜食品价格仍明显上行。</li>
+<li><strong>为什么重要（分析判断）</strong>：能源补贴压低表面通胀，但更接近服务与食品成本的核心口径加速，说明日银不能仅因总项低于 2% 就排除加息。对居民而言，食品与服务涨价仍会侵蚀实际购买力。</li>
+<li><strong>接下来关注什么</strong>：9 月全国 CPI、服务价格与租金；补贴基数效应消退后总项通胀是否再上行。</li>
+<li><strong>来源</strong>：<a href="https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-t.html">总务省统计局东京 CPI 页面（8 月 28 日）</a>、<a href="https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/kubu.pdf">东京 CPI 结果 PDF（8 月 28 日）</a>、<a href="https://www.newsweekjapan.jp/articles/-/332515">Reuters／Newsweek Japan（8 月 28 日）</a></li>
+</ul>
+<h3 id="6-企业服务价格同比上涨-3-6-，工资与运输成本仍在传导"><a href="#6-企业服务价格同比上涨-3-6-，工资与运输成本仍在传导" class="headerlink" title="6. 企业服务价格同比上涨 3.6%，工资与运输成本仍在传导"></a>6. 企业服务价格同比上涨 3.6%，工资与运输成本仍在传导</h3><p><strong>状态：已确认｜发布日期：8 月 26 日</strong></p>
+<ul>
+<li><strong>发生了什么（事实）</strong>：日银 7 月企业服务价格指数同比上涨 3.6%，高于 6 月修订后的 3.4%；环比上涨 0.4%。剔除国际运输后同比上涨 3.1%。运输与邮政同比上涨 6.4%，其中国际航空货运上涨 37.7%，外航货物运送运价上涨 67.4%。</li>
+<li><strong>为什么重要（分析判断）</strong>：服务价格比进口能源价格更能反映国内工资与企业定价行为。持续在 3% 上方会增强日银的加息理由，也会压缩难以转嫁成本的中小企业利润率。</li>
+<li><strong>接下来关注什么</strong>：企业是否继续把工资与物流成本转嫁给消费者；运输价格在中东风险缓和后是否回落。</li>
+<li><strong>来源</strong>：<a href="https://www.boj.or.jp/statistics/pi/cspi_release/sppi2607.pdf">日本银行企业服务价格指数 PDF（8 月 26 日）</a>、<a href="https://www.newsweekjapan.jp/articles/-/332284">Reuters／Newsweek Japan（8 月 26 日）</a></li>
+</ul>
+<h3 id="7-铠侠与闪迪拟到-2032-年在日本投资约-5-万亿日元"><a href="#7-铠侠与闪迪拟到-2032-年在日本投资约-5-万亿日元" class="headerlink" title="7. 铠侠与闪迪拟到 2032 年在日本投资约 5 万亿日元"></a>7. 铠侠与闪迪拟到 2032 年在日本投资约 5 万亿日元</h3><p><strong>状态：企业计划已确认；政府支持金额尚待官方确认｜日期：8 月 27 日</strong></p>
+<ul>
+<li><strong>发生了什么（事实）</strong>：铠侠与闪迪宣布，预计到 2032 年在日本累计投资约 5 万亿日元，用于四日市与北上基地的产能、基础设施和技术；计划以市场需求、财务状况及政府支持为条件。北上 K3 厂房被媒体报道为约 1.8 万亿日元、计划 2029 财年投产。</li>
+<li><strong>为什么重要（分析判断）</strong>：这是日本半导体产业政策从“建设先进逻辑芯片”扩展到存储器与 AI 数据中心需求的又一大额项目。长期利好设备、材料与地方就业，但公共支持应避免把需求风险单向转给纳税人。</li>
+<li><strong>接下来关注什么</strong>：经产省支持条件与金额、K3 量产节点、AI 存储需求和 NAND 价格周期。</li>
+<li><strong>来源</strong>：<a href="https://www.kioxia.com/ja-jp/about/news/2026/20260827-3.html">铠侠公司公告（8 月 27 日）</a></li>
+</ul>
+<h2 id="数据雷达"><a href="#数据雷达" class="headerlink" title="数据雷达"></a>数据雷达</h2><div class="weekly-radar-panel">
+  <div class="weekly-radar-head">
+    <h3>日本政经关键读数（2026.08）</h3>
+    <span>固定指标面板 · 跨期可比</span>
+  </div>
+  <div class="weekly-radar-grid">
+    <div class="weekly-radar-card is-japan">
+      <div class="weekly-radar-card-head">
+        <span class="weekly-radar-tag">JAPAN · 物价</span>
+        <span class="weekly-radar-change is-up">↑ +0.1%</span>
+      </div>
+      <div class="weekly-radar-label">东京 CPI（总项同比）</div>
+      <div class="weekly-radar-metric-body">
+        <span class="weekly-radar-value">+1.9%</span>
+      </div>
+      <div class="weekly-radar-note">前值 +1.8% · 能源补贴压低总项</div>
+    </div>
+    <div class="weekly-radar-card is-japan">
+      <div class="weekly-radar-card-head">
+        <span class="weekly-radar-tag">JAPAN · 核心物价</span>
+        <span class="weekly-radar-change is-up">↑ +0.2%</span>
+      </div>
+      <div class="weekly-radar-label">东京 CPI（除生鲜及能源）</div>
+      <div class="weekly-radar-metric-body">
+        <span class="weekly-radar-value">+2.0%</span>
+      </div>
+      <div class="weekly-radar-note">前值 +1.8% · 服务与食品韧性强</div>
+    </div>
+    <div class="weekly-radar-card is-japan">
+      <div class="weekly-radar-card-head">
+        <span class="weekly-radar-tag">JAPAN · 服务成本</span>
+        <span class="weekly-radar-change is-up">↑ +0.2%</span>
+      </div>
+      <div class="weekly-radar-label">企业服务价格（同比）</div>
+      <div class="weekly-radar-metric-body">
+        <span class="weekly-radar-value">+3.6%</span>
+      </div>
+      <div class="weekly-radar-note">前值 +3.4% · 工资与物流成本传导</div>
+    </div>
+    <div class="weekly-radar-card is-japan">
+      <div class="weekly-radar-card-head">
+        <span class="weekly-radar-tag">JAPAN · 就业</span>
+        <span class="weekly-radar-change is-down">↓ 微降</span>
+      </div>
+      <div class="weekly-radar-label">失业率 / 有效求人倍率</div>
+      <div class="weekly-radar-metric-body">
+        <span class="weekly-radar-value">2.4% / 1.18</span>
+      </div>
+      <div class="weekly-radar-note">失业微降 0.1%，求人需求未明显加速</div>
+    </div>
+    <div class="weekly-radar-card is-japan">
+      <div class="weekly-radar-card-head">
+        <span class="weekly-radar-tag">JAPAN · 利率</span>
+        <span class="weekly-radar-change is-up">↑ +5.5bp</span>
+      </div>
+      <div class="weekly-radar-label">10 年期日本国债 (JGB)</div>
+      <div class="weekly-radar-metric-body">
+        <span class="weekly-radar-value">2.925%</span>
+      </div>
+      <div class="weekly-radar-note">上周末 2.870% · 逼近 3% 心理关口</div>
+    </div>
+    <div class="weekly-radar-card is-japan">
+      <div class="weekly-radar-card-head">
+        <span class="weekly-radar-tag">JAPAN · 汇率</span>
+        <span class="weekly-radar-change is-down">↓ 日元走弱</span>
+      </div>
+      <div class="weekly-radar-label">美元／日元 (USDJPY)</div>
+      <div class="weekly-radar-metric-body">
+        <span class="weekly-radar-value">159.52</span>
+      </div>
+      <div class="weekly-radar-note">USDJPY 158.80→159.52（汇率对上行＝日元走弱）</div>
+    </div>
+  </div>
+</div>
+
+<table>
+<thead>
+<tr>
+<th>指标名称</th>
+<th align="right">本期读数</th>
+<th align="right">前值 &#x2F; 预期值</th>
+<th>方向与简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>东京 CPI（总项同比）</strong></td>
+<td align="right"><strong>+1.9%</strong></td>
+<td align="right">+1.8%</td>
+<td>↑ 小幅加速，能源补贴压低表面读数</td>
+</tr>
+<tr>
+<td><strong>东京 CPI（除生鲜及能源）</strong></td>
+<td align="right"><strong>+2.0%</strong></td>
+<td align="right">+1.8%</td>
+<td>↑ 核心服务成本回升，支撑日银信心</td>
+</tr>
+<tr>
+<td><strong>企业服务价格（同比）</strong></td>
+<td align="right"><strong>+3.6%</strong></td>
+<td align="right">+3.4%</td>
+<td>↑ 劳务与运输成本继续转嫁</td>
+</tr>
+<tr>
+<td><strong>完全失业率 &#x2F; 求人倍率</strong></td>
+<td align="right"><strong>2.4% &#x2F; 1.18</strong></td>
+<td align="right">2.5% &#x2F; 1.18</td>
+<td>→ 劳动力供求偏紧，但企业招聘趋谨慎</td>
+</tr>
+<tr>
+<td><strong>10 年期日本国债收益率</strong></td>
+<td align="right"><strong>2.925%</strong></td>
+<td align="right">2.870%</td>
+<td>↑ 收益率走高，财政付息压力显性化</td>
+</tr>
+<tr>
+<td><strong>美元 &#x2F; 日元汇率</strong></td>
+<td align="right"><strong>159.52</strong></td>
+<td align="right">158.80</td>
+<td>↑ USDJPY 上行至 159.52（前值 158.80），日元走弱；利差与能源账单约束未消</td>
+</tr>
+</tbody></table>
+<p>数据交叉来源：<a href="https://www.boj.or.jp/statistics/">日本银行外汇与服务价格统计</a>、<a href="https://www.stat.go.jp/data/cpi/">总务省统计局</a>、<a href="https://www.bb.jbts.co.jp/">日本相互证券</a>。若需观察市场对央行决议的定价预期，可查阅 <a href="/event-radar/">Polymarket 观测站</a>。</p>
+<h2 id="中日对照"><a href="#中日对照" class="headerlink" title="中日对照"></a>中日对照</h2><div class="weekly-compare-section">
+  <div class="weekly-compare-intro">
+    <strong>中日对照一句话</strong>：中国重定价信用规则，日本重定价利率与财政成本。
+  </div>
+  <table class="weekly-compare-table">
+    <thead>
+      <tr>
+        <th style="width: 15%;">比较维度</th>
+        <th style="width: 30%;">中国观察</th>
+        <th style="width: 30%;">日本观察</th>
+        <th style="width: 25%;">交汇与启示</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="weekly-axis-badge">货币政策</span></td>
+        <td>央行稳流动性、慎发降息信号，通过 MLF 与隔夜工具提供平稳流动性支撑。</td>
+        <td>日银高层重申加息方向，东京核心 CPI 与服务价格上行强化加息窗口。</td>
+        <td><strong>周期错位</strong>：中国以宽松托底流动性，日本处在退出超宽松后对加息幅度的谨慎博弈。</td>
+      </tr>
+      <tr>
+        <td><span class="weekly-axis-badge">财政刚性</span></td>
+        <td>房地产从传统高周转转向“项目制”与现房销售，重整开发与信用约束。</td>
+        <td>国债费概算增至 36.6 万亿，概算基准利率提高至 3.8%，付息刚性大增。</td>
+        <td><strong>约束收紧</strong>：两国皆在告别旧杠杆模式，财政与信贷资金更加注重安全垫与偿付纪律。</td>
+      </tr>
+      <tr>
+        <td><span class="weekly-axis-badge">产业驱动</span></td>
+        <td>工业利润分化明显，电子通信高景气，汽车与传统建材承受价格压力。</td>
+        <td>パワーGX 重设能源安全优先，铠侠闪迪拟在日追加 5 万亿投资半导体。</td>
+        <td><strong>战略转向</strong>：高新技术与供应链韧性成为公共资本与产业扶持的焦点。</td>
+      </tr>
+      <tr>
+        <td><span class="weekly-axis-badge">居民体感</span></td>
+        <td>规上企业利润增长 17.6%，但应收账款与存货走高，微观体感温差明显。</td>
+        <td>汽油补贴延期至 170 日元/升，但食品与日用品价格仍侵蚀实际购买力。</td>
+        <td><strong>内需短板</strong>：短期政策性对冲无法替代居民持久性收入增长对消费的支撑。</td>
+      </tr>
+      <tr>
+        <td><span class="weekly-axis-badge">外部风险</span></td>
+        <td>面临外需与地缘规则调整，加快构建自主可控与多边经贸通道。</td>
+        <td>受制于中东局势、能源进口账单与美日高利差，汇率输入性通胀持续。</td>
+        <td><strong>外部约束</strong>：地缘动荡与全球供应链重组对中日内需定价形成共同外部传导。</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 id="一条结构性判断"><a href="#一条结构性判断" class="headerlink" title="一条结构性判断"></a>一条结构性判断</h2><p>日本已实质进入“利率与财政刚性共振”的新宏观阶段。当 10 年期国债利率逼近 3% 且概算付息大增，政府既无法承受过快加息带来的财政利息挤压，又难以在日元贬值与服务通胀高企下长期维持超宽松。短期以燃油补贴和预备费“买时间”，但中长期唯有依靠企业投资与生产率实际回升才能打破政策三角死结。</p>
+<h2 id="下周观察清单"><a href="#下周观察清单" class="headerlink" title="下周观察清单"></a>下周观察清单</h2><ol>
+<li><strong>9 月 1 日</strong> · 10 年期日本国债拍卖 · 关注投标倍数、尾差与国内机构认购意愿</li>
+<li><strong>9 月 2 日</strong> · 日银审议委员高田创讲话 · 市场寻找 9 月决议对加息门槛与长端容忍度的线索</li>
+<li><strong>9 月 5 日</strong> · 厚生劳动省 7 月每月勤劳统计 · 检验实际工资转正的广度与可持续性</li>
+<li><strong>9 月上旬</strong> · 临时国会前税制与物价对策汇总 · 关注税额抵扣方案与财源安排</li>
+</ol>
+<h2 id="附录：本周其他观察与参考事件"><a href="#附录：本周其他观察与参考事件" class="headerlink" title="附录：本周其他观察与参考事件"></a>附录：本周其他观察与参考事件</h2><h3 id="8-失业率降至-2-4-，但求人倍率没有改善"><a href="#8-失业率降至-2-4-，但求人倍率没有改善" class="headerlink" title="8. 失业率降至 2.4%，但求人倍率没有改善"></a>8. 失业率降至 2.4%，但求人倍率没有改善</h3><p><strong>状态：已确认｜发布日期：8 月 28 日</strong></p>
+<ul>
+<li><strong>发生了什么（事实）</strong>：7 月经季调失业率为 2.4%，低于 6 月的 2.5%；就业人数 6,850 万人、失业人数 169 万人，均与上年同期大体持平。有效求人倍率为 1.18，与 6 月持平；新规求人倍率降至 2.10，环比下降 0.06。</li>
+<li><strong>为什么重要（分析判断）</strong>：低失业率显示劳动力市场仍紧，但求人指标未走强，不能简单解读为需求全面加速。若企业招工趋谨慎，明年工资谈判的广度可能弱于头部企业。</li>
+<li><strong>接下来关注什么</strong>：实际工资、非正规就业、制造业新订单与中小企业招聘计划。</li>
+<li><strong>来源</strong>：<a href="https://www.stat.go.jp/data/roudou/sokuhou/tsuki/index.html">总务省劳动力调查（8 月 28 日）</a>、<a href="https://www.stat.go.jp/data/roudou/sokuhou/tsuki/pdf/gaiyou.pdf">劳动力调查结果 PDF（8 月 28 日）</a>、<a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/topics_150876_156.html">厚生劳动省一般职业介绍状况</a></li>
+</ul>
+<h3 id="9-内阁府月例经济报告维持“缓慢复苏”，但新增自然灾害风险"><a href="#9-内阁府月例经济报告维持“缓慢复苏”，但新增自然灾害风险" class="headerlink" title="9. 内阁府月例经济报告维持“缓慢复苏”，但新增自然灾害风险"></a>9. 内阁府月例经济报告维持“缓慢复苏”，但新增自然灾害风险</h3><p><strong>状态：已确认｜日期：8 月 27 日</strong></p>
+<ul>
+<li><strong>发生了什么（事实）</strong>：内阁府维持“景气正在缓慢复苏”的总判断，同时把自然灾害加入下行风险，并继续提示中东局势与金融市场波动。分项中，住宅投资由“低迷”调整为“大体持平”；企业利润被描述为“正在改善”，但需警惕中东局势影响。</li>
+<li><strong>为什么重要（分析判断）</strong>：政府判断较二季度 GDP 所显示的内需疲软更乐观，部分原因是 GDP 中资本开支和消费受统计分类影响。政策层可能据此避免大规模刺激，但若后续消费和工业生产走弱，表述会面临下调压力。</li>
+<li><strong>接下来关注什么</strong>：7 月工业生产与零售销售是否支持“缓慢复苏”；灾害对九州供应链、农业和旅游的拖累。</li>
+<li><strong>来源</strong>：<a href="https://www5.cao.go.jp/keizai3/getsurei/2026/0827getsurei/main.pdf">内阁府 8 月月例经济报告 PDF（8 月 27 日）</a></li>
+</ul>
+<h3 id="10-熊本地震支援方案获批，动用预备费-1-478-亿日元"><a href="#10-熊本地震支援方案获批，动用预备费-1-478-亿日元" class="headerlink" title="10. 熊本地震支援方案获批，动用预备费 1,478 亿日元"></a>10. 熊本地震支援方案获批，动用预备费 1,478 亿日元</h3><p><strong>状态：已确认｜方案汇总：8 月 27 日；阁议批准：8 月 28 日</strong></p>
+<ul>
+<li><strong>发生了什么（事实）</strong>：内阁批准动用 1,478 亿日元预备费。其中生活重建 365 亿、灾害废弃物处理 381 亿、受灾企业支持 74 亿、农业林业水产 148 亿、旅游恢复 157 亿、公共工程及设施修复 305 亿日元。政府特别提示熊本地区近年来多次受灾，需防止“灾害相关死亡”。</li>
+<li><strong>为什么重要（分析判断）</strong>：短期将支撑九州建筑、废弃物处理与旅游恢复，但材料、人手和施工能力可能形成瓶颈。自然灾害已从单次救援转为需要长期韧性投资的财政问题。</li>
+<li><strong>接下来关注什么</strong>：资金下达速度、地方配套负担、农业与半导体供应链停工损失。</li>
+<li><strong>来源</strong>：<a href="https://www.mof.go.jp/policy/budget/budger_workflow/budget/fy2026/km260828.pdf">财务省预备费明细 PDF（8 月 28 日）</a>、<a href="https://www.kantei.go.jp/jp/kikikanri/earthquake20260728.html">首相官邸熊本地震应对页</a></li>
+</ul>
+<h3 id="11-立宪民主党退出三党合并，在野党整合再次受挫"><a href="#11-立宪民主党退出三党合并，在野党整合再次受挫" class="headerlink" title="11. 立宪民主党退出三党合并，在野党整合再次受挫"></a>11. 立宪民主党退出三党合并，在野党整合再次受挫</h3><p><strong>状态：立宪不参与已确认；公明党与中道改革联合最终安排尚待确认｜日期：8 月 28—30 日</strong></p>
+<ul>
+<li><strong>发生了什么（事实）</strong>：立宪民主党 8 月 28 日决定不以组织形式参与立宪、公明和中道改革联合的合并，并向其他两党领导人传达；党内将以选举与国会合作替代组织合并。</li>
+<li><strong>为什么重要（分析判断）</strong>：合并受挫降低了在野党短期内形成统一选举品牌的概率，也使执政阵营在选区协调上更占优势。但“组织不合并、选举合作”仍可能在部分单一选区改变票源分配。</li>
+<li><strong>接下来关注什么</strong>：候选人协调规则、立宪党内路线分歧。</li>
+<li><strong>来源</strong>：<a href="https://cdp-japan.jp/news/20260828_0552/amp">立宪民主党（8 月 28 日）</a>、<a href="https://www.komei.or.jp/komeinews/p513191/">公明党（8 月 29 日）</a></li>
+</ul>
+<h2 id="口径与来源说明"><a href="#口径与来源说明" class="headerlink" title="口径与来源说明"></a>口径与来源说明</h2><ul>
+<li>数据来源：日本银行、日本财务省、总务省统计局、厚生劳动省、经济产业省等官方发布渠道，以及 Reuters、时事通信等权威财经媒体。</li>
+<li>本文分析判断均标明逻辑边界，不构成任何投资建议。如需查看预测市场隐含概率与判定标准，请参阅 <a href="/event-radar/">Polymarket 观测站</a>。</li>
+</ul>
+<hr>
+<h2 id="站内延伸阅读"><a href="#站内延伸阅读" class="headerlink" title="站内延伸阅读"></a>站内延伸阅读</h2><h3 id="往期周报与专栏"><a href="#往期周报与专栏" class="headerlink" title="往期周报与专栏"></a>往期周报与专栏</h3><ul>
+<li><a href="/japan-weekly/">日本政经周报专栏总览</a></li>
+<li>往期回顾：<a href="/2026/08/japan-political-economy-weekly-2026-08-23/">8月17日—23日：内需转弱与利率逼近3%</a></li>
+<li>往期回顾：<a href="/2026/08/japan-political-economy-weekly-2026-08-16/">8月10日—16日：日元再逼160与高市双重压力</a></li>
+<li>同期中国周报：<a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-zh/">中国政经周报：信用规则重写，利润修复仍分化（8月24日—30日）</a></li>
+</ul>
+<h3 id="关联专题与书评"><a href="#关联专题与书评" class="headerlink" title="关联专题与书评"></a>关联专题与书评</h3><ul>
+<li><a href="/2026/02/shirakawa-boj-39-years/">巧媳难为无米之炊-读白川方明《动荡三十年》</a> —— 理解日本央行货币政策、利率传导与财政约束的机制边界</li>
+<li><a href="/2026/07/japan-dram-lost-manufacturing/">百分之九十八为什么输给百分之八十三：读《失去的制造业》</a> —— 剖析日本半导体与高端制造的技术与商业路线得失</li>
+</ul>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
     <title>Japan Weekly: Rate-Hike Signals Meet Fiscal Costs (Aug 24–30)</title>
     <id>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-30-en/</id>
     <link href="https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-30-en/"/>
     <published>2026-08-31T09:00:00.000Z</published>
-    <updated>2026-09-21T07:33:38.399Z</updated>
+    <updated>2026-09-21T11:03:52.840Z</updated>
     <summary type="html"><![CDATA[The BOJ keeps the door open to further hikes while debt-service costs, fuel subsidies and disaster spending tighten Japan’s fiscal constraint.]]></summary>
     <content type="html"><![CDATA[<p><span hidden data-article-language="EN"></span></p>
 <blockquote>
@@ -2340,7 +2588,7 @@
     <id>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-30-ja/</id>
     <link href="https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-30-ja/"/>
     <published>2026-08-31T09:00:00.000Z</published>
-    <updated>2026-09-21T07:33:38.400Z</updated>
+    <updated>2026-09-21T11:03:52.840Z</updated>
     <summary type="html"><![CDATA[日銀は追加利上げの余地を残す一方、国債費、燃料補助、災害支出が同時に増え、インフレ抑制・内需維持・財政コスト抑制の均衡が難しくなっている。]]></summary>
     <content type="html"><![CDATA[<p><span hidden data-article-language="JA"></span></p>
 <blockquote>
@@ -2475,294 +2723,6 @@
 <li>8月31日以降：公明党・中道改革連合の合流と選挙協力の結論。</li>
 </ul>
 <h2 id="情報源"><a href="#情報源" class="headerlink" title="情報源"></a>情報源</h2><p>日銀、内閣府、首相官邸、財務省、総務省、厚生労働省、経産省、資源エネルギー庁、国会、政党、キオクシアIRを優先した。無料で確認できるReuters Japan、AP、テレビ朝日、FNN、TBS、nippon.com等でクロスチェックした。ペイウォールの回避や有料記事本文の推測は行っていない。</p>
-]]></content>
-    <author><name>Lei Deng</name></author>
-  </entry>
-  <entry>
-    <title>日本政经周报：加息信号与财政成本共振</title>
-    <id>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-30/</id>
-    <link href="https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-30/"/>
-    <published>2026-08-31T09:00:00.000Z</published>
-    <updated>2026-09-21T07:33:38.400Z</updated>
-    <summary type="html"><![CDATA[日银保留继续加息空间，国债利息预算、燃油补贴与灾后支出同步上升，日本政策面临控通胀、稳内需与控制财政成本的平衡。]]></summary>
-    <content type="html"><![CDATA[<blockquote>
-<p><strong>覆盖范围</strong>：日本时间 2026 年 8 月 24 日 00:00 至 8 月 30 日 23:59。只收录当周新发生、首次披露或取得实质进展的事项。此前发生的事件仅作背景。<br><strong>语言版本说明</strong>：中文为完整研判版；<a href="/2026/08/japan-political-economy-weekly-2026-08-30-en/">English</a> 为核心简报（Executive Brief）；<a href="/2026/08/japan-political-economy-weekly-2026-08-30-ja/">日本語</a> 同步核心议题。</p>
-</blockquote>
-<h2 id="本周主线"><a href="#本周主线" class="headerlink" title="本周主线"></a>本周主线</h2><p>日银仍为继续加息保留空间，而国债付息预算、能源补贴与灾后支出同步上升，使“压通胀—稳内需—控财政成本”成为日本未来数月最难的政策平衡。</p>
-<div class="weekly-mainline-figure">
-  <img decoding="async" loading="eager" src="/images/weekly/japan-policy-triangle-2026-08-30.svg" alt="日本政策三角：压通胀—稳内需—控财政成本（2026年8月24日–30日）" />
-  <p class="weekly-figure-caption"><strong>政策三角</strong>：加息窗口保留、燃油补贴延期与国债付息预算激增共振，三者构成不可兼得的宏观约束。</p>
-</div>
-
-<h2 id="核心事件"><a href="#核心事件" class="headerlink" title="核心事件"></a>核心事件</h2><h3 id="1-日银副总裁重申加息路径，但没有承诺-9-月行动"><a href="#1-日银副总裁重申加息路径，但没有承诺-9-月行动" class="headerlink" title="1. 日银副总裁重申加息路径，但没有承诺 9 月行动"></a>1. 日银副总裁重申加息路径，但没有承诺 9 月行动</h3><p><strong>状态：已确认｜发生日期：8 月 27 日；记者会记录发布：8 月 28 日</strong></p>
-<ul>
-<li><strong>发生了什么（事实）</strong>：日本银行副总裁氷見野良三表示，若经济与物价按日银展望实现，日银将继续提高政策利率、调整货币宽松程度；具体时点与速度要观察中东局势、AI 相关需求、汇率及金融市场。记者会上，他称 7 月展望“没有明显变化”，统计大体符合判断，但仍需在每次会议逐次评估。他也表示，10 年期国债收益率接近 3% 尚未造成特别的市场功能问题。</li>
-<li><strong>为什么重要（分析判断）</strong>：这不是明确的 9 月加息预告，却把近期加息继续留在桌面上。东京通胀与企业服务价格均重新走强，会提高日银对“基调通胀”接近 2% 的信心；但内需偏弱与财政利息负担急增，使快速加息的代价更高。</li>
-<li><strong>接下来关注什么</strong>：9 月 2 日日银审议委员高田创讲话；工资、服务价格与汇率是否继续支持加息；日银对长端收益率失序上升的容忍边界。</li>
-<li><strong>来源</strong>：<a href="https://www.boj.or.jp/about/press/koen_2026/ko260827a.htm">日本银行演讲稿（8 月 27 日）</a>、<a href="https://www.boj.or.jp/about/press/kaiken_2026/kk260828a.pdf">日本银行记者会记录（8 月 28 日）</a>、<a href="https://www.newsweekjapan.jp/articles/-/332457">Reuters／Newsweek Japan（8 月 27 日）</a></li>
-</ul>
-<h3 id="2-国债费概算要求升至-36-64-万亿日元，利率假设提高至-3-8"><a href="#2-国债费概算要求升至-36-64-万亿日元，利率假设提高至-3-8" class="headerlink" title="2. 国债费概算要求升至 36.64 万亿日元，利率假设提高至 3.8%"></a>2. 国债费概算要求升至 36.64 万亿日元，利率假设提高至 3.8%</h3><p><strong>状态：已确认｜日期：8 月 28 日</strong></p>
-<ul>
-<li><strong>发生了什么（事实）</strong>：财务省所管的一般会计概算要求为 38.6948 万亿日元，其中国债费（国債費）36.6386 万亿，较 2026 财年预算增加 5.3628 万亿、增幅 17.1%；利息及折价费为 16.5888 万亿，增加 27.2%。编制概算采用 3.8% 的利率假设，高于上年度的 3.0%。这一数字是预算安全垫，并非财务省对市场利率的正式预测。</li>
-<li><strong>为什么重要（分析判断）</strong>：上一期“概算利率可能升至 3.8%”仍属媒体线索，本周已由正式概算要求落实。即使税收表现良好，利息支出的刚性上升也会挤压补贴、社保、产业政策和防卫支出的空间。</li>
-<li><strong>接下来关注什么</strong>：各省概算要求汇总、年末预算编制是否削减非刚性支出，以及 10 年期国债拍卖需求与期限溢价。</li>
-<li><strong>来源</strong>：<a href="https://www.mof.go.jp/about_mof/mof_budget/budget/fy2027/20260828.html">财务省概算要求（8 月 28 日）</a>、<a href="https://news.tv-asahi.co.jp/news_economy/articles/000529537.html">朝日电视台（8 月 28 日）</a></li>
-</ul>
-<h3 id="3-政府延长燃油补贴，汽油目标价维持约-170-日元-升"><a href="#3-政府延长燃油补贴，汽油目标价维持约-170-日元-升" class="headerlink" title="3. 政府延长燃油补贴，汽油目标价维持约 170 日元&#x2F;升"></a>3. 政府延长燃油补贴，汽油目标价维持约 170 日元&#x2F;升</h3><p><strong>状态：已确认｜日期：8 月 25—27 日</strong></p>
-<ul>
-<li><strong>发生了什么（事实）</strong>：首相宣布继续实施燃油价格缓和措施，使用“中東情勢等対応予備費”，力争把普通汽油全国均价维持在约 170 日元&#x2F;升。政府称，8 月 17 日实际均价为 169.8 日元；若无措施，估算约为 187 日元。8 月 27 日起，汽油、柴油、煤油和重油的补贴率为 32.5 日元&#x2F;升，航空燃油亦维持补贴。</li>
-<li><strong>为什么重要（分析判断）</strong>：措施可以直接缓冲家庭出行、物流和农业成本，但也延长了财政承担，并削弱高能源价格推动节能和需求调整的信号。它改善的是短期可支配收入，不等于工资与生产率的结构性改善。</li>
-<li><strong>接下来关注什么</strong>：中东局势、进口成本和日元汇率；政府是否提出明确退出机制，以及补贴延长所需追加金额。</li>
-<li><strong>来源</strong>：<a href="https://www.kantei.go.jp/jp/105/statement/2026/0825kaiken.html">首相官邸记者会（8 月 25 日）</a>、<a href="https://www.nenryo-teigakuhikisage.go.jp/">资源能源厅燃油价格缓和措施（8 月 26 日更新）</a></li>
-</ul>
-<h3 id="4-政府推出“パワーGX”，能源安全重新压过单一脱碳目标"><a href="#4-政府推出“パワーGX”，能源安全重新压过单一脱碳目标" class="headerlink" title="4. 政府推出“パワーGX”，能源安全重新压过单一脱碳目标"></a>4. 政府推出“パワーGX”，能源安全重新压过单一脱碳目标</h3><p><strong>状态：已确认；执行细节待定｜日期：8 月 26 日</strong></p>
-<ul>
-<li><strong>发生了什么（事实）</strong>：第 17 次 GX 实行会议汇总“エネルギー需給構造強靱化総合パッケージ（パワーGX）”，即“能源供需结构强韧化综合方案”。两条主线是分散化石燃料采购风险、降低化石燃料依赖；政策方向包括支持原油与石脑油采购多元化、强化石油产品供应链、在安全前提下最大限度利用核电，并加强 NEDO 对下一代革新反应堆、钙钛矿光伏和新型地热等技术的支持。</li>
-<li><strong>为什么重要（分析判断）</strong>：政策重心从单纯减排转向“能源安全＋价格＋脱碳”。核电设备、储能、电网与先进材料可能受益，但若审批、电网投资和成本分摊规则跟不上，方案仍可能停留在供给侧愿景。</li>
-<li><strong>接下来关注什么</strong>：预算额度、核电重启与新建审批、NEDO 项目条件，以及石油采购多元化是否增加短期成本。</li>
-<li><strong>来源</strong>：<a href="https://www.cas.go.jp/jp/seisaku/gx_jikkou_kaigi/dai17/index.html">内阁官房第 17 次 GX 实行会议（8 月 26 日）</a>、<a href="https://www.kantei.go.jp/jp/105/actions/202608/26gx.html">首相官邸会议纪要（8 月 26 日）</a>、<a href="https://www.jaif.or.jp/journal/japan/35467.html">日本原子力产业协会（8 月 27 日）</a></li>
-</ul>
-<h3 id="5-东京核心-CPI-回升，剔除能源后的通胀更强"><a href="#5-东京核心-CPI-回升，剔除能源后的通胀更强" class="headerlink" title="5. 东京核心 CPI 回升，剔除能源后的通胀更强"></a>5. 东京核心 CPI 回升，剔除能源后的通胀更强</h3><p><strong>状态：已确认｜发布日期：8 月 28 日</strong></p>
-<ul>
-<li><strong>发生了什么（事实）</strong>：采用 2025 年基期后，东京 23 区 8 月 CPI 总项同比上涨 1.9%（7 月 1.8%），除生鲜食品外上涨 1.8%（前值 1.7%），除生鲜食品及能源外上涨 2.0%（前值 1.8%）。能源分项同比为负，政策性补贴与汽油税措施对其构成持续拖累；非生鲜食品价格仍明显上行。</li>
-<li><strong>为什么重要（分析判断）</strong>：能源补贴压低表面通胀，但更接近服务与食品成本的核心口径加速，说明日银不能仅因总项低于 2% 就排除加息。对居民而言，食品与服务涨价仍会侵蚀实际购买力。</li>
-<li><strong>接下来关注什么</strong>：9 月全国 CPI、服务价格与租金；补贴基数效应消退后总项通胀是否再上行。</li>
-<li><strong>来源</strong>：<a href="https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-t.html">总务省统计局东京 CPI 页面（8 月 28 日）</a>、<a href="https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/kubu.pdf">东京 CPI 结果 PDF（8 月 28 日）</a>、<a href="https://www.newsweekjapan.jp/articles/-/332515">Reuters／Newsweek Japan（8 月 28 日）</a></li>
-</ul>
-<h3 id="6-企业服务价格同比上涨-3-6-，工资与运输成本仍在传导"><a href="#6-企业服务价格同比上涨-3-6-，工资与运输成本仍在传导" class="headerlink" title="6. 企业服务价格同比上涨 3.6%，工资与运输成本仍在传导"></a>6. 企业服务价格同比上涨 3.6%，工资与运输成本仍在传导</h3><p><strong>状态：已确认｜发布日期：8 月 26 日</strong></p>
-<ul>
-<li><strong>发生了什么（事实）</strong>：日银 7 月企业服务价格指数同比上涨 3.6%，高于 6 月修订后的 3.4%；环比上涨 0.4%。剔除国际运输后同比上涨 3.1%。运输与邮政同比上涨 6.4%，其中国际航空货运上涨 37.7%，外航货物运送运价上涨 67.4%。</li>
-<li><strong>为什么重要（分析判断）</strong>：服务价格比进口能源价格更能反映国内工资与企业定价行为。持续在 3% 上方会增强日银的加息理由，也会压缩难以转嫁成本的中小企业利润率。</li>
-<li><strong>接下来关注什么</strong>：企业是否继续把工资与物流成本转嫁给消费者；运输价格在中东风险缓和后是否回落。</li>
-<li><strong>来源</strong>：<a href="https://www.boj.or.jp/statistics/pi/cspi_release/sppi2607.pdf">日本银行企业服务价格指数 PDF（8 月 26 日）</a>、<a href="https://www.newsweekjapan.jp/articles/-/332284">Reuters／Newsweek Japan（8 月 26 日）</a></li>
-</ul>
-<h3 id="7-铠侠与闪迪拟到-2032-年在日本投资约-5-万亿日元"><a href="#7-铠侠与闪迪拟到-2032-年在日本投资约-5-万亿日元" class="headerlink" title="7. 铠侠与闪迪拟到 2032 年在日本投资约 5 万亿日元"></a>7. 铠侠与闪迪拟到 2032 年在日本投资约 5 万亿日元</h3><p><strong>状态：企业计划已确认；政府支持金额尚待官方确认｜日期：8 月 27 日</strong></p>
-<ul>
-<li><strong>发生了什么（事实）</strong>：铠侠与闪迪宣布，预计到 2032 年在日本累计投资约 5 万亿日元，用于四日市与北上基地的产能、基础设施和技术；计划以市场需求、财务状况及政府支持为条件。北上 K3 厂房被媒体报道为约 1.8 万亿日元、计划 2029 财年投产。</li>
-<li><strong>为什么重要（分析判断）</strong>：这是日本半导体产业政策从“建设先进逻辑芯片”扩展到存储器与 AI 数据中心需求的又一大额项目。长期利好设备、材料与地方就业，但公共支持应避免把需求风险单向转给纳税人。</li>
-<li><strong>接下来关注什么</strong>：经产省支持条件与金额、K3 量产节点、AI 存储需求和 NAND 价格周期。</li>
-<li><strong>来源</strong>：<a href="https://www.kioxia.com/ja-jp/about/news/2026/20260827-3.html">铠侠公司公告（8 月 27 日）</a></li>
-</ul>
-<h2 id="数据雷达"><a href="#数据雷达" class="headerlink" title="数据雷达"></a>数据雷达</h2><div class="weekly-radar-panel">
-  <div class="weekly-radar-head">
-    <h3>日本政经关键读数（2026.08）</h3>
-    <span>固定指标面板 · 跨期可比</span>
-  </div>
-  <div class="weekly-radar-grid">
-    <div class="weekly-radar-card is-japan">
-      <div class="weekly-radar-card-head">
-        <span class="weekly-radar-tag">JAPAN · 物价</span>
-        <span class="weekly-radar-change is-up">↑ +0.1%</span>
-      </div>
-      <div class="weekly-radar-label">东京 CPI（总项同比）</div>
-      <div class="weekly-radar-metric-body">
-        <span class="weekly-radar-value">+1.9%</span>
-      </div>
-      <div class="weekly-radar-note">前值 +1.8% · 能源补贴压低总项</div>
-    </div>
-    <div class="weekly-radar-card is-japan">
-      <div class="weekly-radar-card-head">
-        <span class="weekly-radar-tag">JAPAN · 核心物价</span>
-        <span class="weekly-radar-change is-up">↑ +0.2%</span>
-      </div>
-      <div class="weekly-radar-label">东京 CPI（除生鲜及能源）</div>
-      <div class="weekly-radar-metric-body">
-        <span class="weekly-radar-value">+2.0%</span>
-      </div>
-      <div class="weekly-radar-note">前值 +1.8% · 服务与食品韧性强</div>
-    </div>
-    <div class="weekly-radar-card is-japan">
-      <div class="weekly-radar-card-head">
-        <span class="weekly-radar-tag">JAPAN · 服务成本</span>
-        <span class="weekly-radar-change is-up">↑ +0.2%</span>
-      </div>
-      <div class="weekly-radar-label">企业服务价格（同比）</div>
-      <div class="weekly-radar-metric-body">
-        <span class="weekly-radar-value">+3.6%</span>
-      </div>
-      <div class="weekly-radar-note">前值 +3.4% · 工资与物流成本传导</div>
-    </div>
-    <div class="weekly-radar-card is-japan">
-      <div class="weekly-radar-card-head">
-        <span class="weekly-radar-tag">JAPAN · 就业</span>
-        <span class="weekly-radar-change is-flat">→ 持平</span>
-      </div>
-      <div class="weekly-radar-label">失业率 / 有效求人倍率</div>
-      <div class="weekly-radar-metric-body">
-        <span class="weekly-radar-value">2.4% / 1.18</span>
-      </div>
-      <div class="weekly-radar-note">失业微降 0.1%，求人需求未明显加速</div>
-    </div>
-    <div class="weekly-radar-card is-japan">
-      <div class="weekly-radar-card-head">
-        <span class="weekly-radar-tag">JAPAN · 利率</span>
-        <span class="weekly-radar-change is-up">↑ +5.5bp</span>
-      </div>
-      <div class="weekly-radar-label">10 年期日本国债 (JGB)</div>
-      <div class="weekly-radar-metric-body">
-        <span class="weekly-radar-value">2.925%</span>
-      </div>
-      <div class="weekly-radar-note">上周末 2.870% · 逼近 3% 心理关口</div>
-    </div>
-    <div class="weekly-radar-card is-japan">
-      <div class="weekly-radar-card-head">
-        <span class="weekly-radar-tag">JAPAN · 汇率</span>
-        <span class="weekly-radar-change is-down">↓ 走弱</span>
-      </div>
-      <div class="weekly-radar-label">美元／日元 (USDJPY)</div>
-      <div class="weekly-radar-metric-body">
-        <span class="weekly-radar-value">159.52</span>
-      </div>
-      <div class="weekly-radar-note">上周末 158.8 · 日元低位承压震荡</div>
-    </div>
-  </div>
-</div>
-
-<table>
-<thead>
-<tr>
-<th>指标名称</th>
-<th align="right">本期读数</th>
-<th align="right">前值 &#x2F; 预期值</th>
-<th>方向与简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>东京 CPI（总项同比）</strong></td>
-<td align="right"><strong>+1.9%</strong></td>
-<td align="right">+1.8%</td>
-<td>↑ 小幅加速，能源补贴压低表面读数</td>
-</tr>
-<tr>
-<td><strong>东京 CPI（除生鲜及能源）</strong></td>
-<td align="right"><strong>+2.0%</strong></td>
-<td align="right">+1.8%</td>
-<td>↑ 核心服务成本回升，支撑日银信心</td>
-</tr>
-<tr>
-<td><strong>企业服务价格（同比）</strong></td>
-<td align="right"><strong>+3.6%</strong></td>
-<td align="right">+3.4%</td>
-<td>↑ 劳务与运输成本继续转嫁</td>
-</tr>
-<tr>
-<td><strong>完全失业率 &#x2F; 求人倍率</strong></td>
-<td align="right"><strong>2.4% &#x2F; 1.18</strong></td>
-<td align="right">2.5% &#x2F; 1.18</td>
-<td>→ 劳动力供求偏紧，但企业招聘趋谨慎</td>
-</tr>
-<tr>
-<td><strong>10 年期日本国债收益率</strong></td>
-<td align="right"><strong>2.925%</strong></td>
-<td align="right">2.870%</td>
-<td>↑ 收益率走高，财政付息压力显性化</td>
-</tr>
-<tr>
-<td><strong>美元 &#x2F; 日元汇率</strong></td>
-<td align="right"><strong>159.52</strong></td>
-<td align="right">158.80</td>
-<td>↓ 日元仍受制于利差与能源账单</td>
-</tr>
-</tbody></table>
-<p>数据交叉来源：<a href="https://www.boj.or.jp/statistics/">日本银行外汇与服务价格统计</a>、<a href="https://www.stat.go.jp/data/cpi/">总务省统计局</a>、<a href="https://www.bb.jbts.co.jp/">日本相互证券</a>。若需观察市场对央行决议的定价预期，可查阅 <a href="/event-radar/">Polymarket 观测站</a>。</p>
-<h2 id="中日对照"><a href="#中日对照" class="headerlink" title="中日对照"></a>中日对照</h2><div class="weekly-compare-section">
-  <div class="weekly-compare-intro">
-    <strong>中日对照一句话</strong>：中国重定价信用规则，日本重定价利率与财政成本。
-  </div>
-  <table class="weekly-compare-table">
-    <thead>
-      <tr>
-        <th style="width: 15%;">比较维度</th>
-        <th style="width: 30%;">中国观察</th>
-        <th style="width: 30%;">日本观察</th>
-        <th style="width: 25%;">交汇与启示</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="weekly-axis-badge">货币政策</span></td>
-        <td>央行稳流动性、慎发降息信号，通过 MLF 与隔夜工具提供平稳流动性支撑。</td>
-        <td>日银高层重申加息方向，东京核心 CPI 与服务价格上行强化加息窗口。</td>
-        <td><strong>周期错位</strong>：中国以宽松托底流动性，日本处在退出超宽松后对加息幅度的谨慎博弈。</td>
-      </tr>
-      <tr>
-        <td><span class="weekly-axis-badge">财政刚性</span></td>
-        <td>房地产从传统高周转转向“项目制”与现房销售，重整开发与信用约束。</td>
-        <td>国债费概算增至 36.6 万亿，概算基准利率提高至 3.8%，付息刚性大增。</td>
-        <td><strong>约束收紧</strong>：两国皆在告别旧杠杆模式，财政与信贷资金更加注重安全垫与偿付纪律。</td>
-      </tr>
-      <tr>
-        <td><span class="weekly-axis-badge">产业驱动</span></td>
-        <td>工业利润分化明显，电子通信高景气，汽车与传统建材承受价格压力。</td>
-        <td>パワーGX 重设能源安全优先，铠侠闪迪拟在日追加 5 万亿投资半导体。</td>
-        <td><strong>战略转向</strong>：高新技术与供应链韧性成为公共资本与产业扶持的焦点。</td>
-      </tr>
-      <tr>
-        <td><span class="weekly-axis-badge">居民体感</span></td>
-        <td>规上企业利润增长 17.6%，但应收账款与存货走高，微观体感温差明显。</td>
-        <td>汽油补贴延期至 170 日元/升，但食品与日用品价格仍侵蚀实际购买力。</td>
-        <td><strong>内需短板</strong>：短期政策性对冲无法替代居民持久性收入增长对消费的支撑。</td>
-      </tr>
-      <tr>
-        <td><span class="weekly-axis-badge">外部风险</span></td>
-        <td>面临外需与地缘规则调整，加快构建自主可控与多边经贸通道。</td>
-        <td>受制于中东局势、能源进口账单与美日高利差，汇率输入性通胀持续。</td>
-        <td><strong>外部约束</strong>：地缘动荡与全球供应链重组对中日内需定价形成共同外部传导。</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<h2 id="一条结构性判断"><a href="#一条结构性判断" class="headerlink" title="一条结构性判断"></a>一条结构性判断</h2><p>日本已实质进入“利率与财政刚性共振”的新宏观阶段。当 10 年期国债利率逼近 3% 且概算付息大增，政府既无法承受过快加息带来的财政利息挤压，又难以在日元贬值与服务通胀高企下长期维持超宽松。短期以燃油补贴和预备费“买时间”，但中长期唯有依靠企业投资与生产率实际回升才能打破政策三角死结。</p>
-<h2 id="下周观察清单"><a href="#下周观察清单" class="headerlink" title="下周观察清单"></a>下周观察清单</h2><ol>
-<li><strong>9 月 1 日</strong> · 10 年期日本国债拍卖 · 关注投标倍数、尾差与国内机构认购意愿</li>
-<li><strong>9 月 2 日</strong> · 日银审议委员高田创讲话 · 市场寻找 9 月决议对加息门槛与长端容忍度的线索</li>
-<li><strong>9 月 5 日</strong> · 厚生劳动省 7 月每月勤劳统计 · 检验实际工资转正的广度与可持续性</li>
-<li><strong>9 月上旬</strong> · 临时国会前税制与物价对策汇总 · 关注税额抵扣方案与财源安排</li>
-</ol>
-<h2 id="附录：本周其他观察与参考事件"><a href="#附录：本周其他观察与参考事件" class="headerlink" title="附录：本周其他观察与参考事件"></a>附录：本周其他观察与参考事件</h2><h3 id="8-失业率降至-2-4-，但求人倍率没有改善"><a href="#8-失业率降至-2-4-，但求人倍率没有改善" class="headerlink" title="8. 失业率降至 2.4%，但求人倍率没有改善"></a>8. 失业率降至 2.4%，但求人倍率没有改善</h3><p><strong>状态：已确认｜发布日期：8 月 28 日</strong></p>
-<ul>
-<li><strong>发生了什么（事实）</strong>：7 月经季调失业率为 2.4%，低于 6 月的 2.5%；就业人数 6,850 万人、失业人数 169 万人，均与上年同期大体持平。有效求人倍率为 1.18，与 6 月持平；新规求人倍率降至 2.10，环比下降 0.06。</li>
-<li><strong>为什么重要（分析判断）</strong>：低失业率显示劳动力市场仍紧，但求人指标未走强，不能简单解读为需求全面加速。若企业招工趋谨慎，明年工资谈判的广度可能弱于头部企业。</li>
-<li><strong>接下来关注什么</strong>：实际工资、非正规就业、制造业新订单与中小企业招聘计划。</li>
-<li><strong>来源</strong>：<a href="https://www.stat.go.jp/data/roudou/sokuhou/tsuki/index.html">总务省劳动力调查（8 月 28 日）</a>、<a href="https://www.stat.go.jp/data/roudou/sokuhou/tsuki/pdf/gaiyou.pdf">劳动力调查结果 PDF（8 月 28 日）</a>、<a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/topics_150876_156.html">厚生劳动省一般职业介绍状况</a></li>
-</ul>
-<h3 id="9-内阁府月例经济报告维持“缓慢复苏”，但新增自然灾害风险"><a href="#9-内阁府月例经济报告维持“缓慢复苏”，但新增自然灾害风险" class="headerlink" title="9. 内阁府月例经济报告维持“缓慢复苏”，但新增自然灾害风险"></a>9. 内阁府月例经济报告维持“缓慢复苏”，但新增自然灾害风险</h3><p><strong>状态：已确认｜日期：8 月 27 日</strong></p>
-<ul>
-<li><strong>发生了什么（事实）</strong>：内阁府维持“景气正在缓慢复苏”的总判断，同时把自然灾害加入下行风险，并继续提示中东局势与金融市场波动。分项中，住宅投资由“低迷”调整为“大体持平”；企业利润被描述为“正在改善”，但需警惕中东局势影响。</li>
-<li><strong>为什么重要（分析判断）</strong>：政府判断较二季度 GDP 所显示的内需疲软更乐观，部分原因是 GDP 中资本开支和消费受统计分类影响。政策层可能据此避免大规模刺激，但若后续消费和工业生产走弱，表述会面临下调压力。</li>
-<li><strong>接下来关注什么</strong>：7 月工业生产与零售销售是否支持“缓慢复苏”；灾害对九州供应链、农业和旅游的拖累。</li>
-<li><strong>来源</strong>：<a href="https://www5.cao.go.jp/keizai3/getsurei/2026/0827getsurei/main.pdf">内阁府 8 月月例经济报告 PDF（8 月 27 日）</a></li>
-</ul>
-<h3 id="10-熊本地震支援方案获批，动用预备费-1-478-亿日元"><a href="#10-熊本地震支援方案获批，动用预备费-1-478-亿日元" class="headerlink" title="10. 熊本地震支援方案获批，动用预备费 1,478 亿日元"></a>10. 熊本地震支援方案获批，动用预备费 1,478 亿日元</h3><p><strong>状态：已确认｜方案汇总：8 月 27 日；阁议批准：8 月 28 日</strong></p>
-<ul>
-<li><strong>发生了什么（事实）</strong>：内阁批准动用 1,478 亿日元预备费。其中生活重建 365 亿、灾害废弃物处理 381 亿、受灾企业支持 74 亿、农业林业水产 148 亿、旅游恢复 157 亿、公共工程及设施修复 305 亿日元。政府特别提示熊本地区近年来多次受灾，需防止“灾害相关死亡”。</li>
-<li><strong>为什么重要（分析判断）</strong>：短期将支撑九州建筑、废弃物处理与旅游恢复，但材料、人手和施工能力可能形成瓶颈。自然灾害已从单次救援转为需要长期韧性投资的财政问题。</li>
-<li><strong>接下来关注什么</strong>：资金下达速度、地方配套负担、农业与半导体供应链停工损失。</li>
-<li><strong>来源</strong>：<a href="https://www.mof.go.jp/policy/budget/budger_workflow/budget/fy2026/km260828.pdf">财务省预备费明细 PDF（8 月 28 日）</a>、<a href="https://www.kantei.go.jp/jp/kikikanri/earthquake20260728.html">首相官邸熊本地震应对页</a></li>
-</ul>
-<h3 id="11-立宪民主党退出三党合并，在野党整合再次受挫"><a href="#11-立宪民主党退出三党合并，在野党整合再次受挫" class="headerlink" title="11. 立宪民主党退出三党合并，在野党整合再次受挫"></a>11. 立宪民主党退出三党合并，在野党整合再次受挫</h3><p><strong>状态：立宪不参与已确认；公明党与中道改革联合最终安排尚待确认｜日期：8 月 28—30 日</strong></p>
-<ul>
-<li><strong>发生了什么（事实）</strong>：立宪民主党 8 月 28 日决定不以组织形式参与立宪、公明和中道改革联合的合并，并向其他两党领导人传达；党内将以选举与国会合作替代组织合并。</li>
-<li><strong>为什么重要（分析判断）</strong>：合并受挫降低了在野党短期内形成统一选举品牌的概率，也使执政阵营在选区协调上更占优势。但“组织不合并、选举合作”仍可能在部分单一选区改变票源分配。</li>
-<li><strong>接下来关注什么</strong>：候选人协调规则、立宪党内路线分歧。</li>
-<li><strong>来源</strong>：<a href="https://cdp-japan.jp/news/20260828_0552/amp">立宪民主党（8 月 28 日）</a>、<a href="https://www.komei.or.jp/komeinews/p513191/">公明党（8 月 29 日）</a></li>
-</ul>
-<h2 id="口径与来源说明"><a href="#口径与来源说明" class="headerlink" title="口径与来源说明"></a>口径与来源说明</h2><ul>
-<li>数据来源：日本银行、日本财务省、总务省统计局、厚生劳动省、经济产业省等官方发布渠道，以及 Reuters、时事通信等权威财经媒体。</li>
-<li>本文分析判断均标明逻辑边界，不构成任何投资建议。如需查看预测市场隐含概率与判定标准，请参阅 <a href="/event-radar/">Polymarket 观测站</a>。</li>
-</ul>
-<hr>
-<h2 id="站内延伸阅读"><a href="#站内延伸阅读" class="headerlink" title="站内延伸阅读"></a>站内延伸阅读</h2><h3 id="往期周报与专栏"><a href="#往期周报与专栏" class="headerlink" title="往期周报与专栏"></a>往期周报与专栏</h3><ul>
-<li><a href="/japan-weekly/">日本政经周报专栏总览</a></li>
-<li>往期回顾：<a href="/2026/08/japan-political-economy-weekly-2026-08-23/">8月17日—23日：内需转弱与利率逼近3%</a></li>
-<li>往期回顾：<a href="/2026/08/japan-political-economy-weekly-2026-08-16/">8月10日—16日：日元再逼160与高市双重压力</a></li>
-<li>同期中国周报：<a href="/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-zh/">中国政经周报：信用规则重写，利润修复仍分化（8月24日—30日）</a></li>
-</ul>
-<h3 id="关联专题与书评"><a href="#关联专题与书评" class="headerlink" title="关联专题与书评"></a>关联专题与书评</h3><ul>
-<li><a href="/2026/02/shirakawa-boj-39-years/">巧媳难为无米之炊-读白川方明《动荡三十年》</a> —— 理解日本央行货币政策、利率传导与财政约束的机制边界</li>
-<li><a href="/2026/07/japan-dram-lost-manufacturing/">百分之九十八为什么输给百分之八十三：读《失去的制造业》</a> —— 剖析日本半导体与高端制造的技术与商业路线得失</li>
-</ul>
 ]]></content>
     <author><name>Lei Deng</name></author>
   </entry>
@@ -2991,7 +2951,7 @@
       <div class="weekly-radar-metric-body">
         <span class="weekly-radar-value">+110% / -20%</span>
       </div>
-      <div class="weekly-radar-note">高技术制造业强，价格战与传统耐用弱</div>
+      <div class="weekly-radar-note">电子 +110% 左右、汽车 −20.4%</div>
     </div>
     <div class="weekly-radar-card is-china">
       <div class="weekly-radar-card-head">
@@ -3023,7 +2983,7 @@
 <tr>
 <th>指标名称</th>
 <th align="right">本期读数</th>
-<th align="right">历史&#x2F;前值参考</th>
+<th align="right">参考口径与说明</th>
 <th>方向与简要说明</th>
 </tr>
 </thead>
@@ -3031,7 +2991,7 @@
 <td><strong>规上工业利润（累计同比）</strong></td>
 <td align="right"><strong>+17.6%</strong></td>
 <td align="right">1—6月 +18.7%</td>
-<td>↑ 电子通信高景气带动，汽车与建材仍处低谷</td>
+<td>↓ 电子通信高景气带动，汽车与建材仍处低谷</td>
 </tr>
 <tr>
 <td><strong>央行货币政策姿态</strong></td>
@@ -3195,7 +3155,7 @@
 <li>账户管理、交易处理和资金清算等核心环节由持牌机构承担；</li>
 <li>智能体自主发起支付前，需要报备、业务评估、安全测试、风险监控和回退机制。<a href="https://www.xinhuanet.com/20260824/4efa360edc8a486dbf0b19d0fb37ef41/c.html">新华社报道</a></li>
 </ul>
-<p>与此同时，国家数据局披露，截至 7 月底全国智算总规模达到 <strong>245 万 PFLOPS（FP16）</strong>，八大国家算力枢纽和三个算电协同发展区的智算规模占全国比重超过 85%。<a href="https://www.nda.gov.cn/">国家数据局</a></p>
+<p>与此同时，国家数据局披露，截至 7 月底全国智算总规模达到 <strong>245 万 PFLOPS（FP16）</strong>，八大国家算力枢纽和三个算电协同发展区的智算规模占全国比重超过 85%。<a href="https://www.nda.gov.cn/">国家数据局（入口页）</a></p>
 <p>AI 本周出现了两个值得放在一起看的变化：一边是算力被纳入基础设施和能源配置，另一边是智能体被纳入支付责任和消费者保护。对金融行业而言，AI 的核心竞争力不只是模型准确率，还包括授权记录、交易限额、人工接管、审计日志和事故回退。</p>
 <h3 id="专题-5：外部压力仍是政策风险，而非已经兑现的冲击"><a href="#专题-5：外部压力仍是政策风险，而非已经兑现的冲击" class="headerlink" title="专题 5：外部压力仍是政策风险，而非已经兑现的冲击"></a>专题 5：外部压力仍是政策风险，而非已经兑现的冲击</h3><p>8 月 27 日，商务部回应美国政府考虑以“产能过剩”为由，对包括中国在内的 16 个经济体发起 301 调查并可能对华额外加征 7.5% 关税。中方表示坚决反对，将继续评估美方举措并保留采取必要措施的权利。<a href="https://www.xinhuanet.com/20260827/7915bcf14cda488083f7ef4eed33ee05/c.html">新华社转述商务部发布会</a></p>
 <p>截至资料截止日，7.5% 仍是<strong>可能措施</strong>，不是已经生效的税率。对中国经济的直接影响取决于最终产品清单、实施时间、豁免范围和企业转嫁能力；在此之前，更适合把它作为出口和产业链的政策风险，而不是已经兑现的冲击。</p>
@@ -3355,7 +3315,7 @@
     <id>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-23-en/</id>
     <link href="https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-23-en/"/>
     <published>2026-08-25T09:00:00.000Z</published>
-    <updated>2026-09-21T07:33:38.399Z</updated>
+    <updated>2026-09-21T11:03:52.840Z</updated>
     <summary type="html"><![CDATA[Q2 GDP grew, but domestic demand contracted as core inflation accelerated and 10-year JGB yields approached 3%, tightening the government’s policy trade-off.]]></summary>
     <content type="html"><![CDATA[<p><span hidden data-article-language="EN"></span></p>
 <blockquote>
@@ -3471,11 +3431,131 @@
     <author><name>Lei Deng</name></author>
   </entry>
   <entry>
+    <title>日本政経ウィークリー｜2026年8月17日〜23日：内需の弱さと3％近い国債利回り</title>
+    <id>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-23-ja/</id>
+    <link href="https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-23-ja/"/>
+    <published>2026-08-25T09:00:00.000Z</published>
+    <updated>2026-09-21T11:03:52.840Z</updated>
+    <summary type="html"><![CDATA[第2四半期GDPは成長したが内需は縮小し、基調インフレと長期金利が上昇した。家計支援と財政コストのトレードオフが強まっている。]]></summary>
+    <content type="html"><![CDATA[<p><span hidden data-article-language="JA"></span></p>
+<blockquote>
+<p><strong>対象期間：</strong> 2026年8月17日〜23日（日本時間）。<br><strong>言語版：</strong> <a href="/2026/08/japan-political-economy-weekly-2026-08-23/">中文</a> · <a href="/2026/08/japan-political-economy-weekly-2026-08-23-en/">English</a> · <strong>日本語</strong></p>
+</blockquote>
+<div class="abstract">
+  <span class="abstract-label">今週の主線</span>
+  日本の第2四半期GDPは成長したが、家計消費と設備投資は弱かった。コアCPIが再加速し、10年国債利回りが3％に近づくなか、高市政権の減税・拡張策は家計支援と資金調達コストの間で制約を受けている。
+</div>
+
+<h2 id="エグゼクティブ・サマリー"><a href="#エグゼクティブ・サマリー" class="headerlink" title="エグゼクティブ・サマリー"></a>エグゼクティブ・サマリー</h2><ul>
+<li>実質GDPは前期比 **0.3％、年率1.1％**増。ただし内需は <strong>0.2ポイント</strong>押し下げ、純輸出が0.5ポイント押し上げた。消費は0.1％、設備投資は1.2％減少。</li>
+<li>7月コアCPIは前年比 <strong>1.8％</strong>（6月1.6％）、生鮮・エネルギー除きは1.9％。食品価格は3.0％上昇。</li>
+<li>10年国債利回りは8月18日に一時 <strong>2.945％</strong>。財務省が2027年度の利払い計算に **3.8％**を想定するとの報道は、週内には未確認だった。</li>
+<li>7月の貿易赤字は <strong>6345億円</strong>。原油の代替航路で供給量は戻ったが、運賃とエネルギー費は上昇した。</li>
+<li>6月の機械受注は前月比 **9.7％**反発したが、非鉄金属の大型案件の影響が大きい。</li>
+<li>共同通信の8月22〜23日電話調査で内閣支持率は **50.2％**に低下。野党合流協議も停滞した。</li>
+<li>楽天がドイツの防衛スタートアップHelsingのAI攻撃ドローンを陸上自衛隊へ紹介したとの報道があるが、試験・調達は公式確認されていない。</li>
+</ul>
+<h2 id="主要ニュース"><a href="#主要ニュース" class="headerlink" title="主要ニュース"></a>主要ニュース</h2><h3 id="1-第2四半期GDPは年率1-1％、内需は縮小"><a href="#1-第2四半期GDPは年率1-1％、内需は縮小" class="headerlink" title="1. 第2四半期GDPは年率1.1％、内需は縮小"></a>1. 第2四半期GDPは年率1.1％、内需は縮小</h3><p><strong>確認済み｜8月17日</strong></p>
+<p>実質GDPは前期比0.3％増。内需寄与は <strong>-0.2ポイント</strong>、純輸出は <strong>+0.5ポイント</strong>。消費、住宅、設備投資はいずれも減少した。</p>
+<p><strong>重要性（分析判断）：</strong> 輸入減はGDP上の純輸出を押し上げるため、見出しの成長率は家計・企業の弱さを覆い隠す。 <a href="https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/gaiyou/pdf/main_1.pdf">内閣府GDP</a>・<a href="https://www.nri.com/jp/media/column/kiuchi/20260817.html">野村総研</a></p>
+<h3 id="2-10年国債2-945％、3-8％の予算金利想定が報じられる"><a href="#2-10年国債2-945％、3-8％の予算金利想定が報じられる" class="headerlink" title="2. 10年国債2.945％、3.8％の予算金利想定が報じられる"></a>2. 10年国債2.945％、3.8％の予算金利想定が報じられる</h3><p><strong>市場データは確認済み、3.8％は週内に未確認の報道｜8月18〜21日</strong></p>
+<p>10年利回りは2.945％まで上昇し、8月21日の新発債は2.870％で引けた。2027年度の利払い計算に3.8％を置く案が報じられたが、市場金利予測ではない。</p>
+<p><strong>重要性（分析判断）：</strong> 既発債が直ちに3.8％で再評価されるわけではないが、借換えコストは時間とともに上昇する。 <a href="https://www.investing.com/news/economy-news/japans-10year-government-bond-yield-rises-to-threedecade-peak-4864126">市場報道</a>・<a href="https://www.bb.jbts.co.jp/ja/historical/main_rate.htm">国債利回り</a></p>
+<h3 id="3-7月コアCPIは1-8％、食品の負担は続く"><a href="#3-7月コアCPIは1-8％、食品の負担は続く" class="headerlink" title="3. 7月コアCPIは1.8％、食品の負担は続く"></a>3. 7月コアCPIは1.8％、食品の負担は続く</h3><p><strong>確認済み｜8月21日</strong></p>
+<p>総合CPIは1.9％、コアは1.8％、生鮮・エネルギー除きは1.9％。生鮮食品を除く食料は3.0％上昇した。</p>
+<p><strong>重要性（分析判断）：</strong> ガソリン政策は総合指数を押し下げるが、食品とサービスの上昇は残る。追加利上げの余地を残す一方、弱い需要には慎重さが必要だ。<a href="https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/zenkoku.pdf">総務省</a></p>
+<h3 id="4-7月貿易赤字は6345億円"><a href="#4-7月貿易赤字は6345億円" class="headerlink" title="4. 7月貿易赤字は6345億円"></a>4. 7月貿易赤字は6345億円</h3><p><strong>確認済み｜8月18・20日</strong></p>
+<p>輸出は前年比23.2％増の11兆5118億円、輸入は27.8％増の12兆1463億円。輸出数量は5.2％、輸入数量は1.2％増。自動車・半導体部品が輸出を、原油・半導体材料・非鉄金属が輸入を押し上げた。</p>
+<p><strong>重要性（分析判断）：</strong> エネルギー問題は「物があるか」から「どの価格・航路で届くか」へ移った。円安と原油、迂回輸送費が交易条件を悪化させる。<a href="https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_07.pdf">財務省</a>・<a href="https://www.dir.co.jp/report/research/economics/japan/20260820_025996.html">大和総研</a></p>
+<h3 id="5-機械受注9-7％反発、ただし大型案件の影響"><a href="#5-機械受注9-7％反発、ただし大型案件の影響" class="headerlink" title="5. 機械受注9.7％反発、ただし大型案件の影響"></a>5. 機械受注9.7％反発、ただし大型案件の影響</h3><p><strong>確認済み｜8月19日</strong></p>
+<p>船舶・電力を除く民間機械受注は前月比9.7％増。製造業19.9％、非製造業4.5％増だったが、非鉄金属の一件の大型受注が押し上げた。第2四半期は0.2％増にとどまる。<a href="https://www.esri.cao.go.jp/jp/stat/juchu/2026/2606gaiyou.pdf">内閣府</a></p>
+<p><strong>重要性（分析判断）：</strong> 設備投資は失速していないが、広範な回復の証拠ではない。省人化、AI、防災投資が今後も続くかが重要となる。</p>
+<h3 id="6-共同通信調査で内閣支持率50-2％"><a href="#6-共同通信調査で内閣支持率50-2％" class="headerlink" title="6. 共同通信調査で内閣支持率50.2％"></a>6. 共同通信調査で内閣支持率50.2％</h3><p><strong>メディア調査｜8月22〜23日</strong></p>
+<p>共同通信の全国電話調査で支持率は50.2％（前回比-3.5ポイント）、不支持率は33.9％。調査機関・時期・方法が違う数字と混ぜてはいけない。<a href="https://news.livedoor.com/article/detail/32137534/">共同通信</a></p>
+<p><strong>重要性（分析判断）：</strong> 政権は運営可能な基盤を保つが、災害対応と減税公約の政治的配当は安定していない。</p>
+<h3 id="7-野党の合流協議が難航"><a href="#7-野党の合流協議が難航" class="headerlink" title="7. 野党の合流協議が難航"></a>7. 野党の合流協議が難航</h3><p><strong>メディア報道｜8月18・21日</strong></p>
+<p>立憲民主党、公明党、中道改革連合は8月末の結論を目指したが、地方組織と政策差が障害となった。<a href="https://news.tv-asahi.co.jp/news_politics/articles/000527106.html">テレビ朝日</a>・<a href="https://www.fnn.jp/articles/-/1098782">FNN</a></p>
+<p><strong>重要性（分析判断）：</strong> 合流失敗なら野党票は分散し、強行合流なら組織運営コストが増える。</p>
+<h3 id="8-楽天がHelsingのAI攻撃ドローンを紹介との報道"><a href="#8-楽天がHelsingのAI攻撃ドローンを紹介との報道" class="headerlink" title="8. 楽天がHelsingのAI攻撃ドローンを紹介との報道"></a>8. 楽天がHelsingのAI攻撃ドローンを紹介との報道</h3><p><strong>メディア報道、試験・調達は公式未確認｜8月17〜18日</strong></p>
+<p>楽天がドイツHelsingのHX-2を陸上自衛隊へ紹介し、9月末まで試験するとの報道がある。防衛省は具体的な調達計画を公表していない。<a href="https://www.aerotime.aero/articles/rakuten-helsing-hx-2-strike-drone-japan">AeroTime</a></p>
+<p><strong>重要性（分析判断）：</strong> 防衛産業が重工大手だけでなく、AI・ソフトウェア企業と民間の販売チャネルを組み合わせる可能性を示す。</p>
+<h2 id="データ・レーダー"><a href="#データ・レーダー" class="headerlink" title="データ・レーダー"></a>データ・レーダー</h2><table>
+<thead>
+<tr>
+<th>指標</th>
+<th align="right">今回</th>
+<th align="right">前回</th>
+<th>含意</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>実質GDP</td>
+<td align="right">前期比+0.3％、年率+1.1％</td>
+<td align="right">内需-0.2ポイント</td>
+<td>純輸出が弱さを隠す</td>
+</tr>
+<tr>
+<td>コアCPI</td>
+<td align="right">+1.8％</td>
+<td align="right">6月+1.6％</td>
+<td>利上げ余地は残る</td>
+</tr>
+<tr>
+<td>機械受注</td>
+<td align="right">+9.7％</td>
+<td align="right">5月-12.4％</td>
+<td>大型案件効果に注意</td>
+</tr>
+<tr>
+<td>貿易収支</td>
+<td align="right">-6345億円</td>
+<td align="right">3か月連続赤字</td>
+<td>エネルギー・円安コスト</td>
+</tr>
+<tr>
+<td>10年国債</td>
+<td align="right">2.870％</td>
+<td align="right">週内高値2.945％</td>
+<td>財政・利上げ観測で高水準</td>
+</tr>
+<tr>
+<td>ドル円</td>
+<td align="right">158.80〜158.90円</td>
+<td align="right">159円近辺</td>
+<td>輸入コスト圧力</td>
+</tr>
+<tr>
+<td>日経平均</td>
+<td align="right">66,016.36</td>
+<td align="right">前週比約-3.9％</td>
+<td>金利・高バリュエーションに敏感</td>
+</tr>
+</tbody></table>
+<h2 id="政治・制度"><a href="#政治・制度" class="headerlink" title="政治・制度"></a>政治・制度</h2><p>共同通信の50.2％は同社の時系列で追跡する。3.8％は利払い計算の想定であり、実際の市場利回りではない。今週、食品減税の政策経路を変える国会採決は確認できなかった。秋の国会と野党の選挙区協力が次の焦点となる。</p>
+<h2 id="政策・市場への含意（分析判断）"><a href="#政策・市場への含意（分析判断）" class="headerlink" title="政策・市場への含意（分析判断）"></a>政策・市場への含意（分析判断）</h2><ol>
+<li><strong>日銀：</strong> 基調インフレと円安は正常化を支持するが、消費・設備投資の弱さは急激な利上げに反対する。</li>
+<li><strong>財政：</strong> 金利想定が上がれば、財源のない減税の機会費用と長期金利のタームプレミアムが意識される。</li>
+<li><strong>家計：</strong> GDPのプラスだけでは生活改善を意味しない。食品、エネルギー、交易条件が実質所得を圧迫する。</li>
+<li><strong>円・株式：</strong> 円安は輸出企業を支える一方、輸入費を上げる。日経上昇も家計の購買力を示すものではない。</li>
+<li><strong>産業：</strong> エネルギー調達、防衛ソフト、省人化投資に余地があるが、物流・規制対応コストが利益を左右する。</li>
+</ol>
+<h2 id="来週の観察項目"><a href="#来週の観察項目" class="headerlink" title="来週の観察項目"></a>来週の観察項目</h2><ul>
+<li>8月26日：7月企業向けサービス価格。</li>
+<li>8月27〜28日：日銀氷見野副総裁の講演と記者会見記録。</li>
+<li>8月28日：東京8月CPI、2年国債入札。</li>
+<li>8月28〜31日：野党の党内会合と合流期限。</li>
+<li>8月末：2027年度概算要求と3.8％想定の公式確認。</li>
+</ul>
+<h2 id="情報源"><a href="#情報源" class="headerlink" title="情報源"></a>情報源</h2><p>内閣府、総務省、財務省・税関、日本銀行、国会資料を優先し、Reuters、共同通信、テレビ朝日、FNN、野村総研、大和総研でクロスチェックした。有料記事のペイウォールは回避していない。重要事実は公式資料または無料で確認できる報道に基づく。</p>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
     <title>日本政经周报：内需转弱与利率逼近3%</title>
     <id>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-23/</id>
     <link href="https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-23/"/>
     <published>2026-08-25T09:00:00.000Z</published>
-    <updated>2026-09-21T07:33:38.399Z</updated>
+    <updated>2026-09-21T11:03:52.840Z</updated>
     <summary type="html"><![CDATA[日本二季度GDP仍增长，但内需贡献为负、家庭消费和设备投资转弱；核心物价重新加速，长端国债收益率逼近3%。]]></summary>
     <content type="html"><![CDATA[<p>日期：2026-08-25<br>覆盖期间：<strong>2026-08-17 00:00—2026-08-23 23:59（日本时间）</strong><br>标签：#日本 #政经周报 #GDP #通胀 #日本国债 #日元 #高市早苗</p>
 <blockquote>
@@ -3514,13 +3594,13 @@
 <p>真正的变化不是日本存量国债立刻按3.8%重定价，而是新增与滚续债务的利息成本会逐年抬升。高市政府若继续推进食品减税和扩张性支出，债市会更关注是否有永久财源；财政政策的边际空间正在从“政治约束”转向“融资成本约束”。</p>
 <p><strong>接下来关注</strong></p>
 <p>10年期收益率是否突破3%、月底概算要求是否正式采用3.8%，以及财政部会否调整国债发行结构。</p>
-<p>来源：<a href="https://www.investing.com/news/economy-news/japans-10year-government-bond-yield-rises-to-threedecade-peak-4864126">Reuters／Investing.com，2026-08-18</a>；<a href="https://www.bb.jbts.co.jp/ja/historical/main_rate.htm">日本相互证券主要期限收益率，2026-08-21</a>。</p>
+<p>来源：<a href="https://www.investing.com/news/economy-news/japans-10year-government-bond-yield-rises-to-threedecade-peak-4864126">Reuters／Investing.com，2026-08-18</a>；<a href="https://www.bb.jbts.co.jp/ja/historical/main_rate.htm">日本相互证券主要期限收益率，2026-08-21</a>；时事通信相关报道（经转述，原文未附公开链接）。</p>
 <h3 id="3-7月核心CPI回升至1-8-，表面低于2-但生活成本压力未消失"><a href="#3-7月核心CPI回升至1-8-，表面低于2-但生活成本压力未消失" class="headerlink" title="3. 7月核心CPI回升至1.8%，表面低于2%但生活成本压力未消失"></a>3. 7月核心CPI回升至1.8%，表面低于2%但生活成本压力未消失</h3><p><strong>状态：已确认｜日期：8月21日</strong></p>
 <p><strong>事实</strong></p>
 <ul>
 <li>2025年基准下，7月全国综合CPI同比上涨 <strong>1.9%</strong>，环比季调上涨0.4%。</li>
 <li>剔除生鲜食品的核心CPI同比上涨 <strong>1.8%</strong>，高于6月的1.6%；剔除生鲜食品和能源的指数同比上涨 <strong>1.9%</strong>。</li>
-<li>剔除生鲜食品的食品价格同比上涨 <strong>3.0%</strong>；总务省估算，汽油暂定税率废止及相关政策对综合CPI的当月贡献约为 <strong>-0.35个百分点</strong>。</li>
+<li>剔除生鲜食品的食品价格同比上涨 <strong>3.0%</strong>；总务省寄与度分解估算，汽油暂定税率废止及相关政策对综合CPI的当月贡献约为 <strong>-0.35个百分点</strong>。</li>
 </ul>
 <p><strong>分析</strong></p>
 <p>总指数低于2%并不等于通胀问题结束：政策压低汽油价格的同时，食品和服务相关成本仍在上行。对日银而言，这组数据保留了继续加息的理由，但GDP内需疲弱意味着加息节奏仍需谨慎。</p>
@@ -3556,7 +3636,7 @@
 <h3 id="6-共同社民调：高市内阁支持率降至50-2-，为组阁以来最低"><a href="#6-共同社民调：高市内阁支持率降至50-2-，为组阁以来最低" class="headerlink" title="6. 共同社民调：高市内阁支持率降至50.2%，为组阁以来最低"></a>6. 共同社民调：高市内阁支持率降至50.2%，为组阁以来最低</h3><p><strong>状态：媒体民调｜日期：8月22—23日</strong></p>
 <p><strong>事实</strong></p>
 <ul>
-<li>共同社全国电话调查显示，内阁支持率为 <strong>50.2%</strong>，较7月下降3.5个百分点；不支持率为33.9%，上升0.2个百分点。</li>
+<li>共同社全国电话调查显示，内阁支持率为 <strong>50.2%</strong>，较 7 月调查（按降幅倒算为 53.7%）下降 3.5 个百分点；不支持率为33.9%，上升0.2个百分点。</li>
 <li>该结果于8月23日先以快讯发布；不同机构的抽样与调查方式不同，不宜与其他媒体民调直接横向比较。</li>
 </ul>
 <p><strong>分析</strong></p>
@@ -3582,7 +3662,7 @@
 <tr>
 <th>指标</th>
 <th align="right">本期实际</th>
-<th align="right">对比</th>
+<th align="right">前值／周内参照</th>
 <th>方向</th>
 <th>关键含义</th>
 </tr>
@@ -3704,126 +3784,6 @@
 <li><a href="/2026/07/japan-dram-lost-manufacturing/">百分之九十八为什么输给百分之八十三：读《失去的制造业》</a> —— 剖析日本半导体与高端制造的技术与商业路线得失</li>
 <li><a href="/2026/07/sony-morita-made-in-japan/">先把口袋做大：读《日本制造》</a> —— 索尼创始人盛田昭夫谈战后日本产业出海与全球化竞争</li>
 </ul>
-]]></content>
-    <author><name>Lei Deng</name></author>
-  </entry>
-  <entry>
-    <title>日本政経ウィークリー｜2026年8月17日〜23日：内需の弱さと3％近い国債利回り</title>
-    <id>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-23-ja/</id>
-    <link href="https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-23-ja/"/>
-    <published>2026-08-25T09:00:00.000Z</published>
-    <updated>2026-09-21T07:33:38.399Z</updated>
-    <summary type="html"><![CDATA[第2四半期GDPは成長したが内需は縮小し、基調インフレと長期金利が上昇した。家計支援と財政コストのトレードオフが強まっている。]]></summary>
-    <content type="html"><![CDATA[<p><span hidden data-article-language="JA"></span></p>
-<blockquote>
-<p><strong>対象期間：</strong> 2026年8月17日〜23日（日本時間）。<br><strong>言語版：</strong> <a href="/2026/08/japan-political-economy-weekly-2026-08-23/">中文</a> · <a href="/2026/08/japan-political-economy-weekly-2026-08-23-en/">English</a> · <strong>日本語</strong></p>
-</blockquote>
-<div class="abstract">
-  <span class="abstract-label">今週の主線</span>
-  日本の第2四半期GDPは成長したが、家計消費と設備投資は弱かった。コアCPIが再加速し、10年国債利回りが3％に近づくなか、高市政権の減税・拡張策は家計支援と資金調達コストの間で制約を受けている。
-</div>
-
-<h2 id="エグゼクティブ・サマリー"><a href="#エグゼクティブ・サマリー" class="headerlink" title="エグゼクティブ・サマリー"></a>エグゼクティブ・サマリー</h2><ul>
-<li>実質GDPは前期比 **0.3％、年率1.1％**増。ただし内需は <strong>0.2ポイント</strong>押し下げ、純輸出が0.5ポイント押し上げた。消費は0.1％、設備投資は1.2％減少。</li>
-<li>7月コアCPIは前年比 <strong>1.8％</strong>（6月1.6％）、生鮮・エネルギー除きは1.9％。食品価格は3.0％上昇。</li>
-<li>10年国債利回りは8月18日に一時 <strong>2.945％</strong>。財務省が2027年度の利払い計算に **3.8％**を想定するとの報道は、週内には未確認だった。</li>
-<li>7月の貿易赤字は <strong>6345億円</strong>。原油の代替航路で供給量は戻ったが、運賃とエネルギー費は上昇した。</li>
-<li>6月の機械受注は前月比 **9.7％**反発したが、非鉄金属の大型案件の影響が大きい。</li>
-<li>共同通信の8月22〜23日電話調査で内閣支持率は **50.2％**に低下。野党合流協議も停滞した。</li>
-<li>楽天がドイツの防衛スタートアップHelsingのAI攻撃ドローンを陸上自衛隊へ紹介したとの報道があるが、試験・調達は公式確認されていない。</li>
-</ul>
-<h2 id="主要ニュース"><a href="#主要ニュース" class="headerlink" title="主要ニュース"></a>主要ニュース</h2><h3 id="1-第2四半期GDPは年率1-1％、内需は縮小"><a href="#1-第2四半期GDPは年率1-1％、内需は縮小" class="headerlink" title="1. 第2四半期GDPは年率1.1％、内需は縮小"></a>1. 第2四半期GDPは年率1.1％、内需は縮小</h3><p><strong>確認済み｜8月17日</strong></p>
-<p>実質GDPは前期比0.3％増。内需寄与は <strong>-0.2ポイント</strong>、純輸出は <strong>+0.5ポイント</strong>。消費、住宅、設備投資はいずれも減少した。</p>
-<p><strong>重要性（分析判断）：</strong> 輸入減はGDP上の純輸出を押し上げるため、見出しの成長率は家計・企業の弱さを覆い隠す。 <a href="https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/gaiyou/pdf/main_1.pdf">内閣府GDP</a>・<a href="https://www.nri.com/jp/media/column/kiuchi/20260817.html">野村総研</a></p>
-<h3 id="2-10年国債2-945％、3-8％の予算金利想定が報じられる"><a href="#2-10年国債2-945％、3-8％の予算金利想定が報じられる" class="headerlink" title="2. 10年国債2.945％、3.8％の予算金利想定が報じられる"></a>2. 10年国債2.945％、3.8％の予算金利想定が報じられる</h3><p><strong>市場データは確認済み、3.8％は週内に未確認の報道｜8月18〜21日</strong></p>
-<p>10年利回りは2.945％まで上昇し、8月21日の新発債は2.870％で引けた。2027年度の利払い計算に3.8％を置く案が報じられたが、市場金利予測ではない。</p>
-<p><strong>重要性（分析判断）：</strong> 既発債が直ちに3.8％で再評価されるわけではないが、借換えコストは時間とともに上昇する。 <a href="https://www.investing.com/news/economy-news/japans-10year-government-bond-yield-rises-to-threedecade-peak-4864126">市場報道</a>・<a href="https://www.bb.jbts.co.jp/ja/historical/main_rate.htm">国債利回り</a></p>
-<h3 id="3-7月コアCPIは1-8％、食品の負担は続く"><a href="#3-7月コアCPIは1-8％、食品の負担は続く" class="headerlink" title="3. 7月コアCPIは1.8％、食品の負担は続く"></a>3. 7月コアCPIは1.8％、食品の負担は続く</h3><p><strong>確認済み｜8月21日</strong></p>
-<p>総合CPIは1.9％、コアは1.8％、生鮮・エネルギー除きは1.9％。生鮮食品を除く食料は3.0％上昇した。</p>
-<p><strong>重要性（分析判断）：</strong> ガソリン政策は総合指数を押し下げるが、食品とサービスの上昇は残る。追加利上げの余地を残す一方、弱い需要には慎重さが必要だ。<a href="https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/zenkoku.pdf">総務省</a></p>
-<h3 id="4-7月貿易赤字は6345億円"><a href="#4-7月貿易赤字は6345億円" class="headerlink" title="4. 7月貿易赤字は6345億円"></a>4. 7月貿易赤字は6345億円</h3><p><strong>確認済み｜8月18・20日</strong></p>
-<p>輸出は前年比23.2％増の11兆5118億円、輸入は27.8％増の12兆1463億円。輸出数量は5.2％、輸入数量は1.2％増。自動車・半導体部品が輸出を、原油・半導体材料・非鉄金属が輸入を押し上げた。</p>
-<p><strong>重要性（分析判断）：</strong> エネルギー問題は「物があるか」から「どの価格・航路で届くか」へ移った。円安と原油、迂回輸送費が交易条件を悪化させる。<a href="https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_07.pdf">財務省</a>・<a href="https://www.dir.co.jp/report/research/economics/japan/20260820_025996.html">大和総研</a></p>
-<h3 id="5-機械受注9-7％反発、ただし大型案件の影響"><a href="#5-機械受注9-7％反発、ただし大型案件の影響" class="headerlink" title="5. 機械受注9.7％反発、ただし大型案件の影響"></a>5. 機械受注9.7％反発、ただし大型案件の影響</h3><p><strong>確認済み｜8月19日</strong></p>
-<p>船舶・電力を除く民間機械受注は前月比9.7％増。製造業19.9％、非製造業4.5％増だったが、非鉄金属の一件の大型受注が押し上げた。第2四半期は0.2％増にとどまる。<a href="https://www.esri.cao.go.jp/jp/stat/juchu/2026/2606gaiyou.pdf">内閣府</a></p>
-<p><strong>重要性（分析判断）：</strong> 設備投資は失速していないが、広範な回復の証拠ではない。省人化、AI、防災投資が今後も続くかが重要となる。</p>
-<h3 id="6-共同通信調査で内閣支持率50-2％"><a href="#6-共同通信調査で内閣支持率50-2％" class="headerlink" title="6. 共同通信調査で内閣支持率50.2％"></a>6. 共同通信調査で内閣支持率50.2％</h3><p><strong>メディア調査｜8月22〜23日</strong></p>
-<p>共同通信の全国電話調査で支持率は50.2％（前回比-3.5ポイント）、不支持率は33.9％。調査機関・時期・方法が違う数字と混ぜてはいけない。<a href="https://news.livedoor.com/article/detail/32137534/">共同通信</a></p>
-<p><strong>重要性（分析判断）：</strong> 政権は運営可能な基盤を保つが、災害対応と減税公約の政治的配当は安定していない。</p>
-<h3 id="7-野党の合流協議が難航"><a href="#7-野党の合流協議が難航" class="headerlink" title="7. 野党の合流協議が難航"></a>7. 野党の合流協議が難航</h3><p><strong>メディア報道｜8月18・21日</strong></p>
-<p>立憲民主党、公明党、中道改革連合は8月末の結論を目指したが、地方組織と政策差が障害となった。<a href="https://news.tv-asahi.co.jp/news_politics/articles/000527106.html">テレビ朝日</a>・<a href="https://www.fnn.jp/articles/-/1098782">FNN</a></p>
-<p><strong>重要性（分析判断）：</strong> 合流失敗なら野党票は分散し、強行合流なら組織運営コストが増える。</p>
-<h3 id="8-楽天がHelsingのAI攻撃ドローンを紹介との報道"><a href="#8-楽天がHelsingのAI攻撃ドローンを紹介との報道" class="headerlink" title="8. 楽天がHelsingのAI攻撃ドローンを紹介との報道"></a>8. 楽天がHelsingのAI攻撃ドローンを紹介との報道</h3><p><strong>メディア報道、試験・調達は公式未確認｜8月17〜18日</strong></p>
-<p>楽天がドイツHelsingのHX-2を陸上自衛隊へ紹介し、9月末まで試験するとの報道がある。防衛省は具体的な調達計画を公表していない。<a href="https://www.aerotime.aero/articles/rakuten-helsing-hx-2-strike-drone-japan">AeroTime</a></p>
-<p><strong>重要性（分析判断）：</strong> 防衛産業が重工大手だけでなく、AI・ソフトウェア企業と民間の販売チャネルを組み合わせる可能性を示す。</p>
-<h2 id="データ・レーダー"><a href="#データ・レーダー" class="headerlink" title="データ・レーダー"></a>データ・レーダー</h2><table>
-<thead>
-<tr>
-<th>指標</th>
-<th align="right">今回</th>
-<th align="right">前回</th>
-<th>含意</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>実質GDP</td>
-<td align="right">前期比+0.3％、年率+1.1％</td>
-<td align="right">内需-0.2ポイント</td>
-<td>純輸出が弱さを隠す</td>
-</tr>
-<tr>
-<td>コアCPI</td>
-<td align="right">+1.8％</td>
-<td align="right">6月+1.6％</td>
-<td>利上げ余地は残る</td>
-</tr>
-<tr>
-<td>機械受注</td>
-<td align="right">+9.7％</td>
-<td align="right">5月-12.4％</td>
-<td>大型案件効果に注意</td>
-</tr>
-<tr>
-<td>貿易収支</td>
-<td align="right">-6345億円</td>
-<td align="right">3か月連続赤字</td>
-<td>エネルギー・円安コスト</td>
-</tr>
-<tr>
-<td>10年国債</td>
-<td align="right">2.870％</td>
-<td align="right">週内高値2.945％</td>
-<td>財政・利上げ観測で高水準</td>
-</tr>
-<tr>
-<td>ドル円</td>
-<td align="right">158.80〜158.90円</td>
-<td align="right">159円近辺</td>
-<td>輸入コスト圧力</td>
-</tr>
-<tr>
-<td>日経平均</td>
-<td align="right">66,016.36</td>
-<td align="right">前週比約-3.9％</td>
-<td>金利・高バリュエーションに敏感</td>
-</tr>
-</tbody></table>
-<h2 id="政治・制度"><a href="#政治・制度" class="headerlink" title="政治・制度"></a>政治・制度</h2><p>共同通信の50.2％は同社の時系列で追跡する。3.8％は利払い計算の想定であり、実際の市場利回りではない。今週、食品減税の政策経路を変える国会採決は確認できなかった。秋の国会と野党の選挙区協力が次の焦点となる。</p>
-<h2 id="政策・市場への含意（分析判断）"><a href="#政策・市場への含意（分析判断）" class="headerlink" title="政策・市場への含意（分析判断）"></a>政策・市場への含意（分析判断）</h2><ol>
-<li><strong>日銀：</strong> 基調インフレと円安は正常化を支持するが、消費・設備投資の弱さは急激な利上げに反対する。</li>
-<li><strong>財政：</strong> 金利想定が上がれば、財源のない減税の機会費用と長期金利のタームプレミアムが意識される。</li>
-<li><strong>家計：</strong> GDPのプラスだけでは生活改善を意味しない。食品、エネルギー、交易条件が実質所得を圧迫する。</li>
-<li><strong>円・株式：</strong> 円安は輸出企業を支える一方、輸入費を上げる。日経上昇も家計の購買力を示すものではない。</li>
-<li><strong>産業：</strong> エネルギー調達、防衛ソフト、省人化投資に余地があるが、物流・規制対応コストが利益を左右する。</li>
-</ol>
-<h2 id="来週の観察項目"><a href="#来週の観察項目" class="headerlink" title="来週の観察項目"></a>来週の観察項目</h2><ul>
-<li>8月26日：7月企業向けサービス価格。</li>
-<li>8月27〜28日：日銀氷見野副総裁の講演と記者会見記録。</li>
-<li>8月28日：東京8月CPI、2年国債入札。</li>
-<li>8月28〜31日：野党の党内会合と合流期限。</li>
-<li>8月末：2027年度概算要求と3.8％想定の公式確認。</li>
-</ul>
-<h2 id="情報源"><a href="#情報源" class="headerlink" title="情報源"></a>情報源</h2><p>内閣府、総務省、財務省・税関、日本銀行、国会資料を優先し、Reuters、共同通信、テレビ朝日、FNN、野村総研、大和総研でクロスチェックした。有料記事のペイウォールは回避していない。重要事実は公式資料または無料で確認できる報道に基づく。</p>
 ]]></content>
     <author><name>Lei Deng</name></author>
   </entry>
@@ -3988,7 +3948,7 @@
 <li><strong>发生了什么（事实）</strong>：有关部门在政策发布会上宣布个人消费贷款贴息上限从单家机构3000元提高至5000元，并将汽车和家装分期纳入范围；同时国务院常务会议要求运用专项债和再贷款工具，常态化防范和化解地方政府及大型企业对中小企业的拖欠账款。</li>
 <li><strong>为什么重要（分析判断）</strong>：对民营中小企业而言，收回已确认的应收账款相比新增借贷更能直接改善营运资金且不增加负债；定向贴息则聚焦撬动高意愿居民耐用品消费，体现“定向疏导微观流动性”的监管思路。</li>
 <li><strong>接下来关注什么</strong>：贴息政策书面实施细则落地情况；地方防范化解拖欠企业账款台账清单与偿付考核进度。</li>
-<li><strong>来源</strong>：<a href="https://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982160.htm">财政部政策发布</a>；<a href="https://big5.www.gov.cn/gate/big5/www.gov.cn/zhengce/202608/content_7078874.htm">中国政府网国常会通报</a></li>
+<li><strong>来源</strong>：<a href="http://www.mof.gov.cn/">财政部政策发布（入口页；个人消费贷款贴息扩围安排，2026-08-21）</a>；<a href="https://big5.www.gov.cn/gate/big5/www.gov.cn/zhengce/202608/content_7078874.htm">中国政府网国常会通报</a></li>
 </ul>
 <h3 id="3-楼市支持日益地方化，恒大进入法定破产清算与损失分配阶段"><a href="#3-楼市支持日益地方化，恒大进入法定破产清算与损失分配阶段" class="headerlink" title="3. 楼市支持日益地方化，恒大进入法定破产清算与损失分配阶段"></a>3. 楼市支持日益地方化，恒大进入法定破产清算与损失分配阶段</h3><p><strong>状态：已确认｜日期：2026-08-21</strong></p>
 <ul>
@@ -4028,7 +3988,7 @@
     <div class="weekly-radar-card is-china">
       <div class="weekly-radar-card-head">
         <span class="weekly-radar-tag">CHINA · 消费动能</span>
-        <span class="weekly-radar-change is-down">↓ +0.6%</span>
+        <span class="weekly-radar-change is-down">↓ 增速放缓</span>
       </div>
       <div class="weekly-radar-label">7月社会消费品零售总额同比</div>
       <div class="weekly-radar-metric-body">
@@ -4039,7 +3999,7 @@
     <div class="weekly-radar-card is-china">
       <div class="weekly-radar-card-head">
         <span class="weekly-radar-tag">CHINA · 工业生产</span>
-        <span class="weekly-radar-change is-down">↓ +4.5%</span>
+        <span class="weekly-radar-change is-down">↓ 增速放缓</span>
       </div>
       <div class="weekly-radar-label">7月规模以上工业增加值同比</div>
       <div class="weekly-radar-metric-body">
@@ -4061,7 +4021,7 @@
     <div class="weekly-radar-card is-china">
       <div class="weekly-radar-card-head">
         <span class="weekly-radar-tag">CHINA · 房产销售</span>
-        <span class="weekly-radar-change is-down">↓ -11.8%</span>
+        <span class="weekly-radar-change is-flat">→ 深度收缩</span>
       </div>
       <div class="weekly-radar-label">1—7月新建商品房销售面积同比</div>
       <div class="weekly-radar-metric-body">
@@ -4106,7 +4066,7 @@
             <span class="radar-cat-badge">内需投资</span>
           </td>
           <td><span class="radar-num-strong" style="color: #a33816;">-6.7%</span></td>
-          <td>-5.7%</td>
+          <td>1—6月累计 −5.7%</td>
           <td>
             <div class="radar-mini-gauge" title="-6.7% (收缩区间)">
               <div class="gauge-center-line"></div>
@@ -4122,7 +4082,7 @@
             <span class="radar-cat-badge">终端消费</span>
           </td>
           <td><span class="radar-num-strong">+0.6%</span></td>
-          <td>+1.0%</td>
+          <td>+1.0%（6月单月）</td>
           <td>
             <div class="radar-mini-gauge" title="+0.6% (低位徘徊)">
               <div class="gauge-center-line"></div>
@@ -4138,7 +4098,7 @@
             <span class="radar-cat-badge">制造业供给</span>
           </td>
           <td><span class="radar-num-strong">+4.5%</span></td>
-          <td>+5.3%</td>
+          <td>+5.3%（6月单月）</td>
           <td>
             <div class="radar-mini-gauge" title="+4.5% (中枢放缓)">
               <div class="gauge-center-line"></div>
@@ -4154,7 +4114,7 @@
             <span class="radar-cat-badge">地产拖累</span>
           </td>
           <td><span class="radar-num-strong" style="color: #a33816;">-19.2%</span></td>
-          <td>-18.0%</td>
+          <td>1—6月累计 −18.0%</td>
           <td>
             <div class="radar-mini-gauge" title="-19.2% (深度承压)">
               <div class="gauge-center-line"></div>
@@ -4232,7 +4192,7 @@
 <p>结构比总量减速本身更重要。高技术制造业仍保持较快增长，但这并没有阻止民间投资、耐用品消费和房地产活动继续走弱。与其说经济正在同步下坠，不如说它正在分化：政策支持的战略产业仍能获得资金，而不少民营企业和家庭因为需求不足、前景不确定，不愿继续加杠杆。</p>
 <p><strong>这意味着，单纯降低贷款利率的乘数效应可能有限。</strong> 没有订单的企业，或担心收入与房价的家庭，即使利率下降也未必借钱。政策问题正在从“怎样让信贷更便宜”，转向“怎样修复现金流和预期回报”。</p>
 <h3 id="专题-2：财政执行走在全面货币宽松之前"><a href="#专题-2：财政执行走在全面货币宽松之前" class="headerlink" title="专题 2：财政执行走在全面货币宽松之前"></a>专题 2：财政执行走在全面货币宽松之前</h3><p>财政部本周最重要的信号不是新增额度，而是加快落实。2026年预算安排财政支出超过30万亿元，新增政府债券发行规模为11.89万亿元。财政部表示，下半年仍有超过2万亿元地方政府专项债券和超长期特别国债需要发行使用；如果经济形势需要，也可以进一步出台增量措施。</p>
-<p>授权和执行之间的区别至关重要。债券额度只有在资金完成分配、项目开工、承包商收到款项、订单传导至供应商之后，才真正形成增长支持。7月一般公共预算收入同比增长11.7%，但支出仅增长0.5%；1—7月国有土地使用权出让收入下降30.8%，地方政府自身能够调动的财政资源进一步减少。</p>
+<p>授权和执行之间的区别至关重要。债券额度只有在资金完成分配、项目开工、承包商收到款项、订单传导至供应商之后，才真正形成增长支持。7 月单月一般公共预算收入同比增长 11.7%，但 7 月单月支出仅增长 0.5%；1—7月国有土地使用权出让收入下降30.8%，地方政府自身能够调动的财政资源进一步减少。</p>
 <p><strong>未来两个月将是一次财政执行力测试。</strong> 如果中央转移支付和债券资金加快落地，基础设施施工和供应商现金流可以改善，而无须先等待私人信贷需求复苏。</p>
 <h3 id="专题-3：定向工具正在从两端修复现金流"><a href="#专题-3：定向工具正在从两端修复现金流" class="headerlink" title="专题 3：定向工具正在从两端修复现金流"></a>专题 3：定向工具正在从两端修复现金流</h3><p>政府一方面降低部分融资成本，另一方面试图确保企业能够收到本应到账的钱。个人消费贷款贴息上限从3000元提高到5000元，新发放的汽车和家装信用卡分期纳入范围。</p>
 <p>国务院清理拖欠企业账款的行动针对另一项约束。地方政府被要求运用专项债券和再贷款工具化解拖欠链条，监管部门则将加强付款期限标准，以及对大型企业拖欠中小供应商账款的监督。</p>
@@ -4418,35 +4378,35 @@
 <li><strong>发生了什么（事实）</strong>：中国人民银行公布 2026 年 7 月金融统计数据报告：7 月末社会融资规模存量同比增长 <strong>7.4%</strong>（余额 463.27 万亿元），增速与 6 月末持平。结构上，政府债券余额同比增长 <strong>14.1%</strong>、显著高于整体，继续扮演托底角色；对实体经济发放的人民币贷款余额同比增长 5.2%，企业债券余额同比增长 9.2%。增量方面，前 7 个月社会融资规模增量累计 <strong>22.25 万亿元</strong>，同比少增 1.74 万亿元，其中政府债券净融资 <strong>7.76 万亿元</strong>，对实体经济人民币贷款增加 10.17 万亿元（同比少增 2.14 万亿元）；前 7 个月人民币贷款累计增加 10.38 万亿元，其中住户贷款净减少 8271 亿元，企（事）业单位贷款增加 11 万亿元。</li>
 <li><strong>为什么重要（分析判断）</strong>：金融体系流动性总体充裕，但实体经济自发加杠杆的意愿依然偏弱。前 7 个月住户贷款净减少 8271 亿元（其中中长期贷款仅微增 1010 亿元），反映居民购房与消费信贷需求疲弱；企业信贷依靠票据与企业中长贷支撑，银行端资产荒与实体端有效信贷需求不足的矛盾依然突出。宏观流动性传导卡在从央行到实体资产负债表的“最后一公里”。</li>
 <li><strong>接下来关注什么</strong>：8 月 LPR 报价是否继续下调以降低企业综合融资成本；银行净息差在低利率环境下的承压程度与存款利率下调节奏；货币政策是否加大对设备更新、消费品以旧换新的再贷款支持力度。</li>
-<li><strong>来源</strong>：<a href="http://www.pbc.gov.cn/">中国人民银行官网：2026年7月金融统计数据报告</a></li>
+<li><strong>来源</strong>：<a href="http://www.pbc.gov.cn/">中国人民银行（《2026 年 7 月金融统计数据报告》发布入口）</a></li>
 </ul>
 <h3 id="2-M1-同比增速企稳-4-0-，剪刀差收窄但住户存款仍高增"><a href="#2-M1-同比增速企稳-4-0-，剪刀差收窄但住户存款仍高增" class="headerlink" title="2. M1 同比增速企稳 4.0%，剪刀差收窄但住户存款仍高增"></a>2. M1 同比增速企稳 4.0%，剪刀差收窄但住户存款仍高增</h3><p><strong>状态：已确认｜发布日期：2026-08-14</strong></p>
 <ul>
 <li><strong>发生了什么（事实）</strong>：7 月末广义货币（M2）余额 355.51 万亿元，同比增长 <strong>7.7%</strong>；狭义货币（M1）余额 115.46 万亿元，同比增长 <strong>4.0%</strong>，增速与 6 月末持平；M0 同比增长 11.6%。M1-M2 负剪刀差收窄至 <strong>-3.7 个百分点</strong>。结构上，前 7 个月住户存款增加 6.95 万亿元、非银行业金融机构存款增加 5.76 万亿元，居民与企业资金继续向定期存款与理财类资产沉淀。</li>
 <li><strong>为什么重要（分析判断）</strong>：M1 通常被视为微观经济交易活跃度和企业日常现金流充沛度的“晴雨表”。M1 转入正增长并企稳，说明此前叫停“手工补息”高息揽储等合规扰动的影响基本消退，企业活期资金有所修复；但 M1 增速仍明显低于 M2，住户存款高增显示居民预防性储蓄倾向依然较强，资金活化与消费投资意愿的修复仍需观察。</li>
 <li><strong>接下来关注什么</strong>：央行关于优化 M1 统计口径（是否将个人活期存款和移动支付机构客户备付金纳入考量）的官方研究进展；治理拖欠企业账款与财政化债资金落地后，微观企业活期资金的回流状况。</li>
-<li><strong>来源</strong>：<a href="http://www.pbc.gov.cn/">中国人民银行官网：有关部门负责人就7月份金融统计数据答记者问</a></li>
+<li><strong>来源</strong>：<a href="http://www.pbc.gov.cn/">中国人民银行（《有关部门负责人就 7 月份金融统计数据答记者问》发布入口）</a></li>
 </ul>
 <h3 id="3-7月外贸出口同比增长-23-9-，抢跑与顺差高位特征显著"><a href="#3-7月外贸出口同比增长-23-9-，抢跑与顺差高位特征显著" class="headerlink" title="3. 7月外贸出口同比增长 23.9%，抢跑与顺差高位特征显著"></a>3. 7月外贸出口同比增长 23.9%，抢跑与顺差高位特征显著</h3><p><strong>状态：已确认｜发布日期：2026-08-10（周内发布）</strong></p>
 <ul>
 <li><strong>发生了什么（事实）</strong>：海关总署公布 2026 年 7 月外贸数据：以美元计价，7 月出口同比增长 <strong>23.9%</strong>（6 月为 +27.0%），进口同比增长 <strong>27.5%</strong>；贸易顺差 <strong>1124.99 亿美元</strong>，顺差规模保持在历史高位附近。前 7 个月累计，东盟仍为中国第一大贸易伙伴；出口结构继续向机电与高附加值产品倾斜。</li>
 <li><strong>为什么重要（分析判断）</strong>：在全球贸易保护主义升温、多国加征关税预期上升的背景下，7 月出口仍保持逾两成的高增，既反映供应链价格与数量共振，也包含企业规避潜在贸易壁垒加速“抢出口”的提前出货动力。外需仍是当前支撑制造业产能利用率的关键柱石，但抢跑意味着透支——效应消退后，8—9 月出口环比动能可能回落。</li>
 <li><strong>接下来关注什么</strong>：欧美下半年针对光伏、新能源汽车关税终裁落地后的出口环比扰动；海运运价指数与集装箱周转率对三季度末出货节奏的影响。</li>
-<li><strong>来源</strong>：<a href="http://www.customs.gov.cn/">海关总署官方网站：2026年7月进出口商品总值表</a></li>
+<li><strong>来源</strong>：<a href="http://www.customs.gov.cn/">海关总署（《2026 年 7 月进出口商品总值表》发布入口）</a></li>
 </ul>
 <h3 id="4-上半年专项债发行进度过半，政治局会议要求加快财政支出与债券资金使用进度"><a href="#4-上半年专项债发行进度过半，政治局会议要求加快财政支出与债券资金使用进度" class="headerlink" title="4. 上半年专项债发行进度过半，政治局会议要求加快财政支出与债券资金使用进度"></a>4. 上半年专项债发行进度过半，政治局会议要求加快财政支出与债券资金使用进度</h3><p><strong>状态：已确认｜数据截至 6 月末，政治局会议定调 7 月</strong></p>
 <ul>
 <li><strong>发生了什么（事实）</strong>：2026 年全年新增专项债券限额为 <strong>4.4 万亿元</strong>；截至 6 月末全国已发行新增专项债约 <strong>2.07 万亿元</strong>，发行进度约 <strong>47%</strong>，其中用于项目资本金的专项债规模超 1700 亿元。7 月中央政治局会议明确“加快财政支出和债券资金使用进度”；本周（8 月 10—16 日）地方债发行约 2800 亿元，市场普遍预期三季度为政府债净供给高峰。</li>
 <li><strong>为什么重要（分析判断）</strong>：上半年发行进度约 47%、略慢于往年同期，一方面源于优质可收益项目储备审查趋严，另一方面受隐性债务化解与防范新增债务纪律约束。在二季度内需放缓后，专项债提速成为三季度宏观逆周期调控的核心抓手；政府债集中供给将阶段性抬升利率债供给，需要货币端流动性工具加以配合。财政加力能否有效对冲房地产下行带来的基建缺口，仍是下半年稳增长的核心胜负手。</li>
 <li><strong>接下来关注什么</strong>：8 月和 9 月单月新增专项债发行规模是否超过 8000 亿元高峰；专项债资金用作项目资本金的范围是否进一步向新型基础设施和民生补短板扩容。</li>
-<li><strong>来源</strong>：<a href="http://www.mof.gov.cn/">中华人民共和国财政部官网：地方政府专项债券发行使用情况通报</a></li>
+<li><strong>来源</strong>：<a href="http://www.mof.gov.cn/">中华人民共和国财政部（地方政府专项债券发行使用情况通报发布入口）</a></li>
 </ul>
 <h3 id="5-10年期国债收益率下破-1-7-创阶段新低，央行等量续作万亿买断式逆回购"><a href="#5-10年期国债收益率下破-1-7-创阶段新低，央行等量续作万亿买断式逆回购" class="headerlink" title="5. 10年期国债收益率下破 1.7% 创阶段新低，央行等量续作万亿买断式逆回购"></a>5. 10年期国债收益率下破 1.7% 创阶段新低，央行等量续作万亿买断式逆回购</h3><p><strong>状态：已确认｜日期：2026-08-12—14</strong></p>
 <ul>
 <li><strong>发生了什么（事实）</strong>：8 月 12 日央行发布《2026 年第二季度中国货币政策执行报告》，明确保持流动性充裕并完善公开市场操作框架。8 月 13 日，10 年期国债活跃券收益率下破 <strong>1.70%</strong> 关口，创阶段性新低；8 月 14 日中债 10 年期到期收益率收于 1.6964%（全周最低触及 1.675%），30 年期收益率在 2.16% 附近，30 年期国债期货主力合约续创历史新高。同日央行开展 <strong>10000 亿元</strong>6 个月期买断式逆回购、等量续作当日到期；此前连续三日 7 天期逆回购“零操作”，并公告 8 月 14 日及 17—19 日开展隔夜逆回购、每日操作量不超过 6000 亿元。</li>
 <li><strong>为什么重要（分析判断）</strong>：长端利率加速下行反映资产荒下机构对超长久期资产的追逐，以及市场对基本面偏弱与货币宽松的预期。央行以买断式逆回购等中期工具平稳资金面，延续“总量适度、结构进取”的操作框架；但收益率快速下行后，机构长端持仓的利率风险与理财净值波动风险同步累积。</li>
 <li><strong>接下来关注什么</strong>：8 月 20 日 LPR 报价是否会调降、9 月是否出现降准窗口，以及政府债供给放量与长端止盈压力对收益率的扰动。</li>
-<li><strong>来源</strong>：<a href="http://www.pbc.gov.cn/">中国人民银行《中国货币政策执行报告（2026 年第二季度）》</a> · <a href="https://www.cnfin.com/zs-lb/detail/20260817/4455922_1.html">新华财经债市观察（8 月 17 日）</a></li>
+<li><strong>来源</strong>：<a href="http://www.pbc.gov.cn/">中国人民银行（《中国货币政策执行报告（2026 年第二季度）》发布入口）</a> · <a href="https://www.cnfin.com/zs-lb/detail/20260817/4455922_1.html">新华财经债市观察（8 月 17 日）</a></li>
 </ul>
 <hr>
 <h2 id="数据雷达"><a href="#数据雷达" class="headerlink" title="数据雷达"></a>数据雷达</h2><div class="weekly-radar-wrap">
@@ -4498,7 +4458,7 @@
     <div class="weekly-radar-card is-china">
       <div class="weekly-radar-card-head">
         <span class="weekly-radar-tag">CHINA · 外贸出口</span>
-        <span class="weekly-radar-change is-up">↑ +23.9%</span>
+        <span class="weekly-radar-change is-down">↓ 增速回落</span>
       </div>
       <div class="weekly-radar-label">7月以美元计价出口同比</div>
       <div class="weekly-radar-metric-body">
@@ -4513,9 +4473,9 @@
       </div>
       <div class="weekly-radar-label">10年期国债到期收益率</div>
       <div class="weekly-radar-metric-body">
-        <span class="weekly-radar-value">1.68%</span>
+        <span class="weekly-radar-value">1.6964%</span>
       </div>
-      <div class="weekly-radar-note">前值 1.71% · 央行续作万亿买断式逆回购</div>
+      <div class="weekly-radar-note">前值 1.71% · 周内低点 1.675%</div>
     </div>
   </div>
 </div>
@@ -4583,17 +4543,17 @@
               <div class="gauge-marker-point" style="left: 82%;"></div>
             </div>
           </td>
-          <td><span class="radar-trend-pill is-up">↑ 抢跑与基数效应</span></td>
+          <td><span class="radar-trend-pill is-down">↓ 增速回落（抢跑与基数效应仍在）</span></td>
         </tr>
         <tr>
           <td>
             <strong>10Y国债收益率</strong>
             <span class="radar-cat-badge">利率底线</span>
           </td>
-          <td><span class="radar-num-strong">1.68%</span></td>
+          <td><span class="radar-num-strong">1.6964%</span></td>
           <td>1.71%</td>
           <td>
-            <div class="radar-mini-gauge" title="1.68% (阶段新低)">
+            <div class="radar-mini-gauge" title="1.6964% (阶段新低)">
               <div class="gauge-center-line"></div>
               <div class="gauge-bar-fill" style="width: 38%;"></div>
               <div class="gauge-marker-point" style="left: 38%;"></div>
@@ -4674,118 +4634,11 @@
     <author><name>Lei Deng</name></author>
   </entry>
   <entry>
-    <title>Japan Weekly: Yen Nears 160 Under Takaichi’s Fiscal Pressure (Aug 10–16)</title>
-    <id>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-16-en/</id>
-    <link href="https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-16-en/"/>
-    <published>2026-08-17T09:00:00.000Z</published>
-    <updated>2026-09-21T07:33:38.399Z</updated>
-    <summary type="html"><![CDATA[The yen returned toward 160 as upstream costs stayed high and Takaichi’s food-tax cut raised funding questions; Russia and Yasukuni added diplomatic risk.]]></summary>
-    <content type="html"><![CDATA[<p><span hidden data-article-language="EN"></span></p>
-<blockquote>
-<p><strong>Coverage:</strong> Aug 10–16, 2026 (Japan time).<br><strong>Language versions:</strong> <a href="/2026/08/japan-political-economy-weekly-2026-08-16/">中文</a> · <strong>English</strong> · <a href="/2026/08/japan-political-economy-weekly-2026-08-16-ja/">日本語</a></p>
-</blockquote>
-<div class="abstract">
-  <span class="abstract-label">This week</span>
-  Coordinated intervention only temporarily supported the yen. Imported-cost pressure remained high, while Prime Minister Takaichi’s food-tax proposal exposed a roughly ¥5 trillion funding dispute. Putin’s Iturup visit and the August 15 memorial wording added diplomatic risk.
-</div>
-
-<h2 id="Executive-summary"><a href="#Executive-summary" class="headerlink" title="Executive summary"></a>Executive summary</h2><ul>
-<li>USD&#x2F;JPY returned to the <strong>159 area</strong> by Aug 14, recovering most of the post-intervention move. Yen weakness still reflects the US–Japan rate gap, fiscal expectations and uncertainty over BOJ timing.</li>
-<li>The BOJ’s July domestic corporate-goods price index rose <strong>7.2% y&#x2F;y</strong>, just below June’s 7.3% and the 7.4% market expectation. Yen-denominated import prices remained around 30% higher y&#x2F;y. (The August flash release later revised July CGPI to +7.7% y&#x2F;y and import prices to +29.3% y&#x2F;y; this brief records the initial print.)</li>
-<li>The government’s planned food consumption-tax cut (8% to 1% from April 2027 for two years) moved into a dispute over roughly <strong>¥5 trillion</strong> of permanent funding and the central–local burden.</li>
-<li>July Economy Watchers’ current DI rose 1.7 points to <strong>45.7</strong>, its third monthly improvement, but stayed below the 50 expansion line.</li>
-<li>President Putin visited Iturup (Etorofu), narrowing room for Japan–Russia rapprochement. Takaichi’s first August 15 address omitted the word “remorse”; four ministers visited Yasukuni, prompting Chinese and Korean protests.</li>
-<li>The Nikkei rose for four straight sessions to <strong>68,713.80</strong> on Aug 14, while ASICS lifted full-year sales guidance to <strong>¥1.05 trillion</strong>. Equity and brand strength should not be confused with better household purchasing power.</li>
-</ul>
-<h2 id="Core-news"><a href="#Core-news" class="headerlink" title="Core news"></a>Core news</h2><h3 id="1-The-yen-returns-toward-160"><a href="#1-The-yen-returns-toward-160" class="headerlink" title="1. The yen returns toward 160"></a>1. The yen returns toward 160</h3><p><strong>Confirmed | Aug 10–14</strong></p>
-<p>USD&#x2F;JPY traded around 159.24–159.28 in Tokyo on Aug 14 and in the high 159s in New York. The market recovered the move caused by the July 31 coordinated intervention.</p>
-<p><strong>Why it matters (analysis):</strong> Intervention changed short-term trading risk but did not remove the rate differential, fiscal or BOJ-timing questions. A quick return to the old range would test policy credibility. <a href="https://jp.reuters.com/opinion/BBOILPTMRBNKXIMRBLJGUVSVHE-2026-08-14/">Reuters Japan</a> · <a href="https://fx.minkabu.jp/news/376206">Minkabu</a></p>
-<h3 id="2-Corporate-goods-inflation-remains-7-2"><a href="#2-Corporate-goods-inflation-remains-7-2" class="headerlink" title="2. Corporate-goods inflation remains 7.2%"></a>2. Corporate-goods inflation remains 7.2%</h3><p><strong>Confirmed | Aug 13</strong></p>
-<p>The BOJ’s July domestic corporate-goods price index rose <strong>7.2% y&#x2F;y</strong>, versus 7.3% in June and 7.4% expected; it rose 0.1% m&#x2F;m. Non-ferrous metals, oil and chemicals led the increase.</p>
-<p><strong>Why it matters (analysis):</strong> High upstream costs can squeeze smaller firms if they cannot pass them through, while further pass-through keeps pressure on households and the BOJ. <a href="https://www.boj.or.jp/statistics/pi/cgpi_release/cgpi2607.pdf">BOJ CGPI</a> · <a href="https://www.nli-research.co.jp/report/detail/id=86545?site=nli">NLI Research</a></p>
-<h3 id="3-Food-tax-cut-enters-a-¥5-trillion-funding-dispute"><a href="#3-Food-tax-cut-enters-a-¥5-trillion-funding-dispute" class="headerlink" title="3. Food-tax cut enters a ¥5 trillion funding dispute"></a>3. Food-tax cut enters a ¥5 trillion funding dispute</h3><p><strong>Policy direction confirmed; funding details media-reported | Aug 10</strong></p>
-<p>The government is targeting April 2027 to reduce the food consumption-tax rate from 8% to 1% for two years. The latest debate concerns whether about ¥5 trillion can be found through spending and revenue measures, and how any linked transfers would be shared with local governments.</p>
-<p><strong>Why it matters (analysis):</strong> A tax cut can support consumption, but optimistic revenue assumptions, fund reallocations or future spending cuts could weaken bond-market confidence. <a href="https://news.yahoo.co.jp/articles/d74864dacccb9d32d2eb1aada973f9ae8ed52c42">Background reporting</a></p>
-<h3 id="4-Economy-Watchers-improve-for-a-third-month-still-below-50"><a href="#4-Economy-Watchers-improve-for-a-third-month-still-below-50" class="headerlink" title="4. Economy Watchers improve for a third month, still below 50"></a>4. Economy Watchers improve for a third month, still below 50</h3><p><strong>Confirmed | Aug 10</strong></p>
-<p>The July current-conditions DI rose <strong>1.7 points to 45.7</strong>; the outlook DI rose 0.1 to 45.8. Household, corporate and employment readings all improved.</p>
-<p><strong>Why it matters (analysis):</strong> Sentiment is no longer deteriorating, but a sub-50 reading is not a domestic-demand recovery. <a href="https://www5.cao.go.jp/keizai3/2026/0810watcher/bassui.html">Cabinet Office</a> · <a href="https://www.nli-research.co.jp/report/detail/id=86502?site=nli">NLI Research</a></p>
-<h3 id="5-Putin’s-first-Iturup-visit-narrows-diplomatic-room"><a href="#5-Putin’s-first-Iturup-visit-narrows-diplomatic-room" class="headerlink" title="5. Putin’s first Iturup visit narrows diplomatic room"></a>5. Putin’s first Iturup visit narrows diplomatic room</h3><p><strong>Confirmed | Aug 13</strong></p>
-<p>Putin visited Iturup (Etorofu), controlled by Russia and claimed by Japan. Takaichi protested, Japan summoned Russia’s ambassador and Moscow rejected the protest.</p>
-<p><strong>Why it matters (analysis):</strong> The peace-treaty and territorial track is effectively more frozen, narrowing Japan’s room on energy, sanctions and northern security. <a href="https://www.kantei.go.jp/jp/105/statement/2026/0813kaiken.html">Prime Minister’s Office</a> · <a href="https://apnews.com/article/bc9cf6a0aa3fdbed5264d32297d740b4">AP</a></p>
-<h3 id="6-August-15-wording-and-Yasukuni-visits-raise-China–Korea-friction"><a href="#6-August-15-wording-and-Yasukuni-visits-raise-China–Korea-friction" class="headerlink" title="6. August 15 wording and Yasukuni visits raise China–Korea friction"></a>6. August 15 wording and Yasukuni visits raise China–Korea friction</h3><p><strong>Confirmed | Aug 15</strong></p>
-<p>Takaichi’s memorial address retained a pledge not to repeat the tragedy of war but omitted “remorse” and “pledge of non-war” used in the prior year. She did not personally visit Yasukuni; four ministers did, drawing protests from China and South Korea.</p>
-<p><strong>Why it matters (analysis):</strong> The combination signals restraint at the prime-ministerial level and continuity for domestic conservatives. Historical-risk premia in regional diplomacy rise even if practical cooperation continues. <a href="https://www.kantei.go.jp/jp/105/statement/2026/0815shikiji.html">Address</a> · <a href="https://www.jiji.com/jc/article?k=2026081500280&g=pol">Jiji</a></p>
-<h3 id="7-The-Nikkei-rises-four-sessions-but-households-do-not-automatically-benefit"><a href="#7-The-Nikkei-rises-four-sessions-but-households-do-not-automatically-benefit" class="headerlink" title="7. The Nikkei rises four sessions, but households do not automatically benefit"></a>7. The Nikkei rises four sessions, but households do not automatically benefit</h3><p><strong>Confirmed | Aug 14</strong></p>
-<p>The Nikkei closed at <strong>68,713.80</strong>, up 405.21 points, with a weekly gain of more than 3,000 points. Lower US inflation, technology shares, a weak yen and earnings upgrades supported risk appetite.</p>
-<p><strong>Why it matters (analysis):</strong> The index trades global liquidity, AI and yen translation effects. Food, energy and import prices still determine household welfare. <a href="https://www.gaitame.com/media/entry/2026/08/15/035711">Market review</a> · <a href="https://limo.media/articles/-/134847">LIMO</a></p>
-<h3 id="8-ASICS-lifts-full-year-sales-guidance-to-¥1-05-trillion"><a href="#8-ASICS-lifts-full-year-sales-guidance-to-¥1-05-trillion" class="headerlink" title="8. ASICS lifts full-year sales guidance to ¥1.05 trillion"></a>8. ASICS lifts full-year sales guidance to ¥1.05 trillion</h3><p><strong>Confirmed | Aug 14</strong></p>
-<p>First-half sales rose <strong>32.7% to ¥534.4 billion</strong> and operating profit <strong>48.5% to ¥120.4 billion</strong>. Full-year sales guidance rose from ¥950 billion to <strong>¥1.05 trillion</strong>.</p>
-<p><strong>Why it matters (analysis):</strong> ASICS shows the difference between genuine global brand pricing power and a simple yen translation gain. <a href="https://corp.asics.com/jp/investor_relations">ASICS IR</a> · <a href="https://news.tv-asahi.co.jp/news_economy/articles/000526494.html">TV Asahi</a></p>
-<h2 id="Data-radar"><a href="#Data-radar" class="headerlink" title="Data radar"></a>Data radar</h2><table>
-<thead>
-<tr>
-<th>Indicator</th>
-<th align="right">Actual</th>
-<th align="right">Previous &#x2F; expectation</th>
-<th>Read-through</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>July CGPI</td>
-<td align="right">+7.2% y&#x2F;y; +0.1% m&#x2F;m</td>
-<td align="right">June +7.3%; expected +7.4%</td>
-<td>Upstream costs remain high</td>
-</tr>
-<tr>
-<td>Economy Watchers current DI</td>
-<td align="right">45.7</td>
-<td align="right">+1.7 points m&#x2F;m</td>
-<td>Improving, still below 50</td>
-</tr>
-<tr>
-<td>Outlook DI</td>
-<td align="right">45.8</td>
-<td align="right">+0.1 points</td>
-<td>Recovery confidence weak</td>
-</tr>
-<tr>
-<td>USD&#x2F;JPY Aug 14</td>
-<td align="right">About 159.25</td>
-<td align="right">Intervention background about 155</td>
-<td>Yen weakness returns</td>
-</tr>
-<tr>
-<td>Nikkei 225 Aug 14</td>
-<td align="right">68,713.80</td>
-<td align="right">+405.21 day; +3,000+ week</td>
-<td>Asset strength, not household recovery</td>
-</tr>
-</tbody></table>
-<h2 id="Politics-and-institutions"><a href="#Politics-and-institutions" class="headerlink" title="Politics and institutions"></a>Politics and institutions</h2><p>There was no new, methodologically comparable approval poll meeting the reporting standard this week. The food-tax plan moved from “whether” to “who pays and whether funding is permanent.” The Iturup visit and August 15 wording increase diplomatic friction with Russia, China and South Korea. The Diet’s autumn session remains the institutional test for tax legislation.</p>
-<h2 id="Policy-and-market-implications-analysis"><a href="#Policy-and-market-implications-analysis" class="headerlink" title="Policy and market implications (analysis)"></a>Policy and market implications (analysis)</h2><ol>
-<li><strong>BOJ:</strong> High corporate-goods inflation and a weak yen keep hikes possible, but below-50 sentiment argues for a gradual pace.</li>
-<li><strong>Households:</strong> The food-tax cut is not scheduled until April 2027; near-term purchasing power depends on wages, energy support and the yen.</li>
-<li><strong>Yen and JGBs:</strong> If ¥5 trillion of permanent funding is not credible, fiscal expansion could offset the currency benefit of intervention or future hikes and lift term premium.</li>
-<li><strong>Equities:</strong> Global technology and yen translation can keep the Nikkei strong while the household economy remains under pressure.</li>
-<li><strong>Industry:</strong> Global brands with pricing power are structurally different from exporters that only benefit from a weak yen.</li>
-</ol>
-<h2 id="Next-week"><a href="#Next-week" class="headerlink" title="Next week"></a>Next week</h2><ul>
-<li>Aug 17: Q2 GDP first estimate.</li>
-<li>Aug 19: June machinery orders and Q3 outlook.</li>
-<li>Aug 20: July trade statistics.</li>
-<li>Aug 21: July national CPI on the 2025 base.</li>
-<li>Watch USD&#x2F;JPY 160 and any renewed intervention language.</li>
-</ul>
-<h2 id="Sources"><a href="#Sources" class="headerlink" title="Sources"></a>Sources</h2><p>Official sources include the BOJ, Cabinet Office, Statistics Bureau, Prime Minister’s Office, MOF and ASICS IR. Free checks include Reuters Japan, AP, TV Asahi, Jiji, Minkabu, LIMO and NLI Research. Paywalls were not bypassed and older intervention events are treated as background only.</p>
-]]></content>
-    <author><name>Lei Deng</name></author>
-  </entry>
-  <entry>
     <title>日本政経ウィークリー｜2026年8月10日〜16日：円160円接近と高市政権の財政圧力</title>
     <id>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-16-ja/</id>
     <link href="https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-16-ja/"/>
     <published>2026-08-17T09:00:00.000Z</published>
-    <updated>2026-09-21T07:33:38.399Z</updated>
+    <updated>2026-09-21T11:03:52.839Z</updated>
     <summary type="html"><![CDATA[円が160円に近づき、企業物価高と食品減税の財源論が続いた。択捉島訪問と靖国神社をめぐり外交リスクも高まった。]]></summary>
     <content type="html"><![CDATA[<p><span hidden data-article-language="JA"></span></p>
 <blockquote>
@@ -4888,11 +4741,118 @@
     <author><name>Lei Deng</name></author>
   </entry>
   <entry>
+    <title>Japan Weekly: Yen Nears 160 Under Takaichi’s Fiscal Pressure (Aug 10–16)</title>
+    <id>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-16-en/</id>
+    <link href="https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-16-en/"/>
+    <published>2026-08-17T09:00:00.000Z</published>
+    <updated>2026-09-21T11:03:52.839Z</updated>
+    <summary type="html"><![CDATA[The yen returned toward 160 as upstream costs stayed high and Takaichi’s food-tax cut raised funding questions; Russia and Yasukuni added diplomatic risk.]]></summary>
+    <content type="html"><![CDATA[<p><span hidden data-article-language="EN"></span></p>
+<blockquote>
+<p><strong>Coverage:</strong> Aug 10–16, 2026 (Japan time).<br><strong>Language versions:</strong> <a href="/2026/08/japan-political-economy-weekly-2026-08-16/">中文</a> · <strong>English</strong> · <a href="/2026/08/japan-political-economy-weekly-2026-08-16-ja/">日本語</a></p>
+</blockquote>
+<div class="abstract">
+  <span class="abstract-label">This week</span>
+  Coordinated intervention only temporarily supported the yen. Imported-cost pressure remained high, while Prime Minister Takaichi’s food-tax proposal exposed a roughly ¥5 trillion funding dispute. Putin’s Iturup visit and the August 15 memorial wording added diplomatic risk.
+</div>
+
+<h2 id="Executive-summary"><a href="#Executive-summary" class="headerlink" title="Executive summary"></a>Executive summary</h2><ul>
+<li>USD&#x2F;JPY returned to the <strong>159 area</strong> by Aug 14, recovering most of the post-intervention move. Yen weakness still reflects the US–Japan rate gap, fiscal expectations and uncertainty over BOJ timing.</li>
+<li>The BOJ’s July domestic corporate-goods price index rose <strong>7.2% y&#x2F;y</strong>, just below June’s 7.3% and the 7.4% market expectation. Yen-denominated import prices remained around 30% higher y&#x2F;y. (The August flash release later revised July CGPI to +7.7% y&#x2F;y and import prices to +29.3% y&#x2F;y; this brief records the initial print.)</li>
+<li>The government’s planned food consumption-tax cut (8% to 1% from April 2027 for two years) moved into a dispute over roughly <strong>¥5 trillion</strong> of permanent funding and the central–local burden.</li>
+<li>July Economy Watchers’ current DI rose 1.7 points to <strong>45.7</strong>, its third monthly improvement, but stayed below the 50 expansion line.</li>
+<li>President Putin visited Iturup (Etorofu), narrowing room for Japan–Russia rapprochement. Takaichi’s first August 15 address omitted the word “remorse”; four ministers visited Yasukuni, prompting Chinese and Korean protests.</li>
+<li>The Nikkei rose for four straight sessions to <strong>68,713.80</strong> on Aug 14, while ASICS lifted full-year sales guidance to <strong>¥1.05 trillion</strong>. Equity and brand strength should not be confused with better household purchasing power.</li>
+</ul>
+<h2 id="Core-news"><a href="#Core-news" class="headerlink" title="Core news"></a>Core news</h2><h3 id="1-The-yen-returns-toward-160"><a href="#1-The-yen-returns-toward-160" class="headerlink" title="1. The yen returns toward 160"></a>1. The yen returns toward 160</h3><p><strong>Confirmed | Aug 10–14</strong></p>
+<p>USD&#x2F;JPY traded around 159.24–159.28 in Tokyo on Aug 14 and in the high 159s in New York. The market recovered the move caused by the July 31 coordinated intervention.</p>
+<p><strong>Why it matters (analysis):</strong> Intervention changed short-term trading risk but did not remove the rate differential, fiscal or BOJ-timing questions. A quick return to the old range would test policy credibility. <a href="https://jp.reuters.com/opinion/BBOILPTMRBNKXIMRBLJGUVSVHE-2026-08-14/">Reuters Japan</a> · <a href="https://fx.minkabu.jp/news/376206">Minkabu</a></p>
+<h3 id="2-Corporate-goods-inflation-remains-7-2"><a href="#2-Corporate-goods-inflation-remains-7-2" class="headerlink" title="2. Corporate-goods inflation remains 7.2%"></a>2. Corporate-goods inflation remains 7.2%</h3><p><strong>Confirmed | Aug 13</strong></p>
+<p>The BOJ’s July domestic corporate-goods price index rose <strong>7.2% y&#x2F;y</strong>, versus 7.3% in June and 7.4% expected; it rose 0.1% m&#x2F;m. Non-ferrous metals, oil and chemicals led the increase.</p>
+<p><strong>Why it matters (analysis):</strong> High upstream costs can squeeze smaller firms if they cannot pass them through, while further pass-through keeps pressure on households and the BOJ. <a href="https://www.boj.or.jp/statistics/pi/cgpi_release/cgpi2607.pdf">BOJ CGPI</a> · <a href="https://www.nli-research.co.jp/report/detail/id=86545?site=nli">NLI Research</a></p>
+<h3 id="3-Food-tax-cut-enters-a-¥5-trillion-funding-dispute"><a href="#3-Food-tax-cut-enters-a-¥5-trillion-funding-dispute" class="headerlink" title="3. Food-tax cut enters a ¥5 trillion funding dispute"></a>3. Food-tax cut enters a ¥5 trillion funding dispute</h3><p><strong>Policy direction confirmed; funding details media-reported | Aug 10</strong></p>
+<p>The government is targeting April 2027 to reduce the food consumption-tax rate from 8% to 1% for two years. The latest debate concerns whether about ¥5 trillion can be found through spending and revenue measures, and how any linked transfers would be shared with local governments.</p>
+<p><strong>Why it matters (analysis):</strong> A tax cut can support consumption, but optimistic revenue assumptions, fund reallocations or future spending cuts could weaken bond-market confidence. <a href="https://news.yahoo.co.jp/articles/d74864dacccb9d32d2eb1aada973f9ae8ed52c42">Background reporting</a></p>
+<h3 id="4-Economy-Watchers-improve-for-a-third-month-still-below-50"><a href="#4-Economy-Watchers-improve-for-a-third-month-still-below-50" class="headerlink" title="4. Economy Watchers improve for a third month, still below 50"></a>4. Economy Watchers improve for a third month, still below 50</h3><p><strong>Confirmed | Aug 10</strong></p>
+<p>The July current-conditions DI rose <strong>1.7 points to 45.7</strong>; the outlook DI rose 0.1 to 45.8. Household, corporate and employment readings all improved.</p>
+<p><strong>Why it matters (analysis):</strong> Sentiment is no longer deteriorating, but a sub-50 reading is not a domestic-demand recovery. <a href="https://www5.cao.go.jp/keizai3/2026/0810watcher/bassui.html">Cabinet Office</a> · <a href="https://www.nli-research.co.jp/report/detail/id=86502?site=nli">NLI Research</a></p>
+<h3 id="5-Putin’s-first-Iturup-visit-narrows-diplomatic-room"><a href="#5-Putin’s-first-Iturup-visit-narrows-diplomatic-room" class="headerlink" title="5. Putin’s first Iturup visit narrows diplomatic room"></a>5. Putin’s first Iturup visit narrows diplomatic room</h3><p><strong>Confirmed | Aug 13</strong></p>
+<p>Putin visited Iturup (Etorofu), controlled by Russia and claimed by Japan. Takaichi protested, Japan summoned Russia’s ambassador and Moscow rejected the protest.</p>
+<p><strong>Why it matters (analysis):</strong> The peace-treaty and territorial track is effectively more frozen, narrowing Japan’s room on energy, sanctions and northern security. <a href="https://www.kantei.go.jp/jp/105/statement/2026/0813kaiken.html">Prime Minister’s Office</a> · <a href="https://apnews.com/article/bc9cf6a0aa3fdbed5264d32297d740b4">AP</a></p>
+<h3 id="6-August-15-wording-and-Yasukuni-visits-raise-China–Korea-friction"><a href="#6-August-15-wording-and-Yasukuni-visits-raise-China–Korea-friction" class="headerlink" title="6. August 15 wording and Yasukuni visits raise China–Korea friction"></a>6. August 15 wording and Yasukuni visits raise China–Korea friction</h3><p><strong>Confirmed | Aug 15</strong></p>
+<p>Takaichi’s memorial address retained a pledge not to repeat the tragedy of war but omitted “remorse” and “pledge of non-war” used in the prior year. She did not personally visit Yasukuni; four ministers did, drawing protests from China and South Korea.</p>
+<p><strong>Why it matters (analysis):</strong> The combination signals restraint at the prime-ministerial level and continuity for domestic conservatives. Historical-risk premia in regional diplomacy rise even if practical cooperation continues. <a href="https://www.kantei.go.jp/jp/105/statement/2026/0815shikiji.html">Address</a> · <a href="https://www.jiji.com/jc/article?k=2026081500280&g=pol">Jiji</a></p>
+<h3 id="7-The-Nikkei-rises-four-sessions-but-households-do-not-automatically-benefit"><a href="#7-The-Nikkei-rises-four-sessions-but-households-do-not-automatically-benefit" class="headerlink" title="7. The Nikkei rises four sessions, but households do not automatically benefit"></a>7. The Nikkei rises four sessions, but households do not automatically benefit</h3><p><strong>Confirmed | Aug 14</strong></p>
+<p>The Nikkei closed at <strong>68,713.80</strong>, up 405.21 points, with a weekly gain of more than 3,000 points. Lower US inflation, technology shares, a weak yen and earnings upgrades supported risk appetite.</p>
+<p><strong>Why it matters (analysis):</strong> The index trades global liquidity, AI and yen translation effects. Food, energy and import prices still determine household welfare. <a href="https://www.gaitame.com/media/entry/2026/08/15/035711">Market review</a> · <a href="https://limo.media/articles/-/134847">LIMO</a></p>
+<h3 id="8-ASICS-lifts-full-year-sales-guidance-to-¥1-05-trillion"><a href="#8-ASICS-lifts-full-year-sales-guidance-to-¥1-05-trillion" class="headerlink" title="8. ASICS lifts full-year sales guidance to ¥1.05 trillion"></a>8. ASICS lifts full-year sales guidance to ¥1.05 trillion</h3><p><strong>Confirmed | Aug 14</strong></p>
+<p>First-half sales rose <strong>32.7% to ¥534.4 billion</strong> and operating profit <strong>48.5% to ¥120.4 billion</strong>. Full-year sales guidance rose from ¥950 billion to <strong>¥1.05 trillion</strong>.</p>
+<p><strong>Why it matters (analysis):</strong> ASICS shows the difference between genuine global brand pricing power and a simple yen translation gain. <a href="https://corp.asics.com/jp/investor_relations">ASICS IR</a> · <a href="https://news.tv-asahi.co.jp/news_economy/articles/000526494.html">TV Asahi</a></p>
+<h2 id="Data-radar"><a href="#Data-radar" class="headerlink" title="Data radar"></a>Data radar</h2><table>
+<thead>
+<tr>
+<th>Indicator</th>
+<th align="right">Actual</th>
+<th align="right">Previous &#x2F; expectation</th>
+<th>Read-through</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>July CGPI</td>
+<td align="right">+7.2% y&#x2F;y; +0.1% m&#x2F;m</td>
+<td align="right">June +7.3%; expected +7.4%</td>
+<td>Upstream costs remain high</td>
+</tr>
+<tr>
+<td>Economy Watchers current DI</td>
+<td align="right">45.7</td>
+<td align="right">+1.7 points m&#x2F;m</td>
+<td>Improving, still below 50</td>
+</tr>
+<tr>
+<td>Outlook DI</td>
+<td align="right">45.8</td>
+<td align="right">+0.1 points</td>
+<td>Recovery confidence weak</td>
+</tr>
+<tr>
+<td>USD&#x2F;JPY Aug 14</td>
+<td align="right">About 159.25</td>
+<td align="right">Intervention background about 155</td>
+<td>Yen weakness returns</td>
+</tr>
+<tr>
+<td>Nikkei 225 Aug 14</td>
+<td align="right">68,713.80</td>
+<td align="right">+405.21 day; +3,000+ week</td>
+<td>Asset strength, not household recovery</td>
+</tr>
+</tbody></table>
+<h2 id="Politics-and-institutions"><a href="#Politics-and-institutions" class="headerlink" title="Politics and institutions"></a>Politics and institutions</h2><p>There was no new, methodologically comparable approval poll meeting the reporting standard this week. The food-tax plan moved from “whether” to “who pays and whether funding is permanent.” The Iturup visit and August 15 wording increase diplomatic friction with Russia, China and South Korea. The Diet’s autumn session remains the institutional test for tax legislation.</p>
+<h2 id="Policy-and-market-implications-analysis"><a href="#Policy-and-market-implications-analysis" class="headerlink" title="Policy and market implications (analysis)"></a>Policy and market implications (analysis)</h2><ol>
+<li><strong>BOJ:</strong> High corporate-goods inflation and a weak yen keep hikes possible, but below-50 sentiment argues for a gradual pace.</li>
+<li><strong>Households:</strong> The food-tax cut is not scheduled until April 2027; near-term purchasing power depends on wages, energy support and the yen.</li>
+<li><strong>Yen and JGBs:</strong> If ¥5 trillion of permanent funding is not credible, fiscal expansion could offset the currency benefit of intervention or future hikes and lift term premium.</li>
+<li><strong>Equities:</strong> Global technology and yen translation can keep the Nikkei strong while the household economy remains under pressure.</li>
+<li><strong>Industry:</strong> Global brands with pricing power are structurally different from exporters that only benefit from a weak yen.</li>
+</ol>
+<h2 id="Next-week"><a href="#Next-week" class="headerlink" title="Next week"></a>Next week</h2><ul>
+<li>Aug 17: Q2 GDP first estimate.</li>
+<li>Aug 19: June machinery orders and Q3 outlook.</li>
+<li>Aug 20: July trade statistics.</li>
+<li>Aug 21: July national CPI on the 2025 base.</li>
+<li>Watch USD&#x2F;JPY 160 and any renewed intervention language.</li>
+</ul>
+<h2 id="Sources"><a href="#Sources" class="headerlink" title="Sources"></a>Sources</h2><p>Official sources include the BOJ, Cabinet Office, Statistics Bureau, Prime Minister’s Office, MOF and ASICS IR. Free checks include Reuters Japan, AP, TV Asahi, Jiji, Minkabu, LIMO and NLI Research. Paywalls were not bypassed and older intervention events are treated as background only.</p>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
+  <entry>
     <title>日本政经周报：日元再逼160与高市双重压力</title>
     <id>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-16/</id>
     <link href="https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-16/"/>
     <published>2026-08-17T09:00:00.000Z</published>
-    <updated>2026-09-21T07:33:38.399Z</updated>
+    <updated>2026-09-21T11:03:52.839Z</updated>
     <summary type="html"><![CDATA[日元重新逼近160，输入型成本压力与食品减税争议并存，日本银行与政府的政策组合面临新的约束。]]></summary>
     <content type="html"><![CDATA[<p>日期：2026-08-17<br>覆盖期间：<strong>2026-08-10 00:00—2026-08-16 23:59（日本时间）</strong><br>标签：#日本 #政经周报 #日元 #通胀 #财政 #高市早苗 #日本银行</p>
 <blockquote>
@@ -4917,7 +4877,7 @@
 <h3 id="2-7-月企业物价同比涨-7-2-，成本通胀仍处高位"><a href="#2-7-月企业物价同比涨-7-2-，成本通胀仍处高位" class="headerlink" title="2. 7 月企业物价同比涨 7.2%，成本通胀仍处高位"></a>2. 7 月企业物价同比涨 7.2%，成本通胀仍处高位</h3><p><strong>状态：已确认｜日期：8 月 13 日</strong></p>
 <p><strong>发生了什么</strong></p>
 <ul>
-<li>日本银行公布的 7 月国内企业物价指数同比上涨 <strong>7.2%</strong>，略低于 6 月的 <strong>7.3%</strong> 和市场预期 <strong>7.4%</strong>；环比上涨 <strong>0.1%</strong>。（注：其后发布的 8 月速报将 7 月国内企业物价同比修正为 <strong>+7.7%</strong>，本文按最初发布值记录。）</li>
+<li>日本银行公布的 7 月国内企业物价指数同比上涨 <strong>7.2%</strong>，略低于 6 月的 <strong>7.3%</strong>；市场预期 <strong>7.4%</strong> 来自路透调查转述，非日银发布；环比上涨 <strong>0.1%</strong>。（注：其后发布的 8 月速报将 7 月国内企业物价同比修正为 <strong>+7.7%</strong>，本文按最初发布值记录。）</li>
 <li>非铁金属、石油煤炭和化工品是主要推力；円价计的进口物价在 6、7 月保持约 <strong>30%</strong> 的同比涨幅（官方修正口径 7 月为 +29.3%）。</li>
 </ul>
 <p><strong>为什么重要</strong></p>
@@ -5009,14 +4969,14 @@
 <tr>
 <td>7 月景气现状判断 DI</td>
 <td align="right"><strong>45.7</strong></td>
-<td align="right">前月差 +1.7</td>
+<td align="right">前值 44.0（本期 +1.7 点）</td>
 <td>连升 3 个月</td>
 <td>改善但仍低于 50</td>
 </tr>
 <tr>
 <td>7 月景气先行判断 DI</td>
 <td align="right"><strong>45.8</strong></td>
-<td align="right">前月差 +0.1</td>
+<td align="right">前值 45.7（本期 +0.1 点）</td>
 <td>基本横盘</td>
 <td>内需复苏信心仍弱</td>
 </tr>
@@ -5030,7 +4990,7 @@
 <tr>
 <td>日经平均（8 月 14 日）</td>
 <td align="right"><strong>68,713.80</strong></td>
-<td align="right">日涨 +405.21；周涨逾 3,000</td>
+<td align="right">前收盘 68,308.59（当日 +405.21）</td>
 <td>四连涨</td>
 <td>资产端强、居民体感未同步</td>
 </tr>
@@ -5097,7 +5057,7 @@
     <id>https://terazadl.github.io/2026/08/building-polymarket-observatory-for-chinese-users/</id>
     <link href="https://terazadl.github.io/2026/08/building-polymarket-observatory-for-chinese-users/"/>
     <published>2026-08-12T07:30:00.000Z</published>
-    <updated>2026-09-21T07:33:38.396Z</updated>
+    <updated>2026-09-21T11:03:52.834Z</updated>
     <summary type="html"><![CDATA[A small product case study in turning public prediction-market data into a clear, auditable, Beijing-time monitoring service without turning probabilities into false certainty.]]></summary>
     <content type="html"><![CDATA[<p><span hidden data-article-language="EN"></span></p>
 <div class="abstract">
@@ -5304,7 +5264,7 @@
     <id>https://terazadl.github.io/2026/07/is-bitcoin-digital-gold/</id>
     <link href="https://terazadl.github.io/2026/07/is-bitcoin-digital-gold/"/>
     <published>2026-07-30T03:00:00.000Z</published>
-    <updated>2026-09-21T07:33:38.398Z</updated>
+    <updated>2026-09-21T11:03:52.838Z</updated>
     <summary type="html"><![CDATA[An empirical test of whether Bitcoin has behaved like gold in purchasing power, inflation sensitivity, equity stress, market resemblance, and portfolio use.]]></summary>
     <content type="html"><![CDATA[<p><span hidden data-article-language="EN"></span></p>
 <div class="abstract">
@@ -5515,7 +5475,7 @@
     <id>https://terazadl.github.io/2026/07/japan-negative-real-estate/</id>
     <link href="https://terazadl.github.io/2026/07/japan-negative-real-estate/"/>
     <published>2026-07-26T11:20:00.000Z</published>
-    <updated>2026-09-21T07:33:38.399Z</updated>
+    <updated>2026-09-21T11:03:52.839Z</updated>
     <summary type="html"><![CDATA[从日本负动产问题出发，分析当持有成本超过使用价值时，房地产如何从财富变成必须付费才能退出的负担。]]></summary>
     <content type="html"><![CDATA[<div class="abstract" lang="en">
 <span class="abstract-label">English abstract</span>
