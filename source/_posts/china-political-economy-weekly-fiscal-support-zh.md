@@ -54,7 +54,7 @@ weekly_series: china
 - **发生了什么（事实）**：有关部门在政策发布会上宣布个人消费贷款贴息上限从单家机构3000元提高至5000元，并将汽车和家装分期纳入范围；同时国务院常务会议要求运用专项债和再贷款工具，常态化防范和化解地方政府及大型企业对中小企业的拖欠账款。
 - **为什么重要（分析判断）**：对民营中小企业而言，收回已确认的应收账款相比新增借贷更能直接改善营运资金且不增加负债；定向贴息则聚焦撬动高意愿居民耐用品消费，体现“定向疏导微观流动性”的监管思路。
 - **接下来关注什么**：贴息政策书面实施细则落地情况；地方防范化解拖欠企业账款台账清单与偿付考核进度。
-- **来源**：[财政部政策发布](https://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982160.htm)；[中国政府网国常会通报](https://big5.www.gov.cn/gate/big5/www.gov.cn/zhengce/202608/content_7078874.htm)
+- **来源**：[财政部政策发布（入口页；个人消费贷款贴息扩围安排，2026-08-21）](http://www.mof.gov.cn)；[中国政府网国常会通报](https://big5.www.gov.cn/gate/big5/www.gov.cn/zhengce/202608/content_7078874.htm)
 
 ### 3. 楼市支持日益地方化，恒大进入法定破产清算与损失分配阶段
 
@@ -103,7 +103,7 @@ weekly_series: china
     <div class="weekly-radar-card is-china">
       <div class="weekly-radar-card-head">
         <span class="weekly-radar-tag">CHINA · 消费动能</span>
-        <span class="weekly-radar-change is-down">↓ +0.6%</span>
+        <span class="weekly-radar-change is-down">↓ 增速放缓</span>
       </div>
       <div class="weekly-radar-label">7月社会消费品零售总额同比</div>
       <div class="weekly-radar-metric-body">
@@ -114,7 +114,7 @@ weekly_series: china
     <div class="weekly-radar-card is-china">
       <div class="weekly-radar-card-head">
         <span class="weekly-radar-tag">CHINA · 工业生产</span>
-        <span class="weekly-radar-change is-down">↓ +4.5%</span>
+        <span class="weekly-radar-change is-down">↓ 增速放缓</span>
       </div>
       <div class="weekly-radar-label">7月规模以上工业增加值同比</div>
       <div class="weekly-radar-metric-body">
@@ -136,7 +136,7 @@ weekly_series: china
     <div class="weekly-radar-card is-china">
       <div class="weekly-radar-card-head">
         <span class="weekly-radar-tag">CHINA · 房产销售</span>
-        <span class="weekly-radar-change is-down">↓ -11.8%</span>
+        <span class="weekly-radar-change is-flat">→ 深度收缩</span>
       </div>
       <div class="weekly-radar-label">1—7月新建商品房销售面积同比</div>
       <div class="weekly-radar-metric-body">
@@ -181,7 +181,7 @@ weekly_series: china
             <span class="radar-cat-badge">内需投资</span>
           </td>
           <td><span class="radar-num-strong" style="color: #a33816;">-6.7%</span></td>
-          <td>-5.7%</td>
+          <td>1—6月累计 −5.7%</td>
           <td>
             <div class="radar-mini-gauge" title="-6.7% (收缩区间)">
               <div class="gauge-center-line"></div>
@@ -197,7 +197,7 @@ weekly_series: china
             <span class="radar-cat-badge">终端消费</span>
           </td>
           <td><span class="radar-num-strong">+0.6%</span></td>
-          <td>+1.0%</td>
+          <td>+1.0%（6月单月）</td>
           <td>
             <div class="radar-mini-gauge" title="+0.6% (低位徘徊)">
               <div class="gauge-center-line"></div>
@@ -213,7 +213,7 @@ weekly_series: china
             <span class="radar-cat-badge">制造业供给</span>
           </td>
           <td><span class="radar-num-strong">+4.5%</span></td>
-          <td>+5.3%</td>
+          <td>+5.3%（6月单月）</td>
           <td>
             <div class="radar-mini-gauge" title="+4.5% (中枢放缓)">
               <div class="gauge-center-line"></div>
@@ -229,7 +229,7 @@ weekly_series: china
             <span class="radar-cat-badge">地产拖累</span>
           </td>
           <td><span class="radar-num-strong" style="color: #a33816;">-19.2%</span></td>
-          <td>-18.0%</td>
+          <td>1—6月累计 −18.0%</td>
           <td>
             <div class="radar-mini-gauge" title="-19.2% (深度承压)">
               <div class="gauge-center-line"></div>
@@ -305,7 +305,7 @@ weekly_series: china
 
 财政部本周最重要的信号不是新增额度，而是加快落实。2026年预算安排财政支出超过30万亿元，新增政府债券发行规模为11.89万亿元。财政部表示，下半年仍有超过2万亿元地方政府专项债券和超长期特别国债需要发行使用；如果经济形势需要，也可以进一步出台增量措施。
 
-授权和执行之间的区别至关重要。债券额度只有在资金完成分配、项目开工、承包商收到款项、订单传导至供应商之后，才真正形成增长支持。7月一般公共预算收入同比增长11.7%，但支出仅增长0.5%；1—7月国有土地使用权出让收入下降30.8%，地方政府自身能够调动的财政资源进一步减少。
+授权和执行之间的区别至关重要。债券额度只有在资金完成分配、项目开工、承包商收到款项、订单传导至供应商之后，才真正形成增长支持。7 月单月一般公共预算收入同比增长 11.7%，但 7 月单月支出仅增长 0.5%；1—7月国有土地使用权出让收入下降30.8%，地方政府自身能够调动的财政资源进一步减少。
 
 **未来两个月将是一次财政执行力测试。** 如果中央转移支付和债券资金加快落地，基础设施施工和供应商现金流可以改善，而无须先等待私人信贷需求复苏。
 

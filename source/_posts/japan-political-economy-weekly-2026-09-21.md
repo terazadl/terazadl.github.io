@@ -192,8 +192,7 @@ compare_one_liner: "中国政策资金前置托底、等待穿透私人部门需
 <div class="weekly-chart" data-chart="bar" data-series='{"title":"日本 · 本期 vs 前值","color":"#3a5a6b","indicators":[{"label":"政策利率目标","value":1.25,"prev":1,"unit":"%","max":2,"min":0},{"label":"核心CPI同比","value":1.7,"prev":1.8,"unit":"%","max":4,"min":0},{"label":"出口同比","value":19.3,"prev":23.2,"unit":"%YoY","max":30,"min":0},{"label":"进口同比","value":28,"prev":27.9,"unit":"%YoY","max":40,"min":0},{"label":"核心机械订单环比","value":-3.7,"prev":9.7,"unit":"%","max":15,"min":-10},{"label":"美元兑日元","value":157.49,"prev":154.22,"unit":"","max":165,"min":145}]}'>
   <div class="weekly-chart-head"><h4>日本 · 本期 vs 前值</h4><span>JP</span></div>
   <div class="weekly-chart-fallback">
-    <table><thead><tr><th>指标</th><th>本期</th><th>前值</th></tr></thead>
-    <tbody><tr><td>政策利率目标</td><td><strong>1.25%</strong></td><td>1%</td></tr><tr><td>核心CPI同比</td><td><strong>1.7%</strong></td><td>1.8%</td></tr><tr><td>出口同比</td><td><strong>19.3%YoY</strong></td><td>23.2%YoY</td></tr><tr><td>进口同比</td><td><strong>28%YoY</strong></td><td>27.9%YoY</td></tr><tr><td>核心机械订单环比</td><td><strong>-3.7%</strong></td><td>9.7%</td></tr><tr><td>美元兑日元</td><td><strong>157.49</strong></td><td>154.22</td></tr></tbody></table>
+    <p>本期与前值对照与上方「数据雷达」相同；启用 JavaScript 可查看柱状对比图。</p>
   </div>
 </div>
 

@@ -76,16 +76,16 @@ compare_one_liner: "中国在低通胀环境中以政策工具托底信贷与资
 - **发生了什么（事实）**：财务省 9 月发售第 197 期「个人面向国债」（变动 10 年期），基于基准 10 年期国债收益率（约 2.96%）计算，本期首期适用利率定为 **1.87%**；固定 5 年与固定 3 年期利率亦随基准同步处于历史高位。
 - **为什么重要（分析判断）**：个人国债利率走高表明民间无风险利率中枢彻底脱离零时代。利好大额储蓄居民的财产性收入，但反向推升了商业银行吸储成本与民间浮动房贷利率的重定价压力。
 - **接下来关注什么**：主要都市银行（三菱UFJ、三井住友、瑞穗）短期优惠利率（短普）的调整时间窗口与信贷需求变化。
-- **来源**：[日本财务省国债发售公告](https://www.mof.go.jp/policy/jgbs/individual/kojinmuke/index.html)
+- **来源**：[日本财务省国债发售公告（入口页；第 197 期变动 10 年期适用利率 1.87% 见当期公告）](https://www.mof.go.jp/policy/jgbs/individual/kojinmuke/index.html)
 
 ### 5. 临近 9 月中旬日银会合，中东地缘溢价推高追加加息预期
 
 **状态：9 月 17—18 日金融政策决定会合前哨期**
 
-- **发生了什么（事实）**：由于中东地缘局势反复推高国际原油与物流成本，叠加日元汇率在 153~157 区间反复拉锯，隔夜指数掉期（OIS）与金融期货市场对日本银行在 9 月政策会合上再次追加加息 25 个基点至 **1.25%** 的定价分位保持坚挺，10 年期国债收益率行至 3% 附近的 30 年高位。
+- **发生了什么（事实）**：受通胀与工资数据偏强、日本国债收益率持续上行推动，隔夜指数掉期（OIS）与金融期货市场对日本银行在 9 月政策会合上再次追加加息 25 个基点至 **1.25%** 的定价分位保持坚挺（OIS 与期货定价均为市场观测，非日银发布），10 年期国债收益率行至 2.96% 附近的 30 年高位。需要指出，本周日元实际明显走强（USDJPY 自 159.52 回落至 153.50），汇率并非本轮加息定价的驱动因素。
 - **为什么重要（分析判断）**：日银处于两难：不加息则日元贬值与输入通胀持续侵害民生；若加息，在家庭消费连降 8 个月且国债费要求已达 36.6 万亿日元的背景下，可能加剧内需紧缩与财政负担。
 - **接下来关注什么**：日银审议委员在决定会合前的沉默期表态，以及会合前夕 8 月东京与全国物价指标变化。
-- **来源**：[日本银行市场观测与日程](https://www.boj.or.jp/mopo/index.htm)
+- **来源**：[日银发布日程（OIS 与行情定价为市场观测，非日银发布）](https://www.boj.or.jp/mopo/index.htm)
 
 ### 6. 中国商务部对日二氯二氢硅实施反倾销措施，半导体原材料供应链承压
 
@@ -129,13 +129,13 @@ compare_one_liner: "中国在低通胀环境中以政策工具托底信贷与资
     <div class="weekly-radar-card is-japan">
       <div class="weekly-radar-card-head">
         <span class="weekly-radar-tag">JAPAN · 汇率</span>
-        <span class="weekly-radar-change is-down">↓ 走强</span>
+        <span class="weekly-radar-change is-up">↑ 日元走强</span>
       </div>
       <div class="weekly-radar-label">美元／日元 (USDJPY)</div>
       <div class="weekly-radar-metric-body">
         <span class="weekly-radar-value">153.50</span>
       </div>
-      <div class="weekly-radar-note">前值 159.52 · 日元显著走强，回到 153 一线</div>
+      <div class="weekly-radar-note">USDJPY 159.52→153.50（汇率对下行＝日元走强）</div>
     </div>
     <div class="weekly-radar-card is-japan">
       <div class="weekly-radar-card-head">
@@ -184,8 +184,7 @@ compare_one_liner: "中国在低通胀环境中以政策工具托底信贷与资
 <div class="weekly-chart" data-chart="bar" data-series='{"title":"日本 · 本期 vs 前值","color":"#3a5a6b","indicators":[{"label":"东京核心CPI","value":1.8,"prev":1.7,"unit":"%YoY","max":4,"min":0},{"label":"10年期国债利率","value":2.96,"prev":2.925,"unit":"%","max":4,"min":0},{"label":"美元兑日元","value":153.5,"prev":159.52,"unit":"¥","max":160,"min":0},{"label":"实际工资同比","value":2.4,"prev":2.2,"unit":"%YoY","max":4,"min":0},{"label":"家庭实际消费","value":-3.6,"prev":-1.8,"unit":"%YoY","max":2,"min":-6},{"label":"2027概算要求","value":143.7,"prev":122.4,"unit":"万亿¥","max":160,"min":0}]}'>
   <div class="weekly-chart-head"><h4>日本 · 本期 vs 前值</h4><span>JP</span></div>
   <div class="weekly-chart-fallback">
-    <table><thead><tr><th>指标</th><th>本期</th><th>前值</th></tr></thead>
-    <tbody><tr><td>东京核心CPI</td><td><strong>1.8%YoY</strong></td><td>1.7%YoY</td></tr><tr><td>10年期国债利率</td><td><strong>2.96%</strong></td><td>2.925%</td></tr><tr><td>美元兑日元</td><td><strong>153.5¥</strong></td><td>159.52¥</td></tr><tr><td>实际工资同比</td><td><strong>2.4%YoY</strong></td><td>2.2%YoY</td></tr><tr><td>家庭实际消费</td><td><strong>-3.6%YoY</strong></td><td>-1.8%YoY</td></tr><tr><td>2027概算要求</td><td><strong>143.7万亿¥</strong></td><td>122.4万亿¥</td></tr></tbody></table>
+    <p>本期与前值对照与上方「数据雷达」相同；启用 JavaScript 可查看柱状对比图。</p>
   </div>
 </div>
 

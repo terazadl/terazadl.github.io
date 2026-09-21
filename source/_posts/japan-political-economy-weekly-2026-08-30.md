@@ -139,7 +139,7 @@ compare_one_liner: "中国重定价信用规则，日本重定价利率与财政
     <div class="weekly-radar-card is-japan">
       <div class="weekly-radar-card-head">
         <span class="weekly-radar-tag">JAPAN · 就业</span>
-        <span class="weekly-radar-change is-flat">→ 持平</span>
+        <span class="weekly-radar-change is-down">↓ 微降</span>
       </div>
       <div class="weekly-radar-label">失业率 / 有效求人倍率</div>
       <div class="weekly-radar-metric-body">
@@ -161,13 +161,13 @@ compare_one_liner: "中国重定价信用规则，日本重定价利率与财政
     <div class="weekly-radar-card is-japan">
       <div class="weekly-radar-card-head">
         <span class="weekly-radar-tag">JAPAN · 汇率</span>
-        <span class="weekly-radar-change is-down">↓ 走弱</span>
+        <span class="weekly-radar-change is-down">↓ 日元走弱</span>
       </div>
       <div class="weekly-radar-label">美元／日元 (USDJPY)</div>
       <div class="weekly-radar-metric-body">
         <span class="weekly-radar-value">159.52</span>
       </div>
-      <div class="weekly-radar-note">上周末 158.8 · 日元低位承压震荡</div>
+      <div class="weekly-radar-note">USDJPY 158.80→159.52（汇率对上行＝日元走弱）</div>
     </div>
   </div>
 </div>
@@ -179,7 +179,7 @@ compare_one_liner: "中国重定价信用规则，日本重定价利率与财政
 | **企业服务价格（同比）** | **+3.6%** | +3.4% | ↑ 劳务与运输成本继续转嫁 |
 | **完全失业率 / 求人倍率** | **2.4% / 1.18** | 2.5% / 1.18 | → 劳动力供求偏紧，但企业招聘趋谨慎 |
 | **10 年期日本国债收益率** | **2.925%** | 2.870% | ↑ 收益率走高，财政付息压力显性化 |
-| **美元 / 日元汇率** | **159.52** | 158.80 | ↓ 日元仍受制于利差与能源账单 |
+| **美元 / 日元汇率** | **159.52** | 158.80 | ↑ USDJPY 上行至 159.52（前值 158.80），日元走弱；利差与能源账单约束未消 |
 
 数据交叉来源：[日本银行外汇与服务价格统计](https://www.boj.or.jp/statistics/)、[总务省统计局](https://www.stat.go.jp/data/cpi/)、[日本相互证券](https://www.bb.jbts.co.jp/)。若需观察市场对央行决议的定价预期，可查阅 [Polymarket 观测站](/event-radar/)。
 

@@ -203,8 +203,7 @@ compare_one_liner: "中国政策资金前置托底、等待穿透私人部门需
 <div class="weekly-chart" data-chart="bar" data-series='{"title":"中国 · 本期 vs 前值","color":"#b35922","indicators":[{"label":"工业增加值同比","value":5.2,"prev":4.5,"unit":"%","max":8,"min":0},{"label":"城镇调查失业率","value":5.3,"prev":5.2,"unit":"%","max":8,"min":0},{"label":"公共预算收入(累计)","value":5.7,"prev":5.8,"unit":"%YoY","max":10,"min":0},{"label":"LPR 1年期","value":3,"prev":3,"unit":"%","max":5,"min":0},{"label":"LPR 5年以上","value":3.5,"prev":3.5,"unit":"%","max":5,"min":0}]}'>
   <div class="weekly-chart-head"><h4>中国 · 本期 vs 前值</h4><span>CN</span></div>
   <div class="weekly-chart-fallback">
-    <table><thead><tr><th>指标</th><th>本期</th><th>前值</th></tr></thead>
-    <tbody><tr><td>工业增加值同比</td><td><strong>5.2%</strong></td><td>4.5%</td></tr><tr><td>城镇调查失业率</td><td><strong>5.3%</strong></td><td>5.2%</td></tr><tr><td>公共预算收入(累计)</td><td><strong>5.7%YoY</strong></td><td>5.8%YoY</td></tr><tr><td>LPR 1年期</td><td><strong>3%</strong></td><td>3%</td></tr><tr><td>LPR 5年以上</td><td><strong>3.5%</strong></td><td>3.5%</td></tr></tbody></table>
+    <p>本期与前值对照与上方「数据雷达」相同；启用 JavaScript 可查看柱状对比图。</p>
   </div>
 </div>
 

@@ -60,12 +60,20 @@ function chartBlock(country, radar, type) {
     .map(d => `<tr><td>${d.label}</td><td><strong>${d.value}${d.unit}</strong></td><td>${d.prev}${d.unit}</td></tr>`)
     .join('');
 
+  // The bar chart shares the radar chart's data, so its no-JS fallback is a
+  // pointer note instead of a second, byte-identical table.
+  const fallback = type === 'radar'
+    ? [
+      '    <table><thead><tr><th>指标</th><th>本期</th><th>前值</th></tr></thead>',
+      `    <tbody>${rows}</tbody></table>`
+    ].join('\n')
+    : '    <p>本期与前值对照与上方「数据雷达」相同；启用 JavaScript 可查看柱状对比图。</p>';
+
   return [
     `<div class="weekly-chart" data-chart="${type}" data-series='${JSON.stringify(data)}'>`,
     `  <div class="weekly-chart-head"><h4>${title}</h4><span>${country}</span></div>`,
     '  <div class="weekly-chart-fallback">',
-    '    <table><thead><tr><th>指标</th><th>本期</th><th>前值</th></tr></thead>',
-    `    <tbody>${rows}</tbody></table>`,
+    fallback,
     '  </div>',
     '</div>'
   ].join('\n');
