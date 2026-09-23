@@ -1221,7 +1221,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #4bff6e;
+  background: #547353;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -3211,9 +3211,45 @@ body:not(.portfolio-home-page):not(.portfolio-about-page) .post-body h3 {
   object-fit: contain;
   border-radius: 4px;
 }
-/* Plain markdown tables: keep the leading column (dates, labels) on one line
-   instead of breaking mid-phrase on narrow screens. Component tables
-   (weekly compare/radar, chart fallbacks) manage their own layout. */
+/* Plain markdown tables in posts: quiet "booktabs" styling. No zebra, no
+   vertical rules — a heavy top/bottom rule, a hairline under the header, and
+   hairline row separators. Component tables (weekly compare/radar, chart
+   fallbacks) manage their own layout. */
+body:not(.portfolio-home-page):not(.portfolio-about-page) .post-body > table:not(.weekly-compare-table) {
+  width: auto;
+  max-width: 100%;
+  margin: 1.8em auto;
+  border: none;
+  border-top: 2px solid var(--research-ink);
+  border-bottom: 2px solid var(--research-ink);
+  font-family: var(--research-sans);
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--research-ink);
+}
+body:not(.portfolio-home-page):not(.portfolio-about-page) .post-body > table:not(.weekly-compare-table) th,
+body:not(.portfolio-home-page):not(.portfolio-about-page) .post-body > table:not(.weekly-compare-table) td {
+  border: none;
+  padding: 9px 20px 9px 0;
+  text-align: left;
+  vertical-align: top;
+}
+body:not(.portfolio-home-page):not(.portfolio-about-page) .post-body > table:not(.weekly-compare-table) thead th {
+  border-bottom: 1px solid var(--research-ink);
+  font-weight: 600;
+}
+body:not(.portfolio-home-page):not(.portfolio-about-page) .post-body > table:not(.weekly-compare-table) tbody tr:nth-of-type(odd),
+body:not(.portfolio-home-page):not(.portfolio-about-page) .post-body > table:not(.weekly-compare-table) tbody tr:hover {
+  background: transparent;
+}
+body:not(.portfolio-home-page):not(.portfolio-about-page) .post-body > table:not(.weekly-compare-table) tbody tr td {
+  border-bottom: 1px solid rgba(29,28,24,0.1);
+}
+body:not(.portfolio-home-page):not(.portfolio-about-page) .post-body > table:not(.weekly-compare-table) tbody tr:last-child td {
+  border-bottom: none;
+}
+/* Keep the leading column (dates, labels) on one line instead of breaking
+   mid-phrase on narrow screens. */
 body:not(.portfolio-home-page):not(.portfolio-about-page) .post-body > table:not(.weekly-compare-table) td:first-child {
   white-space: nowrap;
 }
