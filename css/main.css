@@ -1221,7 +1221,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #82fff0;
+  background: #04ffdd;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -3210,6 +3210,12 @@ body:not(.portfolio-home-page):not(.portfolio-about-page) .post-body h3 {
   height: auto !important;
   object-fit: contain;
   border-radius: 4px;
+}
+/* Plain markdown tables: keep the leading column (dates, labels) on one line
+   instead of breaking mid-phrase on narrow screens. Component tables
+   (weekly compare/radar, chart fallbacks) manage their own layout. */
+body:not(.portfolio-home-page):not(.portfolio-about-page) .post-body > table:not(.weekly-compare-table) td:first-child {
+  white-space: nowrap;
 }
 .post-body .article-img-link {
   display: block;

@@ -87,6 +87,9 @@
     }
 
     if (type === 'bar') {
+      // Weekly issues compare current vs previous readings; other pages (e.g.
+      // essays) can override the two series names via data.legend.
+      var names = data.legend || ['本期', '前值'];
       return {
         color: [color, '#d5cfc4'],
         tooltip: {
@@ -94,7 +97,7 @@
           textStyle: { color: ink, fontFamily: 'Lato, sans-serif' }
         },
         legend: {
-          data: ['本期', '前值'], top: 0, right: 0,
+          data: names, top: 0, right: 0,
           textStyle: { color: muted, fontSize: 12, fontFamily: 'Lato, sans-serif' }
         },
         grid: { left: 8, right: 16, top: 34, bottom: 8, containLabel: true },
@@ -113,13 +116,13 @@
         },
         series: [
           {
-            name: '本期', type: 'bar',
+            name: names[0], type: 'bar',
             data: data.indicators.map(function (d) { return d.value; }),
             barWidth: 12,
             label: { show: true, position: 'right', color: color, fontSize: 11, fontFamily: 'Lato, sans-serif' }
           },
           {
-            name: '前值', type: 'bar',
+            name: names[1], type: 'bar',
             data: data.indicators.map(function (d) { return d.prev; }),
             barWidth: 12,
             label: { show: true, position: 'right', color: muted, fontSize: 11, fontFamily: 'Lato, sans-serif' }
