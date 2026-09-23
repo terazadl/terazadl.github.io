@@ -48,6 +48,14 @@ A counterclockwise adult's account of learning Japanese from zero in his early t
 
 <!-- more -->
 
+<div class="weekly-chart" data-chart="bar" data-series='{"title":"JLPT 成绩走势：得分 vs 合格线","color":"#1d1c18","legend":["得分","合格线"],"indicators":[{"label":"N2 · 2024-12","value":99,"prev":90,"unit":"分","max":180,"min":0},{"label":"N1 · 2025-07","value":79,"prev":100,"unit":"分","max":180,"min":0},{"label":"N1 · 2025-12","value":97,"prev":100,"unit":"分","max":180,"min":0},{"label":"N1 · 2026-07","value":133,"prev":100,"unit":"分","max":180,"min":0}]}'>
+  <div class="weekly-chart-head"><h4>JLPT 成绩走势：得分 vs 合格线</h4><span>JLPT</span></div>
+  <div class="weekly-chart-fallback">
+    <table><thead><tr><th>考试</th><th>得分</th><th>合格线</th><th>结果</th></tr></thead>
+    <tbody><tr><td>N2（2024-12）</td><td><strong>99分</strong></td><td>90分</td><td>合格</td></tr><tr><td>N1（2025-07）</td><td><strong>79分</strong></td><td>100分</td><td>不合格</td></tr><tr><td>N1（2025-12）</td><td><strong>97分</strong></td><td>100分</td><td>不合格（差3分）</td></tr><tr><td>N1（2026-07）</td><td><strong>133分</strong></td><td>100分</td><td>合格</td></tr></tbody></table>
+  </div>
+</div>
+
 ---
 
 ## 一、考试篇：以考代练，以及它失效的地方
