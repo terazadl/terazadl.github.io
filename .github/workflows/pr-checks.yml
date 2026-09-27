@@ -1,0 +1,25 @@
+name: PR Checks
+
+# Same checks as deploy.yml, but for pull requests and without deploying.
+on:
+  pull_request:
+    branches: [hexo-src-2]
+
+env:
+  TZ: Asia/Tokyo
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm install
+      - name: Build and run QA suites
+        run: npx hexo generate && npm test
