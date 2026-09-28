@@ -1,6 +1,5 @@
-## Linear issue
-
-Fixes SITES-
+<!-- Start with `Fixes TEAM-123` using the actual issue key. If there is no Linear issue, use `TASK — short task title` instead. -->
+Fixes ISSUE-ID
 
 ## What changed (plain language, 2–3 sentences)
 
