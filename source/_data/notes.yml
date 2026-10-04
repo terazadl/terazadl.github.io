@@ -1,6 +1,14 @@
 # 生活手记与自留地数据源 (Life Stream Notes)
 # 自动按顺序在 /life/ 页面展示，最新的一条排在最前面
 
+- id: note-1791078115140
+  date: "2026-10-04"
+  location: 东京
+  category: observation
+  badge: 日常观察
+  text: "A good way to get away from the strange Chinese produced by AI: just use English. I cannot find any uncomfortable moments when reading in English. I think it is because I am not a native speaker."
+  tags:
+    - 日常观察
 - id: note-1791073928658
   date: "2026-10-04"
   location: 东京
