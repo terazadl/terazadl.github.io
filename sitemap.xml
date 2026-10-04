@@ -19,13 +19,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/2026/08/china-political-economy-weekly-2026-08-16-zh/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://terazadl.github.io/2026/09/china-political-economy-weekly-2026-09-21-zh/</loc>
+    <loc>https://terazadl.github.io/2026/09/china-political-economy-weekly-2026-09-07-zh/</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -37,14 +31,20 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-ja/</loc>
+    <loc>https://terazadl.github.io/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-zh/</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/2026/09/china-political-economy-weekly-2026-09-07-zh/</loc>
+    <loc>https://terazadl.github.io/2026/09/china-political-economy-weekly-2026-09-21-zh/</loc>
     <lastmod>2026-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://terazadl.github.io/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-ja/</loc>
+    <lastmod>2026-08-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -73,14 +73,8 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/2026/07/is-bitcoin-digital-gold/</loc>
-    <lastmod>2026-10-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://terazadl.github.io/2026/08/china-political-economy-weekly-credit-rules-2026-08-30-zh/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <loc>https://terazadl.github.io/2026/08/china-political-economy-weekly-2026-08-16-zh/</loc>
+    <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -97,25 +91,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-16-en/</loc>
-    <lastmod>2026-10-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://terazadl.github.io/2026/07/japan-negative-real-estate/</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-16-ja/</loc>
+    <loc>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-16-en/</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-23-en/</loc>
+    <loc>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-16-ja/</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -133,6 +121,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://terazadl.github.io/2026/07/is-bitcoin-digital-gold/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-23-en/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-23/</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
@@ -145,19 +145,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-30-ja/</loc>
-    <lastmod>2026-10-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-30/</loc>
-    <lastmod>2026-10-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://terazadl.github.io/2026/09/japan-political-economy-weekly-2026-09-07-en/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-30-ja/</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -169,13 +163,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/2026/09/japan-political-economy-weekly-2026-09-07/</loc>
-    <lastmod>2026-10-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://terazadl.github.io/2026/09/japan-political-economy-weekly-2026-09-14/</loc>
+    <loc>https://terazadl.github.io/2026/08/japan-political-economy-weekly-2026-08-30/</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -187,7 +175,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/2026/09/japan-political-economy-weekly-2026-09-21/</loc>
+    <loc>https://terazadl.github.io/2026/09/japan-political-economy-weekly-2026-09-07/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://terazadl.github.io/2026/09/one-hour-to-chengdu-and-one-hour-away/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://terazadl.github.io/2026/09/japan-political-economy-weekly-2026-09-14/</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -211,12 +211,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/2026/09/one-hour-to-chengdu-and-one-hour-away/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://terazadl.github.io/2026/02/two-broken-economic-conventions/</loc>
     <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -229,16 +223,16 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/2026/01/what-is-a-wealth-management-product/</loc>
-    <lastmod>2026-02-11</lastmod>
+    <loc>https://terazadl.github.io/2026/09/japan-political-economy-weekly-2026-09-21/</loc>
+    <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/</loc>
-    <lastmod>2026-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://terazadl.github.io/2026/01/what-is-a-wealth-management-product/</loc>
+    <lastmod>2026-02-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://terazadl.github.io/about/</loc>
@@ -247,7 +241,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/event-radar/</loc>
+    <loc>https://terazadl.github.io/</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -259,13 +253,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/japan-weekly/</loc>
-    <lastmod>2026-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://terazadl.github.io/js/weekly-charts.js</loc>
+    <loc>https://terazadl.github.io/event-radar/</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -277,13 +265,25 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/politics-economy/</loc>
+    <loc>https://terazadl.github.io/js/weekly-charts.js</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://terazadl.github.io/projects/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://terazadl.github.io/japan-weekly/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://terazadl.github.io/politics-economy/</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -379,24 +379,6 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/tags/%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96/</loc>
-    <lastmod>2026-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://terazadl.github.io/tags/%E8%B4%A2%E6%94%BF%E6%94%BF%E7%AD%96/</loc>
-    <lastmod>2026-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://terazadl.github.io/tags/%E5%A4%96%E8%B4%B8/</loc>
-    <lastmod>2026-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://terazadl.github.io/tags/%E8%B4%A2%E6%94%BF%E9%83%A8/</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -409,7 +391,19 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/tags/%E6%AF%94%E7%89%B9%E5%B8%81/</loc>
+    <loc>https://terazadl.github.io/tags/%E5%A4%96%E8%B4%B8/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://terazadl.github.io/tags/%E8%B4%A7%E5%B8%81%E6%94%BF%E7%AD%96/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://terazadl.github.io/tags/%E8%B4%A2%E6%94%BF%E6%94%BF%E7%AD%96/</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -451,7 +445,19 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://terazadl.github.io/tags/%E6%AF%94%E7%89%B9%E5%B8%81/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://terazadl.github.io/tags/%E6%97%A5%E6%9C%AC%E9%93%B6%E8%A1%8C/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://terazadl.github.io/tags/%E4%B8%AD%E5%9B%BD%E7%8E%B0%E4%BB%A3%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -464,12 +470,6 @@
   </url>
   <url>
     <loc>https://terazadl.github.io/tags/%E7%89%A9%E4%BB%B7/</loc>
-    <lastmod>2026-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://terazadl.github.io/tags/%E4%B8%AD%E5%9B%BD%E7%8E%B0%E4%BB%A3%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
