@@ -1,6 +1,17 @@
 # 生活手记与自留地数据源 (Life Stream Notes)
 # 自动按顺序在 /life/ 页面展示，最新的一条排在最前面
 
+- id: note-1791359161573
+  date: "2026-10-07"
+  location: 东京
+  category: reading
+  badge: 读书思考
+  text: |-
+    His article in 2017 is evolving. Although he still views that bitcoin is not an asset, he gives us a wonderful insight: you cannot value bitcoin since it has no cash flow, but you can trade it. Trading is influenced by mood and supply & demand, of course.
+
+    https://aswathdamodaran.substack.com/p/the-bitcoin-boom-asset-currency-commodity-17-10-24
+  tags:
+    - 读书思考
 - id: note-1791356814903
   date: "2026-10-07"
   location: 东京
