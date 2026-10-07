@@ -6,7 +6,10 @@
   location: 东京
   category: reading
   badge: 读书思考
-  text: Reading Damodaran's 2014 post on Bitcoin (Bubble
+  text: |-
+    We usually classify a new object based on existing theory, so we usually doubt whether it will succeed. Maybe we should consider what criteria will make it not die instead of framing it in old theory.
+
+    https://aswathdamodaran.blogspot.com/2014/03/bitcoin-q-bubble-or-breakthrough-both.html
   tags:
     - 读书思考
 - id: note-1791100522878
