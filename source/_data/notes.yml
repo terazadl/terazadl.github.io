@@ -1,6 +1,14 @@
 # 生活手记与自留地数据源 (Life Stream Notes)
 # 自动按顺序在 /life/ 页面展示，最新的一条排在最前面
 
+- id: note-1791356814903
+  date: "2026-10-07"
+  location: 东京
+  category: reading
+  badge: 读书思考
+  text: Reading Damodaran's 2014 post on Bitcoin (Bubble
+  tags:
+    - 读书思考
 - id: note-1791100522878
   date: "2026-10-04"
   location: 东京
