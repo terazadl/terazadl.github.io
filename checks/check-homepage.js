@@ -9,13 +9,10 @@ const payload = indexSource.match(/= (.*);\s*$/s);
 if (!payload) throw new Error('Homepage check: content index payload not found.');
 
 const contentIndex = JSON.parse(payload[1]);
-// 周报已在首页首屏 featured 卡片区独立展示，最新写作列表（静态 no-JS 与
-// 客户端动态索引一致）不重复收录周报（PRD 2026-09-10 US-3）；此处与
-// homepageLatestList 的过滤保持一致，校验前三组时排除 weekly group。
-const weeklyPrefixes = ['china-political-economy-weekly', 'japan-political-economy-weekly'];
+// 最新写作列表（静态 no-JS 与客户端动态索引一致）与 homepageLatestList
+// 的过滤保持一致：排除 Notes 分类，取前三组。
 const groups = contentIndex.groups
   .filter(group => group.category !== 'Notes')
-  .filter(group => !weeklyPrefixes.some(prefix => group.key.startsWith(prefix)))
   .slice(0, 3);
 const entries = new Map(contentIndex.entries.map(entry => [entry.path, entry]));
 const indexScript = html.indexOf('<script src="/js/content-index.js');

@@ -33,14 +33,6 @@ const ZH_CATEGORY_LABELS = {
   生活观察: '生活观察'
 };
 
-// Weekly briefs get the country-colored pill; everything else falls back to
-// the category label. Mirrors the client-side render in body-end.njk.
-function weeklyVariant(group) {
-  if (group.key.startsWith('china-political-economy-weekly')) return 'china';
-  if (group.key.startsWith('japan-political-economy-weekly')) return 'japan';
-  return '';
-}
-
 // Single source of truth for the site's post index. The generator below
 // emits /js/content-index.js (read by the client), and the after_render
 // filter uses the same builder for the homepage's no-JS latest list, so the
@@ -121,8 +113,6 @@ function homepageLatestList(posts) {
   const { entries, groups } = buildContentIndex(posts);
   const latestGroups = groups
     .filter(group => group.category !== 'Notes')
-    // 周报已在首屏置顶/并排展示，最新列表不再重复（与客户端渲染一致）。
-    .filter(group => !weeklyVariant(group))
     .slice(0, 3);
   if (!latestGroups.length) return null;
 
@@ -135,12 +125,8 @@ function homepageLatestList(posts) {
     const title = entry?.cardTitle || entry?.title || group.title;
     const href = entry?.path || group.primaryPath;
     const description = entry?.description || group.description;
-    const variant = weeklyVariant(group);
-    const pillClass = variant === 'china' ? 'is-china' : variant === 'japan' ? 'is-japan' : '';
-    const pillLabel = variant === 'china' ? '中国周报'
-      : variant === 'japan' ? '日本周报'
-      : ZH_CATEGORY_LABELS[group.category] || group.category;
-    const pill = `<span class="research-cat-pill${pillClass ? ` ${pillClass}` : ''}">${escapeAttr(pillLabel)}</span>`;
+    const pillLabel = ZH_CATEGORY_LABELS[group.category] || group.category;
+    const pill = `<span class="research-cat-pill">${escapeAttr(pillLabel)}</span>`;
     const languageChips = group.languages.length > 1
       ? `<nav class="research-latest-language-links" aria-label="可用语言版本">${group.languages
           .map(language => `<a href="${escapeAttr(language.path)}" class="research-lang-chip">${escapeAttr(language.code)}</a>`)
