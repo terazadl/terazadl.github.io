@@ -2717,7 +2717,10 @@ body.portfolio-collection-page ul.breadcrumb {
     padding-right: 0;
   }
 
-  .portfolio-home-page .research-featured {
+  /* SITES-40: was .research-featured (a stale selector matching no markup),
+     which left the featured section unordered (order:0) and rendering above
+     the hero on phones. */
+  .portfolio-home-page .weekly-product-section {
     margin-top: 38px;
     order: 2;
   }

@@ -332,9 +332,7 @@
       const edition = activeGroup?.languages?.find(language => language.code === code);
       const fallback = isAboutPage
         ? (code === "ZH" ? "/about/" : "/about/?lang=" + code)
-        : isWeeklyPage
-          ? (window.location.pathname + (code === "ZH" ? "" : "?lang=" + code))
-          : (code === "ZH" ? "/" : "/essays/?lang=" + code);
+        : (code === "ZH" ? "/" : "/essays/?lang=" + code);
       link.href = edition?.path || fallback;
       const isActive = code === activeLanguage;
       link.classList.toggle("is-active", isActive);
