@@ -1221,7 +1221,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #9aabc7;
+  background: #ff5021;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -4831,7 +4831,7 @@ body.portfolio-collection-page ul.breadcrumb {
     padding-left: 0;
     padding-right: 0;
   }
-  .portfolio-home-page .research-featured {
+  .portfolio-home-page .weekly-product-section {
     margin-top: 38px;
     order: 2;
   }
@@ -5541,6 +5541,14 @@ body.portfolio-collection-page ul.breadcrumb {
 }
 .weekly-brief-card.is-japan {
   border-top: 4px solid var(--weekly-japan);
+}
+/* SITES-40: featured essay card reuses the brief-card skeleton with a
+   neutral blue accent instead of the retired china/japan weekly accents. */
+.weekly-brief-card.is-essay {
+  border-top: 4px solid var(--research-blue);
+}
+.weekly-brief-card.is-essay .weekly-brief-kicker {
+  color: var(--research-blue);
 }
 .weekly-brief-header {
   align-items: center;
