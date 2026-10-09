@@ -9,7 +9,7 @@
 //   3. og:url equals canonical, og:image present, meta description present
 //   4. single-post tag archives are noindex and stay out of the sitemap
 //   5. prev/next navigation stays within the same language and chronology
-//   6. short English weekly titles, branded hub titles
+//   6. latest essay present in atom, branded hub titles
 //   7. one Atom feed only, feed URLs resolve
 //   8. every internal link resolves to a generated file
 // Run `npm run build` first: checks read public/, not source/.
@@ -97,8 +97,10 @@ const locs = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => match[1]
 const locKeys = new Set(locs.map(urlKey));
 stats.sitemapUrls = locs.length;
 
-if (locs.length < 60) fail(`sitemap has only ${locs.length} URLs (expected at least 60)`);
-for (const hub of ['/essays/', '/writing/', '/categories/', '/tags/', '/about/', '/japan-weekly/', '/china-weekly/', '/']) {
+// SITES-40: the weekly takedown removed 30 URLs (28 posts + 2 column pages),
+// so the floor dropped from 60 to 35 (current: 39).
+if (locs.length < 35) fail(`sitemap has only ${locs.length} URLs (expected at least 35)`);
+for (const hub of ['/essays/', '/writing/', '/categories/', '/tags/', '/about/', '/']) {
   if (!locKeys.has(urlKey(hub))) fail(`sitemap is missing hub: ${hub}`);
 }
 for (const loc of locs) {
@@ -281,7 +283,9 @@ if (!writingTitle || !writingTitle.includes('<title>Writing | Lei Deng')) fail('
 const atom = readPublic('atom.xml');
 const atomEntries = (atom.match(/<entry>/g) || []).length;
 stats.atomEntries = atomEntries;
-if (atomEntries < 20) fail(`atom.xml has only ${atomEntries} entries`);
+// SITES-40: after the weekly takedown the feed carries the remaining 15
+// posts; floor lowered from 20 to 10.
+if (atomEntries < 10) fail(`atom.xml has only ${atomEntries} entries`);
 for (const match of atom.matchAll(/<id>([^<]+)<\/id>/g)) {
   if (!fileExists(match[1])) fail(`atom entry id does not resolve: ${match[1]}`);
 }
@@ -293,8 +297,8 @@ for (const block of atom.split('<entry>').slice(1)) {
     fail(`atom entry link does not resolve: ${link}`);
   }
 }
-if (!atom.includes('Japan Weekly: Rate-Hike Signals Meet Fiscal Costs')) {
-  fail('atom.xml does not contain the new short English weekly titles');
+if (!atom.includes('counterclockwise-adult-learning-japanese')) {
+  fail('atom.xml does not contain the latest essay entry');
 }
 
 // ---------------------------------------------------------------------------

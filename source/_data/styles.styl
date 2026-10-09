@@ -2717,7 +2717,10 @@ body.portfolio-collection-page ul.breadcrumb {
     padding-right: 0;
   }
 
-  .portfolio-home-page .research-featured {
+  /* SITES-40: was .research-featured (a stale selector matching no markup),
+     which left the featured section unordered (order:0) and rendering above
+     the hero on phones. */
+  .portfolio-home-page .weekly-product-section {
     margin-top: 38px;
     order: 2;
   }
@@ -3544,6 +3547,16 @@ body.portfolio-collection-page ul.breadcrumb {
 
 .weekly-brief-card.is-japan {
   border-top: 4px solid var(--weekly-japan);
+}
+
+/* SITES-40: featured essay card reuses the brief-card skeleton with a
+   neutral blue accent instead of the retired china/japan weekly accents. */
+.weekly-brief-card.is-essay {
+  border-top: 4px solid var(--research-blue);
+}
+
+.weekly-brief-card.is-essay .weekly-brief-kicker {
+  color: var(--research-blue);
 }
 
 .weekly-brief-header {

@@ -1,14 +1,14 @@
 'use strict';
 
 /**
- * SUITE-8 · Homepage weekly layout lock (PRD 2026-09-10, US-1 / US-2)
+ * SUITE-8 · Homepage first-screen layout lock (SITES-40)
  *
- * Asserts the single-featured-card layout holds at every viewport:
- *  - .weekly-dual-briefs is a single-column grid (no desktop two-up)
- *  - the homepage Japan full card is hidden globally, scoped to
- *    .weekly-dual-briefs so /politics-economy/ keeps both cards
- *  - .weekly-brief-link-row (同步推送) renders at all viewports
- *  - the <=800px media query no longer reintroduces conflicting rules
+ * Replaces the weekly-layout lock (retired with the weekly takedown).
+ * Asserts the new first screen holds at every viewport:
+ *  - the featured essay card stays a single-column grid (no desktop two-up)
+ *  - the featured card uses the neutral is-essay accent (weekly is-china /
+ *    is-japan accents must not drive the first screen anymore)
+ *  - .weekly-brief-link-row (生活手记入口) renders at all viewports
  *
  * Reads source/_data/styles.styl (source of truth) and, when present,
  * public/css/main.css (compiled output). Run after `hexo generate`.
@@ -19,7 +19,7 @@ const fs = require('fs');
 const styl = fs.readFileSync('source/_data/styles.styl', 'utf8');
 
 function assert(condition, message) {
-  if (!condition) throw new Error(`Weekly layout check failed: ${message}`);
+  if (!condition) throw new Error(`First-screen layout check failed: ${message}`);
 }
 
 // Strip @media blocks so we only inspect rules that apply at every viewport.
@@ -57,16 +57,8 @@ assert(
   '.weekly-dual-briefs must not use a two-column repeat() grid anywhere'
 );
 assert(
-  /\.weekly-dual-briefs\s+\.weekly-brief-card\.is-japan\s*\{[^}]*display:\s*none/.test(globalStyl),
-  'homepage Japan card must be hidden globally, scoped to .weekly-dual-briefs'
-);
-const hideRules = [...styl.matchAll(/([^{}]+)\{([^{}]*)\}/g)]
-  .filter(([, selector, body]) =>
-    /\.weekly-brief-card\.is-japan/.test(selector) && /display:\s*none/.test(body))
-  .map(([, selector]) => selector.trim());
-assert(
-  hideRules.length > 0 && hideRules.every(selector => selector.includes('.weekly-dual-briefs')),
-  `every rule hiding .weekly-brief-card.is-japan must be scoped to .weekly-dual-briefs; found: ${hideRules.join(' | ') || '(none)'}`
+  /\.weekly-brief-card\.is-essay\s*\{[^}]*border-top:\s*4px solid var\(--research-blue\)/.test(globalStyl),
+  'featured essay card must carry the neutral is-essay accent at all viewports'
 );
 assert(
   /\.weekly-brief-link-row\s*\{[^}]*display:\s*block/.test(globalStyl),
@@ -77,14 +69,14 @@ if (fs.existsSync('public/css/main.css')) {
   const compiled = fs.readFileSync('public/css/main.css', 'utf8');
   const globalCss = stripMediaQueries(compiled);
   assert(
-    /\.weekly-dual-briefs \.weekly-brief-card\.is-japan\s*\{[^}]*display:\s*none/.test(globalCss),
-    'compiled CSS is missing the global scoped Japan-card hide (try hexo clean)'
+    /\.weekly-brief-card\.is-essay\s*\{[^}]*border-top:\s*4px solid var\(--research-blue\)/.test(globalCss),
+    'compiled CSS is missing the is-essay accent (try hexo clean)'
   );
   assert(
     /\.weekly-brief-link-row\s*\{[^}]*display:\s*block/.test(globalCss),
-    'compiled CSS is missing the global 同步推送 row'
+    'compiled CSS is missing the global link row (try hexo clean)'
   );
-  console.log('Weekly layout check passed (source + compiled CSS).');
+  console.log('First-screen layout check passed (source + compiled CSS).');
 } else {
-  console.log('Weekly layout check passed (source only; run hexo generate for compiled check).');
+  console.log('First-screen layout check passed (source only; run hexo generate for compiled check).');
 }

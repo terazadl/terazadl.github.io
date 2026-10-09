@@ -58,15 +58,15 @@ const testSuites = [
   },
   {
     id: 'SUITE-8',
-    name: 'Homepage Weekly Layout Lock (PRD 2026-09-10 US-1/US-2)',
-    file: 'checks/test-homepage-weekly-layout.js',
-    desc: 'Verifies single featured card at all viewports, scoped Japan-card hide, and always-on 同步推送 row'
+    name: 'Homepage First-Screen Layout Lock (SITES-40)',
+    file: 'checks/test-homepage-first-screen.js',
+    desc: 'Verifies single featured essay card at all viewports, is-essay accent, and always-on 生活手记 link row'
   },
   {
     id: 'SUITE-9',
-    name: 'Homepage Content Rules Lock (PRD 2026-09-10 US-3/US-4)',
+    name: 'Homepage Content Rules Lock (SITES-40)',
     file: 'checks/test-homepage-content-rules.js',
-    desc: 'Verifies latest-writing weekly exclusion (static + generator + front-end) and 4-layer no-bullet weekly cards'
+    desc: 'Verifies no retired weekly links on homepage, one 4-layer featured essay card, hero anchor, and static latest list'
   }
 ];
 
