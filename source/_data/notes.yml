@@ -1,6 +1,30 @@
 # 生活手记与自留地数据源 (Life Stream Notes)
 # 自动按顺序在 /life/ 页面展示，最新的一条排在最前面
 
+- id: note-1791681713327
+  date: "2026-10-11"
+  location: 东京
+  category: reading
+  badge: 读书思考
+  text: |-
+    This week, I read two articles by Aswath Damodaran, who is famous for his work on valuation.
+
+    I have known his name for more than ten years. I believe I once tried to read one of his books in Chinese, but somehow I gave up. It left me with the impression of too much mathematics.
+
+    Recently, as I started to dig into Bitcoin, I often discussed it with my AI assistant, and it recommended Damodaran to me. So I read two of his articles, one published in 2014 and the other in 2017.
+
+    In 2014, Damodaran wrote that Bitcoin could be priced but not valued, because it is not an asset like a stock. We can value stocks with tools such as P/E ratios and DCF models, but Bitcoin generates no cash flows, so it cannot be valued, just as we cannot value currencies like the yen, the dollar or the RMB. The distinction is this: we price something through supply and demand, while we value something through its cash flows. I find this insightful.
+
+    He also argued that Bitcoin might not succeed as a digital currency, because it is too volatile. He had watched Bitcoin for several years, yet he did not own any, at least as of 2017.
+
+    The lesson I took from this: when we look at an innovation, we are often puzzled by it and try to explain it within our existing framework. But innovations evolve. Bitcoin does not need to meet every requirement of a currency in order to survive. The better question is: even if it fails as a currency, what need does it meet well enough to keep it alive?
+
+    In Bitcoin’s case, the answer seems to be its role as a store of value, something closer to digital gold than to money. It also paved the way for stablecoins, which fit the idea of a digital currency far better. Interestingly, stablecoins succeed precisely by pegging to fiat currencies to remove volatility, which suggests Damodaran’s original concern was right, even if his conclusion about Bitcoin’s future was too narrow.
+
+    https://aswathdamodaran.blogspot.com/2014/03/bitcoin-q-bubble-or-breakthrough-both.html
+    https://aswathdamodaran.substack.com/p/the-bitcoin-boom-asset-currency-commodity-17-10-24
+  tags:
+    - 读书思考
 - id: note-1791359161573
   date: "2026-10-07"
   location: 东京
