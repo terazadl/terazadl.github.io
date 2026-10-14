@@ -1,6 +1,27 @@
 # 生活手记与自留地数据源 (Life Stream Notes)
 # 自动按顺序在 /life/ 页面展示，最新的一条排在最前面
 
+- id: note-1791981800000
+  date: "2026-10-14"
+  location: 东京
+  category: reading
+  badge: 读书思考
+  text: |-
+    確かに。
+
+    “Most of us view the world as more benign than it really is, our own attributes as more favorable than they truly are, and the goals we adopt as more achievable than they are likely to be. ... Optimistic bias can be both a blessing and a risk.”
+    — Daniel Kahneman, Thinking, Fast and Slow
+
+    There is a quiet, uncomfortable honesty in this line.
+
+    If everyone calculated the odds with cold, unvarnished precision, very little would ever begin. Nobody would relocate to a foreign country in their thirties, start a project from a blank page, or bet years of effort on an uncertain pursuit. In Kahneman’s view, optimistic bias is the engine of human enterprise — it gives us the irrational courage to start before we fully realize how difficult the path will be.
+
+    The blessing is momentum: you begin because you overestimate your chances.
+    The risk is consequence: the world does not lower its friction just because you were hopeful.
+
+    Perhaps the real discipline isn't trying to eradicate the bias — without it, we simply freeze. It's knowing where to divide the work: use irrational optimism to give yourself the nerve to begin, and ruthless honesty to navigate the reality once you’re in motion.
+  tags:
+    - 读书思考
 - id: note-1791681713327
   date: "2026-10-11"
   location: 东京
