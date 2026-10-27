@@ -37,14 +37,14 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/2026/07/japan-negative-real-estate/</loc>
-    <lastmod>2026-10-27</lastmod>
+    <loc>https://terazadl.github.io/2026/01/liu-zhenyun-salty-joke/</loc>
+    <lastmod>2026-02-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/2026/01/liu-zhenyun-salty-joke/</loc>
-    <lastmod>2026-02-11</lastmod>
+    <loc>https://terazadl.github.io/2026/07/japan-negative-real-estate/</loc>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -109,12 +109,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://terazadl.github.io/life/</loc>
-    <lastmod>2026-10-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://terazadl.github.io/js/weekly-charts.js</loc>
     <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -122,6 +116,12 @@
   </url>
   <url>
     <loc>https://terazadl.github.io/projects/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://terazadl.github.io/life/</loc>
     <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
