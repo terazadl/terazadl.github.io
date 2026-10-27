@@ -1,6 +1,25 @@
 # 生活手记与自留地数据源 (Life Stream Notes)
 # 自动按顺序在 /life/ 页面展示，最新的一条排在最前面
 
+- id: note-1793079711399
+  date: "2026-10-27"
+  location: 东京
+  category: reading
+  badge: 读书思考
+  text: |-
+    In the Age of AI, We Should Aim for More Than Greater Efficiency
+
+    I’ve been reading some microeconomics lecture slides. They describe production with a simple idea: output depends on capital, labor, and productivity. That made me wonder: if AI dramatically increases productivity, who gets the gains?
+
+    Someone might use AI to double their output without doubling their income. If someone else owns the models, computing power, data, products, and customer relationships, they may simply become a more efficient worker. Technological progress creates more value, but who receives that value depends on ownership, control, and bargaining power.
+
+    So I’m starting to think that, in the age of AI, our goal shouldn’t be limited to learning more tools and working faster. We should also try to own things that can keep generating value: products, creative work, intellectual property, lasting customer relationships, equity in a business, or even a workflow we control ourselves.
+
+    Building skills still matters. But the question I keep coming back to is: Whose assets am I helping to build as I become more capable?
+  tags:
+    - 读书思考
+    - AI
+    - 经济学
 - id: note-1792067040976
   date: "2026-10-14"
   location: 东京
