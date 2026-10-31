@@ -1,105 +1,76 @@
 ---
 layout: page
-title: Polymarket观测站 · 2026-09-08 历史快照
-description: 2026-09-08 的 Polymarket 观测站历史快照；当前事件概率请前往 radar.fintech101.org。
+title: Polymarket观测站：实时事件概率与每日变化
+description: 访问 Polymarket 观测站，查看精选预测市场事件的当前概率、每日变化与判定来源。
 header: false
 comments: false
 toc: false
 permalink: /event-radar/
 ---
 
+<style>
+body.event-radar-page-body:not(.portfolio-home-page):not(.portfolio-about-page) .main-inner{box-sizing:border-box;max-width:1440px;width:calc(100% - 40px);}
+.observatory-showcase{color:#1d1c18;margin:0 auto;max-width:1240px;padding:34px 0 64px;width:100%;}
+.observatory-intro{align-items:end;border-bottom:1px solid #c9c4b8;display:flex;gap:24px;justify-content:space-between;margin-bottom:22px;padding-bottom:22px;}
+.observatory-eyebrow{color:#2f55d4;font-size:11px;font-weight:800;letter-spacing:.14em;margin:0 0 10px;text-transform:uppercase;}
+.observatory-intro h1{font-family:"Noto Serif SC",Georgia,serif;font-size:clamp(34px,5vw,52px);font-weight:500;letter-spacing:-.03em;line-height:1.12;margin:0 0 10px;}
+.observatory-intro p{font-size:15px;line-height:1.7;margin:0;max-width:680px;}
+.observatory-open{background:#2f55d4;color:#fff!important;display:inline-flex;flex:none;font-size:14px;font-weight:700;gap:8px;align-items:center;padding:13px 18px;text-decoration:none;}
+.observatory-open:hover{background:#2445b2;color:#fff!important;}
+.observatory-caption{align-items:center;color:#706a60;display:flex;font-size:12px;justify-content:space-between;margin:0 0 10px;}
+.observatory-features{border-bottom:1px solid #c9c4b8;display:grid;gap:16px;grid-template-columns:repeat(3,minmax(0,1fr));margin:0 0 20px;padding:0 0 20px;}
+.observatory-feature{font-size:13px;line-height:1.6;margin:0;}
+.observatory-feature strong{display:block;font-size:12px;margin-bottom:3px;}
+.observatory-disclaimer{color:#625e55;font-size:12px;line-height:1.65;margin:16px 0 0;}
+.observatory-frame{background:#f7f5f0;border:1px solid #d7d2c7;display:block;height:clamp(760px,calc(100vh - 300px),1120px);width:100%;}
+.observatory-fallback{font-size:13px;line-height:1.6;margin:12px 0 0;}
+.observatory-fallback a{color:#2f55d4;text-decoration:underline;text-underline-offset:3px;}
+@media(max-width:760px){
+  body.event-radar-page-body:not(.portfolio-home-page):not(.portfolio-about-page) .main-inner{width:calc(100% - 28px);}
+  .observatory-showcase{padding:22px 0 42px;}
+  .observatory-intro{align-items:start;flex-direction:column;gap:16px;margin-bottom:16px;padding-bottom:18px;}
+  .observatory-intro p{font-size:14px;}
+  .observatory-open{padding:12px 16px;}
+  .observatory-caption{align-items:start;flex-direction:column;gap:3px;}
+  .observatory-features{grid-template-columns:1fr;gap:10px;margin-bottom:16px;padding-bottom:16px;}
+  .observatory-feature strong{display:inline;margin-right:6px;}
+  .observatory-frame{height:82vh;min-height:720px;}
+}
+</style>
 <script>document.body.classList.add('event-radar-page-body');</script>
 
-<style>
-.event-radar-page-body .main-inner{max-width:1180px;width:calc(100% - 48px);}.radar-shell{padding:52px 0 78px;}
-
-body.radar-card{background:#f7f5f0;color:#1d1c18;}
-.radar-shell{color:#1d1c18;}
-.radar-head{border-bottom-color:#1d1c18;}
-.radar-time{color:#706a60;}
-.radar-time strong{color:#1d1c18;}
-.radar-summary{border-left-color:#2f55d4;color:#45423b;}
-.radar-summary strong{color:#1d1c18;}
-.radar-event{background:rgba(255,255,255,.55);border-color:#a8a092;border-top-color:#2f55d4;}
-.radar-number{color:#1d1c18;}
-.radar-question.radar-ended{color:#c2410c;font-weight:700;}
-.radar-brand-pill{background:#e8edf8;border:1px solid #2f55d4;color:#2f55d4;}
-
-.radar-shell{box-sizing:border-box;font-family:"Lato","PingFang SC",sans-serif;}
-.radar-head{align-items:end;border-bottom:1px solid;display:flex;gap:28px;justify-content:space-between;margin-bottom:28px;padding-bottom:18px;}
-.radar-kicker-row{align-items:center;display:flex;gap:10px;margin-bottom:9px;}
-.radar-brand-pill{border-radius:999px;font-size:11px;font-weight:900;letter-spacing:.08em;padding:3px 9px;text-transform:uppercase;}
-.radar-kicker{color:#2f55d4;font-size:12px;font-weight:900;letter-spacing:.15em;margin:0;text-transform:uppercase;}
-.radar-head h1{font-family:"Libre Caslon Display","Noto Serif SC",serif;font-size:clamp(37px,5vw,58px);font-weight:400;letter-spacing:-.035em;line-height:1;margin:0;}
-.radar-time{font-size:13px;line-height:1.45;margin:0;text-align:right;}
-.radar-time strong{display:inline-block;font-size:20px;font-weight:800;letter-spacing:.04em;line-height:1.1;}
-.radar-time small{font-size:12px;}
-.radar-summary{border-left:3px solid;font-family:"Noto Serif SC",serif;font-size:16px;line-height:1.55;margin:0 0 24px;padding:10px 14px;}
-.radar-grid{display:grid;gap:22px;grid-template-columns:repeat(2,minmax(0,1fr));}
-.radar-event{border:1px solid;border-top:3px solid;padding:26px 28px 24px;}
-.radar-eyebrow{color:#2f55d4;font-size:11px;font-weight:900;letter-spacing:.12em;margin:0 0 8px;text-transform:uppercase;}
-.radar-event h2{font-family:"Libre Caslon Text","Noto Serif SC",serif;font-size:23px;font-weight:600;line-height:1.3;margin:0 0 18px;}
-.radar-number{font-family:"Libre Caslon Display",Georgia,serif;font-size:68px;letter-spacing:-.05em;line-height:.95;margin:0 0 8px;}
-.radar-leader{font-family:"Noto Serif SC",serif;font-size:25px;font-weight:600;line-height:1.25;margin:0 0 4px;}
-.radar-question{font-family:"Noto Serif SC",serif;font-size:15px;line-height:1.6;margin:0 0 22px;}
-.radar-outcomes{border-top:1px solid;list-style:none;margin:18px 0 4px;padding:11px 0 0;}
-.radar-outcomes li{align-items:center;display:grid;font-size:12px;gap:10px;grid-template-columns:minmax(130px,1.25fr) minmax(70px,.75fr) 45px;padding:5px 0;}
-.radar-outcomes strong{font-variant-numeric:tabular-nums;text-align:right;}
-.radar-outcome-track{height:4px;overflow:hidden;}
-.radar-outcome-track span{display:block;height:100%;}
-.radar-method{border-top:1px solid;margin:22px 0 0;}
-.radar-method>div{border-bottom:1px solid;display:grid;gap:15px;grid-template-columns:72px 1fr;padding:10px 0;}
-.radar-method dt{font-size:11px;font-weight:900;letter-spacing:.06em;}
-.radar-method dd{font-family:"Noto Serif SC",serif;font-size:12px;line-height:1.55;margin:0;}
-.radar-method a{border-bottom:1px solid currentColor;text-decoration:none;}
-.radar-explainer{font-family:"Noto Serif SC",serif;font-size:12px;line-height:1.65;margin:16px 0 0;}
-.radar-actions{align-items:center;border-top:1px solid #1d1c18;display:flex;flex-wrap:wrap;gap:12px;margin-top:28px;padding-top:20px;}
-.radar-action{background:#2f55d4;border:1px solid #2f55d4;color:#fff!important;cursor:pointer;font:800 12px "Lato",sans-serif;letter-spacing:.04em;padding:12px 17px;text-decoration:none;}
-.radar-action--secondary{background:transparent;color:#2f55d4!important;}
-.radar-status{color:#706a60;font-size:12px;}
-.radar-foot{font-family:"Noto Serif SC",serif;font-size:12px;line-height:1.65;margin:17px 0 0;}
-.radar-legend{font-size:12px;line-height:1.5;margin-top:8px;opacity:.8;}
-@media(max-width:760px){.radar-head{align-items:start;flex-direction:column;gap:12px;}.radar-time{text-align:left;}.radar-grid{grid-template-columns:1fr;}.radar-event{padding:23px 20px;}.radar-number{font-size:58px;}.radar-outcomes li{grid-template-columns:minmax(120px,1fr) 60px 42px;}}
-</style>
-<main class="radar-shell" aria-labelledby="radar-title">
-  <p class="radar-summary"><strong>历史快照 · 2026-09-08</strong>　此页不再更新。查看当前事件概率与每日变化，请前往 <a href="https://radar.fintech101.org/">新版概率观测站</a>。</p>
-  <header class="radar-head">
+<main class="observatory-showcase" aria-labelledby="observatory-title">
+  <header class="observatory-intro">
     <div>
-      <div class="radar-kicker-row">
-        <span class="radar-brand-pill">大事件共识</span>
-        <p class="radar-kicker">Polymarket Observatory · Unofficial</p>
-      </div>
-      <h1 id="radar-title">Polymarket观测站</h1>
-      <p class="radar-summary"><strong>当日读数</strong>｜美联储9月利率决策：加息0.25个百分点 50.0%</p>
+      <p class="observatory-eyebrow">LIVE · POLYMARKET OBSERVATORY</p>
+      <h1 id="observatory-title">大事件的概率，正在如何变化？</h1>
+      <p>精选与财经相关的预测市场事件，集中查看当前概率、每日变化与判定来源。读数由独立观测站提供，持续更新。</p>
     </div>
-    <p class="radar-time" data-radar-date="2026-09-08"><strong>事件读数</strong><br><small>2026-09-08（北京时间）</small></p>
+    <a class="observatory-open" href="https://radar.fintech101.org/" target="_blank" rel="noopener noreferrer">
+      打开完整观测站 <span aria-hidden="true">↗</span>
+    </a>
   </header>
-  <div class="radar-grid"><article class="radar-event"><p class="radar-eyebrow">美联储9月决策</p><h2>美联储9月利率决策</h2><p class="radar-question">当前最可能</p><p class="radar-leader">加息0.25个百分点</p><p class="radar-number">50.0%</p><ol class="radar-outcomes" aria-label="五个互斥结果，合计100%"><li><span>降息至少0.50个百分点</span><span class="radar-outcome-track" aria-hidden="true"><span style="width:0.2%"></span></span><strong>0.2%</strong></li><li><span>降息0.25个百分点</span><span class="radar-outcome-track" aria-hidden="true"><span style="width:0.3%"></span></span><strong>0.3%</strong></li><li><span>维持利率不变</span><span class="radar-outcome-track" aria-hidden="true"><span style="width:49.0%"></span></span><strong>49.0%</strong></li><li><span>加息0.25个百分点</span><span class="radar-outcome-track" aria-hidden="true"><span style="width:50.0%"></span></span><strong>50.0%</strong></li><li><span>加息至少0.50个百分点</span><span class="radar-outcome-track" aria-hidden="true"><span style="width:0.5%"></span></span><strong>0.5%</strong></li></ol><dl class="radar-method"><div><dt>市场定价</dt><dd><a href="https://polymarket.com/event/fed-decision-in-september-762" target="_blank" rel="noopener">Polymarket</a></dd></div><div><dt>最终判定来源</dt><dd><a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noopener">FOMC会后声明</a><br>联邦基金目标区间上限的变化</dd></div><div><dt>判定规则</dt><dd>按降息至少0.50、降息0.25、不变、加息0.25、加息至少0.50个百分点五种互斥结果判定</dd></div></dl><p class="radar-explainer">Polymarket负责“市场怎么押”；FOMC会后声明负责“最后发生了什么”。</p></article></div>
 
-  <div class="radar-actions" aria-label="分享选项">
-    <button class="radar-action" type="button" data-radar-share>分享页面</button>
-    <button class="radar-action radar-action--secondary" type="button" data-radar-copy>复制分享摘要</button>
-    <a class="radar-action radar-action--secondary" href="/images/event-radar-latest.png" download>下载当日图片</a>
-    <span class="radar-status" role="status" aria-live="polite"></span>
+  <div class="observatory-features" aria-label="观测站内容简介">
+    <p class="observatory-feature"><strong>精选事件</strong>关注财经与公共议题中的代表性预测市场。</p>
+    <p class="observatory-feature"><strong>概率变化</strong>查看市场当前读数与近期变化。</p>
+    <p class="observatory-feature"><strong>来源可查</strong>区分市场定价与事件的最终判定来源。</p>
   </div>
-  <p class="radar-foot">概率来自Polymarket公开市场价格。Polymarket提供市场预期，独立数据源（如IMF PortWatch或FOMC会后声明）负责确认最终事实。市场概率会变化，不是客观预测，也不构成交易建议。本产品为非官方观测工具，不连接钱包，无交易/下注功能，与Polymarket无隶属或合作关系。</p>
-  <p class="radar-legend">注：pp = 百分点（percentage point），表示概率变动的绝对差值；如 40% 变动到 45% 为 +5pp。</p>
+
+  <p class="observatory-disclaimer">本观测站为非官方只读工具，与 Polymarket 无隶属或合作关系；不连接钱包，不提供交易或下注功能。概率反映市场预期，不代表客观事实，也不构成投资建议。若下方预览无法加载，可通过“打开完整观测站”直接访问。</p>
+
+  <p class="observatory-caption">
+    <span>实时页面预览 · 数据与交互由 radar.fintech101.org 提供</span>
+    <span>概率反映市场预期，不代表客观事实</span>
+  </p>
+  <iframe
+    class="observatory-frame"
+    src="https://radar.fintech101.org/"
+    title="Polymarket 观测站实时页面预览"
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin"
+  >
+    <p>当前浏览器无法显示嵌入页面。<a href="https://radar.fintech101.org/" target="_blank" rel="noopener noreferrer">在新窗口打开观测站</a>。</p>
+  </iframe>
+  <p class="observatory-fallback">如果预览没有加载，<a href="https://radar.fintech101.org/" target="_blank" rel="noopener noreferrer">直接打开 radar.fintech101.org</a>。</p>
 </main>
-<script>
-(() => {
-  const text = "Polymarket观测站历史快照｜2026-09-08\n当日读数：\n美联储9月利率决策：加息0.25个百分点 50.0%\n五个互斥结果：降息至少0.50个百分点 0.2%；降息0.25个百分点 0.3%；维持利率不变 49.0%；加息0.25个百分点 50.0%；加息至少0.50个百分点 0.5%\n概率来自Polymarket；最终结果按各事件的独立判定指标确认。\n仅反映市场当时预期，不构成交易建议。\n注：本产品为只读观测工具，不连接钱包、不提供交易下注功能。\n非Polymarket官方产品。\n当前概率：https://radar.fintech101.org/";
-  const title = "Polymarket观测站历史快照｜2026-09-08 美联储利率决策";
-  const status = document.querySelector('.radar-status');
-  const setStatus = value => { if (status) status.textContent = value; };
-  const copy = async () => {
-    try { await navigator.clipboard.writeText(text); setStatus('摘要已复制'); }
-    catch (_) { setStatus('复制失败，请手动选择文字'); }
-  };
-  document.querySelector('[data-radar-copy]')?.addEventListener('click', copy);
-  document.querySelector('[data-radar-share]')?.addEventListener('click', async () => {
-    if (navigator.share) {
-      try { await navigator.share({ title, text, url: window.location.href }); } catch (_) {}
-    } else { await copy(); }
-  });
-})();
-</script>
