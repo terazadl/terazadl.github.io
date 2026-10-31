@@ -20,6 +20,8 @@ lang: en
   Prediction markets can make an event’s implied odds visible, but a bare probability is often a poor notification product. I built Polymarket Observatory, a read-only monitor for Chinese-speaking users that screens public markets for quality, shows complete mutually exclusive outcomes, separates a market’s belief from the source that resolves the event, and sends a daily Beijing-time digest with restrained anomaly alerts. This note documents the product choices behind it—not as trading software, but as a small experiment in auditable information design.
 </div>
 
+**Update — 2026-10-31:** This article describes the first version of Polymarket Observatory, including its Strait of Hormuz and September 2026 FOMC examples and the monitoring details recorded at that time. The project now also has a standalone public site at [radar.fintech101.org](https://radar.fintech101.org/); its current event list may differ from the examples below.
+
 ![A sample Polymarket Observatory share card. It shows a Strait of Hormuz risk probability and the complete distribution for a Federal Reserve decision.](/images/event-radar-latest.png)
 
 ## The problem is not retrieving a number
