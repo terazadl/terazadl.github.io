@@ -5,14 +5,35 @@
   <id>https://terazadl.github.io/</id>
   <link href="https://terazadl.github.io/atom.xml" rel="self"/>
   <link href="https://terazadl.github.io/"/>
-  <updated>2026-10-27T07:25:55.118Z</updated>
+  <updated>2026-10-31T04:44:19.234Z</updated>
   <author><name>Lei Deng</name></author>
+  <entry>
+    <title>为什么我做了这个概率观测站</title>
+    <id>https://terazadl.github.io/2026/10/why-i-built-this-probability-observatory/</id>
+    <link href="https://terazadl.github.io/2026/10/why-i-built-this-probability-observatory/"/>
+    <published>2026-10-31T04:24:37.000Z</published>
+    <updated>2026-10-31T04:44:19.234Z</updated>
+    <summary type="html"><![CDATA[从 2024 年大选时第一次使用 Polymarket，到为朋友做一个打开就能看概率变化的观测站。]]></summary>
+    <content type="html"><![CDATA[<p>2024 年 11 月，美国大选。我就是在那时第一次知道 Polymarket（下称 PM）。</p>
+<p>当时我花了 20 美元押哈里斯。的确，川普号称对加密友好，但他的一些政策我实在不喜欢，所以这 20 美元更像一次表态。后来，这 20 美元输掉了。川普当选后，加密资产迎来一波上涨。</p>
+<span id="more"></span>
+
+<p>从那以后，我慢慢养成了一个习惯：遇到重大事件，先去看 PM 上的概率。美联储的政策走向、CLARITY Act 能不能通过、霍尔木兹海峡会不会重开，我都是这样追踪的。</p>
+<p>这让我想起刚上班的时候。为了弄懂一件事，要读很多长文。包括上次总统大选前，我也是这样，一直在看各路民调分析。那些分析写得认真，但读完往往还是一堆「一方面、另一方面」。</p>
+<p>概率站给了我另一种信息流。我意识到，我不必再花大量时间读分析师滴水不漏的论述，直接看一个数字：真金白银押下去的人，认为这件事发生的可能性有多大。塔勒布说过 <em>skin in the game</em>。没有切身风险的判断，分量总是轻一些。比起写报告的人，下注的人更有 <em>skin in the game</em>。</p>
+<p>于是我开始自己用 Vibe Coding 写了个 PM 事件概率变动的提醒，用方糖气球的 <a href="https://sct.ftqq.com/docs/getting-started/sendkey/">Server酱</a> 通过微信推送，每天有 5 条免费消息。但我发现，这个设置门槛还不够低：对不爱折腾的朋友来说，配置本身就是障碍。恰好身边几个朋友也对这些预测事件感兴趣，但在中国大陆访问 PM 原站又不方便，于是我就做了 <a href="https://radar.fintech101.org/">radar.fintech101.org</a>。</p>
+<p>我的这个站不是 PM 的全量搬运，而是从 PM 原站筛了一部分事件，主要给对财经感兴趣的人参考：打开就能看到概率和变化，不用自己搭提醒服务。</p>
+<p>如果你也想少读点长文，多看一眼市场怎么下注，欢迎来看看。</p>
+<p>如果想了解观测站的设计与实现，我也写过一篇<a href="/2026/08/building-polymarket-observatory-for-chinese-users/">英文项目手记</a>。</p>
+]]></content>
+    <author><name>Lei Deng</name></author>
+  </entry>
   <entry>
     <title>换个时钟：三十岁以后，我重新学日语</title>
     <id>https://terazadl.github.io/2026/09/counterclockwise-adult-learning-japanese/</id>
     <link href="https://terazadl.github.io/2026/09/counterclockwise-adult-learning-japanese/"/>
     <published>2026-09-22T00:00:00.000Z</published>
-    <updated>2026-10-27T07:25:55.118Z</updated>
+    <updated>2026-10-31T04:44:19.232Z</updated>
     <summary type="html"><![CDATA[三十岁以后，从五十音到 N1 133 分：分班考的当头一棒、外包给语校的自律，和一群决定换个时钟走的人。]]></summary>
     <content type="html"><![CDATA[<div class="abstract" lang="en">
 <span class="abstract-label">English abstract</span>
@@ -186,7 +207,7 @@
     <id>https://terazadl.github.io/2026/08/building-polymarket-observatory-for-chinese-users/</id>
     <link href="https://terazadl.github.io/2026/08/building-polymarket-observatory-for-chinese-users/"/>
     <published>2026-08-12T07:30:00.000Z</published>
-    <updated>2026-10-27T07:25:55.117Z</updated>
+    <updated>2026-10-31T04:44:19.231Z</updated>
     <summary type="html"><![CDATA[A small product case study in turning public prediction-market data into a clear, auditable, Beijing-time monitoring service without turning probabilities into false certainty.]]></summary>
     <content type="html"><![CDATA[<p><span hidden data-article-language="EN"></span></p>
 <div class="abstract">
@@ -252,7 +273,7 @@
 <h2 id="What-I-learned"><a href="#What-I-learned" class="headerlink" title="What I learned"></a>What I learned</h2><p>The most useful lesson from this project is that an automated monitor is partly an editorial system. It chooses which event deserves attention, which contract represents that event, which uncertainty has to remain visible, and what evidence resolves the question later.</p>
 <p>The code is not complicated in the abstract. The more difficult work is refusing easy but misleading defaults: one-number reporting, raw prices without quality checks, instant alerts on every tick, timestamps in the operator’s timezone, and a probability label with no explanation of what would prove it right or wrong.</p>
 <p>That is the standard I want this kind of tool to meet: read-only, source-linked, clear about uncertainty, and useful even to someone who never opens a prediction-market page.</p>
-<p>The implementation is available in the public <a href="https://github.com/terazadl/event-probability-radar">event-probability-radar repository</a>. A live <a href="https://terazadl.github.io/event-radar/">Polymarket Observatory snapshot</a> shows the current public output. It is an educational monitoring project, not investment or trading advice.</p>
+<p>The implementation is available in the public <a href="https://github.com/terazadl/event-probability-radar">event-probability-radar repository</a>. The current event probabilities and daily changes are available at <a href="https://radar.fintech101.org/">radar.fintech101.org</a>. It is an educational monitoring project, not investment or trading advice.</p>
 ]]></content>
     <author><name>Lei Deng</name></author>
   </entry>
@@ -393,7 +414,7 @@
     <id>https://terazadl.github.io/2026/07/is-bitcoin-digital-gold/</id>
     <link href="https://terazadl.github.io/2026/07/is-bitcoin-digital-gold/"/>
     <published>2026-07-30T03:00:00.000Z</published>
-    <updated>2026-10-27T07:25:55.118Z</updated>
+    <updated>2026-10-31T04:44:19.232Z</updated>
     <summary type="html"><![CDATA[An empirical test of whether Bitcoin has behaved like gold in purchasing power, inflation sensitivity, equity stress, market resemblance, and portfolio use.]]></summary>
     <content type="html"><![CDATA[<p><span hidden data-article-language="EN"></span></p>
 <div class="abstract">
@@ -604,7 +625,7 @@
     <id>https://terazadl.github.io/2026/07/japan-negative-real-estate/</id>
     <link href="https://terazadl.github.io/2026/07/japan-negative-real-estate/"/>
     <published>2026-07-26T11:20:00.000Z</published>
-    <updated>2026-10-27T07:25:55.119Z</updated>
+    <updated>2026-10-31T04:44:19.233Z</updated>
     <summary type="html"><![CDATA[从日本负动产问题出发，分析当持有成本超过使用价值时，房地产如何从财富变成必须付费才能退出的负担。]]></summary>
     <content type="html"><![CDATA[<div class="abstract" lang="en">
 <span class="abstract-label">English abstract</span>
@@ -674,7 +695,7 @@
     <id>https://terazadl.github.io/2026/07/japan-dram-lost-manufacturing/</id>
     <link href="https://terazadl.github.io/2026/07/japan-dram-lost-manufacturing/"/>
     <published>2026-07-26T11:10:00.000Z</published>
-    <updated>2026-10-27T07:25:55.118Z</updated>
+    <updated>2026-10-31T04:44:19.232Z</updated>
     <summary type="html"><![CDATA[日本 DRAM 厂商技术上更优秀，却输给了优化芯片面积、产能、成本和市场适配度的竞争者；这段制造业失败史对 Rapidus 有什么启示？]]></summary>
     <content type="html"><![CDATA[<div class="abstract" lang="en">
 <span class="abstract-label">English abstract</span>
@@ -768,7 +789,7 @@
     <id>https://terazadl.github.io/2026/07/sony-morita-made-in-japan/</id>
     <link href="https://terazadl.github.io/2026/07/sony-morita-made-in-japan/"/>
     <published>2026-07-26T11:00:00.000Z</published>
-    <updated>2026-10-27T07:25:55.119Z</updated>
+    <updated>2026-10-31T04:44:19.233Z</updated>
     <summary type="html"><![CDATA[从盛田昭夫《日本制造》出发，讨论如何创造客户与产品、拒绝短期订单，并看见巅峰时期写下的成功故事的局限。]]></summary>
     <content type="html"><![CDATA[<div class="abstract" lang="en">
 <span class="abstract-label">English abstract</span>
