@@ -9,8 +9,8 @@ permalink: /event-radar/
 ---
 
 <style>
-body.event-radar-page-body .main-inner{box-sizing:border-box;max-width:1440px;width:calc(100% - 40px);}
-.observatory-showcase{color:#1d1c18;left:calc(50% - 50vw + 20px);margin:0;max-width:1240px;padding:34px 0 64px;position:relative;width:min(1240px,calc(100vw - 40px));}
+body.event-radar-page-body:not(.portfolio-home-page):not(.portfolio-about-page) .main-inner{box-sizing:border-box;max-width:1440px;width:calc(100% - 40px);}
+.observatory-showcase{color:#1d1c18;margin:0 auto;max-width:1240px;padding:34px 0 64px;width:100%;}
 .observatory-intro{align-items:end;border-bottom:1px solid #c9c4b8;display:flex;gap:24px;justify-content:space-between;margin-bottom:22px;padding-bottom:22px;}
 .observatory-eyebrow{color:#2f55d4;font-size:11px;font-weight:800;letter-spacing:.14em;margin:0 0 10px;text-transform:uppercase;}
 .observatory-intro h1{font-family:"Noto Serif SC",Georgia,serif;font-size:clamp(34px,5vw,52px);font-weight:500;letter-spacing:-.03em;line-height:1.12;margin:0 0 10px;}
@@ -26,7 +26,7 @@ body.event-radar-page-body .main-inner{box-sizing:border-box;max-width:1440px;wi
 .observatory-fallback{font-size:13px;line-height:1.6;margin:12px 0 0;}
 .observatory-fallback a{color:#2f55d4;text-decoration:underline;text-underline-offset:3px;}
 @media(max-width:760px){
-  body.event-radar-page-body .main-inner{width:calc(100% - 28px);}
+  body.event-radar-page-body:not(.portfolio-home-page):not(.portfolio-about-page) .main-inner{width:calc(100% - 28px);}
   .observatory-showcase{padding:22px 0 42px;}
   .observatory-intro{align-items:start;flex-direction:column;gap:16px;margin-bottom:16px;padding-bottom:18px;}
   .observatory-intro p{font-size:14px;}
@@ -67,9 +67,8 @@ body.event-radar-page-body .main-inner{box-sizing:border-box;max-width:1440px;wi
     class="observatory-frame"
     src="https://radar.fintech101.org/"
     title="Polymarket 观测站实时页面预览"
-    loading="eager"
+    loading="lazy"
     referrerpolicy="strict-origin-when-cross-origin"
-    allow="web-share"
   >
     <p>当前浏览器无法显示嵌入页面。<a href="https://radar.fintech101.org/" target="_blank" rel="noopener noreferrer">在新窗口打开观测站</a>。</p>
   </iframe>
