@@ -1,6 +1,15 @@
 # 生活手记与自留地数据源 (Life Stream Notes)
 # 自动按顺序在 /life/ 页面展示，最新的一条排在最前面
 
+- id: note-1793431121795
+  date: "2026-10-31"
+  category: observation
+  badge: 数据观察
+  text: "Compared with 2019–2022, Bitcoin’s daily returns from 2023 through October 2026 have been less volatile and positively skewed. Large one-day losses have also become less frequent: declines of 5% or more fell from 93 days (6.37% of days) to 28 (2.00%), while declines of 10% or more fell from 16 days (1.10%) to just one (0.07%). These figures suggest a thinner downside tail, though the data shown here doesn’t tell us whether large gains have become less common."
+  tags:
+    - Bitcoin
+    - 市场观察
+  image: /images/notes/note-1793431121795.svg
 - id: note-1793085942119
   date: "2026-10-27"
   location: 东京
