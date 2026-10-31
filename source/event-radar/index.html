@@ -9,8 +9,8 @@ permalink: /event-radar/
 ---
 
 <style>
-body.event-radar-page-body .main-inner{max-width:1440px;width:calc(100% - 40px);}
-.observatory-showcase{color:#1d1c18;left:50%;margin:0;max-width:1240px;padding:34px 0 64px;position:relative;transform:translateX(-50%);width:calc(100vw - 40px);}
+body.event-radar-page-body .main-inner{box-sizing:border-box;max-width:1440px;width:calc(100% - 40px);}
+.observatory-showcase{color:#1d1c18;left:calc(50% - 50vw + 20px);margin:0;max-width:1240px;padding:34px 0 64px;position:relative;width:min(1240px,calc(100vw - 40px));}
 .observatory-intro{align-items:end;border-bottom:1px solid #c9c4b8;display:flex;gap:24px;justify-content:space-between;margin-bottom:22px;padding-bottom:22px;}
 .observatory-eyebrow{color:#2f55d4;font-size:11px;font-weight:800;letter-spacing:.14em;margin:0 0 10px;text-transform:uppercase;}
 .observatory-intro h1{font-family:"Noto Serif SC",Georgia,serif;font-size:clamp(34px,5vw,52px);font-weight:500;letter-spacing:-.03em;line-height:1.12;margin:0 0 10px;}
@@ -18,6 +18,10 @@ body.event-radar-page-body .main-inner{max-width:1440px;width:calc(100% - 40px);
 .observatory-open{background:#2f55d4;color:#fff!important;display:inline-flex;flex:none;font-size:14px;font-weight:700;gap:8px;align-items:center;padding:13px 18px;text-decoration:none;}
 .observatory-open:hover{background:#2445b2;color:#fff!important;}
 .observatory-caption{align-items:center;color:#706a60;display:flex;font-size:12px;justify-content:space-between;margin:0 0 10px;}
+.observatory-features{border-bottom:1px solid #c9c4b8;display:grid;gap:16px;grid-template-columns:repeat(3,minmax(0,1fr));margin:0 0 20px;padding:0 0 20px;}
+.observatory-feature{font-size:13px;line-height:1.6;margin:0;}
+.observatory-feature strong{display:block;font-size:12px;margin-bottom:3px;}
+.observatory-disclaimer{color:#625e55;font-size:12px;line-height:1.65;margin:16px 0 0;}
 .observatory-frame{background:#f7f5f0;border:1px solid #d7d2c7;display:block;height:clamp(760px,calc(100vh - 300px),1120px);width:100%;}
 .observatory-fallback{font-size:13px;line-height:1.6;margin:12px 0 0;}
 .observatory-fallback a{color:#2f55d4;text-decoration:underline;text-underline-offset:3px;}
@@ -28,6 +32,8 @@ body.event-radar-page-body .main-inner{max-width:1440px;width:calc(100% - 40px);
   .observatory-intro p{font-size:14px;}
   .observatory-open{padding:12px 16px;}
   .observatory-caption{align-items:start;flex-direction:column;gap:3px;}
+  .observatory-features{grid-template-columns:1fr;gap:10px;margin-bottom:16px;padding-bottom:16px;}
+  .observatory-feature strong{display:inline;margin-right:6px;}
   .observatory-frame{height:82vh;min-height:720px;}
 }
 </style>
@@ -45,6 +51,14 @@ body.event-radar-page-body .main-inner{max-width:1440px;width:calc(100% - 40px);
     </a>
   </header>
 
+  <div class="observatory-features" aria-label="观测站内容简介">
+    <p class="observatory-feature"><strong>精选事件</strong>关注财经与公共议题中的代表性预测市场。</p>
+    <p class="observatory-feature"><strong>概率变化</strong>查看市场当前读数与近期变化。</p>
+    <p class="observatory-feature"><strong>来源可查</strong>区分市场定价与事件的最终判定来源。</p>
+  </div>
+
+  <p class="observatory-disclaimer">本观测站为非官方只读工具，与 Polymarket 无隶属或合作关系；不连接钱包，不提供交易或下注功能。概率反映市场预期，不代表客观事实，也不构成投资建议。若下方预览无法加载，可通过“打开完整观测站”直接访问。</p>
+
   <p class="observatory-caption">
     <span>实时页面预览 · 数据与交互由 radar.fintech101.org 提供</span>
     <span>概率反映市场预期，不代表客观事实</span>
@@ -55,7 +69,7 @@ body.event-radar-page-body .main-inner{max-width:1440px;width:calc(100% - 40px);
     title="Polymarket 观测站实时页面预览"
     loading="eager"
     referrerpolicy="strict-origin-when-cross-origin"
-    allow="clipboard-read; clipboard-write; web-share"
+    allow="web-share"
   >
     <p>当前浏览器无法显示嵌入页面。<a href="https://radar.fintech101.org/" target="_blank" rel="noopener noreferrer">在新窗口打开观测站</a>。</p>
   </iframe>
