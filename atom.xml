@@ -5,14 +5,14 @@
   <id>https://terazadl.github.io/</id>
   <link href="https://terazadl.github.io/atom.xml" rel="self"/>
   <link href="https://terazadl.github.io/"/>
-  <updated>2026-10-31T05:21:20.306Z</updated>
+  <updated>2026-10-31T07:29:15.020Z</updated>
   <author><name>Lei Deng</name></author>
   <entry>
     <title>为什么我做了这个概率观测站</title>
     <id>https://terazadl.github.io/2026/10/why-i-built-this-probability-observatory/</id>
     <link href="https://terazadl.github.io/2026/10/why-i-built-this-probability-observatory/"/>
     <published>2026-10-31T04:24:37.000Z</published>
-    <updated>2026-10-31T05:21:20.306Z</updated>
+    <updated>2026-10-31T07:29:15.020Z</updated>
     <summary type="html"><![CDATA[从 2024 年大选时第一次使用 Polymarket，到为朋友做一个打开就能看概率变化的观测站。]]></summary>
     <content type="html"><![CDATA[<p>2024 年 11 月，美国大选。我就是在那时第一次知道 Polymarket（下称 PM）。</p>
 <p>当时我花了 20 美元押哈里斯。的确，川普号称对加密友好，但他的一些政策我实在不喜欢，所以这 20 美元更像一次表态。后来，这 20 美元输掉了。川普当选后，加密资产迎来一波上涨。</p>
@@ -33,7 +33,7 @@
     <id>https://terazadl.github.io/2026/09/counterclockwise-adult-learning-japanese/</id>
     <link href="https://terazadl.github.io/2026/09/counterclockwise-adult-learning-japanese/"/>
     <published>2026-09-22T00:00:00.000Z</published>
-    <updated>2026-10-31T05:21:20.304Z</updated>
+    <updated>2026-10-31T07:29:15.018Z</updated>
     <summary type="html"><![CDATA[三十岁以后，从五十音到 N1 133 分：分班考的当头一棒、外包给语校的自律，和一群决定换个时钟走的人。]]></summary>
     <content type="html"><![CDATA[<div class="abstract" lang="en">
 <span class="abstract-label">English abstract</span>
@@ -207,7 +207,7 @@
     <id>https://terazadl.github.io/2026/08/building-polymarket-observatory-for-chinese-users/</id>
     <link href="https://terazadl.github.io/2026/08/building-polymarket-observatory-for-chinese-users/"/>
     <published>2026-08-12T07:30:00.000Z</published>
-    <updated>2026-10-31T05:21:20.303Z</updated>
+    <updated>2026-10-31T07:29:15.017Z</updated>
     <summary type="html"><![CDATA[A small product case study in turning public prediction-market data into a clear, auditable, Beijing-time monitoring service without turning probabilities into false certainty.]]></summary>
     <content type="html"><![CDATA[<p><span hidden data-article-language="EN"></span></p>
 <div class="abstract">
@@ -414,7 +414,7 @@
     <id>https://terazadl.github.io/2026/07/is-bitcoin-digital-gold/</id>
     <link href="https://terazadl.github.io/2026/07/is-bitcoin-digital-gold/"/>
     <published>2026-07-30T03:00:00.000Z</published>
-    <updated>2026-10-31T05:21:20.304Z</updated>
+    <updated>2026-10-31T07:29:15.018Z</updated>
     <summary type="html"><![CDATA[An empirical test of whether Bitcoin has behaved like gold in purchasing power, inflation sensitivity, equity stress, market resemblance, and portfolio use.]]></summary>
     <content type="html"><![CDATA[<p><span hidden data-article-language="EN"></span></p>
 <div class="abstract">
@@ -625,7 +625,7 @@
     <id>https://terazadl.github.io/2026/07/japan-negative-real-estate/</id>
     <link href="https://terazadl.github.io/2026/07/japan-negative-real-estate/"/>
     <published>2026-07-26T11:20:00.000Z</published>
-    <updated>2026-10-31T05:21:20.305Z</updated>
+    <updated>2026-10-31T07:29:15.019Z</updated>
     <summary type="html"><![CDATA[从日本负动产问题出发，分析当持有成本超过使用价值时，房地产如何从财富变成必须付费才能退出的负担。]]></summary>
     <content type="html"><![CDATA[<div class="abstract" lang="en">
 <span class="abstract-label">English abstract</span>
@@ -695,7 +695,7 @@
     <id>https://terazadl.github.io/2026/07/japan-dram-lost-manufacturing/</id>
     <link href="https://terazadl.github.io/2026/07/japan-dram-lost-manufacturing/"/>
     <published>2026-07-26T11:10:00.000Z</published>
-    <updated>2026-10-31T05:21:20.304Z</updated>
+    <updated>2026-10-31T07:29:15.018Z</updated>
     <summary type="html"><![CDATA[日本 DRAM 厂商技术上更优秀，却输给了优化芯片面积、产能、成本和市场适配度的竞争者；这段制造业失败史对 Rapidus 有什么启示？]]></summary>
     <content type="html"><![CDATA[<div class="abstract" lang="en">
 <span class="abstract-label">English abstract</span>
@@ -789,7 +789,7 @@
     <id>https://terazadl.github.io/2026/07/sony-morita-made-in-japan/</id>
     <link href="https://terazadl.github.io/2026/07/sony-morita-made-in-japan/"/>
     <published>2026-07-26T11:00:00.000Z</published>
-    <updated>2026-10-31T05:21:20.305Z</updated>
+    <updated>2026-10-31T07:29:15.019Z</updated>
     <summary type="html"><![CDATA[从盛田昭夫《日本制造》出发，讨论如何创造客户与产品、拒绝短期订单，并看见巅峰时期写下的成功故事的局限。]]></summary>
     <content type="html"><![CDATA[<div class="abstract" lang="en">
 <span class="abstract-label">English abstract</span>
