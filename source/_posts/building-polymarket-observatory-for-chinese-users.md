@@ -104,4 +104,4 @@ The code is not complicated in the abstract. The more difficult work is refusing
 
 That is the standard I want this kind of tool to meet: read-only, source-linked, clear about uncertainty, and useful even to someone who never opens a prediction-market page.
 
-The implementation is available in the public [event-probability-radar repository](https://github.com/terazadl/event-probability-radar). A live [Polymarket Observatory snapshot](https://terazadl.github.io/event-radar/) shows the current public output. It is an educational monitoring project, not investment or trading advice.
+The implementation is available in the public [event-probability-radar repository](https://github.com/terazadl/event-probability-radar). The current event probabilities and daily changes are available at [radar.fintech101.org](https://radar.fintech101.org/). It is an educational monitoring project, not investment or trading advice.
